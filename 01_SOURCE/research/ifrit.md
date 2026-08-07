@@ -76,9 +76,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ghūl** `ghul` | ʿArab ☪ | `tradition` | Arap geleneğinde iki ayrı kategori: Ghūl bir yiyici, ʿIfrīt bir cin sınıfı — biri açlık, öteki güç. |
+| **Perī** `peri` | Pārs 𐎩 | `function` | İkisi de ateşten yaratılmıştır; Perī kararsızdır, ʿIfrīt dik başlı — aynı madde, iki mizaç. |
+| **Rukh** `rukh` | ʿArab ☪ | `tradition` | Arap anlatısının iki ölçeği: biri tahtı taşır, öteki gemiyi batırır. |
 
 ## 8. Kısıtlılık taraması
 

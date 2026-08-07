@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Chímaira** `chimaira` | Hellenic Ω | `function` | İkisi de bileşiktir; Chímaira'nın parçaları saldırır, Makara'nınki bir eşiği süsler. |
+| **Kérberos** `kerberos` | Hellenic Ω | `function` | İkisi de bir kapıya aittir; Kérberos kapıda durur, Makara kapıya OYULUR — bekçi bir imgeye dönüşmüştür. |
+| **Nāga** `naga` | Bharatiya ॐ | `tradition` | Bharatiya'nın iki su varlığı: Makara eşiği süsler, Nāga suyun altında yaşar. |
 
 ## 8. Kısıtlılık taraması
 

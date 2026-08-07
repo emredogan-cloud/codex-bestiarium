@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Amarok** `amarok` | Inuit ᐃ | `function` | İkisi de kuzeyin yalnızlığından doğar: Amarok kuralı çiğneyeni cezalandırır, Windigo kuralın kendisini yok eder. |
+| **Draugr** `draugr` | Norðr ᚦ | `function` | İkisi de büyüyen bir gövdedir: Draugr şişer ve ağırlaşır, Windigo yedikçe boy atar. |
+| **Pishtaco** `pishtaco` | Tawantinsuyu ☉ | `function` | İkisi de ekonomik bir korkuyu bedenleştirir: biri yağı çıkarır, öteki asla doymaz. |
+| **Qalupalik** `qalupalik` | Inuit ᐃ | `function` | İki kuzey korkusu, iki yaş grubu: Qalupalik çocuğu alır, Windigo yetişkini dönüştürür. |
 
 ## 8. Kısıtlılık taraması
 

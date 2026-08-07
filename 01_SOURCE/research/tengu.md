@@ -79,9 +79,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Kappa** `kappa` | Yamato 神 | `tradition` | Yamato'nun iki dağ/su varlığı: ikisi de sınar, biri dövüş öğretir, öteki güreşe çağırır. |
+| **Qílín** `qilin` | Zhōnghuá 龍 | `function` | Qílín adaletsizin üzerine BASMAZ; Tengu kibirliyi cezalandırır. Aynı ahlak, iki ayrı yaptırım. |
 
 ## 8. Kısıtlılık taraması
 

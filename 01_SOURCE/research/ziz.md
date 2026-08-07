@@ -76,9 +76,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Bennu** `bennu` | Kemet 𓂀 | `kin` | İkisi de kozmolojiyi doldurmak için var: Bennu ilk tepeye konar, Ziz üçlünün gök ayağıdır. |
+| **Impundulu** `impundulu` | Nguni ◈ | `kin` | Impundulu kan ister ve beslenmezse sahibine döner; Ziz kimseden bir şey istemez — gölgesi güneşi kapatır, o kadar. |
+| **Rukh** `rukh` | ʿArab ☪ | `kin` | Thompson ikisini yan yana kodlar (B31.1 · B31.1.0.1): Rukh gemiyi batırır, Ziz yalnızca büyüktür. Ölçek ile tehlike aynı şey değildir. |
 
 ## 8. Kısıtlılık taraması
 

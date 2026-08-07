@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ammit** `ammit` | Kemet 𓂀 | `function` | İki bileşik gövde: Chímaira üç hayvanı yan yana taşır, Ammit üçünü tek işlevde birleştirir — yutma. |
+| **Herensuge** `herensuge` | Euskal ✜ | `function` | İkisi de bir kahraman anlatısının hedefi; biri kanattan öldürülür, öteki azizle. |
+| **Makara** `makara` | Bharatiya ॐ | `function` | İkisi de bileşiktir; Chímaira'nın parçaları saldırır, Makara'nınki bir eşiği süsler. |
 
 ## 8. Kısıtlılık taraması
 

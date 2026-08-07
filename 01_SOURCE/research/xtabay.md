@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Iara** `iara` | Tupi-Guarani ❂ | `function` | İkisi de güzellikle çağırır; Xtabay ağaçta ve dikene çevirir, Iara suda ve şarkıyla. |
+| **Lamia** `lamia-euskal` | Euskal ✜ | `function` | İkisi de saç ve güzellikle tanımlanır; Lamia bir tarak ister, Xtabay bir kucaklama. |
+| **Way** `way` | Maya 𝋠 | `tradition` | Maya'nın iki ruhu: biri her insanın içinde, öteki ağacın altında bekler. |
 
 ## 8. Kısıtlılık taraması
 

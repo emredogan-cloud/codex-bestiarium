@@ -79,9 +79,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Àbíkú** `abiku` | Yorùbá · Ashanti ✺ | `kin` | Àbíkú ölen çocuğun dönüşüdür, Pontianak ölen annenin. Aynı doğum, iki ayrı hayalet. |
+| **Krasue** `krasue` | Siam ☸ | `kin` | Pontianak kokusuyla tanınır (çiçek), Krasue görüntüsüyle — geceleri uçan baş ve sarkan organlar. |
+| **Rusalka** `rusalka` | Slovjan ⚡ | `function` | İki ölmüş kadının dönüşü: Rusalka ekini sular ve boğar, Pontianak yalnızca yeni doğana yönelir. |
 
 ## 8. Kısıtlılık taraması
 

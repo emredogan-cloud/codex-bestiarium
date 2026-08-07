@@ -74,9 +74,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Basajaun** `basajaun` | Euskal ✜ | `tradition` | Euskal'ın iki dağ varlığı: biri kurban ister, öteki sürüyü korur. |
+| **Chímaira** `chimaira` | Hellenic Ω | `function` | İkisi de bir kahraman anlatısının hedefi; biri kanattan öldürülür, öteki azizle. |
+| **Devi** `devi` | Kartveli ✛ | `function` | İkisi de çok başlıdır ve baş sayısı tehlikenin ölçüsüdür. |
+| **Yamata-no-Orochi** `yamata-no-orochi` | Yamato 神 | `function` | İkisi de yıllık kurban ister; Orochi'den bir kılıç çıkar, Herensuge'den bir aziz anlatısı. |
+| **Zmey** `zmey` | Slovjan ⚡ | `function` | İki çok başlı ejderha, iki ayrı son: biri azizle, öteki ateşle dağlanarak. |
 
 ## 8. Kısıtlılık taraması
 

@@ -72,9 +72,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Al Karısı** `al-karisi` | Türk ☾ | `tradition` | Türk geleneğinin iki mevsimi: biri zemherinin, öteki doğumun tehlikesi. |
+| **Ghūl** `ghul` | ʿArab ☪ | `function` | Karakoncolos soru sorar ve yanlış cevabı cezalandırır; Ghūl soru sormaz, kılık değiştirir. |
+| **Şahmeran** `sahmeran` | Türk ☾ | `tradition` | İkisi de bir SORUYA bağlıdır: biri sırrın açığa çıkmasıyla ölür, öteki yanlış cevabı cezalandırır. |
+| **Strigoi** `strigoi` | Dacia ✠ | `function` | İkisi de kışın belirli günlerine bağlıdır; biri sokakta, öteki mezarda başlar. |
 
 ## 8. Kısıtlılık taraması
 

@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Animikii** `animikii` | Anishinaabe ▲ | `kin` | İki gök varlığı, iki ayrı kıta: Khyung yılanı tutar, Animikii su varlığıyla savaşır. Kuş–su karşıtlığı iki yerde bağımsız kurulmuş. |
+| **Garuḍa** `garuda` | Bharatiya ॐ | `kin` | İkisi de pençesinde yılan tutar; Garuḍa'nınki bir düşmanlık, Khyung'unki bir kozmik düzen işareti. |
+| **Srin-po** `srin-po` | Bod ☷ | `tradition` | Bön kozmolojisinin iki ucu: yerin altındaki et yiyen halk ve gökteki kartal. |
 
 ## 8. Kısıtlılık taraması
 

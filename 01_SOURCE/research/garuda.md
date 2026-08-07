@@ -76,9 +76,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Khyung** `khyung` | Bod ☷ | `kin` | İkisi de pençesinde yılan tutar; Garuḍa'nınki bir düşmanlık, Khyung'unki bir kozmik düzen işareti. |
+| **Kinnarī** `kinnari` | Siam ☸ | `function` | İki kuş-insan: Garuḍa avlar, Kinnarī avlanır. |
+| **Sīmurgh** `simurgh` | Pārs 𐎩 | `kin` | Sīmurgh çağrılır (tüy yakılır), Garuḍa binilir. Biri danışman, öteki taşıt. |
 
 ## 8. Kısıtlılık taraması
 

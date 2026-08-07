@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `main` · son etiket `v0.1.0-alpha` · 8 commit
+> Son ölçüm: **2026-08-07** · dal `faz/2-tasnif` · son etiket `v0.1.0` · 11 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -17,7 +17,7 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | İki bağımsız kaynaklı madde | 112 | 112 | `████████████████████████` %100 |
 | Doğrulanmış motif kodu | 112 | 112 | `████████████████████████` %100 |
 | Telaffuz alanı dolu | 112 | 112 | `████████████████████████` %100 |
-| Çapraz referansı olan madde | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
+| Çapraz referansı olan madde | 112 | 112 | `████████████████████████` %100 |
 | Kısıtlılık taraması yapılmış | 44 | 112 | `█████████░░░░░░░░░░░░░░░` %39 |
 | Yazılmış madde | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Normalize plaka | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
@@ -47,29 +47,58 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 
 ## 4. Sınıf dağılımı
 
-| # | Sınıf | Madde | Yol haritası hedefi | Sapma | Hedef sayfa |
-|---|---|---:|---:|---:|---:|
-| I | THE GUARDIANS · Bekçiler | 17 | 22 | -5 | 56 |
-| II | THE DEVOURERS · Yutucular | 27 | 28 | -1 | 70 |
-| III | THE SHAPE-CHANGERS · Şekil Değiştirenler | 19 | 22 | -3 | 56 |
-| IV | THE WATER-DWELLERS · Su Sakinleri | 24 | 24 | — | 60 |
-| V | SKY AND STORM · Gök ve Fırtına | 17 | 14 | +3 | 36 |
-| VI | THE RESTLESS DEAD · Huzursuz Ölüler | 8 | 10 | -2 | 26 |
+Yürürlükteki hedef **Faz 2'de ölçülen gerçektir**; yol haritası Bölüm
+03.1'in sayıları 120 maddelik kapsam için hesaplanmıştı ve tarihsel
+kayıt olarak korunur (bkz. `CHANGELOG.md` · karar D21).
+
+| # | Sınıf | Madde | Hedef | Sapma | Sayfa | Yol haritası (120) |
+|---|---|---:|---:|---:|---:|---:|
+| I | THE GUARDIANS · Bekçiler | 18 | 18 | — | 44 | 22 / 56 s |
+| II | THE DEVOURERS · Yutucular | 27 | 27 | — | 68 | 28 / 70 s |
+| III | THE SHAPE-CHANGERS · Şekil Değiştirenler | 19 | 19 | — | 48 | 22 / 56 s |
+| IV | THE WATER-DWELLERS · Su Sakinleri | 24 | 24 | — | 60 | 24 / 60 s |
+| V | SKY AND STORM · Gök ve Fırtına | 16 | 16 | — | 40 | 14 / 36 s |
+| VI | THE RESTLESS DEAD · Huzursuz Ölüler | 8 | 8 | — | 20 | 10 / 26 s |
+
+### Sayfa bütçesi
+
+Madde başına **2.5 sayfa** (yol haritası Bölüm 05.3'ün 304/120 ≈ 2,53 modelinden, kilitlenen
+112 maddelik kapsama göre yeniden dağıtıldı).
+
+| Kalem | Sayfa |
+|---|---:|
+| Maddeler (112 × 2.5) | 280 |
+| Sınıf ve karşılaştırma açılışları | 28 |
+| Ön/arka madde · dizinler · kaynaklar | 72 |
+| **Toplam** | **380** |
 
 ## 5. Akraba imge aileleri
 
-| Aile | İmge | Motif | Üye | Karşılaştırma açılışı |
-|---|---|---|---:|---|
-| **A** · Su atı | The Water Horse | `B184.1.3` | 4 | 2 sayfa |
-| **B** · Tilki kadın | The Fox Woman | `D113.1` | 2 | 2 sayfa |
-| **C** · Gece cadısı | The Night Hag | `G264` | 14 | 2 sayfa |
-| **D** · Fırtına kuşu | The Storm Bird | `B31` | 9 | 2 sayfa |
-| **E** · Derinlerin yılanı | The Serpent of the Deep | `B11.2.1.1` | 15 | 2 sayfa |
-| **F** · Eşik bekçisi | The Threshold Guardian | `F150` | 8 | 2 sayfa |
-| **G** · Yaban adamı | The Wild Man | `F460` | 4 | 2 sayfa |
-| **H** · Gizli halk | The Hidden People | `F251` | 3 | 2 sayfa |
+**Manşet** üyeler iki sayfalık karşılaştırma açılışına girer; **uzun
+kuyruk** üyeleri akraba imge tablosunda ve kendi maddesinde durur.
+İkisi de tam üyedir (bkz. `00_CONTEXT/KIN_OPENINGS.md`).
+
+| Aile | İmge | Motif | Üye | Manşet | Uzun kuyruk |
+|---|---|---|---:|---:|---:|
+| **A** · Su atı | The Water Horse | `B184.1.3` | 4 | 4 | 0 |
+| **B** · Tilki kadın | The Fox Woman | `D113.3` | 2 | 2 | 0 |
+| **C** · Gece cadısı | The Night Hag | `G262` | 14 | 9 | 5 |
+| **D** · Fırtına kuşu | The Storm Bird | `B31` | 9 | 9 | 0 |
+| **E** · Derinlerin yılanı | The Serpent of the Deep | `B11.2.1.1` | 15 | 9 | 6 |
+| **F** · Eşik bekçisi | The Threshold Guardian | `F150` | 8 | 8 | 0 |
+| **G** · Yaban adamı | The Wild Man | `F567` | 4 | 4 | 0 |
+| **H** · Gizli halk | The Hidden People | `F251` | 3 | 3 | 0 |
 
 Aileye bağlı madde: **59/112** · bağımsız madde: 53
+
+## 5b. Çapraz referans grafiği
+
+| Ölçü | Değer |
+|---|---:|
+| Bağ (karşılıklı) | 181 |
+| Madde başına ortalama | 3.23 |
+| En az / en çok | 2 / 5 |
+| Bantta (2–5) | 112/112 |
 
 ## 6. Bölge dağılımı
 

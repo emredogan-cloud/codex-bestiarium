@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Anzû** `anzu` | Sumer 𒀭 | `kin` | Rukh bir gezi anlatısına girer (Sindbad), Anzû bir devlet anlatısına — biri denizde, öteki tapınakta. |
+| **ʿIfrīt** `ifrit` | ʿArab ☪ | `tradition` | Arap anlatısının iki ölçeği: biri tahtı taşır, öteki gemiyi batırır. |
+| **Ziz** `ziz` | Talmud ✡ | `kin` | Thompson ikisini yan yana kodlar (B31.1 · B31.1.0.1): Rukh gemiyi batırır, Ziz yalnızca büyüktür. Ölçek ile tehlike aynı şey değildir. |
 
 ## 8. Kısıtlılık taraması
 

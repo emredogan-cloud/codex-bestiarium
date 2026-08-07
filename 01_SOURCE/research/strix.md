@@ -77,9 +77,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adze** `adze` | Yorùbá · Ashanti ✺ | `kin` | İkisi de küçük bir canlının kılığında girer — biri kuş, öteki ateşböceği. Kılık, girişi mümkün kılan şeydir. |
+| **Lámia** `lamia-hellenic` | Hellenic Ω | `kin` | Roma, Yunan'ın kraliçesini kuşa çevirir: Lámia bir hikâyedir, strix bir TÜRDÜR ve Ovidius ona tarih verir. |
 
 ## 8. Kısıtlılık taraması
 

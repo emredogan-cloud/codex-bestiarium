@@ -100,6 +100,12 @@ CLASSES = [
     },
 ]
 
+# DİKKAT — buradaki `motif` ve `divergence` alanları TOHUM değerleridir
+# (master yol haritası Bölüm 03.2). Faz 2'de `08_BUILD/classify.py` bunları
+# `01_SOURCE/kin_map.json`'dan gelen doğrulanmış değerlerle EZER; üç aile
+# kodu orada düzeltildi (B: D113.1→D113.3 · C: G264→G262 · G: F460→F567).
+# Buradaki değerler tarihsel kayıt olarak korunur — hat sırası şudur:
+#     seed_import.py → research_gen.py → classify.py
 KIN_FAMILIES = [
     {
         "id": "A",
@@ -446,6 +452,12 @@ def main() -> int:
         action="store_true",
         help="yazma; mevcut spec.json kaynakla uyumlu mu diye bak",
     )
+    ap.add_argument(
+        "--sync",
+        action="store_true",
+        help="mevcut spec.json'un YALNIZCA tohum alanlarını tazele; "
+             "araştırma ve Faz 2 çıktısı korunur",
+    )
     args = ap.parse_args()
 
     if not os.path.exists(args.source):
@@ -479,6 +491,47 @@ def main() -> int:
                     print(f"  kaynak={x}\n  spec  ={y}", file=sys.stderr)
             return 1
         print("TAMAM: spec.json tohum tablosuyla uyumlu.")
+        return 0
+
+    if args.sync:
+        # Bir kapsam kararı (`scope_amendments.json`) eklendiğinde tohum
+        # alanları değişir ama araştırma çıktısı DEĞİŞMEZ. Tam yeniden üretim
+        # 112 araştırma kaydını siler; bu mod yalnızca tohumdan türeyen
+        # alanları taşır ve geri kalanını kimliğe göre eşleyerek korur.
+        if not os.path.exists(args.out):
+            print("HATA: senkronlanacak spec.json yok.", file=sys.stderr)
+            return 1
+        with open(args.out, encoding="utf-8") as fh:
+            existing = json.load(fh)
+        old = {c["id"]: c for c in existing.get("creatures", [])}
+        seed_fields = {
+            "id", "number", "name", "tradition", "class", "kinFamily",
+            "plate", "researchFile", "seedNoteTr",
+        }
+        merged, changes = [], []
+        for rec in spec["creatures"]:
+            prev = old.get(rec["id"])
+            if prev is None:
+                merged.append(rec)
+                changes.append(f"{rec['id']}: YENİ")
+                continue
+            out = dict(prev)
+            for k in seed_fields:
+                if out.get(k) != rec[k]:
+                    changes.append(f"{rec['id']}.{k}: {out.get(k)!r} → {rec[k]!r}")
+                    out[k] = rec[k]
+            merged.append(out)
+        for gone in sorted(set(old) - {r["id"] for r in spec["creatures"]}):
+            changes.append(f"{gone}: DÜŞTÜ")
+        existing["creatures"] = merged
+        existing["traditions"] = spec["traditions"]
+        existing["meta"]["amendments"] = spec["meta"]["amendments"]
+        with open(args.out, "w", encoding="utf-8") as fh:
+            json.dump(existing, fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+        print(f"senkron : {len(changes)} alan güncellendi")
+        for c in changes[:20]:
+            print(f"          {c}")
         return 0
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)

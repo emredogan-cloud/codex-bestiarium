@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Amaru** `amaru` | Tawantinsuyu ☉ | `kin` | Amaru iki dünyayı BAĞLAR; Inkanyamba kızdığında fırtına getirir. Biri köprü, öteki tehdit. |
+| **Mishipeshu** `mishipeshu` | Anishinaabe ▲ | `function` | İkisi de suyun altından fırtına kaldırır; biri gölün, öteki şelalenin. |
+| **Taniwha** `taniwha` | Mā'ohi ᴥ | `kin` | İkisi de bir suyun sahibidir — şelale ve nehir ağzı; Taniwha kimi kabileye koruyucudur, Inkanyamba kimseye değil. |
 
 ## 8. Kısıtlılık taraması
 

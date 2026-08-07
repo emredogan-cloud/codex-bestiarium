@@ -78,9 +78,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Amarok** `amarok` | Inuit ᐃ | `function` | İkisi de tek başına avlanan insanı hedefler; biri hayvan, öteki eşyalı bir dev. |
+| **Basajaun** `basajaun` | Euskal ✜ | `kin` | Stállu insanı avlar ve kurnazlıkla yenilir; Basajaun insana demirciliği öğretir. Ailenin ahlaki uçları. |
+| **Devi** `devi` | Kartveli ✛ | `function` | İki hantal dev: Devi sayıca artar, Stállu eşya biriktirir; ikisi de kurnazlıkla yenilir. |
+| **Migoi** `migoi` | Bod ☷ | `kin` | Stállu demir giyer ve gümüş toplar — eşyalıdır; Migoi'nin hiçbir eşyası yoktur. |
 
 ## 8. Kısıtlılık taraması
 

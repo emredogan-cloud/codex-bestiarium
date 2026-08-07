@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ammit** `ammit` | Kemet 𓂀 | `function` | Cipactli'nin her ekleminde bir ağız vardır ve doyurulmalıdır; Ammit tek ağızdır ve yalnızca hak edeni yutar. |
+| **Apep** `apep` | Kemet 𓂀 | `function` | İkisi de düzenin sürekli yeniden kurulmasını gerektirir: biri beslenerek, öteki yenilerek. |
+| **Camazotz** `camazotz` | Maya 𝋠 | `tradition` | Mezoamerika'nın iki kozmolojik gövdesi: biri yeryüzünü verir, öteki yeraltını bekler. |
 
 ## 8. Kısıtlılık taraması
 

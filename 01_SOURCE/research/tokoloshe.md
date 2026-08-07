@@ -72,9 +72,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adze** `adze` | Yorùbá · Ashanti ✺ | `function` | İkisi de küçüktür ve geceleyin gelir; Adze kılık değiştirir, Tokoloshe değiştirmez — gönderilir. |
+| **Impundulu** `impundulu` | Nguni ◈ | `tradition` | Nguni'nin iki gönderilmişi: ikisi de bir büyücüye bağlıdır, biri yerde biri gökte. |
+| **Koropokkuru** `koropokkuru` | Ainu ᚼ | `function` | İki küçük halk, iki ahlak: Koropokkuru balık bırakır, Tokoloshe geceleri gelir. |
 
 ## 8. Kısıtlılık taraması
 

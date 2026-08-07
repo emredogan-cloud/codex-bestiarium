@@ -81,9 +81,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Herensuge** `herensuge` | Euskal ✜ | `function` | İkisi de çok başlıdır ve baş sayısı tehlikenin ölçüsüdür. |
+| **Nhang** `nhang` | Hayk ✚ | `tradition` | Kafkasya'nın iki yüzü: mağarada bekleyen güç ve ırmakta biçim değiştiren aldatma. |
+| **Stállu** `stallu` | Sápmi ❄ | `function` | İki hantal dev: Devi sayıca artar, Stállu eşya biriktirir; ikisi de kurnazlıkla yenilir. |
 
 ## 8. Kısıtlılık taraması
 

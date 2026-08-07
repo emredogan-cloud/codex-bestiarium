@@ -73,9 +73,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Each-uisce** `each-uisce` | Ériu ☘ | `kin` | Ailenin tek karasal üyesi: suya çekmez, yolu daireye çevirir. Su atı sudan çıkınca ne olur — cevabı budur. |
+| **Nykur** `nykur` | Ísland ❆ | `kin` | İkisinin de ayağı yanlıştır — Nykur'un toynağı ters, Tikbalang'ın bacağı orantısız uzun. |
 
 ## 8. Kısıtlılık taraması
 

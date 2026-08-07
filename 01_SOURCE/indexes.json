@@ -819,7 +819,7 @@
         {
           "name": "Boitatá",
           "id": "boitata",
-          "class": "V",
+          "class": "I",
           "page": "—"
         },
         {
@@ -2106,7 +2106,7 @@
       "en": "The Water Horse",
       "motif": "B184.1.3",
       "image": "Suyun kıyısında duran, sırtına bineni suya çeken at",
-      "divergence": "İrlanda'da yiyicidir, İzlanda'da boğar, Filipinler'de yolu şaşırtır.",
+      "divergence": "İrlanda'da biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca boğar; Suomi'de kıyıdan çağırır; Filipinler'de hiç suya girmez — yolu daireye çevirir.",
       "members": [
         {
           "name": "Each-uisce",
@@ -2142,9 +2142,9 @@
       "family": "B",
       "tr": "Tilki kadın",
       "en": "The Fox Woman",
-      "motif": "D113.1",
+      "motif": "D113.3",
       "image": "Kadına dönüşen, ömür veya karaciğer alan tilki",
-      "divergence": "Çin'de ölümsüzlük arar, Kore'de karaciğer yer, Japonya'da bazen koruyucudur.",
+      "divergence": "Çin'de ömür (qi) toplar ve kimi anlatıda sadık kalır; Kore'de insan olmak için karaciğer yer ve sınavı kaybeder. Biri insanlıktan çalar, öteki insanlığa girmeye çalışır.",
       "members": [
         {
           "name": "Húli jīng",
@@ -2166,9 +2166,9 @@
       "family": "C",
       "tr": "Gece cadısı",
       "en": "The Night Hag",
-      "motif": "G264",
+      "motif": "G262",
       "image": "Loğusayı ve yeni doğanı avlayan dişi varlık",
-      "divergence": "Dokuz gelenek, bir korku: doğum ölümlerinin folklora dönüşmesi.",
+      "divergence": "Dokuz gelenek korkuyu bir FAİLE yükler — Mezopotamya'da iblise, Roma'da kuşa, Filipinler'de komşuya. Yorùbá yüklemez: orada ölen çocuğun kendisi geri gelir. Aynı ölüm oranı, iki ayrı suçlu.",
       "members": [
         {
           "name": "Lámia",
@@ -2276,7 +2276,7 @@
       "en": "The Storm Bird",
       "motif": "B31",
       "image": "Kanadı gök gürültüsü, gözü şimşek olan dev kuş",
-      "divergence": "Mezopotamya'da hırsız, İran'da bilge, Kuzey Amerika'da savaşçı.",
+      "divergence": "Mezopotamya'da kader tabletlerini çalar; İran'da bir çocuğu büyütür ve yol gösterir; Kuzey Amerika'da su altındaki düşmanla savaşır; Nguni'de bir cadıya bağlanır ve kan ister — aynı kanat, dört ayrı ahlak.",
       "members": [
         {
           "name": "Bennu",
@@ -2349,7 +2349,7 @@
       "en": "The Serpent of the Deep",
       "motif": "B11.2.1.1",
       "image": "Dünyayı çevreleyen veya dibinde yatan yılan",
-      "divergence": "Kuzeyde kıyameti getirir, Mısır'da her gece yenilir, And'da iki dünyayı bağlar.",
+      "divergence": "Kuzeyde dünyayı çevreler ve kıyameti getirir; Mısır'da her gece yenilir ve ertesi gece geri gelir; And'da iki dünyayı birbirine bağlar — yıkıcı değil taşıyıcıdır. Aynı gövde, üç ayrı kozmoloji.",
       "members": [
         {
           "name": "Apep",
@@ -2464,7 +2464,7 @@
       "en": "The Threshold Guardian",
       "motif": "F150",
       "image": "Geçilmesi gereken kapıda duran varlık",
-      "divergence": "Bazıları cezalandırır, bazıları yalnızca bakar — ve bakış yeterlidir.",
+      "divergence": "Kérberos girene izin verir, çıkana vermez; Ḫumbaba ormanı korur ve korumak için ölür; Qílín kimseyi durdurmaz — yalnızca adaletsizin üzerine basmaz; Basiliscus geçmeye kalkanı öldürmez, BAKAR ve bakış yeterlidir.",
       "members": [
         {
           "name": "Kérberos",
@@ -2528,9 +2528,9 @@
       "family": "G",
       "tr": "Yaban adamı",
       "en": "The Wild Man",
-      "motif": "F460",
+      "motif": "F567",
       "image": "Ormanda/dağda yaşayan, insana benzeyen ama insan olmayan",
-      "divergence": "Baskça'da çobanı korur, Amazon'da avcıyı cezalandırır — doğanın tarafı.",
+      "divergence": "Bask ülkesinde çobanı fırtınadan korur ve demirciliği öğretir; Amazon'da avcıyı ormandan kovar; Sápmi'de insanı avlar ve kurnazlıkla yenilir. Doğanın tarafını tutar — ama doğanın tarafı her yerde aynı taraf değildir.",
       "members": [
         {
           "name": "Basajaun",
@@ -2568,7 +2568,7 @@
       "en": "The Hidden People",
       "motif": "F251",
       "image": "Yanı başımızda ama görünmeyen bir topluluk",
-      "divergence": "İzlanda'da hâlâ yol güzergâhı değiştirtir — yaşayan folklor.",
+      "divergence": "İzlanda'da yol güzergâhı hâlâ onlar için değiştirilir — yaşayan bir folklor; Ainu'da geçmişe yerleştirilmiş, adanın önceki sakinleri sayılır; Sápmi'de adı anılmaz, çünkü anmak dikkat çeker.",
       "members": [
         {
           "name": "Koropokkuru",

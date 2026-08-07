@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Apep** `apep` | Kemet 𓂀 | `kin` | Jörmungandr bir kez ve son kez yenilir; Apep her sabah yeniden yenilir. Kıyamet ile döngü arasındaki fark. |
+| **Fenrir** `fenrir` | Norðr ᚦ | `pair` | Kardeşler ve Ragnarök'ün iki ayrı ucu: biri Óðinn'i yutar, öteki Þórr'u zehirler. |
+| **Iku-Turso** `iku-turso` | Suomi ᛉ | `kin` | İkisi de kuzey denizinin dibinde; biri yemin ettirilip gönderilir, öteki orada bekler. |
 
 ## 8. Kısıtlılık taraması
 

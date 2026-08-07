@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ḫumbaba** `humbaba` | Sumer 𒀭 | `kin` | İkisi de bakışla iş görür; Ḫumbaba'nın yüzü bağırsak kıvrımlarıdır — bakılan da bakan kadar önemlidir. |
+| **Olgoi-Khorkhoi** `olgoi-khorkhoi` | Mongol ⚔ | `function` | Basiliscus bakışla, Olgoi-Khorkhoi dokunuşla öldürür — ikisi de mesafeyi kaldırır. |
+| **Qílín** `qilin` | Zhōnghuá 龍 | `kin` | Qílín otu bile ezmez; Basiliscus geçtiği yeri çöle çevirir. Aynı sınıfın iki ucu: dokunmayan ve yok eden. |
 
 ## 8. Kısıtlılık taraması
 

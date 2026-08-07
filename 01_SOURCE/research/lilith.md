@@ -77,9 +77,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Al Karısı** `al-karisi` | Türk ☾ | `kin` | Lilith yeni doğana yönelir; Al Karısı loğusanın ciğerini alır — hedef çocuktan anneye kayar. |
+| **Lamashtu** `lamashtu` | Sumer 𒀭 | `kin` | İkisi de muskayla karşılanır: biri Pazuzu figürüyle, öteki üç melek adıyla. Karşı önlem yazıya geçmiştir. |
 
 ## 8. Kısıtlılık taraması
 

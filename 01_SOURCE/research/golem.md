@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Aralez** `aralez` | Hayk ✚ | `kin` | Golem adla canlandırılır ve harf silinince çöker; Aralez yalayarak diriltir. Biri yazının, öteki bedenin işi. |
+| **Ḫumbaba** `humbaba` | Sumer 𒀭 | `kin` | İkisi de korumak için yapılmış ve ikisi de koruduğu şey yüzünden yok olmuştur. |
+| **Tupilaq** `tupilaq` | Inuit ᐃ | `function` | İkisi de yapılır ve ikisi de ustasına döner: biri güçlü bir düşman yüzünden, öteki bir harf silinmediği için. |
 
 ## 8. Kısıtlılık taraması
 

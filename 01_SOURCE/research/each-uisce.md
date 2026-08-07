@@ -79,9 +79,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Näkki** `nakki` | Suomi ᛉ | `kin` | Ériu'da kıyıda binilmeyi bekler; Suomi'de at, insan veya kadın kılığına girer — biçim sabit değil. |
+| **Nykur** `nykur` | Ísland ❆ | `kin` | İskoçya kaydında biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca göle götürür. |
+| **Púca** `puca` | Ériu ☘ | `tradition` | Ériu'da iki at: Púca bindirir ve bırakır, Each-uisce bindirir ve boğar. |
+| **Tikbalang** `tikbalang` | Filipin ✧ | `kin` | Ailenin tek karasal üyesi: suya çekmez, yolu daireye çevirir. Su atı sudan çıkınca ne olur — cevabı budur. |
 
 ## 8. Kısıtlılık taraması
 

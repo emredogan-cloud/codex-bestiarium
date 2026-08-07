@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Buda** `buda` | Ityop'ya ✤ | `function` | İkisi de sürüye zarar verir ve ikisi de melez sayılır; biri insanla hayvan, öteki iki hayvan arasında. |
+| **Huldufólk** `huldufolk` | Ísland ❆ | `tradition` | Ísland'ın iki ucu: biri kayanın içindeki komşu, öteki kurşun işlemeyen melez. |
+| **Nykur** `nykur` | Ísland ❆ | `tradition` | İzlanda'nın iki tehlikeli hayvanı: biri sürüye, öteki biniciye. |
 
 ## 8. Kısıtlılık taraması
 

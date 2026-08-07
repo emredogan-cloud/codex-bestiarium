@@ -81,9 +81,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adaro** `adaro` | Melanesia ◉ | `tradition` | Melanezya'da kara ve deniz: Masalai yerinde kalır, Adaro açıkta vurur. |
+| **Boitatá** `boitata` | Tupi-Guarani ❂ | `function` | İkisi de toprağın kendisini savunur; Masalai bir yere bağlıdır, Boitatá gezer. |
+| **Gufihtar** `gufihtar` | Sápmi ❄ | `function` | İkisi de araziye bağlıdır ve ikisi de yüksek sesle konuşulmayan yerlerdir. |
+| **Temes Savsap** `temes-savsap` | Melanesia ◉ | `tradition` | Melanezya'nın iki sınırı: biri arazinin, öteki ölümün. |
 
 ## 8. Kısıtlılık taraması
 

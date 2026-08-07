@@ -74,9 +74,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Imugi** `imugi` | Hangug 단 | `kin` | Imugi ejderha olmayı bekler ve olamaz; Thuồng luồng olduğu şeyle yetinir ve insan ona benzemeye çalışır (dövme). |
+| **Phaya Nak** `phaya-nak` | Siam ☸ | `kin` | Aynı nehir sisteminin iki adı: biri dövmenin kökeni, öteki ateş toplarının. |
 
 ## 8. Kısıtlılık taraması
 

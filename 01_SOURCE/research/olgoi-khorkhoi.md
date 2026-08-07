@@ -80,9 +80,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adaro** `adaro` | Melanesia ◉ | `function` | İkisi de görünmeden vurur: biri kumun altından, öteki güneş ışınıyla. |
+| **Basiliscus** `basiliscus` | Romana SPQR | `function` | Basiliscus bakışla, Olgoi-Khorkhoi dokunuşla öldürür — ikisi de mesafeyi kaldırır. |
 
 ## 8. Kısıtlılık taraması
 

@@ -77,9 +77,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Aralez** `aralez` | Hayk ✚ | `tradition` | Hayk'ın iki ucu: biri kanı alır, öteki yarayı iyileştirir. |
+| **Devi** `devi` | Kartveli ✛ | `tradition` | Kafkasya'nın iki yüzü: mağarada bekleyen güç ve ırmakta biçim değiştiren aldatma. |
+| **Húli jīng** `huli-jing` | Zhōnghuá 龍 | `function` | İkisi de kadın biçimine girip erkeği alır; Húli jīng ömür toplar ve yaşatır, Nhang kan içer ve öldürür. |
+| **Iara** `iara` | Tupi-Guarani ❂ | `function` | İkisi de kadın biçiminde suya çeker; Nhang kan içer, Iara yalnızca alıkoyar. |
 
 ## 8. Kısıtlılık taraması
 

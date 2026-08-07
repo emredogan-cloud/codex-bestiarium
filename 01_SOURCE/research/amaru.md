@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Inkanyamba** `inkanyamba` | Nguni ◈ | `kin` | Amaru iki dünyayı BAĞLAR; Inkanyamba kızdığında fırtına getirir. Biri köprü, öteki tehdit. |
+| **Supay** `supay` | Tawantinsuyu ☉ | `tradition` | Tawantinsuyu'nun iki dünyası: Supay aşağıyı tutar, Amaru aşağıyla yukarıyı bağlar. |
+| **Taniwha** `taniwha` | Mā'ohi ᴥ | `kin` | İki koruyucu yılan, iki okyanus: biri iwi'ye, öteki iki dünyaya bağlı. |
 
 ## 8. Kısıtlılık taraması
 

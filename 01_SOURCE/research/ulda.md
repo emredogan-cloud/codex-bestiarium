@@ -68,9 +68,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Gufihtar** `gufihtar` | Sápmi ❄ | `tradition` | Sápmi'nin iki gizlisi: Ulda yerin altında yaşar, Gufihtar yolcuyu görünmez kılar. |
+| **Huldufólk** `huldufolk` | Ísland ❆ | `kin` | İkisi de yer altındadır; Huldufólk'un yeri hâlâ savunulur (yol güzergâhı), Ulda'nınki yalnızca anılmaz. |
+| **Koropokkuru** `koropokkuru` | Ainu ᚼ | `kin` | Koropokkuru balık bırakıp kaybolur — verir; Ulda sürü güder ve adı anılmaz — kendi işine bakar. |
 
 ## 8. Kısıtlılık taraması
 

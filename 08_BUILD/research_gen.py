@@ -161,10 +161,31 @@ def gate(rec: dict, tradition: str) -> list[str]:
 # MARKDOWN ÜRETİMİ
 # =============================================================================
 
-def render_md(rec: dict, spec_rec: dict, spec: dict) -> str:
+def load_kin_notes() -> dict[tuple[str, str], dict]:
+    """(a, b) → bağ kaydı. Faz 2'nin çapraz referans notları.
+
+    Not kaynağı `01_SOURCE/kin_map.json`'dur ve `classify.py` onu spec'e
+    işler; buradaki iş yalnızca notu araştırma dosyasında GÖSTERMEKTİR.
+    """
+    path = os.path.join(SOURCE_DIR, "kin_map.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        km = json.load(fh)
+    out: dict[tuple[str, str], dict] = {}
+    for l in km.get("links", []):
+        out[(l["a"], l["b"])] = l
+        out[(l["b"], l["a"])] = l
+    return out
+
+
+def render_md(rec: dict, spec_rec: dict, spec: dict,
+              kin_notes: dict | None = None) -> str:
     trads = {t["id"]: t for t in spec["traditions"]}
     classes = {c["id"]: c for c in spec["classes"]}
     kin = {k["id"]: k for k in spec["kinFamilies"]}
+    by_id = {c["id"]: c for c in spec["creatures"]}
+    kin_notes = kin_notes if kin_notes is not None else {}
 
     trad = trads.get(spec_rec["tradition"], {})
     klass = classes.get(spec_rec["class"], {})
@@ -275,14 +296,21 @@ def render_md(rec: dict, spec_rec: dict, spec: dict) -> str:
 
     A("## 7. Akrabalar")
     A("")
-    A("> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.")
+    A("> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·")
+    A("> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.")
+    A("> Bu tablo maddenin 6. bölümünün (\"Akrabaları\") ham malzemesidir.")
     A("")
-    kinnotes = rec.get("kinNotes", [])
-    if kinnotes:
-        A("| Madde | Ayrışma noktası |")
-        A("|---|---|")
-        for k in kinnotes:
-            A(f"| `{k['id']}` | {k['note']} |")
+    refs = spec_rec.get("crossRefs") or []
+    if refs:
+        A("| Madde | Gelenek | Bağ | Ayrışma noktası |")
+        A("|---|---|---|---|")
+        for rid in refs:
+            other = by_id.get(rid, {})
+            otrad = trads.get(other.get("tradition", ""), {})
+            link = kin_notes.get((spec_rec["id"], rid), {})
+            A(f"| **{other.get('name', rid)}** `{rid}` | "
+              f"{otrad.get('name', '?')} {otrad.get('sigil', '')} | "
+              f"`{link.get('type', '—')}` | {link.get('note', '—')} |")
     else:
         A("*Faz 2'de doldurulacak.*")
     A("")
@@ -420,9 +448,10 @@ def main() -> int:
 
     # --- markdown üret ---
     os.makedirs(RESEARCH_DIR, exist_ok=True)
+    kin_notes = load_kin_notes()
     stale: list[str] = []
     for cid, rec in data.items():
-        content = render_md(rec, by_id[cid], spec)
+        content = render_md(rec, by_id[cid], spec, kin_notes)
         path = os.path.join(RESEARCH_DIR, f"{cid}.md")
         if args.check:
             if not os.path.exists(path):

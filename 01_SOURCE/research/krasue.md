@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ma lai** `ma-lai` | Việt ☴ | `kin` | İki uçan baş, iki ayrı gelenek; Ma lai pislik ve kan arar, Krasue lohusalık artığı — biri iğrençliğe, öteki doğuma bağlı. |
+| **Manananggal** `manananggal` | Filipin ✧ | `kin` | Krasue'nin gövdesi bir yerde bekler, Manananggal'ın alt yarısı; ikisi de gövde bulunursa ölür. |
+| **Pontianak** `pontianak` | Nusantara ❋ | `kin` | Pontianak kokusuyla tanınır (çiçek), Krasue görüntüsüyle — geceleri uçan baş ve sarkan organlar. |
 
 ## 8. Kısıtlılık taraması
 

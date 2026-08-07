@@ -8,20 +8,39 @@
     "documentLanguage": "tr",
     "author": "Emre Doğan",
     "imprint": "Vâliçe Press",
-    "generatedBy": "08_BUILD/seed_import.py",
+    "generatedBy": "08_BUILD/seed_import.py + research_gen.py + classify.py",
     "sourceOfTruth": "CODEX_MYTHOLOGICA/03_CODEX_BESTIARIUM_MASTER_ROADMAP.html § 04",
-    "amendments": 10,
+    "amendments": 11,
     "warning": "Bu bir kanon DEĞİLDİR. Her kayıt Faz 1'deki iki bağımsız kaynak kapısından geçmeden status 'verified' olamaz.",
     "targets": {
-      "creatures": 120,
+      "creatures": 112,
       "traditions": 40,
-      "pages": 404,
-      "words": 92000,
+      "pages": 380,
+      "words": 78400,
       "wordsPerEntry": 700,
       "wordBandMin": 620,
       "wordBandMax": 790,
       "minSources": 2,
-      "scopeFloor": 100
+      "scopeFloor": 100,
+      "crossRefMin": 2,
+      "crossRefMax": 5
+    },
+    "scopeLockedAt": "phase1",
+    "classificationLockedAt": "phase2",
+    "pageBudget": {
+      "perClass": {
+        "I": 44,
+        "II": 68,
+        "III": 48,
+        "IV": 60,
+        "V": 40,
+        "VI": 20
+      },
+      "entryPages": 280,
+      "openingPages": 28,
+      "matterPages": 72,
+      "total": 380,
+      "pagesPerEntry": 2.5
     }
   },
   "classes": [
@@ -35,8 +54,18 @@
         "F150",
         "D1146"
       ],
-      "targetEntries": 22,
-      "targetPages": 56
+      "targetEntries": 18,
+      "targetPages": 44,
+      "roadmapTargetEntries": 22,
+      "roadmapTargetPages": 56,
+      "openingPages": 2,
+      "topics": [
+        "Kapı neden bekçi ister: eşik bir yer değil bir karardır",
+        "Bedel biçimleri — geçiş ücreti, sınav, bakış, isim",
+        "Bekçi ile canavar arasındaki fark: bekçi bir YERE bağlıdır",
+        "Gizli halk neden bu sınıfta: görünmemek de bir sınır tutmaktır",
+        "Bu sınıfın iki ailesi (F · H) ve bağımsız sekiz maddesi"
+      ]
     },
     {
       "id": "II",
@@ -46,8 +75,18 @@
       "thompson": [
         "G11-G399"
       ],
-      "targetEntries": 28,
-      "targetPages": 70
+      "targetEntries": 27,
+      "targetPages": 68,
+      "roadmapTargetEntries": 28,
+      "roadmapTargetPages": 70,
+      "openingPages": 2,
+      "topics": [
+        "Açlık neden kitabın en kalabalık sınıfı: folklorun en yaygın işi tehlikeyi adlandırmaktır",
+        "Üç ayrı açlık — insan eti, çocuk, kan",
+        "Gece cadısı ailesi neden burada ve neden ayrı bir açılışı var",
+        "Kayıtlı vaka: açlığın tarihe düştüğü yerler (kıtlık, salgın, doğum ölümü)",
+        "Yiyicinin karşı önlemi hep somuttur — bu sınıfın imzası"
+      ]
     },
     {
       "id": "III",
@@ -58,8 +97,18 @@
         "D100-D199",
         "D610"
       ],
-      "targetEntries": 22,
-      "targetPages": 56
+      "targetEntries": 19,
+      "targetPages": 48,
+      "roadmapTargetEntries": 22,
+      "roadmapTargetPages": 56,
+      "openingPages": 2,
+      "topics": [
+        "Kimliğin güvenilmezliği: en eski korku, en yeni korku",
+        "Kim değişir — varlık mı, insan mı, ikisi de mi",
+        "Dönüşümün bedeli ve süresi",
+        "Tilki kadın ailesi: dönüşümün iki yönü",
+        "Hile ile kötülük arasındaki çizgi (Anansi ile Aswang aynı sınıfta değil, ve niçin)"
+      ]
     },
     {
       "id": "IV",
@@ -72,7 +121,17 @@
         "F420"
       ],
       "targetEntries": 24,
-      "targetPages": 60
+      "targetPages": 60,
+      "roadmapTargetEntries": 24,
+      "roadmapTargetPages": 60,
+      "openingPages": 2,
+      "topics": [
+        "Boğulmanın anlatıya dönüşmesi: her göl bir uyarı taşır",
+        "Su atı ve derinlerin yılanı — iki ailenin sınıf içindeki yeri",
+        "Çeken, boğan, yiyen: üç ayrı fiil",
+        "Suyun altındaki şehirler: tehlikeden düzene geçiş",
+        "Çocuğa anlatılan su: folklorun en pratik işlevi"
+      ]
     },
     {
       "id": "V",
@@ -84,8 +143,18 @@
         "B31",
         "F960"
       ],
-      "targetEntries": 14,
-      "targetPages": 36
+      "targetEntries": 16,
+      "targetPages": 40,
+      "roadmapTargetEntries": 14,
+      "roadmapTargetPages": 36,
+      "openingPages": 2,
+      "topics": [
+        "Havanın açıklanması: gök gürültüsünün bir gövdesi olmalı",
+        "Dev kuş ailesi ve üç ayrı Thompson dalı",
+        "Ejderha neden burada, yılan neden sınıf IV'te",
+        "Yağmur getiren ile yıkım getiren arasındaki fark",
+        "Gök varlığının tarafı: hükümdarın mı, köylünün mü"
+      ]
     },
     {
       "id": "VI",
@@ -95,8 +164,18 @@
       "thompson": [
         "E200-E599"
       ],
-      "targetEntries": 10,
-      "targetPages": 26
+      "targetEntries": 8,
+      "targetPages": 20,
+      "roadmapTargetEntries": 10,
+      "roadmapTargetPages": 26,
+      "openingPages": 2,
+      "topics": [
+        "Yasın tamamlanmaması: gömülmüş ama gitmemiş",
+        "Kim geri döner — haksız ölen, yatıştırılmayan, doğumda ölen",
+        "Ölünün istediği şey (mal, kan, ad, yiyecek) ve bunun ne anlattığı",
+        "Karşı önlem bir TÖRENDİR: bu sınıfın ayrımı burada",
+        "Sınırdaki maddeler: Rusalka ve Àbíkú neden bu sınıfta"
+      ]
     }
   ],
   "kinFamilies": [
@@ -106,23 +185,134 @@
       "en": "The Water Horse",
       "motif": "B184.1.3",
       "image": "Suyun kıyısında duran, sırtına bineni suya çeken at",
-      "divergence": "İrlanda'da yiyicidir, İzlanda'da boğar, Filipinler'de yolu şaşırtır."
+      "divergence": "İrlanda'da biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca boğar; Suomi'de kıyıdan çağırır; Filipinler'de hiç suya girmez — yolu daireye çevirir.",
+      "motifNote": "'Magic horse from water world' — dört üyenin dördü de bu kodun altında. Kitabın tek tam örtüşen ailesi.",
+      "motifSpread": [
+        "B184.1"
+      ],
+      "headline": [
+        "each-uisce",
+        "nykur",
+        "nakki",
+        "tikbalang"
+      ],
+      "extended": [],
+      "memberCount": 4,
+      "opening": {
+        "title": "The Water Horse",
+        "thesis": "Dört gelenek aynı tuzağı kurmuş: uysal duran bir at ve ona binme kararı. Ayrılan şey tuzağın kendisi değil, ARDINDAN gelen ahlaktır.",
+        "map": "Kuzey Atlantik yayı (Ériu · Ísland · Suomi) + Filipinler — bitişik olmayan iki küme; yayılım değil bağımsız buluş.",
+        "plates": [
+          "plate-016",
+          "plate-108",
+          "plate-059",
+          "plate-075"
+        ],
+        "table": [
+          "Kıyıda ne yapar",
+          "Binildiğinde nereye gider",
+          "Biniciye ne olur",
+          "Kaçış yolu var mı"
+        ],
+        "closing": "Filipin üyesi kümenin dışında durur ve ailenin sınırını gösterir: su atı imgesi sudan çıkabiliyor. Çıkınca yiyici olmaktan çıkıyor, yolu şaşırtan oluyor."
+      },
+      "openingPages": 2
     },
     {
       "id": "B",
       "tr": "Tilki kadın",
       "en": "The Fox Woman",
-      "motif": "D113.1",
+      "motif": "D113.3",
       "image": "Kadına dönüşen, ömür veya karaciğer alan tilki",
-      "divergence": "Çin'de ölümsüzlük arar, Kore'de karaciğer yer, Japonya'da bazen koruyucudur."
+      "divergence": "Çin'de ömür (qi) toplar ve kimi anlatıda sadık kalır; Kore'de insan olmak için karaciğer yer ve sınavı kaybeder. Biri insanlıktan çalar, öteki insanlığa girmeye çalışır.",
+      "motifNote": "'Transformation man to fox'. TOHUM KODU DÜZELTİLDİ: aile kaydı D113.1 taşıyordu, o kod 'Transformation: man to wolf'tur — tilki değil kurt. Faz 1'in madde düzeyinde yaptığı düzeltme aile düzeyine taşındı.",
+      "motifSpread": [
+        "G262.5"
+      ],
+      "headline": [
+        "huli-jing",
+        "kumiho"
+      ],
+      "extended": [],
+      "memberCount": 2,
+      "opening": {
+        "title": "The Fox Woman",
+        "thesis": "İki gelenek aynı hayvanı seçmiş ve aynı dönüşümü kurmuş; ayrıldıkları yer dönüşümün YÖNÜ. Húli jīng insandan alır, kumiho insan olmaya çalışır.",
+        "map": "Zhōnghuá → Hangug; komşu ve tarihsel olarak bağlı iki gelenek — bu aile yayılımın kanıtı, bağımsız buluşun değil. Kitap bunu saklamaz, tezin sınırı olarak yazar.",
+        "plates": [
+          "plate-030",
+          "plate-031"
+        ],
+        "table": [
+          "Kaç yıl sonra dönüşür",
+          "Ne alır",
+          "Dönüşüm kalıcı mı",
+          "İyi olabilir mi"
+        ],
+        "closing": "Yamato'nun kitsune'si kapsamın dışında bırakıldı: koruyucu kutsal tilki (Inari) ile yiyici tilki aynı maddede toplanamaz ve ikisi de üç maddelik Yamato kotasını hak etmedi. Karşılaştırma açılışında anılır, kendi maddesi yoktur."
+      },
+      "openingPages": 2
     },
     {
       "id": "C",
       "tr": "Gece cadısı",
       "en": "The Night Hag",
-      "motif": "G264",
+      "motif": "G262",
       "image": "Loğusayı ve yeni doğanı avlayan dişi varlık",
-      "divergence": "Dokuz gelenek, bir korku: doğum ölümlerinin folklora dönüşmesi."
+      "divergence": "Dokuz gelenek korkuyu bir FAİLE yükler — Mezopotamya'da iblise, Roma'da kuşa, Filipinler'de komşuya. Yorùbá yüklemez: orada ölen çocuğun kendisi geri gelir. Aynı ölüm oranı, iki ayrı suçlu.",
+      "motifNote": "'Murderous witch'. TOHUM KODU DÜZELTİLDİ: aile kaydı G264 taşıyordu ve o kod 'La Belle Dame Sans Merci — witch entices MEN with offers of love'tur; ailenin avı erkek değil loğusa ve yeni doğandır. Faz 1'de on dört maddede düzeltilen sistematik hata aile düzeyine taşındı.",
+      "motifSpread": [
+        "G262.0.1",
+        "G262.1",
+        "G262.1.3",
+        "G262.5",
+        "G442",
+        "E220"
+      ],
+      "headline": [
+        "lamia-hellenic",
+        "lamashtu",
+        "lilith",
+        "al-karisi",
+        "abiku",
+        "pontianak",
+        "aswang",
+        "krasue",
+        "kenas-unarpe"
+      ],
+      "extended": [
+        "adze",
+        "ma-lai",
+        "manananggal",
+        "qalupalik",
+        "strix"
+      ],
+      "memberCount": 14,
+      "opening": {
+        "title": "The Night Hag",
+        "thesis": "Kitabın en güçlü bölümü. Ortak korku doğum ölümüdür; her gelenek ona bir yüz vermiştir ve yüzler birbirine benzemez. Bu bir liste değil, bir kanıttır: aynı ölüm oranı, dokuz bağımsız anlatı.",
+        "map": "Akdeniz · Mezopotamya · Talmud · Anadolu · Batı Afrika · Nusantara · Filipinler · Siam · Ainu — dört kıta, temas yok.",
+        "plates": [
+          "plate-003",
+          "plate-021",
+          "plate-086",
+          "plate-052",
+          "plate-041",
+          "plate-076",
+          "plate-073",
+          "plate-071",
+          "plate-066"
+        ],
+        "table": [
+          "Kimi hedefler (anne / çocuk / ikisi)",
+          "Hangi kılıkta gelir",
+          "Karşı önlem nedir",
+          "Suçlu kimdir"
+        ],
+        "closing": "Àbíkú ailenin sınırıdır ve ailenin tezini o kanıtlar: sekiz gelenek bir avcı icat etti, biri etmedi. Karşı önlem sütunu okununca fark ortaya çıkar — muskaların hepsi çocuğu KORUR, Yorùbá adları ise çocuğu KALMAYA ikna eder.",
+        "longTail": "Beş üye açılışa girmez, akraba imge tablosunda ve maddelerinde durur: Strix · Adze · Qalupalik · Ma lai · Manananggal. Beşi de imgeyi taşır; iki sayfaya sığmazlar."
+      },
+      "openingPages": 2
     },
     {
       "id": "D",
@@ -130,7 +320,53 @@
       "en": "The Storm Bird",
       "motif": "B31",
       "image": "Kanadı gök gürültüsü, gözü şimşek olan dev kuş",
-      "divergence": "Mezopotamya'da hırsız, İran'da bilge, Kuzey Amerika'da savaşçı."
+      "divergence": "Mezopotamya'da kader tabletlerini çalar; İran'da bir çocuğu büyütür ve yol gösterir; Kuzey Amerika'da su altındaki düşmanla savaşır; Nguni'de bir cadıya bağlanır ve kan ister — aynı kanat, dört ayrı ahlak.",
+      "motifNote": "'Giant birds' — Thompson BÖLÜM başlığı. Aile düzeyinde bilerek bölüm kodu kullanılıyor: dokuz üye tek bir yaprak kodun altında toplanmıyor. Madde düzeyinde bölüm kodu KULLANILMAZ (Faz 1, Rukh düzeltmesi: B31 değil B31.1).",
+      "motifSpread": [
+        "A284.2",
+        "B31.1",
+        "B31.1.0.1",
+        "B31.5",
+        "B32",
+        "B56"
+      ],
+      "headline": [
+        "anzu",
+        "garuda",
+        "simurgh",
+        "bennu",
+        "ziz",
+        "rukh",
+        "khyung",
+        "impundulu",
+        "animikii"
+      ],
+      "extended": [],
+      "memberCount": 9,
+      "opening": {
+        "title": "The Storm Bird",
+        "thesis": "Dev kuş her yerde var; ne yaptığı hiçbir yerde aynı değil. Thompson bile onları tek yere koyamamış — üç ayrı kod dalına dağılmışlar (A284.2 · B31 · B32/B56). Dağılımın kendisi kanıttır.",
+        "map": "Mezopotamya · Mısır · İran · Hindistan · Talmud · Arap · Tibet · Güney Afrika · Kuzey Amerika Gölleri.",
+        "plates": [
+          "plate-020",
+          "plate-013",
+          "plate-043",
+          "plate-006",
+          "plate-087",
+          "plate-057",
+          "plate-078",
+          "plate-090",
+          "plate-102"
+        ],
+        "table": [
+          "Kanat neyi getirir",
+          "Kimin tarafında",
+          "Yılanla ilişkisi",
+          "Bedeli kim öder"
+        ],
+        "closing": "Dört üyenin pençesinde bir yılan var (Garuḍa · Khyung · Animikii · Impundulu dolaylı olarak). Kuş–yılan karşıtlığı bu ailenin ve E ailesinin aynı sayfada okunmasını gerektirir; iki açılış birbirine gönderme yapar."
+      },
+      "openingPages": 2
     },
     {
       "id": "E",
@@ -138,7 +374,62 @@
       "en": "The Serpent of the Deep",
       "motif": "B11.2.1.1",
       "image": "Dünyayı çevreleyen veya dibinde yatan yılan",
-      "divergence": "Kuzeyde kıyameti getirir, Mısır'da her gece yenilir, And'da iki dünyayı bağlar."
+      "divergence": "Kuzeyde dünyayı çevreler ve kıyameti getirir; Mısır'da her gece yenilir ve ertesi gece geri gelir; And'da iki dünyayı birbirine bağlar — yıkıcı değil taşıyıcıdır. Aynı gövde, üç ayrı kozmoloji.",
+      "motifNote": "'Dragon as modified serpent' — aileyi ayıran şey budur: bu ejderhalar YILAN biçimindedir. Sınıf V'in kanatlı ve bileşik ejderhaları bu koda girmez.",
+      "motifSpread": [
+        "B11.1",
+        "B11.2",
+        "B11.2.3",
+        "B11.3",
+        "B11.3.1.2",
+        "B11.7.1",
+        "B91.1"
+      ],
+      "headline": [
+        "jormungandr",
+        "apep",
+        "iku-turso",
+        "zmey",
+        "vishap",
+        "amaru",
+        "thuong-luong",
+        "inkanyamba",
+        "imugi"
+      ],
+      "extended": [
+        "azi-dahaka",
+        "naga",
+        "phaya-nak",
+        "taniwha",
+        "yamata-no-orochi",
+        "zmeu"
+      ],
+      "memberCount": 15,
+      "opening": {
+        "title": "The Serpent of the Deep",
+        "thesis": "Dibi olan her yerde bir yılan var. Ayrılan şey yılanın işi: kimi düzeni tehdit eder, kimi düzeni TAŞIR. Apep'le Amaru aynı imgeyi taşıyıp zıt kozmolojik rol oynar.",
+        "map": "Norðr · Kemet · Suomi · Slovjan · Hayk · Tawantinsuyu · Việt · Nguni · Hangug.",
+        "plates": [
+          "plate-008",
+          "plate-005",
+          "plate-058",
+          "plate-038",
+          "plate-081",
+          "plate-095",
+          "plate-067",
+          "plate-091",
+          "plate-032"
+        ],
+        "table": [
+          "Nerede yatar",
+          "Düzenin neresinde",
+          "Yenilir mi",
+          "Dönüşü var mı"
+        ],
+        "closing": "Imugi ailenin en sessiz üyesidir ve en çok şeyi söyler: o, ejderha OLAMAYAN yılandır. Bin yıl bekler, bir insan bağırır ve dönüşüm bozulur. Ailenin geri kalanı ne olduğunu anlatır; Imugi ne olunamadığını.",
+        "longTail": "Altı üye açılışa girmez: Nāga · Yamata-no-Orochi · Aži Dahāka · Taniwha · Phaya Nak · Zmeu. Zmeu özellikle önemli: Zmey'le aynı gövdeyi taşır ama insan gibi pazarlık eder — ailenin dış sınırı orada."
+      },
+      "openingPages": 2
     },
     {
       "id": "F",
@@ -146,15 +437,90 @@
       "en": "The Threshold Guardian",
       "motif": "F150",
       "image": "Geçilmesi gereken kapıda duran varlık",
-      "divergence": "Bazıları cezalandırır, bazıları yalnızca bakar — ve bakış yeterlidir."
+      "divergence": "Kérberos girene izin verir, çıkana vermez; Ḫumbaba ormanı korur ve korumak için ölür; Qílín kimseyi durdurmaz — yalnızca adaletsizin üzerine basmaz; Basiliscus geçmeye kalkanı öldürmez, BAKAR ve bakış yeterlidir.",
+      "motifNote": "'Access to otherworld' — Thompson bölüm kodu; alt dalları (F150.2 'Entrance to other world guarded by monsters') ailenin tam tanımıdır.",
+      "motifSpread": [
+        "B12",
+        "B19",
+        "B31.4",
+        "D1635",
+        "E17"
+      ],
+      "headline": [
+        "kerberos",
+        "humbaba",
+        "camazotz",
+        "qilin",
+        "basiliscus",
+        "golem",
+        "aralez",
+        "temes-savsap"
+      ],
+      "extended": [],
+      "memberCount": 8,
+      "opening": {
+        "title": "The Threshold Guardian",
+        "thesis": "Bir kapı, ancak bekleyeni varsa kapıdır. Sekiz gelenek bekçiyi farklı sertlikte kurmuş: kimi cezalandırır, kimi yalnızca bakar, biri de geçişi bir SINAVA bağlar.",
+        "map": "Hellenic · Sumer · Maya · Zhōnghuá · Romana · Talmud · Hayk · Melanesia.",
+        "plates": [
+          "plate-001",
+          "plate-019",
+          "plate-034",
+          "plate-029",
+          "plate-026",
+          "plate-085",
+          "plate-082",
+          "plate-112"
+        ],
+        "table": [
+          "Neyi bekler",
+          "Bedeli nedir",
+          "Geçilebilir mi",
+          "Geçilirse ne olur"
+        ],
+        "closing": "Temes Savsap ailenin en incelikli üyesidir: kum çizimini yarılar ve ölü onu tamamlayamazsa geçemez. Bekçi burada bir engel değil bir SINAVDIR — ve sınav ölmeden önce öğrenilmiş olmalıdır. Aralez ise ailenin tersidir: eşikte durup geri gönderir."
+      },
+      "openingPages": 2
     },
     {
       "id": "G",
       "tr": "Yaban adamı",
       "en": "The Wild Man",
-      "motif": "F460",
+      "motif": "F567",
       "image": "Ormanda/dağda yaşayan, insana benzeyen ama insan olmayan",
-      "divergence": "Baskça'da çobanı korur, Amazon'da avcıyı cezalandırır — doğanın tarafı."
+      "divergence": "Bask ülkesinde çobanı fırtınadan korur ve demirciliği öğretir; Amazon'da avcıyı ormandan kovar; Sápmi'de insanı avlar ve kurnazlıkla yenilir. Doğanın tarafını tutar — ama doğanın tarafı her yerde aynı taraf değildir.",
+      "motifNote": "'Wild man'. TOHUM KODU DÜZELTİLDİ: aile kaydı F460 taşıyordu, o kod 'Mountain-spirits' (huldra ve dağ adamları) bölümüdür ve H ailesine daha yakındır. Dört üyenin üçü F567 taşıyor.",
+      "motifSpread": [
+        "G100"
+      ],
+      "headline": [
+        "basajaun",
+        "migoi",
+        "curupira",
+        "stallu"
+      ],
+      "extended": [],
+      "memberCount": 4,
+      "opening": {
+        "title": "The Wild Man",
+        "thesis": "İnsana benzeyen ama insan olmayan; ormanda veya dağda yaşayan; insanın oraya girmesine bir sınır koyan. Dört gelenek aynı figürü kurmuş ve dördünde de sınırın hangi tarafında durduğu değişiyor.",
+        "map": "Euskal · Bod · Tupi-Guarani · Sápmi — dört ayrı kıta parçası, hiçbir temas yok.",
+        "plates": [
+          "plate-061",
+          "plate-077",
+          "plate-098",
+          "plate-104"
+        ],
+        "table": [
+          "Nerede yaşar",
+          "İnsana ne öğretir veya ne yapar",
+          "İz bırakır mı",
+          "Nasıl atlatılır"
+        ],
+        "closing": "Üç üye iz üzerinden tanımlanır: Migoi geri geri yürür, Curupira'nın ayakları ters, Basajaun ıslıkla haber verir. Yaban adamı görülmez — okunur. Bu, plakalarda da böyle çözülür: figür değil, izin okunabilirliği.",
+        "note": "Almas (Mongol) ve Ochokochi (Kartveli) yol haritasının açılış listesindeydi; Faz 1'de iki bağımsız kaynak doğrulanamadığı için düşürüldü. Açılış metninde bu ADIYLA anılır — kapsamın dürüstlüğü de kitabın iddiasıdır."
+      },
+      "openingPages": 2
     },
     {
       "id": "H",
@@ -162,7 +528,39 @@
       "en": "The Hidden People",
       "motif": "F251",
       "image": "Yanı başımızda ama görünmeyen bir topluluk",
-      "divergence": "İzlanda'da hâlâ yol güzergâhı değiştirtir — yaşayan folklor."
+      "divergence": "İzlanda'da yol güzergâhı hâlâ onlar için değiştirilir — yaşayan bir folklor; Ainu'da geçmişe yerleştirilmiş, adanın önceki sakinleri sayılır; Sápmi'de adı anılmaz, çünkü anmak dikkat çeker.",
+      "motifNote": "'Origin of fairies'. Aileyi bir arada tutan soru budur: bunlar KİM? Üç gelenek de bir köken cevabı verir — İzlanda'da erken tanrıların soyu (F251.1), Ainu'da adanın önceki halkı, Sápmi'de yerin altındaki sürü sahipleri (F451).",
+      "motifSpread": [
+        "F251.1",
+        "F451",
+        "F211.3"
+      ],
+      "headline": [
+        "huldufolk",
+        "koropokkuru",
+        "ulda"
+      ],
+      "extended": [],
+      "memberCount": 3,
+      "opening": {
+        "title": "The Hidden People",
+        "thesis": "Yanı başımızda ama görünmeyen bir topluluk. Ailenin sorusu 'ne yapar' değil 'kim'dir — ve üç gelenek üç ayrı zaman kipiyle cevap verir: hâlâ buradalar · önce buradaydılar · aşağıdalar.",
+        "map": "Ísland · Ainu · Sápmi — üçü de kuzey, üçü de temassız.",
+        "plates": [
+          "plate-107",
+          "plate-064",
+          "plate-105"
+        ],
+        "table": [
+          "Nerede yaşar",
+          "Görülür mü",
+          "Zaman kipi (geçmiş / şimdi)",
+          "Adı anılır mı"
+        ],
+        "closing": "Bu ailenin plakaları bir tekil figür değil bir TOPLULUK gösterir; kitabın tek çoğul kompozisyonu buradadır ve gerekçesi ailenin kendisidir.",
+        "note": "Orang Bunian (Nusantara) ve Aos Sí (Ériu) yol haritasının açılış listesindeydi; ilki Faz 1'de kaynak doğrulanamadığı için düşürüldü, ikincisi zaten varyant olarak işaretliydi."
+      },
+      "openingPages": 2
     }
   ],
   "traditions": [
@@ -568,7 +966,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "camazotz",
+        "humbaba",
+        "makara",
+        "temes-savsap"
+      ],
       "plate": "plate-001",
       "wordTarget": 700,
       "variantNote": "Baş sayısı kaynaklar arasında değişir (üç, elli, yüz); madde bunu gizlemeyecek.",
@@ -617,7 +1020,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ammit",
+        "herensuge",
+        "makara"
+      ],
       "plate": "plate-002",
       "wordTarget": 700,
       "variantNote": "",
@@ -665,7 +1072,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "lamashtu",
+        "strix"
+      ],
       "plate": "plate-003",
       "wordTarget": 700,
       "variantNote": "",
@@ -713,7 +1123,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "apep",
+        "chimaira",
+        "cipactli",
+        "supay"
+      ],
       "plate": "plate-004",
       "wordTarget": 700,
       "variantNote": "",
@@ -763,7 +1178,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ammit",
+        "cipactli",
+        "iku-turso",
+        "jormungandr"
+      ],
       "plate": "plate-005",
       "wordTarget": 700,
       "variantNote": "",
@@ -811,7 +1231,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "kinnari",
+        "simurgh",
+        "ziz"
+      ],
       "plate": "plate-006",
       "wordTarget": 700,
       "variantNote": "",
@@ -859,7 +1283,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "amarok",
+        "draugr",
+        "jormungandr"
+      ],
       "plate": "plate-007",
       "wordTarget": 700,
       "variantNote": "",
@@ -909,7 +1337,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "apep",
+        "fenrir",
+        "iku-turso"
+      ],
       "plate": "plate-008",
       "wordTarget": 700,
       "variantNote": "",
@@ -957,7 +1389,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "fenrir",
+        "lemures",
+        "strigoi",
+        "windigo"
+      ],
       "plate": "plate-009",
       "wordTarget": 700,
       "variantNote": "",
@@ -1005,7 +1442,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "herensuge",
+        "zmey"
+      ],
       "plate": "plate-010",
       "wordTarget": 700,
       "variantNote": "",
@@ -1053,7 +1493,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ahuizotl",
+        "nakki",
+        "tengu"
+      ],
       "plate": "plate-011",
       "wordTarget": 700,
       "variantNote": "",
@@ -1101,7 +1545,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "kappa",
+        "qilin"
+      ],
       "plate": "plate-012",
       "wordTarget": 700,
       "variantNote": "Tengu zamanla kötücülden öğreticiye kaydı; madde bu kaymayı gösterecek.",
@@ -1149,7 +1596,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "khyung",
+        "kinnari",
+        "simurgh"
+      ],
       "plate": "plate-013",
       "wordTarget": 700,
       "variantNote": "",
@@ -1197,7 +1648,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "imugi",
+        "makara",
+        "phaya-nak",
+        "sahmeran"
+      ],
       "plate": "plate-014",
       "wordTarget": 700,
       "variantNote": "",
@@ -1244,7 +1700,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "chimaira",
+        "kerberos",
+        "naga"
+      ],
       "plate": "plate-015",
       "wordTarget": 700,
       "variantNote": "",
@@ -1295,7 +1755,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "nakki",
+        "nykur",
+        "puca",
+        "tikbalang"
+      ],
       "plate": "plate-016",
       "wordTarget": 700,
       "variantNote": "İskoçya'da yiyicidir; İrlanda'da yalnızca boğar. Aynı tehlike, iki ahlak.",
@@ -1345,7 +1810,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "abiku",
+        "lemures",
+        "puca"
+      ],
       "plate": "plate-017",
       "wordTarget": 700,
       "variantNote": "",
@@ -1395,7 +1864,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "anansi",
+        "bean-sidhe",
+        "dokkaebi",
+        "each-uisce"
+      ],
       "plate": "plate-018",
       "wordTarget": 700,
       "variantNote": "",
@@ -1445,7 +1919,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "basiliscus",
+        "golem",
+        "kerberos"
+      ],
       "plate": "plate-019",
       "wordTarget": 700,
       "variantNote": "",
@@ -1496,7 +1974,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "rukh",
+        "simurgh"
+      ],
       "plate": "plate-020",
       "wordTarget": 700,
       "variantNote": "",
@@ -1543,7 +2024,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "lamia-hellenic",
+        "lilith"
+      ],
       "plate": "plate-021",
       "wordTarget": 700,
       "variantNote": "",
@@ -1590,7 +2074,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ammit",
+        "apep",
+        "camazotz"
+      ],
       "plate": "plate-022",
       "wordTarget": 700,
       "variantNote": "",
@@ -1638,7 +2126,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "iara",
+        "kappa"
+      ],
       "plate": "plate-023",
       "wordTarget": 700,
       "variantNote": "",
@@ -1689,7 +2180,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "buda",
+        "varcolac",
+        "way"
+      ],
       "plate": "plate-024",
       "wordTarget": 700,
       "variantNote": "",
@@ -1741,7 +2236,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adze",
+        "lamia-hellenic"
+      ],
       "plate": "plate-025",
       "wordTarget": 700,
       "variantNote": "",
@@ -1790,7 +2288,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "humbaba",
+        "olgoi-khorkhoi",
+        "qilin"
+      ],
       "plate": "plate-026",
       "wordTarget": 700,
       "variantNote": "",
@@ -1838,7 +2340,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "bean-sidhe",
+        "domovoy",
+        "draugr",
+        "supay"
+      ],
       "plate": "plate-027",
       "wordTarget": 700,
       "variantNote": "",
@@ -1885,7 +2392,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "huli-jing",
+        "imugi",
+        "phaya-nak",
+        "qilin"
+      ],
       "plate": "plate-028",
       "wordTarget": 700,
       "variantNote": "",
@@ -1935,7 +2447,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "basiliscus",
+        "long",
+        "tengu"
+      ],
       "plate": "plate-029",
       "wordTarget": 700,
       "variantNote": "",
@@ -1987,7 +2503,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "kumiho",
+        "long",
+        "nhang"
+      ],
       "plate": "plate-030",
       "wordTarget": 700,
       "variantNote": "Tilki kadın Çin'de zamanla düşmandan sevgiliye kaydı; madde bu kaymayı gösterecek.",
@@ -2035,7 +2555,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "dokkaebi",
+        "huli-jing"
+      ],
       "plate": "plate-031",
       "wordTarget": 700,
       "variantNote": "",
@@ -2082,7 +2605,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "long",
+        "naga",
+        "thuong-luong"
+      ],
       "plate": "plate-032",
       "wordTarget": 700,
       "variantNote": "",
@@ -2129,7 +2656,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "anansi",
+        "domovoy",
+        "kumiho",
+        "puca"
+      ],
       "plate": "plate-033",
       "wordTarget": 700,
       "variantNote": "",
@@ -2177,7 +2709,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "cipactli",
+        "kerberos",
+        "temes-savsap"
+      ],
       "plate": "plate-034",
       "wordTarget": 700,
       "variantNote": "",
@@ -2224,7 +2760,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "iara",
+        "lamia-euskal",
+        "way"
+      ],
       "plate": "plate-035",
       "wordTarget": 700,
       "variantNote": "",
@@ -2271,7 +2811,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "nahual",
+        "tupilaq",
+        "xtabay"
+      ],
       "plate": "plate-036",
       "wordTarget": 700,
       "variantNote": "",
@@ -2318,7 +2862,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "iara",
+        "nakki",
+        "pontianak",
+        "zmey"
+      ],
       "plate": "plate-037",
       "wordTarget": 700,
       "variantNote": "Rusalka kuzeyde çirkin ve tehlikeli, güneyde genç ve güzeldir. Aynı ad, iki yüz.",
@@ -2368,7 +2917,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "herensuge",
+        "rusalka",
+        "vishap",
+        "yamata-no-orochi",
+        "zmeu"
+      ],
       "plate": "plate-038",
       "wordTarget": 700,
       "variantNote": "",
@@ -2415,7 +2970,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "dokkaebi",
+        "huldufolk",
+        "lemures"
+      ],
       "plate": "plate-039",
       "wordTarget": 700,
       "variantNote": "",
@@ -2465,7 +3024,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adze",
+        "dokkaebi",
+        "puca"
+      ],
       "plate": "plate-040",
       "wordTarget": 700,
       "variantNote": "",
@@ -2512,7 +3075,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adze",
+        "bean-sidhe",
+        "pontianak",
+        "strigoi"
+      ],
       "plate": "plate-041",
       "wordTarget": 700,
       "variantNote": "",
@@ -2559,7 +3127,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "abiku",
+        "anansi",
+        "buda",
+        "strix",
+        "tokoloshe"
+      ],
       "plate": "plate-042",
       "wordTarget": 700,
       "variantNote": "",
@@ -2611,7 +3185,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "anzu",
+        "bennu",
+        "garuda",
+        "peri"
+      ],
       "plate": "plate-043",
       "wordTarget": 700,
       "variantNote": "",
@@ -2662,7 +3241,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "vishap",
+        "zmeu"
+      ],
       "plate": "plate-044",
       "wordTarget": 700,
       "variantNote": "",
@@ -2712,7 +3294,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ifrit",
+        "kinnari",
+        "simurgh"
+      ],
       "plate": "plate-045",
       "wordTarget": 700,
       "variantNote": "",
@@ -2759,7 +3345,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "amaru",
+        "inkanyamba",
+        "mishipeshu",
+        "moo",
+        "ponaturi"
+      ],
       "plate": "plate-046",
       "wordTarget": 700,
       "variantNote": "",
@@ -2806,7 +3398,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adaro",
+        "ponaturi",
+        "repun-kamuy",
+        "taniwha"
+      ],
       "plate": "plate-047",
       "wordTarget": 700,
       "variantNote": "",
@@ -2854,7 +3451,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adaro",
+        "moo",
+        "taniwha"
+      ],
       "plate": "plate-048",
       "wordTarget": 700,
       "variantNote": "",
@@ -2901,7 +3502,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "kenas-unarpe",
+        "tupilaq",
+        "windigo"
+      ],
       "plate": "plate-049",
       "wordTarget": 700,
       "variantNote": "",
@@ -2948,7 +3553,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "fenrir",
+        "stallu",
+        "windigo"
+      ],
       "plate": "plate-050",
       "wordTarget": 700,
       "variantNote": "",
@@ -2995,7 +3604,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "golem",
+        "qalupalik",
+        "way"
+      ],
       "plate": "plate-051",
       "wordTarget": 700,
       "variantNote": "",
@@ -3047,7 +3660,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "karakoncolos",
+        "kenas-unarpe",
+        "lilith",
+        "sahmeran"
+      ],
       "plate": "plate-052",
       "wordTarget": 700,
       "variantNote": "",
@@ -3097,7 +3715,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "al-karisi",
+        "ghul",
+        "sahmeran",
+        "strigoi"
+      ],
       "plate": "plate-053",
       "wordTarget": 700,
       "variantNote": "",
@@ -3147,7 +3770,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "al-karisi",
+        "karakoncolos",
+        "naga"
+      ],
       "plate": "plate-054",
       "wordTarget": 700,
       "variantNote": "",
@@ -3197,7 +3824,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ifrit",
+        "karakoncolos",
+        "pishtaco"
+      ],
       "plate": "plate-055",
       "wordTarget": 700,
       "variantNote": "",
@@ -3248,7 +3879,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ghul",
+        "peri",
+        "rukh"
+      ],
       "plate": "plate-056",
       "wordTarget": 700,
       "variantNote": "",
@@ -3299,7 +3934,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "anzu",
+        "ifrit",
+        "ziz"
+      ],
       "plate": "plate-057",
       "wordTarget": 700,
       "variantNote": "",
@@ -3350,7 +3989,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ajatar",
+        "apep",
+        "jormungandr"
+      ],
       "plate": "plate-058",
       "wordTarget": 700,
       "variantNote": "",
@@ -3400,7 +4043,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ajatar",
+        "each-uisce",
+        "kappa",
+        "nykur",
+        "rusalka"
+      ],
       "plate": "plate-059",
       "wordTarget": 700,
       "variantNote": "",
@@ -3449,7 +4098,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "iku-turso",
+        "nakki",
+        "srin-po"
+      ],
       "plate": "plate-060",
       "wordTarget": 700,
       "variantNote": "",
@@ -3498,7 +4151,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "curupira",
+        "herensuge",
+        "lamia-euskal",
+        "migoi",
+        "stallu"
+      ],
       "plate": "plate-061",
       "wordTarget": 700,
       "variantNote": "",
@@ -3548,7 +4207,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "basajaun",
+        "xtabay"
+      ],
       "plate": "plate-062",
       "wordTarget": 700,
       "variantNote": "",
@@ -3595,7 +4257,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "basajaun",
+        "chimaira",
+        "devi",
+        "yamata-no-orochi",
+        "zmey"
+      ],
       "plate": "plate-063",
       "wordTarget": 700,
       "variantNote": "",
@@ -3640,7 +4308,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "huldufolk",
+        "tokoloshe",
+        "ulda"
+      ],
       "plate": "plate-064",
       "wordTarget": 700,
       "variantNote": "Koropokkuru anlatısı bir yaratık anlatısı olduğu kadar bir ARKEOLOJİ açıklamasıdır: adadaki çukur ev kalıntılarına ad verir.",
@@ -3694,7 +4366,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adaro",
+        "moo",
+        "ong-ba-muoi"
+      ],
       "plate": "plate-065",
       "wordTarget": 700,
       "variantNote": "",
@@ -3739,7 +4415,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "al-karisi",
+        "qalupalik"
+      ],
       "plate": "plate-066",
       "wordTarget": 700,
       "variantNote": "Ad sabit değil, YER değişkeni taşıyor: nitat (bataklık) veya kenas (kıyı çalılığı) + unarpe (teyze). Yaratık, bulunduğu araziyle adlandırılıyor.",
@@ -3786,7 +4465,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "imugi",
+        "phaya-nak"
+      ],
       "plate": "plate-067",
       "wordTarget": 700,
       "variantNote": "",
@@ -3833,7 +4515,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "aswang",
+        "krasue"
+      ],
       "plate": "plate-068",
       "wordTarget": 700,
       "variantNote": "",
@@ -3880,7 +4565,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "curupira",
+        "repun-kamuy"
+      ],
       "plate": "plate-069",
       "wordTarget": 700,
       "variantNote": "",
@@ -3927,7 +4615,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "kinnari",
+        "long",
+        "naga",
+        "thuong-luong"
+      ],
       "plate": "plate-070",
       "wordTarget": 700,
       "variantNote": "",
@@ -3978,7 +4671,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ma-lai",
+        "manananggal",
+        "pontianak"
+      ],
       "plate": "plate-071",
       "wordTarget": 700,
       "variantNote": "",
@@ -4028,7 +4725,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "bennu",
+        "garuda",
+        "peri",
+        "phaya-nak"
+      ],
       "plate": "plate-072",
       "wordTarget": 700,
       "variantNote": "",
@@ -4075,7 +4777,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ma-lai",
+        "manananggal"
+      ],
       "plate": "plate-073",
       "wordTarget": 700,
       "variantNote": "",
@@ -4122,7 +4827,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "aswang",
+        "krasue"
+      ],
       "plate": "plate-074",
       "wordTarget": 700,
       "variantNote": "",
@@ -4169,7 +4877,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "each-uisce",
+        "nykur"
+      ],
       "plate": "plate-075",
       "wordTarget": 700,
       "variantNote": "",
@@ -4215,7 +4926,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "abiku",
+        "krasue",
+        "rusalka"
+      ],
       "plate": "plate-076",
       "wordTarget": 700,
       "variantNote": "Pontianak ve langsuir kaynaklarda bazen ayrı bazen aynı; madde bu belirsizliği gösterecek.",
@@ -4265,7 +4980,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "basajaun",
+        "curupira",
+        "srin-po",
+        "stallu"
+      ],
       "plate": "plate-077",
       "wordTarget": 700,
       "variantNote": "",
@@ -4312,7 +5032,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "animikii",
+        "garuda",
+        "srin-po"
+      ],
       "plate": "plate-078",
       "wordTarget": 700,
       "variantNote": "",
@@ -4359,7 +5083,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ajatar",
+        "khyung",
+        "migoi"
+      ],
       "plate": "plate-079",
       "wordTarget": 700,
       "variantNote": "",
@@ -4409,7 +5137,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adaro",
+        "basiliscus"
+      ],
       "plate": "plate-080",
       "wordTarget": 700,
       "variantNote": "",
@@ -4454,7 +5185,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "azi-dahaka",
+        "zmey"
+      ],
       "plate": "plate-081",
       "wordTarget": 700,
       "variantNote": "Vişap hem bir yaratık hem bir TAŞ TÜRÜDÜR; arkeoloji ile folklor aynı adı paylaşır.",
@@ -4499,7 +5233,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "golem",
+        "nhang",
+        "temes-savsap"
+      ],
       "plate": "plate-082",
       "wordTarget": 700,
       "variantNote": "",
@@ -4543,7 +5281,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "aralez",
+        "devi",
+        "huli-jing",
+        "iara"
+      ],
       "plate": "plate-083",
       "wordTarget": 700,
       "variantNote": "Nhang hem belirli bir ırmak varlığı hem genel bir 'deniz canavarı' terimi; madde ikisini ayırmak zorunda.",
@@ -4593,7 +5336,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "herensuge",
+        "nhang",
+        "stallu"
+      ],
       "plate": "plate-084",
       "wordTarget": 700,
       "variantNote": "",
@@ -4641,7 +5388,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "aralez",
+        "humbaba",
+        "tupilaq"
+      ],
       "plate": "plate-085",
       "wordTarget": 700,
       "variantNote": "",
@@ -4690,7 +5441,10 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "al-karisi",
+        "lamashtu"
+      ],
       "plate": "plate-086",
       "wordTarget": 700,
       "variantNote": "",
@@ -4738,7 +5492,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "bennu",
+        "impundulu",
+        "rukh"
+      ],
       "plate": "plate-087",
       "wordTarget": 700,
       "variantNote": "",
@@ -4781,7 +5539,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adze",
+        "nahual",
+        "skuggabaldur"
+      ],
       "plate": "plate-088",
       "wordTarget": 700,
       "variantNote": "Buda inancı bir yaratık anlatısı olduğu kadar bir TOPLUMSAL DIŞLAMA mekanizmasıdır; madde bunu söylemek zorunda.",
@@ -4831,7 +5593,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adze",
+        "impundulu",
+        "koropokkuru"
+      ],
       "plate": "plate-089",
       "wordTarget": 700,
       "variantNote": "",
@@ -4878,7 +5644,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "animikii",
+        "tokoloshe",
+        "ziz"
+      ],
       "plate": "plate-090",
       "wordTarget": 700,
       "variantNote": "",
@@ -4925,7 +5695,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "amaru",
+        "mishipeshu",
+        "taniwha"
+      ],
       "plate": "plate-091",
       "wordTarget": 700,
       "variantNote": "",
@@ -4975,7 +5749,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "abiku",
+        "draugr",
+        "karakoncolos",
+        "varcolac"
+      ],
       "plate": "plate-092",
       "wordTarget": 700,
       "variantNote": "",
@@ -5022,7 +5801,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "nahual",
+        "strigoi",
+        "zmeu"
+      ],
       "plate": "plate-093",
       "wordTarget": 700,
       "variantNote": "",
@@ -5069,7 +5852,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "azi-dahaka",
+        "varcolac",
+        "zmey"
+      ],
       "plate": "plate-094",
       "wordTarget": 700,
       "variantNote": "",
@@ -5116,7 +5903,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "inkanyamba",
+        "supay",
+        "taniwha"
+      ],
       "plate": "plate-095",
       "wordTarget": 700,
       "variantNote": "",
@@ -5163,7 +5954,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ghul",
+        "supay",
+        "windigo"
+      ],
       "plate": "plate-096",
       "wordTarget": 700,
       "variantNote": "",
@@ -5210,7 +6005,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "amaru",
+        "ammit",
+        "lemures",
+        "pishtaco"
+      ],
       "plate": "plate-097",
       "wordTarget": 700,
       "variantNote": "",
@@ -5257,7 +6057,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "basajaun",
+        "boitata",
+        "migoi",
+        "ong-ba-muoi"
+      ],
       "plate": "plate-098",
       "wordTarget": 700,
       "variantNote": "",
@@ -5272,7 +6077,7 @@
       "name": "Boitatá",
       "pronunciation": "boy-tah-TAH",
       "tradition": "tupi-guarani",
-      "class": "V",
+      "class": "I",
       "motif": [
         "B19.4.2"
       ],
@@ -5304,7 +6109,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "curupira",
+        "iara",
+        "masalai"
+      ],
       "plate": "plate-099",
       "wordTarget": 700,
       "variantNote": "",
@@ -5354,7 +6163,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "ahuizotl",
+        "boitata",
+        "nhang",
+        "rusalka",
+        "xtabay"
+      ],
       "plate": "plate-100",
       "wordTarget": 700,
       "variantNote": "",
@@ -5404,7 +6219,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "animikii",
+        "inkanyamba",
+        "taniwha"
+      ],
       "plate": "plate-101",
       "wordTarget": 700,
       "variantNote": "",
@@ -5454,7 +6273,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "impundulu",
+        "khyung",
+        "mishipeshu"
+      ],
       "plate": "plate-102",
       "wordTarget": 700,
       "variantNote": "",
@@ -5504,7 +6327,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "amarok",
+        "draugr",
+        "pishtaco",
+        "qalupalik"
+      ],
       "plate": "plate-103",
       "wordTarget": 700,
       "variantNote": "",
@@ -5554,7 +6382,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "amarok",
+        "basajaun",
+        "devi",
+        "migoi"
+      ],
       "plate": "plate-104",
       "wordTarget": 700,
       "variantNote": "Stállu'nun dış dünyayla (tüccar, vergi memuru, komşu halk) ilişkisi anlatının siyasetidir; Conrad bunu ayrıntılandırır.",
@@ -5598,7 +6431,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "gufihtar",
+        "huldufolk",
+        "koropokkuru"
+      ],
       "plate": "plate-105",
       "wordTarget": 700,
       "variantNote": "",
@@ -5642,7 +6479,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "huldufolk",
+        "masalai",
+        "ulda"
+      ],
       "plate": "plate-106",
       "wordTarget": 700,
       "variantNote": "",
@@ -5689,7 +6530,13 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "domovoy",
+        "gufihtar",
+        "koropokkuru",
+        "skuggabaldur",
+        "ulda"
+      ],
       "plate": "plate-107",
       "wordTarget": 700,
       "variantNote": "",
@@ -5736,7 +6583,12 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "each-uisce",
+        "nakki",
+        "skuggabaldur",
+        "tikbalang"
+      ],
       "plate": "plate-108",
       "wordTarget": 700,
       "variantNote": "",
@@ -5783,7 +6635,11 @@
           "verification": "fulltext"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "buda",
+        "huldufolk",
+        "nykur"
+      ],
       "plate": "plate-109",
       "wordTarget": 700,
       "variantNote": "",
@@ -5828,7 +6684,13 @@
           "locus": "F420"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "masalai",
+        "moo",
+        "olgoi-khorkhoi",
+        "ponaturi",
+        "repun-kamuy"
+      ],
       "plate": "plate-110",
       "wordTarget": 700,
       "variantNote": "Fox'un 'merman' çerçevesi ile Scott'ın ilksel-varlık okuması çelişir; çelişki maddede GÖSTERİLİR, biri seçilip diğeri gizlenmez.",
@@ -5871,7 +6733,12 @@
           "verification": "catalog"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "adaro",
+        "boitata",
+        "gufihtar",
+        "temes-savsap"
+      ],
       "plate": "plate-111",
       "wordTarget": 700,
       "variantNote": "Masalai bir TÜR değil bir KATEGORİDİR; her yerin kendi masalai'si vardır. Madde bunu gizlemeyecek.",
@@ -5913,7 +6780,12 @@
           "verification": "catalog"
         }
       ],
-      "crossRefs": [],
+      "crossRefs": [
+        "aralez",
+        "camazotz",
+        "kerberos",
+        "masalai"
+      ],
       "plate": "plate-112",
       "wordTarget": 700,
       "variantNote": "",

@@ -76,9 +76,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Nahual** `nahual` | Mēxihcah ☼ | `kin` | Nahual dönüşümü SEÇER (büyücüdür), Way herkeste vardır ve uykuda serbest kalır. |
+| **Tupilaq** `tupilaq` | Inuit ᐃ | `function` | Way'e verilen zarar sahibine geçer; Tupilaq zarar veremezse yapanına döner. İkisi de bir bağın bedelidir. |
+| **Xtabay** `xtabay` | Maya 𝋠 | `tradition` | Maya'nın iki ruhu: biri her insanın içinde, öteki ağacın altında bekler. |
 
 ## 8. Kısıtlılık taraması
 

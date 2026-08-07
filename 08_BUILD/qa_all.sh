@@ -52,11 +52,20 @@ echo "════════════════════════�
 echo "  CODEX BESTIARIUM · KALİTE KAPILARI · kapı: $GATE"
 echo "════════════════════════════════════════════════════════════════════════"
 
+# Dizin kapısı da kümülatiftir; Faz 2'den itibaren telaffuz zorunludur.
+case "$GATE" in
+  phase2|phase3) IDX_GATE="phase2" ;;
+  *)             IDX_GATE="draft"  ;;
+esac
+
+# SIRA ÖNEMLİ: classify çapraz referansları spec'e yazar, research_gen o
+# referansları araştırma dosyalarına basar, update_docs ikisini de ölçer.
 if [ "$FIX" = "1" ]; then
-  $PY 08_BUILD/update_docs.py
-  $PY 08_BUILD/make_prompts.py
-  $PY 08_BUILD/make_index.py --gate draft >/dev/null
+  $PY 08_BUILD/classify.py >/dev/null
   $PY 08_BUILD/research_gen.py >/dev/null
+  $PY 08_BUILD/make_index.py --gate "$IDX_GATE" >/dev/null
+  $PY 08_BUILD/make_prompts.py
+  $PY 08_BUILD/update_docs.py
 fi
 
 # Tohum karşılaştırması master yol haritasını okur; o dosya KARDEŞ depodadır
@@ -73,6 +82,7 @@ else
   echo "ATLANDI: master yol haritası bu ortamda yok ($SEED_SRC)"
 fi
 run "araştırma ↔ spec"           $PY 08_BUILD/research_gen.py --check
+run "tasnif ↔ spec"               $PY 08_BUILD/classify.py --check
 run "spec şeması"                 $PY 08_BUILD/validate_spec.py --gate "$GATE" --json 06_REPORTS/spec-validation.json
 run "depo ve belge bütünlüğü"     $PY 08_BUILD/validate_structure.py --json 06_REPORTS/structure.json
 run "kalite kapılarının testi"    $PY 08_BUILD/tests/selftest.py
@@ -83,7 +93,7 @@ run "tekrar taraması"             $PY 08_BUILD/qa_echo.py --json 06_REPORTS/qa-
 run "diakritik"                   $PY 08_BUILD/qa_diacritics.py --json 06_REPORTS/qa-diacritics.json
 run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
 run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
-run "dizinler"                    $PY 08_BUILD/make_index.py --gate draft
+run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"
 run "üretilen belgeler güncel"    $PY 08_BUILD/update_docs.py --check
 run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py --check
 

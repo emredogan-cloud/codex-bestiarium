@@ -137,9 +137,9 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Tikbalang | Filipin ✧ | — |
 | Nykur | Ísland ❆ | — |
 
-**Ayrışma noktası.** İrlanda'da yiyicidir, İzlanda'da boğar, Filipinler'de yolu şaşırtır.
+**Ayrışma noktası.** İrlanda'da biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca boğar; Suomi'de kıyıdan çağırır; Filipinler'de hiç suya girmez — yolu daireye çevirir.
 
-### B · Tilki kadın — *The Fox Woman* · `D113.1`
+### B · Tilki kadın — *The Fox Woman* · `D113.3`
 
 > Kadına dönüşen, ömür veya karaciğer alan tilki
 
@@ -148,9 +148,9 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Húli jīng | Zhōnghuá 龍 | — |
 | Kumiho | Hangug 단 | — |
 
-**Ayrışma noktası.** Çin'de ölümsüzlük arar, Kore'de karaciğer yer, Japonya'da bazen koruyucudur.
+**Ayrışma noktası.** Çin'de ömür (qi) toplar ve kimi anlatıda sadık kalır; Kore'de insan olmak için karaciğer yer ve sınavı kaybeder. Biri insanlıktan çalar, öteki insanlığa girmeye çalışır.
 
-### C · Gece cadısı — *The Night Hag* · `G264`
+### C · Gece cadısı — *The Night Hag* · `G262`
 
 > Loğusayı ve yeni doğanı avlayan dişi varlık
 
@@ -171,7 +171,7 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Pontianak | Nusantara ❋ | — |
 | Lilith | Talmud ✡ | — |
 
-**Ayrışma noktası.** Dokuz gelenek, bir korku: doğum ölümlerinin folklora dönüşmesi.
+**Ayrışma noktası.** Dokuz gelenek korkuyu bir FAİLE yükler — Mezopotamya'da iblise, Roma'da kuşa, Filipinler'de komşuya. Yorùbá yüklemez: orada ölen çocuğun kendisi geri gelir. Aynı ölüm oranı, iki ayrı suçlu.
 
 ### D · Fırtına kuşu — *The Storm Bird* · `B31`
 
@@ -189,7 +189,7 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Impundulu | Nguni ◈ | — |
 | Animikii | Anishinaabe ▲ | — |
 
-**Ayrışma noktası.** Mezopotamya'da hırsız, İran'da bilge, Kuzey Amerika'da savaşçı.
+**Ayrışma noktası.** Mezopotamya'da kader tabletlerini çalar; İran'da bir çocuğu büyütür ve yol gösterir; Kuzey Amerika'da su altındaki düşmanla savaşır; Nguni'de bir cadıya bağlanır ve kan ister — aynı kanat, dört ayrı ahlak.
 
 ### E · Derinlerin yılanı — *The Serpent of the Deep* · `B11.2.1.1`
 
@@ -213,7 +213,7 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Zmeu | Dacia ✠ | — |
 | Amaru | Tawantinsuyu ☉ | — |
 
-**Ayrışma noktası.** Kuzeyde kıyameti getirir, Mısır'da her gece yenilir, And'da iki dünyayı bağlar.
+**Ayrışma noktası.** Kuzeyde dünyayı çevreler ve kıyameti getirir; Mısır'da her gece yenilir ve ertesi gece geri gelir; And'da iki dünyayı birbirine bağlar — yıkıcı değil taşıyıcıdır. Aynı gövde, üç ayrı kozmoloji.
 
 ### F · Eşik bekçisi — *The Threshold Guardian* · `F150`
 
@@ -230,9 +230,9 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Golem | Talmud ✡ | — |
 | Temes Savsap | Melanesia ◉ | — |
 
-**Ayrışma noktası.** Bazıları cezalandırır, bazıları yalnızca bakar — ve bakış yeterlidir.
+**Ayrışma noktası.** Kérberos girene izin verir, çıkana vermez; Ḫumbaba ormanı korur ve korumak için ölür; Qílín kimseyi durdurmaz — yalnızca adaletsizin üzerine basmaz; Basiliscus geçmeye kalkanı öldürmez, BAKAR ve bakış yeterlidir.
 
-### G · Yaban adamı — *The Wild Man* · `F460`
+### G · Yaban adamı — *The Wild Man* · `F567`
 
 > Ormanda/dağda yaşayan, insana benzeyen ama insan olmayan
 
@@ -243,7 +243,7 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Curupira | Tupi-Guarani ❂ | — |
 | Stállu | Sápmi ❄ | — |
 
-**Ayrışma noktası.** Baskça'da çobanı korur, Amazon'da avcıyı cezalandırır — doğanın tarafı.
+**Ayrışma noktası.** Bask ülkesinde çobanı fırtınadan korur ve demirciliği öğretir; Amazon'da avcıyı ormandan kovar; Sápmi'de insanı avlar ve kurnazlıkla yenilir. Doğanın tarafını tutar — ama doğanın tarafı her yerde aynı taraf değildir.
 
 ### H · Gizli halk — *The Hidden People* · `F251`
 
@@ -255,7 +255,7 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Ulda | Sápmi ❄ | — |
 | Huldufólk | Ísland ❆ | — |
 
-**Ayrışma noktası.** İzlanda'da hâlâ yol güzergâhı değiştirtir — yaşayan folklor.
+**Ayrışma noktası.** İzlanda'da yol güzergâhı hâlâ onlar için değiştirilir — yaşayan bir folklor; Ainu'da geçmişe yerleştirilmiş, adanın önceki sakinleri sayılır; Sápmi'de adı anılmaz, çünkü anmak dikkat çeker.
 
 ## 4. Telaffuz rehberi
 

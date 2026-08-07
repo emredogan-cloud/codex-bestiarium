@@ -278,30 +278,73 @@ def render_stats(d: dict) -> str:
 
     A("## 4. Sınıf dağılımı")
     A("")
-    A("| # | Sınıf | Madde | Yol haritası hedefi | Sapma | Hedef sayfa |")
-    A("|---|---|---:|---:|---:|---:|")
+    A("Yürürlükteki hedef **Faz 2'de ölçülen gerçektir**; yol haritası Bölüm")
+    A("03.1'in sayıları 120 maddelik kapsam için hesaplanmıştı ve tarihsel")
+    A("kayıt olarak korunur (bkz. `CHANGELOG.md` · karar D21).")
+    A("")
+    A("| # | Sınıf | Madde | Hedef | Sapma | Sayfa | Yol haritası (120) |")
+    A("|---|---|---:|---:|---:|---:|---:|")
     for cid in ["I", "II", "III", "IV", "V", "VI"]:
         cur = d["by_class"].get(cid, 0)
         meta = classes.get(cid, {})
         tgt = meta.get("targetEntries", 0)
         delta = cur - tgt
         mark = "—" if delta == 0 else f"{delta:+d}"
+        rm_e = meta.get("roadmapTargetEntries", "—")
+        rm_p = meta.get("roadmapTargetPages", "—")
         A(f"| {cid} | {meta.get('en', '?')} · {meta.get('tr', '')} | {cur} | "
-          f"{tgt} | {mark} | {meta.get('targetPages', '—')} |")
+          f"{tgt} | {mark} | {meta.get('targetPages', '—')} | {rm_e} / {rm_p} s |")
     A("")
+
+    budget = spec.get("meta", {}).get("pageBudget")
+    if budget:
+        A("### Sayfa bütçesi")
+        A("")
+        A(f"Madde başına **{budget['pagesPerEntry']} sayfa** "
+          "(yol haritası Bölüm 05.3'ün 304/120 ≈ 2,53 modelinden, kilitlenen")
+        A("112 maddelik kapsama göre yeniden dağıtıldı).")
+        A("")
+        A("| Kalem | Sayfa |")
+        A("|---|---:|")
+        A(f"| Maddeler ({n} × {budget['pagesPerEntry']}) | {budget['entryPages']} |")
+        A(f"| Sınıf ve karşılaştırma açılışları | {budget['openingPages']} |")
+        A(f"| Ön/arka madde · dizinler · kaynaklar | {budget['matterPages']} |")
+        A(f"| **Toplam** | **{budget['total']}** |")
+        A("")
 
     A("## 5. Akraba imge aileleri")
     A("")
-    A("| Aile | İmge | Motif | Üye | Karşılaştırma açılışı |")
-    A("|---|---|---|---:|---|")
+    A("**Manşet** üyeler iki sayfalık karşılaştırma açılışına girer; **uzun")
+    A("kuyruk** üyeleri akraba imge tablosunda ve kendi maddesinde durur.")
+    A("İkisi de tam üyedir (bkz. `00_CONTEXT/KIN_OPENINGS.md`).")
+    A("")
+    A("| Aile | İmge | Motif | Üye | Manşet | Uzun kuyruk |")
+    A("|---|---|---|---:|---:|---:|")
     for kid in ["A", "B", "C", "D", "E", "F", "G", "H"]:
         meta = kin.get(kid, {})
         cnt = d["by_kin"].get(kid, 0)
+        head = len(meta.get("headline") or [])
+        tail = len(meta.get("extended") or [])
         A(f"| **{kid}** · {meta.get('tr', '')} | {meta.get('en', '')} | "
-          f"`{meta.get('motif', '')}` | {cnt} | 2 sayfa |")
+          f"`{meta.get('motif', '')}` | {cnt} | {head} | {tail} |")
     bound = sum(d["by_kin"].values())
     A("")
     A(f"Aileye bağlı madde: **{bound}/{n}** · bağımsız madde: {n - bound}")
+    A("")
+
+    A("## 5b. Çapraz referans grafiği")
+    A("")
+    xrefs = [len(c.get("crossRefs") or []) for c in d["creatures"]]
+    edges = sum(xrefs) // 2
+    A("| Ölçü | Değer |")
+    A("|---|---:|")
+    A(f"| Bağ (karşılıklı) | {edges} |")
+    A(f"| Madde başına ortalama | {sum(xrefs) / n:.2f} |")
+    A(f"| En az / en çok | {min(xrefs)} / {max(xrefs)} |")
+    lo_x, hi_x = spec.get("meta", {}).get("targets", {}).get("crossRefMin", 2), \
+        spec.get("meta", {}).get("targets", {}).get("crossRefMax", 5)
+    A(f"| Bantta ({lo_x}–{hi_x}) | "
+      f"{sum(1 for x in xrefs if lo_x <= x <= hi_x)}/{n} |")
     A("")
 
     A("## 6. Bölge dağılımı")
@@ -345,7 +388,15 @@ def phase_progress(d: dict, phase: dict) -> tuple[int, int, str]:
     if n == 1:
         return d["sourced"], TARGET_CREATURES, "iki bağımsız kaynaklı madde"
     if n == 2:
-        return d["pron_ok"], TARGET_CREATURES, "telaffuz + tasnif tamamlanmış madde"
+        # Faz 2'nin ölçütü telaffuz DEĞİLDİR — telaffuz Faz 1'de toplandı.
+        # Fazı bitiren şey tasniftir: madde bir sınıfa, bir aileye ve
+        # karşılıklı bir çapraz referans grafiğine oturmuş olmalı.
+        done = sum(
+            1 for c in creatures
+            if (c.get("pronunciation") or "").strip()
+            and len(c.get("crossRefs") or []) >= 2
+        )
+        return done, TARGET_CREATURES, "telaffuz + karşılıklı çapraz referans"
     if n in PHASE_CLASSES:
         wanted = [c for c in creatures if c["class"] in PHASE_CLASSES[n]]
         done = sum(1 for c in wanted if c["status"] in ("written", "edited", "final"))
@@ -399,6 +450,7 @@ def render_progress(d: dict) -> str:
     A("| Şema | `validate_spec.py --gate draft` | her zaman |")
     A("| Araştırma | `validate_spec.py --gate phase1` | Faz 1 sonunda |")
     A("| Tasnif | `validate_spec.py --gate phase2` | Faz 2 sonunda |")
+    A("| Çapraz referans | `classify.py --check` | her push |")
     A("| Yazım | `validate_spec.py --gate phase3` | Faz 3'ten itibaren |")
     A("| Kelime bandı | `qa_length.py --sections` | metin geldiğinde |")
     A("| Ses | `qa_voice.py` | metin geldiğinde |")

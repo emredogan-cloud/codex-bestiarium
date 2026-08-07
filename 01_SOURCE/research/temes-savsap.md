@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Aralez** `aralez` | Hayk ✚ | `kin` | İkisi de ölümün eşiğinde durur: Aralez geri gönderir, Temes Savsap geçirmez. |
+| **Camazotz** `camazotz` | Maya 𝋠 | `kin` | Temes Savsap geçişi bilgiye bağlar; Camazotz geçeni keser. Sınav ile infaz. |
+| **Kérberos** `kerberos` | Hellenic Ω | `kin` | İkisi de ölüler diyarının girişinde; Kérberos gücü, Temes Savsap bir SINAVI kullanır. |
+| **Masalai** `masalai` | Melanesia ◉ | `tradition` | Melanezya'nın iki sınırı: biri arazinin, öteki ölümün. |
 
 ## 8. Kısıtlılık taraması
 

@@ -77,9 +77,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Aži Dahāka** `azi-dahaka` | Pārs 𐎩 | `kin` | Komşu iki yayla: biri dağın altında zincirli bekler, öteki dağ gölünde yatar. İkisi de çözülmeyi bekliyor sayılır. |
+| **Zmey** `zmey` | Slovjan ⚡ | `kin` | Vishap taş dikitlerle işaretlenir — yeri bellidir; Zmey'in yeri yoktur, kesilen başı yerine yenisi çıkar. |
 
 ## 8. Kısıtlılık taraması
 

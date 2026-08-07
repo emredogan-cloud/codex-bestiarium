@@ -75,9 +75,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Domovoy** `domovoy` | Slovjan ⚡ | `function` | Biri evin İÇİNDE saklı, öteki kayanın içinde; ikisi de taşınırken hesaba katılır. |
+| **Gufihtar** `gufihtar` | Sápmi ❄ | `function` | İkisi de görünmezliği yönetir; Huldufólk kendi görünmezliğini, Gufihtar başkasınınkini. |
+| **Koropokkuru** `koropokkuru` | Ainu ᚼ | `kin` | Huldufólk şimdiki zamandadır, Koropokkuru geçmiş zamanda — biri komşu, öteki önceki halk. |
+| **Skuggabaldur** `skuggabaldur` | Ísland ❆ | `tradition` | Ísland'ın iki ucu: biri kayanın içindeki komşu, öteki kurşun işlemeyen melez. |
+| **Ulda** `ulda` | Sápmi ❄ | `kin` | İkisi de yer altındadır; Huldufólk'un yeri hâlâ savunulur (yol güzergâhı), Ulda'nınki yalnızca anılmaz. |
 
 ## 8. Kısıtlılık taraması
 

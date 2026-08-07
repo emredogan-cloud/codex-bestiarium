@@ -84,9 +84,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Kumiho** `kumiho` | Hangug 단 | `kin` | Húli jīng insandan ömür alır ve kimi anlatıda sadık kalır; kumiho insan OLMAK için karaciğer yer ve sınavı kaybeder. |
+| **Lóng** `long` | Zhōnghuá 龍 | `tradition` | Zhōnghuá'nın iki uzun ömürlüsü: Lóng zamanla yükselir, húli jīng zamanla insanlaşır. |
+| **Nhang** `nhang` | Hayk ✚ | `function` | İkisi de kadın biçimine girip erkeği alır; Húli jīng ömür toplar ve yaşatır, Nhang kan içer ve öldürür. |
 
 ## 8. Kısıtlılık taraması
 

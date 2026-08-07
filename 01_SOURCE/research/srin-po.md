@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ajatar** `ajatar` | Suomi ᛉ | `function` | İkisi de bastırılması gereken eski bir güçtür — biri hastalıkla, öteki tapınakla. |
+| **Khyung** `khyung` | Bod ☷ | `tradition` | Bön kozmolojisinin iki ucu: yerin altındaki et yiyen halk ve gökteki kartal. |
+| **Migoi** `migoi` | Bod ☷ | `tradition` | Bod'un iki yer varlığı: Srin-po toprağın altında bastırılmıştır, Migoi karda serbesttir. |
 
 ## 8. Kısıtlılık taraması
 

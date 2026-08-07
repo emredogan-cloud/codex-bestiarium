@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Impundulu** `impundulu` | Nguni ◈ | `kin` | Animikii gök gürültüsünü GETİRİR; Impundulu şimşeği ÇAĞIRIR ve bir insana bağlıdır — biri hava, öteki sahiplik. |
+| **Khyung** `khyung` | Bod ☷ | `kin` | İki gök varlığı, iki ayrı kıta: Khyung yılanı tutar, Animikii su varlığıyla savaşır. Kuş–su karşıtlığı iki yerde bağımsız kurulmuş. |
+| **Mishipeshu** `mishipeshu` | Anishinaabe ▲ | `pair` | Ezelî karşıtlar: biri suyun altında bakırı korur, öteki gökten gürler. Kitabın tek doğrudan düşman çifti. |
 
 ## 8. Kısıtlılık taraması
 

@@ -73,9 +73,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ahuizotl** `ahuizotl` | Mēxihcah ☼ | `function` | İkisi de suya çeker; Ahuizotl'un aldığı şey sayılabilir (göz, diş, tırnak), Iara'nınki sayılamaz. |
+| **Boitatá** `boitata` | Tupi-Guarani ❂ | `tradition` | Tupi-Guarani'nin iki ucu: biri ormanı korur, öteki nehre çeker. |
+| **Nhang** `nhang` | Hayk ✚ | `function` | İkisi de kadın biçiminde suya çeker; Nhang kan içer, Iara yalnızca alıkoyar. |
+| **Rusalka** `rusalka` | Slovjan ⚡ | `function` | İkisi de suda ölümle ilişkilidir; Rusalka ölmüş bir kızın DÖNÜŞÜDÜR, Iara nehrin annesidir — biri sonuç, öteki köken. |
+| **Xtabay** `xtabay` | Maya 𝋠 | `function` | İkisi de güzellikle çağırır; Xtabay ağaçta ve dikene çevirir, Iara suda ve şarkıyla. |
 
 ## 8. Kısıtlılık taraması
 

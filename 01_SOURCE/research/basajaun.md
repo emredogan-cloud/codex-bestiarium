@@ -75,9 +75,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Curupira** `curupira` | Tupi-Guarani ❂ | `kin` | Curupira avcıyı cezalandırır, Basajaun çobanı korur. Doğanın tarafı, insanın işine göre değişir. |
+| **Herensuge** `herensuge` | Euskal ✜ | `tradition` | Euskal'ın iki dağ varlığı: biri kurban ister, öteki sürüyü korur. |
+| **Lamia** `lamia-euskal` | Euskal ✜ | `tradition` | Euskal'ın iki sahibi: biri ırmağın, öteki ormanın; ikisi de karşılığında iş yapar. |
+| **Migoi** `migoi` | Bod ☷ | `kin` | Basajaun ıslıkla haber verir — sesiyle bilinir; Migoi görülmemek için geri geri yürür — iziyle. |
+| **Stállu** `stallu` | Sápmi ❄ | `kin` | Stállu insanı avlar ve kurnazlıkla yenilir; Basajaun insana demirciliği öğretir. Ailenin ahlaki uçları. |
 
 ## 8. Kısıtlılık taraması
 

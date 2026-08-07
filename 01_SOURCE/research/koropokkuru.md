@@ -78,9 +78,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Huldufólk** `huldufolk` | Ísland ❆ | `kin` | Huldufólk şimdiki zamandadır, Koropokkuru geçmiş zamanda — biri komşu, öteki önceki halk. |
+| **Tokoloshe** `tokoloshe` | Nguni ◈ | `function` | İki küçük halk, iki ahlak: Koropokkuru balık bırakır, Tokoloshe geceleri gelir. |
+| **Ulda** `ulda` | Sápmi ❄ | `kin` | Koropokkuru balık bırakıp kaybolur — verir; Ulda sürü güder ve adı anılmaz — kendi işine bakar. |
 
 ## 8. Kısıtlılık taraması
 

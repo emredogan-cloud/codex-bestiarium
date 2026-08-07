@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Nahual** `nahual` | Mēxihcah ☼ | `function` | İkisi de doğum koşuluna bağlıdır: biri doğduğu güne, öteki annesinin gece iplik eğirmesine. |
+| **Strigoi** `strigoi` | Dacia ✠ | `tradition` | Dacia'nın iki gece varlığı: biri göğü, öteki aileyi tüketir. |
+| **Zmeu** `zmeu` | Dacia ✠ | `tradition` | Rumen masalının iki düşmanı: biri kozmik bir açıklama, öteki bir pazarlık. |
 
 ## 8. Kısıtlılık taraması
 

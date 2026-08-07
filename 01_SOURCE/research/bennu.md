@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Kinnarī** `kinnari` | Siam ☸ | `function` | İkisi de bir düzenin işaretidir ve ikisi de saldırmaz — kitabın en zararsız iki maddesi. |
+| **Sīmurgh** `simurgh` | Pārs 𐎩 | `kin` | Bennu zamanın başlangıcını işaretler, Sīmurgh bir ömrü taşır — biri kozmik takvim, öteki kişisel kader. |
+| **Ziz** `ziz` | Talmud ✡ | `kin` | İkisi de kozmolojiyi doldurmak için var: Bennu ilk tepeye konar, Ziz üçlünün gök ayağıdır. |
 
 ## 8. Kısıtlılık taraması
 

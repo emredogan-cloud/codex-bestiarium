@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Animikii** `animikii` | Anishinaabe ▲ | `kin` | Animikii gök gürültüsünü GETİRİR; Impundulu şimşeği ÇAĞIRIR ve bir insana bağlıdır — biri hava, öteki sahiplik. |
+| **Tokoloshe** `tokoloshe` | Nguni ◈ | `tradition` | Nguni'nin iki gönderilmişi: ikisi de bir büyücüye bağlıdır, biri yerde biri gökte. |
+| **Ziz** `ziz` | Talmud ✡ | `kin` | Impundulu kan ister ve beslenmezse sahibine döner; Ziz kimseden bir şey istemez — gölgesi güneşi kapatır, o kadar. |
 
 ## 8. Kısıtlılık taraması
 

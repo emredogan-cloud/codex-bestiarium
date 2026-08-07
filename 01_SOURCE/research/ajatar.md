@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Iku-Turso** `iku-turso` | Suomi ᛉ | `tradition` | Suomi'nin iki eski varlığı: biri ormanda hastalık yayar, öteki denizin dibinde bekler. |
+| **Näkki** `nakki` | Suomi ᛉ | `tradition` | İkisi de Kalevala çevresinden; Ajatar hastalıkla, Näkki suyla öldürür. |
+| **Srin-po** `srin-po` | Bod ☷ | `function` | İkisi de bastırılması gereken eski bir güçtür — biri hastalıkla, öteki tapınakla. |
 
 ## 8. Kısıtlılık taraması
 

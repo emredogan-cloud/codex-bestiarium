@@ -75,9 +75,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Basajaun** `basajaun` | Euskal ✜ | `kin` | Curupira avcıyı cezalandırır, Basajaun çobanı korur. Doğanın tarafı, insanın işine göre değişir. |
+| **Boitatá** `boitata` | Tupi-Guarani ❂ | `function` | Aynı geleneğin aynı işlevi iki bedende: Curupira izi yanıltır, Boitatá ateşle kovalar. |
+| **Migoi** `migoi` | Bod ☷ | `kin` | İkisi de izi yanıltır: biri ters yürüyerek, öteki ters ayakla. Aynı hile, iki ayrı anatomi. |
+| **Ông Ba Mươi** `ong-ba-muoi` | Việt ☴ | `function` | İkisi de ormanın efendisidir; Ông Ba Mươi'ye saygı gösterilir, Curupira'dan kaçılır. |
 
 ## 8. Kısıtlılık taraması
 

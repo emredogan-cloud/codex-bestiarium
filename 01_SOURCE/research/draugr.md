@@ -76,9 +76,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Fenrir** `fenrir` | Norðr ᚦ | `tradition` | Norðr'un iki bekleyeni: biri zinciri, öteki höyüğü bekler. |
+| **Lemures** `lemures` | Romana SPQR | `function` | Draugr güreşle yenilir, Lemures törenle gönderilir. Güç ile ritüel. |
+| **Strigoi** `strigoi` | Dacia ✠ | `function` | İkisi de gömüldüğü yerden kalkar; Draugr malını korur, Strigoi ailesinin kanını alır — biri mülkiyet, öteki soy. |
+| **Windigo** `windigo` | Anishinaabe ▲ | `function` | İkisi de büyüyen bir gövdedir: Draugr şişer ve ağırlaşır, Windigo yedikçe boy atar. |
 
 ## 8. Kısıtlılık taraması
 

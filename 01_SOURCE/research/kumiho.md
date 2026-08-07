@@ -76,9 +76,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Dokkaebi** `dokkaebi` | Hangug 단 | `tradition` | Hangug'un iki karşılaşması: Dokkaebi güreşe çağırır ve sol tarafından yenilir, Kumiho sınar ve sınavı kendi kaybeder. |
+| **Húli jīng** `huli-jing` | Zhōnghuá 龍 | `kin` | Húli jīng insandan ömür alır ve kimi anlatıda sadık kalır; kumiho insan OLMAK için karaciğer yer ve sınavı kaybeder. |
 
 ## 8. Kısıtlılık taraması
 

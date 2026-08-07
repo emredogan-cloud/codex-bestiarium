@@ -73,9 +73,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Herensuge** `herensuge` | Euskal ✜ | `function` | İki çok başlı ejderha, iki ayrı son: biri azizle, öteki ateşle dağlanarak. |
+| **Rusalka** `rusalka` | Slovjan ⚡ | `tradition` | Slovjan'ın iki ucu: biri tarlayı sular, öteki hazineyi bekler. |
+| **Vishap** `vishap` | Hayk ✚ | `kin` | Vishap taş dikitlerle işaretlenir — yeri bellidir; Zmey'in yeri yoktur, kesilen başı yerine yenisi çıkar. |
+| **Yamata-no-Orochi** `yamata-no-orochi` | Yamato 神 | `kin` | İki çok başlı: Orochi sarhoş edilip parçalanır, Zmey'in başı ateşle dağlanmadıkça geri çıkar. |
+| **Zmeu** `zmeu` | Dacia ✠ | `kin` | Zmey yalnızca güçtür; Zmeu insan gibi pazarlık eder. Ailenin dış sınırı tam olarak burasıdır. |
 
 ## 8. Kısıtlılık taraması
 

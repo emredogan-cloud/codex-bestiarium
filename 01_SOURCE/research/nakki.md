@@ -73,9 +73,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ajatar** `ajatar` | Suomi ᛉ | `tradition` | İkisi de Kalevala çevresinden; Ajatar hastalıkla, Näkki suyla öldürür. |
+| **Each-uisce** `each-uisce` | Ériu ☘ | `kin` | Ériu'da kıyıda binilmeyi bekler; Suomi'de at, insan veya kadın kılığına girer — biçim sabit değil. |
+| **Kappa** `kappa` | Yamato 神 | `function` | İkisi de suya çeker ve ikisinin de bir zaafı vardır: Kappa'nın çanağındaki su, Näkki'nin adı. |
+| **Nykur** `nykur` | Ísland ❆ | `kin` | İkisi de adla kovulur: 'nykur' denince kaçar, näkki'ye karşı çocuklara adı öğretilir. |
+| **Rusalka** `rusalka` | Slovjan ⚡ | `function` | İkisi de suyun kenarında görünür; Näkki hep oradaydı, Rusalka önce bir insandı. |
 
 ## 8. Kısıtlılık taraması
 

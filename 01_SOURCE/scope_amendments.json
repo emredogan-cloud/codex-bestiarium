@@ -82,6 +82,14 @@
       "decidedOn": "2026-08-07",
       "phase": 1,
       "reason": "Rusalka IV (Su Sakinleri) olarak tohumlanmıştı. Ama Zelenin'in klasik çalışmasının BAŞLIĞI tezini söylüyor: *Umershie neestestvennoju smert'ju i rusalki* — 'Doğal olmayan ölümle ölenler ve rusalkalar' (Petrograd, 1916). Zelenin rusalkayı 'zaloжnye pokojniki' (huzursuz ölüler) kategorisinin içine yerleştirir: rusalka suda ÖLMÜŞ kızın DÖNÜŞÜDÜR. Sınıf VI (Huzursuz Ölüler) kaynağın kendi tezine uyuyor; sınıf IV yalnızca bulunduğu YERİ tarif ediyordu. Kitabın tasnifi işleve göredir, mekâna göre değil — bu düzeltme o ilkeyi uyguluyor. Yan etki: sınıf IV 25→24 (yol haritası hedefi tam olarak 24), sınıf VI 7→8 (taban)."
+    },
+    {
+      "action": "reclassify",
+      "id": "boitata",
+      "class": "I",
+      "decidedOn": "2026-08-07",
+      "phase": 2,
+      "reason": "Boitatá V (Gök ve Fırtına) olarak tohumlanmıştı. Sınıf V'in tanımı 'Kanat çırpınca gök gürleyenler — havanın açıklanması'dır; boitatánın kanadı yok, gök gürültüsüyle ilgisi yok ve açıkladığı şey hava değil BATAKLIK GAZIDIR (ignis fatuus). İki bağımsız kanıt sınıf I'i gösteriyor. (1) İŞLEV: kendi araştırma dosyasının yazım notu 'Ormanı koruyan ateş: çevresel bir yaptırım anlatısı. Curupira ile aynı işlevin başka biçimi' diyor — Curupira sınıf I'dir. Ormanı yakanı kovalayan varlık, sınırı tutan ve geçişin bedelini alan varlıktır. (2) THOMPSON: Faz 1'de doğrulanan kod B19.4.2 ('Fiery serpent'); sınıf I'in çıpa aralığı B11–B19, sınıf V'inki A280 · B31 · F960. Kod, tohumun koyduğu sınıfın aralığında değil, düzeltilen sınıfın aralığında. Yan etki: sınıf I 17→18, sınıf V 17→16 — sapma her iki sınıfta da yol haritası hedefine YAKLAŞIYOR."
     }
   ]
 }

@@ -72,9 +72,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adze** `adze` | Yorùbá · Ashanti ✺ | `kin` | Aynı gelenekte iki cevap: Adze dışarıdan gelen bir faildir, Àbíkú çocuğun kendisidir. |
+| **Bean sídhe** `bean-sidhe` | Ériu ☘ | `function` | İkisi de ölümü ADLA bağlar: Bean sídhe bir aileye, Àbíkú bir anneye — biri haber verir, öteki tekrarlar. |
+| **Pontianak** `pontianak` | Nusantara ❋ | `kin` | Àbíkú ölen çocuğun dönüşüdür, Pontianak ölen annenin. Aynı doğum, iki ayrı hayalet. |
+| **Strigoi** `strigoi` | Dacia ✠ | `function` | İkisi de aileye geri döner; Strigoi alır, Àbíkú yalnızca gider ve tekrar gelir. |
 
 ## 8. Kısıtlılık taraması
 

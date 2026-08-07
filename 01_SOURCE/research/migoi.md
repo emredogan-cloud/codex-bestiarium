@@ -74,9 +74,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Basajaun** `basajaun` | Euskal ✜ | `kin` | Basajaun ıslıkla haber verir — sesiyle bilinir; Migoi görülmemek için geri geri yürür — iziyle. |
+| **Curupira** `curupira` | Tupi-Guarani ❂ | `kin` | İkisi de izi yanıltır: biri ters yürüyerek, öteki ters ayakla. Aynı hile, iki ayrı anatomi. |
+| **Srin-po** `srin-po` | Bod ☷ | `tradition` | Bod'un iki yer varlığı: Srin-po toprağın altında bastırılmıştır, Migoi karda serbesttir. |
+| **Stállu** `stallu` | Sápmi ❄ | `kin` | Stállu demir giyer ve gümüş toplar — eşyalıdır; Migoi'nin hiçbir eşyası yoktur. |
 
 ## 8. Kısıtlılık taraması
 

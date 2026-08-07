@@ -72,9 +72,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adaro** `adaro` | Melanesia ◉ | `function` | İki Pasifik su varlığı: Adaro açık denizde vurur, Moʻo gölcüğü bekler. |
+| **Ponaturi** `ponaturi` | Mā'ohi ᴥ | `tradition` | Maohi'nin iki su varlığı: biri gelir ve tehdittir, öteki kalır ve korur. |
+| **Repun Kamuy** `repun-kamuy` | Ainu ᚼ | `function` | İkisi de suyun ve soyun sahibidir; Repun Kamuy av bağışlar, Moʻo yalnızca korur. |
+| **Taniwha** `taniwha` | Mā'ohi ᴥ | `function` | İki Pasifik koruyucusu: Moʻo suyun rengiyle bilinir, Taniwha kabile ilişkisiyle. |
 
 ## 8. Kısıtlılık taraması
 

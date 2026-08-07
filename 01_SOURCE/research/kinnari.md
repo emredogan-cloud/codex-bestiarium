@@ -72,9 +72,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Bennu** `bennu` | Kemet 𓂀 | `function` | İkisi de bir düzenin işaretidir ve ikisi de saldırmaz — kitabın en zararsız iki maddesi. |
+| **Garuḍa** `garuda` | Bharatiya ॐ | `function` | İki kuş-insan: Garuḍa avlar, Kinnarī avlanır. |
+| **Perī** `peri` | Pārs 𐎩 | `function` | İki yarı-varlık: Perī insanın aklını alır, Kinnarī yalnızca şarkı söyler. |
+| **Phaya Nak** `phaya-nak` | Siam ☸ | `tradition` | Siam'ın iki Himavanta varlığı: biri ormanda şarkı söyler, öteki ırmağın altında hüküm sürer. |
 
 ## 8. Kısıtlılık taraması
 

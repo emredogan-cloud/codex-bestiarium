@@ -76,9 +76,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Lámia** `lamia-hellenic` | Hellenic Ω | `kin` | Lámia bir cezadır — kaybettiği çocukların yerine başkasını alır; Lamashtu bir iblistir ve kaybetmemiştir. |
+| **Lilith** `lilith` | Talmud ✡ | `kin` | İkisi de muskayla karşılanır: biri Pazuzu figürüyle, öteki üç melek adıyla. Karşı önlem yazıya geçmiştir. |
 
 ## 8. Kısıtlılık taraması
 
