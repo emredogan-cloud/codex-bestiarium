@@ -173,6 +173,10 @@ def apply(spec: dict, km: dict) -> dict:
         fam["motifNote"] = src["motifNote"]
         fam["motifSpread"] = src.get("motifSpread", [])
         fam["divergence"] = src["divergence"]
+        # İngilizce ayrışma cümlesi: Kin-Images Chart ve A+ modülü m3
+        # okur mıknatısıdır ve kitabın dilinde olmak ZORUNDADIR. Türkçe
+        # cümle proje belgelerinin dilidir ve yerinde kalır.
+        fam["divergenceEn"] = src.get("divergenceEn", "")
         fam["headline"] = src["headline"]
         fam["extended"] = sorted(set(members[fam["id"]]) - set(src["headline"]))
         fam["memberCount"] = len(members[fam["id"]])
@@ -299,6 +303,15 @@ def verify(spec: dict, km: dict, r: Result) -> None:
     ]
     r.add(not weak, "her ailenin ayrışma cümlesi en az iki durumu karşılaştırıyor",
           f"{weak} — 'her kültürde farklı yorumlanır' geçmez")
+
+    # KİTABIN DİLİ İNGİLİZCEDİR. Ayrışma cümlesi yalnızca bu belgelerde
+    # kalmaz: Kin-Images Chart'a ve A+ modülü m3'e basılır, yani OKURA
+    # gider. Türkçe kalan bir cümle, pazarlama artefaktına proje dilinin
+    # sızması demektir; kapı bunu yakalar.
+    no_en = [f["id"] for f in spec["kinFamilies"]
+             if not (f.get("divergenceEn") or "").strip()]
+    r.add(not no_en, "her ailenin ayrışma cümlesi İNGİLİZCE de var",
+          f"{no_en} — okur mıknatısı kitabın dilinde basılır")
 
     # --- sayfa bütçesi ---
     budget = spec["meta"]["pageBudget"]

@@ -40,6 +40,7 @@ from bestiarium import (  # noqa: E402
     ENTRY_SECTIONS,
     REPORT_DIR,
     ROOT,
+    TARGET_CREATURES,
     WORD_TARGET,
     Result,
     load_book,
@@ -420,16 +421,104 @@ def _page_count(path: str) -> int:
 # GİRİŞ NOKTASI
 # =============================================================================
 
+def measure_all(edition: str, out_json: str, verbose: bool = False) -> int:
+    """YAZILMIŞ HER MADDEYİ dizer ve dağılımı ölçer.
+
+    Tek maddelik prova geometriyi doğrular; bu, BÜTÇEYİ doğrular. Fark
+    şudur: bir maddenin sığması, 112 maddenin 336 sayfaya sığdığı anlamına
+    gelmez. Sığmayan madde tek tek değil, DAĞILIMIN ÜST UCUNDA olur ve
+    yalnızca hepsi dizilirse görülür.
+
+    Yol haritası bunu Faz 4'ün dizgi görevleri arasında istiyor: *"93
+    maddelik ara prova dizgisi; sayfa bütçesini kontrol et."* Faz 3 aynı
+    ölçümü elle yapmıştı; burada mekanizmaya çevriliyor.
+
+    Üretilen PDF'ler ATILIR. Depoda kalan tek şey sayıdır — proza depo
+    dışındadır (karar A1/D29) ve bir prova PDF'i prozadır.
+    """
+    _require_reportlab()
+    book = load_book()
+    entries = sorted((book or {}).get("entries") or {})
+    if not entries:
+        print("ATLANDI: yazılmış metin yok.")
+        return 2
+
+    tmp_dir = os.path.join(PROOF_DIR, "_measure")
+    os.makedirs(tmp_dir, exist_ok=True)
+    rows, over = [], []
+    for cid in entries:
+        path = os.path.join(tmp_dir, f"{cid}.pdf")
+        m = build_proof(cid, edition, path)
+        rows.append({"id": cid, "words": m["words"],
+                     "contentPages": m["contentPages"], "pages": m["pages"]})
+        if m["pages"] > PAGES_PER_ENTRY:
+            over.append(f"{cid} ({m['pages']})")
+        os.remove(path)
+    try:
+        os.rmdir(tmp_dir)
+    except OSError:
+        pass
+
+    cp = [r["contentPages"] for r in rows]
+    billed = sum(r["pages"] for r in rows)
+    doc = {
+        "note": "Faz 4 · GERÇEK metinle ara prova dizgisi. Proza içermez, "
+                "yalnızca ölçüm.",
+        "edition": edition,
+        "entries": len(rows),
+        "contentPagesMin": round(min(cp), 3),
+        "contentPagesMean": round(sum(cp) / len(cp), 3),
+        "contentPagesMax": round(max(cp), 3),
+        "billedPagesPerEntry": PAGES_PER_ENTRY,
+        "billedPagesTotal": billed,
+        "projectedEntryPages": round(PAGES_PER_ENTRY * TARGET_CREATURES),
+        "band": list(CONTENT_BAND),
+        "perEntry": rows,
+    }
+    os.makedirs(REPORT_DIR, exist_ok=True)
+    with open(out_json, "w", encoding="utf-8") as fh:
+        json.dump(doc, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
+    r = Result("ARA PROVA DİZGİSİ — YAZILMIŞ BÜTÜN MADDELER")
+    r.ok("dizilen madde", f"{len(rows)}/{TARGET_CREATURES}")
+    lo, hi = CONTENT_BAND
+    r.add(all(lo <= x <= hi for x in cp),
+          f"her maddenin içeriği {lo}–{hi} sayfa bandında",
+          f"en az {doc['contentPagesMin']} · ortalama {doc['contentPagesMean']} "
+          f"· en çok {doc['contentPagesMax']}")
+    r.add(not over, f"hiçbir madde {PAGES_PER_ENTRY:g} sayfayı aşmıyor",
+          "; ".join(over[:10]))
+    r.add(billed == round(PAGES_PER_ENTRY * len(rows)),
+          "faturalanan sayfa bütçeyle birebir",
+          f"dizilen {billed} · bütçe {round(PAGES_PER_ENTRY * len(rows))}")
+    code = r.report(verbose=verbose)
+    print(f"rapor: {os.path.relpath(out_json, ROOT)}")
+    return code
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--id", default="each-uisce",
                     help="prova dizilecek madde (varsayılan: vitrin maddesi)")
     ap.add_argument("--edition", default="paperback")
     ap.add_argument("--proof", action="store_true", help="PDF üret")
+    ap.add_argument("--measure-all", action="store_true",
+                    help="yazılmış HER maddeyi diz ve dağılımı ölç")
+    ap.add_argument("--json", dest="json_out",
+                    default=os.path.join(REPORT_DIR, "typeset-measurement.json"))
     ap.add_argument("--check", action="store_true",
                     help="sayfa bütçesi modeli tutuyor mu")
     ap.add_argument("--verbose", "-v", action="store_true")
     args = ap.parse_args()
+
+    if args.measure_all:
+        try:
+            _require_reportlab()
+        except SystemExit as exc:
+            print(exc)
+            return 2
+        return measure_all(args.edition, args.json_out, args.verbose)
 
     # ÇIKIŞ KODU SÖZLEŞMESİ: 0 geçti · 1 bütçe/ölçüm sorunu · 2 ATLANDI
     try:

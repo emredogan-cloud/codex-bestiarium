@@ -216,7 +216,8 @@
         ],
         "closing": "Filipin üyesi kümenin dışında durur ve ailenin sınırını gösterir: su atı imgesi sudan çıkabiliyor. Çıkınca yiyici olmaktan çıkıyor, yolu şaşırtan oluyor."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In Ireland it eats the rider and leaves the liver on the shore; in Iceland it only drowns him; in Finland it calls from the bank; in the Philippines it never enters the water at all, and turns the road into a circle."
     },
     {
       "id": "B",
@@ -251,7 +252,8 @@
         ],
         "closing": "Yamato'nun kitsune'si kapsamın dışında bırakıldı: koruyucu kutsal tilki (Inari) ile yiyici tilki aynı maddede toplanamaz ve ikisi de üç maddelik Yamato kotasını hak etmedi. Karşılaştırma açılışında anılır, kendi maddesi yoktur."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In China it gathers a man's life and in some tellings stays faithful; in Korea it eats a liver in order to become human, and loses the test. One steals from humanity; the other is trying to enter it."
     },
     {
       "id": "C",
@@ -312,7 +314,8 @@
         "closing": "Àbíkú ailenin sınırıdır ve ailenin tezini o kanıtlar: sekiz gelenek bir avcı icat etti, biri etmedi. Karşı önlem sütunu okununca fark ortaya çıkar — muskaların hepsi çocuğu KORUR, Yorùbá adları ise çocuğu KALMAYA ikna eder.",
         "longTail": "Beş üye açılışa girmez, akraba imge tablosunda ve maddelerinde durur: Strix · Adze · Qalupalik · Ma lai · Manananggal. Beşi de imgeyi taşır; iki sayfaya sığmazlar."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "Nine traditions put the blame on an agent: a demon in Mesopotamia, a bird in Rome, a neighbour in the Philippines. Yorùbá tradition does not. There the child who died comes back itself. The same death rate, two different culprits."
     },
     {
       "id": "D",
@@ -366,7 +369,8 @@
         ],
         "closing": "Dört üyenin pençesinde bir yılan var (Garuḍa · Khyung · Animikii · Impundulu dolaylı olarak). Kuş–yılan karşıtlığı bu ailenin ve E ailesinin aynı sayfada okunmasını gerektirir; iki açılış birbirine gönderme yapar."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In Mesopotamia it steals the tablets of destiny; in Iran it raises a child and shows the way; in North America it fights the enemy under the water; among the Nguni it is bound to a witch and asks for blood. One wing, four moralities."
     },
     {
       "id": "E",
@@ -429,7 +433,8 @@
         "closing": "Imugi ailenin en sessiz üyesidir ve en çok şeyi söyler: o, ejderha OLAMAYAN yılandır. Bin yıl bekler, bir insan bağırır ve dönüşüm bozulur. Ailenin geri kalanı ne olduğunu anlatır; Imugi ne olunamadığını.",
         "longTail": "Altı üye açılışa girmez: Nāga · Yamata-no-Orochi · Aži Dahāka · Taniwha · Phaya Nak · Zmeu. Zmeu özellikle önemli: Zmey'le aynı gövdeyi taşır ama insan gibi pazarlık eder — ailenin dış sınırı orada."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In the north it encircles the world and brings the end of it; in Egypt it is beaten every night and returns the next; in the Andes it binds two worlds and carries rather than destroys. One body, three cosmologies."
     },
     {
       "id": "F",
@@ -480,7 +485,8 @@
         ],
         "closing": "Temes Savsap ailenin en incelikli üyesidir: kum çizimini yarılar ve ölü onu tamamlayamazsa geçemez. Bekçi burada bir engel değil bir SINAVDIR — ve sınav ölmeden önce öğrenilmiş olmalıdır. Aralez ise ailenin tersidir: eşikte durup geri gönderir."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "Kérberos lets everyone in and no one out; Ḫumbaba keeps a forest and dies for keeping it; Qílín stops nobody and simply declines to tread on the unjust; Basiliscus does not fight whoever tries to pass, but looks, and the look is enough."
     },
     {
       "id": "G",
@@ -520,7 +526,8 @@
         "closing": "Üç üye iz üzerinden tanımlanır: Migoi geri geri yürür, Curupira'nın ayakları ters, Basajaun ıslıkla haber verir. Yaban adamı görülmez — okunur. Bu, plakalarda da böyle çözülür: figür değil, izin okunabilirliği.",
         "note": "Almas (Mongol) ve Ochokochi (Kartveli) yol haritasının açılış listesindeydi; Faz 1'de iki bağımsız kaynak doğrulanamadığı için düşürüldü. Açılış metninde bu ADIYLA anılır — kapsamın dürüstlüğü de kitabın iddiasıdır."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In the Basque country it shelters the shepherd from storms and teaches him ironwork; in the Amazon it drives the hunter out of the forest; in Sápmi it hunts people and is beaten by cunning. It takes nature's side, and nature's side is not the same side everywhere."
     },
     {
       "id": "H",
@@ -560,7 +567,8 @@
         "closing": "Bu ailenin plakaları bir tekil figür değil bir TOPLULUK gösterir; kitabın tek çoğul kompozisyonu buradadır ve gerekçesi ailenin kendisidir.",
         "note": "Orang Bunian (Nusantara) ve Aos Sí (Ériu) yol haritasının açılış listesindeydi; ilki Faz 1'de kaynak doğrulanamadığı için düşürüldü, ikincisi zaten varyant olarak işaretliydi."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In Iceland a road is still diverted for them, a living folklore; among the Ainu they are placed in the past, as the island's earlier inhabitants; in Sápmi their name is not spoken, because speaking it attracts attention."
     }
   ],
   "traditions": [

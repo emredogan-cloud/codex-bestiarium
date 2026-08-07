@@ -143,6 +143,7 @@ fi
 
 run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
 run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
+run "kin-images chart"            $PY 08_BUILD/make_kin_chart.py --check
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"
 run "üretilen belgeler güncel"    $PY 08_BUILD/update_docs.py --check
 run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py --check

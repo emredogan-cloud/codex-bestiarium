@@ -49,6 +49,11 @@
 03_COVER/**/proofs/
 03_COVER/**/plates/
 03_APLUS/exports/
+# Kin-Images Chart tek komutla `spec.json` + `kin_map.json`'dan üretilir
+# (`make_kin_chart.py`) ve her koşuda birebir aynı çıkar. İkili dosyayı
+# depoda tutmak, tek doğruluk kaynağının yanına ikinci bir kopya koymaktır.
+# Depoda kalan şey ÖLÇÜSÜDÜR: 06_REPORTS/kin-images-chart.json.
+03_APLUS/*.pdf
 09_ARCHIVE/*
 !09_ARCHIVE/.gitkeep
 # Düşürülen maddelerin araştırma dosyaları DEPODA KALIR: yapılan iş ve
