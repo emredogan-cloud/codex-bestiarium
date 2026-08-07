@@ -3901,7 +3901,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Mezarlıkta ve çölde bekleyen; kılık değiştirip yolcuyu yiyen.",
       "researchFile": "01_SOURCE/research/ghul.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ifrit",
@@ -4175,7 +4175,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanda yaşayan, hastalık yayan dişi yılan-ruh.",
       "researchFile": "01_SOURCE/research/ajatar.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "basajaun",
@@ -4493,7 +4493,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Bataklıkta bekleyen; loğusayı ve yolcuyu avlayan yaşlı kadın.",
       "researchFile": "01_SOURCE/research/kenas-unarpe.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "thuong-luong",
