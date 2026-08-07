@@ -1036,7 +1036,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Aslan, keçi ve yılanın tek gövdede birleştiği, ateş soluyan Likya canavarı.",
       "researchFile": "01_SOURCE/research/chimaira.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lamia-hellenic",
@@ -1089,7 +1089,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çocuklarını kaybettikten sonra başkalarının çocuklarını avlayan kraliçe.",
       "researchFile": "01_SOURCE/research/lamia-hellenic.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ammit",
@@ -1144,7 +1144,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kalbi tüyden ağır çıkanı yutan; timsah, aslan ve su aygırının bileşimi.",
       "researchFile": "01_SOURCE/research/ammit.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "apep",
