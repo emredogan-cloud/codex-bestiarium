@@ -4961,7 +4961,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "At başlı, uzun bacaklı; yolcuyu daireler çizdirerek kaybettiren.",
       "researchFile": "01_SOURCE/research/tikbalang.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "pontianak",
@@ -5369,7 +5369,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmakta biçim değiştiren; kadın olup çeken, kan içen.",
       "researchFile": "01_SOURCE/research/nhang.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "devi",
@@ -5628,7 +5628,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz demirci, gece sırtlan; nazarla hastalık veren.",
       "researchFile": "01_SOURCE/research/buda.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tokoloshe",
