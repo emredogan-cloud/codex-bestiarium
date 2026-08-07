@@ -5423,7 +5423,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çok başlı dev; kardeşleriyle mağarada yaşayan.",
       "researchFile": "01_SOURCE/research/devi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "golem",
@@ -5529,7 +5529,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "İtaat etmeyen ilk eş; yeni doğana muska ile karşı konulan.",
       "researchFile": "01_SOURCE/research/lilith.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ziz",
@@ -5682,7 +5682,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Küçük, tüylü, kötü niyetli; yatağın altında bekleyen.",
       "researchFile": "01_SOURCE/research/tokoloshe.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "impundulu",
