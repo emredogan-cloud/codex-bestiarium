@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/1-arastirma` · son etiket `v0.1.0-alpha` · 4 commit
+> Son ölçüm: **2026-08-07** · dal `faz/1-arastirma` · son etiket `v0.1.0-alpha` · 5 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -13,12 +13,12 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 |---|---:|---:|---|
 | Yaratık kaydı | 120 | 120 | `████████████████████████` %100 |
 | Gelenek | 40 | 40 | `████████████████████████` %100 |
-| Araştırma dosyası | 9 | 120 | `██░░░░░░░░░░░░░░░░░░░░░░` %8 |
-| İki bağımsız kaynaklı madde | 9 | 120 | `██░░░░░░░░░░░░░░░░░░░░░░` %8 |
-| Doğrulanmış motif kodu | 6 | 120 | `█░░░░░░░░░░░░░░░░░░░░░░░` %5 |
-| Telaffuz alanı dolu | 9 | 120 | `██░░░░░░░░░░░░░░░░░░░░░░` %8 |
+| Araştırma dosyası | 24 | 120 | `█████░░░░░░░░░░░░░░░░░░░` %20 |
+| İki bağımsız kaynaklı madde | 22 | 120 | `████░░░░░░░░░░░░░░░░░░░░` %18 |
+| Doğrulanmış motif kodu | 11 | 120 | `██░░░░░░░░░░░░░░░░░░░░░░` %9 |
+| Telaffuz alanı dolu | 24 | 120 | `█████░░░░░░░░░░░░░░░░░░░` %20 |
 | Çapraz referansı olan madde | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| Kısıtlılık taraması yapılmış | 6 | 120 | `█░░░░░░░░░░░░░░░░░░░░░░░` %5 |
+| Kısıtlılık taraması yapılmış | 18 | 120 | `████░░░░░░░░░░░░░░░░░░░░` %15 |
 | Yazılmış madde | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Normalize plaka | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Kelime (yazılmış) | 0 | 92,000 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
@@ -32,15 +32,15 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 
 | Kapı | Eşik | Şu an | Durum |
 |---|---:|---:|---|
-| Faz 1 tamamlanma — doğrulanmış madde | 112 | 8 | ⛔ kapalı |
+| Faz 1 tamamlanma — doğrulanmış madde | 112 | 13 | ⛔ kapalı |
 | Kapsam tabanı — altına inilirse kitap yeniden planlanır | 100 | 120 | ✅ açık |
 
 ## 3. Durum dağılımı
 
 | Durum | Madde | Pay |
 |---|---:|---:|
-| `draft` | 112 | %93 |
-| `verified` | 8 | %7 |
+| `draft` | 107 | %89 |
+| `verified` | 13 | %11 |
 | `written` | 0 | %0 |
 | `edited` | 0 | %0 |
 | `final` | 0 | %0 |

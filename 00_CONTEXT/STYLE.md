@@ -159,21 +159,77 @@ normalizasyon atlanmış demektir.
 
 ## 7. Ses kalibrasyon örnekleri
 
-> **Faz 1 görevi.** Codex Mythologica'dan **gerçek** üç paragraf buraya
-> kopyalanacak: biri anlatı, biri betimleme, biri yorum. Bunlar uydurulmaz —
-> `../CODEX_MYTHOLOGICA/01_SOURCE/book-edited.json` içinden seçilir ve
-> kaynağı (hikâye adı, bölüm) belirtilir.
+> Üç paragraf, **Codex Mythologica'nın kendi metninden birebir** alındı
+> (`../CODEX_MYTHOLOGICA/01_SOURCE/book-edited.json`). Uydurulmadılar.
+> Amaç: Cilt 2'nin sesinin Cilt 1'le aynı olduğunu **ölçebilmek**.
 >
-> Amaç: yeni ciltteki sesin Cilt 1'le aynı olduğunu **ölçebilmek**. Örnekler
-> yerleştirilmeden Faz 3'e (yazım) geçilmez.
+> ⚠ Bestiarium bir ANLATI cildi değil bir BAŞVURU cildidir. Bu paragraflar
+> kopyalanacak kalıplar değil, **ses ayarıdır**: cümle uzunluğu, somutluk
+> derecesi, yorumun nereye konduğu. Bestiarium maddeleri daha sıkı, daha
+> kısa ve daha az anlatısal olacaktır.
 
-```
-[ Örnek 1 — anlatı sesi ]      → Faz 1'de doldurulacak
-[ Örnek 2 — betimleme sesi ]   → Faz 1'de doldurulacak
-[ Örnek 3 — yorum sesi ]       → Faz 1'de doldurulacak
-```
+### Örnek 1 — anlatı sesi
+*Kaynak: "Prometheus the Firebringer", açılış paragrafı*
 
----
+> Before the cities of men, before the first grain was beaten from its husk,
+> before any mortal mouth had spoken a god's name aloud, there were the
+> Titans. They had fought their war and lost it, and most lay folded into the
+> dark beneath the world. But Prometheus had seen what was coming long before
+> it came — Forethought was both his gift and his curse — and he had stood
+> with Zeus, and so he was not bound below with his brothers. He was free,
+> and he was clever, and he watched.
+
+**Ne öğretiyor.** Üçlü tekrar ("before… before… before") ile kurulan giriş,
+sonra kısa ve düz cümleler. Son cümle üç kısa yan tümceye bölünüyor: *He was
+free, and he was clever, and he watched.* Bestiarium'un **açılış cümlesi**
+bu ritmi tek cümlede yapmalı.
+
+### Örnek 2 — betimleme sesi
+*Kaynak: "Medusa", açılış paragrafı*
+
+> Before the snakes there was a girl. Her name was Medusa, and she was a
+> priestess in the temple of Athena at Athens, and the qualification for her
+> office was a vow of chastity she had taken willingly when she was young
+> enough to mean it forever. She was beautiful. She had two sisters who were
+> not beautiful — Stheno and Euryale, both of them already gorgons in the old
+> sense, neither of them mortal — but Medusa was mortal, and she had skin
+> that the lamplight loved, and hair so long and dark it could be braided in
+> seven different ways depending on what the goddess required of her on a
+> given evening.
+
+**Ne öğretiyor.** Betimleme sıfat yığmıyor; **somut ayrıntı** veriyor —
+"seven different ways", "the lamplight loved". Bestiarium'un 3. bölümü
+("neye benzer") tam olarak böyle çalışmalı: ölçü ve ayrıntı, süs değil.
+
+### Örnek 3 — yorum sesi
+*Kaynak: "Sedna", kapanışa yakın paragraf*
+
+> He would sit down beside her. He would, gently, with his soul-fingers, comb
+> her hair. He would untangle it strand by strand. He would talk to her
+> quietly while he worked. He would tell her the news of the surface. He
+> would apologize, on behalf of every hunter who had recently been careless
+> with the animals — for she insisted on certain rituals being kept; the
+> seal's bladder returned to the sea, the whale's bones placed in a
+> particular order, the small offerings made — and the shaman would
+> acknowledge, on the people's behalf, the carelessnesses, and would promise
+> reform.
+
+**Ne öğretiyor.** Yorum **açıklama yaparak değil, davranışı göstererek**
+yapılıyor. "Sedna insanların ihmalinden incinir" denmiyor; şaman saçını
+tarıyor ve özür diliyor. Bestiarium'un 5. bölümü ("neden korkulur veya
+sayılır") yorumu böyle taşımalı — tez cümlesiyle değil, sahneyle.
+
+### Ölçülen değerler
+
+| Ölçü | Cilt 1 (bu üç paragraf) | Bestiarium hedefi |
+|---|---:|---:|
+| Ortalama cümle uzunluğu | ~24 kelime | **14–18** |
+| Paragraf uzunluğu | 90–120 kelime | 70–160 (bölüme göre) |
+| Ünlem | 0 | **0** |
+
+> Bestiarium'un cümleleri Cilt 1'den **kısa** olacak. Sebep tür farkı: bir
+> başvuru cildi taranarak okunur, bir anlatı cildi sürüklenerek. `qa_voice.py`
+> 14–18 bandını denetler.
 
 ## 8. Her madde için kalite kontrol listesi
 

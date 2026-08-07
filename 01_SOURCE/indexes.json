@@ -1445,18 +1445,6 @@
       ]
     },
     {
-      "motif": "B765",
-      "section": "B",
-      "entries": [
-        {
-          "name": "Olgoi-Khorkhoi",
-          "id": "olgoi-khorkhoi",
-          "tradition": "mongol",
-          "page": "—"
-        }
-      ]
-    },
-    {
       "motif": "B871",
       "section": "B",
       "entries": [
@@ -1496,6 +1484,12 @@
       "motif": "D110",
       "section": "D",
       "entries": [
+        {
+          "name": "Buda",
+          "id": "buda",
+          "tradition": "ityopya",
+          "page": "—"
+        },
         {
           "name": "Nahual",
           "id": "nahual",
@@ -1542,18 +1536,6 @@
           "name": "Vârcolac",
           "id": "varcolac",
           "tradition": "dacia",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "D113.2",
-      "section": "D",
-      "entries": [
-        {
-          "name": "Buda",
-          "id": "buda",
-          "tradition": "ityopya",
           "page": "—"
         }
       ]
@@ -1679,18 +1661,6 @@
       ]
     },
     {
-      "motif": "E425",
-      "section": "E",
-      "entries": [
-        {
-          "name": "Pontianak",
-          "id": "pontianak",
-          "tradition": "nusantara",
-          "page": "—"
-        }
-      ]
-    },
-    {
       "motif": "F150",
       "section": "F",
       "entries": [
@@ -1737,12 +1707,6 @@
       "section": "F",
       "entries": [
         {
-          "name": "Gufihtar",
-          "id": "gufihtar",
-          "tradition": "sapmi",
-          "page": "—"
-        },
-        {
           "name": "Perī",
           "id": "peri",
           "tradition": "pars",
@@ -1770,6 +1734,12 @@
           "name": "Dokkaebi",
           "id": "dokkaebi",
           "tradition": "hangug",
+          "page": "—"
+        },
+        {
+          "name": "Gufihtar",
+          "id": "gufihtar",
+          "tradition": "sapmi",
           "page": "—"
         },
         {
@@ -1999,6 +1969,12 @@
           "id": "kenas-unarpe",
           "tradition": "ainu",
           "page": "—"
+        },
+        {
+          "name": "Pontianak",
+          "id": "pontianak",
+          "tradition": "nusantara",
+          "page": "—"
         }
       ]
     },
@@ -2061,12 +2037,6 @@
       "section": "G",
       "entries": [
         {
-          "name": "Ganen",
-          "id": "ganen",
-          "tradition": "ityopya",
-          "page": "—"
-        },
-        {
           "name": "Ponaturi",
           "id": "ponaturi",
           "tradition": "maohi",
@@ -2091,9 +2061,21 @@
           "page": "—"
         },
         {
+          "name": "Ganen",
+          "id": "ganen",
+          "tradition": "ityopya",
+          "page": "—"
+        },
+        {
           "name": "Karakoncolos",
           "id": "karakoncolos",
           "tradition": "turk",
+          "page": "—"
+        },
+        {
+          "name": "Olgoi-Khorkhoi",
+          "id": "olgoi-khorkhoi",
+          "tradition": "mongol",
           "page": "—"
         }
       ]
@@ -2683,11 +2665,35 @@
       "type": "entry"
     },
     {
+      "name": "allghoi khorkhoi",
+      "id": "olgoi-khorkhoi",
+      "seeAlso": "Olgoi-Khorkhoi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Almas",
       "id": "almas",
-      "pronunciation": "—",
+      "pronunciation": "ahl-MAHS",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Almas-kishi",
+      "id": "almas",
+      "seeAlso": "Almas",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Almasty",
+      "id": "almas",
+      "seeAlso": "Almas",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Amarok",
@@ -2811,11 +2817,27 @@
       "type": "entry"
     },
     {
+      "name": "Bouda",
+      "id": "buda",
+      "seeAlso": "Buda",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Buda",
       "id": "buda",
-      "pronunciation": "—",
+      "pronunciation": "BOO-dah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Bunian",
+      "id": "orang-bunian",
+      "seeAlso": "Orang Bunian",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Camazotz",
@@ -2832,9 +2854,17 @@
       "type": "entry"
     },
     {
+      "name": "Chotgor",
+      "id": "chotgor",
+      "seeAlso": "Chötgör",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Chötgör",
       "id": "chotgor",
-      "pronunciation": "—",
+      "pronunciation": "CHUT-gur",
       "page": "—",
       "type": "entry"
     },
@@ -2846,6 +2876,14 @@
       "type": "entry"
     },
     {
+      "name": "Čötgör",
+      "id": "chotgor",
+      "seeAlso": "Chötgör",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Curupira",
       "id": "curupira",
       "pronunciation": "—",
@@ -2853,9 +2891,25 @@
       "type": "entry"
     },
     {
+      "name": "Dev",
+      "id": "devi",
+      "seeAlso": "Devi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Devebi (çoğul)",
+      "id": "devi",
+      "seeAlso": "Devi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Devi",
       "id": "devi",
-      "pronunciation": "—",
+      "pronunciation": "DEH-vee",
       "page": "—",
       "type": "entry"
     },
@@ -2897,9 +2951,17 @@
     {
       "name": "Ganen",
       "id": "ganen",
-      "pronunciation": "—",
+      "pronunciation": "gah-NEN",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Ganén",
+      "id": "ganen",
+      "seeAlso": "Ganen",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Garuḍa",
@@ -2925,9 +2987,25 @@
     {
       "name": "Gufihtar",
       "id": "gufihtar",
-      "pronunciation": "—",
+      "pronunciation": "GOO-fih-tar",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Gufihttar",
+      "id": "gufihtar",
+      "seeAlso": "Gufihtar",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Gufittar",
+      "id": "gufihtar",
+      "seeAlso": "Gufihtar",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Herensuge",
@@ -3000,11 +3078,27 @@
       "type": "entry"
     },
     {
+      "name": "Kaj",
+      "id": "kaji",
+      "seeAlso": "Kaji",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Kaji",
       "id": "kaji",
-      "pronunciation": "—",
+      "pronunciation": "KAH-jee",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Kajni",
+      "id": "kaji",
+      "seeAlso": "Kaji",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Kappa",
@@ -3094,6 +3188,14 @@
       "type": "entry"
     },
     {
+      "name": "Kuntilanak",
+      "id": "pontianak",
+      "seeAlso": "Pontianak",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Lamashtu",
       "id": "lamashtu",
       "pronunciation": "—",
@@ -3113,6 +3215,14 @@
       "pronunciation": "—",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Langsuir (akraba)",
+      "id": "pontianak",
+      "seeAlso": "Pontianak",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Lemures",
@@ -3167,6 +3277,14 @@
       "name": "masalai ples",
       "id": "masalai",
       "seeAlso": "Masalai",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Matianak",
+      "id": "pontianak",
+      "seeAlso": "Pontianak",
       "pronunciation": "",
       "page": "—",
       "type": "crossref"
@@ -3246,16 +3364,40 @@
     {
       "name": "Ochokochi",
       "id": "ochokochi",
-      "pronunciation": "—",
+      "pronunciation": "o-cho-KO-chee",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Ochokoçi",
+      "id": "ochokochi",
+      "seeAlso": "Ochokochi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Očokoči",
+      "id": "ochokochi",
+      "seeAlso": "Ochokochi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Olgoi-Khorkhoi",
       "id": "olgoi-khorkhoi",
-      "pronunciation": "—",
+      "pronunciation": "OL-goy KHOR-khoy",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Olgoi-khorkhoi",
+      "id": "olgoi-khorkhoi",
+      "seeAlso": "Olgoi-Khorkhoi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Ông Ba Mươi",
@@ -3267,9 +3409,17 @@
     {
       "name": "Orang Bunian",
       "id": "orang-bunian",
-      "pronunciation": "—",
+      "pronunciation": "O-rahng boo-nee-AHN",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Orang halus",
+      "id": "orang-bunian",
+      "seeAlso": "Orang Bunian",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Perī",
@@ -3302,7 +3452,7 @@
     {
       "name": "Pontianak",
       "id": "pontianak",
-      "pronunciation": "—",
+      "pronunciation": "pon-tee-AH-nak",
       "page": "—",
       "type": "entry"
     },
@@ -3330,9 +3480,17 @@
     {
       "name": "Rangda",
       "id": "rangda",
-      "pronunciation": "—",
+      "pronunciation": "RAHNG-dah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Rangda ing Dirah",
+      "id": "rangda",
+      "seeAlso": "Rangda",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Repun Kamuy",
@@ -3392,11 +3550,35 @@
       "type": "entry"
     },
     {
+      "name": "Staaloe",
+      "id": "stallu",
+      "seeAlso": "Stállu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Stallo",
+      "id": "stallu",
+      "seeAlso": "Stállu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Stállu",
       "id": "stallu",
-      "pronunciation": "—",
+      "pronunciation": "STAHL-loo",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Stalo",
+      "id": "stallu",
+      "seeAlso": "Stállu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Strigoi",
@@ -3471,9 +3653,25 @@
     {
       "name": "Ulda",
       "id": "ulda",
-      "pronunciation": "—",
+      "pronunciation": "OOL-dah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Ulda-almmái",
+      "id": "ulda",
+      "seeAlso": "Ulda",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Uldat (çoğul)",
+      "id": "ulda",
+      "seeAlso": "Ulda",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Vârcolac",
@@ -3544,9 +3742,17 @@
     {
       "name": "Zar",
       "id": "zar",
-      "pronunciation": "—",
+      "pronunciation": "ZAHR",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Zār",
+      "id": "zar",
+      "seeAlso": "Zar",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Ziz",

@@ -1,0 +1,163 @@
+{
+  "tradition": "ityopya",
+  "creatures": [
+    {
+      "id": "buda",
+      "name": "Buda",
+      "altNames": [
+        "Bouda"
+      ],
+      "pronunciation": "BOO-dah",
+      "sources": [
+        {
+          "ref": "Ronald A. Reminick, \"The Evil Eye Belief Among the Amhara of Ethiopia\", *Ethnology* 13:3 (1974), 279–291",
+          "type": "scholarly",
+          "verification": "article",
+          "access": "rightsinexile.org — tam metin PDF"
+        },
+        {
+          "ref": "Simon D. Messing, \"Group Therapy and Social Status in the Zar Cult of Ethiopia\", *American Anthropologist* 60 (1958)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Messing'in 1953–54 Gondar saha çalışmasından."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D110"
+      ],
+      "motifDefs": {
+        "D110": "Transformation: man to wild beast (mammal)"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.2 öneriyordu; D113'ün doğrulanan tanımı 'Transformation: man to canine animal (wild)' ve D113.2'nin bağımsız tanımı görülmedi. Sırtlan köpekgil DEĞİLDİR (Hyaenidae ayrı bir familyadır), dolayısıyla D113 kümesi biyolojik olarak da yanlış. Doğrulanmış üst kod D110 ('Transformation: man to wild beast (mammal)') kullanıldı.",
+      "motifChanged": "D113.2 → D110. Sırtlan köpekgil değildir; D113 (canine) kümesi uymuyor ve D113.2 doğrulanamadı.",
+      "region": "Etiyopya ve Eritre yaylaları; Amhara bölgesi",
+      "attested": "Reminick'in 1969–71 Amhara saha çalışması; 1974'te yayımlandı",
+      "appearance": [
+        "Gündüz insan — çoğunlukla demirci veya çömlekçi",
+        "Gece sırtlan"
+      ],
+      "behaviour": "Nazarla hastalık verir. Reminick, buda suçlamasının toplumsal gerilimi DIŞSALLAŞTIRMA işlevi gördüğünü gösterir: zarar, hastalık gibi sıradan sebeplere değil, hayalî bir kötücül faile atfedilir.",
+      "incident": "Faz 3'te Reminick'ten doğrudan okunacak.",
+      "counter": "Reminick'in kaydettiği muska ve uygulamalar Faz 3'te doğrulanacak.",
+      "variants": [
+        {
+          "where": "Amhara (Reminick)",
+          "what": "Suçlama zanaatkâr gruplara — demirci, çömlekçi — ve Beta Israel'e yöneltilir"
+        }
+      ],
+      "variantNote": "Buda inancı bir yaratık anlatısı olduğu kadar bir TOPLUMSAL DIŞLAMA mekanizmasıdır; madde bunu söylemek zorunda.",
+      "restriction": "⚠ ETİK DİKKAT: buda suçlaması tarihsel olarak Beta Israel (Etiyopya Yahudileri) ve zanaatkâr kastlara yöneltilmiş, gerçek insanlara zarar vermiş bir suçlamadır. Madde figürü anlatırken suçlamayı YENİDEN ÜRETMEYECEK; Reminick'in toplumsal çözümlemesi maddenin parçası olacak. Yaşayan bir topluluğa yönelik suçlamayı 'folklor' diye nötrleştirmek bu kitabın standardını ihlal eder.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Bu madde kitabın en dikkat isteyen maddelerinden biri: anlatılan şey bir yaratık DEĞİL, bir suçlamadır.",
+        "Reminick'in çözümlemesi 5. bölümün ('neden korkulur') tamamını taşımalı."
+      ]
+    },
+    {
+      "id": "zar",
+      "name": "Zar",
+      "altNames": [
+        "Zār"
+      ],
+      "pronunciation": "ZAHR",
+      "sources": [
+        {
+          "ref": "Simon D. Messing, \"Group Therapy and Social Status in the Zar Cult of Ethiopia\", *American Anthropologist* 60 (1958)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Messing'in 1953–54 Gondar saha çalışmasından."
+        },
+        {
+          "ref": "Janice Boddy, *Wombs and Alien Spirits: Women, Men, and the Zār Cult in Northern Sudan* (Madison: University of Wisconsin Press, 1989)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Sudan üzerine; zar kompleksi Etiyopya ile Sudan arasında paylaşılır. Varyant olarak kullanılır, Etiyopya kaydı olarak değil."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F402"
+      ],
+      "motifDefs": {
+        "F402": "—"
+      },
+      "motifVerified": false,
+      "motifNote": "KOD DOĞRULANAMADI. Tohum F402 öneriyor ama bu turda erişilen nüshada F402'nin bağımsız tanımı görülmedi. Faz 2'de teyit edilecek. F400 ('Spirits and demons (general)') doğrulanmış bir alternatiftir.",
+      "region": "Etiyopya (özellikle Gondar) ve Kuzey Sudan",
+      "attested": "Messing'in 1953–54 Gondar saha çalışması",
+      "appearance": [
+        "Görünmez; tutulan kişide belirir"
+      ],
+      "behaviour": "İnsana yerleşir. Uzlaşma ancak tören yoluyla kurulur; kovma değil ANLAŞMA esastır.",
+      "incident": "Faz 2'de kaynak doğrulandığında yazılacak.",
+      "counter": "Tören yoluyla uzlaşma.",
+      "variants": [
+        {
+          "where": "Kuzey Sudan (Boddy 1989)",
+          "what": "Zar kültü kadınların toplumsal alanı olarak çözümlenir"
+        }
+      ],
+      "variantNote": "Zar bir yaratık değil bir İLİŞKİ biçimi; madde bunu gizlemeyecek.",
+      "restriction": "⚠ Zar YAŞAYAN bir uygulamadır. Tören sırası, ruh adları, davet formülleri ve uygulayıcıya özgü bilgi KULLANILMAZ. Yalnızca yayımlanmış akademik betimleme kullanılır.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ Motif kodu doğrulanmadı.",
+        "Zar'ın 'yaratık' olarak sunulması zorlama; Faz 2'de maddenin kitapta kalıp kalmayacağı değerlendirilmeli."
+      ]
+    },
+    {
+      "id": "ganen",
+      "name": "Ganen",
+      "altNames": [
+        "Ganén"
+      ],
+      "pronunciation": "gah-NEN",
+      "sources": [
+        {
+          "ref": "Simon D. Messing, \"Group Therapy and Social Status in the Zar Cult of Ethiopia\", *American Anthropologist* 60 (1958)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Messing'in 1953–54 Gondar saha çalışmasından."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G302"
+      ],
+      "motifDefs": {
+        "G302": "Demons. Malevolent creatures (not usually further defined)"
+      },
+      "motifVerified": false,
+      "motifNote": "KOD DEĞİŞTİRİLDİ ama madde YETERSİZ KAYNAKLI. Tohum G300 ('Other ogres') idi; G302 ('Demons') daha uygun. Ancak bu madde için TEK kaynak bulunabildi ve o da katalog düzeyinde — iki bağımsız kaynak kuralı sağlanmıyor.",
+      "region": "Etiyopya",
+      "attested": "Doğrulanamadı",
+      "appearance": [
+        "Kuyulardan ve karanlıktan çıktığı anlatılır"
+      ],
+      "behaviour": "Yolcuyu bekler.",
+      "incident": "—",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yetersiz kaynak nedeniyle tarama tamamlanamadı.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ BU MADDE DÜŞME ADAYI. İki bağımsız kaynak bulunamadı. SCOPE_DECISIONS.md'ye yazıldı; Faz 2'de ya kaynak bulunacak ya madde düşecek."
+      ]
+    }
+  ]
+}

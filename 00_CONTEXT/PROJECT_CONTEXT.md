@@ -11,6 +11,33 @@
 
 ## 1. Bir cümlede durum
 
+Üretim sistemi kuruldu; **Faz 1 araştırması sürüyor**. Yol haritasının
+kapsam-belirleyici saydığı **zor sekiz gelenek tamamlandı** (24 madde, 13'ü
+kapıdan geçti) ve iki **sistematik motif kodu hatası** yazımdan önce yakalandı.
+Kalan 96 madde araştırılmayı bekliyor; kapsam **henüz kilitlenmedi**.
+
+> Güncel ölçüm: [`BOOK_STATS.md`](../BOOK_STATS.md) ·
+> kapsam kararları: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md)
+
+### Faz 1 · ne bitti, ne bitmedi
+
+| Çıktı | Durum |
+|---|---|
+| Üretim sistemi, CI/CD, belgeler | ✅ |
+| Kaynak gösterme ölçütü (`SOURCING_STANDARD.md`) | ✅ |
+| Araştırma hattı (`research_gen.py`) + kapsam kararı katmanı | ✅ |
+| Doğrulanmış motif kodu tabanı (67 kod) | ✅ |
+| Zor sekiz gelenek (24 madde) | ✅ |
+| `STYLE.md` ses kalibrasyonu (üç gerçek paragraf) | ✅ |
+| `editions.py` + fiyat/telif doğrulaması | ✅ |
+| Kalan 96 maddenin araştırması | ⬜ |
+| Kapsam kilidi (≥112 kapısı) | ⬜ |
+| `.gate` → `phase1` · `v0.1.0` etiketi | ⬜ |
+
+---
+
+## 1b. Üretim sistemi (önceki tur)
+
 Üretim sistemi **kuruldu ve test edildi**. `spec.json`'da 120 tohum kaydı,
 on beş doğrulama betiği, CI/CD hattı, 120 plakalık prompt kütüphanesi ve
 altı fazlık uygulama yol haritası hazır. **Kitabın tek kelimesi yazılmadı**

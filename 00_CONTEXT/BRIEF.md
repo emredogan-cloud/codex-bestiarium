@@ -175,7 +175,50 @@ Her biri **≤50 karakter**. Başlıkta ve alt başlıkta geçen kelimeler
 
 ---
 
-## 8. Faz 1 sonunda doldurulacak
+## 8. Fiyat ve telif doğrulaması — FAZ 1'DE HESAPLANDI
+
+`08_BUILD/editions.py` → `verify_royalties()` · komut:
+`python3 -c "import sys;sys.path.insert(0,'08_BUILD');import editions;print(editions.verify_royalties())"`
+
+| Sürüm | Sayfa (tahmini) | Baskı maliyeti | Liste fiyatı | **Birim telif** | KDP sayfa bandı | İç marj |
+|---|---:|---:|---:|---:|---|---|
+| Ciltsiz | 404 | 5.85 $ | 24.99 $ | **9.15 $** | 24–828 ✓ | 0.875" ≥ 0.625" ✓ |
+| Ciltli | 404 | 10.50 $ | 37.99 $ | **12.30 $** | 75–550 ✓ | 0.875" ≥ 0.625" ✓ |
+| Büyük Punto | 707 | 9.48 $ | 29.99 $ | **8.51 $** | 24–828 ✓ | 0.875" ≥ 0.875" ✓ |
+
+**Faz 1 dizgi kapısı: GEÇTİ.** Üç sürüm de pozitif telif veriyor, üçü de KDP
+sayfa bandında ve üçünün de iç marjı KDP asgarisinin üstünde.
+
+> ⚠ Sayfa sayıları **`provisional=True`** ile işaretlidir
+> (`editions.py` → `PROVISIONAL_PAGES`). Dizgi Faz 6'da gerçek değeri
+> **ölçecek**. Cilt 1'de büyük punto 540 sayfa modellenmiş, **578** çıkmıştı —
+> *model değil ölçüm geçerlidir.* Sayfa sayısı değişirse bu tablo ve fiyatlar
+> yeniden hesaplanır.
+
+Büyük punto fiyatı roadmap'te belirtilmemişti; 707 sayfalık tahminle
+**29,99 $** seçildi (27,99 $'da telif 7,32 $'a düşüyordu).
+
+---
+
+## 9. Kapsam kilidi — DURUM
+
+> ⛔ **Kapsam HENÜZ KİLİTLENMEDİ.** Faz 1'in tamamlanma ölçütü ≥112 doğrulanmış
+> madde; ölçülen **13/120**. Ayrıntı ve gerekçe:
+> [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md).
+
+| | |
+|---|---:|
+| Araştırılmış madde | **24**/120 |
+| Kapıdan geçen | **13** |
+| Düşen | **1** (Kaia → Temes Savsap) |
+| Zor sekiz gelenek | **tamamlandı** — geçiş oranı %54 |
+
+Kilit, kalan 96 madde araştırıldıktan sonra atılacak. Kapsam kararı
+(120/40 mı, 100/35 mi) o ölçümle verilir — şu anki veriyle vermek erken olur.
+
+---
+
+## 10. Faz 1 sonunda doldurulacak
 
 - [ ] Nihai gelenek sayısı (40 mı, 35 mi) — **kilitlenir**
 - [ ] Nihai madde sayısı (120 mi, 100 mü) — **kilitlenir**

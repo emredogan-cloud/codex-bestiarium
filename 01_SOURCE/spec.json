@@ -2470,32 +2470,53 @@
       "id": "pontianak",
       "number": 76,
       "name": "Pontianak",
-      "pronunciation": "",
+      "pronunciation": "pon-tee-AH-nak",
       "tradition": "nusantara",
       "class": "VI",
       "motif": [
-        "E425"
+        "G262.0.1"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Kuntilanak",
+        "Matianak",
+        "Langsuir (akraba)"
+      ],
+      "region": "Malay yarımadası, Sumatra, Java, Borneo",
+      "attested": "Skeat'in 1890'lar saha derlemesi; 1900'de yayımlandı",
+      "sources": [
+        {
+          "ref": "Walter William Skeat, *Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula* (Londra: Macmillan, 1900)",
+          "type": "primary",
+          "verification": "toc",
+          "locus": "Bölüm VI (\"Magic Rites affecting the Life of Man\"), Birth-Spirits bölümü; Plaka 7: \"Penanggalan and Langsuir\""
+        },
+        {
+          "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-076",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Pontianak ve langsuir kaynaklarda bazen ayrı bazen aynı; madde bu belirsizliği gösterecek.",
+      "restrictionScreened": true,
       "seedNoteTr": "Doğumda ölen kadının dönüşü; kokusu çiçek, sesi bebek.",
       "researchFile": "01_SOURCE/research/pontianak.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "orang-bunian",
       "number": 77,
       "name": "Orang Bunian",
-      "pronunciation": "",
+      "pronunciation": "O-rahng boo-nee-AHN",
       "tradition": "nusantara",
       "class": "I",
       "motif": [
@@ -2503,15 +2524,34 @@
       ],
       "motifVerified": false,
       "kinFamily": "H",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Bunian",
+        "Orang halus"
+      ],
+      "region": "Malay yarımadası, Sumatra, Borneo; orman",
+      "attested": "Skeat 1900; terim günümüzde de canlı",
+      "sources": [
+        {
+          "ref": "Walter William Skeat, *Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula* (Londra: Macmillan, 1900)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-077",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Ormanda paralel bir toplum kuran görünmez halk.",
       "researchFile": "01_SOURCE/research/orang-bunian.md",
       "status": "draft"
@@ -2520,7 +2560,7 @@
       "id": "rangda",
       "number": 78,
       "name": "Rangda",
-      "pronunciation": "",
+      "pronunciation": "RAHNG-dah",
       "tradition": "nusantara",
       "class": "II",
       "motif": [
@@ -2528,15 +2568,33 @@
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Rangda ing Dirah"
+      ],
+      "region": "Bali",
+      "attested": "Belo'nun 1930'lardaki saha çalışması; 1949'da yayımlandı",
+      "sources": [
+        {
+          "ref": "Jane Belo, *Rangda and Barong* (Seattle: University of Washington Press, American Ethnological Society Monograph 16, 1949)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-078",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Dul cadı kraliçe; Barong'un ezelî karşıtı.",
       "researchFile": "01_SOURCE/research/rangda.md",
       "status": "draft"
@@ -2620,7 +2678,7 @@
       "id": "almas",
       "number": 82,
       "name": "Almas",
-      "pronunciation": "",
+      "pronunciation": "ahl-MAHS",
       "tradition": "mongol",
       "class": "I",
       "motif": [
@@ -2628,15 +2686,34 @@
       ],
       "motifVerified": false,
       "kinFamily": "G",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Almasty",
+        "Almas-kishi"
+      ],
+      "region": "Moğolistan ve Altay bozkırı",
+      "attested": "19.–20. yy seyahat ve saha kayıtları",
+      "sources": [
+        {
+          "ref": "Walther Heissig, *The Religions of Mongolia*, çev. Geoffrey Samuel (Londra: Routledge & Kegan Paul, 1980)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Roy Chapman Andrews, *The New Conquest of Central Asia: A Narrative of the Explorations of the Central Asiatic Expeditions in Mongolia and China, 1921–1930* (New York: American Museum of Natural History, 1932)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-082",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Bozkırın kıllı yaban adamı; konuşmayan ama takas eden.",
       "researchFile": "01_SOURCE/research/almas.md",
       "status": "draft"
@@ -2645,23 +2722,42 @@
       "id": "olgoi-khorkhoi",
       "number": 83,
       "name": "Olgoi-Khorkhoi",
-      "pronunciation": "",
+      "pronunciation": "OL-goy KHOR-khoy",
       "tradition": "mongol",
       "class": "II",
       "motif": [
-        "B765"
+        "G302"
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Olgoi-khorkhoi",
+        "allghoi khorkhoi"
+      ],
+      "region": "Gobi çölü",
+      "attested": "Andrews'un 1922–25 sefer kayıtları; 1932'de yayımlandı",
+      "sources": [
+        {
+          "ref": "Roy Chapman Andrews, *The New Conquest of Central Asia: A Narrative of the Explorations of the Central Asiatic Expeditions in Mongolia and China, 1921–1930* (New York: American Museum of Natural History, 1932)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Walther Heissig, *The Religions of Mongolia*, çev. Geoffrey Samuel (Londra: Routledge & Kegan Paul, 1980)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-083",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Çölün altında yaşayan; dokunmadan öldüren bağırsak-solucan.",
       "researchFile": "01_SOURCE/research/olgoi-khorkhoi.md",
       "status": "draft"
@@ -2670,7 +2766,7 @@
       "id": "chotgor",
       "number": 84,
       "name": "Chötgör",
-      "pronunciation": "",
+      "pronunciation": "CHUT-gur",
       "tradition": "mongol",
       "class": "VI",
       "motif": [
@@ -2678,15 +2774,29 @@
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Chotgor",
+        "Čötgör"
+      ],
+      "region": "Moğolistan",
+      "attested": "Heissig'in derlediği Moğol halk dini kayıtları",
+      "sources": [
+        {
+          "ref": "Walther Heissig, *The Religions of Mongolia*, çev. Geoffrey Samuel (Londra: Routledge & Kegan Paul, 1980)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-084",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Yolunu bulamayan ölü; boş çadırlarda kalan.",
       "researchFile": "01_SOURCE/research/chotgor.md",
       "status": "draft"
@@ -2829,7 +2939,7 @@
       "id": "ochokochi",
       "number": 88,
       "name": "Ochokochi",
-      "pronunciation": "",
+      "pronunciation": "o-cho-KO-chee",
       "tradition": "kartveli",
       "class": "I",
       "motif": [
@@ -2837,10 +2947,29 @@
       ],
       "motifVerified": false,
       "kinFamily": "G",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Ochokoçi",
+        "Očokoči"
+      ],
+      "region": "Samegrelo (Megrelya), batı Gürcistan; orman ve dağ",
+      "attested": "19.–20. yy Megrel derlemeleri; Virsaladze ve Chikovani'nin saha çalışmaları",
+      "sources": [
+        {
+          "ref": "Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Mikheil Chikovani, *Kartuli polk'lori* (Gürcü folkloru) (Tiflis: Sakhelgami, 1946)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-088",
       "wordTarget": 700,
@@ -2854,7 +2983,7 @@
       "id": "kaji",
       "number": 89,
       "name": "Kaji",
-      "pronunciation": "",
+      "pronunciation": "KAH-jee",
       "tradition": "kartveli",
       "class": "III",
       "motif": [
@@ -2862,14 +2991,33 @@
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Kajni",
+        "Kaj"
+      ],
+      "region": "Gürcistan geneli; özellikle dağ bölgeleri",
+      "attested": "Ortaçağ Gürcü edebiyatında (Vepkhistqaosani çevresinde) ve 19.–20. yy derlemelerinde",
+      "sources": [
+        {
+          "ref": "Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Mikheil Chikovani, *Kartuli polk'lori* (Gürcü folkloru) (Tiflis: Sakhelgami, 1946)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-089",
       "wordTarget": 700,
-      "variantNote": "",
+      "variantNote": "Kaji edebî ve folklorik anlamları ayrışan bir terim; madde ikisini ayırmalı.",
       "restrictionScreened": false,
       "seedNoteTr": "Demirciliği bilen, gözle görülmeyen kurnaz halk.",
       "researchFile": "01_SOURCE/research/kaji.md",
@@ -2879,7 +3027,7 @@
       "id": "devi",
       "number": 90,
       "name": "Devi",
-      "pronunciation": "",
+      "pronunciation": "DEH-vee",
       "tradition": "kartveli",
       "class": "II",
       "motif": [
@@ -2887,10 +3035,29 @@
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Dev",
+        "Devebi (çoğul)"
+      ],
+      "region": "Gürcistan dağları; mağara anlatıları",
+      "attested": "19.–20. yy derlemeleri; Chikovani ve Virsaladze",
+      "sources": [
+        {
+          "ref": "Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Mikheil Chikovani, *Kartuli polk'lori* (Gürcü folkloru) (Tiflis: Sakhelgami, 1946)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-090",
       "wordTarget": 700,
@@ -2979,32 +3146,50 @@
       "id": "buda",
       "number": 94,
       "name": "Buda",
-      "pronunciation": "",
+      "pronunciation": "BOO-dah",
       "tradition": "ityopya",
       "class": "III",
       "motif": [
-        "D113.2"
+        "D110"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Bouda"
+      ],
+      "region": "Etiyopya ve Eritre yaylaları; Amhara bölgesi",
+      "attested": "Reminick'in 1969–71 Amhara saha çalışması; 1974'te yayımlandı",
+      "sources": [
+        {
+          "ref": "Ronald A. Reminick, \"The Evil Eye Belief Among the Amhara of Ethiopia\", *Ethnology* 13:3 (1974), 279–291",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Simon D. Messing, \"Group Therapy and Social Status in the Zar Cult of Ethiopia\", *American Anthropologist* 60 (1958)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-094",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Buda inancı bir yaratık anlatısı olduğu kadar bir TOPLUMSAL DIŞLAMA mekanizmasıdır; madde bunu söylemek zorunda.",
+      "restrictionScreened": true,
       "seedNoteTr": "Gündüz demirci, gece sırtlan; nazarla hastalık veren.",
       "researchFile": "01_SOURCE/research/buda.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "zar",
       "number": 95,
       "name": "Zar",
-      "pronunciation": "",
+      "pronunciation": "ZAHR",
       "tradition": "ityopya",
       "class": "VI",
       "motif": [
@@ -3012,15 +3197,33 @@
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Zār"
+      ],
+      "region": "Etiyopya (özellikle Gondar) ve Kuzey Sudan",
+      "attested": "Messing'in 1953–54 Gondar saha çalışması",
+      "sources": [
+        {
+          "ref": "Simon D. Messing, \"Group Therapy and Social Status in the Zar Cult of Ethiopia\", *American Anthropologist* 60 (1958)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Janice Boddy, *Wombs and Alien Spirits: Women, Men, and the Zār Cult in Northern Sudan* (Madison: University of Wisconsin Press, 1989)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-095",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Zar bir yaratık değil bir İLİŞKİ biçimi; madde bunu gizlemeyecek.",
+      "restrictionScreened": true,
       "seedNoteTr": "İnsana yerleşen ve ancak törenle uzlaşılan ruh.",
       "researchFile": "01_SOURCE/research/zar.md",
       "status": "draft"
@@ -3029,23 +3232,36 @@
       "id": "ganen",
       "number": 96,
       "name": "Ganen",
-      "pronunciation": "",
+      "pronunciation": "gah-NEN",
       "tradition": "ityopya",
       "class": "II",
       "motif": [
-        "G300"
+        "G302"
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Ganén"
+      ],
+      "region": "Etiyopya",
+      "attested": "Doğrulanamadı",
+      "sources": [
+        {
+          "ref": "Simon D. Messing, \"Group Therapy and Social Status in the Zar Cult of Ethiopia\", *American Anthropologist* 60 (1958)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-096",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Kuyulardan ve karanlıktan çıkan, yolcuyu bekleyen.",
       "researchFile": "01_SOURCE/research/ganen.md",
       "status": "draft"
@@ -3429,76 +3645,139 @@
       "id": "stallu",
       "number": 112,
       "name": "Stállu",
-      "pronunciation": "",
+      "pronunciation": "STAHL-loo",
       "tradition": "sapmi",
       "class": "II",
       "motif": [
         "G100"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": "G",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Stallo",
+        "Staaloe",
+        "Stalo"
+      ],
+      "region": "Sápmi — kuzey İskandinavya ve Kola yarımadası",
+      "attested": "Sámi anlatı geleneği ağırlıklı SÖZLÜdür; yazılı kayıt 20. yy başından öncesine güç gider (Conrad bunu açıkça belirtir). Demant Hatt'ın derlemesi 1907–16",
+      "sources": [
+        {
+          "ref": "JoAnn Conrad, \"Tracking the Ogre — the Sami Stallo\", *Ural-altaische Jahrbücher* 16 (1999–2000), 56–75",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "JoAnn Conrad, \"'The Tale of Njunje Paggas': A 'Lappish' Stallo Tale from Sweden by P. A. Lindholm\", *Folklore* 131:2 (2020), 204–224",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Emilie Demant Hatt, *By the Fire: Sami Folktales and Legends*, çev. ve yay. haz. Barbara Sjöholm (Minneapolis: University of Minnesota Press, 2019), \"Folktales\", 58–67",
+          "type": "primary",
+          "verification": "article"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-112",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Stállu'nun dış dünyayla (tüccar, vergi memuru, komşu halk) ilişkisi anlatının siyasetidir; Conrad bunu ayrıntılandırır.",
+      "restrictionScreened": true,
       "seedNoteTr": "Demir giyimli, gümüş toplayan, aptal ama tehlikeli dev.",
       "researchFile": "01_SOURCE/research/stallu.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "ulda",
       "number": 113,
       "name": "Ulda",
-      "pronunciation": "",
+      "pronunciation": "OOL-dah",
       "tradition": "sapmi",
       "class": "I",
       "motif": [
         "F451"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": "H",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Uldat (çoğul)",
+        "Ulda-almmái"
+      ],
+      "region": "Sápmi; yeraltı ve tundra",
+      "attested": "Demant Hatt'ın 1907–16 derlemeleri",
+      "sources": [
+        {
+          "ref": "Emilie Demant Hatt, *By the Fire: Sami Folktales and Legends*, çev. ve yay. haz. Barbara Sjöholm (Minneapolis: University of Minnesota Press, 2019), \"Folktales\", 58–67",
+          "type": "primary",
+          "verification": "article"
+        },
+        {
+          "ref": "JoAnn Conrad, \"Tracking the Ogre — the Sami Stallo\", *Ural-altaische Jahrbücher* 16 (1999–2000), 56–75",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-113",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Yerin altında sürü güden gizli halk; adları anılmaz.",
       "researchFile": "01_SOURCE/research/ulda.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "gufihtar",
       "number": 114,
       "name": "Gufihtar",
-      "pronunciation": "",
+      "pronunciation": "GOO-fih-tar",
       "tradition": "sapmi",
       "class": "III",
       "motif": [
-        "F300"
+        "F400"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Gufittar",
+        "Gufihttar"
+      ],
+      "region": "Sápmi; sis ve tundra",
+      "attested": "Demant Hatt'ın 1907–16 derlemeleri",
+      "sources": [
+        {
+          "ref": "Emilie Demant Hatt, *By the Fire: Sami Folktales and Legends*, çev. ve yay. haz. Barbara Sjöholm (Minneapolis: University of Minnesota Press, 2019), \"Folktales\", 58–67",
+          "type": "primary",
+          "verification": "article"
+        },
+        {
+          "ref": "JoAnn Conrad, \"Tracking the Ogre — the Sami Stallo\", *Ural-altaische Jahrbücher* 16 (1999–2000), 56–75",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-114",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Yolcuyu görünmez kılan; sisin içinden konuşan.",
       "researchFile": "01_SOURCE/research/gufihtar.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "huldufolk",

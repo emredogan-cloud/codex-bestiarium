@@ -280,8 +280,8 @@ PAPERBACK = Edition(
     body_pt=11.2, lead_pt=15.6,
     gutter=0.875, outer=0.625, top=0.75, bottom=0.75,
     display_scale=1.0, folio_pt=9.2, head_pt=7.6,
-    price_usd=18.99,
-    kdp_notes="Yayında. 329 sayfa. Bu sürümün hiçbir parametresi değiştirilmez.",
+    price_usd=24.99,
+    kdp_notes="Codex Bestiarium. Sayfa TAHMİNİ 404 (provisional) — dizgi Faz 6'da ölçecek.",
     slug="PAPERBACK",
 )
 
@@ -300,8 +300,8 @@ HARDCOVER = Edition(
     body_pt=11.2, lead_pt=15.6,
     gutter=0.875, outer=0.625, top=0.75, bottom=0.75,
     display_scale=1.0, folio_pt=9.2, head_pt=7.6,
-    price_usd=32.99,
-    kdp_notes="İç blok ciltsizle özdeştir (bilinçli). 75–550 sayfa sınırı: 329 ✓",
+    price_usd=37.99,
+    kdp_notes="İç blok ciltsizle özdeştir (bilinçli). 75–550 sayfa sınırı: 404 ✓ (provisional)",
     slug="HARDCOVER",
 )
 
@@ -320,14 +320,76 @@ LARGEPRINT = Edition(
     body_pt=16.0, lead_pt=24.0,
     gutter=0.875, outer=0.500, top=0.70, bottom=0.70,
     display_scale=1.28, folio_pt=13.0, head_pt=10.5,
-    price_usd=27.99,
+    price_usd=29.99,
     title_suffix=" (Large Print Edition)",
-    kdp_notes="Ayrı ASIN. Başlıkta 'Large Print' geçmeli — arama niyeti farklı.",
+    kdp_notes="Ayrı ASIN. Başlıkta 'Large Print' geçmeli. Sayfa TAHMİNİ ~707 (provisional).",
     slug="LARGEPRINT",
 )
 
 EDITIONS: Dict[str, Edition] = {e.key: e for e in (PAPERBACK, HARDCOVER, LARGEPRINT)}
 ORDER = ["paperback", "hardcover", "largeprint"]
+
+
+
+# =============================================================================
+# BESTIARIUM — PROVISIONAL SAYFA TAHMİNLERİ VE TELİF DOĞRULAMASI  (Faz 1)
+# =============================================================================
+# Bu sayılar TAHMİNDİR ve `provisional=True` ile işaretlidir. Dizgi Faz 6'da
+# gerçek değeri ÖLÇECEK. Cilt 1'de büyük punto 540 sayfa modellenmiş, 578
+# çıkmıştı — model değil ölçüm geçerlidir.
+
+PROVISIONAL_PAGES = {
+    "paperback": 404,     # yol haritası Bölüm 05.3 sayfa bütçesi
+    "hardcover": 404,     # iç blok ciltsizle özdeş
+    "largeprint": 707,    # 404 × 1.75 (Cilt 1'de ölçülen 329→578 oranı)
+}
+PROVISIONAL = True
+
+# KDP ABD baskı maliyeti — sabit + (sayfa × sayfa başı), siyah-beyaz
+KDP_PRINT_COST = {
+    "paperback": (1.00, 0.012),
+    "hardcover": (5.65, 0.012),
+    "largeprint": (1.00, 0.012),
+}
+ROYALTY_RATE = 0.60
+
+
+def print_cost(edition_key: str, pages: int) -> float:
+    fixed, per_page = KDP_PRINT_COST[edition_key]
+    return fixed + per_page * pages
+
+
+def royalty(edition_key: str, pages: int, price: float | None = None) -> float:
+    ed = EDITIONS[edition_key]
+    price = price if price is not None else ed.price_usd
+    return ROYALTY_RATE * price - print_cost(edition_key, pages)
+
+
+def verify_royalties(pages_by_edition: Optional[Dict[str, int]] = None) -> list:
+    """Faz 1 dizgi görevi: sayfa sayısı hedef fiyatta POZİTİF telif veriyor mu?
+
+    Ayrıca KDP'nin sert sayfa sınırlarını ve iç marj tablosunu denetler.
+    Dönüş: [(sürüm, sayfa, maliyet, telif, sorunlar)]
+    """
+    pages_by_edition = pages_by_edition or PROVISIONAL_PAGES
+    out = []
+    for key in ORDER:
+        ed = EDITIONS[key]
+        pages = pages_by_edition[key]
+        cost = print_cost(key, pages)
+        roy = royalty(key, pages)
+        problems = []
+        prof = BINDINGS[ed.binding]
+        if not (prof.min_pages <= pages <= prof.max_pages):
+            problems.append(
+                f"sayfa {pages} KDP bandı dışında ({prof.min_pages}–{prof.max_pages})")
+        if roy <= 0:
+            problems.append(f"telif POZİTİF DEĞİL: {roy:.2f} $")
+        req = required_gutter(pages)
+        if ed.gutter < req:
+            problems.append(f"iç marj {ed.gutter}\" < KDP asgarisi {req}\"")
+        out.append((key, pages, cost, roy, problems))
+    return out
 
 
 def get(key: str) -> Edition:
