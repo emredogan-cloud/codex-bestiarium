@@ -12,7 +12,7 @@ Kaynak: [`CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md`](CODEX_BESTIARIUM_IMPLEMEN
 |---:|---|---|---|---|---|
 | **1** | Altyapı, Araştırma ve Kapsam Kilidi | `████████████████` 112/112 (%100) | iki bağımsız kaynaklı madde | `v0.1.0` | Faz 1 · Temel |
 | **2** | Tasnif, Veri Modeli ve Pilot Plaka Seti | `████████████████` 112/112 (%100) | telaffuz + karşılıklı çapraz referans | `v0.2.0` | Faz 2 · Veri |
-| **3** | Çekirdek Yazım · Bekçiler ve Yutucular | `███████████████░` 42/45 (%93) | sınıf I + II maddeleri yazıldı | `v0.3.0` | Faz 3 · Çekirdek |
+| **3** | Çekirdek Yazım · Bekçiler ve Yutucular | `████████████████` 45/45 (%100) | sınıf I + II maddeleri yazıldı | `v0.3.0` | Faz 3 · Çekirdek |
 | **4** | Genişleme · Şekil Değiştirenler ve Su Sakinleri | `░░░░░░░░░░░░░░░░` 0/43 (%0) | sınıf III + IV maddeleri yazıldı | `v0.4.0` | Faz 4 · Genişleme |
 | **5** | Tamamlama, İllüstrasyon ve Editoryal İnceleme | `░░░░░░░░░░░░░░░░` 0/24 (%0) | sınıf V + VI maddeleri yazıldı | `v0.5.0` | Faz 5 · Tamamlama |
 | **6** | Üretim, KDP ve Lansman | `░░░░░░░░░░░░░░░░` 0/4 (%0) | üretilmiş yayın dosyası ailesi | `v1.0.0` | Faz 6 · Üretim |
@@ -36,7 +36,7 @@ Kaynak: [`CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md`](CODEX_BESTIARIUM_IMPLEMEN
 
 ## Sonraki eylem
 
-**Yazım.** 42/112 madde yazıldı.
+**Yazım.** 45/112 madde yazıldı.
 Tek seferde en fazla üç madde — daha fazlası üslup sürüklenmesi üretir.
 
 ---
