@@ -4909,7 +4909,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Belinden ayrılıp uçan üst gövde; hortumuyla ceninleri emen.",
       "researchFile": "01_SOURCE/research/manananggal.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tikbalang",
@@ -5170,7 +5170,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Toprağın altındaki et yiyen halk; tapınaklarla bastırılan.",
       "researchFile": "01_SOURCE/research/srin-po.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "olgoi-khorkhoi",
@@ -5223,7 +5223,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Çölün altında yaşayan; dokunmadan öldüren bağırsak-solucan.",
       "researchFile": "01_SOURCE/research/olgoi-khorkhoi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "vishap",
