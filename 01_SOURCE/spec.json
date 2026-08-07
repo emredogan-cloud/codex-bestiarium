@@ -1361,7 +1361,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dünyayı çevreleyip kendi kuyruğunu ısıran deniz yılanı.",
       "researchFile": "01_SOURCE/research/jormungandr.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "draugr",
@@ -1737,7 +1737,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Timsah, fil ve balığın birleştiği, eşiklerde oyulan su canavarı.",
       "researchFile": "01_SOURCE/research/makara.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "each-uisce",
@@ -2114,7 +2114,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Gövdesinden yeryüzünün yapıldığı, her ekleminde ağız olan ilkel timsah.",
       "researchFile": "01_SOURCE/research/cipactli.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ahuizotl",
