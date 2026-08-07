@@ -1,0 +1,23 @@
+{
+  "hardcover": {
+    "outer_pad": 0.58927,
+    "hinge": 0.1969,
+    "spine_board": 0.1885,
+    "board_overhang_h": 0.23813,
+    "board_overhang_w": 0.0,
+    "source": "KDP şablonu · 6x9 in · 329 sayfa · cream",
+    "_measured": {
+      "cover_w": 14.5833,
+      "cover_h": 10.4167,
+      "spine_w": 1.011,
+      "pages": 329,
+      "paper": "cream"
+    },
+    "barcode_rect": [
+      4.1433,
+      8.2517,
+      2.0,
+      1.2
+    ]
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "_note": "Plaka konusu — İngilizce görsel betimleme. Kaynak: master yol haritası Bölüm 04 tohum tablosunun tek satırlık tanımları. Faz 1 araştırması bittiğinde bu alanlar araştırma dosyalarının 'neye benzer' bölümünden ZENGİNLEŞTİRİLİR; uydurma anatomi eklenmez.",
+  "_generatedBy": "elle yazıldı · make_prompts.py okur",
+  "subjects": {
+    "kerberos": {
+      "number": 1,
+      "name": "Kérberos",
+      "subject": "a three-headed dog seated at a gate of the dead, all three heads alert, chains slack at its feet"
+    },
+    "chimaira": {
+      "number": 2,
+      "name": "Chímaira",
+      "subject": "a fire-breathing beast in which lion, goat and serpent are fused into one body, the goat head rising from the spine"
+    },
+    "lamia-hellenic": {
+      "number": 3,
+      "name": "Lámia",
+      "subject": "a queen with a serpent's lower body, hunting the children of others after losing her own"
+    },
+    "ammit": {
+      "number": 4,
+      "name": "Ammit",
+      "subject": "a composite devourer of crocodile, lion and hippopotamus, waiting beside a balance scale"
+    },
+    "apep": {
+      "number": 5,
+      "name": "Apep",
+      "subject": "an immense serpent coiled to swallow a solar barque, defeated and renewed each dawn"
+    },
+    "bennu": {
+      "number": 6,
+      "name": "Bennu",
+      "subject": "a heron rising from its own ash, marking the beginning of time"
+    },
+    "fenrir": {
+      "number": 7,
+      "name": "Fenrir",
+      "subject": "a bound wolf that took a god's hand, straining against a slender chain"
+    },
+    "jormungandr": {
+      "number": 8,
+      "name": "Jörmungandr",
+      "subject": "a sea serpent encircling the world and biting its own tail"
+    },
+    "draugr": {
+      "number": 9,
+      "name": "Draugr",
+      "subject": "a swollen, heavy corpse standing in its burial mound, guarding its grave-goods"
+    },
+    "yamata-no-orochi": {
+      "number": 10,
+      "name": "Yamata-no-Orochi",
+      "subject": "an eight-headed, eight-tailed river serpent demanding a girl each year"
+    },
+    "kappa": {
+      "number": 11,
+      "name": "Kappa",
+      "subject": "a river child with a water-filled dish set into its skull, beckoning to wrestle"
+    },
+    "tengu": {
+      "number": 12,
+      "name": "Tengu",
+      "subject": "a winged mountain being with a long nose, punishing the proud"
+    },
+    "garuda": {
+      "number": 13,
+      "name": "Garuḍa",
+      "subject": "a sun bird whose wingbeat is the storm, an enemy of serpents in its talons"
+    },
+    "naga": {
+      "number": 14,
+      "name": "Nāga",
+      "subject": "a serpent-person of the cities beneath the water, holding rain and treasure"
+    },
+    "makara": {
+      "number": 15,
+      "name": "Makara",
+      "subject": "a threshold beast combining crocodile, elephant and fish"
+    },
+    "each-uisce": {
+      "number": 16,
+      "name": "Each-uisce",
+      "subject": "a horse standing docile at the water's edge, waiting to be ridden, its mane always dripping"
+    },
+    "bean-sidhe": {
+      "number": 17,
+      "name": "Bean sídhe",
+      "subject": "a keening woman heard before a death, bound to one family"
+    },
+    "puca": {
+      "number": 18,
+      "name": "Púca",
+      "subject": "a shapeshifter caught between horse, goat and hare"
+    },
+    "humbaba": {
+      "number": 19,
+      "name": "Ḫumbaba",
+      "subject": "a giant guardian of the cedar forest whose face is woven from entrail coils"
+    },
+    "anzu": {
+      "number": 20,
+      "name": "Anzû",
+      "subject": "a lion-headed storm bird clutching stolen tablets of destiny"
+    },
+    "lamashtu": {
+      "number": 21,
+      "name": "Lamashtu",
+      "subject": "a female demon at the birthing bed, taking the child she pretends to nurse"
+    },
+    "cipactli": {
+      "number": 22,
+      "name": "Cipactli",
+      "subject": "a primordial crocodile with a mouth at every joint, its body become the earth"
+    },
+    "ahuizotl": {
+      "number": 23,
+      "name": "Ahuizotl",
+      "subject": "a dog-like water creature with a grasping hand at the tip of its tail"
+    },
+    "nahual": {
+      "number": 24,
+      "name": "Nahual",
+      "subject": "a sorcerer mid-transformation into their own animal, a second body bound to the day of birth"
+    },
+    "strix": {
+      "number": 25,
+      "name": "Strix",
+      "subject": "a witch in the form of a night bird, drinking from an infant"
+    },
+    "basiliscus": {
+      "number": 26,
+      "name": "Basiliscus",
+      "subject": "a small crowned serpent whose gaze and breath turn its path to desert"
+    },
+    "lemures": {
+      "number": 27,
+      "name": "Lemures",
+      "subject": "restless unnamed dead returning to a doorway"
+    },
+    "long": {
+      "number": 28,
+      "name": "Lóng",
+      "subject": "a wingless rain-bringing dragon flying above a river"
+    },
+    "qilin": {
+      "number": 29,
+      "name": "Qílín",
+      "subject": "a hoofed auspicious beast that will not tread on the unjust"
+    },
+    "huli-jing": {
+      "number": 30,
+      "name": "Húli jīng",
+      "subject": "a fox becoming a woman after a hundred years, gathering lifespan"
+    },
+    "kumiho": {
+      "number": 31,
+      "name": "Kumiho",
+      "subject": "a nine-tailed fox, human in outline, that eats liver to become human"
+    },
+    "imugi": {
+      "number": 32,
+      "name": "Imugi",
+      "subject": "a water serpent that waited a thousand years to become a dragon and did not"
+    },
+    "dokkaebi": {
+      "number": 33,
+      "name": "Dokkaebi",
+      "subject": "a goblin born from a discarded household object, holding a knotted club"
+    },
+    "camazotz": {
+      "number": 34,
+      "name": "Camazotz",
+      "subject": "a bat guarding the fifth house of the underworld, a severed head at its feet"
+    },
+    "xtabay": {
+      "number": 35,
+      "name": "Xtabay",
+      "subject": "a woman at a ceiba tree combing her hair, thorns closing behind her"
+    },
+    "way": {
+      "number": 36,
+      "name": "Way",
+      "subject": "an animal companion loosed from a sleeping body"
+    },
+    "rusalka": {
+      "number": 37,
+      "name": "Rusalka",
+      "subject": "a drowned girl risen from the water, both watering the crop and drowning"
+    },
+    "zmey": {
+      "number": 38,
+      "name": "Zmey",
+      "subject": "a many-headed dragon, a new head growing where one was cut"
+    },
+    "domovoy": {
+      "number": 39,
+      "name": "Domovoy",
+      "subject": "a small hearth-spirit beneath the floorboards, guarding the house"
+    },
+    "anansi": {
+      "number": 40,
+      "name": "Anansi",
+      "subject": "a spider that bought every story from the sky"
+    },
+    "abiku": {
+      "number": 41,
+      "name": "Àbíkú",
+      "subject": "a child-spirit born and dying and returning to the same mother"
+    },
+    "adze": {
+      "number": 42,
+      "name": "Adze",
+      "subject": "a firefly whose form conceals a blood-drinker at the sleeper's side"
+    },
+    "simurgh": {
+      "number": 43,
+      "name": "Sīmurgh",
+      "subject": "a great bird of wisdom summoned by a burning feather"
+    },
+    "azi-dahaka": {
+      "number": 44,
+      "name": "Aži Dahāka",
+      "subject": "a three-mouthed figure with two serpents rising from its shoulders, chained beneath a mountain"
+    },
+    "peri": {
+      "number": 45,
+      "name": "Perī",
+      "subject": "a being made of fire, beautiful and irresolute, neither wholly good nor evil"
+    },
+    "taniwha": {
+      "number": 46,
+      "name": "Taniwha",
+      "subject": "a guardian of the river mouth, protector to one people and punishment to another"
+    },
+    "moo": {
+      "number": 47,
+      "name": "Moʻo",
+      "subject": "a lizard spirit guarding a pool, keeper of water and lineage"
+    },
+    "ponaturi": {
+      "number": 48,
+      "name": "Ponaturi",
+      "subject": "sea people coming ashore at night, hiding from daylight"
+    },
+    "qalupalik": {
+      "number": 49,
+      "name": "Qalupalik",
+      "subject": "a green-skinned figure waiting beneath the ice for a lone child"
+    },
+    "amarok": {
+      "number": 50,
+      "name": "Amarok",
+      "subject": "a great wolf hunting alone, tracking the hunter who broke the rule"
+    },
+    "tupilaq": {
+      "number": 51,
+      "name": "Tupilaq",
+      "subject": "a figure assembled from bone and skin and quickened, able to kill its maker"
+    },
+    "al-karisi": {
+      "number": 52,
+      "name": "Al Karısı",
+      "subject": "a red-clad female spirit taking the liver of a birthing woman, afraid of water"
+    },
+    "karakoncolos": {
+      "number": 53,
+      "name": "Karakoncolos",
+      "subject": "a shaggy midwinter figure asking a question and punishing the wrong answer"
+    },
+    "sahmeran": {
+      "number": 54,
+      "name": "Şahmeran",
+      "subject": "a wise serpent queen with a woman's head, killed when her secret was revealed"
+    },
+    "ghul": {
+      "number": 55,
+      "name": "Ghūl",
+      "subject": "a shape-changing eater of travellers waiting in a graveyard"
+    },
+    "ifrit": {
+      "number": 56,
+      "name": "ʿIfrīt",
+      "subject": "the strong and defiant class of fire-born jinn"
+    },
+    "rukh": {
+      "number": 57,
+      "name": "Rukh",
+      "subject": "a bird lifting an elephant in its talons, an egg the size of a dome behind it"
+    },
+    "iku-turso": {
+      "number": 58,
+      "name": "Iku-Turso",
+      "subject": "a being rising from the sea floor whose name alone is ill-omened"
+    },
+    "nakki": {
+      "number": 59,
+      "name": "Näkki",
+      "subject": "a water spirit appearing at the shore as horse, human and naked woman at once"
+    },
+    "ajatar": {
+      "number": 60,
+      "name": "Ajatar",
+      "subject": "a female serpent-spirit of the forest that spreads sickness"
+    },
+    "basajaun": {
+      "number": 61,
+      "name": "Basajaun",
+      "subject": "a wild man, lord of the forest, guarding a flock from storms"
+    },
+    "lamia-euskal": {
+      "number": 62,
+      "name": "Lamia",
+      "subject": "a duck-footed river woman combing her hair with a golden comb"
+    },
+    "herensuge": {
+      "number": 63,
+      "name": "Herensuge",
+      "subject": "a seven-headed dragon demanding a yearly sacrifice"
+    },
+    "koropokkuru": {
+      "number": 64,
+      "name": "Koropokkuru",
+      "subject": "small people living beneath a butterbur leaf, leaving fish and vanishing"
+    },
+    "repun-kamuy": {
+      "number": 65,
+      "name": "Repun Kamuy",
+      "subject": "a god of the open sea in the form of an orca, granting the hunt"
+    },
+    "kenas-unarpe": {
+      "number": 66,
+      "name": "Kenas-unarpe",
+      "subject": "an old woman waiting in a marsh for the birthing woman and the traveller"
+    },
+    "thuong-luong": {
+      "number": 67,
+      "name": "Thuồng luồng",
+      "subject": "a serpent at the river bottom, the fear said to be the origin of tattooing"
+    },
+    "ma-lai": {
+      "number": 68,
+      "name": "Ma lai",
+      "subject": "a flying head trailing its own entrails, seeking blood by night"
+    },
+    "ong-ba-muoi": {
+      "number": 69,
+      "name": "Ông Ba Mươi",
+      "subject": "a forest tiger whose name is not spoken but named with respect"
+    },
+    "phaya-nak": {
+      "number": 70,
+      "name": "Phaya Nak",
+      "subject": "a serpent lord of the cities beneath a great river, sending fireballs"
+    },
+    "krasue": {
+      "number": 71,
+      "name": "Krasue",
+      "subject": "a floating head with hanging organs, seeking the blood of those giving birth"
+    },
+    "kinnari": {
+      "number": 72,
+      "name": "Kinnarī",
+      "subject": "a half-woman half-bird singer of a mythic forest"
+    },
+    "aswang": {
+      "number": 73,
+      "name": "Aswang",
+      "subject": "a neighbour by day and an eater by night, seeking the dead and the unborn"
+    },
+    "manananggal": {
+      "number": 74,
+      "name": "Manananggal",
+      "subject": "an upper body separated at the waist and in flight, a proboscis extended"
+    },
+    "tikbalang": {
+      "number": 75,
+      "name": "Tikbalang",
+      "subject": "a horse-headed long-limbed figure that makes travellers walk in circles"
+    },
+    "pontianak": {
+      "number": 76,
+      "name": "Pontianak",
+      "subject": "a woman dead in childbirth returned, scent of flowers and voice of an infant"
+    },
+    "orang-bunian": {
+      "number": 77,
+      "name": "Orang Bunian",
+      "subject": "invisible people keeping a parallel society in the forest"
+    },
+    "rangda": {
+      "number": 78,
+      "name": "Rangda",
+      "subject": "a widow witch queen with a long tongue, eternal opponent of a lion-mask"
+    },
+    "migoi": {
+      "number": 79,
+      "name": "Migoi",
+      "subject": "a wild man leaving tracks in snow, said to walk backwards to avoid being seen"
+    },
+    "khyung": {
+      "number": 80,
+      "name": "Khyung",
+      "subject": "a horned eagle holding a serpent in its talons"
+    },
+    "srin-po": {
+      "number": 81,
+      "name": "Srin-po",
+      "subject": "flesh-eating people beneath the earth, pinned down by temples"
+    },
+    "almas": {
+      "number": 82,
+      "name": "Almas",
+      "subject": "a hairy wild man of the steppe who does not speak but barters"
+    },
+    "olgoi-khorkhoi": {
+      "number": 83,
+      "name": "Olgoi-Khorkhoi",
+      "subject": "an intestine-shaped worm rising from desert sand, killing without touch"
+    },
+    "chotgor": {
+      "number": 84,
+      "name": "Chötgör",
+      "subject": "a dead figure that cannot find its way, remaining in an empty tent"
+    },
+    "vishap": {
+      "number": 85,
+      "name": "Vishap",
+      "subject": "a dragon lying in a mountain lake, marked with standing stones"
+    },
+    "aralez": {
+      "number": 86,
+      "name": "Aralez",
+      "subject": "a dog spirit reviving the war dead by licking their wounds"
+    },
+    "nhang": {
+      "number": 87,
+      "name": "Nhang",
+      "subject": "a river shapeshifter becoming a woman to draw and drink"
+    },
+    "ochokochi": {
+      "number": 88,
+      "name": "Ochokochi",
+      "subject": "a forest man with an axe-like bone rising from his chest"
+    },
+    "kaji": {
+      "number": 89,
+      "name": "Kaji",
+      "subject": "cunning unseen people who know smithing"
+    },
+    "devi": {
+      "number": 90,
+      "name": "Devi",
+      "subject": "a many-headed giant in a cave with its brothers"
+    },
+    "golem": {
+      "number": 91,
+      "name": "Golem",
+      "subject": "a figure kneaded from clay and quickened by a written name, obeying without understanding"
+    },
+    "lilith": {
+      "number": 92,
+      "name": "Lilith",
+      "subject": "the first wife who would not obey, met at the newborn with an amulet"
+    },
+    "ziz": {
+      "number": 93,
+      "name": "Ziz",
+      "subject": "a bird whose shadow covers the sun, sky counterpart of two great beasts"
+    },
+    "buda": {
+      "number": 94,
+      "name": "Buda",
+      "subject": "a smith by day and a hyena by night, giving sickness with the eye"
+    },
+    "zar": {
+      "number": 95,
+      "name": "Zar",
+      "subject": "a spirit that settles in a person and is reconciled only by ceremony"
+    },
+    "ganen": {
+      "number": 96,
+      "name": "Ganen",
+      "subject": "a figure rising from a well, waiting for the traveller in darkness"
+    },
+    "tokoloshe": {
+      "number": 97,
+      "name": "Tokoloshe",
+      "subject": "a small hairy ill-meaning creature waiting under a bed"
+    },
+    "impundulu": {
+      "number": 98,
+      "name": "Impundulu",
+      "subject": "a lightning bird bound to a witch, demanding blood"
+    },
+    "inkanyamba": {
+      "number": 99,
+      "name": "Inkanyamba",
+      "subject": "a serpent-headed dweller of a waterfall, bringing storm when angered"
+    },
+    "strigoi": {
+      "number": 100,
+      "name": "Strigoi",
+      "subject": "a figure risen from its grave, taking the blood and luck of its family"
+    },
+    "varcolac": {
+      "number": 101,
+      "name": "Vârcolac",
+      "subject": "a wolf-shape devouring the moon, the eclipse explained"
+    },
+    "zmeu": {
+      "number": 102,
+      "name": "Zmeu",
+      "subject": "a dragon that abducts girls, guards treasure and speaks like a man"
+    },
+    "amaru": {
+      "number": 103,
+      "name": "Amaru",
+      "subject": "a great winged feathered serpent binding two worlds"
+    },
+    "pishtaco": {
+      "number": 104,
+      "name": "Pishtaco",
+      "subject": "a stranger rendering and taking a traveller's fat, exploitation given a face"
+    },
+    "supay": {
+      "number": 105,
+      "name": "Supay",
+      "subject": "a lord of the underworld holding the dead and the mines"
+    },
+    "curupira": {
+      "number": 106,
+      "name": "Curupira",
+      "subject": "a forest guardian with backward-turned feet, losing the hunter in his own tracks"
+    },
+    "boitata": {
+      "number": 107,
+      "name": "Boitatá",
+      "subject": "a serpent of fire, the eye that chases whoever burns the forest"
+    },
+    "iara": {
+      "number": 108,
+      "name": "Iara",
+      "subject": "a mother of the river drawing with her song"
+    },
+    "mishipeshu": {
+      "number": 109,
+      "name": "Mishipeshu",
+      "subject": "a copper-tailed panther beneath a lake, raising the storm"
+    },
+    "animikii": {
+      "number": 110,
+      "name": "Animikii",
+      "subject": "a thunderbird, eternal opponent of the water beings"
+    },
+    "windigo": {
+      "number": 111,
+      "name": "Windigo",
+      "subject": "a gaunt figure born of hunger, growing as it eats and never filled"
+    },
+    "stallu": {
+      "number": 112,
+      "name": "Stállu",
+      "subject": "an iron-clad silver-gathering giant, stupid and dangerous"
+    },
+    "ulda": {
+      "number": 113,
+      "name": "Ulda",
+      "subject": "hidden people herding beneath the ground, their names unspoken"
+    },
+    "gufihtar": {
+      "number": 114,
+      "name": "Gufihtar",
+      "subject": "a figure that makes the traveller invisible, speaking from within fog"
+    },
+    "huldufolk": {
+      "number": 115,
+      "name": "Huldufólk",
+      "subject": "hidden people within the rocks, still changing the course of roads"
+    },
+    "nykur": {
+      "number": 116,
+      "name": "Nykur",
+      "subject": "a grey horse with backward-turned hooves carrying its rider into a lake"
+    },
+    "skuggabaldur": {
+      "number": 117,
+      "name": "Skuggabaldur",
+      "subject": "the offspring of cat and fox that lead cannot touch"
+    },
+    "adaro": {
+      "number": 118,
+      "name": "Adaro",
+      "subject": "a sea spirit riding a flying fish, striking with a sunbeam"
+    },
+    "masalai": {
+      "number": 119,
+      "name": "Masalai",
+      "subject": "an earth spirit defending the land in animal or human form"
+    },
+    "kaia": {
+      "number": 120,
+      "name": "Kaia",
+      "subject": "an ancestral spirit represented by a carved mask"
+    }
+  }
+}

@@ -1,0 +1,201 @@
+# =============================================================================
+# CODEX BESTIARIUM — YAYIN DOSYASI ÜRETİMİ
+# =============================================================================
+# DOCX · EPUB · Print PDF üretir ve KDP kısıtlarına karşı doğrular.
+#
+# Manuscript bu depoda YOK (.gitignore § ①). Bu iş akışı metin olmadan
+# çalıştığında "üretilecek bir şey yok" der ve YEŞİL kalır — ama üretim
+# zincirinin kendisini (import, şema, ölçü hesapları) yine de sınar, böylece
+# metin geldiği gün hat bozuk olmaz.
+# =============================================================================
+name: build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '01_SOURCE/**'
+      - '08_BUILD/**'
+      - '07_ASSETS/fonts/**'
+      - '.github/workflows/build.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - '01_SOURCE/**'
+      - '08_BUILD/**'
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: 'sürüm'
+        type: choice
+        options: [all, paperback, hardcover, largeprint]
+        default: all
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  toolchain:
+    name: üretim zinciri sağlam mı
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: sistem araçları
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          pdffonts -v 2>&1 | head -1 || true
+
+      - name: python bağımlılıkları
+        run: pip install --quiet -r 08_BUILD/requirements.txt
+
+      # Metin ve font olmadan da import edilebilmeli. Bir betik açılışta
+      # çöküyorsa bunu metin geldiği gün değil BUGÜN bilmek isteriz.
+      - name: bütün modüller import edilebiliyor
+        run: |
+          python3 - <<'PY'
+          import importlib, pathlib, sys, traceback
+          build = pathlib.Path("08_BUILD")
+          sys.path.insert(0, str(build))
+          skip = {"__init__"}
+          bad = []
+          for f in sorted(build.glob("*.py")):
+              name = f.stem
+              if name in skip:
+                  continue
+              try:
+                  importlib.import_module(name)
+              except SystemExit:
+                  pass                      # argparse ile çıkan betikler
+              except Exception:
+                  bad.append(name)
+                  traceback.print_exc()
+          if bad:
+              print(f"::error::import edilemeyen modül: {bad}")
+              sys.exit(1)
+          print("bütün modüller import edildi")
+          PY
+
+      - name: sürüm kayıt defteri tutarlı
+        run: |
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0, "08_BUILD")
+          import editions
+          eds = getattr(editions, "EDITIONS", None)
+          if not eds:
+              print("::warning::editions.py'de Bestiarium sürümü tanımlı değil (Faz 1 görevi)")
+          else:
+              for slug in eds:
+                  print(f"  sürüm: {slug}")
+          PY
+
+  documents:
+    name: DOCX · EPUB · PDF
+    needs: toolchain
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: sistem araçları
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+
+      - name: python bağımlılıkları
+        run: pip install --quiet -r 08_BUILD/requirements.txt
+
+      - name: metin ve font var mı
+        id: inputs
+        run: |
+          TEXT=false; FONTS=false
+          if [ -f 01_SOURCE/book-edited.json ] || [ -f 01_SOURCE/book.json ]; then TEXT=true; fi
+          if ls 07_ASSETS/fonts/*.ttf >/dev/null 2>&1; then FONTS=true; fi
+          echo "text=$TEXT"   >> "$GITHUB_OUTPUT"
+          echo "fonts=$FONTS" >> "$GITHUB_OUTPUT"
+          [ "$TEXT" = "true" ]  || echo "::notice::manuscript yok — dizgi atlanıyor (yazım Faz 3'te başlar)"
+          [ "$FONTS" = "true" ] || echo "::notice::font yok (.gitignore § ④) — dizgi atlanıyor"
+
+      - name: iç blok PDF
+        if: steps.inputs.outputs.text == 'true' && steps.inputs.outputs.fonts == 'true'
+        run: python3 08_BUILD/make_pdf.py
+
+      - name: DOCX + EPUB
+        if: steps.inputs.outputs.text == 'true'
+        run: python3 08_BUILD/make_docx_epub.py
+
+      - name: iç blok doğrulaması
+        if: steps.inputs.outputs.text == 'true' && steps.inputs.outputs.fonts == 'true'
+        run: python3 08_BUILD/validate_interior.py
+
+      # KDP'nin sert kısıtları. Bunlar metin olmadan da denetlenebilir:
+      # dosya varsa ölçülür, yoksa atlanır.
+      - name: KDP kısıtları
+        run: |
+          python3 - <<'PY'
+          import glob, os, sys
+          sys.path.insert(0, "08_BUILD")
+          from bestiarium import EPUB_BUDGET_MB
+          fail = []
+
+          for epub in glob.glob("05_KINDLE/*.epub"):
+              mb = os.path.getsize(epub) / 1e6
+              print(f"  {epub}: {mb:.2f} MB")
+              if mb > EPUB_BUDGET_MB:
+                  fail.append(f"{epub} {mb:.2f} MB > {EPUB_BUDGET_MB} MB "
+                              "— teslim ücreti telifin %30'unu yer")
+
+          for pdf in glob.glob("04_PRINT/**/*.pdf", recursive=True):
+              size = os.path.getsize(pdf) / 1e6
+              print(f"  {pdf}: {size:.1f} MB")
+              if size > 650:
+                  fail.append(f"{pdf} KDP 650 MB sınırını aşıyor")
+
+          if fail:
+              for f in fail:
+                  print(f"::error::{f}")
+              sys.exit(1)
+          print("KDP kısıtları: sorun yok")
+          PY
+
+      - name: gömülü font denetimi
+        if: steps.inputs.outputs.text == 'true' && steps.inputs.outputs.fonts == 'true'
+        run: |
+          shopt -s nullglob globstar
+          fail=0
+          for pdf in 04_PRINT/**/*.pdf; do
+            echo "::group::pdffonts $pdf"
+            pdffonts "$pdf"
+            # KDP gömülü olmayan fontu reddeder. 'no' sütunu = gömülü değil.
+            if pdffonts "$pdf" | awk 'NR>2 && $(NF-3)=="no" {print; found=1} END{exit !found}'; then
+              echo "::error::$pdf gömülü olmayan font içeriyor"
+              fail=1
+            fi
+            echo "::endgroup::"
+          done
+          exit $fail
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: publication-files
+          path: |
+            04_PRINT/**/*.pdf
+            05_KINDLE/*.epub
+            02_MANUSCRIPT/*.docx
+            06_REPORTS/**/*.json
+          if-no-files-found: ignore
+          retention-days: 30

@@ -1,0 +1,90 @@
+name: "Hat · derleme veya kapı arızası"
+description: Bir betik çöküyor, bir kapı yanlış davranıyor, CI kırmızı
+title: "[hat] "
+labels: ["hat", "hata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Üretim hattıyla ilgili arıza. **CI kırmızıysa çalışma durur** —
+        önce burası düzelir, sonra devam edilir.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Bileşen
+      options:
+        - validate_spec.py
+        - validate_structure.py
+        - qa_length.py
+        - qa_voice.py
+        - qa_drift.py
+        - qa_echo.py
+        - qa_diacritics.py
+        - plates.py
+        - convert_plates.py
+        - make_index.py
+        - make_prompts.py
+        - update_docs.py
+        - seed_import.py
+        - tests/selftest.py
+        - dizgi (make_pdf · matter · model)
+        - kapak (cover_spec · typography · make_cover_*)
+        - CI iş akışı
+        - diğer
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Arıza türü
+      options:
+        - Betik çöküyor (exception)
+        - Yanlış pozitif — olmayan bir hatayı raporluyor
+        - Yanlış negatif — gerçek bir hatayı **yakalamıyor**
+        - CI yeşil ama olmamalı
+        - CI kırmızı ama olmamalı
+        - Yavaş / zaman aşımı
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        > **Yanlış negatif en tehlikelisidir.** Yakalamayan bir kapı, kapı
+        > değildir. Böyle bir durumda `08_BUILD/tests/selftest.py` içindeki
+        > kurguya o kusurun eklenmesi gerekir — aksi hâlde aynı kör nokta geri gelir.
+
+  - type: textarea
+    id: command
+    attributes:
+      label: Çalıştırılan komut
+      render: shell
+      placeholder: python3 08_BUILD/validate_spec.py --gate phase1 -v
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Çıktı
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Beklenen davranış
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: followup
+    attributes:
+      label: Takip
+      options:
+        - label: "`selftest.py` kurgusuna bu kusur eklenecek (yanlış negatifse **zorunlu**)"
+        - label: Tolerans veya kural `bestiarium.py`'de güncellenecek
+        - label: "`CHANGELOG.md`'ye yazılacak"

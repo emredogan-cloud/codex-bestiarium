@@ -1,0 +1,23 @@
+# CODEX BESTIARIUM — Python bağımlılıkları
+#
+# Not: kalite kapılarının hiçbiri (validate_spec, qa_*, validate_structure,
+# make_index, make_prompts, update_docs) bu paketlerin HİÇBİRİNE ihtiyaç
+# duymaz — hepsi standart kütüphaneyle çalışır. Bu kasıtlıdır: CI'ın ana
+# doğrulama işi hiçbir kuruluma bağlı olmadan, saniyeler içinde koşar.
+#
+# Aşağıdakiler yalnızca ÜRETİM için gerekir: plaka ölçümü, dizgi, kapak,
+# EPUB/DOCX. Bunlar Faz 4'ten itibaren devreye girer.
+
+pillow>=10.0        # plaka normalizasyonu ve format dönüşümü
+numpy>=1.26         # tarama açısı FFT analizi, çizgi kalınlığı ölçümü
+reportlab>=4.0      # iç blok ve kapak PDF'i
+fonttools>=4.50     # değişken fonttan sabit örnek üretimi
+brotli>=1.1         # fonttools WOFF2 desteği
+pypdf>=4.0          # PDF yapısal doğrulaması
+python-docx>=1.1    # DOCX yedeği
+ebooklib>=0.18      # EPUB üretimi
+pyyaml>=6.0         # CI iş akışı doğrulaması
+
+# Sistem araçları (pip ile gelmez — Debian/Ubuntu'da apt ile kurulur):
+#   poppler-utils   pdftoppm · pdfinfo · pdffonts · pdfimages
+# Deneysel kapak/iç blok doğrulaması bunlarsız çalışmaz.

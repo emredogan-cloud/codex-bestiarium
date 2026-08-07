@@ -1,0 +1,149 @@
+# =============================================================================
+# CODEX BESTIARIUM — PLAKA TUTARLILIK ÖLÇÜMÜ
+# =============================================================================
+# Projenin tek gerçek başarısızlık modu illüstrasyon tutarsızlığıdır
+# (yol haritası Risk 1: olasılık ORTA, etki YIKICI).
+#
+# Plakalar depoda tutulmaz (.gitignore § ③) — 120 plaka × 4 format çok
+# büyüktür. Depoda ÖLÇÜMLER durur. Bu iş akışı:
+#   · ölçüm raporunu doğrular (tolerans dışı plaka var mı)
+#   · prompt kütüphanesinin spec ile senkron olduğunu denetler
+#   · plaka dosyası varsa (elle tetiklenen koşularda) yeniden ölçer
+# =============================================================================
+name: plates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '01_SOURCE/spec.json'
+      - '01_SOURCE/plate_subjects.json'
+      - '06_REPORTS/plate-consistency.json'
+      - '08_BUILD/plates.py'
+      - '08_BUILD/convert_plates.py'
+      - '08_BUILD/make_prompts.py'
+      - '.github/workflows/plates.yml'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      pilot_only:
+        description: 'yalnızca pilot set'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  prompts:
+    name: prompt kütüphanesi
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: kütüphane spec ile senkron
+        run: python3 08_BUILD/make_prompts.py --check
+
+      # Üslup gövdesi 120 plakada AYNI olmalı. Tek yerde tanımlıdır;
+      # bu kontrol o tekliği kanıtlar.
+      - name: tek üslup gövdesi
+        run: |
+          python3 - <<'PY'
+          import json, re, sys
+          html = open("BESTIARIUM_IMAGE_PROMPTS.html", encoding="utf-8").read()
+          spec = json.load(open("01_SOURCE/spec.json", encoding="utf-8"))
+          n = len(spec["creatures"])
+
+          plates = re.findall(r'id="(plate-\d{3})"', html)
+          if len(plates) != n:
+              print(f"::error::{n} plaka bekleniyordu, {len(plates)} bulundu")
+              sys.exit(1)
+
+          # Üslup gövdesinin imzası her promptta geçmeli
+          marker = "antique line engraving, single-colour black ink on white"
+          got = html.count(marker)
+          if got != n:
+              print(f"::error::üslup gövdesi {n} promptta olmalı, {got} promptta var "
+                    "— tek çizgi dili şartı ihlal edildi")
+              sys.exit(1)
+
+          # Ölçek işareti zorunlu
+          scale = "scale marker"
+          if html.count(scale) < n:
+              print(f"::error::ölçek işareti {n} promptta olmalı, "
+                    f"{html.count(scale)} promptta var")
+              sys.exit(1)
+
+          print(f"{n} prompt · tek üslup gövdesi · ölçek işareti zorunlu — tamam")
+          PY
+
+  consistency:
+    name: tutarlılık raporu
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: plaka dosyası var mı
+        id: have
+        run: |
+          if ls 07_ASSETS/plates/*.png >/dev/null 2>&1; then
+            echo "png=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "png=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::plaka dosyası yok (.gitignore § ③) — kayıtlı rapor denetlenecek"
+          fi
+
+      - name: pillow + numpy
+        if: steps.have.outputs.png == 'true'
+        run: pip install --quiet pillow numpy
+
+      - name: yeniden ölç
+        if: steps.have.outputs.png == 'true'
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.pilot_only }}" = "true" ]; then FLAGS="--pilot"; fi
+          python3 08_BUILD/plates.py --measure $FLAGS --verbose
+
+      # Plaka dosyası olmasa bile kayıtlı ölçüm raporu denetlenir:
+      # tolerans dışı bir plaka rapora girmişse derleme kırmızı yanar.
+      - name: kayıtlı raporu denetle
+        run: |
+          python3 - <<'PY'
+          import json, os, sys
+          path = "06_REPORTS/plate-consistency.json"
+          if not os.path.exists(path):
+              print("::notice::henüz tutarlılık raporu yok — illüstrasyon Faz 2'de başlar")
+              sys.exit(0)
+
+          data = json.load(open(path, encoding="utf-8"))
+          rejected = [p for p in data.get("plates", []) if not p.get("accepted")]
+          print(f"ölçülen: {data.get('measured', 0)} · "
+                f"kabul: {data.get('accepted', 0)} · red: {len(rejected)}")
+
+          for p in rejected:
+              bad = [c["rule"] for c in p.get("checks", []) if not c["ok"]]
+              print(f"::error::{p['plate']} ({p.get('creature','?')}) tolerans dışı: {', '.join(bad)}")
+
+          if rejected:
+              print("::error::Tolerans dışı plaka var. Bant dışına çıkan plaka "
+                    "otomatik reddedilir ve yeniden üretilir.")
+              sys.exit(1)
+          PY
+
+      - name: format bütçeleri
+        run: python3 08_BUILD/convert_plates.py --check --verbose
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plate-reports
+          path: 06_REPORTS/plate-*.json
+          if-no-files-found: ignore

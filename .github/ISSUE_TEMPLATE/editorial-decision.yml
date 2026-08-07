@@ -1,0 +1,73 @@
+name: "Karar · editoryal veya kapsam"
+description: Kurucu kararı gerektiren bir seçim
+title: "[karar] "
+labels: ["karar", "kurucu"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Kod veya araştırmayla çözülemeyen, **kurucunun vermesi gereken** bir karar.
+
+        Açık kararlar yol haritasının § 5'inde listelidir (A1 · A2 · A3).
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Alan
+      options:
+        - Kapsam — kaç yaratık, kaç gelenek
+        - Tasnif — sınıf veya aile ataması
+        - Editoryal — ses, üslup, ne anlatılır
+        - Etik — yaşayan gelenek, kısıtlılık
+        - Üretim — illüstrasyon, dizgi, dış kaynak
+        - Ticari — fiyat, format, kanal
+        - Depo — görünürlük, lisans
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Soru
+      description: Tek cümlede, net olarak. Neyin kararı veriliyor?
+    validations:
+      required: true
+
+  - type: textarea
+    id: options
+    attributes:
+      label: Seçenekler ve sonuçları
+      description: |
+        Her seçeneğin **ölçülebilir** sonucunu yazın. Saat, sayfa, dolar, risk.
+      placeholder: |
+        | Seçenek | Ne olur | Maliyet | Öneri |
+        |---|---|---|---|
+        | (a) 120/40 korunur | Yayın Mayıs 2027 | 436 sa | ✅ |
+        | (b) 100/35'e inilir | Yayın Nisan 2027, tez zayıflar | ~370 sa | |
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Öneri ve gerekçesi
+    validations:
+      required: true
+
+  - type: dropdown
+    id: blocking
+    attributes:
+      label: Bloke ediyor mu
+      options:
+        - "Hayır — varsayılanla devam edilebilir"
+        - "Evet — bu faz karar olmadan kapanamaz"
+        - "Evet — sonraki faz karar olmadan başlayamaz"
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: En geç ne zaman
+      placeholder: "Faz 3 başlamadan / 2026-10-15"

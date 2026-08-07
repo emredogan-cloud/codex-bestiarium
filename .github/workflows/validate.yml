@@ -1,0 +1,213 @@
+# =============================================================================
+# CODEX BESTIARIUM — KALİTE KAPILARI
+# =============================================================================
+# Her push'ta koşar. Kalite düşerse KIRMIZI yanar ve merge engellenir.
+#
+# TASARIM: bu iş akışı üçüncü taraf paket KURMAZ. Bütün kalite kapıları
+# standart kütüphaneyle yazıldı; iş akışı saniyeler içinde biter ve hiçbir
+# kuruluma bağlı değildir. Ağır bağımlılıklar build.yml ve plates.yml'de.
+# =============================================================================
+name: validate
+
+on:
+  push:
+    branches: [main, 'faz/**', 'fix/**']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gate:
+    name: kapı seviyesini oku
+    runs-on: ubuntu-latest
+    outputs:
+      level: ${{ steps.read.outputs.level }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: read
+        name: .gate dosyasını oku
+        run: |
+          LEVEL="draft"
+          if [ -f .gate ]; then
+            LEVEL="$(tr -d '[:space:]' < .gate)"
+          fi
+          case "$LEVEL" in
+            draft|phase1|phase2|phase3) ;;
+            *) echo "::error::.gate geçersiz: '$LEVEL'"; exit 1 ;;
+          esac
+          echo "level=$LEVEL" >> "$GITHUB_OUTPUT"
+          echo "::notice::kapı seviyesi = $LEVEL"
+
+  spec:
+    name: veri bütünlüğü
+    needs: gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: tohum tablosu ↔ spec.json
+        run: |
+          # Master yol haritası kardeş depoda değil; --check yalnızca
+          # kaynak erişilebilirse anlamlı. Yerelde her zaman koşar.
+          if [ -f ../CODEX_MYTHOLOGICA/03_CODEX_BESTIARIUM_MASTER_ROADMAP.html ]; then
+            python3 08_BUILD/seed_import.py --check
+          else
+            echo "::notice::master yol haritası bu ortamda yok — tohum karşılaştırması atlandı"
+          fi
+
+      - name: spec şeması
+        run: |
+          python3 08_BUILD/validate_spec.py \
+            --gate "${{ needs.gate.outputs.level }}" \
+            --verbose \
+            --json 06_REPORTS/spec-validation.json
+
+      - name: dizinler üretilebiliyor
+        run: python3 08_BUILD/make_index.py --gate draft
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: spec-validation
+          path: 06_REPORTS/spec-validation.json
+          if-no-files-found: ignore
+
+  structure:
+    name: depo, belge ve varlık bütünlüğü
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: pyyaml
+        run: pip install --quiet pyyaml
+
+      - name: yapı denetimi
+        run: |
+          python3 08_BUILD/validate_structure.py \
+            --verbose --json 06_REPORTS/structure.json
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: structure-report
+          path: 06_REPORTS/structure.json
+          if-no-files-found: ignore
+
+  gates-selftest:
+    name: kalite kapılarının kendi testi
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Bu, hattın en önemli testidir. Metin yokken yeşil kalan bir hat,
+      # kusur geldiğinde de yeşil kalabilir. Bu test o riski kapatır:
+      # kasıtlı kusurlu bir kurgu kitap çalıştırılır ve her kapının o
+      # kusuru YAKALADIĞI doğrulanır.
+      - name: kapılar gerçekten yakalıyor mu
+        run: python3 08_BUILD/tests/selftest.py --verbose
+
+  text:
+    name: metin kalite kapıları
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: metin var mı
+        id: has_text
+        run: |
+          if [ -f 01_SOURCE/book.json ] || [ -f 01_SOURCE/book-edited.json ]; then
+            echo "yes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "yes=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::manuscript bu depoda yok (.gitignore § ①) — metin kapıları boş koşar"
+          fi
+
+      - name: kelime bandı
+        run: python3 08_BUILD/qa_length.py --sections --verbose --json 06_REPORTS/qa-length.json
+      - name: ses ve yasak kalıp
+        run: python3 08_BUILD/qa_voice.py --verbose --json 06_REPORTS/qa-voice.json
+      - name: üslup sürüklenmesi
+        run: python3 08_BUILD/qa_drift.py --verbose --json 06_REPORTS/qa-drift.json
+      - name: tekrar taraması
+        run: python3 08_BUILD/qa_echo.py --verbose --json 06_REPORTS/qa-echo.json
+      - name: diakritik ve adlandırma
+        run: python3 08_BUILD/qa_diacritics.py --verbose --json 06_REPORTS/qa-diacritics.json
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: text-qa-reports
+          path: 06_REPORTS/qa-*.json
+          if-no-files-found: ignore
+
+  generated:
+    name: üretilen belgeler bayat mı
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # "Her faz sonunda güncelle, asla unutma" bir disiplin talebidir ve
+      # disiplin unutulur. Mekanizma unutmaz.
+      - name: BOOK_STATS + ROADMAP_PROGRESS
+        run: python3 08_BUILD/update_docs.py --check
+
+      - name: prompt kütüphanesi
+        run: python3 08_BUILD/make_prompts.py --check
+
+      - name: bayatsa farkı göster
+        if: failure()
+        run: |
+          python3 08_BUILD/update_docs.py
+          python3 08_BUILD/make_prompts.py
+          echo "::group::fark"
+          git --no-pager diff --stat
+          git --no-pager diff -- BOOK_STATS.md ROADMAP_PROGRESS.md | head -120
+          echo "::endgroup::"
+          echo "::error::Üretilen belgeler bayat. Düzeltmek için: ./08_BUILD/qa_all.sh --fix"
+
+  summary:
+    name: özet
+    needs: [spec, structure, gates-selftest, text, generated]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: sonuç
+        run: |
+          {
+            echo "## Codex Bestiarium · kalite kapıları"
+            echo ""
+            echo "| Kapı | Sonuç |"
+            echo "|---|---|"
+            echo "| veri bütünlüğü | ${{ needs.spec.result }} |"
+            echo "| depo ve belge | ${{ needs.structure.result }} |"
+            echo "| kapıların kendi testi | ${{ needs.gates-selftest.result }} |"
+            echo "| metin kapıları | ${{ needs.text.result }} |"
+            echo "| üretilen belgeler | ${{ needs.generated.result }} |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "${{ contains(needs.*.result, 'failure') }}" = "true" ]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "**Kalite düştü. Düzeltilmeden devam edilmez.**" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi

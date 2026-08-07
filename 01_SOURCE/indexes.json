@@ -1,0 +1,3471 @@
+{
+  "traditions": [
+    {
+      "tradition": "Ainu",
+      "sigil": "ᚼ",
+      "regionGroup": "Doğu Asya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Kenas-unarpe",
+          "id": "kenas-unarpe",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Koropokkuru",
+          "id": "koropokkuru",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Repun Kamuy",
+          "id": "repun-kamuy",
+          "class": "I",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Anishinaabe",
+      "sigil": "▲",
+      "regionGroup": "Kuzey Amerika",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Animikii",
+          "id": "animikii",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Mishipeshu",
+          "id": "mishipeshu",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Windigo",
+          "id": "windigo",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Bharatiya",
+      "sigil": "ॐ",
+      "regionGroup": "Güney Asya",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Garuḍa",
+          "id": "garuda",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Makara",
+          "id": "makara",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Nāga",
+          "id": "naga",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Bod",
+      "sigil": "☷",
+      "regionGroup": "Himalaya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Khyung",
+          "id": "khyung",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Migoi",
+          "id": "migoi",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Srin-po",
+          "id": "srin-po",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Dacia",
+      "sigil": "✠",
+      "regionGroup": "Balkanlar",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Strigoi",
+          "id": "strigoi",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Vârcolac",
+          "id": "varcolac",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Zmeu",
+          "id": "zmeu",
+          "class": "V",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Ériu",
+      "sigil": "☘",
+      "regionGroup": "Kuzey Avrupa",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Bean sídhe",
+          "id": "bean-sidhe",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Each-uisce",
+          "id": "each-uisce",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Púca",
+          "id": "puca",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Euskal",
+      "sigil": "✜",
+      "regionGroup": "Batı Avrupa",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Basajaun",
+          "id": "basajaun",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Herensuge",
+          "id": "herensuge",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Lamia",
+          "id": "lamia-euskal",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Filipin",
+      "sigil": "✧",
+      "regionGroup": "Güneydoğu Asya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Aswang",
+          "id": "aswang",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Manananggal",
+          "id": "manananggal",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Tikbalang",
+          "id": "tikbalang",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Hangug",
+      "sigil": "단",
+      "regionGroup": "Doğu Asya",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Dokkaebi",
+          "id": "dokkaebi",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Imugi",
+          "id": "imugi",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Kumiho",
+          "id": "kumiho",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Hayk",
+      "sigil": "✚",
+      "regionGroup": "Kafkasya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Aralez",
+          "id": "aralez",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Nhang",
+          "id": "nhang",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Vishap",
+          "id": "vishap",
+          "class": "V",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Hellenic",
+      "sigil": "Ω",
+      "regionGroup": "Akdeniz",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Chímaira",
+          "id": "chimaira",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Kérberos",
+          "id": "kerberos",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Lámia",
+          "id": "lamia-hellenic",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Inuit",
+      "sigil": "ᐃ",
+      "regionGroup": "Kutup",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Amarok",
+          "id": "amarok",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Qalupalik",
+          "id": "qalupalik",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Tupilaq",
+          "id": "tupilaq",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Ísland",
+      "sigil": "❆",
+      "regionGroup": "Kuzey Avrupa",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Huldufólk",
+          "id": "huldufolk",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Nykur",
+          "id": "nykur",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Skuggabaldur",
+          "id": "skuggabaldur",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Ityop'ya",
+      "sigil": "✤",
+      "regionGroup": "Afrika",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Buda",
+          "id": "buda",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Ganen",
+          "id": "ganen",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Zar",
+          "id": "zar",
+          "class": "VI",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Kartveli",
+      "sigil": "✛",
+      "regionGroup": "Kafkasya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Devi",
+          "id": "devi",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Kaji",
+          "id": "kaji",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Ochokochi",
+          "id": "ochokochi",
+          "class": "I",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Kemet",
+      "sigil": "𓂀",
+      "regionGroup": "Akdeniz",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Ammit",
+          "id": "ammit",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Apep",
+          "id": "apep",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Bennu",
+          "id": "bennu",
+          "class": "V",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Mā'ohi",
+      "sigil": "ᴥ",
+      "regionGroup": "Okyanusya",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Moʻo",
+          "id": "moo",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Ponaturi",
+          "id": "ponaturi",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Taniwha",
+          "id": "taniwha",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Maya",
+      "sigil": "𝋠",
+      "regionGroup": "Mezoamerika",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Camazotz",
+          "id": "camazotz",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Way",
+          "id": "way",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Xtabay",
+          "id": "xtabay",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Melanesia",
+      "sigil": "◉",
+      "regionGroup": "Okyanusya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Adaro",
+          "id": "adaro",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Kaia",
+          "id": "kaia",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Masalai",
+          "id": "masalai",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Mēxihcah",
+      "sigil": "☼",
+      "regionGroup": "Mezoamerika",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Ahuizotl",
+          "id": "ahuizotl",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Cipactli",
+          "id": "cipactli",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Nahual",
+          "id": "nahual",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Mongol",
+      "sigil": "⚔",
+      "regionGroup": "Orta Asya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Almas",
+          "id": "almas",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Chötgör",
+          "id": "chotgor",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Olgoi-Khorkhoi",
+          "id": "olgoi-khorkhoi",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Nguni",
+      "sigil": "◈",
+      "regionGroup": "Afrika",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Impundulu",
+          "id": "impundulu",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Inkanyamba",
+          "id": "inkanyamba",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Tokoloshe",
+          "id": "tokoloshe",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Norðr",
+      "sigil": "ᚦ",
+      "regionGroup": "Kuzey Avrupa",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Draugr",
+          "id": "draugr",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Fenrir",
+          "id": "fenrir",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Jörmungandr",
+          "id": "jormungandr",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Nusantara",
+      "sigil": "❋",
+      "regionGroup": "Güneydoğu Asya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Orang Bunian",
+          "id": "orang-bunian",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Pontianak",
+          "id": "pontianak",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Rangda",
+          "id": "rangda",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Pārs",
+      "sigil": "𐎩",
+      "regionGroup": "Yakın Doğu",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Aži Dahāka",
+          "id": "azi-dahaka",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Perī",
+          "id": "peri",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Sīmurgh",
+          "id": "simurgh",
+          "class": "V",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Romana",
+      "sigil": "SPQR",
+      "regionGroup": "Akdeniz",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Basiliscus",
+          "id": "basiliscus",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Lemures",
+          "id": "lemures",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Strix",
+          "id": "strix",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Sápmi",
+      "sigil": "❄",
+      "regionGroup": "Kutup",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Gufihtar",
+          "id": "gufihtar",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Stállu",
+          "id": "stallu",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Ulda",
+          "id": "ulda",
+          "class": "I",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Siam",
+      "sigil": "☸",
+      "regionGroup": "Güneydoğu Asya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Kinnarī",
+          "id": "kinnari",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Krasue",
+          "id": "krasue",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Phaya Nak",
+          "id": "phaya-nak",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Slovjan",
+      "sigil": "⚡",
+      "regionGroup": "Kuzey Avrupa",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Domovoy",
+          "id": "domovoy",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Rusalka",
+          "id": "rusalka",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Zmey",
+          "id": "zmey",
+          "class": "V",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Sumer",
+      "sigil": "𒀭",
+      "regionGroup": "Yakın Doğu",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Anzû",
+          "id": "anzu",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Ḫumbaba",
+          "id": "humbaba",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Lamashtu",
+          "id": "lamashtu",
+          "class": "II",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Suomi",
+      "sigil": "ᛉ",
+      "regionGroup": "Kuzey Avrupa",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Ajatar",
+          "id": "ajatar",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Iku-Turso",
+          "id": "iku-turso",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Näkki",
+          "id": "nakki",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Talmud",
+      "sigil": "✡",
+      "regionGroup": "Yakın Doğu",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Golem",
+          "id": "golem",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Lilith",
+          "id": "lilith",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Ziz",
+          "id": "ziz",
+          "class": "V",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Tawantinsuyu",
+      "sigil": "☉",
+      "regionGroup": "And",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Amaru",
+          "id": "amaru",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Pishtaco",
+          "id": "pishtaco",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Supay",
+          "id": "supay",
+          "class": "VI",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Tupi-Guarani",
+      "sigil": "❂",
+      "regionGroup": "Amazon",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Boitatá",
+          "id": "boitata",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Curupira",
+          "id": "curupira",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Iara",
+          "id": "iara",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Türk",
+      "sigil": "☾",
+      "regionGroup": "Orta Asya",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Al Karısı",
+          "id": "al-karisi",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Karakoncolos",
+          "id": "karakoncolos",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Şahmeran",
+          "id": "sahmeran",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Việt",
+      "sigil": "☴",
+      "regionGroup": "Güneydoğu Asya",
+      "inherited": false,
+      "entries": [
+        {
+          "name": "Ma lai",
+          "id": "ma-lai",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Ông Ba Mươi",
+          "id": "ong-ba-muoi",
+          "class": "I",
+          "page": "—"
+        },
+        {
+          "name": "Thuồng luồng",
+          "id": "thuong-luong",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Yamato",
+      "sigil": "神",
+      "regionGroup": "Doğu Asya",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Kappa",
+          "id": "kappa",
+          "class": "IV",
+          "page": "—"
+        },
+        {
+          "name": "Tengu",
+          "id": "tengu",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Yamata-no-Orochi",
+          "id": "yamata-no-orochi",
+          "class": "IV",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Yorùbá · Ashanti",
+      "sigil": "✺",
+      "regionGroup": "Afrika",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Àbíkú",
+          "id": "abiku",
+          "class": "VI",
+          "page": "—"
+        },
+        {
+          "name": "Adze",
+          "id": "adze",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Anansi",
+          "id": "anansi",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "Zhōnghuá",
+      "sigil": "龍",
+      "regionGroup": "Doğu Asya",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Húli jīng",
+          "id": "huli-jing",
+          "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Lóng",
+          "id": "long",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "Qílín",
+          "id": "qilin",
+          "class": "I",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "tradition": "ʿArab",
+      "sigil": "☪",
+      "regionGroup": "Yakın Doğu",
+      "inherited": true,
+      "entries": [
+        {
+          "name": "Ghūl",
+          "id": "ghul",
+          "class": "II",
+          "page": "—"
+        },
+        {
+          "name": "Rukh",
+          "id": "rukh",
+          "class": "V",
+          "page": "—"
+        },
+        {
+          "name": "ʿIfrīt",
+          "id": "ifrit",
+          "class": "III",
+          "page": "—"
+        }
+      ]
+    }
+  ],
+  "motifs": [
+    {
+      "motif": "A177",
+      "section": "A",
+      "entries": [
+        {
+          "name": "Anansi",
+          "id": "anansi",
+          "tradition": "yoruba-ashanti",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "A812",
+      "section": "A",
+      "entries": [
+        {
+          "name": "Cipactli",
+          "id": "cipactli",
+          "tradition": "mexihcah",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Herensuge",
+          "id": "herensuge",
+          "tradition": "euskal",
+          "page": "—"
+        },
+        {
+          "name": "Vishap",
+          "id": "vishap",
+          "tradition": "hayk",
+          "page": "—"
+        },
+        {
+          "name": "Zmeu",
+          "id": "zmeu",
+          "tradition": "dacia",
+          "page": "—"
+        },
+        {
+          "name": "Zmey",
+          "id": "zmey",
+          "tradition": "slovjan",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Boitatá",
+          "id": "boitata",
+          "tradition": "tupi-guarani",
+          "page": "—"
+        },
+        {
+          "name": "Imugi",
+          "id": "imugi",
+          "tradition": "hangug",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11.2",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Amaru",
+          "id": "amaru",
+          "tradition": "tawantinsuyu",
+          "page": "—"
+        },
+        {
+          "name": "Aži Dahāka",
+          "id": "azi-dahaka",
+          "tradition": "pars",
+          "page": "—"
+        },
+        {
+          "name": "Iku-Turso",
+          "id": "iku-turso",
+          "tradition": "suomi",
+          "page": "—"
+        },
+        {
+          "name": "Inkanyamba",
+          "id": "inkanyamba",
+          "tradition": "nguni",
+          "page": "—"
+        },
+        {
+          "name": "Thuồng luồng",
+          "id": "thuong-luong",
+          "tradition": "viet",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11.2.1.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Apep",
+          "id": "apep",
+          "tradition": "kemet",
+          "page": "—"
+        },
+        {
+          "name": "Jörmungandr",
+          "id": "jormungandr",
+          "tradition": "nordr",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11.2.3",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Yamata-no-Orochi",
+          "id": "yamata-no-orochi",
+          "tradition": "yamato",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11.3",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Taniwha",
+          "id": "taniwha",
+          "tradition": "maohi",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11.7",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Lóng",
+          "id": "long",
+          "tradition": "zhonghua",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B12",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Basiliscus",
+          "id": "basiliscus",
+          "tradition": "romana",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B15",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Chímaira",
+          "id": "chimaira",
+          "tradition": "hellenic",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B16",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Ahuizotl",
+          "id": "ahuizotl",
+          "tradition": "mexihcah",
+          "page": "—"
+        },
+        {
+          "name": "Makara",
+          "id": "makara",
+          "tradition": "bharatiya",
+          "page": "—"
+        },
+        {
+          "name": "Mishipeshu",
+          "id": "mishipeshu",
+          "tradition": "anishinaabe",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B19",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Qílín",
+          "id": "qilin",
+          "tradition": "zhonghua",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B31",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Anzû",
+          "id": "anzu",
+          "tradition": "sumer",
+          "page": "—"
+        },
+        {
+          "name": "Garuḍa",
+          "id": "garuda",
+          "tradition": "bharatiya",
+          "page": "—"
+        },
+        {
+          "name": "Khyung",
+          "id": "khyung",
+          "tradition": "bod",
+          "page": "—"
+        },
+        {
+          "name": "Sīmurgh",
+          "id": "simurgh",
+          "tradition": "pars",
+          "page": "—"
+        },
+        {
+          "name": "Ziz",
+          "id": "ziz",
+          "tradition": "talmud",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B31.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Animikii",
+          "id": "animikii",
+          "tradition": "anishinaabe",
+          "page": "—"
+        },
+        {
+          "name": "Camazotz",
+          "id": "camazotz",
+          "tradition": "maya",
+          "page": "—"
+        },
+        {
+          "name": "Impundulu",
+          "id": "impundulu",
+          "tradition": "nguni",
+          "page": "—"
+        },
+        {
+          "name": "Rukh",
+          "id": "rukh",
+          "tradition": "arab",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B32",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Bennu",
+          "id": "bennu",
+          "tradition": "kemet",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B52",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Kinnarī",
+          "id": "kinnari",
+          "tradition": "siam",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B91",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Moʻo",
+          "id": "moo",
+          "tradition": "maohi",
+          "page": "—"
+        },
+        {
+          "name": "Nāga",
+          "id": "naga",
+          "tradition": "bharatiya",
+          "page": "—"
+        },
+        {
+          "name": "Phaya Nak",
+          "id": "phaya-nak",
+          "tradition": "siam",
+          "page": "—"
+        },
+        {
+          "name": "Şahmeran",
+          "id": "sahmeran",
+          "tradition": "turk",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B184.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Tikbalang",
+          "id": "tikbalang",
+          "tradition": "filipin",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B184.1.3",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Each-uisce",
+          "id": "each-uisce",
+          "tradition": "eriu",
+          "page": "—"
+        },
+        {
+          "name": "Näkki",
+          "id": "nakki",
+          "tradition": "suomi",
+          "page": "—"
+        },
+        {
+          "name": "Nykur",
+          "id": "nykur",
+          "tradition": "island",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B472",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Repun Kamuy",
+          "id": "repun-kamuy",
+          "tradition": "ainu",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B733",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Aralez",
+          "id": "aralez",
+          "tradition": "hayk",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B765",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Olgoi-Khorkhoi",
+          "id": "olgoi-khorkhoi",
+          "tradition": "mongol",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B871",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Amarok",
+          "id": "amarok",
+          "tradition": "inuit",
+          "page": "—"
+        },
+        {
+          "name": "Ông Ba Mươi",
+          "id": "ong-ba-muoi",
+          "tradition": "viet",
+          "page": "—"
+        },
+        {
+          "name": "Skuggabaldur",
+          "id": "skuggabaldur",
+          "tradition": "island",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B871.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Fenrir",
+          "id": "fenrir",
+          "tradition": "nordr",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D110",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Nahual",
+          "id": "nahual",
+          "tradition": "mexihcah",
+          "page": "—"
+        },
+        {
+          "name": "Way",
+          "id": "way",
+          "tradition": "maya",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D113",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Nhang",
+          "id": "nhang",
+          "tradition": "hayk",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D113.1",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Húli jīng",
+          "id": "huli-jing",
+          "tradition": "zhonghua",
+          "page": "—"
+        },
+        {
+          "name": "Kumiho",
+          "id": "kumiho",
+          "tradition": "hangug",
+          "page": "—"
+        },
+        {
+          "name": "Vârcolac",
+          "id": "varcolac",
+          "tradition": "dacia",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D113.2",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Buda",
+          "id": "buda",
+          "tradition": "ityopya",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D131",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Púca",
+          "id": "puca",
+          "tradition": "eriu",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D150",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Tengu",
+          "id": "tengu",
+          "tradition": "yamato",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D1635",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Golem",
+          "id": "golem",
+          "tradition": "talmud",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "D1711",
+      "section": "D",
+      "entries": [
+        {
+          "name": "Tupilaq",
+          "id": "tupilaq",
+          "tradition": "inuit",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E200",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Chötgör",
+          "id": "chotgor",
+          "tradition": "mongol",
+          "page": "—"
+        },
+        {
+          "name": "Kaia",
+          "id": "kaia",
+          "tradition": "melanesia",
+          "page": "—"
+        },
+        {
+          "name": "Lemures",
+          "id": "lemures",
+          "tradition": "romana",
+          "page": "—"
+        },
+        {
+          "name": "Supay",
+          "id": "supay",
+          "tradition": "tawantinsuyu",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E220",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Àbíkú",
+          "id": "abiku",
+          "tradition": "yoruba-ashanti",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E230",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Draugr",
+          "id": "draugr",
+          "tradition": "nordr",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E251",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Strigoi",
+          "id": "strigoi",
+          "tradition": "dacia",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E402",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Bean sídhe",
+          "id": "bean-sidhe",
+          "tradition": "eriu",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E425",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Pontianak",
+          "id": "pontianak",
+          "tradition": "nusantara",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F150",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Ḫumbaba",
+          "id": "humbaba",
+          "tradition": "sumer",
+          "page": "—"
+        },
+        {
+          "name": "Kérberos",
+          "id": "kerberos",
+          "tradition": "hellenic",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F251",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Huldufólk",
+          "id": "huldufolk",
+          "tradition": "island",
+          "page": "—"
+        },
+        {
+          "name": "Orang Bunian",
+          "id": "orang-bunian",
+          "tradition": "nusantara",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F300",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Gufihtar",
+          "id": "gufihtar",
+          "tradition": "sapmi",
+          "page": "—"
+        },
+        {
+          "name": "Perī",
+          "id": "peri",
+          "tradition": "pars",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F302",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Xtabay",
+          "id": "xtabay",
+          "tradition": "maya",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F400",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Dokkaebi",
+          "id": "dokkaebi",
+          "tradition": "hangug",
+          "page": "—"
+        },
+        {
+          "name": "Kaji",
+          "id": "kaji",
+          "tradition": "kartveli",
+          "page": "—"
+        },
+        {
+          "name": "Masalai",
+          "id": "masalai",
+          "tradition": "melanesia",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F402",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Zar",
+          "id": "zar",
+          "tradition": "ityopya",
+          "page": "—"
+        },
+        {
+          "name": "ʿIfrīt",
+          "id": "ifrit",
+          "tradition": "arab",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F420",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Adaro",
+          "id": "adaro",
+          "tradition": "melanesia",
+          "page": "—"
+        },
+        {
+          "name": "Iara",
+          "id": "iara",
+          "tradition": "tupi-guarani",
+          "page": "—"
+        },
+        {
+          "name": "Kappa",
+          "id": "kappa",
+          "tradition": "yamato",
+          "page": "—"
+        },
+        {
+          "name": "Lamia",
+          "id": "lamia-euskal",
+          "tradition": "euskal",
+          "page": "—"
+        },
+        {
+          "name": "Rusalka",
+          "id": "rusalka",
+          "tradition": "slovjan",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F451",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Koropokkuru",
+          "id": "koropokkuru",
+          "tradition": "ainu",
+          "page": "—"
+        },
+        {
+          "name": "Tokoloshe",
+          "id": "tokoloshe",
+          "tradition": "nguni",
+          "page": "—"
+        },
+        {
+          "name": "Ulda",
+          "id": "ulda",
+          "tradition": "sapmi",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F460",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Almas",
+          "id": "almas",
+          "tradition": "mongol",
+          "page": "—"
+        },
+        {
+          "name": "Basajaun",
+          "id": "basajaun",
+          "tradition": "euskal",
+          "page": "—"
+        },
+        {
+          "name": "Curupira",
+          "id": "curupira",
+          "tradition": "tupi-guarani",
+          "page": "—"
+        },
+        {
+          "name": "Migoi",
+          "id": "migoi",
+          "tradition": "bod",
+          "page": "—"
+        },
+        {
+          "name": "Ochokochi",
+          "id": "ochokochi",
+          "tradition": "kartveli",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F480",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Domovoy",
+          "id": "domovoy",
+          "tradition": "slovjan",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G11",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Ghūl",
+          "id": "ghul",
+          "tradition": "arab",
+          "page": "—"
+        },
+        {
+          "name": "Pishtaco",
+          "id": "pishtaco",
+          "tradition": "tawantinsuyu",
+          "page": "—"
+        },
+        {
+          "name": "Windigo",
+          "id": "windigo",
+          "tradition": "anishinaabe",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G100",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Devi",
+          "id": "devi",
+          "tradition": "kartveli",
+          "page": "—"
+        },
+        {
+          "name": "Stállu",
+          "id": "stallu",
+          "tradition": "sapmi",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G262",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Adze",
+          "id": "adze",
+          "tradition": "yoruba-ashanti",
+          "page": "—"
+        },
+        {
+          "name": "Aswang",
+          "id": "aswang",
+          "tradition": "filipin",
+          "page": "—"
+        },
+        {
+          "name": "Krasue",
+          "id": "krasue",
+          "tradition": "siam",
+          "page": "—"
+        },
+        {
+          "name": "Ma lai",
+          "id": "ma-lai",
+          "tradition": "viet",
+          "page": "—"
+        },
+        {
+          "name": "Strix",
+          "id": "strix",
+          "tradition": "romana",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G262.1",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Manananggal",
+          "id": "manananggal",
+          "tradition": "filipin",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G263",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Rangda",
+          "id": "rangda",
+          "tradition": "nusantara",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G264",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Al Karısı",
+          "id": "al-karisi",
+          "tradition": "turk",
+          "page": "—"
+        },
+        {
+          "name": "Kenas-unarpe",
+          "id": "kenas-unarpe",
+          "tradition": "ainu",
+          "page": "—"
+        },
+        {
+          "name": "Lamashtu",
+          "id": "lamashtu",
+          "tradition": "sumer",
+          "page": "—"
+        },
+        {
+          "name": "Lámia",
+          "id": "lamia-hellenic",
+          "tradition": "hellenic",
+          "page": "—"
+        },
+        {
+          "name": "Lilith",
+          "id": "lilith",
+          "tradition": "talmud",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G300",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Ganen",
+          "id": "ganen",
+          "tradition": "ityopya",
+          "page": "—"
+        },
+        {
+          "name": "Ponaturi",
+          "id": "ponaturi",
+          "tradition": "maohi",
+          "page": "—"
+        },
+        {
+          "name": "Srin-po",
+          "id": "srin-po",
+          "tradition": "bod",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G302",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Ajatar",
+          "id": "ajatar",
+          "tradition": "suomi",
+          "page": "—"
+        },
+        {
+          "name": "Karakoncolos",
+          "id": "karakoncolos",
+          "tradition": "turk",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G303",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Ammit",
+          "id": "ammit",
+          "tradition": "kemet",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G308",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Qalupalik",
+          "id": "qalupalik",
+          "tradition": "inuit",
+          "page": "—"
+        }
+      ]
+    }
+  ],
+  "kin": [
+    {
+      "family": "A",
+      "tr": "Su atı",
+      "en": "The Water Horse",
+      "motif": "B184.1.3",
+      "image": "Suyun kıyısında duran, sırtına bineni suya çeken at",
+      "divergence": "İrlanda'da yiyicidir, İzlanda'da boğar, Filipinler'de yolu şaşırtır.",
+      "members": [
+        {
+          "name": "Each-uisce",
+          "id": "each-uisce",
+          "tradition": "Ériu",
+          "sigil": "☘",
+          "page": "—"
+        },
+        {
+          "name": "Näkki",
+          "id": "nakki",
+          "tradition": "Suomi",
+          "sigil": "ᛉ",
+          "page": "—"
+        },
+        {
+          "name": "Tikbalang",
+          "id": "tikbalang",
+          "tradition": "Filipin",
+          "sigil": "✧",
+          "page": "—"
+        },
+        {
+          "name": "Nykur",
+          "id": "nykur",
+          "tradition": "Ísland",
+          "sigil": "❆",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "family": "B",
+      "tr": "Tilki kadın",
+      "en": "The Fox Woman",
+      "motif": "D113.1",
+      "image": "Kadına dönüşen, ömür veya karaciğer alan tilki",
+      "divergence": "Çin'de ölümsüzlük arar, Kore'de karaciğer yer, Japonya'da bazen koruyucudur.",
+      "members": [
+        {
+          "name": "Húli jīng",
+          "id": "huli-jing",
+          "tradition": "Zhōnghuá",
+          "sigil": "龍",
+          "page": "—"
+        },
+        {
+          "name": "Kumiho",
+          "id": "kumiho",
+          "tradition": "Hangug",
+          "sigil": "단",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "family": "C",
+      "tr": "Gece cadısı",
+      "en": "The Night Hag",
+      "motif": "G264",
+      "image": "Loğusayı ve yeni doğanı avlayan dişi varlık",
+      "divergence": "Dokuz gelenek, bir korku: doğum ölümlerinin folklora dönüşmesi.",
+      "members": [
+        {
+          "name": "Lámia",
+          "id": "lamia-hellenic",
+          "tradition": "Hellenic",
+          "sigil": "Ω",
+          "page": "—"
+        },
+        {
+          "name": "Lamashtu",
+          "id": "lamashtu",
+          "tradition": "Sumer",
+          "sigil": "𒀭",
+          "page": "—"
+        },
+        {
+          "name": "Strix",
+          "id": "strix",
+          "tradition": "Romana",
+          "sigil": "SPQR",
+          "page": "—"
+        },
+        {
+          "name": "Àbíkú",
+          "id": "abiku",
+          "tradition": "Yorùbá · Ashanti",
+          "sigil": "✺",
+          "page": "—"
+        },
+        {
+          "name": "Adze",
+          "id": "adze",
+          "tradition": "Yorùbá · Ashanti",
+          "sigil": "✺",
+          "page": "—"
+        },
+        {
+          "name": "Qalupalik",
+          "id": "qalupalik",
+          "tradition": "Inuit",
+          "sigil": "ᐃ",
+          "page": "—"
+        },
+        {
+          "name": "Al Karısı",
+          "id": "al-karisi",
+          "tradition": "Türk",
+          "sigil": "☾",
+          "page": "—"
+        },
+        {
+          "name": "Kenas-unarpe",
+          "id": "kenas-unarpe",
+          "tradition": "Ainu",
+          "sigil": "ᚼ",
+          "page": "—"
+        },
+        {
+          "name": "Ma lai",
+          "id": "ma-lai",
+          "tradition": "Việt",
+          "sigil": "☴",
+          "page": "—"
+        },
+        {
+          "name": "Krasue",
+          "id": "krasue",
+          "tradition": "Siam",
+          "sigil": "☸",
+          "page": "—"
+        },
+        {
+          "name": "Aswang",
+          "id": "aswang",
+          "tradition": "Filipin",
+          "sigil": "✧",
+          "page": "—"
+        },
+        {
+          "name": "Manananggal",
+          "id": "manananggal",
+          "tradition": "Filipin",
+          "sigil": "✧",
+          "page": "—"
+        },
+        {
+          "name": "Pontianak",
+          "id": "pontianak",
+          "tradition": "Nusantara",
+          "sigil": "❋",
+          "page": "—"
+        },
+        {
+          "name": "Lilith",
+          "id": "lilith",
+          "tradition": "Talmud",
+          "sigil": "✡",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "family": "D",
+      "tr": "Fırtına kuşu",
+      "en": "The Storm Bird",
+      "motif": "B31",
+      "image": "Kanadı gök gürültüsü, gözü şimşek olan dev kuş",
+      "divergence": "Mezopotamya'da hırsız, İran'da bilge, Kuzey Amerika'da savaşçı.",
+      "members": [
+        {
+          "name": "Bennu",
+          "id": "bennu",
+          "tradition": "Kemet",
+          "sigil": "𓂀",
+          "page": "—"
+        },
+        {
+          "name": "Garuḍa",
+          "id": "garuda",
+          "tradition": "Bharatiya",
+          "sigil": "ॐ",
+          "page": "—"
+        },
+        {
+          "name": "Anzû",
+          "id": "anzu",
+          "tradition": "Sumer",
+          "sigil": "𒀭",
+          "page": "—"
+        },
+        {
+          "name": "Sīmurgh",
+          "id": "simurgh",
+          "tradition": "Pārs",
+          "sigil": "𐎩",
+          "page": "—"
+        },
+        {
+          "name": "Rukh",
+          "id": "rukh",
+          "tradition": "ʿArab",
+          "sigil": "☪",
+          "page": "—"
+        },
+        {
+          "name": "Khyung",
+          "id": "khyung",
+          "tradition": "Bod",
+          "sigil": "☷",
+          "page": "—"
+        },
+        {
+          "name": "Ziz",
+          "id": "ziz",
+          "tradition": "Talmud",
+          "sigil": "✡",
+          "page": "—"
+        },
+        {
+          "name": "Impundulu",
+          "id": "impundulu",
+          "tradition": "Nguni",
+          "sigil": "◈",
+          "page": "—"
+        },
+        {
+          "name": "Animikii",
+          "id": "animikii",
+          "tradition": "Anishinaabe",
+          "sigil": "▲",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "family": "E",
+      "tr": "Derinlerin yılanı",
+      "en": "The Serpent of the Deep",
+      "motif": "B11.2.1.1",
+      "image": "Dünyayı çevreleyen veya dibinde yatan yılan",
+      "divergence": "Kuzeyde kıyameti getirir, Mısır'da her gece yenilir, And'da iki dünyayı bağlar.",
+      "members": [
+        {
+          "name": "Apep",
+          "id": "apep",
+          "tradition": "Kemet",
+          "sigil": "𓂀",
+          "page": "—"
+        },
+        {
+          "name": "Jörmungandr",
+          "id": "jormungandr",
+          "tradition": "Norðr",
+          "sigil": "ᚦ",
+          "page": "—"
+        },
+        {
+          "name": "Yamata-no-Orochi",
+          "id": "yamata-no-orochi",
+          "tradition": "Yamato",
+          "sigil": "神",
+          "page": "—"
+        },
+        {
+          "name": "Nāga",
+          "id": "naga",
+          "tradition": "Bharatiya",
+          "sigil": "ॐ",
+          "page": "—"
+        },
+        {
+          "name": "Imugi",
+          "id": "imugi",
+          "tradition": "Hangug",
+          "sigil": "단",
+          "page": "—"
+        },
+        {
+          "name": "Zmey",
+          "id": "zmey",
+          "tradition": "Slovjan",
+          "sigil": "⚡",
+          "page": "—"
+        },
+        {
+          "name": "Aži Dahāka",
+          "id": "azi-dahaka",
+          "tradition": "Pārs",
+          "sigil": "𐎩",
+          "page": "—"
+        },
+        {
+          "name": "Taniwha",
+          "id": "taniwha",
+          "tradition": "Mā'ohi",
+          "sigil": "ᴥ",
+          "page": "—"
+        },
+        {
+          "name": "Iku-Turso",
+          "id": "iku-turso",
+          "tradition": "Suomi",
+          "sigil": "ᛉ",
+          "page": "—"
+        },
+        {
+          "name": "Thuồng luồng",
+          "id": "thuong-luong",
+          "tradition": "Việt",
+          "sigil": "☴",
+          "page": "—"
+        },
+        {
+          "name": "Phaya Nak",
+          "id": "phaya-nak",
+          "tradition": "Siam",
+          "sigil": "☸",
+          "page": "—"
+        },
+        {
+          "name": "Vishap",
+          "id": "vishap",
+          "tradition": "Hayk",
+          "sigil": "✚",
+          "page": "—"
+        },
+        {
+          "name": "Inkanyamba",
+          "id": "inkanyamba",
+          "tradition": "Nguni",
+          "sigil": "◈",
+          "page": "—"
+        },
+        {
+          "name": "Zmeu",
+          "id": "zmeu",
+          "tradition": "Dacia",
+          "sigil": "✠",
+          "page": "—"
+        },
+        {
+          "name": "Amaru",
+          "id": "amaru",
+          "tradition": "Tawantinsuyu",
+          "sigil": "☉",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "family": "F",
+      "tr": "Eşik bekçisi",
+      "en": "The Threshold Guardian",
+      "motif": "F150",
+      "image": "Geçilmesi gereken kapıda duran varlık",
+      "divergence": "Bazıları cezalandırır, bazıları yalnızca bakar — ve bakış yeterlidir.",
+      "members": [
+        {
+          "name": "Kérberos",
+          "id": "kerberos",
+          "tradition": "Hellenic",
+          "sigil": "Ω",
+          "page": "—"
+        },
+        {
+          "name": "Ḫumbaba",
+          "id": "humbaba",
+          "tradition": "Sumer",
+          "sigil": "𒀭",
+          "page": "—"
+        },
+        {
+          "name": "Basiliscus",
+          "id": "basiliscus",
+          "tradition": "Romana",
+          "sigil": "SPQR",
+          "page": "—"
+        },
+        {
+          "name": "Qílín",
+          "id": "qilin",
+          "tradition": "Zhōnghuá",
+          "sigil": "龍",
+          "page": "—"
+        },
+        {
+          "name": "Camazotz",
+          "id": "camazotz",
+          "tradition": "Maya",
+          "sigil": "𝋠",
+          "page": "—"
+        },
+        {
+          "name": "Aralez",
+          "id": "aralez",
+          "tradition": "Hayk",
+          "sigil": "✚",
+          "page": "—"
+        },
+        {
+          "name": "Golem",
+          "id": "golem",
+          "tradition": "Talmud",
+          "sigil": "✡",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "family": "G",
+      "tr": "Yaban adamı",
+      "en": "The Wild Man",
+      "motif": "F460",
+      "image": "Ormanda/dağda yaşayan, insana benzeyen ama insan olmayan",
+      "divergence": "Baskça'da çobanı korur, Amazon'da avcıyı cezalandırır — doğanın tarafı.",
+      "members": [
+        {
+          "name": "Basajaun",
+          "id": "basajaun",
+          "tradition": "Euskal",
+          "sigil": "✜",
+          "page": "—"
+        },
+        {
+          "name": "Migoi",
+          "id": "migoi",
+          "tradition": "Bod",
+          "sigil": "☷",
+          "page": "—"
+        },
+        {
+          "name": "Almas",
+          "id": "almas",
+          "tradition": "Mongol",
+          "sigil": "⚔",
+          "page": "—"
+        },
+        {
+          "name": "Ochokochi",
+          "id": "ochokochi",
+          "tradition": "Kartveli",
+          "sigil": "✛",
+          "page": "—"
+        },
+        {
+          "name": "Curupira",
+          "id": "curupira",
+          "tradition": "Tupi-Guarani",
+          "sigil": "❂",
+          "page": "—"
+        },
+        {
+          "name": "Stállu",
+          "id": "stallu",
+          "tradition": "Sápmi",
+          "sigil": "❄",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "family": "H",
+      "tr": "Gizli halk",
+      "en": "The Hidden People",
+      "motif": "F251",
+      "image": "Yanı başımızda ama görünmeyen bir topluluk",
+      "divergence": "İzlanda'da hâlâ yol güzergâhı değiştirtir — yaşayan folklor.",
+      "members": [
+        {
+          "name": "Koropokkuru",
+          "id": "koropokkuru",
+          "tradition": "Ainu",
+          "sigil": "ᚼ",
+          "page": "—"
+        },
+        {
+          "name": "Orang Bunian",
+          "id": "orang-bunian",
+          "tradition": "Nusantara",
+          "sigil": "❋",
+          "page": "—"
+        },
+        {
+          "name": "Ulda",
+          "id": "ulda",
+          "tradition": "Sápmi",
+          "sigil": "❄",
+          "page": "—"
+        },
+        {
+          "name": "Huldufólk",
+          "id": "huldufolk",
+          "tradition": "Ísland",
+          "sigil": "❆",
+          "page": "—"
+        }
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "name": "Àbíkú",
+      "id": "abiku",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Adaro",
+      "id": "adaro",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Adze",
+      "id": "adze",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ahuizotl",
+      "id": "ahuizotl",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ajatar",
+      "id": "ajatar",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Al Karısı",
+      "id": "al-karisi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Almas",
+      "id": "almas",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Amarok",
+      "id": "amarok",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Amaru",
+      "id": "amaru",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ammit",
+      "id": "ammit",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Anansi",
+      "id": "anansi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Animikii",
+      "id": "animikii",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Anzû",
+      "id": "anzu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Apep",
+      "id": "apep",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Aralez",
+      "id": "aralez",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Aswang",
+      "id": "aswang",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Aži Dahāka",
+      "id": "azi-dahaka",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Basajaun",
+      "id": "basajaun",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Basiliscus",
+      "id": "basiliscus",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Bean sídhe",
+      "id": "bean-sidhe",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Bennu",
+      "id": "bennu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Boitatá",
+      "id": "boitata",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Buda",
+      "id": "buda",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Camazotz",
+      "id": "camazotz",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Chímaira",
+      "id": "chimaira",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Chötgör",
+      "id": "chotgor",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Cipactli",
+      "id": "cipactli",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Curupira",
+      "id": "curupira",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Devi",
+      "id": "devi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Dokkaebi",
+      "id": "dokkaebi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Domovoy",
+      "id": "domovoy",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Draugr",
+      "id": "draugr",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Each-uisce",
+      "id": "each-uisce",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Fenrir",
+      "id": "fenrir",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ganen",
+      "id": "ganen",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Garuḍa",
+      "id": "garuda",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ghūl",
+      "id": "ghul",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Golem",
+      "id": "golem",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Gufihtar",
+      "id": "gufihtar",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Herensuge",
+      "id": "herensuge",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Huldufólk",
+      "id": "huldufolk",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Húli jīng",
+      "id": "huli-jing",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ḫumbaba",
+      "id": "humbaba",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Iara",
+      "id": "iara",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Iku-Turso",
+      "id": "iku-turso",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Impundulu",
+      "id": "impundulu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Imugi",
+      "id": "imugi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Inkanyamba",
+      "id": "inkanyamba",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Jörmungandr",
+      "id": "jormungandr",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Kaia",
+      "id": "kaia",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Kaji",
+      "id": "kaji",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Kappa",
+      "id": "kappa",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Karakoncolos",
+      "id": "karakoncolos",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Kenas-unarpe",
+      "id": "kenas-unarpe",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Kérberos",
+      "id": "kerberos",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Khyung",
+      "id": "khyung",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Kinnarī",
+      "id": "kinnari",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Koropokkuru",
+      "id": "koropokkuru",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Krasue",
+      "id": "krasue",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Kumiho",
+      "id": "kumiho",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Lamashtu",
+      "id": "lamashtu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Lamia",
+      "id": "lamia-euskal",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Lámia",
+      "id": "lamia-hellenic",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Lemures",
+      "id": "lemures",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Lilith",
+      "id": "lilith",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Lóng",
+      "id": "long",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ma lai",
+      "id": "ma-lai",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Makara",
+      "id": "makara",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Manananggal",
+      "id": "manananggal",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Masalai",
+      "id": "masalai",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Migoi",
+      "id": "migoi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Mishipeshu",
+      "id": "mishipeshu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Moʻo",
+      "id": "moo",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Nāga",
+      "id": "naga",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Nahual",
+      "id": "nahual",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Näkki",
+      "id": "nakki",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Nhang",
+      "id": "nhang",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Nykur",
+      "id": "nykur",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ochokochi",
+      "id": "ochokochi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Olgoi-Khorkhoi",
+      "id": "olgoi-khorkhoi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ông Ba Mươi",
+      "id": "ong-ba-muoi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Orang Bunian",
+      "id": "orang-bunian",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Perī",
+      "id": "peri",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Phaya Nak",
+      "id": "phaya-nak",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Pishtaco",
+      "id": "pishtaco",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ponaturi",
+      "id": "ponaturi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Pontianak",
+      "id": "pontianak",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Púca",
+      "id": "puca",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Qalupalik",
+      "id": "qalupalik",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Qílín",
+      "id": "qilin",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Rangda",
+      "id": "rangda",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Repun Kamuy",
+      "id": "repun-kamuy",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Rukh",
+      "id": "rukh",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Rusalka",
+      "id": "rusalka",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Şahmeran",
+      "id": "sahmeran",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Sīmurgh",
+      "id": "simurgh",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Skuggabaldur",
+      "id": "skuggabaldur",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Srin-po",
+      "id": "srin-po",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Stállu",
+      "id": "stallu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Strigoi",
+      "id": "strigoi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Strix",
+      "id": "strix",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Supay",
+      "id": "supay",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Taniwha",
+      "id": "taniwha",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Tengu",
+      "id": "tengu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Thuồng luồng",
+      "id": "thuong-luong",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Tikbalang",
+      "id": "tikbalang",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Tokoloshe",
+      "id": "tokoloshe",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Tupilaq",
+      "id": "tupilaq",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ulda",
+      "id": "ulda",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Vârcolac",
+      "id": "varcolac",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Vishap",
+      "id": "vishap",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Way",
+      "id": "way",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Windigo",
+      "id": "windigo",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Xtabay",
+      "id": "xtabay",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Yamata-no-Orochi",
+      "id": "yamata-no-orochi",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Zar",
+      "id": "zar",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ziz",
+      "id": "ziz",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Zmeu",
+      "id": "zmeu",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Zmey",
+      "id": "zmey",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "ʿIfrīt",
+      "id": "ifrit",
+      "pronunciation": "—",
+      "page": "—",
+      "type": "entry"
+    }
+  ]
+}

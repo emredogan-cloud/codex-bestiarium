@@ -1,0 +1,117 @@
+# =============================================================================
+# CODEX BESTIARIUM — FAZ SÜRÜMÜ
+# =============================================================================
+# Bir faz ancak etiketlenerek kapanır. Bu iş akışı etiketi doğrular:
+#   · kalite kapıları yeşil mi
+#   · CHANGELOG'da bu sürümün bloğu var mı
+#   · .gate seviyesi etikete uygun mu
+# ve sonra GitHub Release'i CHANGELOG'dan üretir.
+#
+# Kapılar geçmeden sürüm oluşmaz. "Faz bitti" demek, ölçülebilir bir şeydir.
+# =============================================================================
+name: release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'etiket (ör. v0.1.0)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    name: sürüm doğrulaması
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.meta.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet pyyaml
+
+      - id: meta
+        name: etiket ve kapı seviyesi
+        run: |
+          TAG="${{ inputs.tag || github.ref_name }}"
+          echo "version=$TAG" >> "$GITHUB_OUTPUT"
+          LEVEL="draft"; [ -f .gate ] && LEVEL="$(tr -d '[:space:]' < .gate)"
+          echo "::notice::etiket=$TAG · kapı=$LEVEL"
+
+          # Faz etiketiyle kapı seviyesi tutarlı mı
+          case "$TAG" in
+            v0.1.*) WANT=phase1 ;;
+            v0.2.*) WANT=phase2 ;;
+            v0.3.*|v0.4.*|v0.5.*|v1.*) WANT=phase3 ;;
+            *)      WANT="" ;;
+          esac
+          if [ -n "$WANT" ] && [ "$LEVEL" != "$WANT" ]; then
+            echo "::error::$TAG etiketi .gate=$WANT bekler, bulunan: $LEVEL — faz kapanışında '.gate' yükseltilmeliydi."
+            exit 1
+          fi
+
+      - name: CHANGELOG bu sürümü içeriyor mu
+        run: |
+          TAG="${{ steps.meta.outputs.version }}"
+          VER="${TAG#v}"
+          if ! grep -q "^## \[$VER\]" CHANGELOG.md; then
+            echo "::error::CHANGELOG.md'de '## [$VER]' bloğu yok — faz kapanışı CHANGELOG kaydı olmadan tamamlanmaz."
+            exit 1
+          fi
+          echo "::notice::CHANGELOG bloğu bulundu: [$VER]"
+
+      - name: bütün kalite kapıları
+        run: ./08_BUILD/qa_all.sh
+
+  publish:
+    name: GitHub Release
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: sürüm notunu CHANGELOG'dan çıkar
+        id: notes
+        run: |
+          VER="${{ needs.verify.outputs.version }}"
+          VER="${VER#v}"
+          # '## [x.y.z]' başlığından bir sonraki '## [' başlığına kadar
+          awk -v ver="$VER" '
+            $0 ~ "^## \\[" ver "\\]" {flag=1; next}
+            flag && /^## \[/ {exit}
+            flag {print}
+          ' CHANGELOG.md > RELEASE_NOTES.md
+          echo "::group::sürüm notu"; cat RELEASE_NOTES.md; echo "::endgroup::"
+
+      - name: ölçülen durumu ekle
+        run: |
+          {
+            echo ""
+            echo "---"
+            echo ""
+            echo "### Ölçülen durum"
+            echo ""
+            sed -n '/^## 1. Tek bakışta/,/^## 2\./p' BOOK_STATS.md | head -30
+          } >> RELEASE_NOTES.md
+
+      - name: release oluştur
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${{ needs.verify.outputs.version }}"
+          PRE=""
+          case "$TAG" in v0.*) PRE="--prerelease" ;; esac
+          gh release create "$TAG" \
+            --title "Codex Bestiarium $TAG" \
+            --notes-file RELEASE_NOTES.md \
+            $PRE

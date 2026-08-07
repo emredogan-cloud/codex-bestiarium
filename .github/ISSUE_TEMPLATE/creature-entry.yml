@@ -1,0 +1,74 @@
+name: "Madde · yaratık kaydı"
+description: Bir yaratık maddesinin araştırması, yazımı veya düzeltmesi
+title: "[madde] "
+labels: ["madde"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bir yaratık maddesiyle ilgili iş. Araştırma, yazım veya düzeltme.
+        `spec.json`'daki kimliği (`id`) mutlaka verin.
+
+  - type: input
+    id: creature_id
+    attributes:
+      label: Madde kimliği
+      description: spec.json'daki `id` alanı
+      placeholder: each-uisce
+    validations:
+      required: true
+
+  - type: dropdown
+    id: work
+    attributes:
+      label: Yapılacak iş
+      options:
+        - Araştırma — iki bağımsız kaynak bul (Faz 1)
+        - Motif kodu doğrula (Faz 1)
+        - Kısıtlılık taraması (Faz 1)
+        - Tasnif — sınıf veya aile ataması (Faz 2)
+        - Çapraz referans (Faz 2)
+        - Telaffuz (Faz 2)
+        - Yazım (Faz 3–5)
+        - Düzeltme — olgusal hata
+        - Düzeltme — üslup
+        - Plaka
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Faz
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: Ayrıntı
+      description: Ne yapılacak, neden gerekiyor
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Kaynaklar
+      description: |
+        Araştırma işiyse bulunan kaynakları tam künyeyle yazın.
+        **Motif dizini bağımsız kaynak sayılmaz.**
+      placeholder: |
+        1. Croker, Fairy Legends and Traditions of the South of Ireland (1825), II:73 — primary
+        2. …
+      render: markdown
+
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Kapılar
+      options:
+        - label: En az iki **bağımsız** kaynak var (veya bu iş onu bulmak için)
+        - label: Yaşayan gelenek — kısıtlılık taraması gerekiyor
+        - label: Kaynak bulunamazsa madde düşecek ve `SCOPE_DECISIONS.md`'ye yazılacak

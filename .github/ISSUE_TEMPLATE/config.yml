@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Yol haritası
+    url: https://github.com/emredogan-cloud/codex-bestiarium/blob/main/CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md
+    about: Fazlar, kapılar, kararlar ve riskler — tek doğruluk kaynağı
+  - name: Tartışma
+    url: https://github.com/emredogan-cloud/codex-bestiarium/discussions
+    about: Editoryal kararlar ve açık sorular için (A1 · A2 · A3)
+  - name: Yazım kuralları
+    url: https://github.com/emredogan-cloud/codex-bestiarium/blob/main/00_CONTEXT/STYLE.md
+    about: Ses, yasak kalıplar, yedi bölümlü madde yapısı

@@ -1,0 +1,82 @@
+# ─────────────────────────────────────────────────────────────────────────
+# CODEX BESTIARIUM — .gitignore
+# ─────────────────────────────────────────────────────────────────────────
+
+# ① KİTABIN PROZASI  ──────────────────────────────────────────────────────
+# Depo herkese açıktır. 92.000 kelimelik metnin açık bir depoda durması üç
+# somut risk taşır: KDP fiyat eşleştirmesi, kamu malı yanlış sınıflandırması,
+# intihal. Karar ve alternatifler:
+#   CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md § A1
+#
+# CI proza VARSA denetler, yoksa yeşil kalır. Yerelde tam denetim:
+#   ./08_BUILD/qa_all.sh
+01_SOURCE/book.json
+01_SOURCE/book-edited.json
+01_SOURCE/edits.json
+
+# ② ÜRETİLMİŞ YAYIN DOSYALARI  ────────────────────────────────────────────
+# Hepsi kaynaktan yeniden üretilebilir; ikili dosya olarak depoyu şişirirler.
+04_PRINT/**/*.pdf
+05_KINDLE/*.epub
+05_KINDLE/*.mobi
+02_MANUSCRIPT/*.docx
+03_COVER/**/exports/
+03_COVER/**/proofs/
+03_COVER/**/plates/
+03_APLUS/exports/
+09_ARCHIVE/
+
+# ③ GÖRSEL VARLIKLAR  ─────────────────────────────────────────────────────
+# 120 plaka × 4 format = çok büyük. Ham çıktı yerel olarak saklanır ve
+# yedeklenir; depo yalnızca ÖLÇÜMLERİ taşır (06_REPORTS/plate-*.json).
+07_ASSETS/plates_raw/*
+07_ASSETS/plates/*
+07_ASSETS/plates_print/*
+07_ASSETS/plates_kindle/*
+07_ASSETS/plates_aplus/*
+07_ASSETS/plates_web/*
+07_ASSETS/aplus_raw/*
+07_ASSETS/aplus_plates/*
+03_COVER/artwork/*
+!**/.gitkeep
+!**/README.md
+
+# ④ FONTLAR  ──────────────────────────────────────────────────────────────
+# SIL OFL 1.1 — yeniden dağıtılabilir ama depoyu şişirir; bootstrap.sh
+# Codex Mythologica'dan kopyalar.
+07_ASSETS/fonts/*.ttf
+07_ASSETS/fonts/*.otf
+
+# ⑤ PYTHON  ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+08_BUILD/.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ⑥ ÜRETİLMİŞ RAPORLAR  ───────────────────────────────────────────────────
+# JSON çıktıları her koşuda değişir; HTML raporlar depoda kalır.
+06_REPORTS/*.json
+06_REPORTS/**/build.log
+08_BUILD/tests/fixtures/
+
+# ⑦ İŞLETİM SİSTEMİ VE EDİTÖR  ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+# ⑧ GEÇİCİ  ───────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+/tmp/
+scratch/

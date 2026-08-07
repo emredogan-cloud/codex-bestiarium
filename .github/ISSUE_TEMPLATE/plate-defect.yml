@@ -1,0 +1,65 @@
+name: "Plaka · tolerans veya kalite sorunu"
+description: Bir illüstrasyon plakası bant dışında veya gözle yanlış görünüyor
+title: "[plaka] "
+labels: ["plaka", "illüstrasyon"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Projenin tek gerçek başarısızlık modu illüstrasyon tutarsızlığıdır.**
+        Bu yüzden plaka sorunları ayrı izlenir.
+
+        Ölçüm çıktısını (`06_REPORTS/plate-consistency.json`) eklemeyi unutmayın.
+
+  - type: input
+    id: plate
+    attributes:
+      label: Plaka kimliği
+      placeholder: plate-016
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Sorun türü
+      options:
+        - Ölçüm bant dışı — çizgi kalınlığı
+        - Ölçüm bant dışı — tarama açısı
+        - Ölçüm bant dışı — tarama sıklığı
+        - Ölçüm bant dışı — mürekkep aralığı
+        - Ölçüm bant dışı — kapsama
+        - Zemin boş değil (sahne / çerçeve / gölge var)
+        - Ölçek işareti yok veya yanlış
+        - Ölçüm geçiyor ama **gözle** yanlış görünüyor
+        - Anatomik hata
+        - Aile içi tutarsızlık (yan yana basılacak plakalar uyuşmuyor)
+    validations:
+      required: true
+
+  - type: textarea
+    id: measurement
+    attributes:
+      label: Ölçüm çıktısı
+      description: "`python3 08_BUILD/plates.py --measure -v` çıktısının ilgili kısmı"
+      render: text
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: Ayrıntı
+      description: |
+        "Ölçüm geçiyor ama gözle yanlış" seçtiyseniz **bu alan kritiktir**:
+        ölçüm eksik demektir ve banda yeni bir parametre eklenmesi gerekebilir.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: actions
+    attributes:
+      label: Sonraki adım
+      options:
+        - label: Plaka yeniden üretilecek (prompt değişmeden)
+        - label: Prompt düzeltilecek (`make_prompts.py` → `STYLE_BODY` veya konu)
+        - label: Tolerans bandı gözden geçirilecek (`bestiarium.py` → `PLATE_SPEC`)
+        - label: Vektör temizlikte düzeltilecek
