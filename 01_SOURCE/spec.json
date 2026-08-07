@@ -4230,7 +4230,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanın efendisi; sürüyü fırtınadan koruyan yaban adamı.",
       "researchFile": "01_SOURCE/research/basajaun.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lamia-euskal",
@@ -4387,7 +4387,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Devetabanı yaprağı altında yaşayan küçük halk; balık bırakıp kaybolan.",
       "researchFile": "01_SOURCE/research/koropokkuru.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "repun-kamuy",
@@ -4445,7 +4445,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Açık denizin tanrısı; katil balina kılığında av bağışlayan.",
       "researchFile": "01_SOURCE/research/repun-kamuy.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "kenas-unarpe",
