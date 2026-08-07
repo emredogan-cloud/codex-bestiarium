@@ -3363,7 +3363,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ateşten yaratılmış, güzel ve kararsız; ne tümüyle iyi ne tümüyle kötü.",
       "researchFile": "01_SOURCE/research/peri.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "taniwha",
@@ -3681,7 +3681,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Kemik ve deriden yapılıp canlandırılan; ustasını da öldürebilen.",
       "researchFile": "01_SOURCE/research/tupilaq.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "al-karisi",
@@ -3956,7 +3956,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Cinlerin güçlü ve dik başlı sınıfı; ateşten yaratılmış.",
       "researchFile": "01_SOURCE/research/ifrit.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "rukh",
