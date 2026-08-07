@@ -58,7 +58,19 @@ if [ "$FIX" = "1" ]; then
   $PY 08_BUILD/make_index.py --gate draft >/dev/null
 fi
 
-run "tohum tablosu ↔ spec.json"   $PY 08_BUILD/seed_import.py --check
+# Tohum karşılaştırması master yol haritasını okur; o dosya KARDEŞ depodadır
+# ve CI koşucusunda bulunmaz. Yoksa atlanır — var olmayan bir girdiyi
+# kırmızıya çevirmek, gerçek bir kalite düşüşü değildir.
+SEED_SRC="../CODEX_MYTHOLOGICA/03_CODEX_BESTIARIUM_MASTER_ROADMAP.html"
+if [ -f "$SEED_SRC" ]; then
+  run "tohum tablosu ↔ spec.json" $PY 08_BUILD/seed_import.py --check
+else
+  echo
+  echo "──────────────────────────────────────────────────────────────────────"
+  echo "▸ tohum tablosu ↔ spec.json"
+  echo "──────────────────────────────────────────────────────────────────────"
+  echo "ATLANDI: master yol haritası bu ortamda yok ($SEED_SRC)"
+fi
 run "spec şeması"                 $PY 08_BUILD/validate_spec.py --gate "$GATE" --json 06_REPORTS/spec-validation.json
 run "depo ve belge bütünlüğü"     $PY 08_BUILD/validate_structure.py --json 06_REPORTS/structure.json
 run "kalite kapılarının testi"    $PY 08_BUILD/tests/selftest.py
