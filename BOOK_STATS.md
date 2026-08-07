@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/1-arastirma` · son etiket `v0.1.0-alpha` · 5 commit
+> Son ölçüm: **2026-08-07** · dal `main` · son etiket `v0.1.0-alpha` · 7 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -32,15 +32,15 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 
 | Kapı | Eşik | Şu an | Durum |
 |---|---:|---:|---|
-| Faz 1 tamamlanma — doğrulanmış madde | 112 | 13 | ⛔ kapalı |
+| Faz 1 tamamlanma — doğrulanmış madde | 112 | 11 | ⛔ kapalı |
 | Kapsam tabanı — altına inilirse kitap yeniden planlanır | 100 | 120 | ✅ açık |
 
 ## 3. Durum dağılımı
 
 | Durum | Madde | Pay |
 |---|---:|---:|
-| `draft` | 107 | %89 |
-| `verified` | 13 | %11 |
+| `draft` | 109 | %91 |
+| `verified` | 11 | %9 |
 | `written` | 0 | %0 |
 | `edited` | 0 | %0 |
 | `final` | 0 | %0 |

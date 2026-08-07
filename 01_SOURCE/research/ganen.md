@@ -96,4 +96,5 @@ Kaydedilmedi.
 > ⛔ **Kapı açık değil:**
 > - 1 bağımsız kaynak (≥2 gerekir; motif dizini sayılmaz)
 > - hiçbir bağımsız kaynağın doğrulaması fulltext/toc/canon/article değil
+> - motif kodu doğrulanmadı — madde 'verified' olamaz
 

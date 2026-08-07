@@ -14,7 +14,7 @@
 
 | Kapı | Eşik | Şu an | Durum |
 |---|---:|---:|---|
-| Faz 1 tamamlanma — doğrulanmış madde | 112 | **13** | ⛔ kapalı |
+| Faz 1 tamamlanma — doğrulanmış madde | 112 | **11** | ⛔ kapalı |
 | Kapsam tabanı | 100 | 120 (aday) | ✅ |
 | Araştırılmış madde | 120 | **24** | 🔨 sürüyor |
 
@@ -31,18 +31,18 @@ Faz 1'in **onlarla başlamasını** emretmişti. Sekizi de tamamlandı. Sonuç:
 | Gelenek | İşaret | Madde | Geçen | Durum |
 |---|---|---:|---:|---|
 | Ainu | ᚼ | 3 | **2** | ⚠ |
-| Hayk | ✚ | 3 | **3** | ✅ |
+| Hayk | ✚ | 3 | **1** | ⚠ |
 | Ityop'ya | ✤ | 3 | **1** | ⚠ |
 | Kartveli | ✛ | 3 | **0** | ⛔ |
 | Melanesia | ◉ | 3 | **3** | ✅ |
 | Mongol | ⚔ | 3 | **0** | ⛔ |
 | Nusantara | ❋ | 3 | **1** | ⚠ |
 | Sápmi | ❄ | 3 | **3** | ✅ |
-| **Toplam** | | **24** | **13** | **%54** |
+| **Toplam** | | **24** | **11** | **%46** |
 
 ### Ne öğrendik
 
-Zor sekiz gelenekte geçiş oranı **%54**. Yol haritasının
+Zor sekiz gelenekte geçiş oranı **%46**. Yol haritasının
 uyarısı doğrulandı: bu gelenekler İngilizce yayımlanmış kaynak açısından
 gerçekten zayıf. Ama zayıflık **eşit dağılmıyor** — ayrım şu:
 
@@ -90,6 +90,8 @@ Bunlar **düşmedi** — doğrulaması tamamlanmadı. Her biri için engel yazı
 
 | # | Madde | Gelenek | Engel |
 |---|---|---|---|
+| 86 | `aralez` | Hayk | motif kodu doğrulanamadı (B733 tanımı görülmedi) — madde 'verified' olamaz |
+| 87 | `nhang` | Hayk | motif kodu uymuyor (D113 = *man to canine animal*; nhang fok/kadın olur) |
 | 65 | `repun-kamuy` | Ainu | hiçbir bağımsız kaynağın doğrulaması fulltext/toc/canon/article değil |
 | 77 | `orang-bunian` | Nusantara | hiçbir bağımsız kaynağın doğrulaması fulltext/toc/canon/article değil |
 | 78 | `rangda` | Nusantara | hiçbir bağımsız kaynağın doğrulaması fulltext/toc/canon/article değil |
@@ -105,6 +107,7 @@ Bunlar **düşmedi** — doğrulaması tamamlanmadı. Her biri için engel yazı
 ### Engel türlerine göre
 
 - **11** madde — kaynaklar yalnızca katalog düzeyinde doğrulandı
+- **2** madde — motif kodu doğrulanamadı veya uymuyor (aralez, nhang)
 - **2** madde — ikinci bağımsız kaynak bulunamadı
 
 ---

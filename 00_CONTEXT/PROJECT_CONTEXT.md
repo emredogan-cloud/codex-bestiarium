@@ -12,7 +12,7 @@
 ## 1. Bir cümlede durum
 
 Üretim sistemi kuruldu; **Faz 1 araştırması sürüyor**. Yol haritasının
-kapsam-belirleyici saydığı **zor sekiz gelenek tamamlandı** (24 madde, 13'ü
+kapsam-belirleyici saydığı **zor sekiz gelenek tamamlandı** (24 madde, 11'i
 kapıdan geçti) ve iki **sistematik motif kodu hatası** yazımdan önce yakalandı.
 Kalan 96 madde araştırılmayı bekliyor; kapsam **henüz kilitlenmedi**.
 

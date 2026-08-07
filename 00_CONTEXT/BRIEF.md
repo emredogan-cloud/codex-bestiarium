@@ -209,7 +209,7 @@ Büyük punto fiyatı roadmap'te belirtilmemişti; 707 sayfalık tahminle
 | | |
 |---|---:|
 | Araştırılmış madde | **24**/120 |
-| Kapıdan geçen | **13** |
+| Kapıdan geçen | **11** |
 | Düşen | **1** (Kaia → Temes Savsap) |
 | Zor sekiz gelenek | **tamamlandı** — geçiş oranı %54 |
 

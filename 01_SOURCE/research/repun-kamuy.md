@@ -107,4 +107,5 @@ Kaydedilmedi.
 
 > ⛔ **Kapı açık değil:**
 > - hiçbir bağımsız kaynağın doğrulaması fulltext/toc/canon/article değil
+> - motif kodu doğrulanmadı — madde 'verified' olamaz
 

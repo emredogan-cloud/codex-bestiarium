@@ -2889,7 +2889,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Savaş ölülerinin yarasını yalayarak dirilten köpek ruhu.",
       "researchFile": "01_SOURCE/research/aralez.md",
-      "status": "verified"
+      "status": "draft"
     },
     {
       "id": "nhang",
@@ -2933,7 +2933,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmakta biçim değiştiren; kadın olup çeken, kan içen.",
       "researchFile": "01_SOURCE/research/nhang.md",
-      "status": "verified"
+      "status": "draft"
     },
     {
       "id": "ochokochi",

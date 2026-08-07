@@ -99,3 +99,6 @@ Kaydedilmedi.
 - [x] Telaffuz taslağı yazıldı
 - [x] Bu dosyada proza cümlesi yok
 
+> ⛔ **Kapı açık değil:**
+> - motif kodu doğrulanmadı — madde 'verified' olamaz
+

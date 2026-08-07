@@ -47,7 +47,7 @@ Ayrıntı: [`00_CONTEXT/SCOPE_DECISIONS.md`](00_CONTEXT/SCOPE_DECISIONS.md) § 5
 | | |
 |---|---:|
 | Araştırılmış madde | 24/120 |
-| Kapıdan geçen | 13 |
+| Kapıdan geçen | 11 |
 | Zor sekiz gelenek | tamamlandı · geçiş %54 |
 | Doğrulanmış motif kodu | 67 |
 | Düzeltilen tohum kodu | 8 |

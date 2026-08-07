@@ -128,6 +128,12 @@ def gate(rec: dict, tradition: str) -> list[str]:
 
     if not rec.get("motifNote", "").strip():
         problems.append("motifNote boş — kodun neden uyduğu yazılmalı")
+    # İKİ KAPI AYNI ŞEYİ SÖYLEMELİ. validate_spec --gate phase1 "doğrulanmış
+    # maddenin motif kodu da doğrulanmış olmalı" der; bu kapı onu söylemiyordu
+    # ve ikisi ayrıştı (aralez, nhang). Sıkı olan doğrudur: motifi
+    # doğrulanmamış bir madde 'verified' olamaz.
+    if not rec.get("motifVerified"):
+        problems.append("motif kodu doğrulanmadı — madde 'verified' olamaz")
     for m in rec.get("motif", []):
         if not motif_valid(m):
             problems.append(f"geçersiz motif kodu: {m}")

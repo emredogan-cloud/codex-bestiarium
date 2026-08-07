@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/1-arastirma` · son etiket `v0.1.0-alpha`
+> Son ölçüm: **2026-08-07** · dal `main` · son etiket `v0.1.0-alpha`
 
 Kaynak: [`CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md`](CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md)
 
@@ -44,7 +44,7 @@ başlar — kapsamı bunlar belirler:
 - **Ainu** ᚼ — 2/3 · Koropokkuru, Repun Kamuy, Kenas-unarpe
 - **Nusantara** ❋ — 1/3 · Pontianak, Orang Bunian, Rangda
 - **Mongol** ⚔ — 0/3 · Almas, Olgoi-Khorkhoi, Chötgör
-- **Hayk** ✚ — 3/3 · Vishap, Aralez, Nhang
+- **Hayk** ✚ — 1/3 · Vishap, Aralez, Nhang
 - **Kartveli** ✛ — 0/3 · Ochokochi, Kaji, Devi
 - **Ityop'ya** ✤ — 1/3 · Buda, Zar, Ganen
 - **Sápmi** ❄ — 3/3 · Stállu, Ulda, Gufihtar
