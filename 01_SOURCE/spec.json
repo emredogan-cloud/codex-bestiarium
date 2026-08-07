@@ -6535,7 +6535,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yerin altında sürü güden gizli halk; adları anılmaz.",
       "researchFile": "01_SOURCE/research/ulda.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "gufihtar",
@@ -6638,7 +6638,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kayaların içindeki gizli halk; yol güzergâhını hâlâ değiştirten.",
       "researchFile": "01_SOURCE/research/huldufolk.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "nykur",
@@ -6889,7 +6889,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ölüler diyarının girişinde bekleyen dişi ruh; önündeki kum çizimini tamamlayamayan ölüyü geçirmeyen.",
       "researchFile": "01_SOURCE/research/temes-savsap.md",
-      "status": "verified"
+      "status": "written"
     }
   ]
 }
