@@ -386,12 +386,23 @@ def check_terminology(files: list[str], r: Result) -> None:
     r.add(not hits, "terminoloji tutarlı", "\n         ".join(hits[:15]))
 
 
+GENERATED_MARK = "OTOMATİK ÜRETİLDİ"
+
+
 def check_duplicate_paragraphs(files: list[str], r: Result) -> None:
     seen: dict[str, list[str]] = collections.defaultdict(list)
+    skipped = 0
     for f in files:
         if not f.endswith(".md"):
             continue
-        clean = strip_code(read(f))
+        body = read(f)
+        # ÜRETİLMİŞ dosyalar atlanır. Ortak şablon bloğu ve aynı kaynağın
+        # birden çok maddede künyelenmesi beklenen durumdur — kusur değil.
+        # Bu denetim ELLE YAZILMIŞ proza içindeki kopyala-yapıştırı arar.
+        if GENERATED_MARK in body:
+            skipped += 1
+            continue
+        clean = strip_code(body)
         for para in clean.split("\n\n"):
             norm = " ".join(para.split()).strip().lower()
             norm = re.sub(r"[^\w\s]", "", norm)
@@ -402,7 +413,7 @@ def check_duplicate_paragraphs(files: list[str], r: Result) -> None:
     dupes = {k: v for k, v in seen.items() if len(v) > 1}
     r.add(
         not dupes,
-        "belgeler arası birebir kopya paragraf yok",
+        f"belgeler arası birebir kopya paragraf yok ({skipped} üretilmiş dosya atlandı)",
         "\n         ".join(f"{v}: “{k[:70]}…”" for k, v in list(dupes.items())[:8]),
     )
 

@@ -12,11 +12,49 @@ sayılar, açık kalanlar.
 
 ---
 
-## [Yayımlanmamış]
+## [Yayımlanmamış] — Faz 1 sürüyor
+
+### Eklenenler
+- `00_CONTEXT/SOURCING_STANDARD.md` — "iki bağımsız kaynak"ın işletilebilir tanımı
+- `08_BUILD/research_gen.py` — araştırma verisinden 120 uniform dosya + spec senkronu
+- `01_SOURCE/motif_index.json` — **67 doğrulanmış Thompson kodu**
+- `01_SOURCE/scope_amendments.json` — kapsam kararları katmanı
+- 24 araştırma dosyası (zor sekiz gelenek)
+- `STYLE.md` — Cilt 1'den **üç gerçek** ses kalibrasyon paragrafı
+- `editions.py` — Bestiarium sürümleri + `verify_royalties()`
+
+### Kararlar
+| # | Karar | Gerekçe |
+|---|---|---|
+| D11 | Araştırma **türetilir**, elle yazılmaz | 120 markdown dosyasını elle tutarlı tutmak, 120 spec kaydını elle tutmakla aynı sorun. `seed_import` kararı burada da geçerli: TÜRET, YAZMA. |
+| D12 | Doğrulama gücü "okudum mu" değil "**okur gidip bakabilir mi**" | *Völuspá* 45 her baskıda aynı kıtadır; JRAI 64 (1934), 129–175 her kütüphanede aynı makaledir. `canon` ve `article` bu yüzden güçlü sayılır. |
+| D13 | Kapsam kararları tohum tablosunu **değiştirmez**, üstüne biner | Tablo master yol haritasının malıdır ve `--check` onunla karşılaştırır. Kararlar ayrı katmanda durur ve denetlenebilir kalır. |
+| D14 | **Kaia düştü**, yerine Temes Savsap | Kaia bir yaratık değil, hevehe **maske adı**; malzeme başlatma töreni kısıtlı. |
+| D15 | Motif kodu tohuma **sadık kalmaz, doğruya kalır** | İki sistematik hata bulundu (G264, B31) ve düzeltildi. |
+
+### Bulunan iki sistematik motif hatası
+- **G264 gece cadısı ailesinin kodu değil.** Doğrulanan tanımı *"La Belle Dame
+  Sans Merci — Witch entices men with offers of love"* — **erkekleri** baştan
+  çıkaran bir figür. 14 maddenin tamamı yanlış kodlanmıştı. Doğrusu
+  **`G262.0.1` "Lamia. Witch who eats children"**.
+- **B31 'Roc'tur, 'fırtına kuşu' değil.** Sīmurgh `B31.5`, Garuḍa `B56`,
+  Ziz `B31.1.0.1`. Fırtına kuşları için `A284` ("God of thunder") aday.
+
+Ayrıca altı tekil düzeltme (D113.1 kurt≠tilki, D113.2 sırtlan≠köpekgil, …).
+Ayrıntı: [`00_CONTEXT/SCOPE_DECISIONS.md`](00_CONTEXT/SCOPE_DECISIONS.md) § 5.
+
+### Ölçülenler
+| | |
+|---|---:|
+| Araştırılmış madde | 24/120 |
+| Kapıdan geçen | 13 |
+| Zor sekiz gelenek | tamamlandı · geçiş %54 |
+| Doğrulanmış motif kodu | 67 |
+| Düzeltilen tohum kodu | 8 |
 
 ### Sıradaki
-- Faz 1 · Araştırma — 120 madde için iki bağımsız kaynak
-- Faz 1 · Kapsam kilidi
+- Kalan 96 maddenin araştırması
+- Kapsam kilidi (≥112 doğrulanmış madde kapısı)
 
 ---
 

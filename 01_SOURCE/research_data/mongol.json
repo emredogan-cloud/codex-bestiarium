@@ -1,0 +1,157 @@
+{
+  "tradition": "mongol",
+  "creatures": [
+    {
+      "id": "almas",
+      "name": "Almas",
+      "altNames": [
+        "Almasty",
+        "Almas-kishi"
+      ],
+      "pronunciation": "ahl-MAHS",
+      "sources": [
+        {
+          "ref": "Walther Heissig, *The Religions of Mongolia*, çev. Geoffrey Samuel (Londra: Routledge & Kegan Paul, 1980)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Moğol halk dini ve şamanizmi üzerine standart Batı dilinde ele alış."
+        },
+        {
+          "ref": "Roy Chapman Andrews, *The New Conquest of Central Asia: A Narrative of the Explorations of the Central Asiatic Expeditions in Mongolia and China, 1921–1930* (New York: American Museum of Natural History, 1932)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Andrews, Moğol yetkililerinden çöl solucanı inancını doğrudan kaydeden ilk Batılı; sefer anlatısı birincil tanıklıktır."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F460"
+      ],
+      "motifDefs": {
+        "F460": "Mountain-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "F460 ('Mountain-spirits') doğrulandı ve korundu. Almas bozkır ve dağ yaban adamıdır. Thompson'ın F567 ('Wild man') kodu daha dar olurdu ama bu turda tanımı doğrulanamadı; doğrulanmamış dar kod yerine doğrulanmış üst kod kullanıldı.",
+      "region": "Moğolistan ve Altay bozkırı",
+      "attested": "19.–20. yy seyahat ve saha kayıtları",
+      "appearance": [
+        "Kıllı, insan benzeri",
+        "Konuşmaz"
+      ],
+      "behaviour": "Konuşmaz ama insanla sessiz takas yaptığı anlatılır.",
+      "incident": "Faz 2'de kaynak doğrulandığında yazılacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı. Moğol şaman uygulaması ve ongon yapımı KULLANILMAZ.",
+      "modern": "Almas, 20. yy kriptozooloji edebiyatının merkezî figürlerinden. Bu literatür KAYNAK SAYILMAZ; maddede yalnızca tek cümlede ve 'modern' etiketiyle anılacak.",
+      "writingNotes": [
+        "⚠ KAPIDAN GEÇMİYOR: iki künye de katalog düzeyinde.",
+        "Yaban adamı ailesinin (G) Orta Asya üyesi.",
+        "Kriptozooloji literatürüyle folklor kaydını AYIRMAK bu maddenin ana zorluğu."
+      ]
+    },
+    {
+      "id": "olgoi-khorkhoi",
+      "name": "Olgoi-Khorkhoi",
+      "altNames": [
+        "Olgoi-khorkhoi",
+        "allghoi khorkhoi"
+      ],
+      "pronunciation": "OL-goy KHOR-khoy",
+      "sources": [
+        {
+          "ref": "Roy Chapman Andrews, *The New Conquest of Central Asia: A Narrative of the Explorations of the Central Asiatic Expeditions in Mongolia and China, 1921–1930* (New York: American Museum of Natural History, 1932)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Andrews, Moğol yetkililerinden çöl solucanı inancını doğrudan kaydeden ilk Batılı; sefer anlatısı birincil tanıklıktır."
+        },
+        {
+          "ref": "Walther Heissig, *The Religions of Mongolia*, çev. Geoffrey Samuel (Londra: Routledge & Kegan Paul, 1980)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Moğol halk dini ve şamanizmi üzerine standart Batı dilinde ele alış."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G302"
+      ],
+      "motifDefs": {
+        "G302": "Demons. Malevolent creatures (not usually further defined)"
+      },
+      "motifVerified": false,
+      "motifNote": "KOD DOĞRULANAMADI. Tohum B765 öneriyor ('yılanların olağandışı davranışı' kümesi) ama B400–B899 aralığı bu turda erişilemedi. G302 geçici olarak önerildi ama olgoi-khorkhoi bir cin değil bir HAYVAN olarak anlatılıyor; B kümesi doğru olmalı. Faz 2'de tam nüshadan teyit edilecek.",
+      "region": "Gobi çölü",
+      "attested": "Andrews'un 1922–25 sefer kayıtları; 1932'de yayımlandı",
+      "appearance": [
+        "Bağırsak benzeri, kalın ve kısa",
+        "Kırmızımsı"
+      ],
+      "behaviour": "Kumun altında yaşar; dokunmadan öldürdüğü anlatılır.",
+      "incident": "Faz 2'de Andrews'tan doğrulanacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı (Andrews'un sefer anlatısı, Heissig). Moğol şaman uygulaması ve ongon yapımı KULLANILMAZ. Andrews'un kaydı bir Batılı seferin derlediği FOLKLOR kaydıdır; sömürge dönemi çerçevesi eleştirel okunacak.",
+      "modern": "Kriptozoolojide 'Mongolian death worm' adıyla geniş yer tutar. KAYNAK SAYILMAZ; tek cümlede ve 'modern' etiketiyle anılacak.",
+      "writingNotes": [
+        "⚠ KAPIDAN GEÇMİYOR: motif doğrulanmadı, künyeler katalog düzeyinde.",
+        "Andrews'un kaydı bir FOLKLOR kaydıdır, bir gözlem değil; madde bunu açıkça söylemeli."
+      ]
+    },
+    {
+      "id": "chotgor",
+      "name": "Chötgör",
+      "altNames": [
+        "Chotgor",
+        "Čötgör"
+      ],
+      "pronunciation": "CHUT-gur",
+      "sources": [
+        {
+          "ref": "Walther Heissig, *The Religions of Mongolia*, çev. Geoffrey Samuel (Londra: Routledge & Kegan Paul, 1980)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Moğol halk dini ve şamanizmi üzerine standart Batı dilinde ele alış."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E200"
+      ],
+      "motifDefs": {
+        "E200": "Malevolent return from the dead"
+      },
+      "motifVerified": true,
+      "motifNote": "E200 ('Malevolent return from the dead') doğrulandı ve korundu. Chötgör yolunu bulamayan ölünün kötücül dönüşüdür; Thompson'ın üst kodu tam oturuyor.",
+      "region": "Moğolistan",
+      "attested": "Heissig'in derlediği Moğol halk dini kayıtları",
+      "appearance": [
+        "Belirsiz biçim; boş çadırlarda kaldığı anlatılır"
+      ],
+      "behaviour": "Yolunu bulamayan ölü; terk edilmiş çadırlarda kalır.",
+      "incident": "Faz 2'de doğrulanacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı. Cenaze töreni ayrıntısı ve lama uygulaması KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ KAPIDAN GEÇMİYOR: tek bağımsız kaynak, katalog düzeyinde."
+      ]
+    }
+  ]
+}

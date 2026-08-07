@@ -1,0 +1,176 @@
+{
+  "tradition": "sapmi",
+  "creatures": [
+    {
+      "id": "stallu",
+      "name": "Stállu",
+      "altNames": [
+        "Stallo",
+        "Staaloe",
+        "Stalo"
+      ],
+      "pronunciation": "STAHL-loo",
+      "sources": [
+        {
+          "ref": "JoAnn Conrad, \"Tracking the Ogre — the Sami Stallo\", *Ural-altaische Jahrbücher* 16 (1999–2000), 56–75",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "JoAnn Conrad, \"'The Tale of Njunje Paggas': A 'Lappish' Stallo Tale from Sweden by P. A. Lindholm\", *Folklore* 131:2 (2020), 204–224",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Emilie Demant Hatt, *By the Fire: Sami Folktales and Legends*, çev. ve yay. haz. Barbara Sjöholm (Minneapolis: University of Minnesota Press, 2019), \"Folktales\", 58–67",
+          "type": "primary",
+          "verification": "article",
+          "note": "Demant Hatt'ın 1907–16 arası Sámi anlatıcılardan derlediği metinler; birincil derleme."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G100"
+      ],
+      "motifDefs": {
+        "G100": "Giant ogre. Polyphemus"
+      },
+      "motifVerified": true,
+      "motifNote": "G100 ('Giant ogre. Polyphemus') doğrulandı ve korundu. Stállu insan yiyen, büyük, hantal ve APTAL bir devdir; insan onu zekâyla yener. Thompson'ın Polyphemus tipi bu 'güçlü ama kandırılabilir' kalıbını tam olarak tanımlar.",
+      "region": "Sápmi — kuzey İskandinavya ve Kola yarımadası",
+      "attested": "Sámi anlatı geleneği ağırlıklı SÖZLÜdür; yazılı kayıt 20. yy başından öncesine güç gider (Conrad bunu açıkça belirtir). Demant Hatt'ın derlemesi 1907–16",
+      "appearance": [
+        "İri, insan benzeri",
+        "Demir giyimli olarak anlatılır",
+        "Gümüş taşır"
+      ],
+      "behaviour": "İnsanı avlar ama hantal ve akılsızdır; anlatılarda insan onu kurnazlıkla alt eder. Gümüş toplar.",
+      "incident": "Faz 3'te Demant Hatt derlemesinden tarihli bir anlatı seçilecek.",
+      "counter": "Zekâ; Stállu anlatıları bir güç değil bir AKIL sınavıdır.",
+      "variants": [
+        {
+          "where": "Conrad 1999–2000",
+          "what": "Stállu figürünün sömürgeci/dış temasla ilişkisi tartışılır"
+        },
+        {
+          "where": "Lindholm derlemesi (Conrad 2020)",
+          "what": "İsveç'te derlenmiş 'Lappish' etiketli anlatı — derleyicinin çerçevesi eleştirel okunmalı"
+        }
+      ],
+      "variantNote": "Stállu'nun dış dünyayla (tüccar, vergi memuru, komşu halk) ilişkisi anlatının siyasetidir; Conrad bunu ayrıntılandırır.",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı: iki hakemli makale ve Demant Hatt'ın yayımlanmış derlemesi. Sámi yoik'i, siida'ya özgü yer bilgisi ve tören malzemesi KULLANILMAZ. Anlatıların 19. yy derleyicilerinin sömürge çerçevesiyle kaydedildiği maddede belirtilecek. Plakada gerçek bir Sámi gákti deseni veya klan işareti çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Yaban adamı ailesinde (G) sınıflandırılmış ama Stállu bir DEV, yaban adamı değil; Faz 2'de aile üyeliği gözden geçirilmeli.",
+        "Anlatıların derleyici çerçevesi (Lindholm, 'Lappish' etiketi) maddede anılmalı — kaynak eleştirisi kitabın standardıdır."
+      ]
+    },
+    {
+      "id": "ulda",
+      "name": "Ulda",
+      "altNames": [
+        "Uldat (çoğul)",
+        "Ulda-almmái"
+      ],
+      "pronunciation": "OOL-dah",
+      "sources": [
+        {
+          "ref": "Emilie Demant Hatt, *By the Fire: Sami Folktales and Legends*, çev. ve yay. haz. Barbara Sjöholm (Minneapolis: University of Minnesota Press, 2019), \"Folktales\", 58–67",
+          "type": "primary",
+          "verification": "article",
+          "note": "Demant Hatt'ın 1907–16 arası Sámi anlatıcılardan derlediği metinler; birincil derleme."
+        },
+        {
+          "ref": "JoAnn Conrad, \"Tracking the Ogre — the Sami Stallo\", *Ural-altaische Jahrbücher* 16 (1999–2000), 56–75",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F451"
+      ],
+      "motifDefs": {
+        "F451": "Dwarfs in otherworld"
+      },
+      "motifVerified": true,
+      "motifNote": "F451 ('Dwarfs in otherworld') doğrulandı ve korundu. Ulda yeraltında yaşayan, kendi sürüsü olan gizli halktır. F251 ('Origin of fairies') değerlendirildi ama o KÖKEN anlatısına ait; ulda maddesi varlıkların kendisini anlatıyor.",
+      "region": "Sápmi; yeraltı ve tundra",
+      "attested": "Demant Hatt'ın 1907–16 derlemeleri",
+      "appearance": [
+        "İnsan benzeri ama görünmez veya güç görülen",
+        "Kendi ren sürüleri var"
+      ],
+      "behaviour": "Yerin altında yaşar ve sürü güder. Adları anılmaz; anılırsa dikkat çekilir.",
+      "incident": "Faz 3'te Demant Hatt derlemesinden okunacak.",
+      "counter": "Adını anmamak.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yalnızca Demant Hatt'ın yayımlanmış derlemesi ve Conrad'ın hakemli çalışması kullanıldı. Yer-özel uldat anlatısı, siida bilgisi ve tören KULLANILMAZ. Plakada Sámi deseni çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gizli halk ailesinin (H) Sápmi üyesi.",
+        "Ayrışma noktası: Huldufólk KAYANIN içinde, Ulda YERİN altında ve sürü güder — biri komşu, diğeri paralel bir ekonomi."
+      ]
+    },
+    {
+      "id": "gufihtar",
+      "name": "Gufihtar",
+      "altNames": [
+        "Gufittar",
+        "Gufihttar"
+      ],
+      "pronunciation": "GOO-fih-tar",
+      "sources": [
+        {
+          "ref": "Emilie Demant Hatt, *By the Fire: Sami Folktales and Legends*, çev. ve yay. haz. Barbara Sjöholm (Minneapolis: University of Minnesota Press, 2019), \"Folktales\", 58–67",
+          "type": "primary",
+          "verification": "article",
+          "note": "Demant Hatt'ın 1907–16 arası Sámi anlatıcılardan derlediği metinler; birincil derleme."
+        },
+        {
+          "ref": "JoAnn Conrad, \"Tracking the Ogre — the Sami Stallo\", *Ural-altaische Jahrbücher* 16 (1999–2000), 56–75",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F400"
+      ],
+      "motifDefs": {
+        "F400": "Spirits and demons (general)"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum F300 öneriyordu ama F300 bu turda erişilen nüshada bağımsız bir tanım taşımıyor — yalnızca 'F300–F399 Fairies and mortals' başlığı var, kodun kendisi tanımsız. Doğrulanmamış kod yazılamaz; doğrulanmış F400 ('Spirits and demons (general)') kullanıldı.",
+      "motifChanged": "F300 → F400. F300'ün bağımsız tanımı doğrulanamadı.",
+      "region": "Sápmi; sis ve tundra",
+      "attested": "Demant Hatt'ın 1907–16 derlemeleri",
+      "appearance": [
+        "Görünmez veya sisin içinden konuşan"
+      ],
+      "behaviour": "Yolcuyu görünmez kılar veya yolunu şaşırtır; sisin içinden seslenir.",
+      "incident": "Faz 3'te doğrulanacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yalnızca yayımlanmış derleme kullanıldı. Yer-özel anlatı ve tören KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gufihtar ile Ulda arasındaki sınır kaynaklarda net değil; madde bunu gizlemeyecek."
+      ]
+    }
+  ]
+}

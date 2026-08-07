@@ -1,0 +1,21 @@
+{
+  "_note": "FAZ 1 KAPSAM KARARLARI. Tohum tablosu (master yol haritası Bölüm 04) DEĞİŞMEZ; kararlar onun üstüne biner ve denetlenebilir kalır. Her karar SCOPE_DECISIONS.md'de gerekçesiyle açıklanır.",
+  "_schema": "action: drop | replace | reclassify",
+  "amendments": [
+    {
+      "action": "replace",
+      "id": "kaia",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Kaia bir yaratık değil, bir MASKE ADI ve desen motifidir. Williams, Drama of Orokolo (1940) tam metninde 'kaia' yalnızca iki bağlamda geçiyor: hevehe maskelerinin adlandırma dağarcığında (s. 253) ve bir aualari desen adı olarak (Şekil 18, s. 306). Genel bir ruh kategorisi olarak tanımı yok. Dahası hevehe döngüsü erkek BAŞLATMA (initiation) törenidir ve malzemesi kısıtlıdır — SOURCING_STANDARD § 6 uyarınca kullanılamaz. İki bağımsız, kısıtlanmamış kaynak bulunamadı.",
+      "replacement": {
+        "name": "Temes Savsap",
+        "class": "I",
+        "kinFamily": "F",
+        "motif": ["F150"],
+        "seedNoteTr": "Ölüler diyarının girişinde bekleyen dişi ruh; önündeki kum çizimini tamamlayamayan ölüyü geçirmeyen."
+      },
+      "replacementRationale": "Deacon'ın Malekula malzemesinde (1934) belgelenmiş, yayımlanmış ve kısıtlanmamış bir EŞİK BEKÇİSİ. Kitabın tezine Kaia'dan çok daha iyi oturuyor: F ailesinin (eşik bekçisi) Okyanusya üyesi olarak Kérberos ve Ḫumbaba'nın yanına giriyor. Sınıf VI → I ve aile — → F değişimi Faz 2'nin sınıf dağılımı uzlaştırmasına devredildi."
+    }
+  ]
+}

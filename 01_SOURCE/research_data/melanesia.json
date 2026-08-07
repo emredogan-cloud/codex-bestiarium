@@ -1,0 +1,195 @@
+{
+  "tradition": "melanesia",
+  "creatures": [
+    {
+      "id": "adaro",
+      "name": "Adaro",
+      "altNames": [
+        "ataro"
+      ],
+      "pronunciation": "ah-DAH-ro",
+      "sources": [
+        {
+          "ref": "Charles Elliot Fox, *The Threshold of the Pacific: An Account of the Social Organization, Magic and Religion of the People of San Cristoval in the Solomon Islands* (Londra: Kegan Paul, Trench, Trubner, 1924)",
+          "type": "primary",
+          "verification": "toc",
+          "access": "archive.org/details/thresholdofpacif00foxc — tam metin",
+          "locus": "Bölüm VIII (\"Spiritual Beings — Adaro Ghosts\") ve Bölüm X (\"Spiritual Beings — Adaro Spirits\")",
+          "note": "Bölüm başlıkları dijital nüshanın içindekiler bölümünden birebir doğrulandı."
+        },
+        {
+          "ref": "Michael W. Scott, *The Severed Snake: Matrilineages, Making Place, and a Melanesian Christianity in Southeast Solomon Islands* (Durham, NC: Carolina Academic Press, 2007)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "access": "LSE Research Online eprints.lse.ac.uk/3284/",
+          "note": "Arosi (batı Makira) üzerine modern saha etnografisi; saha çalışması Tawatana köyü, 1992–93. Adaro'yu atalara ait hayaletlerden AYRI bir ilksel varlık sınıfı olarak ele alır — Fox'un misyoner çerçevesine karşı düzeltme."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext",
+          "locus": "F420"
+        }
+      ],
+      "motif": [
+        "F420"
+      ],
+      "motifDefs": {
+        "F420": "Water-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "Tohum kodu F420 doğrulandı ve korundu. Adaro bir deniz ruhudur; Thompson'ın 'Water-spirits' başlığı tam oturuyor. Daha dar bir alt kod (F420.1.x biçim alt bölümleri) doğrulanamadığı için üst kodda kalındı — doğrulanmamış bir alt kod yazmaktansa doğrulanmış üst kod yazılır.",
+      "region": "Makira (San Cristoval) adası ve çevresi, Solomon Adaları; özellikle Arosi konuşulan batı kıyısı",
+      "attested": "Fox'un 1910'lu yıllardaki saha çalışmasından derlenip 1924'te yayımlandı; Scott'ın 1992–93 saha çalışmasıyla teyit edildi",
+      "spread": "Solomon Adaları'nın güneydoğusu; Arosi, Bauro ve Kahua bölgelerinde farklı vurgularla",
+      "appearance": [
+        "İnsan başlı, balık gövdeli deniz varlığı",
+        "Kulakların arkasında solungaçlar",
+        "Sırt yüzgeci ve baştan çıkan mızrak benzeri bir uzantı",
+        "Uzun kuyruk yüzgeci"
+      ],
+      "behaviour": "Denizde yolunu şaşıranı vurur; uçan balığı silah gibi gönderdiği anlatılır. Fox onu ölünün ruhunun kötücül bileşeni olarak kaydeder; Scott ise Arosi anlayışında adaro'nun ölülerden AYRI, ilksel ve insan-olmayan bir varlık sınıfı olduğunu gösterir.",
+      "incident": "Faz 3'te Fox'un derlediği vakalardan biri seçilecek; ham metinden doğrudan okunacak.",
+      "counter": "Kaynaklarda doğrulanmış tek bir karşı önlem kaydedilmedi — uydurulmayacak.",
+      "variants": [
+        {
+          "where": "Fox 1924 (misyoner çerçevesi)",
+          "what": "Adaro, ölünün ruhunun kötücül yarısı; 'yarı insan yarı balık' olarak sunulur"
+        },
+        {
+          "where": "Scott 2007 (modern etnografi)",
+          "what": "Adaro, ölülerden bağımsız ilksel varlıklar; anasoylu toprak iddialarına bağlı"
+        }
+      ],
+      "variantNote": "Fox'un 'merman' çerçevesi ile Scott'ın ilksel-varlık okuması çelişir; çelişki maddede GÖSTERİLİR, biri seçilip diğeri gizlenmez.",
+      "restriction": "Kullanılan malzeme yayımlanmış iki etnografiden gelir (Fox 1924, Scott 2007). Klan-özel toprak iddiaları, ata adları ve yer-özel kutsal anlatı KULLANILMAZ — Scott'ın kitabının ana konusu tam olarak bu iddiaların gizliliğidir. Plakada klan işareti veya tören nesnesi çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fox'un misyoner çerçevesi ile Scott'ın düzeltmesi arasındaki gerilim maddenin 5. bölümünün ('neden korkulur') malzemesidir.",
+        "'Merman' kelimesi kullanılmayacak — sömürge dönemi kategorisidir ve Scott bunu açıkça eleştirir."
+      ]
+    },
+    {
+      "id": "masalai",
+      "name": "Masalai",
+      "altNames": [
+        "masalai ples"
+      ],
+      "pronunciation": "mah-sah-LYE",
+      "sources": [
+        {
+          "ref": "Margaret Mead, \"The Sepik as a Culture Area: Comment\", *Anthropological Quarterly* 51:1 (1978), 69–75",
+          "type": "scholarly",
+          "verification": "article",
+          "access": "JSTOR 3317126 · DOI 10.2307/3317126",
+          "note": "Mead'in masalai tanımı bu makaleden gelir ve alanın standart tanımıdır: belirli bir doğal işaretle ayrılmış yerleri mekân tutan, sınırlı yetki alanı olan doğaüstü varlıklar."
+        },
+        {
+          "ref": "Andrew Lattas, \"Sexuality and Cargo Cults: The Politics of Gender and Procreation in West New Britain\", *Cultural Anthropology* 6:2 (1991), 230–256",
+          "type": "scholarly",
+          "verification": "article",
+          "access": "JSTOR 656416 · DOI 10.1525/can.1991.6.2.02a00070"
+        },
+        {
+          "ref": "Thomas H. Slone, *One Thousand One Papua New Guinean Nights: Folktales from Wantok Newspaper*, Cilt 1 (Oakland: Masalai Press, 2001)",
+          "type": "primary",
+          "verification": "catalog",
+          "access": "ISBN 978-0-9714127-0-5",
+          "note": "Wantok gazetesinde Tok Pisin olarak yayımlanmış halk anlatılarının derlemesi — yayımlanmış ve kısıtlanmamış birincil malzeme."
+        }
+      ],
+      "motif": [
+        "F460"
+      ],
+      "motifDefs": {
+        "F460": "Mountain-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "Tohum kodu F400 ('Spirits and demons (general)') idi; F460 ('Mountain-spirits') ile DEĞİŞTİRİLDİ. Gerekçe: masalai'nin tanımlayıcı özelliği genel bir cin olması değil, BELİRLİ BİR YERİ tutmasıdır (su birikintisi, şelale, kaya, ırmak dönemeci). Thompson'ın yer-ruhu kümesi bu işlevi F400'ün genel başlığından daha doğru yakalar. F441 ('Vegetation-spirits') de değerlendirildi ama masalai yalnızca bitkiye değil araziye bağlıdır.",
+      "motifChanged": "F400 → F460. Tohum tablosu genel 'ruhlar ve cinler' kodunu önermişti; masalai bir YER ruhudur ve kodu bunu söylemeli.",
+      "region": "Papua Yeni Gine geneli; Sepik, Batı Yeni Britanya ve Fore bölgelerinde ayrıntılı kayıt",
+      "attested": "Mead'in Sepik saha çalışmasından; tanım 1978'de yayımlandı. Slone'un derlediği Wantok anlatıları 1970'lerden itibaren",
+      "spread": "Tok Pisin'de ülke çapında ortak terim; her bölge kendi masalai yerlerini tanır",
+      "appearance": [
+        "Sabit bir biçimi yok; yılan, timsah veya başka hayvan kılığında görünür",
+        "Tuhaf renk, iki baş gibi olağandışı işaretler taşır",
+        "Bir yere bağlıdır: su birikintisi, şelale, ırmak dönemeci, uçurum, bataklık"
+      ],
+      "behaviour": "Kendi arazisinde sınırlı bir yetki kullanır. Fore anlatılarında 'ples masalai' (masalai yeri) sayılan noktalarda yüksek sesle konuşulmaz ve oradaki bitkilere dokunulmaz.",
+      "incident": "Faz 3'te Slone'un derlemesinden tarihli bir anlatı seçilecek.",
+      "counter": "Masalai yerinde sessiz kalmak; oradaki bitkilere ve taşlara dokunmamak.",
+      "variants": [
+        {
+          "where": "Sepik (Mead)",
+          "what": "Soy çizgilerine, moietylere ve köylere bağlı olabilir"
+        },
+        {
+          "where": "Fore",
+          "what": "'Ples masalai' kutsal yer olarak işaretlenir; konuşma ve dokunma yasağı"
+        }
+      ],
+      "variantNote": "Masalai bir TÜR değil bir KATEGORİDİR; her yerin kendi masalai'si vardır. Madde bunu gizlemeyecek.",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı: Mead ve Lattas'ın hakemli makaleleri, Slone'un gazetede yayımlanmış anlatı derlemesi. Belirli bir topluluğun kendi masalai yerinin adı, konumu veya ona bağlı tören ANLATILMAZ — bunlar yer-özel ve topluluğa aittir. Plakada gerçek bir yer veya klan işareti çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Masalai bir tür değil bir kategori — madde bunu ilk cümlede söylemeli, yoksa okur yanılır.",
+        "Tok Pisin terimi olduğu ve ülke çapında ortak olduğu belirtilmeli."
+      ]
+    },
+    {
+      "id": "temes-savsap",
+      "name": "Temes Savsap",
+      "altNames": [],
+      "pronunciation": "TEH-mes SAV-sap",
+      "sources": [
+        {
+          "ref": "A. Bernard Deacon ve Camilla H. Wedgwood, \"Geometrical Drawings from Malekula and other Islands of the New Hebrides\", *Journal of the Royal Anthropological Institute of Great Britain and Ireland* 64 (1934), 129–175",
+          "type": "primary",
+          "verification": "article",
+          "access": "JRAI cilt 64; makale künyesi ve sayfa aralığı doğrulandı",
+          "locus": "129–175",
+          "note": "Deacon'ın topladığı ~45 geometrik kum çizimi ve ölüler diyarının girişindeki figürle ilişkileri."
+        },
+        {
+          "ref": "A. Bernard Deacon, *Malekula: A Vanishing People in the New Hebrides*, yay. haz. Camilla H. Wedgwood (Londra: Routledge, 1934)",
+          "type": "primary",
+          "verification": "catalog",
+          "access": "odsas.net/scan_sets.php?set_id=833 — sayfa sayfa dijital nüsha",
+          "note": "Deacon saha çalışması sırasında öldü; malzemeyi Wedgwood yayına hazırladı."
+        },
+        {
+          "ref": "John Layard, *Stone Men of Malekula* (Londra: Chatto & Windus, 1942)",
+          "type": "scholarly",
+          "verification": "catalog"
+        }
+      ],
+      "motif": [
+        "F150"
+      ],
+      "motifDefs": {
+        "F150": "Access to otherworld"
+      },
+      "motifVerified": true,
+      "motifNote": "F150 ('Access to otherworld') doğrulandı ve seçildi. Temes Savsap tam olarak öteki dünyaya ERİŞİMİ denetler: önündeki kum çizimini tamamlayamayan ölü geçemez. F156 ('Door to otherworld') de değerlendirildi; F150 daha genel ve geçiş SINAVINI da kapsadığı için tercih edildi.",
+      "region": "Malekula (Malakula) adası, Vanuatu (eski Yeni Hebridler)",
+      "attested": "Deacon'ın 1926–27 saha çalışması; 1934'te iki ayrı yayında",
+      "spread": "Malekula ve çevre adalar; kum çizimi geleneği Vanuatu'nun kuzeyinde yaygın",
+      "appearance": [
+        "Dişi bir ruh; ölüler diyarının girişinde oturur",
+        "Önündeki kumda tamamlanmış bir geometrik figür bulunur"
+      ],
+      "behaviour": "Yaklaşan ölünün önünde duran kum çizimini yarılar. Ölü figürü tamamlayamazsa geçemez.",
+      "incident": "Faz 3'te Deacon–Wedgwood makalesinden doğrudan okunacak.",
+      "counter": "Kum çizimini eksiksiz ve tek çizgide tamamlayabilmek — bu yüzden çizim öğrenilir ve tekrarlanır.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Kum çizimi geleneği yayımlanmış ve akademik olarak geniş biçimde tartışılmıştır (matematik tarihi literatüründe de). Malekula'nın Maki derece töreni ve ona bağlı BAŞLATMA bilgisi KULLANILMAZ. Plakada gerçek bir kum çizimi deseni birebir çizilmez — desenler yer ve soy bağlıdır; yalnızca figürün önünde 'tamamlanmamış bir çizgi' soyutlaması gösterilir.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Bu madde tohum tablosundaki Kaia'nın yerine geldi; gerekçe SCOPE_DECISIONS.md'de.",
+        "Eşik bekçisi ailesinin (F) Okyanusya üyesi — Kérberos ve Ḫumbaba ile yan yana basılacak.",
+        "Ayrışma noktası güçlü: Kérberos GÜÇLE engeller, Temes Savsap BİLGİYLE engeller. Geçiş bedeli kas değil hafızadır."
+      ]
+    }
+  ]
+}

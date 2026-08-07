@@ -1,0 +1,178 @@
+{
+  "tradition": "nusantara",
+  "creatures": [
+    {
+      "id": "pontianak",
+      "name": "Pontianak",
+      "altNames": [
+        "Kuntilanak",
+        "Matianak",
+        "Langsuir (akraba)"
+      ],
+      "pronunciation": "pon-tee-AH-nak",
+      "sources": [
+        {
+          "ref": "Walter William Skeat, *Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula* (Londra: Macmillan, 1900)",
+          "type": "primary",
+          "verification": "toc",
+          "access": "Kamuya açık dijital nüsha (archive.org)",
+          "note": "Bölüm ve plaka başlığı Project Gutenberg nüshasından (pg47873) doğrulandı.",
+          "locus": "Bölüm VI (\"Magic Rites affecting the Life of Man\"), Birth-Spirits bölümü; Plaka 7: \"Penanggalan and Langsuir\""
+        },
+        {
+          "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.0.1"
+      ],
+      "motifDefs": {
+        "G262.0.1": "Lamia. Witch who eats children"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum E425 öneriyordu; E425'in tanımı bu turda erişilen nüshada bulunamadı. Doğrulanmış G262.0.1 ('Lamia. Witch who eats children') kullanıldı — pontianak doğumda ölen kadının dönüşüdür ve yeni doğana yönelir. Not: E251 ('Vampire. Corpse which comes from grave at night and sucks blood') da doğrulanmış bir alternatiftir ve Faz 2'de değerlendirilmeli, çünkü pontianak bir REVENANT'tır (ölünün dönüşü), doğuştan bir cadı değil.",
+      "motifChanged": "E425 → G262.0.1. E425 doğrulanamadı; C ailesinin ortak kodu kullanıldı. Faz 2'de E251 ile karşılaştırılacak.",
+      "region": "Malay yarımadası, Sumatra, Java, Borneo",
+      "attested": "Skeat'in 1890'lar saha derlemesi; 1900'de yayımlandı",
+      "appearance": [
+        "Uzun siyah saçlı kadın",
+        "Sırtında bir delik olduğu anlatılır",
+        "Kokusu çiçek (kemboja/frangipani)",
+        "Sesi bebek ağlaması"
+      ],
+      "behaviour": "Doğumda ölen kadının dönüşü. Yeni doğana ve loğusaya yönelir.",
+      "incident": "Faz 3'te Skeat'ten doğrudan okunacak.",
+      "counter": "Skeat'in kaydettiği uygulamalar Faz 3'te doğrulanacak; şu an uydurulmayacak.",
+      "variants": [
+        {
+          "where": "Malay yarımadası",
+          "what": "Langsuir ile ayrımı kaynaklarda değişken; Skeat ikisini ayrı kaydeder"
+        },
+        {
+          "where": "Endonezya",
+          "what": "Kuntilanak adıyla"
+        }
+      ],
+      "variantNote": "Pontianak ve langsuir kaynaklarda bazen ayrı bazen aynı; madde bu belirsizliği gösterecek.",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı. Bomoh uygulamaları ve muska metinleri KULLANILMAZ — Skeat bunları kaydetmiştir ama tören metni aktarmak bu kitabın işi değildir.",
+      "modern": "Pontianak, 1950'lerden bu yana Malezya ve Endonezya sinemasının merkezî figürü. Maddede TEK CÜMLEDE ve 'modern' etiketiyle anılacak.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) Nusantara üyesi.",
+        "Ayrışma noktası: çoğu C üyesi doğuştan/dönüşümle cadıdır; pontianak bir KURBAN'dır — doğumda ölen kadın. Aile içindeki en güçlü ahlaki ayrım bu."
+      ]
+    },
+    {
+      "id": "orang-bunian",
+      "name": "Orang Bunian",
+      "altNames": [
+        "Bunian",
+        "Orang halus"
+      ],
+      "pronunciation": "O-rahng boo-nee-AHN",
+      "sources": [
+        {
+          "ref": "Walter William Skeat, *Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula* (Londra: Macmillan, 1900)",
+          "type": "primary",
+          "verification": "catalog",
+          "access": "Kamuya açık dijital nüsha (archive.org)",
+          "note": "⚠ Skeat'in bu maddeyi kapsadığı DOĞRULANAMADI. Bölüm IV ('Spirits, Demons, and Ghosts') aday ama 'Bunian' terimi erişilen metinde bulunamadı. Kapsam iddiası yapılmıyor."
+        },
+        {
+          "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F251"
+      ],
+      "motifDefs": {
+        "F251": "Origin of fairies"
+      },
+      "motifVerified": false,
+      "motifNote": "KOD UYMUYOR. Tohum F251 öneriyor; doğrulanan tanımı 'Origin of fairies' — yani perilerin KÖKENİ üzerine bir motif. Orang bunian maddesi kökeni değil varlıkların kendisini anlatıyor. Doğru kod F400 ('Spirits and demons (general)') veya F250'ler kümesinde başka bir alt kod olabilir. Faz 2'de karara bağlanacak.",
+      "region": "Malay yarımadası, Sumatra, Borneo; orman",
+      "attested": "Skeat 1900; terim günümüzde de canlı",
+      "appearance": [
+        "İnsana neredeyse birebir benzer",
+        "Eski Güneydoğu Asya giysileriyle anlatılır",
+        "Yalnızca 'ruhsal görüş' sahibi olanlarca görülür"
+      ],
+      "behaviour": "Ormanda paralel bir toplum kurar; kendi köyleri, evlilikleri ve düzeni vardır.",
+      "incident": "Faz 3'te doğrulanacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı. Belirli bir orman yerine bağlı yerel anlatı ve pawang uygulaması KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ Motif kodu uymuyor — Faz 2'de düzeltilecek.",
+        "Gizli halk ailesinin (H) Güneydoğu Asya üyesi. Ayrışma: Huldufólk kayada, Ulda yeraltında, Orang Bunian ORMANDA ve TOPLUM kurar — en gelişmiş paralel düzen.",
+        "⚠ KAPIDAN GEÇMİYOR: Skeat'in bu maddeyi kapsadığı doğrulanamadı; iki bağımsız kaynağın ikisi de katalog düzeyinde. SCOPE_DECISIONS.md'ye yazıldı."
+      ]
+    },
+    {
+      "id": "rangda",
+      "name": "Rangda",
+      "altNames": [
+        "Rangda ing Dirah"
+      ],
+      "pronunciation": "RAHNG-dah",
+      "sources": [
+        {
+          "ref": "Jane Belo, *Rangda and Barong* (Seattle: University of Washington Press, American Ethnological Society Monograph 16, 1949)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Bali'de 1930'larda yapılmış saha çalışmasına dayanan tekil monografi."
+        },
+        {
+          "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G263"
+      ],
+      "motifDefs": {
+        "G263": "Witch injures, enchants or transforms"
+      },
+      "motifVerified": true,
+      "motifNote": "G263 ('Witch injures, enchants or transforms') doğrulandı ve korundu. Rangda bir cadı kraliçedir ve işlevi zarar vermek/dönüştürmektir. G262.0.1 (çocuk yiyen) değerlendirildi ama Rangda'nın tanımlayıcı işlevi çocuk avlamak değil, Barong'la süregiden karşıtlıktır.",
+      "region": "Bali",
+      "attested": "Belo'nun 1930'lardaki saha çalışması; 1949'da yayımlandı",
+      "appearance": [
+        "Uzun dili, sarkık göğüsleri ve pençeleriyle betimlenir",
+        "Dul cadı kraliçe"
+      ],
+      "behaviour": "Barong'un ezelî karşıtı. Belo'nun kaydettiği drama, ikisinin çözülmeyen çatışması üzerine kuruludur.",
+      "incident": "Faz 3'te Belo'dan doğrudan okunacak.",
+      "counter": "Barong — ama Belo'nun vurgusu çatışmanın ÇÖZÜLMEMESİdir.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ DİKKAT: Rangda–Barong dramı YAŞAYAN bir tören uygulamasıdır ve Bali'de bugün de yapılır. Belo'nun yayımlanmış betimlemesi kullanılır; tören sırası, mantra, kutsanmış maskeye ilişkin bilgi ve tapınak-özel uygulama KULLANILMAZ. Plakada gerçek bir Rangda maskesi birebir çizilmez — maske kutsanmış bir nesnedir. Bu, Kaia'nın düşme sebebiyle aynı ilkedir; Rangda ise Belo'nun yayımlanmış ve geniş biçimde tartışılmış betimlemesi sayesinde kalabiliyor.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Rangda maddesi maskeyi değil FİGÜRÜ anlatmalı; ayrım etik omurgadır.",
+        "Çatışmanın çözülmemesi (ne Rangda ne Barong kazanır) maddenin 5. bölümünün çekirdeği."
+      ]
+    }
+  ]
+}

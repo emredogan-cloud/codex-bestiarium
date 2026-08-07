@@ -56,6 +56,7 @@ if [ "$FIX" = "1" ]; then
   $PY 08_BUILD/update_docs.py
   $PY 08_BUILD/make_prompts.py
   $PY 08_BUILD/make_index.py --gate draft >/dev/null
+  $PY 08_BUILD/research_gen.py >/dev/null
 fi
 
 # Tohum karşılaştırması master yol haritasını okur; o dosya KARDEŞ depodadır
@@ -71,6 +72,7 @@ else
   echo "──────────────────────────────────────────────────────────────────────"
   echo "ATLANDI: master yol haritası bu ortamda yok ($SEED_SRC)"
 fi
+run "araştırma ↔ spec"           $PY 08_BUILD/research_gen.py --check
 run "spec şeması"                 $PY 08_BUILD/validate_spec.py --gate "$GATE" --json 06_REPORTS/spec-validation.json
 run "depo ve belge bütünlüğü"     $PY 08_BUILD/validate_structure.py --json 06_REPORTS/structure.json
 run "kalite kapılarının testi"    $PY 08_BUILD/tests/selftest.py

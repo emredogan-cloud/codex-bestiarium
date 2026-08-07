@@ -1,0 +1,191 @@
+{
+  "tradition": "ainu",
+  "creatures": [
+    {
+      "id": "koropokkuru",
+      "name": "Koropokkuru",
+      "altNames": [
+        "Korpokkur",
+        "Koro-pok-guru"
+      ],
+      "pronunciation": "ko-ro-POK-koo-roo",
+      "sources": [
+        {
+          "ref": "John Batchelor, *The Ainu and Their Folk-Lore* (Londra: Religious Tract Society, 1901)",
+          "type": "primary",
+          "verification": "fulltext",
+          "access": "archive.org/details/b29010664 — tam metin okundu",
+          "locus": "Bölüm II — \"The Pit-dwellers and Causes of Ainu Decrease\"",
+          "quote": "ten of them could easily take shelter beneath one burdock leaf",
+          "note": "Bölüm başlığı ve alıntı dijital tam metinden birebir okundu."
+        },
+        {
+          "ref": "Donald L. Philippi, *Songs of Gods, Songs of Humans: The Epic Tradition of the Ainu* (Tokyo/Princeton: University of Tokyo Press ve Princeton University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Ainu kamuy yukar (tanrı destanları) külliyatının standart İngilizce eleştirel çevirisi."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F451"
+      ],
+      "motifDefs": {
+        "F451": "Dwarfs in otherworld"
+      },
+      "motifVerified": true,
+      "motifNote": "Tohum kodu F451 doğrulandı ve korundu. Koropokkuru çukur evlerde yaşayan küçük halktır; Thompson'ın cüce kümesi uyuyor. Ad Ainu'da 'altında yaşayan kişi' anlamına gelir ve Batchelor'ın devetabanı yaprağı alıntısı bunu doğrudan destekler.",
+      "region": "Hokkaidō ve Kuril adaları; Ainu anlatılarında adanın ÖNCEKİ sakinleri",
+      "attested": "Batchelor'ın 1890'lardaki saha çalışmasından; 1901'de yayımlandı",
+      "appearance": [
+        "Çok küçük; Batchelor'a göre onu bir devetabanı yaprağının altına sığar",
+        "Çukur evlerde (pit-dwelling) yaşar"
+      ],
+      "behaviour": "Ainu'dan önce adada yaşamış sayılır; çukur evleri ve taş aletleri onlara atfedilir. Balık bırakıp görünmeden kaybolduğu anlatılır.",
+      "incident": "Faz 3'te Batchelor Bölüm II'den doğrudan okunacak.",
+      "counter": "Kaynakta doğrulanmış karşı önlem yok.",
+      "variants": [
+        {
+          "where": "Batchelor 1901",
+          "what": "Ainu atalarınca yok edilmiş bir halk olarak anlatılır — arkeolojik açıklama işlevi taşır"
+        }
+      ],
+      "variantNote": "Koropokkuru anlatısı bir yaratık anlatısı olduğu kadar bir ARKEOLOJİ açıklamasıdır: adadaki çukur ev kalıntılarına ad verir.",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı (Batchelor 1901 tam metin, Philippi 1979). Ainu tören bilgisi, iyomante ayrıntısı ve inaw yapımı KULLANILMAZ. Plakada gerçek bir Ainu deseni veya tören nesnesi çizilmez. Batchelor'ın misyoner çerçevesi eleştirel okunur; 'yok edildiler' anlatısı bir Ainu anlatısı olarak aktarılır, tarihsel gerçek olarak değil.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gizli halk ailesinin (H) Doğu Asya üyesi — Huldufólk ve Ulda ile yan yana.",
+        "Ayrışma noktası: Huldufólk hâlâ YANIBAŞIMIZDA, Koropokkuru ÖNCEKİ sakin. Biri şimdiki zamanda, diğeri geçmişte gizli."
+      ]
+    },
+    {
+      "id": "repun-kamuy",
+      "name": "Repun Kamuy",
+      "altNames": [
+        "Repun-riri-kata inao uk kamui"
+      ],
+      "pronunciation": "REH-pun KAH-mooy",
+      "sources": [
+        {
+          "ref": "Donald L. Philippi, *Songs of Gods, Songs of Humans: The Epic Tradition of the Ainu* (Tokyo/Princeton: University of Tokyo Press ve Princeton University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Ainu kamuy yukar (tanrı destanları) külliyatının standart İngilizce eleştirel çevirisi."
+        },
+        {
+          "ref": "Neil Gordon Munro, *Ainu Creed and Cult* (New York: Columbia University Press, 1963)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Munro'nun 1930'lardaki saha çalışmasından, ölümünden sonra yayımlandı."
+        },
+        {
+          "ref": "John Batchelor, *The Ainu of Japan: The Religion, Superstitions, and General History of the Hairy Aborigines of Japan* (Londra: Religious Tract Society, 1892)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Batchelor'ın 1901 tarihli derlemesinde Repun Kamuy adı bulunamadı; deniz tanrısı malzemesi bu erken cildinde ve Munro'da aranmalıdır."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B472"
+      ],
+      "motifDefs": {
+        "B472": "—"
+      },
+      "motifVerified": false,
+      "motifNote": "KOD DOĞRULANAMADI. Tohum tablosu B472 öneriyor ama Thompson'ın B400–B899 aralığı bu turda erişilen dijital nüshalarda yer almıyor; B472'nin tanımı görülmedi. SOURCING_STANDARD § 5 uyarınca doğrulanmamış kod motifVerified alamaz. Faz 2'de tam Motif-Index nüshasından teyit edilecek; alternatif olarak B471 (yardımcı balık) veya A420 (su tanrısı) değerlendirilecek.",
+      "region": "Hokkaidō kıyıları ve açık deniz; balina avcılığı yapılan yerleşimler",
+      "attested": "Batchelor'ın 1890'lar öncesi kayıtları; Munro'nun 1930'lar saha çalışması",
+      "appearance": [
+        "Açık denizin tanrısı",
+        "Kendini gösterdiğinde katil balina (orca) veya en büyük balina biçiminde görünür"
+      ],
+      "behaviour": "Avı bağışlar; kıyıya balina sürer. Ainu için av bir alma değil bir BAĞIŞ ilişkisidir.",
+      "incident": "Faz 2'de kaynak doğrulandığında yazılacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Bu madde şu anda YETERSİZ DOĞRULAMA nedeniyle kapıdan geçmiyor. Ainu deniz tanrısı malzemesi tören (inaw sunumu, balina avı ritüeli) ile iç içedir; tören ayrıntısı KULLANILMAZ. Faz 2'de Philippi'nin kamuy yukar çevirilerinden doğrulanmadan yazılmayacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ Motif kodu doğrulanmadı — bu madde Faz 2'de kaynağa dönmeden yazılamaz.",
+        "Av-bağış ilişkisi maddenin 5. bölümünün ('neden sayılır') çekirdeği."
+      ]
+    },
+    {
+      "id": "kenas-unarpe",
+      "name": "Kenas-unarpe",
+      "altNames": [
+        "Nitat-unarabe",
+        "Kenash-unarabe"
+      ],
+      "pronunciation": "KEH-nas oo-NAR-peh",
+      "sources": [
+        {
+          "ref": "John Batchelor, *The Ainu and Their Folk-Lore* (Londra: Religious Tract Society, 1901)",
+          "type": "primary",
+          "verification": "fulltext",
+          "access": "archive.org/details/b29010664 — tam metin okundu",
+          "locus": "Bölüm IV — \"The Creation of the World\"",
+          "quote": "the chief of the demons so produced is called by the name Nitat unarabe, i.e., 'aunt of swamps or marshes'",
+          "note": "Alıntı dijital tam metinden birebir okundu. 'Nitat-unarabe' (bataklık teyzesi) ile 'Kenas-unarpe' (kıyı çalılığı teyzesi) aynı adlandırma kalıbının iki varyantıdır: yer adı + unarpe/unarabe ('teyze')."
+        },
+        {
+          "ref": "Donald L. Philippi, *Songs of Gods, Songs of Humans: The Epic Tradition of the Ainu* (Tokyo/Princeton: University of Tokyo Press ve Princeton University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog",
+          "note": "Ainu kamuy yukar (tanrı destanları) külliyatının standart İngilizce eleştirel çevirisi."
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.0.1"
+      ],
+      "motifDefs": {
+        "G262.0.1": "Lamia. Witch who eats children"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 öneriyordu; doğrulanan tanımı 'La Belle Dame Sans Merci — Witch entices men with offers of love and then deserts or destroys them'. Bu, ERKEKLERİ baştan çıkaran bir figürdür ve loğusayı avlayan gece cadısıyla ilgisi yoktur. Doğru kod G262.0.1 ('Lamia. Witch who eats children') — ki bu, ailenin Yunan üyesinin adını taşıyor.",
+      "motifChanged": "G264 → G262.0.1. Bu düzeltme C ailesinin (gece cadısı) TAMAMINI ilgilendirir; ayrıntı SCOPE_DECISIONS.md'de.",
+      "region": "Hokkaidō; bataklık ve ırmak kıyısı çalılıkları",
+      "attested": "Batchelor'ın 1890'lar saha derlemesi; 1901",
+      "appearance": [
+        "Yaşlı kadın biçiminde",
+        "Keçeleşmiş saç",
+        "Kimi anlatıda kuş benzeri bir varlık olarak"
+      ],
+      "behaviour": "Bataklıkta ve kıyı çalılığında bekler; yolcuyu ve loğusayı avlar. Batchelor onu 'wen kamuy' (kötü tanrı) kümesinde, hastalığın kişileşmiş hâline yakın konumlandırır.",
+      "incident": "Faz 3'te Batchelor Bölüm IV'ten doğrudan okunacak.",
+      "counter": "Kaynakta doğrulanmış karşı önlem yok.",
+      "variants": [
+        {
+          "where": "Batchelor 1901, Bölüm IV",
+          "what": "'Nitat-unarabe' — bataklık teyzesi; cinlerin başı olarak"
+        },
+        {
+          "where": "Yaygın kayıt",
+          "what": "'Kenas-unarpe' — kıyı çalılığı teyzesi"
+        }
+      ],
+      "variantNote": "Ad sabit değil, YER değişkeni taşıyor: nitat (bataklık) veya kenas (kıyı çalılığı) + unarpe (teyze). Yaratık, bulunduğu araziyle adlandırılıyor.",
+      "restriction": "Yalnızca Batchelor'ın yayımlanmış derlemesi ve Philippi'nin yayımlanmış çevirileri kullanıldı. Ainu şifa töreni ve wen kamuy'a karşı yapılan uygulamalar KULLANILMAZ. Plakada tören nesnesi veya Ainu deseni çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) Ainu üyesi.",
+        "Ayrışma noktası: çoğu C üyesi ŞEHRE/EVE girer; Kenas-unarpe araziye bağlı kalır — tehlike eve değil, YOLA aittir."
+      ]
+    }
+  ]
+}

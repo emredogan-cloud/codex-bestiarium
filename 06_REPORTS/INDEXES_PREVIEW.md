@@ -27,7 +27,7 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Kemet | 𓂀 | Akdeniz | ✓ | Ammit (—) · Apep (—) · Bennu (—) |
 | Mā'ohi | ᴥ | Okyanusya | ✓ | Moʻo (—) · Ponaturi (—) · Taniwha (—) |
 | Maya | 𝋠 | Mezoamerika | ✓ | Camazotz (—) · Way (—) · Xtabay (—) |
-| Melanesia | ◉ | Okyanusya | — | Adaro (—) · Kaia (—) · Masalai (—) |
+| Melanesia | ◉ | Okyanusya | — | Adaro (—) · Masalai (—) · Temes Savsap (—) |
 | Mēxihcah | ☼ | Mezoamerika | ✓ | Ahuizotl (—) · Cipactli (—) · Nahual (—) |
 | Mongol | ⚔ | Orta Asya | — | Almas (—) · Chötgör (—) · Olgoi-Khorkhoi (—) |
 | Nguni | ◈ | Afrika | — | Impundulu (—) · Inkanyamba (—) · Tokoloshe (—) |
@@ -56,12 +56,12 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 |---|---|---|
 | `A177` | A | Anansi (—) |
 | `A812` | A | Cipactli (—) |
-| `B11` | B | Herensuge (—) · Vishap (—) · Zmeu (—) · Zmey (—) |
+| `B11` | B | Herensuge (—) · Zmeu (—) · Zmey (—) |
 | `B11.1` | B | Boitatá (—) · Imugi (—) |
 | `B11.2` | B | Amaru (—) · Aži Dahāka (—) · Iku-Turso (—) · Inkanyamba (—) · Thuồng luồng (—) |
 | `B11.2.1.1` | B | Apep (—) · Jörmungandr (—) |
 | `B11.2.3` | B | Yamata-no-Orochi (—) |
-| `B11.3` | B | Taniwha (—) |
+| `B11.3` | B | Taniwha (—) · Vishap (—) |
 | `B11.7` | B | Lóng (—) |
 | `B12` | B | Basiliscus (—) |
 | `B15` | B | Chímaira (—) |
@@ -76,41 +76,39 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | `B184.1.3` | B | Each-uisce (—) · Näkki (—) · Nykur (—) |
 | `B472` | B | Repun Kamuy (—) |
 | `B733` | B | Aralez (—) |
-| `B765` | B | Olgoi-Khorkhoi (—) |
 | `B871` | B | Amarok (—) · Ông Ba Mươi (—) · Skuggabaldur (—) |
 | `B871.1` | B | Fenrir (—) |
-| `D110` | D | Nahual (—) · Way (—) |
+| `D110` | D | Buda (—) · Nahual (—) · Way (—) |
 | `D113` | D | Nhang (—) |
 | `D113.1` | D | Húli jīng (—) · Kumiho (—) · Vârcolac (—) |
-| `D113.2` | D | Buda (—) |
 | `D131` | D | Púca (—) |
 | `D150` | D | Tengu (—) |
 | `D1635` | D | Golem (—) |
 | `D1711` | D | Tupilaq (—) |
-| `E200` | E | Chötgör (—) · Kaia (—) · Lemures (—) · Supay (—) |
+| `E200` | E | Chötgör (—) · Lemures (—) · Supay (—) |
 | `E220` | E | Àbíkú (—) |
 | `E230` | E | Draugr (—) |
 | `E251` | E | Strigoi (—) |
 | `E402` | E | Bean sídhe (—) |
-| `E425` | E | Pontianak (—) |
-| `F150` | F | Ḫumbaba (—) · Kérberos (—) |
+| `F150` | F | Ḫumbaba (—) · Kérberos (—) · Temes Savsap (—) |
 | `F251` | F | Huldufólk (—) · Orang Bunian (—) |
-| `F300` | F | Gufihtar (—) · Perī (—) |
+| `F300` | F | Perī (—) |
 | `F302` | F | Xtabay (—) |
-| `F400` | F | Dokkaebi (—) · Kaji (—) · Masalai (—) |
+| `F400` | F | Dokkaebi (—) · Gufihtar (—) · Kaji (—) |
 | `F402` | F | Zar (—) · ʿIfrīt (—) |
 | `F420` | F | Adaro (—) · Iara (—) · Kappa (—) · Lamia (—) · Rusalka (—) |
 | `F451` | F | Koropokkuru (—) · Tokoloshe (—) · Ulda (—) |
-| `F460` | F | Almas (—) · Basajaun (—) · Curupira (—) · Migoi (—) · Ochokochi (—) |
+| `F460` | F | Almas (—) · Basajaun (—) · Curupira (—) · Masalai (—) · Migoi (—) · Ochokochi (—) |
 | `F480` | F | Domovoy (—) |
 | `G11` | G | Ghūl (—) · Pishtaco (—) · Windigo (—) |
 | `G100` | G | Devi (—) · Stállu (—) |
 | `G262` | G | Adze (—) · Aswang (—) · Krasue (—) · Ma lai (—) · Strix (—) |
+| `G262.0.1` | G | Kenas-unarpe (—) · Pontianak (—) |
 | `G262.1` | G | Manananggal (—) |
 | `G263` | G | Rangda (—) |
-| `G264` | G | Al Karısı (—) · Kenas-unarpe (—) · Lamashtu (—) · Lámia (—) · Lilith (—) |
-| `G300` | G | Ganen (—) · Ponaturi (—) · Srin-po (—) |
-| `G302` | G | Ajatar (—) · Karakoncolos (—) |
+| `G264` | G | Al Karısı (—) · Lamashtu (—) · Lámia (—) · Lilith (—) |
+| `G300` | G | Ponaturi (—) · Srin-po (—) |
+| `G302` | G | Ajatar (—) · Ganen (—) · Karakoncolos (—) · Olgoi-Khorkhoi (—) |
 | `G303` | G | Ammit (—) |
 | `G308` | G | Qalupalik (—) |
 
@@ -218,6 +216,7 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Camazotz | Maya 𝋠 | — |
 | Aralez | Hayk ✚ | — |
 | Golem | Talmud ✡ | — |
+| Temes Savsap | Melanesia ◉ | — |
 
 **Ayrışma noktası.** Bazıları cezalandırır, bazıları yalnızca bakar — ve bakış yeterlidir.
 
@@ -254,12 +253,15 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Ad | Telaffuz | Sayfa |
 |---|---|---:|
 | **Àbíkú** | — | — |
-| **Adaro** | — | — |
+| **Adaro** | ah-DAH-ro | — |
 | **Adze** | — | — |
 | **Ahuizotl** | — | — |
 | **Ajatar** | — | — |
 | **Al Karısı** | — | — |
-| **Almas** | — | — |
+| allghoi khorkhoi | *bkz.* Olgoi-Khorkhoi | — |
+| **Almas** | ahl-MAHS | — |
+| Almas-kishi | *bkz.* Almas | — |
+| Almasty | *bkz.* Almas | — |
 | **Amarok** | — | — |
 | **Amaru** | — | — |
 | **Ammit** | — | — |
@@ -267,31 +269,42 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | **Animikii** | — | — |
 | **Anzû** | — | — |
 | **Apep** | — | — |
-| **Aralez** | — | — |
+| **Aralez** | ah-rah-LEZ | — |
+| Arlez | *bkz.* Aralez | — |
 | **Aswang** | — | — |
+| ataro | *bkz.* Adaro | — |
 | **Aži Dahāka** | — | — |
 | **Basajaun** | — | — |
 | **Basiliscus** | — | — |
 | **Bean sídhe** | — | — |
 | **Bennu** | — | — |
 | **Boitatá** | — | — |
-| **Buda** | — | — |
+| Bouda | *bkz.* Buda | — |
+| **Buda** | BOO-dah | — |
+| Bunian | *bkz.* Orang Bunian | — |
 | **Camazotz** | — | — |
 | **Chímaira** | — | — |
-| **Chötgör** | — | — |
+| Chotgor | *bkz.* Chötgör | — |
+| **Chötgör** | CHUT-gur | — |
 | **Cipactli** | — | — |
+| Čötgör | *bkz.* Chötgör | — |
 | **Curupira** | — | — |
-| **Devi** | — | — |
+| Dev | *bkz.* Devi | — |
+| Devebi (çoğul) | *bkz.* Devi | — |
+| **Devi** | DEH-vee | — |
 | **Dokkaebi** | — | — |
 | **Domovoy** | — | — |
 | **Draugr** | — | — |
 | **Each-uisce** | — | — |
 | **Fenrir** | — | — |
-| **Ganen** | — | — |
+| **Ganen** | gah-NEN | — |
+| Ganén | *bkz.* Ganen | — |
 | **Garuḍa** | — | — |
 | **Ghūl** | — | — |
 | **Golem** | — | — |
-| **Gufihtar** | — | — |
+| **Gufihtar** | GOO-fih-tar | — |
+| Gufihttar | *bkz.* Gufihtar | — |
+| Gufittar | *bkz.* Gufihtar | — |
 | **Herensuge** | — | — |
 | **Huldufólk** | — | — |
 | **Húli jīng** | — | — |
@@ -302,73 +315,99 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | **Imugi** | — | — |
 | **Inkanyamba** | — | — |
 | **Jörmungandr** | — | — |
-| **Kaia** | — | — |
-| **Kaji** | — | — |
+| Kaj | *bkz.* Kaji | — |
+| **Kaji** | KAH-jee | — |
+| Kajni | *bkz.* Kaji | — |
 | **Kappa** | — | — |
 | **Karakoncolos** | — | — |
-| **Kenas-unarpe** | — | — |
+| **Kenas-unarpe** | KEH-nas oo-NAR-peh | — |
+| Kenash-unarabe | *bkz.* Kenas-unarpe | — |
 | **Kérberos** | — | — |
 | **Khyung** | — | — |
 | **Kinnarī** | — | — |
-| **Koropokkuru** | — | — |
+| Koro-pok-guru | *bkz.* Koropokkuru | — |
+| **Koropokkuru** | ko-ro-POK-koo-roo | — |
+| Korpokkur | *bkz.* Koropokkuru | — |
 | **Krasue** | — | — |
 | **Kumiho** | — | — |
+| Kuntilanak | *bkz.* Pontianak | — |
 | **Lamashtu** | — | — |
 | **Lamia** | — | — |
 | **Lámia** | — | — |
+| Langsuir (akraba) | *bkz.* Pontianak | — |
 | **Lemures** | — | — |
 | **Lilith** | — | — |
 | **Lóng** | — | — |
 | **Ma lai** | — | — |
 | **Makara** | — | — |
 | **Manananggal** | — | — |
-| **Masalai** | — | — |
+| **Masalai** | mah-sah-LYE | — |
+| masalai ples | *bkz.* Masalai | — |
+| Matianak | *bkz.* Pontianak | — |
 | **Migoi** | — | — |
 | **Mishipeshu** | — | — |
 | **Moʻo** | — | — |
 | **Nāga** | — | — |
 | **Nahual** | — | — |
 | **Näkki** | — | — |
-| **Nhang** | — | — |
+| **Nhang** | n-HAHNG | — |
+| Nhang (deniz canavarı, genel) | *bkz.* Nhang | — |
+| Nitat-unarabe | *bkz.* Kenas-unarpe | — |
 | **Nykur** | — | — |
-| **Ochokochi** | — | — |
-| **Olgoi-Khorkhoi** | — | — |
+| **Ochokochi** | o-cho-KO-chee | — |
+| Ochokoçi | *bkz.* Ochokochi | — |
+| Očokoči | *bkz.* Ochokochi | — |
+| **Olgoi-Khorkhoi** | OL-goy KHOR-khoy | — |
+| Olgoi-khorkhoi | *bkz.* Olgoi-Khorkhoi | — |
 | **Ông Ba Mươi** | — | — |
-| **Orang Bunian** | — | — |
+| **Orang Bunian** | O-rahng boo-nee-AHN | — |
+| Orang halus | *bkz.* Orang Bunian | — |
 | **Perī** | — | — |
 | **Phaya Nak** | — | — |
 | **Pishtaco** | — | — |
 | **Ponaturi** | — | — |
-| **Pontianak** | — | — |
+| **Pontianak** | pon-tee-AH-nak | — |
 | **Púca** | — | — |
 | **Qalupalik** | — | — |
 | **Qílín** | — | — |
-| **Rangda** | — | — |
-| **Repun Kamuy** | — | — |
+| **Rangda** | RAHNG-dah | — |
+| Rangda ing Dirah | *bkz.* Rangda | — |
+| **Repun Kamuy** | REH-pun KAH-mooy | — |
+| Repun-riri-kata inao uk kamui | *bkz.* Repun Kamuy | — |
 | **Rukh** | — | — |
 | **Rusalka** | — | — |
 | **Şahmeran** | — | — |
 | **Sīmurgh** | — | — |
 | **Skuggabaldur** | — | — |
 | **Srin-po** | — | — |
-| **Stállu** | — | — |
+| Staaloe | *bkz.* Stállu | — |
+| Stallo | *bkz.* Stállu | — |
+| **Stállu** | STAHL-loo | — |
+| Stalo | *bkz.* Stállu | — |
 | **Strigoi** | — | — |
 | **Strix** | — | — |
 | **Supay** | — | — |
 | **Taniwha** | — | — |
+| **Temes Savsap** | TEH-mes SAV-sap | — |
 | **Tengu** | — | — |
 | **Thuồng luồng** | — | — |
 | **Tikbalang** | — | — |
 | **Tokoloshe** | — | — |
 | **Tupilaq** | — | — |
-| **Ulda** | — | — |
+| **Ulda** | OOL-dah | — |
+| Ulda-almmái | *bkz.* Ulda | — |
+| Uldat (çoğul) | *bkz.* Ulda | — |
 | **Vârcolac** | — | — |
-| **Vishap** | — | — |
+| višap | *bkz.* Vishap | — |
+| **Vishap** | vee-SHAHP | — |
+| vishapakar (dikit) | *bkz.* Vishap | — |
 | **Way** | — | — |
 | **Windigo** | — | — |
 | **Xtabay** | — | — |
 | **Yamata-no-Orochi** | — | — |
-| **Zar** | — | — |
+| Yaralez | *bkz.* Aralez | — |
+| **Zar** | ZAHR | — |
+| Zār | *bkz.* Zar | — |
 | **Ziz** | — | — |
 | **Zmeu** | — | — |
 | **Zmey** | — | — |

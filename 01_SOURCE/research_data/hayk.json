@@ -1,0 +1,182 @@
+{
+  "tradition": "hayk",
+  "creatures": [
+    {
+      "id": "vishap",
+      "name": "Vishap",
+      "altNames": [
+        "višap",
+        "vishapakar (dikit)"
+      ],
+      "pronunciation": "vee-SHAHP",
+      "sources": [
+        {
+          "ref": "Mardiros H. Ananikian, *Armenian Mythology*, *The Mythology of All Races* içinde, Cilt VII (Boston: Marshall Jones, 1925)",
+          "type": "scholarly",
+          "verification": "toc",
+          "access": "archive.org — kamuya açık dijital nüsha",
+          "note": "İçindekiler dijital nüshadan doğrulandı; bölüm başlıkları birebir.",
+          "locus": "Bölüm \"Nature Worship and Nature Myths — 3. Water\""
+        },
+        {
+          "ref": "Manuk Abeghyan, \"The Stelae Called 'Vishaps' as Monuments to the Goddess Astghik-Derketo\", *Works* 7 (Erivan, 1975)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.3"
+      ],
+      "motifDefs": {
+        "B11.3": "Habitat of dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "Tohum B11 ('Dragon') idi; B11.3 ('Habitat of dragon') ile DARALTILDI. Gerekçe: vişapı ayıran şey ejderha olması değil, BELİRLİ BİR YERDE — dağ gölünde — yatması ve o yerin taş dikitlerle (vishapakar) işaretlenmesidir. Thompson'ın 'yerleşim' alt kodu bu ayrımı taşıyor.",
+      "motifChanged": "B11 → B11.3. Genel 'ejderha' kodu vişapın tanımlayıcı özelliğini (yere bağlılık) kaybediyordu.",
+      "region": "Ermeni yaylası; Geghama dağları ve Aragats çevresindeki yüksek göller",
+      "attested": "Vishapakar dikitleri Tunç Çağı'na tarihlenir; folklor kaydı 19.–20. yy derlemeleri",
+      "appearance": [
+        "Dağ gölünde yatan büyük yılan/ejderha",
+        "Bulunduğu yer balık biçimli taş dikitlerle işaretlenir"
+      ],
+      "behaviour": "Suyu ve fırtınayı tutar. Ananikian vişapı su ve hava olaylarıyla ilişkilendirir.",
+      "incident": "Faz 3'te Ananikian'dan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "Ananikian 1925",
+          "what": "Su ve fırtınayla ilişkili ejderha"
+        },
+        {
+          "where": "Abeghyan 1975",
+          "what": "Dikitler tanrıça Astghik-Derketo anıtları olarak yorumlanır — yaratık ile tapınım yeri arasındaki bağ"
+        }
+      ],
+      "variantNote": "Vişap hem bir yaratık hem bir TAŞ TÜRÜDÜR; arkeoloji ile folklor aynı adı paylaşır.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) Kafkasya üyesi.",
+        "Ayrışma noktası: Jörmungandr dünyayı ÇEVRELER, Vishap bir GÖLE çakılıdır — biri sınırsız, diğeri adresli."
+      ]
+    },
+    {
+      "id": "aralez",
+      "name": "Aralez",
+      "altNames": [
+        "Arlez",
+        "Yaralez"
+      ],
+      "pronunciation": "ah-rah-LEZ",
+      "sources": [
+        {
+          "ref": "Mardiros H. Ananikian, *Armenian Mythology*, *The Mythology of All Races* içinde, Cilt VII (Boston: Marshall Jones, 1925)",
+          "type": "scholarly",
+          "verification": "toc",
+          "access": "archive.org — kamuya açık dijital nüsha",
+          "note": "İçindekiler dijital nüshadan doğrulandı; bölüm başlıkları birebir.",
+          "locus": "Bölüm \"The World of Spirits and Monsters\""
+        },
+        {
+          "ref": "Manuk Abeghyan, \"The Stelae Called 'Vishaps' as Monuments to the Goddess Astghik-Derketo\", *Works* 7 (Erivan, 1975)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B733"
+      ],
+      "motifDefs": {
+        "B733": "—"
+      },
+      "motifVerified": false,
+      "motifNote": "KOD DOĞRULANAMADI. Tohum B733 öneriyor; Thompson'ın B400–B899 aralığı bu turda erişilen dijital nüshalarda yok ve tanım görülmedi. Faz 2'de teyit edilecek. Alternatif olarak E0–E199 (diriltme) kümesi değerlendirilmeli — aralez'in işlevi bir HAYVAN özelliği değil, DİRİLTMEdir; kod büyük olasılıkla E bölümünde olmalı.",
+      "region": "Tarihî Ermenistan; savaş alanları anlatılarında",
+      "attested": "Ananikian 1925'te derlenmiş erken Ermeni kaynaklarından",
+      "appearance": [
+        "Köpek benzeri ruh",
+        "Kimi kayıtta kanatlı"
+      ],
+      "behaviour": "Savaşta ölen kahramanın üzerine iner ve yarasını yalayarak diriltir.",
+      "incident": "Faz 3'te Ananikian'dan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ Motif kodu doğrulanmadı — Faz 2'de E bölümünden yeniden değerlendirilecek.",
+        "Eşik bekçisi ailesinde (F) sınıflandırılmış ama işlevi bekçilik değil DİRİLTME; Faz 2'de aile üyeliği yeniden düşünülmeli."
+      ]
+    },
+    {
+      "id": "nhang",
+      "name": "Nhang",
+      "altNames": [
+        "Nhang (deniz canavarı, genel)"
+      ],
+      "pronunciation": "n-HAHNG",
+      "sources": [
+        {
+          "ref": "Mardiros H. Ananikian, *Armenian Mythology*, *The Mythology of All Races* içinde, Cilt VII (Boston: Marshall Jones, 1925)",
+          "type": "scholarly",
+          "verification": "toc",
+          "access": "archive.org — kamuya açık dijital nüsha",
+          "note": "İçindekiler dijital nüshadan doğrulandı; bölüm başlıkları birebir.",
+          "locus": "Bölüm \"The World of Spirits and Monsters\""
+        },
+        {
+          "ref": "Manuk Abeghyan, \"The Stelae Called 'Vishaps' as Monuments to the Goddess Astghik-Derketo\", *Works* 7 (Erivan, 1975)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D113"
+      ],
+      "motifDefs": {
+        "D113": "Transformation: man to canine animal (wild)"
+      },
+      "motifVerified": false,
+      "motifNote": "KOD UYMUYOR. Tohum D113 öneriyor ama doğrulanan tanımı 'Transformation: man to canine animal (wild)' — KÖPEKGİL dönüşümü. Nhang fok veya kadın biçimine girer, köpekgile değil. Doğru kod büyük olasılıkla D100 ('Transformation: man to animal') üst kümesinde veya F420 ('Water-spirits') altında. Faz 2'de karara bağlanacak; şimdilik doğrulanmamış sayılır.",
+      "region": "Ermeni yaylası ırmakları; klasik Ermeni edebiyatında genel 'deniz canavarı' anlamında da kullanılır",
+      "attested": "Ananikian 1925'te derlenmiş; terim erken Ermeni edebiyatında",
+      "appearance": [
+        "Irmakta yaşayan biçim değiştiren varlık",
+        "Fok kılığına girer",
+        "Kadın kılığına girer"
+      ],
+      "behaviour": "Kadın biçimine girip erkeği çeker, suya alır ve kanını içer.",
+      "incident": "Faz 3'te Ananikian'dan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "Klasik Ermeni edebiyatı",
+          "what": "'Nhang' genel bir deniz canavarı terimi olarak da kullanılır — tekil bir yaratık değil"
+        }
+      ],
+      "variantNote": "Nhang hem belirli bir ırmak varlığı hem genel bir 'deniz canavarı' terimi; madde ikisini ayırmak zorunda.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ Motif kodu uymuyor — Faz 2'de düzeltilecek.",
+        "Nhang'ın erkeği baştan çıkarıp öldürmesi, G264 ('La Belle Dame Sans Merci') tanımına C ailesinin çoğu üyesinden DAHA çok uyuyor. Faz 2'de değerlendirilmeli."
+      ]
+    }
+  ]
+}

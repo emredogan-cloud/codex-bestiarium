@@ -293,8 +293,70 @@ def assign_ids(creatures: list[dict]) -> None:
 # 3. KAYIT ÜRETİMİ
 # =============================================================================
 
+AMENDMENTS_PATH = os.path.join(ROOT, "01_SOURCE", "scope_amendments.json")
+
+
+def load_amendments() -> list[dict]:
+    """Faz 1'in kapsam kararları. Tohum tablosu DEĞİŞMEZ; kararlar üstüne biner.
+
+    Yol haritası Faz 1'in işini şöyle tanımlar: "Kaynak bulunamayan maddeyi
+    listeden düşür ve yedeğini not et." Bu, tohum tablosunu düzenleyerek
+    yapılamaz — tablo master yol haritasının malıdır ve `--check` onunla
+    karşılaştırır. Kararlar bu yüzden AYRI bir katmanda durur ve denetlenebilir
+    kalır: ne düştü, ne geldi, neden, ne zaman.
+    """
+    if not os.path.exists(AMENDMENTS_PATH):
+        return []
+    with open(AMENDMENTS_PATH, encoding="utf-8") as fh:
+        return json.load(fh).get("amendments", [])
+
+
+def apply_amendments(creatures: list[dict], amendments: list[dict]) -> list[dict]:
+    by_id = {c["id"]: c for c in creatures}
+    for a in amendments:
+        target = a.get("id")
+        if target not in by_id:
+            raise SystemExit(f"HATA: kapsam kararı bilinmeyen kimliğe: {target}")
+        rec = by_id[target]
+        action = a.get("action")
+
+        if action == "drop":
+            creatures = [c for c in creatures if c["id"] != target]
+            by_id.pop(target)
+
+        elif action == "replace":
+            rep = a["replacement"]
+            rec["name"] = rep["name"]
+            rec["class"] = rep.get("class", rec["class"])
+            rec["kinFamily"] = rep.get("kinFamily", rec["kinFamily"])
+            rec["motifSeed"] = rep.get("motif", [rec["motifSeed"]])[0]
+            rec["seedNoteTr"] = rep.get("seedNoteTr", rec["seedNoteTr"])
+            rec["_replacedBy"] = True
+
+        elif action == "reclassify":
+            rec["class"] = a.get("class", rec["class"])
+            rec["kinFamily"] = a.get("kinFamily", rec["kinFamily"])
+
+        else:
+            raise SystemExit(f"HATA: bilinmeyen kapsam kararı: {action!r}")
+    return creatures
+
+
 def build_spec(traditions: list[dict], creatures: list[dict]) -> dict:
+    # SIRA ÖNEMLİ: önce kimlikler atanır (kararlar kimliğe göre hedef alır),
+    # sonra kararlar uygulanır, sonra kimlikler YENİDEN atanır — çünkü bir
+    # değiştirme adı değiştirir, ad da kimliği belirler.
     assign_ids(creatures)
+    amendments = load_amendments()
+    creatures = apply_amendments(creatures, amendments)
+    assign_ids(creatures)
+
+    # Gelenek başına madde sayısı düşen maddelerden sonra yeniden sayılır
+    counts: dict[str, int] = {}
+    for c in creatures:
+        counts[c["tradition"]] = counts.get(c["tradition"], 0) + 1
+    for t in traditions:
+        t["entryCount"] = counts.get(t["id"], 0)
 
     records = []
     for c in creatures:
@@ -340,6 +402,7 @@ def build_spec(traditions: list[dict], creatures: list[dict]) -> dict:
             "sourceOfTruth": (
                 "CODEX_MYTHOLOGICA/03_CODEX_BESTIARIUM_MASTER_ROADMAP.html § 04"
             ),
+            "amendments": len(amendments),
             "warning": (
                 "Bu bir kanon DEĞİLDİR. Her kayıt Faz 1'deki iki bağımsız kaynak "
                 "kapısından geçmeden status 'verified' olamaz."

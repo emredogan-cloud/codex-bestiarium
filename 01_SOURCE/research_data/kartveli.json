@@ -1,0 +1,183 @@
+{
+  "tradition": "kartveli",
+  "creatures": [
+    {
+      "id": "ochokochi",
+      "name": "Ochokochi",
+      "altNames": [
+        "Ochokoçi",
+        "Očokoči"
+      ],
+      "pronunciation": "o-cho-KO-chee",
+      "sources": [
+        {
+          "ref": "Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Gürcü folklorunun standart derlemesi; Virsaladze (1911–1977) alanın kurucu saha araştırmacısı."
+        },
+        {
+          "ref": "Mikheil Chikovani, *Kartuli polk'lori* (Gürcü folkloru) (Tiflis: Sakhelgami, 1946)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F460"
+      ],
+      "motifDefs": {
+        "F460": "Mountain-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "F460 ('Mountain-spirits') doğrulandı ve korundu. Ochokochi Megrel anlatılarında orman/dağ varlığıdır. Not: Thompson'ın F567 ('Wild man') kodu G ailesi için daha dar olurdu ama bu turda tanımı doğrulanamadı; doğrulanmamış dar kod yerine doğrulanmış üst kod tercih edildi.",
+      "region": "Samegrelo (Megrelya), batı Gürcistan; orman ve dağ",
+      "attested": "19.–20. yy Megrel derlemeleri; Virsaladze ve Chikovani'nin saha çalışmaları",
+      "appearance": [
+        "İnsana benzeyen orman adamı",
+        "Göğsünden balta gibi keskin bir kemik çıkıntısı",
+        "Kıllı gövde"
+      ],
+      "behaviour": "Ormanda karşılaştığı insanı göğsündeki kemikle yarar. Orman ruhu Tkashi-Mapa ile ilişkilendirilir.",
+      "incident": "Faz 3'te Virsaladze derlemesinden okunacak.",
+      "counter": "Kaynakta doğrulanmış karşı önlem yok.",
+      "variants": [
+        {
+          "where": "Megrelya",
+          "what": "Tkashi-Mapa (orman kraliçesi) anlatılarına bağlı"
+        }
+      ],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Yaban adamı ailesinin (G) Kafkasya üyesi.",
+        "Ayrışma noktası: Basajaun çobanı KORUR, Ochokochi saldırır — aynı imge, karşıt ahlak.",
+        "⚠ Bu madde KAPIDAN GEÇMİYOR: iki künye de yalnızca katalog düzeyinde doğrulandı. Gürcü folklor külliyatının İngilizce erişimi zayıf; Virsaladze (1973) ve Chikovani (1946) kütüphane erişimi gerektiriyor. SCOPE_DECISIONS.md'ye yazıldı."
+      ]
+    },
+    {
+      "id": "kaji",
+      "name": "Kaji",
+      "altNames": [
+        "Kajni",
+        "Kaj"
+      ],
+      "pronunciation": "KAH-jee",
+      "sources": [
+        {
+          "ref": "Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Gürcü folklorunun standart derlemesi; Virsaladze (1911–1977) alanın kurucu saha araştırmacısı."
+        },
+        {
+          "ref": "Mikheil Chikovani, *Kartuli polk'lori* (Gürcü folkloru) (Tiflis: Sakhelgami, 1946)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F400"
+      ],
+      "motifDefs": {
+        "F400": "Spirits and demons (general)"
+      },
+      "motifVerified": true,
+      "motifNote": "F400 ('Spirits and demons (general)') doğrulandı ve korundu. Kaji görünmez, kurnaz bir HALK'tır; belirli bir araziye veya biçime bağlı olmadığı için genel kod doğrudur. F451 (cüceler) değerlendirildi ama kaynaklar boy vurgusu vermiyor.",
+      "region": "Gürcistan geneli; özellikle dağ bölgeleri",
+      "attested": "Ortaçağ Gürcü edebiyatında (Vepkhistqaosani çevresinde) ve 19.–20. yy derlemelerinde",
+      "appearance": [
+        "Görünmez veya güç görülen",
+        "İnsan benzeri ama insan değil"
+      ],
+      "behaviour": "Demirciliği bilir; kurnazlıkla iş görür. Ortaçağ metinlerinde büyücü/cin anlamında da kullanılır.",
+      "incident": "Faz 3'te doğrulanacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "Ortaçağ edebiyatı",
+          "what": "'Kaji' büyücü/cin anlamında genel terim"
+        },
+        {
+          "where": "Halk anlatısı",
+          "what": "Demirci bilgisi taşıyan gizli halk"
+        }
+      ],
+      "variantNote": "Kaji edebî ve folklorik anlamları ayrışan bir terim; madde ikisini ayırmalı.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Demircilik bilgisi taşıyan gizli halk motifi Kafkasya'da yaygın; Kaji o kümenin Gürcü üyesi.",
+        "⚠ Bu madde KAPIDAN GEÇMİYOR: iki künye de yalnızca katalog düzeyinde doğrulandı. Gürcü folklor külliyatının İngilizce erişimi zayıf; Virsaladze (1973) ve Chikovani (1946) kütüphane erişimi gerektiriyor. SCOPE_DECISIONS.md'ye yazıldı."
+      ]
+    },
+    {
+      "id": "devi",
+      "name": "Devi",
+      "altNames": [
+        "Dev",
+        "Devebi (çoğul)"
+      ],
+      "pronunciation": "DEH-vee",
+      "sources": [
+        {
+          "ref": "Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)",
+          "type": "primary",
+          "verification": "catalog",
+          "note": "Gürcü folklorunun standart derlemesi; Virsaladze (1911–1977) alanın kurucu saha araştırmacısı."
+        },
+        {
+          "ref": "Mikheil Chikovani, *Kartuli polk'lori* (Gürcü folkloru) (Tiflis: Sakhelgami, 1946)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G100"
+      ],
+      "motifDefs": {
+        "G100": "Giant ogre. Polyphemus"
+      },
+      "motifVerified": true,
+      "motifNote": "G100 ('Giant ogre. Polyphemus') doğrulandı ve korundu. Gürcü devi mağarada yaşayan, kardeşleriyle birlikte bulunan dev-yamyamdır; Thompson'ın Polyphemus tipi tam oturur. Ad İran 'div'inden ödünçtür ve bu bağ maddede belirtilecek.",
+      "region": "Gürcistan dağları; mağara anlatıları",
+      "attested": "19.–20. yy derlemeleri; Chikovani ve Virsaladze",
+      "appearance": [
+        "Çok başlı (sayı anlatıya göre değişir)",
+        "Dev boyutlu",
+        "Mağarada, kardeşleriyle"
+      ],
+      "behaviour": "Mağarasında hazine ve tutsak tutar; kahraman anlatılarının karşı gücü.",
+      "incident": "Faz 3'te doğrulanacak.",
+      "counter": "Anlatılarda kurnazlıkla yenilir — güçle değil.",
+      "variants": [
+        {
+          "where": "İran etkisi",
+          "what": "Ad ve figür Farsça 'div' ile akraba"
+        }
+      ],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Çok başlılık ile Polyphemus tipinin birleşmesi Kafkasya'ya özgü; ayrışma noktası bu.",
+        "⚠ Bu madde KAPIDAN GEÇMİYOR: iki künye de yalnızca katalog düzeyinde doğrulandı. Gürcü folklor külliyatının İngilizce erişimi zayıf; Virsaladze (1973) ve Chikovani (1946) kütüphane erişimi gerektiriyor. SCOPE_DECISIONS.md'ye yazıldı."
+      ]
+    }
+  ]
+}
