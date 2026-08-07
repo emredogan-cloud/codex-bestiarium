@@ -129,13 +129,24 @@ def main() -> int:
         if has_marks(c["name"])
     ]
 
+    # BÜYÜK/KÜÇÜK HARFE DUYARLI aranır. Faz 3'te bulundu: tarama `re.I` ile
+    # koşuyordu ve `Lóng`un düz hâli `Long`, İngilizce metnin en sık
+    # sözcüklerinden biriyle çakışıyordu. "…long after it has gone" cümlesi
+    # diakritik hatası olarak raporlanıyordu. 78.400 kelimelik bir kitapta bu
+    # kapı, yazarı "long" sözcüğünü hiç kullanmamaya zorlardı — yani doğru
+    # metni reddeden bir cetvel olurdu. Plaka cetvelinin Faz 2'de bulunan
+    # kusuruyla aynı sınıf: ölçüm aracının kendisi yanlış ölçüyordu.
+    #
+    # Bu kitapta yaratık adları HER ZAMAN özel ad olarak, büyük harfle
+    # yazılır. Küçük harfli "long" bir ad değildir; büyük harfli "Long"
+    # düşürülmüş diakritiktir ve yakalanmaya devam eder.
     hits = []
     for label, text in blocks:
         norm = unicodedata.normalize("NFC", text)
         for cid, correct, flat in targets:
             if flat.lower() == correct.lower():
                 continue
-            pattern = re.compile(r"(?<!\w)" + re.escape(flat) + r"(?!\w)", re.I)
+            pattern = re.compile(r"(?<!\w)" + re.escape(flat) + r"(?!\w)")
             for m in pattern.finditer(norm):
                 start = max(0, m.start() - 35)
                 end = min(len(norm), m.end() + 35)

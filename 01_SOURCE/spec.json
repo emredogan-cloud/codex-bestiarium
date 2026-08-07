@@ -980,7 +980,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ölüler diyarının kapısında duran üç başlı köpek; girmeye izin verir, çıkmaya vermez.",
       "researchFile": "01_SOURCE/research/kerberos.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "chimaira",
@@ -1956,7 +1956,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Sedir ormanının bekçisi; yüzü bağırsak kıvrımlarından örülmüş dev.",
       "researchFile": "01_SOURCE/research/humbaba.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "anzu",
@@ -2333,7 +2333,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bakışı ve soluğu öldüren; yolundaki her şeyi çöle çeviren küçük yılan.",
       "researchFile": "01_SOURCE/research/basiliscus.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lemures",

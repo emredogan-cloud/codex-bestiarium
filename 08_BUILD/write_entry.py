@@ -50,10 +50,32 @@ from bestiarium import (  # noqa: E402
     WORD_TARGET,
     load_spec,
 )
-from textutil import word_count  # noqa: E402
+from textutil import sentences, word_count  # noqa: E402
 
 BANDS = {k: (lo, hi, label) for k, label, lo, hi in ENTRY_SECTIONS}
 SECTION_KEYS = [k for k, _, _, _ in ENTRY_SECTIONS]
+
+# CÜMLE UZUNLUĞU HEDEFİ — Faz 3'ün ilk partisinde ölçülerek bulundu.
+#
+# `qa_voice` KİTAP GENELİ ortalamayı 14–18 bandında ister ve ortalamayı BLOK
+# ortalamalarının ortalaması olarak alır; kaynak notu bu hesaba girmez. Yani
+# her maddeden altı blok sayılır: açılış + beş bölüm.
+#
+# Açılış kuralı gereği TEK cümledir ve 25–40 kelimedir, yani o blok tek
+# başına ~27 ile hesaba girer ve ortalamayı yukarı çeker. Aritmetik:
+#
+#     (27 + 5 × X) / 6 = 16   →   X ≈ 13,8
+#
+# Bu yüzden açılış DIŞINDAKİ blokların cümle ortalaması ~14 olmalıdır. İlk
+# partide bu iki kez ıskalandı: 16,1'de kitap 17,9'a çıkıp tavana yapıştı,
+# 11,1'de 13,75'e düşüp tabanı deldi. Bandı burada tutmak, kapının kenarında
+# yazmaktan iyidir — 45 maddede kenar payı biter.
+# Blok başına SERT sınır, qa_voice'un uyarı bandından (11–22) pay bırakarak
+# alınmıştır: bunun dışına çıkan blok CI'da uyarı üretir. Partinin genel
+# ortalaması ayrıca raporlanır ve asıl nişan odur — 16,0, yani 14–18
+# bandının ortası. Kenarda yazmak 45 maddede biten bir paydır.
+SENT_TARGET = (11.5, 18.5)
+SENT_BOOK_AIM = 16.0
 
 
 # --- kitap dosyası --------------------------------------------------------
@@ -84,11 +106,17 @@ def save_book(book: dict) -> None:
 
 # --- ölçüm ----------------------------------------------------------------
 
+def sentence_avg(body: str) -> float:
+    s = sentences(body)
+    return (sum(word_count(x) for x in s) / len(s)) if s else 0.0
+
+
 def measure(sections: dict) -> tuple[list[str], int, bool]:
     """(satırlar, toplam, temiz mi)"""
     lines: list[str] = []
     total = 0
     clean = True
+    slo, shi = SENT_TARGET
     for key in SECTION_KEYS:
         lo, hi, label = BANDS[key]
         body = sections.get(key, "") or ""
@@ -106,7 +134,21 @@ def measure(sections: dict) -> tuple[list[str], int, bool]:
             clean = False
         else:
             mark, note = "ok", ""
-        lines.append(f"    {key:<9} {n:>5}  ({lo}–{hi})  {mark:<5} {note}")
+
+        # Cümle uzunluğu: açılış kural gereği tek cümledir, muaftır.
+        # Kaynak notu qa_voice'un ortalamasına girmez, o da muaftır.
+        savg = sentence_avg(body)
+        if key in ("opening", "sources"):
+            snote = f"· cümle {savg:4.1f}"
+        elif savg < slo:
+            snote = f"· cümle {savg:4.1f} KISA (hedef {slo}–{shi})"
+            clean = False
+        elif savg > shi:
+            snote = f"· cümle {savg:4.1f} UZUN (hedef {slo}–{shi})"
+            clean = False
+        else:
+            snote = f"· cümle {savg:4.1f} ok"
+        lines.append(f"    {key:<9} {n:>5}  ({lo}–{hi})  {mark:<5} {note:<5} {snote}")
     lo, hi = WORD_BAND
     if not lo <= total <= hi:
         clean = False
@@ -147,6 +189,20 @@ def cmd_measure(path: str) -> int:
         drift = abs(mean - WORD_TARGET) / WORD_TARGET
         print(f"\n  parti ortalaması: {mean:.0f}  (hedef {WORD_TARGET} · "
               f"sapma %{drift * 100:.1f})")
+
+        # qa_voice'un göreceği değerin parti içindeki tahmini: kaynak notu
+        # dışarıda, açılış içeride, blok ortalamalarının ortalaması.
+        avgs = [
+            sentence_avg(sections.get(k, ""))
+            for sections in draft.values()
+            for k in SECTION_KEYS
+            if k != "sources" and (sections.get(k) or "").strip()
+        ]
+        if avgs:
+            book_avg = sum(avgs) / len(avgs)
+            flag = "ok" if 14.0 <= book_avg <= 18.0 else "BANT DIŞI"
+            print(f"  parti cümle ortalaması: {book_avg:.1f}  "
+                  f"(qa_voice bandı 14–18 · nişan {SENT_BOOK_AIM}) {flag}")
     print(f"\n  {len(draft) - bad}/{len(draft)} madde bantta\n")
     return 1 if bad else 0
 
