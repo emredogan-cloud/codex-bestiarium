@@ -1,0 +1,171 @@
+{
+  "tradition": "nguni",
+  "creatures": [
+    {
+      "id": "tokoloshe",
+      "name": "Tokoloshe",
+      "altNames": [
+        "Tikoloshe",
+        "Thikoloshe"
+      ],
+      "pronunciation": "to-ko-LO-sheh",
+      "sources": [
+        {
+          "ref": "Henry Callaway, *The Religious System of the Amazulu* (Natal: Springvale Mission Press, 1868)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Axel-Ivar Berglund, *Zulu Thought-Patterns and Symbolism* (Londra: Hurst, 1976)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Tokoloshe”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F451"
+      ],
+      "motifDefs": {
+        "F451": "Dwarfs in otherworld"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. F451 ('Dwarf') tokoloshe'nin küçük boyunu ve cüce kümesindeki yerini tasnif eder.",
+      "region": "Nguni (Zulu, Xhosa); Güney Afrika kırsalı ve kentleri",
+      "attested": "19.–20. yy saha derlemeleri; Callaway (1868)",
+      "appearance": [
+        "Küçük, kıllı, insan benzeri",
+        "Kısa boylu — yatağın altına sığar"
+      ],
+      "behaviour": "Bir büyücü tarafından gönderilir. Geceleri gelir; yatağı yükseltmek (tuğla üstüne koymak) yaygın korunma yoludur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Yatağı tuğlalarla yükseltmek.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Tokoloshe inancı YAŞAYANDIR ve büyücülük suçlamalarıyla ilişkilidir; bu suçlamalar Güney Afrika'da gerçek şiddete yol açmıştır. Madde suçlamayı yeniden üretmeyecek. Callaway'in misyoner çerçevesi eleştirel okunacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Yatağı yükseltme: kentlerde bugün de görülen somut, gözlemlenebilir pratik."
+      ]
+    },
+    {
+      "id": "impundulu",
+      "name": "Impundulu",
+      "altNames": [],
+      "pronunciation": "im-poon-DOO-loo",
+      "sources": [
+        {
+          "ref": "W. D. Hammond-Tooke, *Bhaca Society: A People of the Transkeian Uplands, South Africa* (Kapstadt: Oxford University Press, 1962)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Axel-Ivar Berglund, *Zulu Thought-Patterns and Symbolism* (Londra: Hurst, 1976)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Impundulu”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "A284.2"
+      ],
+      "motifDefs": {
+        "A284.2": "Thunderbird"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31.1 ('Roc') idi — impundulu yük taşıyan dev kuş değil ŞİMŞEK kuşudur. Doğrulanan A284.2 ('Thunderbird') tam tanımdır.",
+      "motifChanged": "B31.1 → A284.2.",
+      "region": "Nguni (Xhosa, Zulu); Güney Afrika",
+      "attested": "19.–20. yy saha derlemeleri; Hammond-Tooke",
+      "appearance": [
+        "Beyaz ve siyah kuş",
+        "İnsan boyunda anlatılır",
+        "Şimşek çaktığında indiği söylenir"
+      ],
+      "behaviour": "Şimşeği çağırır. Bir büyücüye bağlıdır ve kan ister; beslenmezse sahibine döner.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Büyücülük suçlamalarıyla ilişkilidir; Tokoloshe maddesiyle aynı etik dikkat uygulanacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) Afrika üyesi ve tek SAHİPLİ üyesi: bir kişiye bağlı."
+      ]
+    },
+    {
+      "id": "inkanyamba",
+      "name": "Inkanyamba",
+      "altNames": [],
+      "pronunciation": "in-kahn-YAHM-bah",
+      "sources": [
+        {
+          "ref": "Axel-Ivar Berglund, *Zulu Thought-Patterns and Symbolism* (Londra: Hurst, 1976)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "W. D. Hammond-Tooke, *The Bantu-Speaking Peoples of Southern Africa* (Londra: Routledge & Kegan Paul, 1974)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Inkanyamba”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.3.1.2"
+      ],
+      "motifDefs": {
+        "B11.3.1.2": "Dragon‘s home beneath waterfall"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B11.2 ('Form of dragon') idi; doğrulanan B11.3.1.2 ('Dragon's home beneath waterfall') inkanyamba'nın Howick Şelalesi'ne bağlılığını birebir tasnif eder.",
+      "motifChanged": "B11.2 → B11.3.1.2.",
+      "region": "Nguni (Zulu); KwaZulu-Natal, Howick Şelalesi",
+      "attested": "19.–20. yy saha derlemeleri",
+      "appearance": [
+        "Yılan başlı, uzun gövdeli",
+        "At benzeri başı olduğu da anlatılır",
+        "Şelalenin altındaki havuzda yaşar"
+      ],
+      "behaviour": "Şelalenin dibinde yaşar. Kızdığında veya eşini ararken fırtına ve hortum getirir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yaşayan bir gelenektir; yer-özel tören ve uygulayıcı bilgisi KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Belirli bir şelaleye bağlı: Vishap'ın dağ gölü ve taniwha'nın ırmak ağzıyla aynı 'adresli yaratık' kümesi."
+      ]
+    }
+  ]
+}

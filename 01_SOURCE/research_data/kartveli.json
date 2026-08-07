@@ -131,6 +131,15 @@
       "pronunciation": "DEH-vee",
       "sources": [
         {
+          "ref": "Marjory Wardrop (çev.), *Georgian Folk Tales* (Londra: David Nutt, 1894)",
+          "type": "primary",
+          "verification": "fulltext",
+          "access": "gutenberg.org/files/44536 — tam metin indirilip tarandı",
+          "locus": "“Ghvthisavari” ve devi anlatıları",
+          "quote": "The three-headed devi came home… Then the nine-headed devi went… The ten-headed devi was now the only one left.",
+          "note": "Tam metinde 'devi' 113 kez geçiyor. Çok başlılık (üç, beş, dokuz, on baş) ve kardeş devler doğrudan doğrulandı."
+        },
+        {
           "ref": "Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)",
           "type": "primary",
           "verification": "catalog",
@@ -158,12 +167,12 @@
       "region": "Gürcistan dağları; mağara anlatıları",
       "attested": "19.–20. yy derlemeleri; Chikovani ve Virsaladze",
       "appearance": [
-        "Çok başlı (sayı anlatıya göre değişir)",
+        "Çok başlı — anlatıya göre üç, beş, dokuz veya on baş",
         "Dev boyutlu",
-        "Mağarada, kardeşleriyle"
+        "Mağarada, kardeşleriyle birlikte"
       ],
-      "behaviour": "Mağarasında hazine ve tutsak tutar; kahraman anlatılarının karşı gücü.",
-      "incident": "Faz 3'te doğrulanacak.",
+      "behaviour": "Mağarasında hazine ve tutsak tutar. Wardrop derlemesinde kardeşler sırayla gelir ve sırayla yenilir — sayı arttıkça tehlike artar.",
+      "incident": "Wardrop 1894, 'Ghvthisavari': üç, beş, dokuz ve on başlı kardeşler sırayla gönderilir.",
       "counter": "Anlatılarda kurnazlıkla yenilir — güçle değil.",
       "variants": [
         {
@@ -175,8 +184,8 @@
       "restriction": "",
       "modern": "Kaydedilmedi.",
       "writingNotes": [
-        "Çok başlılık ile Polyphemus tipinin birleşmesi Kafkasya'ya özgü; ayrışma noktası bu.",
-        "⚠ Bu madde KAPIDAN GEÇMİYOR: iki künye de yalnızca katalog düzeyinde doğrulandı. Gürcü folklor külliyatının İngilizce erişimi zayıf; Virsaladze (1973) ve Chikovani (1946) kütüphane erişimi gerektiriyor. SCOPE_DECISIONS.md'ye yazıldı."
+        "Kardeşlerin sırayla gelmesi: anlatı yapısı sayıyla gerilim kuruyor.",
+        "Kartveli geleneğinin TEK doğrulanmış maddesi — Ochokochi ve Kaji erişilebilir kaynakta bulunamadı."
       ]
     }
   ]

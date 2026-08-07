@@ -12,7 +12,7 @@
 | **Gelenek** | Hayk ✚ · Kafkasya |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | F · Eşik bekçisi |
-| **Plaka** | `plate-086` |
+| **Plaka** | `plate-082` |
 | **Telaffuz (taslak)** | ah-rah-LEZ |
 | **Durum** | `draft` |
 
@@ -41,9 +41,11 @@
 
 | Kod | Thompson tanımı | Doğrulandı |
 |---|---|---|
-| `B733` | — | ⬜ |
+| `E17` | Resuscitation by licking corpse | ✅ |
 
-**Gerekçe.** KOD DOĞRULANAMADI. Tohum B733 öneriyor; Thompson'ın B400–B899 aralığı bu turda erişilen dijital nüshalarda yok ve tanım görülmedi. Faz 2'de teyit edilecek. Alternatif olarak E0–E199 (diriltme) kümesi değerlendirilmeli — aralez'in işlevi bir HAYVAN özelliği değil, DİRİLTMEdir; kod büyük olasılıkla E bölümünde olmalı.
+**Gerekçe.** TOHUM KODU DEĞİŞTİRİLDİ. Tohum B733 ('Animals are spirit-sighted') idi — aralez'in işlevi görmek değil DİRİLTMEKTİR. Tam Motif-Index ayrıştırmasında bulunan E17'nin tanımı birebir: 'Resuscitation by licking corpse'. Aralez'in yaptığı şey tam olarak budur.
+
+> ⚠ **Tohum kodu değiştirildi.** B733 → E17. Kod B (hayvan) bölümünde değil E (ölüler/diriltme) bölümünde olmalıydı.
 
 ## 3. Coğrafya ve ilk kayıt
 
@@ -84,7 +86,7 @@ Kaydedilmedi.
 
 ## 10. Yazım notları
 
-- ⚠ Motif kodu doğrulanmadı — Faz 2'de E bölümünden yeniden değerlendirilecek.
+- Kitabın tek DİRİLTEN varlığı; yutucuların karşıtı.
 - Eşik bekçisi ailesinde (F) sınıflandırılmış ama işlevi bekçilik değil DİRİLTME; Faz 2'de aile üyeliği yeniden düşünülmeli.
 
 ## Kontrol listesi
@@ -92,13 +94,10 @@ Kaydedilmedi.
 - [x] En az iki bağımsız kaynak, tam künyeyle
 - [x] En az biri primary/scholarly
 - [x] En az biri kesin-yer doğrulamalı (fulltext/toc/canon/article)
-- [ ] Motif kodu doğrulandı ve gerekçelendirildi
+- [x] Motif kodu doğrulandı ve gerekçelendirildi
 - [x] Bölge somut, ilk kayıt tarihli
 - [x] Fiziksel tarif kaynağa dayanıyor
 - [x] Kısıtlılık taraması yapıldı (yaşayan gelenekse)
 - [x] Telaffuz taslağı yazıldı
 - [x] Bu dosyada proza cümlesi yok
-
-> ⛔ **Kapı açık değil:**
-> - motif kodu doğrulanmadı — madde 'verified' olamaz
 

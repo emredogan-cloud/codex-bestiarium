@@ -1,0 +1,166 @@
+{
+  "tradition": "tawantinsuyu",
+  "creatures": [
+    {
+      "id": "amaru",
+      "name": "Amaru",
+      "altNames": [],
+      "pronunciation": "ah-MAH-roo",
+      "sources": [
+        {
+          "ref": "Felipe Guaman Poma de Ayala, *Nueva corónica y buen gobierno* (~1615)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Gary Urton, *At the Crossroads of the Earth and the Sky: An Andean Cosmology* (Austin: University of Texas Press, 1981)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Amaru”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2"
+      ],
+      "motifDefs": {
+        "B11.2": "Form of dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2 ('Form of dragon') doğrulandı ve korundu. Amaru'yu tanımlayan şey biçimidir: kanatlı ve tüylü büyük yılan.",
+      "region": "Tawantinsuyu (And); Peru, Bolivya yaylaları",
+      "attested": "Sömürge dönemi kronikleri (Guaman Poma, Cobo); And ikonografisi",
+      "appearance": [
+        "Büyük yılan",
+        "Kanatlı ve tüylü olarak betimlenir",
+        "Kimi kayıtta iki başlı"
+      ],
+      "behaviour": "İki dünyayı (hanan ve hurin) birbirine bağlar. Gökkuşağı ve su ile ilişkilendirilir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "And gelenekleri YAŞAYANDIR. Yalnızca yayımlanmış kronikler ve akademik çalışmalar kullanıldı; çağdaş topluluk töreni ve yer-özel kutsal (huaca) bilgisi KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) And üyesi ve tek BAĞLAYICI üyesi: yıkmaz, bağlar."
+      ]
+    },
+    {
+      "id": "pishtaco",
+      "name": "Pishtaco",
+      "altNames": [],
+      "pronunciation": "peesh-TAH-ko",
+      "sources": [
+        {
+          "ref": "Mary Weismantel, \"Cities of Women\", *American Ethnologist* 24:4 (1997)",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Mary Weismantel, *Cholas and Pishtacos: Stories of Race and Sex in the Andes* (Chicago: University of Chicago Press, 2001)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Pishtaco”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G11.2"
+      ],
+      "motifDefs": {
+        "G11.2": "Cannibal giant"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G11 ('Kinds of cannibals') bölüm başlığıydı; doğrulanan G11.2 ('Cannibal giant') pishtaco'nun insanı avlayan yabancı figürünü tasnif eder. Not: pishtaco eti değil YAĞI alır; Thompson'da tam karşılık bulunamadı ve bu maddede belirtilecek.",
+      "motifChanged": "G11 → G11.2.",
+      "region": "Tawantinsuyu (And); Peru ve Bolivya kırsalı",
+      "attested": "Sömürge döneminden itibaren; 20. yy saha derlemeleri",
+      "appearance": [
+        "Yabancı — sömürge döneminde İspanyol, sonra beyaz adam, mühendis veya doktor olarak",
+        "Uzun bıçak taşır"
+      ],
+      "behaviour": "Yolcuyu yakalar ve yağını çıkarır. Yağın çan yapımında, ilaçta veya makine yağı olarak kullanıldığı anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Pishtaco anlatısı YAŞAYANDIR ve gerçek şiddet olaylarıyla (yabancıların linç edilmesi dahil) ilişkilidir. Madde bunu bir 'yaratık' olarak değil, sömürünün aldığı BİÇİM olarak anlatacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Sömürünün suretini almış korku: kitabın en politik maddesi. Weismantel'in çözümlemesi 5. bölümü taşıyacak."
+      ]
+    },
+    {
+      "id": "supay",
+      "name": "Supay",
+      "altNames": [],
+      "pronunciation": "SOO-pye",
+      "sources": [
+        {
+          "ref": "Michael Taussig, *The Devil and Commodity Fetishism in South America* (Chapel Hill: University of North Carolina Press, 1980)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "June Nash, *We Eat the Mines and the Mines Eat Us: Dependency and Exploitation in Bolivian Tin Mines* (New York: Columbia University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Supay”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E200"
+      ],
+      "motifDefs": {
+        "E200": "Malevolent return from the dead"
+      },
+      "motifVerified": true,
+      "motifNote": "E200 ('Malevolent return from the dead') doğrulandı ve korundu. Supay yeraltı ve ölülerle ilişkili bir varlıktır. Not: sömürge sonrası Hristiyan 'şeytan' ile karıştırılmıştır ve bu ayrım maddede yapılacak.",
+      "region": "Tawantinsuyu (And); yeraltı, madenler",
+      "attested": "Sömürge dönemi kronikleri; Potosí maden anlatıları; 20. yy etnografi",
+      "appearance": [
+        "Biçimi değişken",
+        "Maden ocaklarında 'Tío' figürü olarak heykelleştirilir"
+      ],
+      "behaviour": "Yeraltının ve madenlerin efendisi. Madenciler ocakta ona koka, alkol ve sigara sunar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Tío sunusu YAŞAYAN bir madenci pratiğidir. Tören sırası ve dua KULLANILMAZ; yalnızca yayımlanmış etnografik betimleme kullanılır.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Sömürge sonrası 'şeytan'la karıştırılma: maddenin kaynak notu bu ayrımı yapmak zorunda."
+      ]
+    }
+  ]
+}

@@ -281,7 +281,7 @@ PAPERBACK = Edition(
     gutter=0.875, outer=0.625, top=0.75, bottom=0.75,
     display_scale=1.0, folio_pt=9.2, head_pt=7.6,
     price_usd=24.99,
-    kdp_notes="Codex Bestiarium. Sayfa TAHMİNİ 404 (provisional) — dizgi Faz 6'da ölçecek.",
+    kdp_notes="Codex Bestiarium. Sayfa TAHMİNİ 380 (provisional) — dizgi Faz 6'da ölçecek.",
     slug="PAPERBACK",
 )
 
@@ -301,7 +301,7 @@ HARDCOVER = Edition(
     gutter=0.875, outer=0.625, top=0.75, bottom=0.75,
     display_scale=1.0, folio_pt=9.2, head_pt=7.6,
     price_usd=37.99,
-    kdp_notes="İç blok ciltsizle özdeştir (bilinçli). 75–550 sayfa sınırı: 404 ✓ (provisional)",
+    kdp_notes="İç blok ciltsizle özdeştir (bilinçli). 75–550 sayfa sınırı: 380 ✓ (provisional)",
     slug="HARDCOVER",
 )
 
@@ -322,7 +322,7 @@ LARGEPRINT = Edition(
     display_scale=1.28, folio_pt=13.0, head_pt=10.5,
     price_usd=29.99,
     title_suffix=" (Large Print Edition)",
-    kdp_notes="Ayrı ASIN. Başlıkta 'Large Print' geçmeli. Sayfa TAHMİNİ ~707 (provisional).",
+    kdp_notes="Ayrı ASIN. Başlıkta 'Large Print' geçmeli. Sayfa TAHMİNİ ~665 (provisional).",
     slug="LARGEPRINT",
 )
 
@@ -339,9 +339,9 @@ ORDER = ["paperback", "hardcover", "largeprint"]
 # çıkmıştı — model değil ölçüm geçerlidir.
 
 PROVISIONAL_PAGES = {
-    "paperback": 404,     # yol haritası Bölüm 05.3 sayfa bütçesi
-    "hardcover": 404,     # iç blok ciltsizle özdeş
-    "largeprint": 707,    # 404 × 1.75 (Cilt 1'de ölçülen 329→578 oranı)
+    "paperback": 380,     # Faz 1 kapsam kilidi: 112 madde
+    "hardcover": 380,     # iç blok ciltsizle özdeş
+    "largeprint": 665,    # 380 × 1.75 (Cilt 1'de ölçülen 329→578 oranı)
 }
 PROVISIONAL = True
 

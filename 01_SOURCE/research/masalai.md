@@ -12,7 +12,7 @@
 | **Gelenek** | Melanesia ◉ · Okyanusya |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |
-| **Plaka** | `plate-119` |
+| **Plaka** | `plate-111` |
 | **Telaffuz (taslak)** | mah-sah-LYE |
 | **Durum** | `draft` |
 

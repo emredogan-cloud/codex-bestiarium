@@ -12,7 +12,7 @@
 | **Gelenek** | Sápmi ❄ · Kutup |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | G · Yaban adamı |
-| **Plaka** | `plate-112` |
+| **Plaka** | `plate-104` |
 | **Telaffuz (taslak)** | STAHL-loo |
 | **Durum** | `draft` |
 

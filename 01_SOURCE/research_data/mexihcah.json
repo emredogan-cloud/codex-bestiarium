@@ -1,0 +1,171 @@
+{
+  "tradition": "mexihcah",
+  "creatures": [
+    {
+      "id": "cipactli",
+      "name": "Cipactli",
+      "altNames": [],
+      "pronunciation": "see-PAHK-tlee",
+      "sources": [
+        {
+          "ref": "Bernardino de Sahagún, *Florentine Codex: General History of the Things of New Spain*, çev. Anderson ve Dibble (Santa Fe: School of American Research, 1950–82)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Mary Miller ve Karl Taube, *An Illustrated Dictionary of the Gods and Symbols of Ancient Mexico and the Maya* (Londra: Thames & Hudson, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Cipactli”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "A831"
+      ],
+      "motifDefs": {
+        "A831": "Earth from body of person (animal)"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum A812 ('Earth Diver') idi — earth-diver bir hayvanın dalıp çamur getirmesidir; Cipactli'de yeryüzü onun GÖVDESİNDEN yapılır. Doğrulanan A831 ('Earth from body of person (animal)') tam tanımdır.",
+      "motifChanged": "A812 → A831.",
+      "region": "Mēxihcah; ilksel su",
+      "attested": "*Historia de los mexicanos por sus pinturas* (16. yy); Sahagún, *Florentine Codex* (1569)",
+      "appearance": [
+        "İlkel timsah/balık benzeri varlık",
+        "Her ekleminde bir ağız"
+      ],
+      "behaviour": "Tezcatlipoca ve Quetzalcoatl onu parçalar; gövdesinden yeryüzü yapılır. Ağızları doyurulmadıkça yeryüzü meyve vermez.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Her eklemde ağız: kurban mantığının kozmolojik gerekçesi."
+      ]
+    },
+    {
+      "id": "ahuizotl",
+      "name": "Ahuizotl",
+      "altNames": [],
+      "pronunciation": "ah-WEE-sotl",
+      "sources": [
+        {
+          "ref": "Bernardino de Sahagún, *Florentine Codex*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "XI. kitap (Yeryüzü Şeyleri)"
+        },
+        {
+          "ref": "Mary Miller ve Karl Taube, *An Illustrated Dictionary of the Gods and Symbols of Ancient Mexico and the Maya* (Londra: Thames & Hudson, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ahuizotl”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B16"
+      ],
+      "motifDefs": {
+        "B16": "Devastating animals"
+      },
+      "motifVerified": true,
+      "motifNote": "B16 ('Devastating animals') doğrulandı ve korundu. Ahuizotl suda bekleyen ve öldüren bir hayvandır.",
+      "region": "Mēxihcah; göl ve kanal (Tenochtitlan çevresi)",
+      "attested": "Sahagún, *Florentine Codex*, XI. kitap (1569)",
+      "appearance": [
+        "Küçük köpek benzeri",
+        "Kuyruğunun ucunda bir EL",
+        "Kaygan siyah tüy"
+      ],
+      "behaviour": "Kuyruğundaki elle suya çeker. Sahagún'da ceset gözleri, dişleri ve tırnakları alınmış olarak bulunur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Göz, diş, tırnak: alınan üç şey. Somutluk kuralının en iyi örneklerinden."
+      ]
+    },
+    {
+      "id": "nahual",
+      "name": "Nahual",
+      "altNames": [
+        "Nagual",
+        "Nawal"
+      ],
+      "pronunciation": "nah-WAHL",
+      "sources": [
+        {
+          "ref": "Bernardino de Sahagún, *Florentine Codex*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "X. kitap"
+        },
+        {
+          "ref": "Mary Miller ve Karl Taube, *An Illustrated Dictionary of the Gods and Symbols of Ancient Mexico and the Maya* (Londra: Thames & Hudson, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Nagual”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D110"
+      ],
+      "motifDefs": {
+        "D110": "Transformation: man to wild beast (mammal)"
+      },
+      "motifVerified": true,
+      "motifNote": "D110 ('Transformation: man to wild beast (mammal)') doğrulandı ve korundu. Nahual — Way'den farklı olarak — gerçekten DÖNÜŞÜR.",
+      "region": "Mēxihcah ve Orta Amerika; kırsal",
+      "attested": "Sahagún, *Florentine Codex*, X. kitap; modern etnografi",
+      "appearance": [
+        "Büyücünün kendi hayvanı",
+        "Doğduğu güne (tonalpohualli) bağlı"
+      ],
+      "behaviour": "Kendi hayvanına dönüşür. Doğum günü hangi hayvana dönüşeceğini belirler.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Nahualismo Meksika ve Guatemala'da YAŞAYAN bir inançtır. Yalnızca yayımlanmış etnografik betimleme kullanılır; belirli topluluklara ait tören, takvim hesabı ve uygulayıcı bilgisi KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Way ile ayrışma maddede açıkça kurulacak."
+      ]
+    }
+  ]
+}

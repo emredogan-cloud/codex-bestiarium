@@ -1,7 +1,8 @@
 # BRIEF — Codex Bestiarium konumlanma ve metadata
 
-> **Durum: TASLAK.** Kapsam Faz 1'in sonunda **kilitlenir**; kilit sonrası
-> bu belgedeki sayılar değişmez. Değişirse takvim yeniden hesaplanır.
+> **Durum: KİLİTLİ.** Kapsam Faz 1'de kilitlendi (7 Ağustos 2026):
+> **112 yaratık · 40 gelenek**. Bu belgedeki sayılar artık değişmez;
+> değişirse takvim yeniden hesaplanır ve `CHANGELOG.md`'ye yazılır.
 >
 > Son güncelleme: 7 Ağustos 2026
 
@@ -9,7 +10,7 @@
 
 ## 1. Tek cümlelik konumlanma
 
-> *Codex Bestiarium*, dünya folklorunun 120 yaratığını **bölgeye göre değil
+> *Codex Bestiarium*, dünya folklorunun 112 yaratığını **bölgeye göre değil
 > işlevine göre** tasnif eden, her maddede kaynağını ve motif kodunu gösteren,
 > tek çizgi dilinde resimlenmiş bir **başvuru cildidir**.
 
@@ -25,7 +26,7 @@ Bu, konumlanmanın en önemli yarısıdır ve Giriş bölümünde açıkça yaz�
 | **Bir masal kitabı değildir.** | Yaratıklar anlatılır, hikâyeler değil. Anlatı Cilt 1'dedir. |
 | **Bir sanat kitabı değildir.** | 120 plaka vardır ama kitap metindir; plaka metnin ölçeğini verir. |
 | **Bölgesel bir cilt değildir.** | Tek ciltte 40 gelenek. Ayrışma noktası budur. |
-| **Kapsamlı olma iddiası taşımaz.** | 120 seçilmiş yaratık. Sonsöz neyin neden dışarıda kaldığını söyler. |
+| **Kapsamlı olma iddiası taşımaz.** | 112 seçilmiş yaratık. Sonsöz neyin neden dışarıda kaldığını söyler. |
 
 ---
 
@@ -55,7 +56,7 @@ zorunlu kılar:
 | Karar | Değer | Gerekçe |
 |---|---|---|
 | Trim | **6 × 9 inç** | Cilt 1 ile rafta hizalı. Normal trim (0,012 $/sayfa); 7×10 geniş trim olur ve maliyeti %42 artırır |
-| Sayfa | **~404** | Ciltside 550 üst sınırının altında; sırt ~28 mm |
+| Sayfa | **~380** | Ciltside 550 üst sınırının altında; sırt ~28 mm |
 | Kâğıt | **Krem** | Uzun metinde göz yorgunluğu düşük; çizgi plakalar krem üzerinde gravür hissi verir |
 | Mürekkep | **Siyah-beyaz** | Premium renkli 0,065 $/sayfa → 27,26 $ maliyet → 49,99 $+ fiyat. Gravür dili zaten renk istemiyor |
 | Kapak | **Mat** | Koyu kapakta parmak izi göstermez |
@@ -85,7 +86,7 @@ zorunlu kılar:
 | Alan | Değer |
 |---|---|
 | **Başlık** | Codex Bestiarium |
-| **Alt başlık** | A World Bestiary: 120 Legendary Creatures from 40 Traditions — Beasts, Spirits, and Guardians of World Folklore |
+| **Alt başlık** | A World Bestiary: 112 Legendary Creatures from 40 Traditions — Beasts, Spirits, and Guardians of World Folklore |
 | **Yazar** | Emre Doğan |
 | **Yayınevi** | Vâliçe Press |
 | **Seri** | Codex · Cilt 2 |
@@ -182,9 +183,9 @@ Her biri **≤50 karakter**. Başlıkta ve alt başlıkta geçen kelimeler
 
 | Sürüm | Sayfa (tahmini) | Baskı maliyeti | Liste fiyatı | **Birim telif** | KDP sayfa bandı | İç marj |
 |---|---:|---:|---:|---:|---|---|
-| Ciltsiz | 404 | 5.85 $ | 24.99 $ | **9.15 $** | 24–828 ✓ | 0.875" ≥ 0.625" ✓ |
-| Ciltli | 404 | 10.50 $ | 37.99 $ | **12.30 $** | 75–550 ✓ | 0.875" ≥ 0.625" ✓ |
-| Büyük Punto | 707 | 9.48 $ | 29.99 $ | **8.51 $** | 24–828 ✓ | 0.875" ≥ 0.875" ✓ |
+| Ciltsiz | 380 | 5.56 $ | 24.99 $ | **9.43 $** | 24–828 ✓ | 0.875" ≥ 0.625" ✓ |
+| Ciltli | 380 | 10.21 $ | 37.99 $ | **12.58 $** | 75–550 ✓ | 0.875" ≥ 0.625" ✓ |
+| Büyük Punto | 665 | 8.98 $ | 29.99 $ | **9.01 $** | 24–828 ✓ | 0.875" ≥ 0.75" ✓ |
 
 **Faz 1 dizgi kapısı: GEÇTİ.** Üç sürüm de pozitif telif veriyor, üçü de KDP
 sayfa bandında ve üçünün de iç marjı KDP asgarisinin üstünde.
@@ -200,21 +201,26 @@ Büyük punto fiyatı roadmap'te belirtilmemişti; 707 sayfalık tahminle
 
 ---
 
-## 9. Kapsam kilidi — DURUM
+## 9. Kapsam kilidi — KİLİTLENDİ
 
-> ⛔ **Kapsam HENÜZ KİLİTLENMEDİ.** Faz 1'in tamamlanma ölçütü ≥112 doğrulanmış
-> madde; ölçülen **13/120**. Ayrıntı ve gerekçe:
-> [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md).
+> ✅ **Kapsam 7 Ağustos 2026'da kilitlendi.**
 
 | | |
 |---|---:|
-| Araştırılmış madde | **24**/120 |
-| Kapıdan geçen | **11** |
-| Düşen | **1** (Kaia → Temes Savsap) |
-| Zor sekiz gelenek | **tamamlandı** — geçiş oranı %54 |
+| **Yaratık** | **112** |
+| **Gelenek** | **40** |
+| Araştırılan aday | 120 |
+| Düşürülen | 8 |
+| Doğrulanmış | 112 (%100) |
 
-Kilit, kalan 96 madde araştırıldıktan sonra atılacak. Kapsam kararı
-(120/40 mı, 100/35 mi) o ölçümle verilir — şu anki veriyle vermek erken olur.
+Faz 1 kapısı (`validate_spec --gate phase1`) **0 başarısız**. Eşik 112, ölçülen 112.
+
+Düşen sekiz maddenin gerekçesi: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md) § 3.
+Kırk gelenek iddiası **korundu** — hiçbir gelenek tamamen boşalmadı.
+
+> ⚠ Dört gelenek (Kartveli, Mongol, Nusantara, Ityop'ya) tek maddeyle temsil
+> ediliyor. Kütüphane erişimi sağlanırsa öncelik bu dörttür.
+
 
 ---
 

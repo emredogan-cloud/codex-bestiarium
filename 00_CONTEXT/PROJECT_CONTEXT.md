@@ -11,28 +11,28 @@
 
 ## 1. Bir cümlede durum
 
-Üretim sistemi kuruldu; **Faz 1 araştırması sürüyor**. Yol haritasının
-kapsam-belirleyici saydığı **zor sekiz gelenek tamamlandı** (24 madde, 11'i
-kapıdan geçti) ve iki **sistematik motif kodu hatası** yazımdan önce yakalandı.
-Kalan 96 madde araştırılmayı bekliyor; kapsam **henüz kilitlenmedi**.
+**Faz 1 tamamlandı.** Kapsam kilitlendi: **112 yaratık · 40 gelenek**, hepsi
+iki bağımsız kaynakla ve doğrulanmış Thompson motif koduyla. 120 adaydan 8'i
+düşürüldü, 1'i değiştirildi, 1'i yeniden sınıflandırıldı. İki **sistematik**
+motif kodu hatası yazımdan önce yakalandı. `.gate` → `phase1`, etiket `v0.1.0`.
 
 > Güncel ölçüm: [`BOOK_STATS.md`](../BOOK_STATS.md) ·
-> kapsam kararları: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md)
+> kapsam kararları: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md) ·
+> kaynak ölçütü: [`SOURCING_STANDARD.md`](SOURCING_STANDARD.md)
 
-### Faz 1 · ne bitti, ne bitmedi
+### Faz 1 · Definition of Done
 
-| Çıktı | Durum |
-|---|---|
-| Üretim sistemi, CI/CD, belgeler | ✅ |
-| Kaynak gösterme ölçütü (`SOURCING_STANDARD.md`) | ✅ |
-| Araştırma hattı (`research_gen.py`) + kapsam kararı katmanı | ✅ |
-| Doğrulanmış motif kodu tabanı (67 kod) | ✅ |
-| Zor sekiz gelenek (24 madde) | ✅ |
-| `STYLE.md` ses kalibrasyonu (üç gerçek paragraf) | ✅ |
-| `editions.py` + fiyat/telif doğrulaması | ✅ |
-| Kalan 96 maddenin araştırması | ⬜ |
-| Kapsam kilidi (≥112 kapısı) | ⬜ |
-| `.gate` → `phase1` · `v0.1.0` etiketi | ⬜ |
+| # | Ölçüt | Durum |
+|---|---|---|
+| 1 | `validate_spec --gate phase1` 0 başarısız | ✅ |
+| 2 | 112 araştırma dosyası, hepsi aynı yapıda | ✅ |
+| 3 | `motifVerified:false` + `status!=draft` yok | ✅ |
+| 4 | Yaşayan geleneklerde `restrictionScreened` | ✅ 112/112 |
+| 5 | `BRIEF.md` yazıldı, kapsam **kilitlendi** | ✅ |
+| 6 | `.gate` → `phase1` | ✅ |
+| 7 | CHANGELOG · BOOK_STATS · ROADMAP_PROGRESS | ✅ |
+| 8 | CI yeşil, merge, `v0.1.0` | ✅ |
+
 
 ---
 
@@ -53,8 +53,8 @@ onayı bekliyor**.
 | **Ürün** | *Codex Bestiarium: A World Bestiary* — Codex Serisi Cilt II |
 | **Yazar / künye** | Emre Doğan · Vâliçe Press |
 | **Dil** | Kitabın kendisi **İngilizce**. Bu belgeler ve raporlar Türkçe. |
-| **Kapsam** | 120 yaratık · 40 gelenek · 6 sınıf · 8 akraba imge ailesi |
-| **Hacim** | ~404 sayfa · ~92.000 kelime · 6 × 9 inç |
+| **Kapsam** | **112 yaratık · 40 gelenek** (Faz 1'de kilitlendi) · 6 sınıf · 8 akraba imge ailesi |
+| **Hacim** | ~380 sayfa · ~78.400 kelime · 6 × 9 inç |
 | **İllüstrasyon** | 120 çizgi plaka, tek gravür dilinde |
 | **Platform** | Amazon KDP — Ciltsiz · Ciltli · Büyük punto · Kindle |
 | **Kaynak** | `01_SOURCE/spec.json` — **tek doğruluk kaynağı** |

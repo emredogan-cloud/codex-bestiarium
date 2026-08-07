@@ -102,17 +102,41 @@ def main() -> int:
         failures += 1
         print(proc.stdout)
 
-    # phase1 kapısı ŞU AN başarısız olmalı: hiçbir kayıt doğrulanmadı.
-    # Bu, kapının gerçekten kapalı olduğunun kanıtıdır.
+    # Kapıların GERÇEKTEN ısırdığını kanıtlamak için, AÇILMAMIŞ bir sonraki
+    # kapıya bakılır. Sabit bir faza bakmak yanlıştır: o faz bitince test
+    # kendi kendini yanlışlar. Aktif seviye `.gate`ten okunur; bir üstü
+    # kapalı olmalıdır.
+    gate_file = os.path.join(ROOT, ".gate")
+    level = "draft"
+    if os.path.exists(gate_file):
+        with open(gate_file, encoding="utf-8") as fh:
+            level = fh.read().strip() or "draft"
+    order = ["draft", "phase1", "phase2", "phase3"]
+    nxt = order[min(order.index(level) + 1, len(order) - 1)] if level in order else "phase1"
+
+    # Aktif kapı GEÇMELİ
     proc = subprocess.run(
-        [PY, os.path.join(BUILD, "validate_spec.py"), "--gate", "phase1"],
+        [PY, os.path.join(BUILD, "validate_spec.py"), "--gate", level],
         capture_output=True, text=True, cwd=ROOT,
     )
-    ok = proc.returncode == 1
-    print(f"[{'  ok ' if ok else 'FAIL'}] validate_spec.py     phase1 kapısı → "
-          f"şu an KAPALI olmalı (alınan {proc.returncode})")
+    ok = proc.returncode == 0
+    print(f"[{'  ok ' if ok else 'FAIL'}] validate_spec.py     aktif kapı "
+          f"'{level}' → geçmeli (alınan {proc.returncode})")
     if not ok:
         failures += 1
+        print(proc.stdout[-1500:])
+
+    # BİR ÜSTÜ kapalı olmalı — kapıların ısırdığının kanıtı
+    if nxt != level:
+        proc = subprocess.run(
+            [PY, os.path.join(BUILD, "validate_spec.py"), "--gate", nxt],
+            capture_output=True, text=True, cwd=ROOT,
+        )
+        ok = proc.returncode == 1
+        print(f"[{'  ok ' if ok else 'FAIL'}] validate_spec.py     sonraki kapı "
+              f"'{nxt}' → henüz KAPALI olmalı (alınan {proc.returncode})")
+        if not ok:
+            failures += 1
 
     print("-" * 78)
     if failures:

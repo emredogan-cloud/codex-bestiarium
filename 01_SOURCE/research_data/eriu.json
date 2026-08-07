@@ -1,0 +1,186 @@
+{
+  "tradition": "eriu",
+  "creatures": [
+    {
+      "id": "each-uisce",
+      "name": "Each-uisce",
+      "altNames": [
+        "Aughisky",
+        "Each-uisge"
+      ],
+      "pronunciation": "AKH-ish-keh",
+      "sources": [
+        {
+          "ref": "Thomas Crofton Croker, *Fairy Legends and Traditions of the South of Ireland* (Londra: John Murray, 1825)",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "II. cilt"
+        },
+        {
+          "ref": "Katharine Briggs, *A Dictionary of Fairies* (Londra: Allen Lane, 1976)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Each Uisge”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B184.1.3"
+      ],
+      "motifDefs": {
+        "B184.1.3": "Magic horse from water world"
+      },
+      "motifVerified": true,
+      "motifNote": "B184.1.3 ('Magic horse from water world') doğrulandı ve korundu. Su atı ailesinin (A) çıpa kodu; tanım ailenin tamamını kapsıyor.",
+      "region": "Ériu ve Alba; Connacht gölleri, Hebrides deniz gölleri",
+      "attested": "Croker, *Fairy Legends* (1825); 19. yy Highland derlemeleri",
+      "appearance": [
+        "Islak arduvaz renginde at",
+        "Yelesi sürekli damlayan",
+        "Kıyıda uysal duran"
+      ],
+      "behaviour": "Kıyıda binilmeyi bekler. Binildiğinde suya koşar; İskoçya kaydında biniciyi yer, karaciğerini kıyıya bırakır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "İskoçya",
+          "what": "Biniciyi yer; karaciğeri kıyıya vurur"
+        },
+        {
+          "where": "İrlanda",
+          "what": "Yalnızca boğar"
+        }
+      ],
+      "variantNote": "İskoçya'da yiyicidir; İrlanda'da yalnızca boğar. Aynı tehlike, iki ahlak.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Su atı ailesinin (A) çıpası ve kitabın vitrin maddesi.",
+        "Karaciğerin kıyıya vurması: somut, sınanabilir, unutulmaz ayrıntı."
+      ]
+    },
+    {
+      "id": "bean-sidhe",
+      "name": "Bean sídhe",
+      "altNames": [
+        "Banshee",
+        "Bean chaointe"
+      ],
+      "pronunciation": "ban SHEE",
+      "sources": [
+        {
+          "ref": "Patricia Lysaght, *The Banshee: The Irish Supernatural Death-Messenger* (Dublin: Glendale Press, 1986)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Katharine Briggs, *A Dictionary of Fairies* (Londra: Allen Lane, 1976)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Banshee”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E402"
+      ],
+      "motifDefs": {
+        "E402": "Mysterious ghostlike noises heard. Song, animal cries, footsteps, etc."
+      },
+      "motifVerified": true,
+      "motifNote": "E402 ('Mysterious ghostlike noises heard. Song, animal cries, footsteps, etc.') doğrulandı ve korundu. Bean sídhe bir görüntü değil bir SEStir; kod tam olarak bunu tasnif eder.",
+      "region": "Ériu; belirli ailelere bağlı (Ó Briain, Ó Néill, Ó Conchobhair)",
+      "attested": "17. yy'dan itibaren yazılı kayıt; 19.–20. yy saha derlemeleri",
+      "appearance": [
+        "Çoğunlukla görülmez, duyulur",
+        "Görüldüğünde saçını tarayan kadın"
+      ],
+      "behaviour": "Ölümden önce ağıt yakar. Bir aileye bağlıdır ve o ailenin ölümünü haber verir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Huzursuz ölüler sınıfında ama kendisi ölü DEĞİL; haberci. Faz 2'de sınıf gözden geçirilmeli."
+      ]
+    },
+    {
+      "id": "puca",
+      "name": "Púca",
+      "altNames": [
+        "Pooka",
+        "Phouka"
+      ],
+      "pronunciation": "POO-kah",
+      "sources": [
+        {
+          "ref": "Thomas Crofton Croker, *Fairy Legends and Traditions of the South of Ireland* (Londra: John Murray, 1825)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Katharine Briggs, *A Dictionary of Fairies* (Londra: Allen Lane, 1976)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Pooka”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D131"
+      ],
+      "motifDefs": {
+        "D131": "Transformation: man to horse"
+      },
+      "motifVerified": true,
+      "motifNote": "D131 ('Transformation: man to horse') doğrulandı ve korundu. Púca'nın en yaygın biçimi attır ve dönüşüm tanımlayıcıdır.",
+      "region": "Ériu; kırsal yol ve tarla",
+      "attested": "19. yy derlemeleri; Croker (1825); Yeats derlemesi (1888)",
+      "appearance": [
+        "Kara at, keçi, tavşan veya köpek",
+        "Gözleri sarı",
+        "Konuşabilir"
+      ],
+      "behaviour": "Kimi zaman korur, kimi zaman yolu şaşırtır. Samhain'den sonra böğürtlen yenmez — púca üzerine tükürmüştür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Ahlaki belirsizlik: ne yardımcı ne düşman. Bu, şekil değiştirenler sınıfının çekirdek fikri."
+      ]
+    }
+  ]
+}

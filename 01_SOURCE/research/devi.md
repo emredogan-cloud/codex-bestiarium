@@ -12,7 +12,7 @@
 | **Gelenek** | Kartveli ✛ · Kafkasya |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |
-| **Plaka** | `plate-090` |
+| **Plaka** | `plate-084` |
 | **Telaffuz (taslak)** | DEH-vee |
 | **Durum** | `draft` |
 
@@ -22,16 +22,26 @@
 > — ≥2 bağımsız kaynak, en az biri `primary`/`scholarly`, en az birinin
 > doğrulaması `fulltext`/`toc`. Motif dizini bağımsız kaynak **sayılmaz**.
 
-### Kaynak 1 · `primary` · doğrulama `catalog`
+### Kaynak 1 · `primary` · doğrulama `fulltext`
+
+- **Künye:** Marjory Wardrop (çev.), *Georgian Folk Tales* (Londra: David Nutt, 1894)
+- **Erişim:** gutenberg.org/files/44536 — tam metin indirilip tarandı
+- **Yer:** “Ghvthisavari” ve devi anlatıları
+- **Not:** Tam metinde 'devi' 113 kez geçiyor. Çok başlılık (üç, beş, dokuz, on baş) ve kardeş devler doğrudan doğrulandı.
+- **İlgili alıntı:**
+
+  > The three-headed devi came home… Then the nine-headed devi went… The ten-headed devi was now the only one left.
+
+### Kaynak 2 · `primary` · doğrulama `catalog`
 
 - **Künye:** Elene B. Virsaladze, *Georgian Folk Traditions and Legends*, çev. D. G. Hunt (Moskova: Nauka, 1973)
 - **Not:** Gürcü folklorunun standart derlemesi; Virsaladze (1911–1977) alanın kurucu saha araştırmacısı.
 
-### Kaynak 2 · `scholarly` · doğrulama `catalog`
+### Kaynak 3 · `scholarly` · doğrulama `catalog`
 
 - **Künye:** Mikheil Chikovani, *Kartuli polk'lori* (Gürcü folkloru) (Tiflis: Sakhelgami, 1946)
 
-### Kaynak 3 · `index` · doğrulama `fulltext`
+### Kaynak 4 · `index` · doğrulama `fulltext`
 
 - **Künye:** Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)
 
@@ -53,14 +63,14 @@
 > Yalnızca kaynakta geçen özellikler. Bu bölüm hem maddenin 3. bölümünü
 > hem de plaka promptunu besler.
 
-- Çok başlı (sayı anlatıya göre değişir)
+- Çok başlı — anlatıya göre üç, beş, dokuz veya on baş
 - Dev boyutlu
-- Mağarada, kardeşleriyle
+- Mağarada, kardeşleriyle birlikte
 
 ## 5. Davranış ve kayıtlı vaka
 
-- **Ne yapar:** Mağarasında hazine ve tutsak tutar; kahraman anlatılarının karşı gücü.
-- **Kayıtlı vaka:** Faz 3'te doğrulanacak.
+- **Ne yapar:** Mağarasında hazine ve tutsak tutar. Wardrop derlemesinde kardeşler sırayla gelir ve sırayla yenilir — sayı arttıkça tehlike artar.
+- **Kayıtlı vaka:** Wardrop 1894, 'Ghvthisavari': üç, beş, dokuz ve on başlı kardeşler sırayla gönderilir.
 - **Karşı önlem:** Anlatılarda kurnazlıkla yenilir — güçle değil.
 
 ## 6. Varyantlar
@@ -85,8 +95,8 @@ Kaydedilmedi.
 
 ## 10. Yazım notları
 
-- Çok başlılık ile Polyphemus tipinin birleşmesi Kafkasya'ya özgü; ayrışma noktası bu.
-- ⚠ Bu madde KAPIDAN GEÇMİYOR: iki künye de yalnızca katalog düzeyinde doğrulandı. Gürcü folklor külliyatının İngilizce erişimi zayıf; Virsaladze (1973) ve Chikovani (1946) kütüphane erişimi gerektiriyor. SCOPE_DECISIONS.md'ye yazıldı.
+- Kardeşlerin sırayla gelmesi: anlatı yapısı sayıyla gerilim kuruyor.
+- Kartveli geleneğinin TEK doğrulanmış maddesi — Ochokochi ve Kaji erişilebilir kaynakta bulunamadı.
 
 ## Kontrol listesi
 
@@ -99,7 +109,4 @@ Kaydedilmedi.
 - [x] Kısıtlılık taraması yapıldı (yaşayan gelenekse)
 - [x] Telaffuz taslağı yazıldı
 - [x] Bu dosyada proza cümlesi yok
-
-> ⛔ **Kapı açık değil:**
-> - hiçbir bağımsız kaynağın doğrulaması fulltext/toc/canon/article değil
 

@@ -1,0 +1,180 @@
+{
+  "tradition": "slovjan",
+  "creatures": [
+    {
+      "id": "rusalka",
+      "name": "Rusalka",
+      "altNames": [],
+      "pronunciation": "roo-SAHL-kah",
+      "sources": [
+        {
+          "ref": "Dmitrij Zelenin, *Očerki russkoj mifologii: Umeršie neestestvennoju smert'ju i rusalki* (Petrograd, 1916)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Linda J. Ivanits, *Russian Folk Belief* (Armonk: M. E. Sharpe, 1989)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Rusalka”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F420"
+      ],
+      "motifDefs": {
+        "F420": "Water-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Rusalka bir su ruhudur ve ölünün dönüşü boyutu ikincildir; Slav kaydında su bağı birincildir.",
+      "region": "Slovjan; Ukrayna, Rusya, Belarus — ırmak ve ekin tarlaları",
+      "attested": "19. yy saha derlemeleri; Rusalnaya nedelya (Rusalka Haftası) kayıtları",
+      "appearance": [
+        "Uzun çözük saçlı genç kadın",
+        "Solgun ten",
+        "Çıplak veya beyaz gömlekli"
+      ],
+      "behaviour": "Rusalka Haftası'nda sudan çıkar ve tarlalarda salınır; ekini sular. Yakaladığını gıdıklayarak veya boğarak öldürür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "Kuzey Rusya",
+          "what": "Çirkin, tehlikeli, yaşlı"
+        },
+        {
+          "where": "Ukrayna",
+          "what": "Genç, güzel, baştan çıkaran"
+        }
+      ],
+      "variantNote": "Rusalka kuzeyde çirkin ve tehlikeli, güneyde genç ve güzeldir. Aynı ad, iki yüz.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Hem sular hem boğar: aynı varlık bereket ve ölüm. Maddenin 5. bölümü bu."
+      ]
+    },
+    {
+      "id": "zmey",
+      "name": "Zmey",
+      "altNames": [
+        "Zmey Gorynych",
+        "Zmaj"
+      ],
+      "pronunciation": "zmay",
+      "sources": [
+        {
+          "ref": "Aleksandr Afanasyev, *Narodnye russkie skazki* (Moskova, 1855–63)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Linda J. Ivanits, *Russian Folk Belief* (Armonk: M. E. Sharpe, 1989)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Zmey”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2.3"
+      ],
+      "motifDefs": {
+        "B11.2.3": "Many-headed dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2.3 ('Many-headed dragon') doğrulandı ve korundu. Zmey'in tanımlayıcı özelliği çok başlılık ve kesilen başın yerine yenisinin çıkmasıdır.",
+      "region": "Slovjan; Rusya, Ukrayna, Balkanlar",
+      "attested": "Rus bylina geleneği (Dobrynya Nikitich); Afanasyev derlemesi (1855–63)",
+      "appearance": [
+        "Üç, altı, dokuz veya on iki başlı",
+        "Ateş soluyan",
+        "Kanatlı"
+      ],
+      "behaviour": "Kızları kaçırır ve hazine bekler. Kesilen her başın yerine yenisi çıkar — ateşle dağlanmadıkça.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) Slav üyesi. Ayrışma: Zmey ÇOĞALAN tek yaratık."
+      ]
+    },
+    {
+      "id": "domovoy",
+      "name": "Domovoy",
+      "altNames": [],
+      "pronunciation": "do-mo-VOY",
+      "sources": [
+        {
+          "ref": "Aleksandr Afanasyev, *Poetičeskie vozzrenija slavjan na prirodu* (Moskova, 1865–69)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Linda J. Ivanits, *Russian Folk Belief* (Armonk: M. E. Sharpe, 1989)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Domovoi”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F482"
+      ],
+      "motifDefs": {
+        "F482": "Brownie (nisse)"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F480 ('House-spirits') bölüm başlığıydı; doğrulanan F482 ('Brownie (nisse)') Domovoy'un tam karşılığı olan ev ruhu tipini tasnif eder.",
+      "motifChanged": "F480 → F482.",
+      "region": "Slovjan; Rus köy evi, ocak altı",
+      "attested": "19. yy saha derlemeleri; Zelenin ve Afanasyev",
+      "appearance": [
+        "Küçük, kıllı yaşlı adam",
+        "Ev sahibine benzediği anlatılır",
+        "Ocağın altında veya eşikte yaşar"
+      ],
+      "behaviour": "Evi ve hayvanları korur. Taşınırken ocaktan kor alınıp yeni eve götürülür — yoksa geride kalır ve ev çöker.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Taşınırken kor taşımak; ekmek ve tuz bırakmak.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Kitaptaki tek KORUYUCU ev ruhu. Bekçiler sınıfının en evcil üyesi."
+      ]
+    }
+  ]
+}

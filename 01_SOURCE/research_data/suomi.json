@@ -1,0 +1,176 @@
+{
+  "tradition": "suomi",
+  "creatures": [
+    {
+      "id": "iku-turso",
+      "name": "Iku-Turso",
+      "altNames": [
+        "Turisas",
+        "Tursas"
+      ],
+      "pronunciation": "EE-koo TOOR-so",
+      "sources": [
+        {
+          "ref": "*Kalevala*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "runo 42"
+        },
+        {
+          "ref": "Anna-Leena Siikala, *Mythic Images and Shamanism: A Perspective on Kalevala Poetry* (Helsinki: Academia Scientiarum Fennica, 2002)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Iku-Turso”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2"
+      ],
+      "motifDefs": {
+        "B11.2": "Form of dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2 ('Form of dragon') doğrulandı ve korundu. Iku-Turso'nun kaynaklarda tanımlanan yanı biçimi ve denizden çıkışıdır.",
+      "region": "Suomi; deniz dibi",
+      "attested": "*Kalevala* (Lönnrot, 1849); Suomen Kansan Vanhat Runot derlemesi",
+      "appearance": [
+        "Deniz dibinden çıkan varlık",
+        "Bin boynuzlu olarak anılır",
+        "Biçimi kaynaklarda belirsiz bırakılır"
+      ],
+      "behaviour": "Denizin dibinden çıkar. Kalevala'da Väinämöinen onu yakalar ve bir daha çıkmayacağına yemin ettirir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Adı bile uğursuz sayılır: kaynaklarda biçimi kasten belirsiz. Bu BELİRSİZLİK maddenin konusu olacak."
+      ]
+    },
+    {
+      "id": "nakki",
+      "name": "Näkki",
+      "altNames": [
+        "Näkkiäinen",
+        "Näkki (İsveççe: Näcken)"
+      ],
+      "pronunciation": "NAK-kee",
+      "sources": [
+        {
+          "ref": "Anna-Leena Siikala, *Mythic Images and Shamanism* (Helsinki: Academia Scientiarum Fennica, 2002)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Martti Haavio, *Suomalainen mytologia* (Porvoo: WSOY, 1967)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Nakki”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B184.1.3"
+      ],
+      "motifDefs": {
+        "B184.1.3": "Magic horse from water world"
+      },
+      "motifVerified": true,
+      "motifNote": "B184.1.3 ('Magic horse from water world') doğrulandı ve korundu. Näkki'nin at biçimi su atı ailesinin (A) tanımlayıcı imgesidir; diğer biçimleri maddede varyant olarak anlatılacak.",
+      "region": "Suomi ve Karelya; iskele, köprü, değirmen havuzu",
+      "attested": "19. yy saha derlemeleri; Suomen Kansan Vanhat Runot",
+      "appearance": [
+        "At biçiminde",
+        "İnsan veya çıplak kadın biçiminde de görünür",
+        "Suyun kenarında beliren"
+      ],
+      "behaviour": "Suyun kenarında görünür ve çeker. Çocuklara iskeleye yaklaşmamaları için anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Su atı ailesinin (A) Fin üyesi. Ayrışma: Näkki BOĞAR, yemez; ve at olması zorunlu değil — biçim değişken."
+      ]
+    },
+    {
+      "id": "ajatar",
+      "name": "Ajatar",
+      "altNames": [
+        "Ajattara"
+      ],
+      "pronunciation": "AH-yah-tar",
+      "sources": [
+        {
+          "ref": "Martti Haavio, *Suomalainen mytologia* (Porvoo: WSOY, 1967)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Anna-Leena Siikala, *Mythic Images and Shamanism* (Helsinki: Academia Scientiarum Fennica, 2002)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ajatar”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G302"
+      ],
+      "motifDefs": {
+        "G302": "Demons. Malevolent creatures (not usually further defined)"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. G302 ('Demons. Malevolent creatures (not usually further defined)') Ajatar'ın kaynaklardaki belirsiz ama kötücül tanımına uyuyor.",
+      "region": "Suomi; orman",
+      "attested": "19. yy saha derlemeleri; Haavio",
+      "appearance": [
+        "Dişi yılan-ruh",
+        "Ormanda yaşayan",
+        "Hastalık yaydığı anlatılır"
+      ],
+      "behaviour": "Ormanda yaşar; hastalık yayar. Kimi kayıtta yılanların ve hastalıkların anası.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Hastalığın kişileşmesi: Kenas-unarpe ile karşılaştırılabilir."
+      ]
+    }
+  ]
+}

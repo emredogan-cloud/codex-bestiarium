@@ -1,0 +1,185 @@
+{
+  "tradition": "zhonghua",
+  "creatures": [
+    {
+      "id": "long",
+      "name": "Lóng",
+      "altNames": [],
+      "pronunciation": "LOONG",
+      "sources": [
+        {
+          "ref": "*Shanhaijing* (Dağlar ve Denizler Kitabı)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Anne Birrell, *Chinese Mythology: An Introduction* (Baltimore: Johns Hopkins University Press, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Lung”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.7"
+      ],
+      "motifDefs": {
+        "B11.7": "Dragon as rain-spirit"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.7 ('Dragon as rain-spirit') doğrulandı ve korundu. Çin ejderhasını Batı ejderhasından ayıran şey tam olarak budur: yağmur ve su denetimi.",
+      "region": "Zhōnghuá; ırmaklar, göller, bulutlar",
+      "attested": "*Shanhaijing* (MÖ 4.–1. yy); Han dönemi kayıtları; Wang Chong, *Lunheng* (MS 1. yy)",
+      "appearance": [
+        "Kanatsız ama uçan",
+        "Geyik boynuzu, deve başı, tavşan gözü, yılan boynu (Wang Fu'nun dokuz benzerlik listesi)",
+        "Pençesinde inci"
+      ],
+      "behaviour": "Yağmuru getirir; ırmakları yönetir. Kuraklıkta ejderha kralına yakarılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Batı ejderhasıyla karşıtlık maddenin 5. bölümünün çekirdeği: biri hazine yığar, diğeri yağmur dağıtır."
+      ]
+    },
+    {
+      "id": "qilin",
+      "name": "Qílín",
+      "altNames": [
+        "Kirin",
+        "Ki-lin"
+      ],
+      "pronunciation": "CHEE-lin",
+      "sources": [
+        {
+          "ref": "*Chunqiu* (Bahar ve Güz Yıllıkları), Ai Gong 14. yıl",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Anne Birrell, *Chinese Mythology* (Baltimore: Johns Hopkins University Press, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ki-lin”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B19"
+      ],
+      "motifDefs": {
+        "B19": "Other mythical beasts"
+      },
+      "motifVerified": true,
+      "motifNote": "B19 ('Other mythical beasts') doğrulandı ve korundu. Qílín bir bileşik hayvandır ve Thompson'ın daha dar bir alt kodu bu maddeye uymuyor; doğrulanmamış dar kod yerine doğrulanmış üst kod kullanıldı.",
+      "region": "Zhōnghuá; iyi hükümdarın çağı",
+      "attested": "*Chunqiu* (MÖ 5. yy) ve Zuo şerhi; Han dönemi kayıtları",
+      "appearance": [
+        "Geyik gövdesi, öküz kuyruğu, at toynağı",
+        "Tek boynuz (etle kaplı)",
+        "Pullu deri"
+      ],
+      "behaviour": "Adaletsizin üzerine basmaz; otu bile ezmez. Bilge bir hükümdarın doğuşunu veya gelişini haber verir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Eşik bekçisi ailesinin (F) en tuhaf üyesi: engellemez, YARGILAR. Ayrışma noktası bu."
+      ]
+    },
+    {
+      "id": "huli-jing",
+      "name": "Húli jīng",
+      "altNames": [],
+      "pronunciation": "HOO-lee JING",
+      "sources": [
+        {
+          "ref": "Pu Songling, *Liaozhai zhiyi* (Bir Çin Stüdyosundan Tuhaf Hikâyeler, 1740)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Gan Bao, *Soushenji* (Ruhları Arayış Kayıtları, MS ~350)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Xiaofei Kang, *The Cult of the Fox: Power, Gender, and Popular Religion in Late Imperial and Modern China* (New York: Columbia University Press, 2006)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Hu Hsien”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D113.3"
+      ],
+      "motifDefs": {
+        "D113.3": "Transformation man to fox"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.1 idi; doğrulanan tanımı 'Transformation: man to WOLF'. Tilki kurt değildir. Doğrulanan D113.3'ün tanımı doğrudan 'Transformation man to fox'.",
+      "motifChanged": "D113.1 → D113.3. Ayrıntı: SCOPE_DECISIONS.md § 5③.",
+      "region": "Zhōnghuá; kırsal, mezarlık, terk edilmiş ev",
+      "attested": "*Soushenji* (Gan Bao, MS 4. yy); Pu Songling, *Liaozhai zhiyi* (1740)",
+      "appearance": [
+        "Tilki; yüz yıl sonra kadın biçimine girer",
+        "Bin yıl sonra dokuz kuyruk",
+        "Kimi anlatıda kuyruğu gizlenemez"
+      ],
+      "behaviour": "Kadın biçimine girip erkeğin yaşam gücünü (qi) toplar. Pu Songling'de kimi tilki ruhu sadık ve koruyucudur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "Soushenji (erken)",
+          "what": "Tehlikeli, ömür çalan"
+        },
+        {
+          "where": "Liaozhai zhiyi (geç)",
+          "what": "Kimi zaman sadık, âşık, koruyucu"
+        }
+      ],
+      "variantNote": "Tilki kadın Çin'de zamanla düşmandan sevgiliye kaydı; madde bu kaymayı gösterecek.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Tilki kadın ailesinin (B) çıpası."
+      ]
+    }
+  ]
+}

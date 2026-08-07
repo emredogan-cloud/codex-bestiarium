@@ -1,0 +1,173 @@
+{
+  "tradition": "kemet",
+  "creatures": [
+    {
+      "id": "ammit",
+      "name": "Ammit",
+      "altNames": [],
+      "pronunciation": "AH-mit",
+      "sources": [
+        {
+          "ref": "*Ölüler Kitabı* (Book of the Dead)",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "bölüm 125 — 'İki Hakikatin Salonu'"
+        },
+        {
+          "ref": "Erik Hornung, *The Ancient Egyptian Books of the Afterlife*, çev. David Lorton (Ithaca: Cornell University Press, 1999)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ammit”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E751.1"
+      ],
+      "motifDefs": {
+        "E751.1": "Souls weighed at Judgment Day"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G303 ('Devil') idi — Ammit şeytan değildir, bir YARGI aygıtıdır. Doğrulanan E751.1 ('Souls weighed at Judgment Day') Ammit'in bulunduğu sahneyi tam olarak tanımlar: kalbin tüye karşı tartılması.",
+      "motifChanged": "G303 → E751.1. Ammit bir şeytan değil, yargının infaz aygıtıdır.",
+      "region": "Kemet (Mısır); Ölüler Kitabı'nın 125. bölümündeki yargı salonu",
+      "attested": "Ölüler Kitabı, bölüm 125 (Yeni Krallık, MÖ ~1550'den itibaren)",
+      "appearance": [
+        "Timsah başı",
+        "Aslan ön gövdesi",
+        "Su aygırı arka gövdesi"
+      ],
+      "behaviour": "Maat'ın tüyünden ağır çıkan kalbi yutar. Yutulan ölü ikinci kez ve kalıcı olarak ölür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Ammit avlanmaz, BEKLER. Diğer yutuculardan ayrışması burada."
+      ]
+    },
+    {
+      "id": "apep",
+      "name": "Apep",
+      "altNames": [
+        "Apophis"
+      ],
+      "pronunciation": "AH-pep",
+      "sources": [
+        {
+          "ref": "*Apophis Kitabı* (Bremner-Rhind Papirüsü)",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "24.21–26.3"
+        },
+        {
+          "ref": "Erik Hornung, *Conceptions of God in Ancient Egypt: The One and the Many*, çev. John Baines (Ithaca: Cornell University Press, 1982)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Apep”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2.1.1"
+      ],
+      "motifDefs": {
+        "B11.2.1.1": "Dragon as modified serpent"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2.1.1 ('Dragon as modified serpent') doğrulandı ve korundu. Apep bir ejderha değil, kozmik ölçekte bir YILANDIR; Thompson'ın 'değiştirilmiş yılan' alt kodu tam bu ayrımı taşır.",
+      "region": "Kemet; güneş teknesinin gece yolculuğu, batı ufku",
+      "attested": "Piramit Metinleri'nden itibaren; Apophis Kitabı (Geç Dönem)",
+      "appearance": [
+        "Devasa yılan",
+        "Kıvrımları kum tepesi büyüklüğünde anlatılır"
+      ],
+      "behaviour": "Her gece güneş teknesini yutmaya çalışır; her sabah yeniden yenilir. Yenilgisi kalıcı değildir — düzenin her gün YENİDEN kurulması gerekir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) Mısır üyesi.",
+        "Ayrışma: Jörmungandr kıyameti BEKLER, Apep her gece YENİLİR — biri bir kez, diğeri sonsuz kez."
+      ]
+    },
+    {
+      "id": "bennu",
+      "name": "Bennu",
+      "altNames": [],
+      "pronunciation": "BEN-noo",
+      "sources": [
+        {
+          "ref": "Herodotos, *Historiai*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "II.73"
+        },
+        {
+          "ref": "Rudolf Anthes, \"Mythology in Ancient Egypt\", *Mythologies of the Ancient World* içinde, yay. haz. S. N. Kramer (New York: Doubleday, 1961)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Bennu”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B32"
+      ],
+      "motifDefs": {
+        "B32": "Phoenix. Renews its youth at advanced age"
+      },
+      "motifVerified": true,
+      "motifNote": "B32 ('Phoenix. Renews its youth at advanced age') doğrulandı ve korundu. Yunan phoinix'inin Mısır karşılığı olarak zaten bu kod altında tasniflenir.",
+      "region": "Kemet; Heliopolis (Iunu) tapınağı, benben taşı",
+      "attested": "Piramit Metinleri (MÖ ~2400); Herodotos II.73",
+      "appearance": [
+        "Balıkçıl (heron) biçiminde",
+        "İki uzun tüy taşıyan başlık",
+        "Kendi külünden doğduğu anlatılır"
+      ],
+      "behaviour": "Zamanın başlangıcını işaretler; ilk tepe üzerine konar. Yeniden doğuş döngüsünün ölçüsüdür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) Mısır üyesi ama fırtına değil ZAMAN kuşu; ayrışma noktası bu."
+      ]
+    }
+  ]
+}

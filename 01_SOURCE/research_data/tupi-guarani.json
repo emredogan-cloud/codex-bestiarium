@@ -1,0 +1,172 @@
+{
+  "tradition": "tupi-guarani",
+  "creatures": [
+    {
+      "id": "curupira",
+      "name": "Curupira",
+      "altNames": [],
+      "pronunciation": "koo-roo-PEE-rah",
+      "sources": [
+        {
+          "ref": "José de Anchieta, *Cartas, informações, fragmentos históricos e sermões* (16. yy)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Luís da Câmara Cascudo, *Dicionário do folclore brasileiro* (Rio de Janeiro: Instituto Nacional do Livro, 1954)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Curupira”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F567"
+      ],
+      "motifDefs": {
+        "F567": "Wild man"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F460 ('Mountain-spirits') idi; doğrulanan F567 ('Wild man') yaban adamı ailesinin (G) tam kodudur ve curupira orman adamıdır, dağ ruhu değil.",
+      "motifChanged": "F460 → F567.",
+      "region": "Tupi-Guarani; Amazon ve Brezilya ormanları",
+      "attested": "Sömürge dönemi Cizvit kayıtları (16. yy, José de Anchieta); 19.–20. yy derlemeler",
+      "appearance": [
+        "Ayakları TERS dönük",
+        "Kızıl saçlı",
+        "Çocuk boyunda"
+      ],
+      "behaviour": "Ormanı ve hayvanları korur. Ters ayakları iz bırakır; avcı izi takip eder ve ters yöne gider.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Amazon yerli gelenekleri YAŞAYANDIR. Yalnızca yayımlanmış derlemeler kullanıldı; belirli topluluklara ait anlatı, tören ve yer bilgisi KULLANILMAZ. Anchieta'nın misyoner çerçevesi eleştirel okunacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Yaban adamı ailesinin (G) Amazon üyesi ve tek CEZALANDIRAN üyesi.",
+        "Ters ayak: Nykur'un ters toynağı ve Ghūl'ün eşek toynağıyla aynı kalıp — ama burada iz YANILTMAK için."
+      ]
+    },
+    {
+      "id": "boitata",
+      "name": "Boitatá",
+      "altNames": [],
+      "pronunciation": "boy-tah-TAH",
+      "sources": [
+        {
+          "ref": "Luís da Câmara Cascudo, *Dicionário do folclore brasileiro* (Rio de Janeiro: Instituto Nacional do Livro, 1954)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Luís da Câmara Cascudo, *Geografia dos mitos brasileiros* (Rio de Janeiro: José Olympio, 1947)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Boitata”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B19.4.2"
+      ],
+      "motifDefs": {
+        "B19.4.2": "Fiery serpent"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B11.1 ('Origin of dragon') idi — boitatá bir ejderha değil ATEŞ YILANIDIR. Doğrulanan B19.4.2 ('Fiery serpent') tam tanımdır.",
+      "motifChanged": "B11.1 → B19.4.2.",
+      "region": "Tupi-Guarani; Brezilya kırsalı ve ormanları",
+      "attested": "Cizvit kayıtları (16.–17. yy); Câmara Cascudo derlemeleri",
+      "appearance": [
+        "Ateşten yılan",
+        "Kimi anlatıda yalnızca iki büyük ateş gözü görülür"
+      ],
+      "behaviour": "Ormanı yakanı kovalar. Bataklık gazının (ignis fatuus) tutuşmasıyla ilişkilendirilir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yerli gelenek malzemesi yalnızca yayımlanmış derlemelerden alındı; topluluk-özel anlatı KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Ormanı koruyan ateş: çevresel bir yaptırım anlatısı. Curupira ile aynı işlevin başka biçimi."
+      ]
+    },
+    {
+      "id": "iara",
+      "name": "Iara",
+      "altNames": [
+        "Uiara",
+        "Mãe d'água"
+      ],
+      "pronunciation": "ee-AH-rah",
+      "sources": [
+        {
+          "ref": "Luís da Câmara Cascudo, *Dicionário do folclore brasileiro* (Rio de Janeiro: Instituto Nacional do Livro, 1954)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Luís da Câmara Cascudo, *Geografia dos mitos brasileiros* (Rio de Janeiro: José Olympio, 1947)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Iara”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F420"
+      ],
+      "motifDefs": {
+        "F420": "Water-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Iara bir ırmak ruhudur.",
+      "region": "Tupi-Guarani; Amazon ırmakları",
+      "attested": "19. yy derlemeler; Câmara Cascudo",
+      "appearance": [
+        "Uzun siyah saçlı kadın",
+        "Belden aşağısı balık olarak da anlatılır",
+        "Yeşil gözlü"
+      ],
+      "behaviour": "Şarkısıyla çeker ve suya alır. Öğleden sonra ırmak kıyısında göründüğü anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yerli gelenek malzemesi yalnızca yayımlanmış derlemelerden alındı.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Iara Avrupa denizkızı ikonografisiyle karışmıştır; kaynak notu bu katmanlaşmayı söyleyecek."
+      ]
+    }
+  ]
+}

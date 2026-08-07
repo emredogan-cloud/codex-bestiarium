@@ -64,9 +64,9 @@ DATA_DIR = os.path.join(SOURCE_DIR, "research_data")
 SOURCE_TYPES = {"primary", "scholarly", "reference", "index"}
 INDEPENDENT_TYPES = {"primary", "scholarly", "reference"}
 STRONG_TYPES = {"primary", "scholarly"}
-VERIFICATION_LEVELS = {"fulltext", "toc", "canon", "article", "catalog", "secondary"}
+VERIFICATION_LEVELS = {"fulltext", "toc", "canon", "article", "sv", "catalog", "secondary"}
 # Güç ölçütü "okudum mu" değil, "okur gidip KESİN bir yere bakabilir mi"dir.
-STRONG_VERIFICATION = {"fulltext", "toc", "canon", "article"}
+STRONG_VERIFICATION = {"fulltext", "toc", "canon", "article", "sv"}
 
 GENERATED = (
     "<!-- OTOMATİK ÜRETİLDİ — 08_BUILD/research_gen.py\n"
@@ -103,6 +103,12 @@ def gate(rec: dict, tradition: str) -> list[str]:
     srcs = rec.get("sources", [])
 
     for s in srcs:
+        # `sv` (sub verbo) yalnızca ALFABETİK başvuru cildi için geçerlidir.
+        # Bir monografiye `sv` yazmak, olmayan bir kesinlik iddia etmektir.
+        if s.get("verification") == "sv" and s.get("type") != "reference":
+            problems.append(
+                f"`sv` yalnızca `reference` katmanında kullanılabilir; "
+                f"burada tip `{s.get('type')}`")
         if s.get("type") not in SOURCE_TYPES:
             problems.append(f"geçersiz kaynak tipi: {s.get('type')!r}")
         if s.get("verification") not in VERIFICATION_LEVELS:
@@ -123,7 +129,7 @@ def gate(rec: dict, tradition: str) -> list[str]:
         )
     if not any(s.get("verification") in STRONG_VERIFICATION for s in independent):
         problems.append(
-            "hiçbir bağımsız kaynağın doğrulaması fulltext/toc/canon/article değil"
+            "hiçbir bağımsız kaynağın doğrulaması kesin-yer düzeyinde değil (fulltext/toc/canon/article/sv)"
         )
 
     if not rec.get("motifNote", "").strip():
@@ -388,6 +394,24 @@ def main() -> int:
     spec = load_spec()
     data = load_data()
     by_id = {c["id"]: c for c in spec["creatures"]}
+
+    # DÜŞÜRÜLEN maddeler: araştırma verisi KORUNUR (yapılan iş ve düşürme
+    # gerekçesi kayıt altında kalmalı) ama spec'e girmez. Bunları hata saymak
+    # yanlış olur — düşürme bir KARARDIR, bir tutarsızlık değil.
+    dropped = set()
+    amend_path = os.path.join(SOURCE_DIR, "scope_amendments.json")
+    if os.path.exists(amend_path):
+        with open(amend_path, encoding="utf-8") as fh:
+            dropped = {
+                a["id"] for a in json.load(fh).get("amendments", [])
+                if a.get("action") == "drop"
+            }
+    skipped = sorted(k for k in data if k in dropped)
+    for k in skipped:
+        data.pop(k)
+    if skipped:
+        print(f"atlandı  : {len(skipped)} düşürülmüş madde ({', '.join(skipped[:5])}"
+              f"{'…' if len(skipped) > 5 else ''}) — kararlar scope_amendments.json'da")
 
     unknown = [k for k in data if k not in by_id]
     if unknown:

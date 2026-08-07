@@ -1,0 +1,175 @@
+{
+  "tradition": "talmud",
+  "creatures": [
+    {
+      "id": "golem",
+      "name": "Golem",
+      "altNames": [],
+      "pronunciation": "GO-lem",
+      "sources": [
+        {
+          "ref": "Babil Talmudu, *Sanhedrin*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "38b ve 65b"
+        },
+        {
+          "ref": "Moshe Idel, *Golem: Jewish Magical and Mystical Traditions on the Artificial Anthropoid* (Albany: SUNY Press, 1990)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Golem”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D1635"
+      ],
+      "motifDefs": {
+        "D1635": "Golem"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. Doğrulanan D1635'in tanımı doğrudan 'Golem' — kod bu maddenin adını taşıyor.",
+      "region": "Talmud geleneği; Prag, Chełm, Orta Avrupa",
+      "attested": "*Sanhedrin* 38b, 65b (Babil Talmudu); Sefer Yetzirah geleneği; Prag Golemi anlatısı (19. yy'da yazıya geçti)",
+      "appearance": [
+        "Çamurdan yoğrulmuş insan biçimi",
+        "Alnında 'emet' (hakikat) yazısı",
+        "Konuşamaz"
+      ],
+      "behaviour": "Adla canlandırılır. Alnındaki 'emet'ten ilk harf silinince 'met' (ölü) kalır ve golem çöker. İtaat eder ama ANLAMAZ — zarar buradan gelir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yahudi mistik geleneği YAŞAYANDIR. Sefer Yetzirah'a dayalı harf ve ad uygulamaları KULLANILMAZ; canlandırma yöntemi aktarılmaz. Yalnızca yayımlanmış akademik betimleme ve Talmud atfı kullanıldı.",
+      "modern": "Golem, 20. yy edebiyat ve sinemasının merkezî figürlerinden. Tek cümlede ve 'modern' etiketiyle anılacak.",
+      "writingNotes": [
+        "Eşik bekçisi ailesinde (F) ama bekçilik etmez; Faz 2'de aile üyeliği gözden geçirilmeli.",
+        "Tupilaq ile ortak fikir: yapılan şey yapanı vurur."
+      ]
+    },
+    {
+      "id": "lilith",
+      "name": "Lilith",
+      "altNames": [],
+      "pronunciation": "LIL-ith",
+      "sources": [
+        {
+          "ref": "Babil Talmudu, *Şabbat*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "151b"
+        },
+        {
+          "ref": "Rebecca Lesses, \"Exe(o)rcising Power: Women as Sorceresses, Exorcists, and Demonesses in Babylonian Jewish Society of Late Antiquity\", *Journal of the American Academy of Religion* 69:2 (2001), 343–375",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Lilith”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G442",
+        "G302.9.4"
+      ],
+      "motifDefs": {
+        "G442": "Child-stealing demon",
+        "G302.9.4": "Demons injure and strangle little children"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci') idi — Lilith'in Talmud ve muska geleneğindeki işlevi erkek baştan çıkarmak değil YENİ DOĞANA yönelmektir. Doğrulanan G442 ('Child-stealing demon') ana kod; G302.9.4 ('Demons injure and strangle little children') ikinci kod.",
+      "motifChanged": "G264 → G442 + G302.9.4.",
+      "region": "Talmud geleneği; Mezopotamya ve Akdeniz Yahudiliği",
+      "attested": "*Şabbat* 151b; *Eruvin* 100b; Alfabe of Ben Sira (8.–10. yy); Aramice büyü kâseleri (5.–7. yy)",
+      "appearance": [
+        "Uzun saçlı kadın",
+        "Kanatlı olarak betimlenir",
+        "Büyü kâselerinde bağlanmış hâlde resmedilir"
+      ],
+      "behaviour": "Yeni doğana yönelir. Doğum odasına Senoy, Sansenoy ve Semangelof adlarını taşıyan muska asılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Üç meleğin adını taşıyan muska.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yahudi muska geleneği yaşayan bir uygulamadır. Muska METNİ aktarılmaz; yalnızca varlığı ve işlevi anlatılır.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) en çok yeniden yorumlanmış üyesi. Modern feminist okuma TEK CÜMLEDE ve 'modern' etiketiyle anılacak — kitabın konusu geç antik kayıt."
+      ]
+    },
+    {
+      "id": "ziz",
+      "name": "Ziz",
+      "altNames": [],
+      "pronunciation": "ZEEZ",
+      "sources": [
+        {
+          "ref": "Babil Talmudu, *Bava Batra*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "73b"
+        },
+        {
+          "ref": "Louis Ginzberg, *The Legends of the Jews*, çev. Henrietta Szold (Philadelphia: Jewish Publication Society, 1909–38)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ziz”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B31.1.0.1"
+      ],
+      "motifDefs": {
+        "B31.1.0.1": "The bird Ziz (Hebrew counterpart of the roc)"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi (bölüm başlığı). Doğrulanan B31.1.0.1'in tanımı doğrudan 'The bird Ziz (Hebrew counterpart of the roc)' — kod bu maddenin adını taşıyor.",
+      "motifChanged": "B31 → B31.1.0.1.",
+      "region": "Talmud geleneği",
+      "attested": "*Bava Batra* 73b; Midrash Tehillim 50",
+      "appearance": [
+        "Devasa kuş",
+        "Kanadını açınca güneşi kapattığı anlatılır",
+        "Ayakları yerde, başı gökte"
+      ],
+      "behaviour": "Behemoth (kara) ve Leviathan'ın (deniz) gökteki karşılığı. Üçlü, yaratılışın üç alanını doldurur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) Talmud üyesi. Ayrışma: Ziz bir SİSTEMİN parçası — üçlünün gök ayağı."
+      ]
+    }
+  ]
+}

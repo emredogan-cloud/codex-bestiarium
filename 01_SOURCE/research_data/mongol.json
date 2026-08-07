@@ -65,6 +65,15 @@
       "pronunciation": "OL-goy KHOR-khoy",
       "sources": [
         {
+          "ref": "Roy Chapman Andrews, *On the Trail of Ancient Man: A Narrative of the Field Work of the Central Asiatic Expeditions* (New York: G. P. Putnam's Sons, 1926)",
+          "type": "primary",
+          "verification": "fulltext",
+          "access": "archive.org/details/ontrailofancient00andr — tam metin indirilip tarandı",
+          "locus": "Gobi seferi anlatısı",
+          "quote": "None of those present ever had seen the creature, but they all firmly believed in its existence and described it minutely. It is shaped like a sausage about two feet long, has no head nor legs and is so poisonous that merely to touch it means instant death. It lives in the most desolate parts of the Gobi Desert.",
+          "note": "Alıntı tam metinden BİREBİR alındı. Andrews'un kaydı kritik bir noktayı içeriyor: mecliste bulunanların HİÇBİRİ yaratığı görmemişti ama varlığına kesin inanıyorlardı. Bu, kaydın bir GÖZLEM değil bir İNANÇ kaydı olduğunu kaynağın kendisi söylüyor."
+        },
+        {
           "ref": "Roy Chapman Andrews, *The New Conquest of Central Asia: A Narrative of the Explorations of the Central Asiatic Expeditions in Mongolia and China, 1921–1930* (New York: American Museum of Natural History, 1932)",
           "type": "primary",
           "verification": "catalog",
@@ -83,29 +92,30 @@
         }
       ],
       "motif": [
-        "G302"
+        "B765"
       ],
       "motifDefs": {
-        "G302": "Demons. Malevolent creatures (not usually further defined)"
+        "B765": "Fanciful qualities of snakes"
       },
-      "motifVerified": false,
-      "motifNote": "KOD DOĞRULANAMADI. Tohum B765 öneriyor ('yılanların olağandışı davranışı' kümesi) ama B400–B899 aralığı bu turda erişilemedi. G302 geçici olarak önerildi ama olgoi-khorkhoi bir cin değil bir HAYVAN olarak anlatılıyor; B kümesi doğru olmalı. Faz 2'de tam nüshadan teyit edilecek.",
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI. Tam Motif-Index ayrıştırmasında B765'in tanımı 'Fanciful qualities of snakes' olarak bulundu. Olgoi-khorkhoi bir yılan/solucan biçiminde tasavvur edilir ve ona atfedilen nitelikler (dokunmadan öldürme) tam olarak 'fanciful qualities' kümesine girer.",
       "region": "Gobi çölü",
       "attested": "Andrews'un 1922–25 sefer kayıtları; 1932'de yayımlandı",
       "appearance": [
-        "Bağırsak benzeri, kalın ve kısa",
+        "Sosis biçiminde, yaklaşık altmış santim (Andrews'un kaydı: 'about two feet long')",
+        "Başı ve bacağı yok",
         "Kırmızımsı"
       ],
-      "behaviour": "Kumun altında yaşar; dokunmadan öldürdüğü anlatılır.",
-      "incident": "Faz 2'de Andrews'tan doğrulanacak.",
+      "behaviour": "Gobi'nin en ıssız yerlerinde kumun altında yaşar. Dokunmanın bile ânında öldürdüğü anlatılır.",
+      "incident": "Andrews 1926: Moğol yetkililerden oluşan bir meclis yaratığı ayrıntılı biçimde tarif eder — ama hiçbiri görmemiştir.",
       "counter": "—",
       "variants": [],
       "variantNote": "",
       "restriction": "Yalnızca yayımlanmış malzeme kullanıldı (Andrews'un sefer anlatısı, Heissig). Moğol şaman uygulaması ve ongon yapımı KULLANILMAZ. Andrews'un kaydı bir Batılı seferin derlediği FOLKLOR kaydıdır; sömürge dönemi çerçevesi eleştirel okunacak.",
-      "modern": "Kriptozoolojide 'Mongolian death worm' adıyla geniş yer tutar. KAYNAK SAYILMAZ; tek cümlede ve 'modern' etiketiyle anılacak.",
+      "modern": "'Mongolian death worm' adıyla 20.–21. yy kriptozoolojisinin sabit konularından. Tek cümlede ve 'modern' etiketiyle anılacak.",
       "writingNotes": [
-        "⚠ KAPIDAN GEÇMİYOR: motif doğrulanmadı, künyeler katalog düzeyinde.",
-        "Andrews'un kaydı bir FOLKLOR kaydıdır, bir gözlem değil; madde bunu açıkça söylemeli."
+        "Kaynağın kendisi bunun bir İNANÇ kaydı olduğunu söylüyor: kimse görmemiş, herkes inanıyor. Maddenin 5. bölümü ('neden korkulur') tam olarak bu.",
+        "Kriptozooloji literatürü ('Mongolian death worm') KAYNAK SAYILMAZ; tek cümlede ve 'modern' etiketiyle anılacak."
       ]
     },
     {

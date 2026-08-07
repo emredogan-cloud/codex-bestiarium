@@ -1,0 +1,174 @@
+{
+  "tradition": "euskal",
+  "creatures": [
+    {
+      "id": "basajaun",
+      "name": "Basajaun",
+      "altNames": [
+        "Basojaun"
+      ],
+      "pronunciation": "bah-sah-HOWN",
+      "sources": [
+        {
+          "ref": "José Miguel de Barandiarán, *Diccionario ilustrado de mitología vasca* (Bilbao: La Gran Enciclopedia Vasca, 1972)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Julio Caro Baroja, *Los vascos* (Madrid: Istmo, 1971)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Basajaun”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F567"
+      ],
+      "motifDefs": {
+        "F567": "Wild man"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F460 ('Mountain-spirits') idi; doğrulanan F567 ('Wild man') yaban adamı ailesinin (G) tam kodudur.",
+      "motifChanged": "F460 → F567.",
+      "region": "Euskal Herria; Pirene ormanları",
+      "attested": "José Miguel de Barandiarán derlemeleri (20. yy); 19. yy kayıtlar",
+      "appearance": [
+        "İri, kıllı, insan benzeri",
+        "Uzun saçlı",
+        "Tek ayağı yuvarlak olarak da anlatılır"
+      ],
+      "behaviour": "Ormanın efendisi. Fırtına yaklaşınca ıslık çalar ve çobanı uyarır; sürüyü kurttan korur. Barandiarán'da tarım ve demirciliği insana öğreten de odur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Yaban adamı ailesinin (G) tek KORUYUCU üyesi. Ayrışma noktası ailenin açılışını taşıyacak: Basajaun uyarır, Curupira cezalandırır."
+      ]
+    },
+    {
+      "id": "lamia-euskal",
+      "name": "Lamia",
+      "altNames": [
+        "Lamiak (çoğul)",
+        "Laminak"
+      ],
+      "pronunciation": "LAH-mee-ah",
+      "sources": [
+        {
+          "ref": "José Miguel de Barandiarán, *Diccionario ilustrado de mitología vasca* (Bilbao: La Gran Enciclopedia Vasca, 1972)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Julio Caro Baroja, *Los vascos* (Madrid: Istmo, 1971)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Lamiak”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F420"
+      ],
+      "motifDefs": {
+        "F420": "Water-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Bask lamia'sı Yunan Lámia'sıyla AD dışında ilgisiz — bir ırmak perisidir. Bu ayrım maddede açıkça yapılacak.",
+      "region": "Euskal Herria; ırmak ve pınarlar",
+      "attested": "Barandiarán derlemeleri (20. yy)",
+      "appearance": [
+        "Uzun saçlı kadın",
+        "Ördek veya keçi ayaklı",
+        "Altın tarakla saçını tarar"
+      ],
+      "behaviour": "Irmakta saçını altın tarakla tarar. Tarağı alınırsa geri ister; karşılığında yardım eder — köprü veya ev yapar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ ADAŞ UYARISI: Yunan Lámia ile aynı ad, ayrı yaratık. Dizinde çapraz gönderme ZORUNLU.",
+        "Ördek ayağı: gizlenemeyen işaret kalıbının Bask üyesi."
+      ]
+    },
+    {
+      "id": "herensuge",
+      "name": "Herensuge",
+      "altNames": [],
+      "pronunciation": "eh-ren-SOO-geh",
+      "sources": [
+        {
+          "ref": "José Miguel de Barandiarán, *Diccionario ilustrado de mitología vasca* (Bilbao: La Gran Enciclopedia Vasca, 1972)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Julio Caro Baroja, *Los vascos* (Madrid: Istmo, 1971)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Herensuge”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2.3.1"
+      ],
+      "motifDefs": {
+        "B11.2.3.1": "Seven-headed dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B11 ('Dragon') idi; doğrulanan B11.2.3.1'in tanımı doğrudan 'Seven-headed dragon' ve Herensuge yedi başlı olarak kaydedilir.",
+      "motifChanged": "B11 → B11.2.3.1.",
+      "region": "Euskal Herria; Mondragón ve Aralar dağı anlatıları",
+      "attested": "Barandiarán derlemeleri (20. yy)",
+      "appearance": [
+        "Yedi başlı",
+        "Kanatlı olarak da anlatılır"
+      ],
+      "behaviour": "Her yıl kurban ister. Aralar anlatısında Teodosio de Goñi tarafından — Mikail'in yardımıyla — öldürülür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Yedi baş: Zmey ve Yamata-no-Orochi ile sayısal karşılaştırma yapılabilir."
+      ]
+    }
+  ]
+}

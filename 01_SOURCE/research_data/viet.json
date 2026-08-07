@@ -1,0 +1,168 @@
+{
+  "tradition": "viet",
+  "creatures": [
+    {
+      "id": "thuong-luong",
+      "name": "Thuồng luồng",
+      "altNames": [],
+      "pronunciation": "twong LWONG",
+      "sources": [
+        {
+          "ref": "*Lĩnh Nam chích quái* (Lĩnh Nam'ın Olağanüstü Öyküleri, 14.–15. yy)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Keith Weller Taylor, *The Birth of Vietnam* (Berkeley: University of California Press, 1983)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Thuong Luong”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.7.1"
+      ],
+      "motifDefs": {
+        "B11.7.1": "Dragon controls water-supply"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B11.2 ('Form of dragon') idi; doğrulanan B11.7.1 ('Dragon controls water-supply') thuồng luồng'un ırmak ve su denetimi işlevini daha doğru tasnif eder.",
+      "motifChanged": "B11.2 → B11.7.1.",
+      "region": "Việt; Kızıl Irmak ve delta suları",
+      "attested": "*Lĩnh Nam chích quái* (14.–15. yy); Đại Việt sử ký toàn thư",
+      "appearance": [
+        "Büyük su yılanı",
+        "Kimi kayıtta iki boynuzlu"
+      ],
+      "behaviour": "Irmak dibinde yaşar. Dövme geleneğinin kökeni olarak anlatılır: balıkçılar thuồng luồng onları kendinden saysın diye gövdelerine desen dövermiş.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Dövmenin kökeni: yaratık bir BEDEN PRATİĞİNİ açıklıyor. Kitapta benzersiz."
+      ]
+    },
+    {
+      "id": "ma-lai",
+      "name": "Ma lai",
+      "altNames": [],
+      "pronunciation": "mah LYE",
+      "sources": [
+        {
+          "ref": "Nguyễn Đổng Chi, *Kho tàng truyện cổ tích Việt Nam* (Hanoi, 1958–82)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Keith Weller Taylor, *The Birth of Vietnam* (Berkeley: University of California Press, 1983)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ma Lai”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.1.3"
+      ],
+      "motifDefs": {
+        "G262.1.3": "Witches suck blood from the navel of a child without anyone knowing it"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1.3 ('Witches suck blood from the navel of a child without anyone knowing it') ma lai'nin gizli kan emme eylemini birebir tasnif eder.",
+      "motifChanged": "G262 → G262.1.3.",
+      "region": "Việt; kırsal, gece",
+      "attested": "Vietnam sözlü geleneği; 20. yy derlemeler",
+      "appearance": [
+        "Gövdesinden ayrılan baş",
+        "Baş bağırsaklarıyla birlikte uçar",
+        "Gündüz sıradan bir insan"
+      ],
+      "behaviour": "Geceleri başı gövdeden ayrılır ve uçar; pislik ve kan arar. Gövde bulunup yeri değiştirilirse baş dönemez ve ölür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Gövdeyi bulup yerini değiştirmek.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Uçan baş kümesinin (Krasue, Manananggal, Penanggalan) Vietnam üyesi. Bu küme Güneydoğu Asya'ya özgü ve Faz 2'de kendi karşılaştırması hak edebilir."
+      ]
+    },
+    {
+      "id": "ong-ba-muoi",
+      "name": "Ông Ba Mươi",
+      "altNames": [],
+      "pronunciation": "ohng bah MUH-oy",
+      "sources": [
+        {
+          "ref": "Nguyễn Đổng Chi, *Kho tàng truyện cổ tích Việt Nam* (Hanoi, 1958–82)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Keith Weller Taylor, *The Birth of Vietnam* (Berkeley: University of California Press, 1983)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Tiger, Vietnamese”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B19.10"
+      ],
+      "motifDefs": {
+        "B19.10": "Mythical tiger"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B871 ('Giant beasts') idi; Ông Ba Mươi dev değil KAPLANDIR. Doğrulanan B19.10 ('Mythical tiger') tam tanımdır. B26 ('Man-tiger') de değerlendirildi ama bu kaplan insana dönüşmez.",
+      "motifChanged": "B871 → B19.10.",
+      "region": "Việt; orman ve dağ köyleri",
+      "attested": "Vietnam sözlü geleneği; 19.–20. yy derlemeler",
+      "appearance": [
+        "Kaplan",
+        "Alnında 'kral' işareti taşıdığı anlatılır"
+      ],
+      "behaviour": "Ormanın efendisi. Adı doğrudan söylenmez — 'Otuz Bey' diye anılır; saygı hem korku hem koruma sayılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Adı söylenmeyen varlık: Ulda ile ortak kalıp. İki uzak gelenek, aynı dil tabusu."
+      ]
+    }
+  ]
+}

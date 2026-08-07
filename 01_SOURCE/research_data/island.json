@@ -1,0 +1,169 @@
+{
+  "tradition": "island",
+  "creatures": [
+    {
+      "id": "huldufolk",
+      "name": "Huldufólk",
+      "altNames": [],
+      "pronunciation": "HOOL-doo-folk",
+      "sources": [
+        {
+          "ref": "Jón Árnason, *Íslenzkar þjóðsögur og æfintýri* (Leipzig: J. C. Hinrichs, 1862–64)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Terry Gunnell, \"Legends and Landscape in the Nordic Countries\", *Cultural and Social History* 6:3 (2009), 305–322",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Huldufolk”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F251.1"
+      ],
+      "motifDefs": {
+        "F251.1": "Fairies as descendants of early race of gods"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F251 ('Origin of fairies') idi; İzlanda geleneğinde huldufólk'ün KÖKENİ tanımlayıcıdır (Havva'nın yıkanmamış çocukları) ve doğrulanan F251.1 ('Fairies as descendants of early race of gods') bu köken anlatısını daha dar tasnif eder.",
+      "motifChanged": "F251 → F251.1.",
+      "region": "Ísland; kayalar, lav alanları",
+      "attested": "Jón Árnason, *Íslenzkar þjóðsögur og æfintýri* (Leipzig, 1862–64)",
+      "appearance": [
+        "İnsana benzer",
+        "Kayaların içinde yaşar",
+        "Görülmeyi kendileri seçer"
+      ],
+      "behaviour": "Kayaların içinde yaşar. İzlanda'da yol güzergâhları huldufólk kayalarını korumak için hâlâ değiştirilir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gizli halk ailesinin (H) çıpası ve kitabın YAŞAYAN folklor örneği.",
+        "Yol güzergâhı değiştirme: doğrulanabilir, çağdaş, gazeteye konu olmuş."
+      ]
+    },
+    {
+      "id": "nykur",
+      "name": "Nykur",
+      "altNames": [],
+      "pronunciation": "NEE-koor",
+      "sources": [
+        {
+          "ref": "Jón Árnason, *Íslenzkar þjóðsögur og æfintýri* (Leipzig: J. C. Hinrichs, 1862–64)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Terry Gunnell, \"Legends and Landscape in the Nordic Countries\", *Cultural and Social History* 6:3 (2009), 305–322",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Nykur”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B184.1.3"
+      ],
+      "motifDefs": {
+        "B184.1.3": "Magic horse from water world"
+      },
+      "motifVerified": true,
+      "motifNote": "B184.1.3 ('Magic horse from water world') doğrulandı ve korundu. Su atı ailesinin (A) İzlanda üyesi.",
+      "region": "Ísland; göller ve ırmaklar",
+      "attested": "Jón Árnason, *Íslenzkar þjóðsögur* (1862–64)",
+      "appearance": [
+        "Gri at",
+        "Toynakları TERS dönük",
+        "Yelesi ıslak"
+      ],
+      "behaviour": "Sırtına bineni göle götürür. Adı ('nykur') söylenirse veya haç işareti yapılırsa kaçar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Adını söylemek; ters dönük toynaklardan tanımak.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Ters toynak: su atı ailesinin en somut ayırt edici işareti. Tikbalang'ın ters ayaklarıyla karşılaştırılabilir."
+      ]
+    },
+    {
+      "id": "skuggabaldur",
+      "name": "Skuggabaldur",
+      "altNames": [],
+      "pronunciation": "SKOOG-gah-bald-oor",
+      "sources": [
+        {
+          "ref": "Jón Árnason, *Íslenzkar þjóðsögur og æfintýri* (Leipzig: J. C. Hinrichs, 1862–64)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Jacqueline Simpson, *Icelandic Folktales and Legends* (Berkeley: University of California Press, 1972)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Skuggabaldur”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B14"
+      ],
+      "motifDefs": {
+        "B14": "Other hybrid animals"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B871 ('Giant beasts') idi — skuggabaldur dev değil MELEZDİR. Doğrulanan B14 ('Other hybrid animals') tam tanımdır.",
+      "motifChanged": "B871 → B14.",
+      "region": "Ísland; kırsal, koyun otlakları",
+      "attested": "Jón Árnason, *Íslenzkar þjóðsögur* (1862–64)",
+      "appearance": [
+        "Kedi ile tilkinin yavrusu",
+        "Kurşun işlemez"
+      ],
+      "behaviour": "Koyun sürüsüne saldırır. Öldürüldüğünde son sözünü söylediği ve öldüreni lanetlediği anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Melezlik: Chímaira ve Makara ile karşılaştırılabilir ama burada melez GERÇEK hayvanlardan."
+      ]
+    }
+  ]
+}

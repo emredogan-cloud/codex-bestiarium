@@ -1,0 +1,171 @@
+{
+  "tradition": "bharatiya",
+  "creatures": [
+    {
+      "id": "garuda",
+      "name": "Garuḍa",
+      "altNames": [],
+      "pronunciation": "gah-ROO-da",
+      "sources": [
+        {
+          "ref": "*Mahabharata*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "I (Ādi Parva), Astika Parva, 14–34"
+        },
+        {
+          "ref": "Wendy Doniger O'Flaherty, *Hindu Myths: A Sourcebook* (Harmondsworth: Penguin, 1975)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Garuda”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B56"
+      ],
+      "motifDefs": {
+        "B56": "Garuda-bird. Lower part man, upper part bird"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi; doğrulama B31'in bölüm başlığı (Giant birds), B31.1'in ise 'Roc' olduğunu gösterdi. Garuḍa'nın KENDİ kodu var: B56 'Garuda-bird. Lower part man, upper part bird'.",
+      "motifChanged": "B31 → B56. Ayrıntı: SCOPE_DECISIONS.md § 5②.",
+      "region": "Bharat; Vişnu tapımı, Güneydoğu Asya'ya yayılmış",
+      "attested": "*Mahabharata* (MÖ 4. yy – MS 4. yy), Astika Parva",
+      "appearance": [
+        "Alt gövdesi insan, üst gövdesi kuş (Thompson'ın tanımı)",
+        "Altın renkli",
+        "Kanat çırpışı fırtına"
+      ],
+      "behaviour": "Yılanların (nāga) ezelî düşmanı. Annesini kölelikten kurtarmak için amrita'yı çalar; Vişnu'nun bineği olur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) Güney Asya üyesi. Ayrışma: Garuḍa'nın düşmanlığı KİŞİSELdir — annesinin esareti."
+      ]
+    },
+    {
+      "id": "naga",
+      "name": "Nāga",
+      "altNames": [],
+      "pronunciation": "NAH-gah",
+      "sources": [
+        {
+          "ref": "*Mahabharata*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "I (Ādi Parva), Astika Parva"
+        },
+        {
+          "ref": "J. Ph. Vogel, *Indian Serpent-Lore, or The Nāgas in Hindu Legend and Art* (Londra: Arthur Probsthain, 1926)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Naga”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B91.1"
+      ],
+      "motifDefs": {
+        "B91.1": "Naga. Serpent demon"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B91 ('Mythical serpent') idi; doğrulanan B91.1'in tanımı doğrudan 'Naga. Serpent demon' — kod bu maddenin adını taşıyor.",
+      "motifChanged": "B91 → B91.1 (daha dar ve adı taşıyan kod).",
+      "region": "Bharat; su altı şehirleri (Pātāla), göl ve ırmaklar",
+      "attested": "*Mahabharata*; *Atharvaveda*; Buddhist Pali kanonu",
+      "appearance": [
+        "Yılan biçiminde; kimi zaman insan üst gövdeli",
+        "Başında çok sayıda başlık (çoğunlukla yedi)",
+        "Boynunda mücevher"
+      ],
+      "behaviour": "Suyun altındaki şehirlerde yaşar; hazineyi ve yağmuru tutar. Garuḍa'nın avıdır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) Güney Asya üyesi ve tek TOPLUM kuran üyesi."
+      ]
+    },
+    {
+      "id": "makara",
+      "name": "Makara",
+      "altNames": [],
+      "pronunciation": "MAH-kah-rah",
+      "sources": [
+        {
+          "ref": "*Ṛgveda* ve Purāṇa geleneği",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "J. Ph. Vogel, *Indian Serpent-Lore* (Londra: Arthur Probsthain, 1926)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Makara”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B16"
+      ],
+      "motifDefs": {
+        "B16": "Devastating animals"
+      },
+      "motifVerified": true,
+      "motifNote": "B16 ('Devastating animals') doğrulandı ve korundu. Makara bir bileşik su canavarıdır; B15 (olağandışı uzuvlar) de aday ama makara'nın işlevi tehlikedir, tuhaflık değil.",
+      "region": "Bharat; ırmak ağızları, tapınak eşikleri (makara-toraṇa)",
+      "attested": "Vedik dönemden itibaren; Gupta dönemi tapınak süslemesi (4.–6. yy)",
+      "appearance": [
+        "Timsah gövdesi",
+        "Fil hortumu",
+        "Balık kuyruğu"
+      ],
+      "behaviour": "Suyun eşiğinde durur. Ganga'nın bineği; tapınak kapılarında oyulur — geçişin işareti.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Makara bir yaratık olduğu kadar bir MİMARİ öğedir; madde bunu söylemeli."
+      ]
+    }
+  ]
+}

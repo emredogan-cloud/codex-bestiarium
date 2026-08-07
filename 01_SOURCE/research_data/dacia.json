@@ -1,0 +1,171 @@
+{
+  "tradition": "dacia",
+  "creatures": [
+    {
+      "id": "strigoi",
+      "name": "Strigoi",
+      "altNames": [
+        "Strigoiul",
+        "Moroi (akraba)"
+      ],
+      "pronunciation": "stree-GOY",
+      "sources": [
+        {
+          "ref": "Agnes Murgoci, \"The Vampire in Roumania\", *Folklore* 37:4 (1926), 320–349",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Paul Barber, *Vampires, Burial, and Death: Folklore and Reality* (New Haven: Yale University Press, 1988)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Strigoi”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E251"
+      ],
+      "motifDefs": {
+        "E251": "Vampire. Corpse which comes from grave at night and sucks blood"
+      },
+      "motifVerified": true,
+      "motifNote": "E251 ('Vampire. Corpse which comes from grave at night and sucks blood') doğrulandı ve korundu. Strigoi'nin tanımı budur ve kod tam oturuyor.",
+      "region": "Dacia (Romanya); Transilvanya, Oltenia köyleri",
+      "attested": "19.–20. yy saha derlemeleri; Agnes Murgoci kayıtları (1926)",
+      "appearance": [
+        "Kızıl saçlı, mavi gözlü olarak anlatılır",
+        "İki kalp veya iki ruh taşıdığı söylenir",
+        "Gömüldükten sonra bozulmayan ceset"
+      ],
+      "behaviour": "Mezarından kalkar; önce ailesinin sonra köyün kanını ve şansını alır. Hayvanlar kısırlaşır, süt kesilir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Murgoci'nin 1926 makalesi tam künyeli ve sayfa aralıklı — 'article' doğrulamasının en temiz örneklerinden.",
+        "Adı Latince 'strix'ten gelir: Roma ve Romanya maddeleri arasında doğrudan dilsel köprü."
+      ]
+    },
+    {
+      "id": "varcolac",
+      "name": "Vârcolac",
+      "altNames": [],
+      "pronunciation": "vur-ko-LAHK",
+      "sources": [
+        {
+          "ref": "Agnes Murgoci, \"The Vampire in Roumania\", *Folklore* 37:4 (1926), 320–349",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Paul Barber, *Vampires, Burial, and Death* (New Haven: Yale University Press, 1988)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Varcolac”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "A737.1"
+      ],
+      "motifDefs": {
+        "A737.1": "Eclipse caused by monster devouring sun or moon"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.1 ('Transformation: man to wolf') idi; vârcolac'ın tanımlayıcı işlevi kurda dönüşmek değil AY'I YEMEKTİR. Doğrulanan A737.1 ('Eclipse caused by monster devouring sun or moon') tam tanımdır. D113.1.1 ('Werwolf') ikinci kod olarak Faz 2'de değerlendirilecek.",
+      "motifChanged": "D113.1 → A737.1.",
+      "region": "Dacia (Romanya)",
+      "attested": "19.–20. yy saha derlemeleri; Murgoci",
+      "appearance": [
+        "Kurt biçiminde",
+        "Kimi kayıtta uçan, ağzından ip çıkan ruh"
+      ],
+      "behaviour": "Ay'ı veya Güneş'i yer — tutulma budur. Kadınlar gece iplik eğirirse vârcolac doğduğu anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Bir GÖK OLAYININ açıklaması: kitapta Boitatá ve Animikii ile aynı işlevsel kümede."
+      ]
+    },
+    {
+      "id": "zmeu",
+      "name": "Zmeu",
+      "altNames": [],
+      "pronunciation": "ZMEH-oo",
+      "sources": [
+        {
+          "ref": "Petre Ispirescu, *Legende sau basmele românilor* (Bükreş, 1872)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Moses Gaster, *Rumanian Bird and Beast Stories* (Londra: Sidgwick & Jackson, 1915)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Zmeu”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2.3"
+      ],
+      "motifDefs": {
+        "B11.2.3": "Many-headed dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2.3 ('Many-headed dragon') doğrulandı ve korundu. Zmeu Rumen masallarında çok başlı ve konuşan bir ejderhadır.",
+      "region": "Dacia (Romanya)",
+      "attested": "Petre Ispirescu, *Legende sau basmele românilor* (1872); 19.–20. yy derlemeler",
+      "appearance": [
+        "Çok başlı",
+        "İnsan gibi konuşur ve düşünür",
+        "At sürer, ev sahibi olur"
+      ],
+      "behaviour": "Kızları kaçırır ve hazine bekler. Rumen masallarında insan gibi pazarlık eder — bu, onu Zmey'den ayırır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) en İNSANSI üyesi: konuşur, pazarlık eder, evlenmek ister."
+      ]
+    }
+  ]
+}

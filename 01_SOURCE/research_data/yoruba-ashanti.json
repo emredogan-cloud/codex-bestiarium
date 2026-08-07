@@ -1,0 +1,170 @@
+{
+  "tradition": "yoruba-ashanti",
+  "creatures": [
+    {
+      "id": "anansi",
+      "name": "Anansi",
+      "altNames": [
+        "Ananse",
+        "Kwaku Anansi"
+      ],
+      "pronunciation": "ah-NAHN-see",
+      "sources": [
+        {
+          "ref": "R. S. Rattray, *Akan-Ashanti Folk-Tales* (Oxford: Clarendon Press, 1930)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Emily Zobel Marshall, *Anansi's Journey: A Story of Jamaican Cultural Resistance* (Kingston: University of the West Indies Press, 2012)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Anansi”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "A177.1"
+      ],
+      "motifDefs": {
+        "A177.1": "God as dupe or trickster"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum A177 ('God as thief') idi; Anansi hikâyeleri ÇALMAZ, satın alır ve kurnazlıkla kazanır. Doğrulanan A177.1 ('God as dupe or trickster') daha doğrudur.",
+      "motifChanged": "A177 → A177.1.",
+      "region": "Ashanti (Gana) ve Batı Afrika; Karayipler'e taşınmış",
+      "attested": "Rattray, *Akan-Ashanti Folk-Tales* (1930); 19. yy'dan itibaren kayıt",
+      "appearance": [
+        "Örümcek; kimi anlatıda insan biçiminde",
+        "Küçük ve zayıf"
+      ],
+      "behaviour": "Gökyüzü tanrısı Nyame'den bütün hikâyeleri satın alır — bedeli olarak dört tehlikeli varlığı yakalar. Hikâyeler o günden sonra 'Anansi hikâyeleri' olur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Akan anlatı geleneği YAŞAYANDIR. Yalnızca Rattray'in yayımlanmış derlemesi ve akademik çalışmalar kullanıldı; anlatım hakkı ve bağlam (kimin, ne zaman anlatabileceği) maddede belirtilecek.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Zayıfın kurnazlığı: kitabın tek KAZANAN küçük varlığı."
+      ]
+    },
+    {
+      "id": "abiku",
+      "name": "Àbíkú",
+      "altNames": [],
+      "pronunciation": "ah-BEE-koo",
+      "sources": [
+        {
+          "ref": "Timothy Mobolade, \"The Concept of Abiku\", *African Arts* 7:1 (1973), 62–64",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "William Bascom, *The Yoruba of Southwestern Nigeria* (New York: Holt, Rinehart and Winston, 1969)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Abiku”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E220"
+      ],
+      "motifDefs": {
+        "E220": "Dead relative's malevolent return"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. E220 ('Dead relative's malevolent return') àbíkú'nün aynı aileye tekrar tekrar dönmesini tasnif eder. E324 ('Dead child's friendly return to parents') değerlendirildi ama àbíkú DOSTÇA dönmez.",
+      "region": "Yorùbá (Nijerya, Benin)",
+      "attested": "19.–20. yy saha derlemeleri; Yorùbá adlandırma geleneği kayıtları",
+      "appearance": [
+        "Çocuk biçiminde",
+        "Bedende iz veya yara ile tanınır (önceki ölümden kalan)"
+      ],
+      "behaviour": "Doğar, ölür ve aynı anneye tekrar döner. Zincir kırılsın diye çocuğa 'kalmasını' isteyen adlar verilir (Málọmọ, Dúrójayé).",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Àbíkú YAŞAYAN bir inanç ve gerçek çocuk ölümleriyle ilgilidir. Madde bir 'yaratık' anlatısı olarak değil, YAS ve adlandırma pratiği olarak yazılacak. Tören ayrıntısı ve koruyucu uygulama aktarılmaz.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinde (C) ama àbíkú avcı değil KURBAN — Pontianak ile aynı ahlaki konumda. Faz 2'de aile üyeliği gözden geçirilmeli.",
+        "Adların anlamı ('kalma bizi üzme') maddenin 5. bölümünü taşıyacak."
+      ]
+    },
+    {
+      "id": "adze",
+      "name": "Adze",
+      "altNames": [],
+      "pronunciation": "AHD-zeh",
+      "sources": [
+        {
+          "ref": "Jakob Spieth, *Die Ewe-Stämme: Material zur Kunde des Ewe-Volkes in Deutsch-Togo* (Berlin: Reimer, 1906)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Michelle Gilbert, \"The Sudden Death of a Millionaire: Conversion and Consensus in a Ghanaian Kingdom\", *Africa* 58:3 (1988), 291–314",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Adze”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.1"
+      ],
+      "motifDefs": {
+        "G262.1": "Witch sucks blood"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1 ('Witch sucks blood') adze'nin tanımlayıcı eylemini birebir karşılıyor.",
+      "motifChanged": "G262 → G262.1.",
+      "region": "Ewe (Gana, Togo, Benin)",
+      "attested": "20. yy saha derlemeleri",
+      "appearance": [
+        "Ateşböceği biçiminde uçar",
+        "Yakalanınca insan biçimine döner"
+      ],
+      "behaviour": "Ateşböceği kılığında eve girer; uyuyanın, özellikle çocuğun kanını içer.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Ewe cadılık inancı yaşayan bir toplumsal olgudur ve gerçek suçlamalara yol açmıştır. Madde suçlamayı yeniden üretmeyecek; Buda maddesiyle aynı etik dikkat uygulanacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Ateşböceği: en küçük ölçekli gece cadısı. Ölçek karşıtlığı ailenin açılışında kullanılacak."
+      ]
+    }
+  ]
+}

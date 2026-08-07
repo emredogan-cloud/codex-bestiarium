@@ -1,0 +1,184 @@
+{
+  "tradition": "hellenic",
+  "creatures": [
+    {
+      "id": "kerberos",
+      "name": "Kérberos",
+      "altNames": [],
+      "pronunciation": "KER-be-ros",
+      "sources": [
+        {
+          "ref": "Hesiodos, *Theogonia*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "311–312"
+        },
+        {
+          "ref": "Apollodoros, *Bibliotheca*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "2.5.12"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Cerberus”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F150"
+      ],
+      "motifDefs": {
+        "F150": "Access to otherworld"
+      },
+      "motifVerified": true,
+      "motifNote": "F150 ('Access to otherworld') doğrulandı ve korundu. Kérberos'un işlevi bir hayvan olmak değil, öteki dünyaya ERİŞİMİ denetlemektir: girene izin verir, çıkana vermez. B15 ('Animals with unusual limbs') üç başı tanımlar ama işlevi kaçırır; eşik bekçisi ailesinin ortak kodu F150'dir.",
+      "region": "Hellas; Hades'in kapısı, Akheron geçidi",
+      "attested": "Hesiodos, *Theogonia* (MÖ ~700); Homeros, *İlyada* VIII",
+      "appearance": [
+        "Üç başlı köpek",
+        "Yılan kuyruklu ve boynunda yılanlar (Hesiodos)",
+        "Elli baş sayısı da verilir (Hesiodos 312)"
+      ],
+      "behaviour": "Ölüler diyarının kapısında durur; girmeye izin verir, çıkmaya vermez. Herakles'in on ikinci işi onu zincirsiz çıkarmaktır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "Hesiodos",
+          "what": "Elli başlı"
+        },
+        {
+          "where": "Yaygın gelenek",
+          "what": "Üç başlı"
+        }
+      ],
+      "variantNote": "Baş sayısı kaynaklar arasında değişir (üç, elli, yüz); madde bunu gizlemeyecek.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Eşik bekçisi ailesinin (F) Yunan üyesi ve ailenin çıpası.",
+        "Ayrışma: Kérberos GÜÇLE engeller; Temes Savsap BİLGİYLE, Qílín BAKIŞLA."
+      ]
+    },
+    {
+      "id": "chimaira",
+      "name": "Chímaira",
+      "altNames": [],
+      "pronunciation": "KHEE-my-ra",
+      "sources": [
+        {
+          "ref": "Homeros, *İlyada*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "VI.179–183"
+        },
+        {
+          "ref": "Hesiodos, *Theogonia*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "319–325"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Chimaera”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B15"
+      ],
+      "motifDefs": {
+        "B15": "Animals with unusual limbs or members"
+      },
+      "motifVerified": true,
+      "motifNote": "B15 ('Animals with unusual limbs or members') doğrulandı ve korundu. Khimaira'yı tanımlayan şey tam olarak uzuv birleşimidir: aslan, keçi ve yılan tek gövdede.",
+      "region": "Likya (Anadolu güneybatısı)",
+      "attested": "Homeros, *İlyada* VI (MÖ ~750); Hesiodos, *Theogonia*",
+      "appearance": [
+        "Önü aslan, ortası keçi, arkası yılan (Homeros)",
+        "Ateş soluyan",
+        "Sırtından keçi başı çıkan"
+      ],
+      "behaviour": "Likya'yı yakar; Bellerophontes tarafından Pegasos'un sırtından öldürülür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "'Chimera' modern anlamda 'melez/hayal' demektir; bu anlam maddede kullanılmayacak."
+      ]
+    },
+    {
+      "id": "lamia-hellenic",
+      "name": "Lámia",
+      "altNames": [],
+      "pronunciation": "LAH-mee-a",
+      "sources": [
+        {
+          "ref": "Diodoros Sikulos, *Bibliotheca historica*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "XX.41"
+        },
+        {
+          "ref": "Sarah Iles Johnston, *Restless Dead: Encounters Between the Living and the Dead in Ancient Greece* (Berkeley: University of California Press, 1999)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Lamia”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.0.1"
+      ],
+      "motifDefs": {
+        "G262.0.1": "Lamia. Witch who eats children"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci — witch entices MEN with offers of love') öneriyordu; Lámia erkekleri değil ÇOCUKLARI avlar. Doğrulanan G262.0.1'in tanımı doğrudan 'Lamia. Witch who eats children' — kod ailenin bu üyesinin adını taşıyor.",
+      "motifChanged": "G264 → G262.0.1. Ayrıntı: SCOPE_DECISIONS.md § 5①.",
+      "region": "Hellas; Libya kökenli anlatılır",
+      "attested": "Duris of Samos (MÖ 3. yy) üzerinden; Diodoros Sikulos XX",
+      "appearance": [
+        "Kadın biçiminde",
+        "Kimi kaynakta yılan gövdeli",
+        "Gözlerini çıkarıp yerine takabildiği anlatılır"
+      ],
+      "behaviour": "Çocuklarını kaybettikten sonra başkalarının çocuklarını avlar. Hera'nın cezası olarak anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) çıpası — kodun adı bu maddeden geliyor.",
+        "Kraliçeden canavara dönüşüm: ceza anlatısı, maddenin 5. bölümünün çekirdeği."
+      ]
+    }
+  ]
+}

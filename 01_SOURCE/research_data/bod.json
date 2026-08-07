@@ -1,0 +1,171 @@
+{
+  "tradition": "bod",
+  "creatures": [
+    {
+      "id": "migoi",
+      "name": "Migoi",
+      "altNames": [
+        "Mi-go",
+        "Migö"
+      ],
+      "pronunciation": "mee-GOY",
+      "sources": [
+        {
+          "ref": "R. A. Stein, *Tibetan Civilization*, çev. J. E. Stapleton Driver (Stanford: Stanford University Press, 1972)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Kunzang Choden, *Bhutanese Tales of the Yeti* (Bangkok: White Lotus, 1997)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Migoi”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F567"
+      ],
+      "motifDefs": {
+        "F567": "Wild man"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F460 ('Mountain-spirits') idi; doğrulanan F567 ('Wild man') yaban adamı ailesinin (G) tam kodudur ve migoi'yi daha doğru tasnif eder.",
+      "motifChanged": "F460 → F567.",
+      "region": "Bod (Tibet) ve Bhutan; yüksek dağ ormanları",
+      "attested": "Tibet ve Bhutan sözlü geleneği; 20. yy kayıtlar",
+      "appearance": [
+        "Kıllı, insan benzeri",
+        "İri"
+      ],
+      "behaviour": "Karda iz bırakır. Görülmemek için geri geri yürüdüğü anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Tibet ve Bhutan yaşayan geleneklerdir. Yalnızca yayımlanmış malzeme kullanıldı; manastır uygulaması ve yer-özel kutsal anlatı KULLANILMAZ. Kriptozooloji literatürü KAYNAK SAYILMAZ.",
+      "modern": "'Yeti' adıyla 20. yy kriptozoolojisinin merkezinde. Tek cümlede ve 'modern' etiketiyle anılacak.",
+      "writingNotes": [
+        "Yaban adamı ailesinin (G) Himalaya üyesi. Ayrışma: geri geri yürüme — izini KENDİSİ yanıltır."
+      ]
+    },
+    {
+      "id": "khyung",
+      "name": "Khyung",
+      "altNames": [],
+      "pronunciation": "kyoong",
+      "sources": [
+        {
+          "ref": "R. A. Stein, *Tibetan Civilization*, çev. J. E. Stapleton Driver (Stanford: Stanford University Press, 1972)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Per Kvaerne, *The Bon Religion of Tibet: The Iconography of a Living Tradition* (Londra: Serindia, 1995)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Khyung”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "A284.2"
+      ],
+      "motifDefs": {
+        "A284.2": "Thunderbird"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi (bölüm başlığı, ayrıca 'Roc' anlamı). Khyung bir roc değil FIRTINA kuşudur. Doğrulanan A284.2 ('Thunderbird') tam tanımdır.",
+      "motifChanged": "B31 → A284.2.",
+      "region": "Bod; Bön geleneği ve Budist Tibet",
+      "attested": "Bön metinleri; Tibet ikonografisi",
+      "appearance": [
+        "Boynuzlu kartal",
+        "Pençesinde yılan tutar",
+        "Altın renkli olarak betimlenir"
+      ],
+      "behaviour": "Gök varlığı; yılanı (klu) pençesinde tutar. Bön geleneğinde kozmik düzenin işareti.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Bön ve Tibet Budizmi YAŞAYAN geleneklerdir. Tören, mantra ve tanka yapım bilgisi KULLANILMAZ; plakada kutsanmış ikonografi birebir çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) Himalaya üyesi ve Garuḍa ile doğrudan akraba — ikisi de yılan tutar."
+      ]
+    },
+    {
+      "id": "srin-po",
+      "name": "Srin-po",
+      "altNames": [],
+      "pronunciation": "SIN-po",
+      "sources": [
+        {
+          "ref": "R. A. Stein, *Tibetan Civilization*, çev. J. E. Stapleton Driver (Stanford: Stanford University Press, 1972)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Janet Gyatso, \"Down with the Demoness: Reflections on a Feminine Ground in Tibet\", *The Tibetan Journal* 12:4 (1987), 38–53",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Srinpo”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G312.3"
+      ],
+      "motifDefs": {
+        "G312.3": "Flesh-eating spirits live in trees"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G300 ('Other ogres') genel bir kümeydi; doğrulanan G312.3 ('Flesh-eating spirits live in trees') ve G312.5 srin-po'nun et yiyen ruh sınıfını daha dar tasnif eder.",
+      "motifChanged": "G300 → G312.3.",
+      "region": "Bod; toprak altı ve ıssız yerler",
+      "attested": "Tibet tarih ve din metinleri; Padmasambhava döngüsü",
+      "appearance": [
+        "Et yiyen varlıklar sınıfı",
+        "Kırmızı yüzlü olarak betimlenir"
+      ],
+      "behaviour": "Toprağın altında yaşadığı anlatılır. Tibet'in Budistleşmesi anlatısında tapınaklarla bastırılırlar — Jokhang ve on iki tapınak, yere serilmiş bir srin-mo'nun uzuvlarına çakılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Tibet Budizmi yaşayan bir gelenektir. Tapınak yerleşimi anlatısı yayımlanmış akademik çalışmalardan alınmıştır; tören ve manastır uygulaması KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Yaratığın ÜZERİNE tapınak çakılması: mimarinin folklorla açıklanması. Kitapta benzersiz."
+      ]
+    }
+  ]
+}
