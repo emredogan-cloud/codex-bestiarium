@@ -51,6 +51,20 @@ from textutil import iter_entries, word_count  # noqa: E402
 STATS_PATH = os.path.join(ROOT, "BOOK_STATS.md")
 PROGRESS_PATH = os.path.join(ROOT, "ROADMAP_PROGRESS.md")
 
+# MANUSCRIPT ÖLÇÜSÜ — depo dışındaki metnin depodaki izdüşümü.
+#
+# Karar A1/D29 gereği `book.json` herkese açık depoda YOKTUR. Ama
+# BOOK_STATS.md ondan türeyen sayılar taşır ve CI belgenin bayatlığını
+# `--check` ile denetler. İkisi bir arada mümkün değildi: yerelde metin var,
+# CI'da yok, dolayısıyla aynı komut iki farklı BOOK_STATS üretiyor ve CI her
+# yazım commit'inde kırmızı yanıyordu.
+#
+# Çözüm plakalarınkiyle aynı, gerekçesi de aynı (`.gitignore` § ③):
+# DEPO VARLIĞI DEĞİL, ÖLÇÜMÜ TAŞIR. Bu dosya yalnızca SAYI içerir — tek bir
+# proza cümlesi bile değil — ve depoya girer. Metin varsa ölçü ondan
+# üretilir ve dosya tazelenir; metin yoksa depodaki ölçü okunur.
+METRICS_PATH = os.path.join(ROOT, "01_SOURCE", "manuscript_metrics.json")
+
 GENERATED = (
     "<!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->"
 )
@@ -167,6 +181,7 @@ def gather() -> dict:
 
     words_total = 0
     entry_words: list[int] = []
+    class_openings = kin_openings = 0
     if book:
         for _, entry in iter_entries(book):
             n = sum(word_count(v) for v in (entry.get("sections") or {}).values())
@@ -179,6 +194,15 @@ def gather() -> dict:
         for group in ("classOpenings", "kinOpenings"):
             for body in (book.get(group) or {}).values():
                 words_total += word_count(body or "")
+        class_openings = len(book.get("classOpenings") or {})
+        kin_openings = len(book.get("kinOpenings") or {})
+    elif os.path.exists(METRICS_PATH):
+        with open(METRICS_PATH, encoding="utf-8") as fh:
+            m = json.load(fh)
+        words_total = m.get("wordsTotal", 0)
+        entry_words = m.get("entryWords", [])
+        class_openings = m.get("classOpenings", 0)
+        kin_openings = m.get("kinOpenings", 0)
 
     return {
         "spec": spec,
@@ -200,6 +224,9 @@ def gather() -> dict:
         "screened_living": screened_living,
         "words_total": words_total,
         "entry_words": entry_words,
+        "class_openings": class_openings,
+        "kin_openings": kin_openings,
+        "have_book": bool(book),
         "commits": git("rev-list", "--count", "HEAD") or "0",
         "tag": git("describe", "--tags", "--abbrev=0") or "—",
         "branch": git("rev-parse", "--abbrev-ref", "HEAD") or "—",
@@ -532,6 +559,24 @@ def main() -> int:
 
     d = gather()
     outputs = [(STATS_PATH, render_stats(d)), (PROGRESS_PATH, render_progress(d))]
+
+    # Manuscript ölçüsü yalnızca metin ELDEYKEN üretilebilir. Metin yoksa
+    # depodaki ölçü zaten okundu ve tazelenecek bir şey yok.
+    if d["have_book"]:
+        metrics = json.dumps(
+            {
+                "note": "Depo dışındaki manuscript'in ÖLÇÜSÜ. Proza içermez "
+                        "(karar A1/D29). Üreten: 08_BUILD/update_docs.py",
+                "entriesWritten": len(d["entry_words"]),
+                "wordsTotal": d["words_total"],
+                "entryWords": d["entry_words"],
+                "classOpenings": d["class_openings"],
+                "kinOpenings": d["kin_openings"],
+            },
+            ensure_ascii=False,
+            indent=2,
+        ) + "\n"
+        outputs.append((METRICS_PATH, metrics))
 
     if args.check:
         stale = []
