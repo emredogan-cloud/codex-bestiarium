@@ -15,7 +15,116 @@ sayılar, açık kalanlar.
 ## [Yayımlanmamış]
 
 ### Sıradaki
-- Faz 4 · Genişleme (Şekil Değiştirenler ve Su Sakinleri) — **başladı**
+- Faz 5 · Tamamlama (Gök ve Fırtına, Huzursuz Ölüler + editoryal inceleme) — **kurucu onayı bekliyor**
+
+---
+
+## [0.4.0] — 2026-08-07
+
+**FAZ 4 TAMAMLANDI.** Sınıf III (Şekil Değiştirenler, 19) ve sınıf IV
+(Su Sakinleri, 24) yazıldı: **43 madde**, iki sınıf açılışı ve üç
+karşılaştırma açılışı. Kitap **88/112** maddeye ulaştı.
+
+### Ölçülenler
+
+| Ölçü | Faz 4 | Kitap |
+|---|---:|---:|
+| Yazılmış madde | **43** | **88/112** |
+| Madde metni | **29.770** kelime | **60.074** kelime |
+| Madde ortalaması | **692** (hedef 700 · sapma %1,1) | 683 |
+| En kısa / en uzun | 652 / 752 | 632 / 752 |
+| Bant dışı madde | **0** | **0** |
+| Açılış | 5 (2.726 kelime) | 11 (5.837 kelime) |
+| Toplam metin | — | **65.911** kelime |
+| Kitap geneli cümle ortalaması | — | 16,9 (bant 14–18) |
+| Ünlem · yasak kalıp · diakritik hatası | 0 | 0 |
+| Maddeler arası 8+ kelimelik tekrar | 0 | 0 |
+
+### Üslup sürüklenmesi — ölçüldü, düzeltilmedi (D40)
+
+Faz 4 boyunca on beş kez ölçüldü ve her ölçüm commit iletisine geçti:
+
+```
+%21,0 → 15,0 → 13,2 → 8,7 → 9,8 → 9,1 → 10,5 → 10,4
+      → 12,0 → 14,1 → 16,5 → 13,4 → 11,9 → 10,3 → 10,5 → 8,9
+```
+
+Faz 3 kapanışında **%21,0** olan eğim Faz 4 kapanışında **%8,9**
+(+0,355 → +0,082/madde). Cümle uzunluğu ritmi eğimi %+8,9'dan
+**%+2,7**'ye indi. **Hiçbir Faz 3 maddesi üslup için açılmadı**;
+düşüş, yeni maddelerin somut mekanizma anlatmasından geldi.
+
+Ortadaki tırmanış (%8,7 → %16,5) da kayda geçti: bu, D40'ın istediği
+şeyin ta kendisidir — düzeltme değil **belgeleme**.
+
+### Prova dizgisi — 88 maddenin tamamı GERÇEK metinle
+
+| | Faz 3 (45 madde) | Faz 4 (88 madde) |
+|---|---:|---:|
+| İçerik yüksekliği | 2,144 sayfa | **2,143 sayfa** |
+| En az / en çok | 2,018 / 2,245 | 2,018 / **2,273** |
+| Faturalanan | 135 | **264** (bütçe 264) |
+| 112 maddeye izdüşüm | 336 | **336** |
+
+**Sayfa bütçesi değişmedi.** 436 sayfalık toplam ve fiyat modeli
+olduğu gibi geçerli; kurucu notunun eşiği aşılmadı.
+
+### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D42 | **6. bölüm ↔ `spec.crossRefs` kapıya bağlandı** (`classify.verify_kin_text`) | Yol haritası bunu Faz 4'ün editoryal görevi olarak GÖZ işiyle istiyordu. 112 maddede göz kayar. Kapı iki yönlü kaçağı da arıyor: spec'te olup metinde anılmayan bağ (dizin gösterir, okur bulamaz) ve metinde anılıp spec'te olmayan ad (karşılıklılık kırılır). İlk koşuda **dört gerçek kusur** buldu, dördü de Faz 3 metninde ve dördü de aynı sebepten: bağın öteki ucu o sırada yazılmamıştı. Kelime sınırına saygılı arıyor — düz alt dize araması "Devi"yi "Devil" içinde bulurdu (D32 kusuru). Sınandı: Kérberos'un satırından Ḫumbaba silindiğinde yakaladı. |
+| D43 | **Kırık çapraz referans D40'ın istisnası DEĞİL, kapsamı dışıdır** | D40 üslup sürüklenmesini erteler. Kırık bir çapraz referans üslup değil **doğruluk** kusurudur; "kalite geriye gidemez" onu düzeltmeyi emreder. Dört akraba satırı yeniden yazıldı ve dördü de 50–80 bandında kaldı. |
+| D44 | **Ayrışma cümlesi İngilizce de tutuluyor** (`kin_map.divergenceEn`) ve kapıya bağlandı | Kin-Images Chart bir OKUR MIKNATISIDIR: okura gider ve kitabın dilinde olmak zorundadır. `kin_map` cümleyi yalnızca Türkçe taşıyordu (proje belgelerinin dili) ve grafik ilk üretimde Türkçe bastı. Sekiz aileye İngilizcesi eklendi; `classify` eksikse kırmızı yakıyor. Proje dilinin pazarlama artefaktına sızması bir daha sessizce olamaz. |
+| D45 | **Ara prova dizgisi mekanizmaya çevrildi** (`entry_page --measure-all`) | Faz 3 aynı ölçümü elle yaptı. Tek maddelik prova GEOMETRİYİ doğrular, bu BÜTÇEYİ: bir maddenin sığması 112 maddenin 336 sayfaya sığdığı anlamına gelmez, ve sığmayan madde dağılımın ÜST UCUNDA olur. Üretilen PDF'ler atılır; depoda yalnızca sayı kalır (A1/D29 — prova PDF'i prozadır). |
+| D46 | **Kin-Images Chart PDF'i `.gitignore`'da** | Tek komutla `spec.json` + `kin_map.json`'dan üretiliyor ve her koşuda birebir aynı çıkıyor. İkili dosyayı depoda tutmak, tek doğruluk kaynağının yanına ikinci kopya koymaktır. Depoda ÖLÇÜSÜ duruyor — plakaların ve raporların gerekçesiyle aynı. |
+
+### qa_echo — on dokuz kusur yakalandı, hepsi gerçekti
+
+Faz 4'ün en çok çalışan kapısı buydu ve bulduğu şeyler **üç ayrı
+kalıplaşma türüne** ayrılıyor. Üçü de Faz 5'in üslup uyumlama
+geçişine (D40) somut hedef olarak devrediliyor:
+
+**① Karşılıklı çapraz referans aynı cümleyle kuruluyordu.**
+Nahual ↔ Way, Taniwha ↔ Inkanyamba (Amaru'ya gönderme). Faz 3'ün
+Lámia ↔ Strix kusurunun aynısı. Karşılıklı bir çift aynı fikri
+anlatabilir, aynı kelimeleri kullanamaz.
+
+**② Yazarın kendi çözümleyici kalıpları.** *"What the tradition
+supplies is not…"* (metinde sekiz yerde), *"almost every creature in
+this book is a…"*, *"that is the whole of the account"*, *"belongs to
+the same tradition and works the…"*, *"is the mistake this entry
+exists to prevent"*. Sürüklenme ölçümünün yükselen sözcük listesi
+(*about · nothing · creature · person · rather · tradition*) aynı yeri
+gösteriyor: **kitabın kendine göndermesi**.
+
+**③ YAŞAYAN GELENEK kapısının boilerplate'e dönmesi.** Üç kez:
+Tupilaq ↔ Repun Kamuy, Masalai ↔ Taniwha, Inkanyamba ↔ Amaru. Kısıt
+cümlesi kalıplaşırsa okur onu atlamayı öğrenir. Etik kapı her maddede
+yeniden kurulmak zorundadır.
+
+Ayrıca **künye ekosu proza içinde**: Skuggabaldur ile Nykur aynı sekiz
+kelimeyle açılıyordu (*"Jón Árnason collected it for the Íslenzkar
+þjóðsögur"*). D34 kaynak notunu muaf tutar ve gerekçesi doğrudur; aynı
+muafiyet 2. bölüm için geçerli değildir. Künye korundu, cümle
+yeniden kuruldu.
+
+**Açılışlar on iki kusur üretti** ve hepsi tek sınıftandı: açılış,
+maddeyi kendi cümleleriyle özetliyordu. Bir açılışın işi maddeleri
+tekrarlamak değil aralarındaki farkı kurmaktır; birebir tekrar eden
+iki sayfa boşa gider.
+
+### Eklenenler
+
+- Sınıf III · THE SHAPE-CHANGERS — 19 madde
+- Sınıf IV · THE WATER-DWELLERS — 24 madde
+- Sınıf III ve IV açılışları (542 · 561 kelime)
+- Karşılaştırma açılışları: **A · Su atı** (549), **B · Tilki kadın** (540), **E · Derinlerin yılanı** (534)
+- `08_BUILD/make_kin_chart.py` — Kin-Images Chart / A+ modülü m3
+- `entry_page.py --measure-all` — yazılmış her maddeyi diz ve dağılımı ölç
+- `classify.verify_kin_text` — 6. bölüm ↔ crossRefs kapısı
+- `update_docs.check_decision_links` — kurucu kararı ↔ CHANGELOG bağı kapısı
+- `01_SOURCE/kin_map.json` → `divergenceEn` (8 aile)
 
 ### Kurucu kararları — 7 Ağustos 2026
 
@@ -431,7 +540,9 @@ haritasının iki bölümü arasındaki gerçek farklardır:
 
 ---
 
-[Yayımlanmamış]: https://github.com/emredogan-cloud/codex-bestiarium/compare/v0.2.1...HEAD
+[Yayımlanmamış]: https://github.com/emredogan-cloud/codex-bestiarium/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.4.0
+[0.3.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.3.0
 [0.2.1]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.2.1
 [0.2.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.2.0
 [0.1.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.1.0
