@@ -1470,7 +1470,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Sekiz başlı, sekiz kuyruklu; her yıl bir kız isteyen ırmak yılanı.",
       "researchFile": "01_SOURCE/research/yamata-no-orochi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "kappa",
@@ -3470,7 +3470,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Göletleri bekleyen kertenkele ruhu; su ve soy bağı.",
       "researchFile": "01_SOURCE/research/moo.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ponaturi",
@@ -3847,7 +3847,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yılanların bilge kraliçesi; sırrı açığa çıkınca öldürülen.",
       "researchFile": "01_SOURCE/research/sahmeran.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ghul",
