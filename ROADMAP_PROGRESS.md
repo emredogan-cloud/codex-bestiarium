@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `main` · son etiket `v0.3.0`
+> Son ölçüm: **2026-08-07** · dal `faz/4-genisleme` · son etiket `v0.3.0`
 
 Kaynak: [`CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md`](CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md)
 
@@ -33,6 +33,17 @@ Kaynak: [`CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md`](CODEX_BESTIARIUM_IMPLEMEN
 | Diakritik | `qa_diacritics.py` | her zaman |
 | Plaka | `plates.py --measure` | plaka geldiğinde |
 | Yapı | `validate_structure.py` | her push |
+
+## Yürürlükteki kurucu kararları
+
+Gerekçeler `CHANGELOG.md`'de; burada yalnızca **bugün ne yapıldığı**
+yazar.
+
+| # | Konu | Yürürlükteki sonuç | Tarih |
+|---|---|---|---|
+| **D39** | İllüstrasyon | Ham AI plaka üretimi **kurucunun** işidir ve Faz 5'ten önce tamamlanır. Hiçbir yazım fazı plaka yüzünden bloklanmaz; hat bekleme durumunda **hazır** tutulur. | 2026-08-07 |
+| **D40** | Üslup sürüklenmesi | Sürüklenme Faz 4'te **düzeltilmez, ölçülür**. Yazılmış ve etiketlenmiş metin gerekçesiz açılmaz. Düzeltme Faz 5'in editoryal geçişine aittir. | 2026-08-07 |
+| **D41** | Kayıtlı vaka açığı | Ek tarihsel araştırma turu **yapılmaz**. Maddenin 4. bölümü yalnızca araştırma dosyasındaki malzemeden yazılır. **Vaka uydurulmaz; kayıt yoksa cümle de yok.** | 2026-08-07 |
 
 ## Sonraki eylem
 

@@ -15,7 +15,24 @@ sayılar, açık kalanlar.
 ## [Yayımlanmamış]
 
 ### Sıradaki
-- Faz 4 · Genişleme (Şekil Değiştirenler ve Su Sakinleri) — **kurucu onayı bekliyor**
+- Faz 4 · Genişleme (Şekil Değiştirenler ve Su Sakinleri) — **başladı**
+
+### Kurucu kararları — 7 Ağustos 2026
+
+Faz 3'ün nihai raporu üç konuyu kurucuya açık soru olarak bıraktı. Üçü de
+karara bağlandı. **Bunlar artık açık soru değildir**; Faz 4 bu üç kararın
+üzerine kurulur.
+
+| # | Karar | Gerekçe ve sonuç |
+|---|---|---|
+| D39 | **Ham plaka üretimi kurucunun sorumluluğudur.** Faz 4 illüstrasyon yüzünden BLOKLANMAZ | Plaka hattı Faz 2'de kuruldu, kalibre edildi ve kendi testiyle sınandı (`plate_selftest.py` · doğruluk %0,3). Eksik olan tek şey hattın **dışındaki** girdidir: `BESTIARIUM_IMAGE_PROMPTS.html` → görsel üreteç → `07_ASSETS/plates_raw/`. Kurucu bu girdiyi **Faz 5 başlamadan** üretecek. Hat bekleme durumunda kalır ve bozulmadan korunur; geldiği anda `plates.py --normalize --pilot` yeterlidir. Faz 4'ün metin işi bu girdiye bağlı değildir. Faz 2 ve Faz 3'ün Definition of Done listelerinde aynı sebeple açık kalan plaka maddeleri de bu kararın kapsamındadır. |
+| D40 | **Üslup sürüklenmesi (%21) Faz 4'te DÜZELTİLMEZ**, izlenir | Sürüklenmeyi düzeltmek Faz 3'ün 45 maddesini yeniden yazmak demektir; o metin kapılardan geçmiş, ölçülmüş ve etiketlenmiştir. Kalite geriye gidemez kuralının kardeşi şudur: **ölçülmüş ve etiketlenmiş metin, gerekçesiz açılmaz.** Faz 4 boyunca `qa_drift` düzenli koşar (yol haritası: her beş maddede), her ölçüm kayda geçer, eğim yükselirse belgelenir. Düzeltme **Faz 5'in editoryal inceleme geçişine** aittir ve orada bütün kitap birlikte ele alınır — 45 maddeyi ayrı, 88'i ayrı düzeltmek iki farklı üslup üretirdi. |
+| D41 | **Kayıtlı vaka açığı için ek araştırma turu YAPILMAZ**; davranış temelli editoryal yaklaşım sürer | Faz 3, § 12'de ölçtü: 45 maddenin 42'sinde araştırma dosyasının `incident` alanı *“Faz 3'te kaynaktan doğrudan okunacak”* diyor. Faz 3 bu açığı **uydurarak kapatmadı** — 4. bölümler dosyadaki `behaviour`, `variants`, `counter` ve dosyanın işaret ettiği kanonik olaydan yazıldı. Faz 4 aynı yöntemi sürdürür. **Tarihsel vaka uydurulmaz. Örnek uydurulmaz.** Kurucu emri değişmedi: *“Never invent mythology. Never invent historical claims. Never fabricate references.”* Konu, yeni doğrulanmış kaynak bulunursa **gelecek bir baskıda** yeniden açılabilir; notu Faz 5'e bırakıldı. |
+
+> Üç kararın da ortak yanı şudur: hiçbiri bir kapıyı gevşetmiyor. D39 bir
+> girdiyi erteliyor, D40 bir düzeltmeyi erteliyor, D41 bir araştırma kalemini
+> kapatıyor. Ölçüm üçünde de devam ediyor — ertelenen şey **düzeltme**dir,
+> **ölçüm** değil.
 
 ---
 

@@ -491,8 +491,8 @@ pypdf, python-docx, ebooklib, pyyaml + sistem aracı olarak `poppler-utils`.
 
 ## 11. Sıradaki adım
 
-**Kurucu onayı bekleniyor.** Faz 1, 2 ve 3 tamamlandı. **Faz 4 onay gelmeden
-başlamaz.**
+**Faz 4 başladı.** Kurucu onayı geldi ve onunla birlikte Faz 3'ün açık
+bıraktığı üç konu karara bağlandı (§ 11b · CHANGELOG D39–D41).
 
 A1 kapandı: kurucu (a) şıkkını seçti — depo public, proza depo dışında
 (D29). Politika artık bir disiplin talebi değil, `validate_structure`
@@ -506,7 +506,7 @@ kapsam notu). `ROADMAP_PROGRESS.md` doğru sayıyı zaten kullanıyor.
 Faz 4 açılışları: **A · Su atı**, **B · Tilki kadın**, **E · Derinlerin
 yılanı** — üçü de `KIN_OPENINGS.md`'de kilitli.
 
-Onay geldiğinde ilk emir:
+Yazımın emri değişmedi:
 
 ```
 "Sınıf III'ün ilk üç maddesini yaz. Girdi her madde için üçlüdür —
@@ -514,19 +514,26 @@ Onay geldiğinde ilk emir:
  Tek seferde en fazla üç madde."
 ```
 
-### Faz 4'e devredilen üç şey
+> **`.gate` Faz 4'te de `phase3`'tür.** Kapı seviyeleri
+> `draft → phase1 → phase2 → phase3` ile biter; `phase3` bir *faz adı*
+> değil, **yazım kapısının** adıdır ve yazılan her maddeyi denetler.
+> Faz 4 yeni bir kapı seviyesi açmaz, açılmış olanı 88 maddeye taşır.
 
-1. **Üslup sürüklenmesi %21** — uyarı bandında. Yükselen sözcükler
-   çözümleyici kayda ait (*about · rather · nothing · person · people ·
-   creature · figure*). 5. bölümlerin soyut dağarcığı kalınlaşıyor.
-   Faz 4'te her beş maddede `qa_drift` koşulmalı; Faz 5 editoryal
-   inceleme bunu düzeltir.
-2. **Ham plaka seti** — hattın dışındaki tek girdi, hâlâ bekliyor.
-   45 maddenin plakası da bu girdiye bağlı.
-3. **Kayıtlı vaka açığı** — araştırma dosyalarının `incident` alanı
-   112 maddenin 109'unda *"Faz 3'te kaynaktan doğrudan okunacak"*
-   yazıyor. Faz 3 bunu dosyadaki `behaviour` ve kanonik olaydan yazarak
-   çözdü; uydurma yapılmadı. Ayrıntı: § 12.
+---
+
+## 11b. Kurucu kararları — 7 Ağustos 2026
+
+Faz 3 raporunun kurucuya bıraktığı üç soru kapandı. **Üçü de artık açık
+soru değildir.** Tam gerekçeler: `CHANGELOG.md` D39–D41.
+
+| Konu | Karar | Faz 4'te ne yapılır |
+|---|---|---|
+| **A · İllüstrasyon** | Ham AI plaka üretimi **kurucunun sorumluluğudur** ve **Faz 5'ten önce** tamamlanacaktır. Faz 4 bu yüzden bloklanmaz. | Hat bekleme durumunda **hazır** tutulur ve bozulmaz. Plakaya bağlı Definition of Done maddeleri açık kalır ve sebebi yazılır. |
+| **B · Üslup sürüklenmesi** | Mevcut sürüklenme (%21) Faz 4'te **düzeltilmez**. Faz 3 metni yeniden yazılmaz. | `qa_drift` düzenli koşar (her beş maddede), her ölçüm kayda geçer, artış olursa belgelenir. Düzeltme **Faz 5'in editoryal geçişine** aittir. |
+| **C · Kayıtlı vaka açığı** | Ek tarihsel araştırma turu **yapılmaz**. Davranış temelli editoryal yaklaşım sürer. | 4. bölümler yalnızca araştırma dosyasındaki malzemeden yazılır. **Tarihsel vaka uydurulmaz, örnek uydurulmaz.** Konu gelecek bir baskıda yeniden açılabilir; not Faz 5'te. |
+
+> Üçünün ortak yanı: hiçbiri bir kapıyı gevşetmiyor. Ertelenen şey
+> **düzeltme**dir, **ölçüm** değil.
 
 ---
 
@@ -572,12 +579,14 @@ Evi'nde Hunahpú'nun başı (Popol Vuh II).
 ### Faz 4–5 için ne demek
 
 Bu bir **eksik değil, ertelenmiş bir araştırma kalemidir** ve kalan 67
-maddede de aynı biçimde karşılaşılacaktır. İki seçenek var:
+maddede de aynı biçimde karşılaşılacaktır. İki seçenek vardı:
 
 1. **Bugünkü çözüm** — 4. bölüm dosyadaki malzemeden yazılır; kanonik olay
    varsa vaka odur. Uydurma riski sıfır, "tarih ve yer" oranı düşük.
 2. **Ek araştırma turu** — 109 maddenin `incident` alanı için kaynak
    metinlere dönülür. Maliyetli ve Faz 1'in bütçesinde yoktu.
 
-Karar **kurucunundur** ve Faz 4 başlamadan verilmelidir. Bugünkü metin
-(1) ile yazılmıştır ve kapılardan geçmektedir.
+**Kurucu (1)'i seçti** — karar C, 7 Ağustos 2026 · CHANGELOG D41.
+Faz 4 aynı yöntemle yazılır. Tarihsel vaka uydurulmaz, örnek uydurulmaz;
+kayıt yoksa cümle de yoktur. Konu, yeni doğrulanmış kaynak bulunursa
+**gelecek bir baskıda** yeniden açılabilir ve bu not Faz 5'e bırakıldı.

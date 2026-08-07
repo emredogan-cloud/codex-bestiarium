@@ -113,6 +113,37 @@ PHASES = [
 # Faz başına yazılacak madde aralığı (sınıf sırasına göre)
 PHASE_CLASSES = {3: ["I", "II"], 4: ["III", "IV"], 5: ["V", "VI"]}
 
+# YÜRÜRLÜKTEKİ KURUCU KARARLARI
+#
+# Buradaki satırlar kararın GEREKÇESİ değil, YÜRÜRLÜKTEKİ SONUCUDUR: bir
+# faz koşarken "bugün ne yapılır" sorusunun cevabı. Gerekçe tek yerde
+# durur ve orası `CHANGELOG.md`'dir; iki yerde tutulan bir gerekçe er geç
+# iki farklı gerekçe olur.
+#
+# Bağ kopmasın diye aşağıdaki her kimlik CHANGELOG'da ARANIR (bkz.
+# `check_decision_links`). Karar numarası değişir de burası unutulursa
+# CI kırmızı yanar — disiplin unutulur, mekanizma unutmaz.
+FOUNDER_DECISIONS = [
+    {
+        "id": "D39", "date": "2026-08-07", "topic": "İllüstrasyon",
+        "effect": "Ham AI plaka üretimi **kurucunun** işidir ve Faz 5'ten "
+                  "önce tamamlanır. Hiçbir yazım fazı plaka yüzünden "
+                  "bloklanmaz; hat bekleme durumunda **hazır** tutulur.",
+    },
+    {
+        "id": "D40", "date": "2026-08-07", "topic": "Üslup sürüklenmesi",
+        "effect": "Sürüklenme Faz 4'te **düzeltilmez, ölçülür**. Yazılmış "
+                  "ve etiketlenmiş metin gerekçesiz açılmaz. Düzeltme "
+                  "Faz 5'in editoryal geçişine aittir.",
+    },
+    {
+        "id": "D41", "date": "2026-08-07", "topic": "Kayıtlı vaka açığı",
+        "effect": "Ek tarihsel araştırma turu **yapılmaz**. Maddenin 4. "
+                  "bölümü yalnızca araştırma dosyasındaki malzemeden "
+                  "yazılır. **Vaka uydurulmaz; kayıt yoksa cümle de yok.**",
+    },
+]
+
 
 def today() -> str:
     return dt.date.today().isoformat()
@@ -515,6 +546,18 @@ def render_progress(d: dict) -> str:
     A("| Yapı | `validate_structure.py` | her push |")
     A("")
 
+    A("## Yürürlükteki kurucu kararları")
+    A("")
+    A("Gerekçeler `CHANGELOG.md`'de; burada yalnızca **bugün ne yapıldığı**")
+    A("yazar.")
+    A("")
+    A("| # | Konu | Yürürlükteki sonuç | Tarih |")
+    A("|---|---|---|---|")
+    for dec in FOUNDER_DECISIONS:
+        A(f"| **{dec['id']}** | {dec['topic']} | {dec['effect']} | "
+          f"{dec['date']} |")
+    A("")
+
     A("## Sonraki eylem")
     A("")
     if d["sourced"] < VERIFY_FLOOR:
@@ -551,11 +594,38 @@ def render_progress(d: dict) -> str:
 # GİRİŞ NOKTASI
 # =============================================================================
 
+def check_decision_links() -> list[str]:
+    """Her kurucu kararının gerekçesi CHANGELOG'da duruyor mu?
+
+    `ROADMAP_PROGRESS.md` kararın SONUCUNU taşır, gerekçesini değil.
+    Gerekçe CHANGELOG'dan silinir veya numarası değişirse, üretilen
+    belgede bir kimliğe yapılan gönderme boşluğa bakar. Bu, tam olarak
+    Faz 2'nin `LIVING_TRADITIONS` kusurudur (D28): denk gelmeyen bir
+    satır sessizce ÖLÜ BİR KURALDIR.
+    """
+    path = os.path.join(ROOT, "CHANGELOG.md")
+    if not os.path.exists(path):
+        return ["CHANGELOG.md yok"]
+    with open(path, encoding="utf-8") as fh:
+        text = fh.read()
+    return [
+        f"{dec['id']} ({dec['topic']}) CHANGELOG'da yok"
+        for dec in FOUNDER_DECISIONS
+        if f"| {dec['id']} |" not in text
+    ]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--check", action="store_true",
                     help="yazma; bayatsa çıkış 1")
     args = ap.parse_args()
+
+    broken = check_decision_links()
+    if broken:
+        print("KOPUK KARAR BAĞI:", "; ".join(broken))
+        print("Gerekçe CHANGELOG.md'de bir karar satırı olarak durmalıdır.")
+        return 1
 
     d = gather()
     outputs = [(STATS_PATH, render_stats(d)), (PROGRESS_PATH, render_progress(d))]
