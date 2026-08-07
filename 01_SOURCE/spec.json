@@ -15,7 +15,7 @@
     "targets": {
       "creatures": 112,
       "traditions": 40,
-      "pages": 380,
+      "pages": 436,
       "words": 78400,
       "wordsPerEntry": 700,
       "wordBandMin": 620,
@@ -29,18 +29,18 @@
     "classificationLockedAt": "phase2",
     "pageBudget": {
       "perClass": {
-        "I": 44,
-        "II": 68,
-        "III": 48,
-        "IV": 60,
-        "V": 40,
-        "VI": 20
+        "I": 54,
+        "II": 81,
+        "III": 57,
+        "IV": 72,
+        "V": 48,
+        "VI": 24
       },
-      "entryPages": 280,
+      "entryPages": 336,
       "openingPages": 28,
       "matterPages": 72,
-      "total": 380,
-      "pagesPerEntry": 2.5
+      "total": 436,
+      "pagesPerEntry": 3.0
     }
   },
   "classes": [
@@ -55,7 +55,7 @@
         "D1146"
       ],
       "targetEntries": 18,
-      "targetPages": 44,
+      "targetPages": 54,
       "roadmapTargetEntries": 22,
       "roadmapTargetPages": 56,
       "openingPages": 2,
@@ -76,7 +76,7 @@
         "G11-G399"
       ],
       "targetEntries": 27,
-      "targetPages": 68,
+      "targetPages": 81,
       "roadmapTargetEntries": 28,
       "roadmapTargetPages": 70,
       "openingPages": 2,
@@ -98,7 +98,7 @@
         "D610"
       ],
       "targetEntries": 19,
-      "targetPages": 48,
+      "targetPages": 57,
       "roadmapTargetEntries": 22,
       "roadmapTargetPages": 56,
       "openingPages": 2,
@@ -121,7 +121,7 @@
         "F420"
       ],
       "targetEntries": 24,
-      "targetPages": 60,
+      "targetPages": 72,
       "roadmapTargetEntries": 24,
       "roadmapTargetPages": 60,
       "openingPages": 2,
@@ -144,7 +144,7 @@
         "F960"
       ],
       "targetEntries": 16,
-      "targetPages": 40,
+      "targetPages": 48,
       "roadmapTargetEntries": 14,
       "roadmapTargetPages": 36,
       "openingPages": 2,
@@ -165,7 +165,7 @@
         "E200-E599"
       ],
       "targetEntries": 8,
-      "targetPages": 20,
+      "targetPages": 24,
       "roadmapTargetEntries": 10,
       "roadmapTargetPages": 26,
       "openingPages": 2,

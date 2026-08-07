@@ -118,6 +118,23 @@ case $? in
   *) FAILED+=("plaka format bütçeleri") ;;
 esac
 
+# Madde sayfası prova dizgisi. reportlab + font ister; ikisi de yoksa atlanır.
+# Sayfa bütçesinin (436 sayfa) tek dayanağı bu ölçümdür.
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ madde sayfası prova dizgisi"
+echo "──────────────────────────────────────────────────────────────────────"
+if ls 07_ASSETS/fonts/*.ttf >/dev/null 2>&1; then
+  $CAL_PY 08_BUILD/entry_page.py --proof
+  case $? in
+    0) ;;
+    2) echo "ATLANDI: reportlab yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+    *) FAILED+=("madde sayfası prova dizgisi") ;;
+  esac
+else
+  echo "ATLANDI: font yok — ./08_BUILD/bootstrap.sh çalıştırın"
+fi
+
 run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
 run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"

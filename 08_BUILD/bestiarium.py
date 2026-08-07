@@ -50,7 +50,12 @@ TARGET_TRADITIONS = 40
 SCOPE_FLOOR = 100          # bu sayının altına inilirse kitap yeniden planlanır
 VERIFY_FLOOR = 112         # Faz 1 tamamlanma ölçütü
 MIN_SOURCES = 2            # iki bağımsız kaynak kuralı
-TARGET_PAGES = 380      # Faz 1 kilidi sonrası; dizgi Faz 6'da ölçecek
+# Faz 2'nin PROVA DİZGİSİNDEN ölçüldü (`entry_page.py --proof`):
+#   madde 112 × 3 = 336 · açılış 28 · ön/arka madde + dizin + kaynak 72
+# Madde başına 3 sayfa bir yuvarlama değil, PLAKA KURALININ bedelidir:
+# plaka maddenin üst yarısına oturur, dolayısıyla her madde bir sayfanın
+# başından başlar ve son sayfası yarım kalır (ölçülen içerik 2,558 sayfa).
+TARGET_PAGES = 436
 TARGET_WORDS = 78_400   # 112 × 700
 
 # --- madde bantları (yol haritası Bölüm 05.2) -----------------------------

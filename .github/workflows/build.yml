@@ -118,6 +118,22 @@ jobs:
       - name: python bağımlılıkları
         run: pip install --quiet -r 08_BUILD/requirements.txt
 
+      # Fontlar depoda tutulmaz ama SIL OFL 1.1'dir ve serbestçe indirilebilir.
+      # İndirilmediklerinde CI dizgiyi HİÇ sınamıyordu — bozuk bir hattı ilk
+      # kez Faz 6'da görmek en pahalı senaryodur.
+      - name: fontlar (SIL OFL 1.1)
+        continue-on-error: true
+        run: |
+          GF="https://raw.githubusercontent.com/google/fonts/main/ofl"
+          mkdir -p 07_ASSETS/fonts
+          curl -fsSL "$GF/cinzel/Cinzel%5Bwght%5D.ttf" \
+               -o "07_ASSETS/fonts/Cinzel[wght].ttf"
+          curl -fsSL "$GF/ebgaramond/EBGaramond%5Bwght%5D.ttf" \
+               -o "07_ASSETS/fonts/EBGaramond[wght].ttf"
+          curl -fsSL "$GF/ebgaramond/EBGaramond-Italic%5Bwght%5D.ttf" \
+               -o "07_ASSETS/fonts/EBGaramond-Italic[wght].ttf"
+          ls -l 07_ASSETS/fonts/
+
       - name: metin ve font var mı
         id: inputs
         run: |
@@ -127,7 +143,24 @@ jobs:
           echo "text=$TEXT"   >> "$GITHUB_OUTPUT"
           echo "fonts=$FONTS" >> "$GITHUB_OUTPUT"
           [ "$TEXT" = "true" ]  || echo "::notice::manuscript yok — dizgi atlanıyor (yazım Faz 3'te başlar)"
-          [ "$FONTS" = "true" ] || echo "::notice::font yok (.gitignore § ④) — dizgi atlanıyor"
+          [ "$FONTS" = "true" ] || echo "::notice::font indirilemedi — dizgi atlanıyor"
+
+      # Metin gelmeden dizilebilen TEK şey madde sayfasıdır: geometrisi
+      # spec'ten, dolgusu bölüm bantlarından gelir (proza değil, ölçüm
+      # dolgusu). Sayfa bütçesinin dayanağı bu ölçümdür — 436 sayfa, madde
+      # başına 3 — ve her push'ta yeniden ölçülür.
+      - name: madde sayfası prova dizgisi
+        if: steps.inputs.outputs.fonts == 'true'
+        run: python3 08_BUILD/entry_page.py --proof --verbose
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: entry-page-proof
+          path: |
+            04_PRINT/PROOF/*.pdf
+            06_REPORTS/entry-page-proof.json
+          if-no-files-found: ignore
 
       - name: iç blok PDF
         if: steps.inputs.outputs.text == 'true' && steps.inputs.outputs.fonts == 'true'

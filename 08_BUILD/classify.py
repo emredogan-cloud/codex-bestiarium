@@ -22,20 +22,28 @@ NEDEN BU MİMARİ?
     maddenin 6. bölümüne ("Akrabaları") girecek olan AYRIŞMA cümlesidir.
     Grafiğin kapanışı, simetrisi ve bant denetimi üretilir.
 
-SAYFA BÜTÇESİ
-    Yol haritası Bölüm 05.3'ün modeli 120 madde için kurulmuştu: 304 madde
-    sayfası + 100 madde-dışı sayfa = 404. Madde başına 304/120 ≈ 2,53 sayfa.
-    Kapsam Faz 1'de 112'ye kilitlendi; model korunur, sayı yeniden dağıtılır:
+SAYFA BÜTÇESİ — MODEL DEĞİL ÖLÇÜM
+    Yol haritası Bölüm 05.3'ün modeli 120 madde için 304 madde sayfası
+    veriyordu: madde başına ≈2,53 sayfa. Faz 2'nin PROVA DİZGİSİ o modeli
+    doğruladı ve bir şey daha gösterdi (`08_BUILD/entry_page.py`):
 
-        madde sayfası      112 × 2,5            = 280
+        ölçülen içerik yüksekliği        2,558 sayfa/madde  (model 2,53 ✓)
+        madde başına GERÇEK maliyet      3 sayfa
+
+    Aradaki 0,44 sayfa, plaka kuralının bedelidir: plaka maddenin ÜST
+    YARISINA oturur (STYLE_PLATES § 7.2), dolayısıyla her madde bir sayfanın
+    başından başlamak zorundadır ve son sayfası yarım kalır. Sürekli akış
+    286 sayfa verirdi ama plakayı sayfa ortasına düşürürdü.
+
+        madde sayfası      112 × 3              = 336
         sınıf açılışları   6 × 2                =  12
         karşılaştırma      8 × 2                =  16
         ön/arka madde + dizin + kaynaklar       =  72
                                                  ────
-                                                  380   = TARGET_PAGES
+                                                  436   = TARGET_PAGES
 
-    Sınıf başına bütçe çift sayfaya yuvarlanır (bölüm sağ sayfadan başlar);
-    yuvarlama artığı ön/arka madde payından düşülür ve toplam BİREBİR tutar.
+    Telif her üç sürümde de pozitif kalıyor ve sayfa sayıları KDP bandının
+    içinde (`editions.verify_royalties`); ciltsizde fark 9,36 $ → 8,76 $.
 
 KULLANIM
     python3 08_BUILD/classify.py            # uygula
@@ -76,8 +84,10 @@ KIN_MAP_PATH = os.path.join(SOURCE_DIR, "kin_map.json")
 GRAPH_REPORT = os.path.join(REPORT_DIR, "crossref-graph.json")
 OPENINGS_DOC = os.path.join(CONTEXT_DIR, "KIN_OPENINGS.md")
 
-# --- sayfa bütçesi modeli (yol haritası Bölüm 05.3'ten türetildi) ----------
-PAGES_PER_ENTRY = 2.5
+# --- sayfa bütçesi (Faz 2 prova dizgisinden ÖLÇÜLDÜ) ----------------------
+# `08_BUILD/entry_page.py --proof` ile ölçüldü; oradaki sabitle aynı olmak
+# ZORUNDADIR ve `entry_page.py` ayrışmayı kırmızı yakar.
+PAGES_PER_ENTRY = 3.0
 CLASS_OPENING_PAGES = 2      # sınıf başına
 KIN_OPENING_PAGES = 2        # aile başına
 
@@ -117,10 +127,9 @@ def adjacency(km: dict) -> dict[str, dict[str, dict]]:
 
 def page_budget(counts: dict[str, int]) -> dict:
     """Sınıf başına sayfa bütçesi. Toplam TARGET_PAGES'i birebir tutar."""
-    per_class = {}
-    for cid in CLASS_IDS:
-        raw = counts.get(cid, 0) * PAGES_PER_ENTRY
-        per_class[cid] = 2 * round(raw / 2)     # çift sayfaya yuvarla
+    per_class = {
+        cid: round(counts.get(cid, 0) * PAGES_PER_ENTRY) for cid in CLASS_IDS
+    }
     entry_pages = sum(per_class.values())
     openings = len(CLASS_IDS) * CLASS_OPENING_PAGES + len(KIN_IDS) * KIN_OPENING_PAGES
     matter = TARGET_PAGES - entry_pages - openings

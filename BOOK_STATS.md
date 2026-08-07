@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/2-tasnif` · son etiket `v0.1.0` · 11 commit
+> Son ölçüm: **2026-08-07** · dal `faz/2-tasnif` · son etiket `v0.1.0` · 13 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -22,7 +22,7 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Yazılmış madde | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Normalize plaka | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Kelime (yazılmış) | 0 | 78,400 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| Tahmini sayfa | — | 380 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
+| Tahmini sayfa | — | 436 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 
 Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 ölçülen 6×9 · 11,2/15,6 pt dizgi yoğunluğu). Gerçek değer dizgi
@@ -53,24 +53,24 @@ kayıt olarak korunur (bkz. `CHANGELOG.md` · karar D21).
 
 | # | Sınıf | Madde | Hedef | Sapma | Sayfa | Yol haritası (120) |
 |---|---|---:|---:|---:|---:|---:|
-| I | THE GUARDIANS · Bekçiler | 18 | 18 | — | 44 | 22 / 56 s |
-| II | THE DEVOURERS · Yutucular | 27 | 27 | — | 68 | 28 / 70 s |
-| III | THE SHAPE-CHANGERS · Şekil Değiştirenler | 19 | 19 | — | 48 | 22 / 56 s |
-| IV | THE WATER-DWELLERS · Su Sakinleri | 24 | 24 | — | 60 | 24 / 60 s |
-| V | SKY AND STORM · Gök ve Fırtına | 16 | 16 | — | 40 | 14 / 36 s |
-| VI | THE RESTLESS DEAD · Huzursuz Ölüler | 8 | 8 | — | 20 | 10 / 26 s |
+| I | THE GUARDIANS · Bekçiler | 18 | 18 | — | 54 | 22 / 56 s |
+| II | THE DEVOURERS · Yutucular | 27 | 27 | — | 81 | 28 / 70 s |
+| III | THE SHAPE-CHANGERS · Şekil Değiştirenler | 19 | 19 | — | 57 | 22 / 56 s |
+| IV | THE WATER-DWELLERS · Su Sakinleri | 24 | 24 | — | 72 | 24 / 60 s |
+| V | SKY AND STORM · Gök ve Fırtına | 16 | 16 | — | 48 | 14 / 36 s |
+| VI | THE RESTLESS DEAD · Huzursuz Ölüler | 8 | 8 | — | 24 | 10 / 26 s |
 
 ### Sayfa bütçesi
 
-Madde başına **2.5 sayfa** (yol haritası Bölüm 05.3'ün 304/120 ≈ 2,53 modelinden, kilitlenen
+Madde başına **3.0 sayfa** (yol haritası Bölüm 05.3'ün 304/120 ≈ 2,53 modelinden, kilitlenen
 112 maddelik kapsama göre yeniden dağıtıldı).
 
 | Kalem | Sayfa |
 |---|---:|
-| Maddeler (112 × 2.5) | 280 |
+| Maddeler (112 × 3.0) | 336 |
 | Sınıf ve karşılaştırma açılışları | 28 |
 | Ön/arka madde · dizinler · kaynaklar | 72 |
-| **Toplam** | **380** |
+| **Toplam** | **436** |
 
 ## 5. Akraba imge aileleri
 

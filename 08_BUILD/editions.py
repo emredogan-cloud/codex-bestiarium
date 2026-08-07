@@ -281,7 +281,7 @@ PAPERBACK = Edition(
     gutter=0.875, outer=0.625, top=0.75, bottom=0.75,
     display_scale=1.0, folio_pt=9.2, head_pt=7.6,
     price_usd=24.99,
-    kdp_notes="Codex Bestiarium. Sayfa TAHMİNİ 380 (provisional) — dizgi Faz 6'da ölçecek.",
+    kdp_notes="Codex Bestiarium. Sayfa 436 — Faz 2 prova dizgisinden ölçüldü; Faz 6 tam dizgide teyit edecek.",
     slug="PAPERBACK",
 )
 
@@ -301,7 +301,7 @@ HARDCOVER = Edition(
     gutter=0.875, outer=0.625, top=0.75, bottom=0.75,
     display_scale=1.0, folio_pt=9.2, head_pt=7.6,
     price_usd=37.99,
-    kdp_notes="İç blok ciltsizle özdeştir (bilinçli). 75–550 sayfa sınırı: 380 ✓ (provisional)",
+    kdp_notes="İç blok ciltsizle özdeştir (bilinçli). 75–550 sayfa sınırı: 436 ✓",
     slug="HARDCOVER",
 )
 
@@ -322,7 +322,7 @@ LARGEPRINT = Edition(
     display_scale=1.28, folio_pt=13.0, head_pt=10.5,
     price_usd=29.99,
     title_suffix=" (Large Print Edition)",
-    kdp_notes="Ayrı ASIN. Başlıkta 'Large Print' geçmeli. Sayfa TAHMİNİ ~665 (provisional).",
+    kdp_notes="Ayrı ASIN. Başlıkta 'Large Print' geçmeli. Sayfa ~763 (436 × 1,75).",
     slug="LARGEPRINT",
 )
 
@@ -338,10 +338,12 @@ ORDER = ["paperback", "hardcover", "largeprint"]
 # gerçek değeri ÖLÇECEK. Cilt 1'de büyük punto 540 sayfa modellenmiş, 578
 # çıkmıştı — model değil ölçüm geçerlidir.
 
+# Faz 2 GÜNCELLEMESİ: 380 → 436. Prova dizgisi (entry_page.py) madde başına
+# 3 sayfa ölçtü; 380 rakamı 2,5 sayfalık MODELDEN geliyordu.
 PROVISIONAL_PAGES = {
-    "paperback": 380,     # Faz 1 kapsam kilidi: 112 madde
-    "hardcover": 380,     # iç blok ciltsizle özdeş
-    "largeprint": 665,    # 380 × 1.75 (Cilt 1'de ölçülen 329→578 oranı)
+    "paperback": 436,     # 112 madde × 3 + 28 açılış + 72 matter
+    "hardcover": 436,     # iç blok ciltsizle özdeş
+    "largeprint": 763,    # 436 × 1.75 (Cilt 1'de ölçülen 329→578 oranı)
 }
 PROVISIONAL = True
 

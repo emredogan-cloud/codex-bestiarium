@@ -331,7 +331,7 @@ maddeleriyle birlikte yazılır. Konu başlıkları burada kilitlidir.
 
 > Eşiği, kapıyı, hazineyi, sınırı tutanlar. Geçişin bedelini alan varlıklar.
 
-**Bütçe.** 18 madde · 44 sayfa + 2 sayfa açılış
+**Bütçe.** 18 madde · 54 sayfa + 2 sayfa açılış
 
 - Kapı neden bekçi ister: eşik bir yer değil bir karardır
 - Bedel biçimleri — geçiş ücreti, sınav, bakış, isim
@@ -343,7 +343,7 @@ maddeleriyle birlikte yazılır. Konu başlıkları burada kilitlidir.
 
 > İnsan yiyenler, çocuk çalanlar, kan içenler. Açlığın kişileşmiş hâli.
 
-**Bütçe.** 27 madde · 68 sayfa + 2 sayfa açılış
+**Bütçe.** 27 madde · 81 sayfa + 2 sayfa açılış
 
 - Açlık neden kitabın en kalabalık sınıfı: folklorun en yaygın işi tehlikeyi adlandırmaktır
 - Üç ayrı açlık — insan eti, çocuk, kan
@@ -355,7 +355,7 @@ maddeleriyle birlikte yazılır. Konu başlıkları burada kilitlidir.
 
 > Deri değiştirenler, kılık girenler, kandıranlar. Kimliğin güvenilmezliği.
 
-**Bütçe.** 19 madde · 48 sayfa + 2 sayfa açılış
+**Bütçe.** 19 madde · 57 sayfa + 2 sayfa açılış
 
 - Kimliğin güvenilmezliği: en eski korku, en yeni korku
 - Kim değişir — varlık mı, insan mı, ikisi de mi
@@ -367,7 +367,7 @@ maddeleriyle birlikte yazılır. Konu başlıkları burada kilitlidir.
 
 > Nehirde, gölde, denizde, kuyuda olanlar. Boğulmanın anlatıya dönüşmüş hâli.
 
-**Bütçe.** 24 madde · 60 sayfa + 2 sayfa açılış
+**Bütçe.** 24 madde · 72 sayfa + 2 sayfa açılış
 
 - Boğulmanın anlatıya dönüşmesi: her göl bir uyarı taşır
 - Su atı ve derinlerin yılanı — iki ailenin sınıf içindeki yeri
@@ -379,7 +379,7 @@ maddeleriyle birlikte yazılır. Konu başlıkları burada kilitlidir.
 
 > Kanat çırpınca gök gürleyenler. Havanın açıklanması.
 
-**Bütçe.** 16 madde · 40 sayfa + 2 sayfa açılış
+**Bütçe.** 16 madde · 48 sayfa + 2 sayfa açılış
 
 - Havanın açıklanması: gök gürültüsünün bir gövdesi olmalı
 - Dev kuş ailesi ve üç ayrı Thompson dalı
@@ -391,7 +391,7 @@ maddeleriyle birlikte yazılır. Konu başlıkları burada kilitlidir.
 
 > Gömülmüş ama gitmemiş olanlar. Yasın tamamlanmamış hâli.
 
-**Bütçe.** 8 madde · 20 sayfa + 2 sayfa açılış
+**Bütçe.** 8 madde · 24 sayfa + 2 sayfa açılış
 
 - Yasın tamamlanmaması: gömülmüş ama gitmemiş
 - Kim geri döner — haksız ölen, yatıştırılmayan, doğumda ölen
