@@ -1577,7 +1577,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dağda yaşayan, kibirliyi cezalandıran kanatlı varlık.",
       "researchFile": "01_SOURCE/research/tengu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "garuda",
@@ -1902,7 +1902,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "At, keçi, tavşan olabilen; kimi zaman koruyan kimi zaman yolu şaşırtan.",
       "researchFile": "01_SOURCE/research/puca.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "humbaba",
@@ -2222,7 +2222,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Kendi hayvanına dönüşebilen büyücü; doğduğu güne bağlı ikinci beden.",
       "researchFile": "01_SOURCE/research/nahual.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "strix",
