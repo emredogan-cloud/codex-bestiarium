@@ -10,6 +10,7 @@
     "imprint": "Vâliçe Press",
     "generatedBy": "08_BUILD/seed_import.py",
     "sourceOfTruth": "CODEX_MYTHOLOGICA/03_CODEX_BESTIARIUM_MASTER_ROADMAP.html § 04",
+    "amendments": 1,
     "warning": "Bu bir kanon DEĞİLDİR. Her kayıt Faz 1'deki iki bağımsız kaynak kapısından geçmeden status 'verified' olamaz.",
     "targets": {
       "creatures": 120,
@@ -2106,32 +2107,52 @@
       "id": "koropokkuru",
       "number": 64,
       "name": "Koropokkuru",
-      "pronunciation": "",
+      "pronunciation": "ko-ro-POK-koo-roo",
       "tradition": "ainu",
       "class": "I",
       "motif": [
         "F451"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": "H",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Korpokkur",
+        "Koro-pok-guru"
+      ],
+      "region": "Hokkaidō ve Kuril adaları; Ainu anlatılarında adanın ÖNCEKİ sakinleri",
+      "attested": "Batchelor'ın 1890'lardaki saha çalışmasından; 1901'de yayımlandı",
+      "sources": [
+        {
+          "ref": "John Batchelor, *The Ainu and Their Folk-Lore* (Londra: Religious Tract Society, 1901)",
+          "type": "primary",
+          "verification": "fulltext",
+          "locus": "Bölüm II — \"The Pit-dwellers and Causes of Ainu Decrease\""
+        },
+        {
+          "ref": "Donald L. Philippi, *Songs of Gods, Songs of Humans: The Epic Tradition of the Ainu* (Tokyo/Princeton: University of Tokyo Press ve Princeton University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-064",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Koropokkuru anlatısı bir yaratık anlatısı olduğu kadar bir ARKEOLOJİ açıklamasıdır: adadaki çukur ev kalıntılarına ad verir.",
+      "restrictionScreened": true,
       "seedNoteTr": "Devetabanı yaprağı altında yaşayan küçük halk; balık bırakıp kaybolan.",
       "researchFile": "01_SOURCE/research/koropokkuru.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "repun-kamuy",
       "number": 65,
       "name": "Repun Kamuy",
-      "pronunciation": "",
+      "pronunciation": "REH-pun KAH-mooy",
       "tradition": "ainu",
       "class": "I",
       "motif": [
@@ -2139,15 +2160,38 @@
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Repun-riri-kata inao uk kamui"
+      ],
+      "region": "Hokkaidō kıyıları ve açık deniz; balina avcılığı yapılan yerleşimler",
+      "attested": "Batchelor'ın 1890'lar öncesi kayıtları; Munro'nun 1930'lar saha çalışması",
+      "sources": [
+        {
+          "ref": "Donald L. Philippi, *Songs of Gods, Songs of Humans: The Epic Tradition of the Ainu* (Tokyo/Princeton: University of Tokyo Press ve Princeton University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Neil Gordon Munro, *Ainu Creed and Cult* (New York: Columbia University Press, 1963)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "John Batchelor, *The Ainu of Japan: The Religion, Superstitions, and General History of the Hairy Aborigines of Japan* (Londra: Religious Tract Society, 1892)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-065",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
+      "restrictionScreened": true,
       "seedNoteTr": "Açık denizin tanrısı; katil balina kılığında av bağışlayan.",
       "researchFile": "01_SOURCE/research/repun-kamuy.md",
       "status": "draft"
@@ -2156,26 +2200,46 @@
       "id": "kenas-unarpe",
       "number": 66,
       "name": "Kenas-unarpe",
-      "pronunciation": "",
+      "pronunciation": "KEH-nas oo-NAR-peh",
       "tradition": "ainu",
       "class": "II",
       "motif": [
-        "G264"
+        "G262.0.1"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Nitat-unarabe",
+        "Kenash-unarabe"
+      ],
+      "region": "Hokkaidō; bataklık ve ırmak kıyısı çalılıkları",
+      "attested": "Batchelor'ın 1890'lar saha derlemesi; 1901",
+      "sources": [
+        {
+          "ref": "John Batchelor, *The Ainu and Their Folk-Lore* (Londra: Religious Tract Society, 1901)",
+          "type": "primary",
+          "verification": "fulltext",
+          "locus": "Bölüm IV — \"The Creation of the World\""
+        },
+        {
+          "ref": "Donald L. Philippi, *Songs of Gods, Songs of Humans: The Epic Tradition of the Ainu* (Tokyo/Princeton: University of Tokyo Press ve Princeton University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-066",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Ad sabit değil, YER değişkeni taşıyor: nitat (bataklık) veya kenas (kıyı çalılığı) + unarpe (teyze). Yaratık, bulunduğu araziyle adlandırılıyor.",
+      "restrictionScreened": true,
       "seedNoteTr": "Bataklıkta bekleyen; loğusayı ve yolcuyu avlayan yaşlı kadın.",
       "researchFile": "01_SOURCE/research/kenas-unarpe.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "thuong-luong",
@@ -2631,32 +2695,52 @@
       "id": "vishap",
       "number": 85,
       "name": "Vishap",
-      "pronunciation": "",
+      "pronunciation": "vee-SHAHP",
       "tradition": "hayk",
       "class": "V",
       "motif": [
-        "B11"
+        "B11.3"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": "E",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "višap",
+        "vishapakar (dikit)"
+      ],
+      "region": "Ermeni yaylası; Geghama dağları ve Aragats çevresindeki yüksek göller",
+      "attested": "Vishapakar dikitleri Tunç Çağı'na tarihlenir; folklor kaydı 19.–20. yy derlemeleri",
+      "sources": [
+        {
+          "ref": "Mardiros H. Ananikian, *Armenian Mythology*, *The Mythology of All Races* içinde, Cilt VII (Boston: Marshall Jones, 1925)",
+          "type": "scholarly",
+          "verification": "toc",
+          "locus": "Bölüm \"Nature Worship and Nature Myths — 3. Water\""
+        },
+        {
+          "ref": "Manuk Abeghyan, \"The Stelae Called 'Vishaps' as Monuments to the Goddess Astghik-Derketo\", *Works* 7 (Erivan, 1975)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-085",
       "wordTarget": 700,
-      "variantNote": "",
+      "variantNote": "Vişap hem bir yaratık hem bir TAŞ TÜRÜDÜR; arkeoloji ile folklor aynı adı paylaşır.",
       "restrictionScreened": false,
       "seedNoteTr": "Dağ gölünde yatan; taş dikitlerle işaretlenen ejderha.",
       "researchFile": "01_SOURCE/research/vishap.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "aralez",
       "number": 86,
       "name": "Aralez",
-      "pronunciation": "",
+      "pronunciation": "ah-rah-LEZ",
       "tradition": "hayk",
       "class": "I",
       "motif": [
@@ -2664,10 +2748,30 @@
       ],
       "motifVerified": false,
       "kinFamily": "F",
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Arlez",
+        "Yaralez"
+      ],
+      "region": "Tarihî Ermenistan; savaş alanları anlatılarında",
+      "attested": "Ananikian 1925'te derlenmiş erken Ermeni kaynaklarından",
+      "sources": [
+        {
+          "ref": "Mardiros H. Ananikian, *Armenian Mythology*, *The Mythology of All Races* içinde, Cilt VII (Boston: Marshall Jones, 1925)",
+          "type": "scholarly",
+          "verification": "toc",
+          "locus": "Bölüm \"The World of Spirits and Monsters\""
+        },
+        {
+          "ref": "Manuk Abeghyan, \"The Stelae Called 'Vishaps' as Monuments to the Goddess Astghik-Derketo\", *Works* 7 (Erivan, 1975)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-086",
       "wordTarget": 700,
@@ -2675,13 +2779,13 @@
       "restrictionScreened": false,
       "seedNoteTr": "Savaş ölülerinin yarasını yalayarak dirilten köpek ruhu.",
       "researchFile": "01_SOURCE/research/aralez.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "nhang",
       "number": 87,
       "name": "Nhang",
-      "pronunciation": "",
+      "pronunciation": "n-HAHNG",
       "tradition": "hayk",
       "class": "III",
       "motif": [
@@ -2689,18 +2793,37 @@
       ],
       "motifVerified": false,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "Nhang (deniz canavarı, genel)"
+      ],
+      "region": "Ermeni yaylası ırmakları; klasik Ermeni edebiyatında genel 'deniz canavarı' anlamında da kullanılır",
+      "attested": "Ananikian 1925'te derlenmiş; terim erken Ermeni edebiyatında",
+      "sources": [
+        {
+          "ref": "Mardiros H. Ananikian, *Armenian Mythology*, *The Mythology of All Races* içinde, Cilt VII (Boston: Marshall Jones, 1925)",
+          "type": "scholarly",
+          "verification": "toc",
+          "locus": "Bölüm \"The World of Spirits and Monsters\""
+        },
+        {
+          "ref": "Manuk Abeghyan, \"The Stelae Called 'Vishaps' as Monuments to the Goddess Astghik-Derketo\", *Works* 7 (Erivan, 1975)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-087",
       "wordTarget": 700,
-      "variantNote": "",
+      "variantNote": "Nhang hem belirli bir ırmak varlığı hem genel bir 'deniz canavarı' terimi; madde ikisini ayırmak zorunda.",
       "restrictionScreened": false,
       "seedNoteTr": "Irmakta biçim değiştiren; kadın olup çeken, kan içen.",
       "researchFile": "01_SOURCE/research/nhang.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "ochokochi",
@@ -3456,76 +3579,131 @@
       "id": "adaro",
       "number": 118,
       "name": "Adaro",
-      "pronunciation": "",
+      "pronunciation": "ah-DAH-ro",
       "tradition": "melanesia",
       "class": "IV",
       "motif": [
         "F420"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "ataro"
+      ],
+      "region": "Makira (San Cristoval) adası ve çevresi, Solomon Adaları; özellikle Arosi konuşulan batı kıyısı",
+      "attested": "Fox'un 1910'lu yıllardaki saha çalışmasından derlenip 1924'te yayımlandı; Scott'ın 1992–93 saha çalışmasıyla teyit edildi",
+      "sources": [
+        {
+          "ref": "Charles Elliot Fox, *The Threshold of the Pacific: An Account of the Social Organization, Magic and Religion of the People of San Cristoval in the Solomon Islands* (Londra: Kegan Paul, Trench, Trubner, 1924)",
+          "type": "primary",
+          "verification": "toc",
+          "locus": "Bölüm VIII (\"Spiritual Beings — Adaro Ghosts\") ve Bölüm X (\"Spiritual Beings — Adaro Spirits\")"
+        },
+        {
+          "ref": "Michael W. Scott, *The Severed Snake: Matrilineages, Making Place, and a Melanesian Christianity in Southeast Solomon Islands* (Durham, NC: Carolina Academic Press, 2007)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext",
+          "locus": "F420"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-118",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Fox'un 'merman' çerçevesi ile Scott'ın ilksel-varlık okuması çelişir; çelişki maddede GÖSTERİLİR, biri seçilip diğeri gizlenmez.",
+      "restrictionScreened": true,
       "seedNoteTr": "Uçan balık üzerinde giden deniz ruhu; güneş ışınıyla vuran.",
       "researchFile": "01_SOURCE/research/adaro.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
       "id": "masalai",
       "number": 119,
       "name": "Masalai",
-      "pronunciation": "",
+      "pronunciation": "mah-sah-LYE",
       "tradition": "melanesia",
       "class": "III",
       "motif": [
-        "F400"
+        "F460"
       ],
-      "motifVerified": false,
+      "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "altNames": [
+        "masalai ples"
+      ],
+      "region": "Papua Yeni Gine geneli; Sepik, Batı Yeni Britanya ve Fore bölgelerinde ayrıntılı kayıt",
+      "attested": "Mead'in Sepik saha çalışmasından; tanım 1978'de yayımlandı. Slone'un derlediği Wantok anlatıları 1970'lerden itibaren",
+      "sources": [
+        {
+          "ref": "Margaret Mead, \"The Sepik as a Culture Area: Comment\", *Anthropological Quarterly* 51:1 (1978), 69–75",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Andrew Lattas, \"Sexuality and Cargo Cults: The Politics of Gender and Procreation in West New Britain\", *Cultural Anthropology* 6:2 (1991), 230–256",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Thomas H. Slone, *One Thousand One Papua New Guinean Nights: Folktales from Wantok Newspaper*, Cilt 1 (Oakland: Masalai Press, 2001)",
+          "type": "primary",
+          "verification": "catalog"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-119",
       "wordTarget": 700,
-      "variantNote": "",
-      "restrictionScreened": false,
+      "variantNote": "Masalai bir TÜR değil bir KATEGORİDİR; her yerin kendi masalai'si vardır. Madde bunu gizlemeyecek.",
+      "restrictionScreened": true,
       "seedNoteTr": "Yer ruhu; hayvan veya insan kılığında toprağı savunan.",
       "researchFile": "01_SOURCE/research/masalai.md",
-      "status": "draft"
+      "status": "verified"
     },
     {
-      "id": "kaia",
+      "id": "temes-savsap",
       "number": 120,
-      "name": "Kaia",
-      "pronunciation": "",
+      "name": "Temes Savsap",
+      "pronunciation": "TEH-mes SAV-sap",
       "tradition": "melanesia",
-      "class": "VI",
+      "class": "I",
       "motif": [
-        "E200"
+        "F150"
       ],
-      "motifVerified": false,
-      "kinFamily": null,
+      "motifVerified": true,
+      "kinFamily": "F",
       "altNames": [],
-      "region": "",
-      "attested": "",
-      "sources": [],
+      "region": "Malekula (Malakula) adası, Vanuatu (eski Yeni Hebridler)",
+      "attested": "Deacon'ın 1926–27 saha çalışması; 1934'te iki ayrı yayında",
+      "sources": [
+        {
+          "ref": "A. Bernard Deacon ve Camilla H. Wedgwood, \"Geometrical Drawings from Malekula and other Islands of the New Hebrides\", *Journal of the Royal Anthropological Institute of Great Britain and Ireland* 64 (1934), 129–175",
+          "type": "primary",
+          "verification": "article",
+          "locus": "129–175"
+        },
+        {
+          "ref": "A. Bernard Deacon, *Malekula: A Vanishing People in the New Hebrides*, yay. haz. Camilla H. Wedgwood (Londra: Routledge, 1934)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "John Layard, *Stone Men of Malekula* (Londra: Chatto & Windus, 1942)",
+          "type": "scholarly",
+          "verification": "catalog"
+        }
+      ],
       "crossRefs": [],
       "plate": "plate-120",
       "wordTarget": 700,
       "variantNote": "",
-      "restrictionScreened": false,
-      "seedNoteTr": "Atalardan kalan ruh; maskeyle temsil edilen.",
-      "researchFile": "01_SOURCE/research/kaia.md",
-      "status": "draft"
+      "restrictionScreened": true,
+      "seedNoteTr": "Ölüler diyarının girişinde bekleyen dişi ruh; önündeki kum çizimini tamamlayamayan ölüyü geçirmeyen.",
+      "researchFile": "01_SOURCE/research/temes-savsap.md",
+      "status": "verified"
     }
   ]
 }

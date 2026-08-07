@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `—` · son etiket `—` · 0 commit
+> Son ölçüm: **2026-08-07** · dal `faz/1-arastirma` · son etiket `v0.1.0-alpha` · 4 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -13,12 +13,12 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 |---|---:|---:|---|
 | Yaratık kaydı | 120 | 120 | `████████████████████████` %100 |
 | Gelenek | 40 | 40 | `████████████████████████` %100 |
-| Araştırma dosyası | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| İki bağımsız kaynaklı madde | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| Doğrulanmış motif kodu | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| Telaffuz alanı dolu | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
+| Araştırma dosyası | 9 | 120 | `██░░░░░░░░░░░░░░░░░░░░░░` %8 |
+| İki bağımsız kaynaklı madde | 9 | 120 | `██░░░░░░░░░░░░░░░░░░░░░░` %8 |
+| Doğrulanmış motif kodu | 6 | 120 | `█░░░░░░░░░░░░░░░░░░░░░░░` %5 |
+| Telaffuz alanı dolu | 9 | 120 | `██░░░░░░░░░░░░░░░░░░░░░░` %8 |
 | Çapraz referansı olan madde | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| Kısıtlılık taraması yapılmış | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
+| Kısıtlılık taraması yapılmış | 6 | 120 | `█░░░░░░░░░░░░░░░░░░░░░░░` %5 |
 | Yazılmış madde | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Normalize plaka | 0 | 120 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Kelime (yazılmış) | 0 | 92,000 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
@@ -32,15 +32,15 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 
 | Kapı | Eşik | Şu an | Durum |
 |---|---:|---:|---|
-| Faz 1 tamamlanma — doğrulanmış madde | 112 | 0 | ⛔ kapalı |
+| Faz 1 tamamlanma — doğrulanmış madde | 112 | 8 | ⛔ kapalı |
 | Kapsam tabanı — altına inilirse kitap yeniden planlanır | 100 | 120 | ✅ açık |
 
 ## 3. Durum dağılımı
 
 | Durum | Madde | Pay |
 |---|---:|---:|
-| `draft` | 120 | %100 |
-| `verified` | 0 | %0 |
+| `draft` | 112 | %93 |
+| `verified` | 8 | %7 |
 | `written` | 0 | %0 |
 | `edited` | 0 | %0 |
 | `final` | 0 | %0 |
@@ -49,12 +49,12 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 
 | # | Sınıf | Madde | Yol haritası hedefi | Sapma | Hedef sayfa |
 |---|---|---:|---:|---:|---:|
-| I | THE GUARDIANS · Bekçiler | 19 | 22 | -3 | 56 |
+| I | THE GUARDIANS · Bekçiler | 20 | 22 | -2 | 56 |
 | II | THE DEVOURERS · Yutucular | 29 | 28 | +1 | 70 |
 | III | THE SHAPE-CHANGERS · Şekil Değiştirenler | 20 | 22 | -2 | 56 |
 | IV | THE WATER-DWELLERS · Su Sakinleri | 25 | 24 | +1 | 60 |
 | V | SKY AND STORM · Gök ve Fırtına | 17 | 14 | +3 | 36 |
-| VI | THE RESTLESS DEAD · Huzursuz Ölüler | 10 | 10 | — | 26 |
+| VI | THE RESTLESS DEAD · Huzursuz Ölüler | 9 | 10 | -1 | 26 |
 
 ## 5. Akraba imge aileleri
 
@@ -65,11 +65,11 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 | **C** · Gece cadısı | The Night Hag | `G264` | 14 | 2 sayfa |
 | **D** · Fırtına kuşu | The Storm Bird | `B31` | 9 | 2 sayfa |
 | **E** · Derinlerin yılanı | The Serpent of the Deep | `B11.2.1.1` | 15 | 2 sayfa |
-| **F** · Eşik bekçisi | The Threshold Guardian | `F150` | 7 | 2 sayfa |
+| **F** · Eşik bekçisi | The Threshold Guardian | `F150` | 8 | 2 sayfa |
 | **G** · Yaban adamı | The Wild Man | `F460` | 6 | 2 sayfa |
 | **H** · Gizli halk | The Hidden People | `F251` | 4 | 2 sayfa |
 
-Aileye bağlı madde: **61/120** · bağımsız madde: 59
+Aileye bağlı madde: **62/120** · bağımsız madde: 58
 
 ## 6. Bölge dağılımı
 

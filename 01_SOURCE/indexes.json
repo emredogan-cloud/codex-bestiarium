@@ -481,15 +481,15 @@
           "page": "—"
         },
         {
-          "name": "Kaia",
-          "id": "kaia",
-          "class": "VI",
-          "page": "—"
-        },
-        {
           "name": "Masalai",
           "id": "masalai",
           "class": "III",
+          "page": "—"
+        },
+        {
+          "name": "Temes Savsap",
+          "id": "temes-savsap",
+          "class": "I",
           "page": "—"
         }
       ]
@@ -1077,12 +1077,6 @@
           "page": "—"
         },
         {
-          "name": "Vishap",
-          "id": "vishap",
-          "tradition": "hayk",
-          "page": "—"
-        },
-        {
           "name": "Zmeu",
           "id": "zmeu",
           "tradition": "dacia",
@@ -1188,6 +1182,12 @@
           "name": "Taniwha",
           "id": "taniwha",
           "tradition": "maohi",
+          "page": "—"
+        },
+        {
+          "name": "Vishap",
+          "id": "vishap",
+          "tradition": "hayk",
           "page": "—"
         }
       ]
@@ -1617,12 +1617,6 @@
           "page": "—"
         },
         {
-          "name": "Kaia",
-          "id": "kaia",
-          "tradition": "melanesia",
-          "page": "—"
-        },
-        {
           "name": "Lemures",
           "id": "lemures",
           "tradition": "romana",
@@ -1711,6 +1705,12 @@
           "id": "kerberos",
           "tradition": "hellenic",
           "page": "—"
+        },
+        {
+          "name": "Temes Savsap",
+          "id": "temes-savsap",
+          "tradition": "melanesia",
+          "page": "—"
         }
       ]
     },
@@ -1776,12 +1776,6 @@
           "name": "Kaji",
           "id": "kaji",
           "tradition": "kartveli",
-          "page": "—"
-        },
-        {
-          "name": "Masalai",
-          "id": "masalai",
-          "tradition": "melanesia",
           "page": "—"
         }
       ]
@@ -1884,6 +1878,12 @@
           "name": "Curupira",
           "id": "curupira",
           "tradition": "tupi-guarani",
+          "page": "—"
+        },
+        {
+          "name": "Masalai",
+          "id": "masalai",
+          "tradition": "melanesia",
           "page": "—"
         },
         {
@@ -1991,6 +1991,18 @@
       ]
     },
     {
+      "motif": "G262.0.1",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Kenas-unarpe",
+          "id": "kenas-unarpe",
+          "tradition": "ainu",
+          "page": "—"
+        }
+      ]
+    },
+    {
       "motif": "G262.1",
       "section": "G",
       "entries": [
@@ -2022,12 +2034,6 @@
           "name": "Al Karısı",
           "id": "al-karisi",
           "tradition": "turk",
-          "page": "—"
-        },
-        {
-          "name": "Kenas-unarpe",
-          "id": "kenas-unarpe",
-          "tradition": "ainu",
           "page": "—"
         },
         {
@@ -2532,6 +2538,13 @@
           "tradition": "Talmud",
           "sigil": "✡",
           "page": "—"
+        },
+        {
+          "name": "Temes Savsap",
+          "id": "temes-savsap",
+          "tradition": "Melanesia",
+          "sigil": "◉",
+          "page": "—"
         }
       ]
     },
@@ -2637,7 +2650,7 @@
     {
       "name": "Adaro",
       "id": "adaro",
-      "pronunciation": "—",
+      "pronunciation": "ah-DAH-ro",
       "page": "—",
       "type": "entry"
     },
@@ -2728,9 +2741,17 @@
     {
       "name": "Aralez",
       "id": "aralez",
-      "pronunciation": "—",
+      "pronunciation": "ah-rah-LEZ",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Arlez",
+      "id": "aralez",
+      "seeAlso": "Aralez",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Aswang",
@@ -2738,6 +2759,14 @@
       "pronunciation": "—",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "ataro",
+      "id": "adaro",
+      "seeAlso": "Adaro",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Aži Dahāka",
@@ -2971,13 +3000,6 @@
       "type": "entry"
     },
     {
-      "name": "Kaia",
-      "id": "kaia",
-      "pronunciation": "—",
-      "page": "—",
-      "type": "entry"
-    },
-    {
       "name": "Kaji",
       "id": "kaji",
       "pronunciation": "—",
@@ -3001,9 +3023,17 @@
     {
       "name": "Kenas-unarpe",
       "id": "kenas-unarpe",
-      "pronunciation": "—",
+      "pronunciation": "KEH-nas oo-NAR-peh",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Kenash-unarabe",
+      "id": "kenas-unarpe",
+      "seeAlso": "Kenas-unarpe",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Kérberos",
@@ -3027,11 +3057,27 @@
       "type": "entry"
     },
     {
+      "name": "Koro-pok-guru",
+      "id": "koropokkuru",
+      "seeAlso": "Koropokkuru",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Koropokkuru",
       "id": "koropokkuru",
-      "pronunciation": "—",
+      "pronunciation": "ko-ro-POK-koo-roo",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Korpokkur",
+      "id": "koropokkuru",
+      "seeAlso": "Koropokkuru",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Krasue",
@@ -3113,9 +3159,17 @@
     {
       "name": "Masalai",
       "id": "masalai",
-      "pronunciation": "—",
+      "pronunciation": "mah-sah-LYE",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "masalai ples",
+      "id": "masalai",
+      "seeAlso": "Masalai",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Migoi",
@@ -3162,9 +3216,25 @@
     {
       "name": "Nhang",
       "id": "nhang",
-      "pronunciation": "—",
+      "pronunciation": "n-HAHNG",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Nhang (deniz canavarı, genel)",
+      "id": "nhang",
+      "seeAlso": "Nhang",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Nitat-unarabe",
+      "id": "kenas-unarpe",
+      "seeAlso": "Kenas-unarpe",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Nykur",
@@ -3267,9 +3337,17 @@
     {
       "name": "Repun Kamuy",
       "id": "repun-kamuy",
-      "pronunciation": "—",
+      "pronunciation": "REH-pun KAH-mooy",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Repun-riri-kata inao uk kamui",
+      "id": "repun-kamuy",
+      "seeAlso": "Repun Kamuy",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Rukh",
@@ -3349,6 +3427,13 @@
       "type": "entry"
     },
     {
+      "name": "Temes Savsap",
+      "id": "temes-savsap",
+      "pronunciation": "TEH-mes SAV-sap",
+      "page": "—",
+      "type": "entry"
+    },
+    {
       "name": "Tengu",
       "id": "tengu",
       "pronunciation": "—",
@@ -3398,11 +3483,27 @@
       "type": "entry"
     },
     {
+      "name": "višap",
+      "id": "vishap",
+      "seeAlso": "Vishap",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Vishap",
       "id": "vishap",
-      "pronunciation": "—",
+      "pronunciation": "vee-SHAHP",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "vishapakar (dikit)",
+      "id": "vishap",
+      "seeAlso": "Vishap",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Way",
@@ -3431,6 +3532,14 @@
       "pronunciation": "—",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Yaralez",
+      "id": "aralez",
+      "seeAlso": "Aralez",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Zar",
