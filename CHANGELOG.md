@@ -15,7 +15,102 @@ sayılar, açık kalanlar.
 ## [Yayımlanmamış]
 
 ### Sıradaki
-- Faz 2 · Tasnif, veri modeli ve pilot plaka seti — **kurucu onayı bekliyor**
+- Faz 3 · Çekirdek yazım (Bekçiler ve Yutucular) — **kurucu onayı bekliyor**
+
+---
+
+## [0.2.0] — 2026-08-07
+
+**FAZ 2 TAMAMLANDI.** Tasnif kilitlendi, çapraz referans grafiği kuruldu,
+plaka ölçüm hattı kalibre edildi, madde sayfası dizildi ve ölçüldü.
+
+### Devralınan iki tutarsızlık — kapatıldı
+
+**① Sınıf dağılımı.** Yol haritası Bölüm 03.1'in hedefleri 120 maddelik
+kapsam için hesaplanmıştı; kapsam Faz 1'de 112'ye kilitlendi. Hedef gerçeğe
+göre güncellendi, madde zorlanmadı. Eski hedefler `roadmapTargetEntries` /
+`roadmapTargetPages` olarak tarihsel kayıtta duruyor.
+
+**② Akraba aile üyelikleri (55 mi 61 mi).** Soru, iki AYRI şeyin tek sütunda
+toplanmasından doğuyordu. Ayrıştırıldı — üyelik ve manşet kadro. Hiçbir
+araştırma atılmadı.
+
+### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D21 | Sınıf hedefi **ölçülen gerçeğe** güncellendi, madde yeniden sınıflandırılmadı | Hedefler 120 maddelik bir kitap için hesaplanmıştı ve o kitap artık yok. K1 tasnifin işleve göre olduğunu söyler; sayısal bir hedef işlevi ezemez. Yol haritası her iki yolu da meşru sayıyor. |
+| D22 | **Boitatá V → I** | Tek sınıf düzeltmesi ve iki bağımsız kanıtı var. (1) Kendi araştırma dosyasının yazım notu: *"Ormanı koruyan ateş… Curupira ile aynı işlevin başka biçimi"* — Curupira sınıf I'dir. (2) Doğrulanan kod B19.4.2, sınıf I'in çıpa aralığında (B11–B19); sınıf V'inki A280 · B31 · F960. Sapma her iki sınıfta da hedefe yaklaştı. |
+| D23 | Aile üyeliği **iki katmanlı**: üye (59) ve manşet kadro (48) | 55 ile 61 arasındaki fark bir çelişki değil, bir kategori hatasıydı. İki sayfalık bir açılışa 15 üye sığmaz; ama üyeliği 9'a indirmek de araştırılmış malzemeyi atmak olurdu. Manşet kadro açılışa, uzun kuyruk akraba imge tablosuna ve kendi maddesine gider. İkisi de tam üyedir. |
+| D24 | Üç aile motif kodu düzeltildi | Faz 1'in madde düzeyindeki bulgusu aile düzeyine taşındı. **B**: `D113.1` *Transformation: man to wolf* → `D113.3` *man to fox* (aile tilki ailesidir). **C**: `G264` *La Belle Dame Sans Merci — witch entices **men*** → `G262` *Murderous witch* (ailenin avı erkek değil loğusa ve yeni doğandır). **G**: `F460` *Mountain-spirits* → `F567` *Wild man* (dört üyenin üçü F567 taşıyor). |
+| D25 | **Dış hat kalınlığı kapı olmaktan çıkarıldı** | Kalibrasyonda kontur kalınlığı 2,9 / 4,2 / 5,83 px olan kurgular ayırt edilemedi — sebep geometrik: kontur (5,8 px) ile tarama periyodu (4,7 px) aynı mertebede. Ayırt edemeyen bir sayıyla plaka reddetmek, ölçüyormuş gibi yapmaktır. Sayı raporda kalıyor, karar vermiyor. Yerine **tarama darbesi/periyot** kapısı geldi — bandı sıklıktan türüyor ve doğruluğu %0,3 ölçüldü. |
+| D26 | Sayfa bütçesi **380 → 436** | Prova dizgisi ölçtü: madde içeriği 2,558 sayfa, maliyeti 3 sayfa. Fark plaka kuralının bedelidir (plaka üst yarıya oturur → madde sayfa başından başlar). Yol haritası Faz 3 notu emrediyor: *"kelime hedefini değil sayfa bütçesini düzelt"*. K3 dokunulmadı; telif üç sürümde de pozitif kaldı. |
+| D27 | Web plakası **kayıplıdan kayıpsıza** çevrildi | 1800 px / kalite 86 WebP 954 KB veriyordu — bütçenin üç katı. İnce 45° tarama kayıplı kodlayıcı için en kötü durumdur. 16 ton + kayıpsız, 1400 px → 159 KB ve artefaktsız; aynı boyutta kayıplı sürüm 474 KB'ydi. |
+
+### Bulunan ve düzeltilen üç gerçek kusur
+
+**① Plaka ölçümü 45° taramada √2 yanlıydı.** Kalınlık, tarama yönüne dik
+olmayan kesitlerden okunuyordu. Şartnamedeki geometriye **birebir uyan** kurgu
+plakası reddediliyordu — yani hat, doğru çizilmiş 112 plakanın tamamını geri
+çevirecekti. Hata %41 → **%0,3**.
+
+**② Plaka şartnamesi kendi kendisiyle çelişiyordu.** Hem "22–28 çizgi/cm" hem
+"çizgi kalınlığı 1,4 pt" deniyordu; 25 çizgi/cm'de periyot 4,72 px, 1,4 pt ise
+5,83 px — bir periyoda kendinden geniş bir darbe sığmaz.
+
+**③ `selftest` kapı testi her faz kapanışında kendini yanlışlıyordu.**
+"Bir üst kapı kapalı olmalı" varsayımı, phase2 açıldığı anda phase3 zaten
+geçtiği için kırmızıya dönecekti. Metin kapılarındaki yöntem şema kapılarına
+da getirildi: gerçek spec'ten türetilen dört kurgu, her kapı seviyesine tam
+bir kusur. Dördü de yakalandı.
+
+### Eklenenler
+
+**Veri ve tasnif**
+- `01_SOURCE/kin_map.json` — Faz 2'nin editoryal katmanı (elle yazılır):
+  181 çapraz referans bağı, sekiz ayrışma cümlesi, sekiz açılış planı,
+  altı sınıf açılışı konu başlığı
+- `08_BUILD/classify.py` — kin_map → `spec.json` + `KIN_OPENINGS.md` +
+  çapraz referans grafiği raporu; 13 kontrol
+- `00_CONTEXT/KIN_OPENINGS.md` — sekiz karşılaştırma açılışının içerik planı
+  (üretilir; 405 satır)
+- `seed_import.py --sync` — kapsam kararı eklendiğinde tohum alanlarını
+  araştırmayı silmeden tazeler
+- 44 maddeye gerçek alternatif ad; diakritiksiz biçim artık **türetiliyor**
+  (telaffuz rehberi 112 → 289 satır)
+
+**Plaka hattı**
+- `08_BUILD/tests/plate_fixtures.py` — geometrisi bilinen gravür kurguları
+- `08_BUILD/tests/plate_selftest.py` — ölçümün doğruluğu + kapının ısırması
+- `convert_plates.py --calibrate` — format bütçelerini plaka gelmeden ölçer
+- `.github/workflows/plates.yml` → `calibration` işi
+
+**Dizgi**
+- `08_BUILD/entry_page.py` — madde sayfası tasarımı ve prova dizgisi
+- `build.yml` fontları indiriyor (SIL OFL 1.1) — CI dizgiyi **ilk kez** sınıyor
+
+### Ölçülenler
+
+| | |
+|---|---:|
+| Çapraz referans bağı (karşılıklı) | 181 |
+| Madde başına ortalama | 3,23 |
+| Aileye bağlı madde | 59/112 |
+| Manşet üye · uzun kuyruk | 48 · 11 |
+| Telaffuz rehberi satırı | 289 |
+| Plaka ölçüm doğruluğu (tarama darbesi) | %0,3 hata |
+| 112 plakalık EPUB projeksiyonu | 3,74 MB (bütçe 6 MB) |
+| Ölçülen madde içeriği | 2,558 sayfa |
+| Sayfa bütçesi | **436** |
+| Ciltsiz birim telif | 8,76 $ |
+
+### Açık kalanlar
+
+- [ ] **Pilot plaka seti (10 ham plaka)** — hat hazır ve kalibre; ham AI
+  çıktısı hattın dışındaki tek girdidir ve kurucudan gelir
+- [ ] **A1** — depo public kalacaksa proza nerede duracak (Faz 3 öncesi)
+- [ ] **A3** — vektör temizlik dışarıya verilecek mi (pilot süresi ölçülünce)
+- [ ] Dış hat tahmincisi gerçek plakalarda yeniden değerlendirilecek
 
 ---
 
@@ -207,5 +302,7 @@ haritasının iki bölümü arasındaki gerçek farklardır:
 
 ---
 
-[Yayımlanmamış]: https://github.com/emredogan-cloud/codex-bestiarium/compare/v0.1.0-alpha...HEAD
+[Yayımlanmamış]: https://github.com/emredogan-cloud/codex-bestiarium/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.2.0
+[0.1.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.1.0
 [0.1.0-alpha]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.1.0-alpha

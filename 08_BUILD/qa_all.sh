@@ -17,7 +17,7 @@ BUILD="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(dirname "$BUILD")"
 cd "$ROOT"
 
-GATE="draft"
+GATE=""
 FIX=0
 for arg in "$@"; do
   case "$arg" in
@@ -27,9 +27,15 @@ for arg in "$@"; do
   esac
 done
 
-# Kapı seviyesi bir dosyada da tutulabilir; varsa o kazanır.
-if [ -f ".gate" ] && [ $# -eq 0 ]; then
-  GATE="$(tr -d '[:space:]' < .gate)"
+# Kapı seviyesi `.gate` dosyasındadır; yalnızca AÇIKÇA bir seviye verilirse
+# o kazanır. (Eskiden `--fix` de kapıyı draft'a düşürüyordu — yani belgeleri
+# tazeleyen koşu, açılmış kapıları hiç denetlemiyordu.)
+if [ -z "$GATE" ]; then
+  if [ -f ".gate" ]; then
+    GATE="$(tr -d '[:space:]' < .gate)"
+  else
+    GATE="draft"
+  fi
 fi
 
 PY="${PYTHON:-python3}"

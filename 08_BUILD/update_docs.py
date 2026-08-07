@@ -403,18 +403,26 @@ def phase_progress(d: dict, phase: dict) -> tuple[int, int, str]:
         classes = " + ".join(PHASE_CLASSES[n])
         return done, len(wanted), f"sınıf {classes} maddeleri yazıldı"
     # Faz 6 — üretim
+    #
+    # PROVA DOSYALARI SAYILMAZ. `04_PRINT/PROOF/` altındaki madde sayfası
+    # provası bir ÖLÇÜM artefaktıdır, yayın dosyası değil. Sayılırsa Faz 6
+    # ilerlemesi %25 görünür ve — daha kötüsü — belge, provanın üretildiği
+    # makinede üretildiğine göre değişir; CI'da bayat sanılır.
     formats = 0
     checks = [
         ("04_PRINT", ".pdf"), ("05_KINDLE", ".epub"),
         ("02_MANUSCRIPT", ".docx"), ("03_COVER", ".pdf"),
     ]
+    skip_dirs = {"PROOF", "proofs"}
     for folder, ext in checks:
         p = os.path.join(ROOT, folder)
-        if os.path.isdir(p):
-            for _, _, fs in os.walk(p):
-                if any(f.lower().endswith(ext) for f in fs):
-                    formats += 1
-                    break
+        if not os.path.isdir(p):
+            continue
+        for dirpath, dirnames, fs in os.walk(p):
+            dirnames[:] = [d for d in dirnames if d not in skip_dirs]
+            if any(f.lower().endswith(ext) for f in fs):
+                formats += 1
+                break
     return formats, len(checks), "üretilmiş yayın dosyası ailesi"
 
 

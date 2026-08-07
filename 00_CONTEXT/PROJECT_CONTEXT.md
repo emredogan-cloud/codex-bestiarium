@@ -4,21 +4,45 @@
 > Hiçbir şeyi hatırladığınız varsayılmaz. Buradaki her sayı ya bir dosyadan
 > ölçülmüştür ya da bir kod satırından türetilmiştir; ikisi de gösterilmiştir.
 >
-> Son güncelleme: **7 Ağustos 2026** — üretim sistemi kuruldu
+> Son güncelleme: **7 Ağustos 2026** — Faz 2 tamamlandı
 > Kök dizin: `/home/emre/Downloads/MY-DİGİTAL-BOOK/CODEX_BESTIARIUM`
 
 ---
 
 ## 1. Bir cümlede durum
 
-**Faz 1 tamamlandı.** Kapsam kilitlendi: **112 yaratık · 40 gelenek**, hepsi
-iki bağımsız kaynakla ve doğrulanmış Thompson motif koduyla. 120 adaydan 8'i
-düşürüldü, 1'i değiştirildi, 1'i yeniden sınıflandırıldı. İki **sistematik**
-motif kodu hatası yazımdan önce yakalandı. `.gate` → `phase1`, etiket `v0.1.0`.
+**Faz 2 tamamlandı.** Tasnif kilitlendi: 112 madde altı sınıfa ve sekiz
+aileye oturdu, **181 karşılıklı çapraz referans** kuruldu, devralınan iki
+tutarsızlık kapatıldı. Plaka ölçüm hattı **kalibre edildi** ve iki gerçek
+kusuru bulundu; madde sayfası dizildi ve sayfa bütçesi **ölçüldü** (380 → 436).
+`.gate` → `phase2`, etiket `v0.2.0`. **Kitabın tek kelimesi yazılmadı** —
+yazım Faz 3'te başlar ve kurucu onayı bekler.
 
 > Güncel ölçüm: [`BOOK_STATS.md`](../BOOK_STATS.md) ·
 > kapsam kararları: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md) ·
-> kaynak ölçütü: [`SOURCING_STANDARD.md`](SOURCING_STANDARD.md)
+> kaynak ölçütü: [`SOURCING_STANDARD.md`](SOURCING_STANDARD.md) ·
+> açılış planları: [`KIN_OPENINGS.md`](KIN_OPENINGS.md)
+
+### Faz 2 · Definition of Done
+
+| # | Ölçüt | Durum |
+|---|---|---|
+| 1 | Her madde tam bir sınıfta; hiçbiri 8–32 bandı dışında | ✅ 18·27·19·24·16·8 |
+| 2 | Sınıf ve aile tutarsızlığı **çözüldü**, karar CHANGELOG'da | ✅ D21–D24 |
+| 3 | Sekiz ailenin ayrışma cümlesi yazıldı ve onaylandı | ✅ |
+| 4 | Her maddede 2–5 karşılıklı çapraz referans; kırık yok | ✅ 181 bağ · ort 3,23 |
+| 5 | 112 telaffuz alanı dolu | ✅ |
+| 6 | Pilot set onaylandı; ölçülen dağılım `STYLE_PLATES.md`'de | ⚠ **hat hazır, ham plaka bekleniyor** |
+| 7 | `.gate` → `phase2` | ✅ |
+| 8 | CI yeşil, merge, `v0.2.0` | ✅ |
+
+> **6. madde hakkında.** Faz 2'nin plaka işi ikiye ayrılıyordu: *hattı kurup
+> kalibre etmek* ve *on ham plakayı üretip ölçmek*. Birincisi tamamlandı ve
+> ölçümleriyle `STYLE_PLATES.md` § 1b'de duruyor — cetvel sınandı, iki kusuru
+> bulundu, düzeltildi, doğruluğu (%0,3) sayıyla kayda geçti. İkincisi **ham
+> AI çıktısı** gerektirir: `BESTIARIUM_IMAGE_PROMPTS.html` → görsel üreteç →
+> `07_ASSETS/plates_raw/`. Bu, hattın dışındaki tek girdidir ve kurucudan
+> gelir. Geldiği anda `plates.py --normalize --pilot` yeterlidir.
 
 ### Faz 1 · Definition of Done
 
@@ -36,13 +60,12 @@ motif kodu hatası yazımdan önce yakalandı. `.gate` → `phase1`, etiket `v0.
 
 ---
 
-## 1b. Üretim sistemi (önceki tur)
+## 1b. Üretim sistemi (ilk tur)
 
-Üretim sistemi **kuruldu ve test edildi**. `spec.json`'da 120 tohum kaydı,
-on beş doğrulama betiği, CI/CD hattı, 120 plakalık prompt kütüphanesi ve
-altı fazlık uygulama yol haritası hazır. **Kitabın tek kelimesi yazılmadı**
-ve yazılmayacak — Faz 1 araştırmadır, yazım Faz 3'te başlar ve **kurucu
-onayı bekliyor**.
+Üretim sistemi **kuruldu ve test edildi**: `spec.json`, on beş doğrulama
+betiği, CI/CD hattı, prompt kütüphanesi ve altı fazlık uygulama yol haritası.
+Faz 2 sonunda hat **on dokuz** betiğe çıktı ve üçü ölçümün kendisini sınıyor
+(`selftest.py` · `plate_selftest.py` · `convert_plates --calibrate`).
 
 ---
 
@@ -54,8 +77,8 @@ onayı bekliyor**.
 | **Yazar / künye** | Emre Doğan · Vâliçe Press |
 | **Dil** | Kitabın kendisi **İngilizce**. Bu belgeler ve raporlar Türkçe. |
 | **Kapsam** | **112 yaratık · 40 gelenek** (Faz 1'de kilitlendi) · 6 sınıf · 8 akraba imge ailesi |
-| **Hacim** | ~380 sayfa · ~78.400 kelime · 6 × 9 inç |
-| **İllüstrasyon** | 120 çizgi plaka, tek gravür dilinde |
+| **Hacim** | **436 sayfa** (Faz 2 provasından ölçüldü) · ~78.400 kelime · 6 × 9 inç |
+| **İllüstrasyon** | 112 çizgi plaka, tek gravür dilinde |
 | **Platform** | Amazon KDP — Ciltsiz · Ciltli · Büyük punto · Kindle |
 | **Kaynak** | `01_SOURCE/spec.json` — **tek doğruluk kaynağı** |
 | **Depo** | `emredogan-cloud/codex-bestiarium` (public) |
@@ -74,7 +97,24 @@ işlevsel tasnif bir *tez* üretir — ve tez, kopyalanamayan tek şeydir.
 
 ---
 
-## 3. Bu turda ne yapıldı
+## 3. Faz 2'de ne teslim edildi
+
+| # | Teslim | Yol |
+|---|---|---|
+| 1 | Faz 2'nin editoryal katmanı — 181 bağ, 8 ayrışma cümlesi, 8 açılış planı | `01_SOURCE/kin_map.json` |
+| 2 | Tasnif motoru — kin_map → spec + belge + grafik raporu | `08_BUILD/classify.py` |
+| 3 | Sekiz karşılaştırma + altı sınıf açılışının içerik planı | `00_CONTEXT/KIN_OPENINGS.md` |
+| 4 | Kapsam kararı sonrası tohum senkronu | `seed_import.py --sync` |
+| 5 | **Plaka ölçümünün kendi testi** — bilinen geometriyle | `08_BUILD/tests/plate_selftest.py` |
+| 6 | Kalibrasyon kurguları (iyi + altı kusurlu) | `08_BUILD/tests/plate_fixtures.py` |
+| 7 | Format bütçelerinin plaka gelmeden ölçümü | `convert_plates.py --calibrate` |
+| 8 | **Madde sayfası tasarımı ve prova dizgisi** | `08_BUILD/entry_page.py` |
+| 9 | Şema kapılarının kusur kurguları (dört seviye) | `tests/make_fixtures.py` |
+| 10 | CI: plaka kalibrasyonu · prova dizgisi · font indirme | `.github/workflows/` |
+
+---
+
+## 3b. İlk turda ne yapıldı (üretim sistemi)
 
 Talimat açıktı: *"Your first responsibility is to build a production system…
 Treat this book like a software product."* Yapılan tam olarak budur.
@@ -83,7 +123,7 @@ Treat this book like a software product."* Yapılan tam olarak budur.
 |---|---|---|
 | 1 | Bölüm 10'daki klasör ağacı | depo kökü |
 | 2 | Fontlar ve devralınan 27 betik Mythologica'dan kopyalandı | `07_ASSETS/fonts/` · `08_BUILD/` |
-| 3 | **120 tohum kaydı** master yol haritasından *türetildi* | `01_SOURCE/spec.json` |
+| 3 | **120 tohum kaydı** master yol haritasından *türetildi* (Faz 1'de 112'ye kilitlendi) | `01_SOURCE/spec.json` |
 | 4 | Kitap kayıt defteri — sınıflar, aileler, bantlar, yasak kalıplar | `08_BUILD/bestiarium.py` |
 | 5 | Şema doğrulayıcı, dört kapı seviyesiyle | `08_BUILD/validate_spec.py` |
 | 6 | Beş metin kalite kapısı | `08_BUILD/qa_*.py` |
@@ -91,7 +131,7 @@ Treat this book like a software product."* Yapılan tam olarak budur.
 | 8 | Plaka normalizasyonu + tutarlılık ölçümü | `08_BUILD/plates.py` |
 | 9 | Plaka format dönüştürücü (baskı · Kindle · A+ · web) | `08_BUILD/convert_plates.py` |
 | 10 | Dört dizin üreticisi | `08_BUILD/make_index.py` |
-| 11 | **120 plakalık prompt kütüphanesi** | `BESTIARIUM_IMAGE_PROMPTS.html` |
+| 11 | Plaka prompt kütüphanesi (bugün 112) | `BESTIARIUM_IMAGE_PROMPTS.html` |
 | 12 | Depo/belge/varlık bütünlüğü denetimi | `08_BUILD/validate_structure.py` |
 | 13 | Otomatik belge güncelleyici | `08_BUILD/update_docs.py` |
 | 14 | CI/CD hattı — dört iş akışı | `.github/workflows/` |
@@ -109,10 +149,13 @@ tamamı bu turda yazıldı ve Faz 1–2 saatlerinden düşüldü.
 CODEX_BESTIARIUM/
 ├── 00_CONTEXT/     PROJECT_CONTEXT · BRIEF · STYLE · STYLE_PLATES · SCOPE_DECISIONS
 ├── 01_SOURCE/
-│   ├── spec.json            120 kayıt — TEK DOĞRULUK KAYNAĞI
-│   ├── plate_subjects.json  120 İngilizce görsel betimleme
+│   ├── spec.json            112 kayıt — TEK DOĞRULUK KAYNAĞI
+│   ├── kin_map.json         Faz 2 editoryal katmanı — ELLE yazılır
+│   ├── scope_amendments.json kapsam kararları — tohumun üstüne biner
+│   ├── plate_subjects.json  İngilizce görsel betimlemeler
 │   ├── indexes.json         üretilmiş dört dizin
-│   ├── research/<id>.md     120 araştırma dosyası (Faz 1)
+│   ├── research_data/       40 gelenek dosyası — araştırmanın kaynağı
+│   ├── research/<id>.md     112 araştırma dosyası (üretilir)
 │   └── book.json            yazılmış metin (Faz 3+) — .gitignore'da
 ├── 02_MANUSCRIPT/  DOCX yedeği
 ├── 03_COVER/       artwork · PAPERBACK/ HARDCOVER/ LARGEPRINT/
@@ -123,7 +166,7 @@ CODEX_BESTIARIUM/
 ├── 07_ASSETS/
 │   ├── fonts/               Cinzel + EB Garamond (OFL)
 │   ├── plates_raw/          ham AI çıktıları — DEĞİŞTİRİLMEZ
-│   ├── plates/              normalize edilmiş 120 plaka
+│   ├── plates/              normalize edilmiş 112 plaka
 │   └── plates_print · plates_kindle · plates_aplus · plates_web
 ├── 08_BUILD/       bütün hat
 └── 09_ARCHIVE/     aşılmış sürümler
@@ -157,7 +200,7 @@ kırmızı yanar.
   "id": "each-uisce",              // dosya adı, çapraz referans anahtarı
   "number": 16,
   "name": "Each-uisce",            // geleneğin kendi yazımı, diakritikler korunur
-  "pronunciation": "",             // Faz 2
+  "pronunciation": "AKH-ish-keh",  // Faz 1'de toplandı
   "tradition": "eriu",
   "class": "IV",                   // I–VI
   "motif": ["B184.1.3"],           // Thompson kodları
@@ -167,7 +210,7 @@ kırmızı yanar.
   "region": "",                    // Faz 1
   "attested": "",                  // Faz 1
   "sources": [],                   // Faz 1: ≥2 BAĞIMSIZ kaynak
-  "crossRefs": [],                 // Faz 2: 2–5, karşılıklı
+  "crossRefs": ["nakki", "nykur"], // Faz 2: 2–5, KARŞILIKLI — classify.py üretir
   "plate": "plate-016",
   "wordTarget": 700,
   "variantNote": "",
@@ -182,51 +225,107 @@ kırmızı yanar.
 
 | | |
 |---|---:|
-| Yaratık kaydı | **120** |
+| Yaratık kaydı | **112** |
 | Gelenek | **40** (19'u Cilt 1'den devralındı) |
-| Benzersiz Thompson kodu | 70 |
-| Aileye bağlı madde | 61/120 |
+| Benzersiz Thompson kodu | 69 |
+| Aileye bağlı madde | 59/112 (48 manşet · 11 uzun kuyruk) |
+| Çapraz referans bağı | 181 karşılıklı · madde başına ort. 3,23 |
 | Kaynak riski yüksek gelenek | 8 |
 
 ---
 
-## 6. ⚠ Devralınan iki tutarsızlık
+## 6. ✅ Devralınan iki tutarsızlık — Faz 2'de kapatıldı
 
-Bunlar **hata değil**, master yol haritasının iki bölümü arasındaki gerçek
-farklardır. `validate_spec.py` ikisini de her koşuda uyarı olarak basar ve
-**Faz 2 bunları çözmek zorundadır** — çünkü ikisi de doğrudan sayfa bütçesine,
-dolayısıyla baskı maliyetine ve fiyata bağlıdır.
+İkisi de **hata değildi**, master yol haritasının iki bölümü arasındaki gerçek
+farklardı. İkisi de doğrudan sayfa bütçesine, dolayısıyla baskı maliyetine
+bağlıydı. Kararlar `CHANGELOG.md` D21–D24'te gerekçeleriyle duruyor.
 
-### ① Sınıf dağılımı
+### ① Sınıf dağılımı → hedef gerçeğe getirildi
 
-| Sınıf | Bölüm 03.1 hedefi | Bölüm 04 tohum tablosu | Sapma |
+Bölüm 03.1'in hedefleri **120 maddelik** bir kitap için hesaplanmıştı; kapsam
+Faz 1'de 112'ye kilitlendi ve o kitap artık yok. K1 tasnifin **işleve göre**
+olduğunu söyler — sayısal bir hedef işlevi ezemez. Bu yüzden hedef güncellendi,
+madde zorlanmadı.
+
+| Sınıf | Bölüm 03.1 (120 için) | **Yürürlükteki** | Sayfa |
 |---|---:|---:|---:|
-| I · Bekçiler | 22 | **19** | −3 |
-| II · Yutucular | 28 | **29** | +1 |
-| III · Şekil Değiştirenler | 22 | **20** | −2 |
-| IV · Su Sakinleri | 24 | **25** | +1 |
-| V · Gök ve Fırtına | 14 | **17** | +3 |
-| VI · Huzursuz Ölüler | 10 | **10** | — |
-| | 120 | 120 | |
+| I · Bekçiler | 22 | **18** | 54 |
+| II · Yutucular | 28 | **27** | 81 |
+| III · Şekil Değiştirenler | 22 | **19** | 57 |
+| IV · Su Sakinleri | 24 | **24** | 72 |
+| V · Gök ve Fırtına | 14 | **16** | 48 |
+| VI · Huzursuz Ölüler | 10 | **8** | 24 |
+| | 120 | **112** | **336** |
 
-Toplam tutuyor, dağılım tutmuyor. Sınıf başına sayfa hedefi (Bölüm 05.3)
-**hedef sayılara** göre hesaplanmış; tohum dağılımıyla kullanılırsa sayfa
-bütçesi kayar.
+Eski hedefler `classes[].roadmapTargetEntries` olarak tarihsel kayıtta duruyor.
 
-### ② Akraba aile üyelikleri
+**Tek sınıf düzeltmesi: Boitatá V → I** (D22). İki bağımsız kanıt: araştırma
+dosyasının kendi yazım notu (*"Curupira ile aynı işlevin başka biçimi"* —
+Curupira sınıf I'dir) ve doğrulanmış kod `B19.4.2`'nin sınıf I'in çıpa
+aralığında (B11–B19) olması. Sapma her iki sınıfta da hedefe **yaklaştı**.
 
-Bölüm 03.2 tablosu 55 maddenin bir aileye bağlı olduğunu söylüyor; tohum
-tablosunun `Aile` sütunu **61** diyor. Fark üç ailede toplanıyor:
+### ② Akraba aile üyelikleri → iki katmana ayrıldı
 
-| Aile | Bölüm 03.2 | Tohum tablosu |
-|---|---:|---:|
-| C · Gece cadısı | 9 | **14** |
-| D · Fırtına kuşu | 8 | **9** |
-| E · Derinlerin yılanı | 9 | **15** |
+55 ile 61 arasındaki fark bir çelişki değil, bir **kategori hatasıydı**: tek
+sütunda iki ayrı şey toplanmıştı.
 
-Bölüm 03.2 muhtemelen *manşet üyeleri* listeliyor; tohum tablosu daha geniş
-bir üyelik tanımlıyor. Faz 2 hangisinin karşılaştırma açılışlarına gireceğine
-karar verir — iki sayfalık bir açılışa 15 üye sığmaz.
+| Katman | Ne | Sayı | Nerede görünür |
+|---|---|---:|---|
+| **üye** | imgeyi taşıyan her madde | 59 | akraba imge tablosu · kendi maddesi · Kin-Images Chart |
+| **manşet** | açılışın karşılaştırdığı kadro (≤9) | 48 | iki sayfalık karşılaştırma açılışı |
+| uzun kuyruk | üye ama manşet değil | 11 | açılışın kapanış paragrafında anılır |
+
+İkisi de tam üyedir; fark yalnızca **iki sayfaya ne sığdığıdır**. Böylece ne
+araştırılmış malzeme atıldı ne de açılış taşırıldı.
+
+| Aile | Üye | Manşet | Uzun kuyruk |
+|---|---:|---:|---:|
+| A · Su atı | 4 | 4 | — |
+| B · Tilki kadın | 2 | 2 | — |
+| C · Gece cadısı | 14 | 9 | 5 |
+| D · Fırtına kuşu | 9 | 9 | — |
+| E · Derinlerin yılanı | 15 | 9 | 6 |
+| F · Eşik bekçisi | 8 | 8 | — |
+| G · Yaban adamı | 4 | 4 | — |
+| H · Gizli halk | 3 | 3 | — |
+
+Ayrıca **üç aile motif kodu düzeltildi** (D24): B `D113.1`→`D113.3`,
+C `G264`→`G262`, G `F460`→`F567`. Üçü de Faz 1'in madde düzeyinde bulduğu
+sistematik hatanın aile düzeyindeki karşılığıydı.
+
+---
+
+## 6b. Faz 2'nin üç bulgusu
+
+Bu üçü **aranmıyordu**; ölçüm disiplini onları buldu.
+
+### ① Plaka cetveli eğriydi ve doğru plakaları reddedecekti
+
+Kalınlık ölçümü, tarama yönüne *dik olmayan* kesitlerden okunuyordu. 45°
+taramada koşu uzunluğu gerçek kalınlığın **√2 katıdır**; şartnamenin
+geometrisine **birebir uyan** bir plaka bu yüzden reddediliyordu. Hat, doğru
+çizilmiş 112 plakanın tamamını geri çevirecekti.
+
+Düzeltildikten sonra hata **%41 → %0,3**. Kanıt: `tests/plate_selftest.py`,
+geometrisi bilinen kurgularla. Ayrıntı: `STYLE_PLATES.md` § 1b.
+
+### ② Plaka şartnamesi kendi kendisiyle çelişiyordu
+
+Hem "22–28 çizgi/cm" hem "çizgi kalınlığı 1,4 pt" deniyordu. 25 çizgi/cm'de
+periyot **4,72 px**, 1,4 pt ise **5,83 px** — bir periyoda kendinden geniş bir
+darbe sığmaz. İkisi ayrıldı: tarama darbesi periyoda **oranla** ölçülüyor
+(bandı sıklıktan türüyor, çelişemez), dış hat ayrı raporlanıyor ve **kapı
+değil** — çünkü kalibrasyonda 2,9 / 4,2 / 5,83 px konturları ayırt edemedi.
+
+### ③ Sayfa bütçesi 380 değil 436
+
+Prova dizgisi (`entry_page.py`) ölçtü: madde **içeriği** 2,558 sayfa (yol
+haritasının 2,53 modelini doğrular), madde **maliyeti** 3 sayfa. Aradaki
+0,442 sayfa plaka kuralının bedelidir — plaka üst yarıya oturduğu için her
+madde sayfa başından başlar. 112 maddede 50 sayfa.
+
+Telif üç sürümde de pozitif kaldı (ciltsiz 9,43 $ → 8,76 $) ve K3 (700
+kelime) dokunulmadı.
 
 ---
 
@@ -309,7 +408,7 @@ hata sırt yazısını katlama çizgisine itmeye yeter.
 ```bash
 cd /home/emre/Downloads/MY-DİGİTAL-BOOK/CODEX_BESTIARIUM
 
-# kurulum (yalnızca üretim için gerekir)
+# kurulum (venv + font; font yoksa Google Fonts'tan iner)
 ./08_BUILD/bootstrap.sh
 
 # bütün kalite kapıları — CI'ın çalıştırdığının birebir aynısı
@@ -323,9 +422,12 @@ python3 08_BUILD/validate_spec.py --gate draft -v
 python3 08_BUILD/validate_structure.py -v
 python3 08_BUILD/tests/selftest.py
 python3 08_BUILD/qa_length.py --sections -v
+python3 08_BUILD/classify.py --check
+python3 08_BUILD/tests/plate_selftest.py -v     # cetvel doğru mu ölçüyor
+python3 08_BUILD/convert_plates.py --calibrate  # format bütçeleri
+python3 08_BUILD/entry_page.py --proof -v       # madde sayfası prova dizgisi
 python3 08_BUILD/plates.py --pilot -v
-python3 08_BUILD/convert_plates.py
-python3 08_BUILD/make_index.py
+python3 08_BUILD/make_index.py --gate phase2
 python3 08_BUILD/make_prompts.py
 python3 08_BUILD/update_docs.py
 ```
@@ -352,26 +454,37 @@ pypdf, python-docx, ebooklib, pyyaml + sistem aracı olarak `poppler-utils`.
 
 | # | Konu | Durum |
 |---|---|---|
-| 1 | Sınıf dağılımı tutarsızlığı (§ 6①) | Faz 2 çözecek |
-| 2 | Akraba aile üyelik tutarsızlığı (§ 6②) | Faz 2 çözecek |
-| 3 | **Herkese açık depoda proza** | Faz 3 öncesi karar — [yol haritası § A1](../CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md#a1--depo-herkese-açık-manuscript-ne-olacak) |
-| 4 | Kapsam 120/40 mı 100/35 mi | Faz 1'in 3. haftasında ölçülecek |
-| 5 | Vektör temizlik dışarıya verilecek mi | Faz 2'de pilot süresi ölçülünce |
-| 6 | `STYLE.md` ses kalibrasyon örnekleri boş | Faz 1'de Cilt 1'den kopyalanacak |
-| 7 | Kindle Translate uygunluğu belirsiz | 120 plaka kapıyı kapatabilir; **finansal modele dahil edilmedi** |
-| 8 | Kamu malı yanlış sınıflandırma riski | Cilt 1'den devralındı; künyede özgünlük beyanı + özgün Giriş/Sonsöz savunma olarak yazılacak |
+| 1 | Sınıf dağılımı tutarsızlığı (§ 6①) | ✅ **Faz 2'de çözüldü** — D21, D22 |
+| 2 | Akraba aile üyelik tutarsızlığı (§ 6②) | ✅ **Faz 2'de çözüldü** — D23, D24 |
+| 3 | Kapsam 120/40 mı 100/35 mi | ✅ **Faz 1'de kilitlendi** — 112/40 |
+| 4 | `STYLE.md` ses kalibrasyon örnekleri | ✅ **Faz 1'de** Cilt 1'den kopyalandı |
+| 5 | **Pilot plaka seti (10 ham plaka)** | ⚠ hat hazır ve kalibre; **ham AI çıktısı bekleniyor** — hattın dışındaki tek girdi |
+| 6 | **Herkese açık depoda proza** | ⛔ Faz 3 öncesi karar — [yol haritası § A1](../CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md#a1--depo-herkese-açık-manuscript-ne-olacak) |
+| 7 | Vektör temizlik dışarıya verilecek mi | pilot süresi ölçülünce — [§ A3](../CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md#a3--vektör-temizlik-dışarıya-verilecek-mi) |
+| 8 | Dış hat kalınlığı tahmincisi kalibre edilemedi | gerçek plakalarda yeniden değerlendirilecek (§ 6b②) |
+| 9 | Kindle Translate uygunluğu belirsiz | 112 plaka kapıyı kapatabilir; **finansal modele dahil edilmedi** |
+| 10 | Kamu malı yanlış sınıflandırma riski | Cilt 1'den devralındı; künyede özgünlük beyanı + özgün Giriş/Sonsöz savunma olarak yazılacak |
 
 ---
 
 ## 11. Sıradaki adım
 
-**Kurucu onayı bekleniyor.** Faz 1 ve Faz 2 tamamen planlandı; talimat gereği
-bir oturumda ikiden fazla faz yürütülmez ve **yazım Faz 3'te başlar**.
+**Kurucu onayı bekleniyor.** Faz 1 ve Faz 2 tamamlandı; **yazım Faz 3'te
+başlar** ve onay gelmeden başlamaz.
 
-Onay geldiğinde:
+Faz 3'ten önce yanıtlanması gereken **tek bloke edici soru** var:
+[**A1**](../CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md#a1--depo-herkese-açık-manuscript-ne-olacak)
+— 78.400 kelimelik metin herkese açık depoda mı duracak? Varsayılan (a):
+depo public kalır, proza depo dışında.
+
+Onay geldiğinde ilk emir:
 
 ```
-"Melanezya, Ainu ve Kartveli geleneklerinden dokuz yaratık için iki
- bağımsız kaynak bul, Thompson motif kodlarını doğrula ve
- 01_SOURCE/research/<id>.md dosyalarını yaz. Proza yazma."
+"Sınıf I'in ilk üç maddesini yaz: kerberos, humbaba, basiliscus.
+ Girdi her madde için üçlüdür — araştırma dosyası + STYLE.md +
+ yedi bölümlü şablon. Tek seferde en fazla üç madde."
 ```
+
+İlk beş madde bittiğinde **durulur**: `qa_voice.py` + `qa_length.py`
+çalıştırılır, ses kalibre edilir, kurucu okur. Ses burada kurulur; sonradan
+düzeltmek 112 maddeyi yeniden okumak demektir.
