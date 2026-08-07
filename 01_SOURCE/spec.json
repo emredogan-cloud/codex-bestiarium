@@ -1307,7 +1307,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bağlanmak için bir tanrının elini alan, Ragnarök'te zinciri kıracak kurt.",
       "researchFile": "01_SOURCE/research/fenrir.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "jormungandr",
@@ -2063,7 +2063,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Loğusanın yanına sokulup çocuğu emziren yerine kaçıran dişi iblis.",
       "researchFile": "01_SOURCE/research/lamashtu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "cipactli",
@@ -2277,7 +2277,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Geceleri bebeklerin kanını emen kuş kılığındaki cadı.",
       "researchFile": "01_SOURCE/research/strix.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "basiliscus",
