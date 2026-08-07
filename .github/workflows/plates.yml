@@ -86,10 +86,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # DİKKAT — burada 'cache: pip' YOK. Bu iş yalnızca plaka dosyası
+      # varsa pip kurar; kurmadığında setup-python'ın post adımı
+      # "cache folder doesn't exist" diye çöker ve iş kırmızı yanar.
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
 
       - name: plaka dosyası var mı
         id: have

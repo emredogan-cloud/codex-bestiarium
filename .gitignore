@@ -24,7 +24,8 @@
 03_COVER/**/proofs/
 03_COVER/**/plates/
 03_APLUS/exports/
-09_ARCHIVE/
+09_ARCHIVE/*
+!09_ARCHIVE/.gitkeep
 
 # ③ GÖRSEL VARLIKLAR  ─────────────────────────────────────────────────────
 # 120 plaka × 4 format = çok büyük. Ham çıktı yerel olarak saklanır ve
@@ -46,6 +47,7 @@
 # Codex Mythologica'dan kopyalar.
 07_ASSETS/fonts/*.ttf
 07_ASSETS/fonts/*.otf
+!07_ASSETS/fonts/.gitkeep
 
 # ⑤ PYTHON  ───────────────────────────────────────────────────────────────
 __pycache__/

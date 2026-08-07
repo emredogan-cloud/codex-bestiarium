@@ -121,6 +121,17 @@ haritasının iki bölümü arasındaki gerçek farklardır:
 - **Satır içi kod, çift boşluk sanılıyordu.** Tipografi taraması kod
   bloklarını *silerek* maskeliyordu; `` `a` b `` ifadesi `  b` oluyor ve
   "çift boşluk" olarak raporlanıyordu. Artık tek bir yer tutucuya dönüşüyor.
+- **`qa.py` Cilt 1'e özgüydü ve import anında çöküyordu.** Yol haritası
+  Bölüm 10 onu devralınacak betikler arasında sayıyor ama dosya generic
+  değil: modül düzeyinde `build/book.json` okuyor ve Mythologica'nın hikâye
+  kimliklerine (`cu-chulainn`, `sekhmet`…) sabitlenmiş. `09_ARCHIVE/`'e
+  taşındı. Bestiarium'un beş QA betiği zaten onun yerini fazlasıyla alıyor.
+- **Boş klasörler depoya girmiyordu.** `.gitignore` `09_ARCHIVE/` dizinini
+  komple yok sayıyordu; negatif kalıp (`!.gitkeep`) dizin dışlandığında
+  çalışmaz. `09_ARCHIVE/*` biçimine çevrildi.
+- **`plates.yml` pip önbelleği koşulsuzdu.** İş yalnızca plaka varsa pip
+  kuruyor; kurmadığında `setup-python`'ın post adımı "cache folder doesn't
+  exist" diye çöküyordu. Önbellek kaldırıldı.
 - **Türkçe `İ` çıpayı kırıyordu.** `İ` küçültülünce `i` + U+0307 olur;
   slugifier birleşen işareti atıyor ve doğru bir bağlantıyı kırık sanıyordu.
 
