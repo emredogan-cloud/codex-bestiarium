@@ -139,10 +139,23 @@ def main() -> int:
         density.append(1000.0 * hits / len(toks))
 
     change, slope = _relative_change(density)
+    # Raporlanan uçlar UYDURULAN DOĞRUNUN uçları olmalı; dizinin ham ilk ve
+    # son elemanı değil.
+    #
+    # Faz 3'te bulundu: satır "başlangıç ~72‰, bitiş ~71‰" yazarken aynı
+    # cümlede "%+21 artış" diyordu. İkisi de doğruydu ama farklı şeylerdi.
+    # Oran uydurulan doğrudan geliyor, uçlar ise iki TEK maddeden. Yan yana
+    # okunduğunda ölçüm kendi kendisiyle çelişiyor görünür ve raporu okuyan
+    # hangi sayıya bakacağını bilemez. Yargılanan sayı hangisiyse gösterilen
+    # de o olmalıdır.
+    _sl, _b = _slope(density)
+    fit_start = _b
+    fit_end = _b + _sl * (len(density) - 1)
     detail = (
         f"eğim {slope:+.3f}/madde · {len(density)} madde boyunca "
         f"toplam değişim %{change * 100:+.1f} "
-        f"(başlangıç ~{density[0]:.0f}‰, bitiş ~{density[-1]:.0f}‰)"
+        f"(uydurulan doğru {fit_start:.0f}‰ → {fit_end:.0f}‰; "
+        f"ham uçlar {density[0]:.0f}‰ / {density[-1]:.0f}‰)"
     )
     if abs(change) > FAIL_AT:
         r.fail(f"en sık {args.top} kelimede eğim ≤ %{FAIL_AT * 100:.0f}", detail)

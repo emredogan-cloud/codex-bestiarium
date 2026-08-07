@@ -15,9 +15,68 @@ sayılar, açık kalanlar.
 ## [Yayımlanmamış]
 
 ### Sıradaki
-- Faz 3 · Çekirdek yazım (Bekçiler ve Yutucular) — **başladı**
+- Faz 4 · Genişleme (Şekil Değiştirenler ve Su Sakinleri) — **kurucu onayı bekliyor**
+
+---
+
+## [0.3.0] — 2026-08-07
+
+**FAZ 3 TAMAMLANDI.** Kitabın ilk 45 maddesi yazıldı: sınıf I (Bekçiler, 18)
+ve sınıf II (Yutucular, 27), iki sınıf açılışı ve dört karşılaştırma açılışı.
+**Kitabın sesi burada kuruldu.**
+
+### Ölçülenler
+
+| Ölçü | Değer |
+|---|---:|
+| Yazılmış madde | **45/112** |
+| Madde metni | **30.288 kelime** |
+| Açılış metni | 3.111 kelime (6 açılış) |
+| Madde ortalaması | **673** kelime (hedef 700 · sapma %3,9) |
+| En kısa / en uzun | 632 / 707 |
+| Bant dışı madde | **0** |
+| Kitap geneli cümle ortalaması | 16,4 kelime (bant 14–18) |
+| Ünlem işareti | 0 |
+| Yasak kalıp | 0 |
+| Maddeler arası 8+ kelimelik tekrar | 0 |
+
+### Prova dizgisi — 45 maddenin tamamı GERÇEK metinle ölçüldü
+
+Faz 2'nin prova dizgisi ölçüm dolgusuyla çalışıyordu ve gerekçesi doğruydu:
+o fazda proza yoktu. Faz 3'te `entry_page.py` gerçek metni okuyacak biçimde
+genişletildi ve 45 maddenin tamamı dizildi.
+
+| | Faz 2 modeli (dolgu) | Faz 3 ölçümü (gerçek metin) |
+|---|---:|---:|
+| İçerik yüksekliği | 2,558 sayfa | **2,144 sayfa** (en az 2,018 · en çok 2,245) |
+| Faturalanan sayfa | 3,0 | **3,0** |
+| Sınıf I + II toplamı | 135 | **135** |
+
+**Sayfa bütçesi değişmedi.** Model muhafazakârmış: gerçek metin dolgudan
+%16 daha az dikey yer kaplıyor, ama plaka kuralı yüzünden her madde yine
+sayfa başından başlıyor ve 3 sayfa faturalanıyor. 436 sayfalık toplam bütçe
+ve fiyat modeli **olduğu gibi geçerli**; yol haritasının "%5'ten fazla
+saparsa bildir" eşiği **aşılmadı** (sapma %0).
+
+### Uyarı — üslup sürüklenmesi %21
+
+`qa_drift`, en sık 50 içerik kelimesinin yoğunluğunda 45 madde boyunca
+**%+21** artış ölçtü. Uyarı eşiği %20, başarısızlık eşiği %35; değer
+uyarı bandının hemen üstünde ve başarısızlıktan uzak. Yükselen kelimeler
+çözümleyici kayda ait: *about · rather · nothing · person · people ·
+creature · figure · body · something · tradition*. Yani 5. bölümlerin
+("neden korkulur") soyut sözcük dağarcığı faz boyunca kalınlaşmış.
+**Faz 5'in editoryal incelemesine girdi olarak devrediliyor.**
 
 ### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D36 | `entry_page.py` **gerçek metinle** diziyor | Faz 2'nin "PROZA YOK" kuralı Faz 3'te aşıldı. Dolguyla ölçmeye devam etmek modeli modele karşı sınamak olurdu; yol haritası GERÇEK sayfa sayısını istiyor. Metin varsa gerçek proza, yoksa dolgu. Rapor hangisinin kullanıldığını (`textSource`) yazıyor. |
+| D37 | `qa_drift` **yargıladığı sayıyı** gösteriyor | Rapor satırı "başlangıç ~72‰, bitiş ~71‰" derken aynı cümlede "%+21 artış" diyordu. İkisi de doğruydu ama farklı şeylerdi: oran uydurulan doğrudan, uçlar iki tek maddeden. Yan yana okununca ölçüm kendi kendisiyle çelişiyor görünüyordu. Artık doğrunun uçları gösteriliyor, ham uçlar ayrıca. |
+| D38 | Manuscript ölçüsü **depoya alındı** | `BOOK_STATS.md` `book.json`'dan türeyen sayılar taşıyor, `book.json` ise A1/D29 gereği depoda yok. Aynı komut yerelde ve CI'da iki farklı belge üretiyordu; her yazım commit'i "bayat belge" diye kırmızı yanacaktı. `01_SOURCE/manuscript_metrics.json` yalnızca SAYI içerir — tek bir proza cümlesi bile değil. Gerekçe plakalarınkiyle aynı (`.gitignore` § ③): **depo varlığı değil, ölçüsünü taşır.** |
+
+### Kararlar (yazım sırasında bulunan kapı kusurları)
 
 | # | Karar | Gerekçe |
 |---|---|---|

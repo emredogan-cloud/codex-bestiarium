@@ -4,24 +4,46 @@
 > Hiçbir şeyi hatırladığınız varsayılmaz. Buradaki her sayı ya bir dosyadan
 > ölçülmüştür ya da bir kod satırından türetilmiştir; ikisi de gösterilmiştir.
 >
-> Son güncelleme: **7 Ağustos 2026** — Faz 2 tamamlandı
+> Son güncelleme: **7 Ağustos 2026** — Faz 3 tamamlandı
 > Kök dizin: `/home/emre/Downloads/MY-DİGİTAL-BOOK/CODEX_BESTIARIUM`
 
 ---
 
 ## 1. Bir cümlede durum
 
-**Faz 2 tamamlandı.** Tasnif kilitlendi: 112 madde altı sınıfa ve sekiz
-aileye oturdu, **181 karşılıklı çapraz referans** kuruldu, devralınan iki
-tutarsızlık kapatıldı. Plaka ölçüm hattı **kalibre edildi** ve iki gerçek
-kusuru bulundu; madde sayfası dizildi ve sayfa bütçesi **ölçüldü** (380 → 436).
-`.gate` → `phase2`, etiket `v0.2.0`. **Kitabın tek kelimesi yazılmadı** —
-yazım Faz 3'te başlar ve kurucu onayı bekler.
+**Faz 3 tamamlandı.** Kitabın ilk **45 maddesi yazıldı** — sınıf I (Bekçiler,
+18) ve sınıf II (Yutucular, 27) — iki sınıf açılışı ve dört karşılaştırma
+açılışıyla birlikte. **30.288 kelime madde metni**, madde ortalaması 673
+(hedef 700), bant dışı madde sıfır. Kitabın **sesi burada kuruldu**. Sayfa
+bütçesi 45 maddenin tamamı gerçek metinle dizilerek doğrulandı ve
+**değişmedi** (436 sayfa). `.gate` → `phase3`, etiket `v0.3.0`.
+**Proza depoda değildir** (karar A1/D29).
+
+> Faz 3 beş kapı kusuru buldu ve kapattı; hepsi CHANGELOG D31–D38'de.
+> Üçü *ölü kuraldı* — hiç devreye girmemiş muafiyetler ve denetimler.
 
 > Güncel ölçüm: [`BOOK_STATS.md`](../BOOK_STATS.md) ·
 > kapsam kararları: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md) ·
 > kaynak ölçütü: [`SOURCING_STANDARD.md`](SOURCING_STANDARD.md) ·
 > açılış planları: [`KIN_OPENINGS.md`](KIN_OPENINGS.md)
+
+### Faz 3 · Definition of Done
+
+| # | Ölçüt | Durum |
+|---|---|---|
+| 1 | `qa_length` · `qa_voice` · `qa_echo` · `qa_drift` · `qa_diacritics` — 0 başarısız | ✅ (qa_drift 1 **uyarı**: %21 sürüklenme) |
+| 2 | 48 plaka normalize edildi ve ölçüldü | ⛔ **ham AI çıktısı yok** — hattın dışındaki tek girdi, kurucudan gelir |
+| 3 | Sınıf I ve II açılışları + dört karşılaştırma açılışı | ✅ 6/6 |
+| 4 | Prova dizgisi çalıştırıldı; ölçülen sayfa sayısı `BOOK_STATS.md`'de | ✅ 45/45 madde, gerçek metinle |
+| 5 | Sürüklenme raporları `06_REPORTS/` içinde; eğim yükselmiyor | ⚠ rapor var; eğim **%21 yükseliyor** (uyarı bandı) |
+| 6 | CI yeşil, merge, `v0.3.0` | ✅ |
+
+> **2. madde hakkında.** Faz 2'nin aynı maddesi de aynı sebeple açıktı.
+> Plaka hattı kurulu, kalibre ve sınanmış durumda; eksik olan tek şey ham
+> AI çıktısıdır (`BESTIARIUM_IMAGE_PROMPTS.html` → görsel üreteç →
+> `07_ASSETS/plates_raw/`). Bu, üretim hattının **dışındaki tek girdidir**
+> ve kurucudan gelir. Geldiği anda `plates.py --normalize --pilot` yeterlidir.
+> Faz 3'ün metin işi bu girdiye bağlı değildi ve tamamlandı.
 
 ### Faz 2 · Definition of Done
 
@@ -469,22 +491,93 @@ pypdf, python-docx, ebooklib, pyyaml + sistem aracı olarak `poppler-utils`.
 
 ## 11. Sıradaki adım
 
-**Kurucu onayı bekleniyor.** Faz 1 ve Faz 2 tamamlandı; **yazım Faz 3'te
-başlar** ve onay gelmeden başlamaz.
+**Kurucu onayı bekleniyor.** Faz 1, 2 ve 3 tamamlandı. **Faz 4 onay gelmeden
+başlamaz.**
 
-Faz 3'ten önce yanıtlanması gereken **tek bloke edici soru** var:
-[**A1**](../CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md#a1--depo-herkese-açık-manuscript-ne-olacak)
-— 78.400 kelimelik metin herkese açık depoda mı duracak? Varsayılan (a):
-depo public kalır, proza depo dışında.
+A1 kapandı: kurucu (a) şıkkını seçti — depo public, proza depo dışında
+(D29). Politika artık bir disiplin talebi değil, `validate_structure`
+içindeki bir kapıdır (D30).
+
+Faz 4 sınıf III (Şekil Değiştirenler, 19) ve sınıf IV (Su Sakinleri, 24)
+maddelerini yazar: **43 madde**. Yol haritası Faz 4 için 22+24=46 diyor;
+bu sayı da 120 maddelik aşılmış kapsamdan gelir (bkz. D21 ve Faz 3
+kapsam notu). `ROADMAP_PROGRESS.md` doğru sayıyı zaten kullanıyor.
+
+Faz 4 açılışları: **A · Su atı**, **B · Tilki kadın**, **E · Derinlerin
+yılanı** — üçü de `KIN_OPENINGS.md`'de kilitli.
 
 Onay geldiğinde ilk emir:
 
 ```
-"Sınıf I'in ilk üç maddesini yaz: kerberos, humbaba, basiliscus.
- Girdi her madde için üçlüdür — araştırma dosyası + STYLE.md +
- yedi bölümlü şablon. Tek seferde en fazla üç madde."
+"Sınıf III'ün ilk üç maddesini yaz. Girdi her madde için üçlüdür —
+ araştırma dosyası + STYLE.md + yedi bölümlü şablon.
+ Tek seferde en fazla üç madde."
 ```
 
-İlk beş madde bittiğinde **durulur**: `qa_voice.py` + `qa_length.py`
-çalıştırılır, ses kalibre edilir, kurucu okur. Ses burada kurulur; sonradan
-düzeltmek 112 maddeyi yeniden okumak demektir.
+### Faz 4'e devredilen üç şey
+
+1. **Üslup sürüklenmesi %21** — uyarı bandında. Yükselen sözcükler
+   çözümleyici kayda ait (*about · rather · nothing · person · people ·
+   creature · figure*). 5. bölümlerin soyut dağarcığı kalınlaşıyor.
+   Faz 4'te her beş maddede `qa_drift` koşulmalı; Faz 5 editoryal
+   inceleme bunu düzeltir.
+2. **Ham plaka seti** — hattın dışındaki tek girdi, hâlâ bekliyor.
+   45 maddenin plakası da bu girdiye bağlı.
+3. **Kayıtlı vaka açığı** — araştırma dosyalarının `incident` alanı
+   112 maddenin 109'unda *"Faz 3'te kaynaktan doğrudan okunacak"*
+   yazıyor. Faz 3 bunu dosyadaki `behaviour` ve kanonik olaydan yazarak
+   çözdü; uydurma yapılmadı. Ayrıntı: § 12.
+
+---
+
+## 12. Faz 3'ün bulgusu: "kayıtlı vaka" açığı
+
+Yol haritası maddenin 4. bölümü için şunu istiyor:
+
+> *"Ne yapar" bölümünde bir OLAY anlat, bir özellik listesi değil. Mümkünse
+> kayıtlı bir vaka: "A boy from Lough Neagh mounted one in 1808…"*
+
+Faz 3'ün ilk işi bu girdiyi aramak oldu. Sonuç:
+
+| | |
+|---|---:|
+| Faz 3 kapsamındaki madde | 45 |
+| Araştırma dosyasında **gerçek** vaka | **3** |
+| *"Faz 3'te kaynaktan doğrudan okunacak"* yazan | **42** |
+
+Yani Faz 1, kayıtlı vakayı bilinçli olarak **Faz 3'e ertelemişti** ve
+erteleme dosyalara yazılmıştı. Faz 3 bu açığı **uydurarak kapatmadı.**
+
+### Ne yapıldı
+
+Kurucu emri mutlaktı: *"Never invent mythology. Never invent historical
+claims. Never fabricate references."* Yol haritası da aynı yerde
+diyor ki *"dosyada olmayan hiçbir detay yazılmaz"*.
+
+Dolayısıyla 4. bölümler **yalnızca araştırma dosyasındaki** malzemeden
+yazıldı: `behaviour` alanı, `variants`, `counter` ve dosyanın işaret
+ettiği kanonik olay. Klasik ve destansı maddelerde kanonik olayın kendisi
+zaten kayıtlı bir vakadır ve künyesi dosyadadır — Herakles'in on ikinci
+işi (Apollodoros 2.5.12), Ḫumbaba'nın öldürülmesi (Tablet V), Yarasa
+Evi'nde Hunahpú'nun başı (Popol Vuh II).
+
+**Üç maddede tam anlamıyla tarihli/adlı vaka yazılabildi:**
+
+| Madde | Vaka | Kaynak |
+|---|---|---|
+| Strix | Beş günlük Proca; alıç dalı, üç vuruş, domuz sakatatının sunulması | Ovidius, *Fasti* VI.131–168 |
+| Olgoi-Khorkhoi | Moğol yetkililerden bir meclis yaratığı oybirliğiyle tarif eder — hiçbiri görmemiştir | Andrews 1926 |
+| Devi | Üç, beş, dokuz ve on başlı kardeşler sırayla gönderilir | Wardrop 1894, *Ghvthisavari* |
+
+### Faz 4–5 için ne demek
+
+Bu bir **eksik değil, ertelenmiş bir araştırma kalemidir** ve kalan 67
+maddede de aynı biçimde karşılaşılacaktır. İki seçenek var:
+
+1. **Bugünkü çözüm** — 4. bölüm dosyadaki malzemeden yazılır; kanonik olay
+   varsa vaka odur. Uydurma riski sıfır, "tarih ve yer" oranı düşük.
+2. **Ek araştırma turu** — 109 maddenin `incident` alanı için kaynak
+   metinlere dönülür. Maliyetli ve Faz 1'in bütçesinde yoktu.
+
+Karar **kurucunundur** ve Faz 4 başlamadan verilmelidir. Bugünkü metin
+(1) ile yazılmıştır ve kapılardan geçmektedir.
