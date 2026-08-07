@@ -35,7 +35,7 @@ ve sınıf II (Yutucular, 27), iki sınıf açılışı ve dört karşılaştır
 | Madde ortalaması | **673** kelime (hedef 700 · sapma %3,9) |
 | En kısa / en uzun | 632 / 707 |
 | Bant dışı madde | **0** |
-| Kitap geneli cümle ortalaması | 16,4 kelime (bant 14–18) |
+| Kitap geneli cümle ortalaması | 16,7 kelime (bant 14–18) |
 | Ünlem işareti | 0 |
 | Yasak kalıp | 0 |
 | Maddeler arası 8+ kelimelik tekrar | 0 |
