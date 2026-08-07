@@ -216,7 +216,8 @@
         ],
         "closing": "Filipin üyesi kümenin dışında durur ve ailenin sınırını gösterir: su atı imgesi sudan çıkabiliyor. Çıkınca yiyici olmaktan çıkıyor, yolu şaşırtan oluyor."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In Ireland it eats the rider and leaves the liver on the shore; in Iceland it only drowns him; in Finland it calls from the bank; in the Philippines it never enters the water at all, and turns the road into a circle."
     },
     {
       "id": "B",
@@ -251,7 +252,8 @@
         ],
         "closing": "Yamato'nun kitsune'si kapsamın dışında bırakıldı: koruyucu kutsal tilki (Inari) ile yiyici tilki aynı maddede toplanamaz ve ikisi de üç maddelik Yamato kotasını hak etmedi. Karşılaştırma açılışında anılır, kendi maddesi yoktur."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In China it gathers a man's life and in some tellings stays faithful; in Korea it eats a liver in order to become human, and loses the test. One steals from humanity; the other is trying to enter it."
     },
     {
       "id": "C",
@@ -312,7 +314,8 @@
         "closing": "Àbíkú ailenin sınırıdır ve ailenin tezini o kanıtlar: sekiz gelenek bir avcı icat etti, biri etmedi. Karşı önlem sütunu okununca fark ortaya çıkar — muskaların hepsi çocuğu KORUR, Yorùbá adları ise çocuğu KALMAYA ikna eder.",
         "longTail": "Beş üye açılışa girmez, akraba imge tablosunda ve maddelerinde durur: Strix · Adze · Qalupalik · Ma lai · Manananggal. Beşi de imgeyi taşır; iki sayfaya sığmazlar."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "Nine traditions put the blame on an agent: a demon in Mesopotamia, a bird in Rome, a neighbour in the Philippines. Yorùbá tradition does not. There the child who died comes back itself. The same death rate, two different culprits."
     },
     {
       "id": "D",
@@ -366,7 +369,8 @@
         ],
         "closing": "Dört üyenin pençesinde bir yılan var (Garuḍa · Khyung · Animikii · Impundulu dolaylı olarak). Kuş–yılan karşıtlığı bu ailenin ve E ailesinin aynı sayfada okunmasını gerektirir; iki açılış birbirine gönderme yapar."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In Mesopotamia it steals the tablets of destiny; in Iran it raises a child and shows the way; in North America it fights the enemy under the water; among the Nguni it is bound to a witch and asks for blood. One wing, four moralities."
     },
     {
       "id": "E",
@@ -429,7 +433,8 @@
         "closing": "Imugi ailenin en sessiz üyesidir ve en çok şeyi söyler: o, ejderha OLAMAYAN yılandır. Bin yıl bekler, bir insan bağırır ve dönüşüm bozulur. Ailenin geri kalanı ne olduğunu anlatır; Imugi ne olunamadığını.",
         "longTail": "Altı üye açılışa girmez: Nāga · Yamata-no-Orochi · Aži Dahāka · Taniwha · Phaya Nak · Zmeu. Zmeu özellikle önemli: Zmey'le aynı gövdeyi taşır ama insan gibi pazarlık eder — ailenin dış sınırı orada."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In the north it encircles the world and brings the end of it; in Egypt it is beaten every night and returns the next; in the Andes it binds two worlds and carries rather than destroys. One body, three cosmologies."
     },
     {
       "id": "F",
@@ -480,7 +485,8 @@
         ],
         "closing": "Temes Savsap ailenin en incelikli üyesidir: kum çizimini yarılar ve ölü onu tamamlayamazsa geçemez. Bekçi burada bir engel değil bir SINAVDIR — ve sınav ölmeden önce öğrenilmiş olmalıdır. Aralez ise ailenin tersidir: eşikte durup geri gönderir."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "Kérberos lets everyone in and no one out; Ḫumbaba keeps a forest and dies for keeping it; Qílín stops nobody and simply declines to tread on the unjust; Basiliscus does not fight whoever tries to pass, but looks, and the look is enough."
     },
     {
       "id": "G",
@@ -520,7 +526,8 @@
         "closing": "Üç üye iz üzerinden tanımlanır: Migoi geri geri yürür, Curupira'nın ayakları ters, Basajaun ıslıkla haber verir. Yaban adamı görülmez — okunur. Bu, plakalarda da böyle çözülür: figür değil, izin okunabilirliği.",
         "note": "Almas (Mongol) ve Ochokochi (Kartveli) yol haritasının açılış listesindeydi; Faz 1'de iki bağımsız kaynak doğrulanamadığı için düşürüldü. Açılış metninde bu ADIYLA anılır — kapsamın dürüstlüğü de kitabın iddiasıdır."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In the Basque country it shelters the shepherd from storms and teaches him ironwork; in the Amazon it drives the hunter out of the forest; in Sápmi it hunts people and is beaten by cunning. It takes nature's side, and nature's side is not the same side everywhere."
     },
     {
       "id": "H",
@@ -560,7 +567,8 @@
         "closing": "Bu ailenin plakaları bir tekil figür değil bir TOPLULUK gösterir; kitabın tek çoğul kompozisyonu buradadır ve gerekçesi ailenin kendisidir.",
         "note": "Orang Bunian (Nusantara) ve Aos Sí (Ériu) yol haritasının açılış listesindeydi; ilki Faz 1'de kaynak doğrulanamadığı için düşürüldü, ikincisi zaten varyant olarak işaretliydi."
       },
-      "openingPages": 2
+      "openingPages": 2,
+      "divergenceEn": "In Iceland a road is still diverted for them, a living folklore; among the Ainu they are placed in the past, as the island's earlier inhabitants; in Sápmi their name is not spoken, because speaking it attracts attention."
     }
   ],
   "traditions": [
@@ -1199,7 +1207,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Her gece güneş teknesini yutmaya çalışan, her sabah yeniden yenilen yılan.",
       "researchFile": "01_SOURCE/research/apep.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "bennu",
@@ -1361,7 +1369,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dünyayı çevreleyip kendi kuyruğunu ısıran deniz yılanı.",
       "researchFile": "01_SOURCE/research/jormungandr.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "draugr",
@@ -1470,7 +1478,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Sekiz başlı, sekiz kuyruklu; her yıl bir kız isteyen ırmak yılanı.",
       "researchFile": "01_SOURCE/research/yamata-no-orochi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "kappa",
@@ -1524,7 +1532,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Başındaki çanakta su taşıyan, güreşe çağıran, boğan ırmak çocuğu.",
       "researchFile": "01_SOURCE/research/kappa.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tengu",
@@ -1577,7 +1585,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dağda yaşayan, kibirliyi cezalandıran kanatlı varlık.",
       "researchFile": "01_SOURCE/research/tengu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "garuda",
@@ -1686,7 +1694,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Suyun altındaki şehirlerde yaşayan, hazineyi ve yağmuru tutan yılan halk.",
       "researchFile": "01_SOURCE/research/naga.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "makara",
@@ -1737,7 +1745,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Timsah, fil ve balığın birleştiği, eşiklerde oyulan su canavarı.",
       "researchFile": "01_SOURCE/research/makara.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "each-uisce",
@@ -1793,7 +1801,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kıyıda uysal duran, binildiğinde denize koşan ve yiyen at.",
       "researchFile": "01_SOURCE/research/each-uisce.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "bean-sidhe",
@@ -1902,7 +1910,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "At, keçi, tavşan olabilen; kimi zaman koruyan kimi zaman yolu şaşırtan.",
       "researchFile": "01_SOURCE/research/puca.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "humbaba",
@@ -2114,7 +2122,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Gövdesinden yeryüzünün yapıldığı, her ekleminde ağız olan ilkel timsah.",
       "researchFile": "01_SOURCE/research/cipactli.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ahuizotl",
@@ -2167,7 +2175,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kuyruğunun ucundaki elle suya çeken, göz ve tırnak yiyen köpek benzeri.",
       "researchFile": "01_SOURCE/research/ahuizotl.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "nahual",
@@ -2222,7 +2230,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Kendi hayvanına dönüşebilen büyücü; doğduğu güne bağlı ikinci beden.",
       "researchFile": "01_SOURCE/research/nahual.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "strix",
@@ -2552,7 +2560,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yüz yıl yaşayınca kadına dönüşen, ömür toplayan tilki.",
       "researchFile": "01_SOURCE/research/huli-jing.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "kumiho",
@@ -2605,7 +2613,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dokuz kuyruklu tilki; insan olmak için ciğer yiyen.",
       "researchFile": "01_SOURCE/research/kumiho.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "imugi",
@@ -2658,7 +2666,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bin yıl bekleyip ejderha olmayı uman; çoğu zaman olamayan su yılanı.",
       "researchFile": "01_SOURCE/research/imugi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "dokkaebi",
@@ -2712,7 +2720,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Eski bir eşyadan doğan; güreşe çağıran, zenginlik veya bela getiren.",
       "researchFile": "01_SOURCE/research/dokkaebi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "camazotz",
@@ -2820,7 +2828,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ceiba ağacında bekleyen, saçını tarayan, yolcuyu dikenlere götüren.",
       "researchFile": "01_SOURCE/research/xtabay.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "way",
@@ -2873,7 +2881,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Her insanın uykuda serbest kalan hayvan eşlikçisi.",
       "researchFile": "01_SOURCE/research/way.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "rusalka",
@@ -3091,7 +3099,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Bütün hikâyeleri gökten satın alan örümcek; zayıfın kurnazlığı.",
       "researchFile": "01_SOURCE/research/anansi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "abiku",
@@ -3363,7 +3371,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ateşten yaratılmış, güzel ve kararsız; ne tümüyle iyi ne tümüyle kötü.",
       "researchFile": "01_SOURCE/research/peri.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "taniwha",
@@ -3416,7 +3424,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Nehir ağzını tutan; kimi kabileye koruyucu, kimine ceza.",
       "researchFile": "01_SOURCE/research/taniwha.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "moo",
@@ -3470,7 +3478,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Göletleri bekleyen kertenkele ruhu; su ve soy bağı.",
       "researchFile": "01_SOURCE/research/moo.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ponaturi",
@@ -3681,7 +3689,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Kemik ve deriden yapılıp canlandırılan; ustasını da öldürebilen.",
       "researchFile": "01_SOURCE/research/tupilaq.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "al-karisi",
@@ -3847,7 +3855,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yılanların bilge kraliçesi; sırrı açığa çıkınca öldürülen.",
       "researchFile": "01_SOURCE/research/sahmeran.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ghul",
@@ -3956,7 +3964,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Cinlerin güçlü ve dik başlı sınıfı; ateşten yaratılmış.",
       "researchFile": "01_SOURCE/research/ifrit.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "rukh",
@@ -4066,7 +4074,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Denizin dibinden çıkan, adı bile uğursuz sayılan varlık.",
       "researchFile": "01_SOURCE/research/iku-turso.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "nakki",
@@ -4122,7 +4130,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Suyun kenarında görünen; at, insan veya çıplak kadın kılığında boğan.",
       "researchFile": "01_SOURCE/research/nakki.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ajatar",
@@ -4283,7 +4291,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmakta saçını altın tarakla tarayan, ördek ayaklı.",
       "researchFile": "01_SOURCE/research/lamia-euskal.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "herensuge",
@@ -4543,7 +4551,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmak dibindeki yılan; dövmenin kökeni sayılan korku.",
       "researchFile": "01_SOURCE/research/thuong-luong.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ma-lai",
@@ -4695,7 +4703,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Mekong'un altındaki şehirlerin efendisi; ateş topu gönderen.",
       "researchFile": "01_SOURCE/research/phaya-nak.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "krasue",
@@ -4961,7 +4969,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "At başlı, uzun bacaklı; yolcuyu daireler çizdirerek kaybettiren.",
       "researchFile": "01_SOURCE/research/tikbalang.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "pontianak",
@@ -5369,7 +5377,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmakta biçim değiştiren; kadın olup çeken, kan içen.",
       "researchFile": "01_SOURCE/research/nhang.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "devi",
@@ -5628,7 +5636,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz demirci, gece sırtlan; nazarla hastalık veren.",
       "researchFile": "01_SOURCE/research/buda.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tokoloshe",
@@ -5784,7 +5792,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Şelalede yaşayan; kızdığında fırtına getiren yılanbaşlı.",
       "researchFile": "01_SOURCE/research/inkanyamba.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "strigoi",
@@ -5893,7 +5901,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ay'ı yiyen; kurt kılığına giren tutulma açıklaması.",
       "researchFile": "01_SOURCE/research/varcolac.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "zmeu",
@@ -5997,7 +6005,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "İki dünyayı birbirine bağlayan; kanatlı, tüylü büyük yılan.",
       "researchFile": "01_SOURCE/research/amaru.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "pishtaco",
@@ -6269,7 +6277,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Nehrin annesi; şarkısıyla çeken, suya alan.",
       "researchFile": "01_SOURCE/research/iara.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "mishipeshu",
@@ -6323,7 +6331,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Göllerin altındaki bakır kuyruklu panter; fırtınayı kabartan.",
       "researchFile": "01_SOURCE/research/mishipeshu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "animikii",
@@ -6583,7 +6591,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yolcuyu görünmez kılan; sisin içinden konuşan.",
       "researchFile": "01_SOURCE/research/gufihtar.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "huldufolk",
@@ -6690,7 +6698,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Toynakları ters dönük gri at; sırtına bineni göle götüren.",
       "researchFile": "01_SOURCE/research/nykur.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "skuggabaldur",
@@ -6743,7 +6751,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kedi ile tilkinin yavrusu; kurşun işlemeyen.",
       "researchFile": "01_SOURCE/research/skuggabaldur.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "adaro",
@@ -6794,7 +6802,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Uçan balık üzerinde giden deniz ruhu; güneş ışınıyla vuran.",
       "researchFile": "01_SOURCE/research/adaro.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "masalai",
@@ -6842,7 +6850,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yer ruhu; hayvan veya insan kılığında toprağı savunan.",
       "researchFile": "01_SOURCE/research/masalai.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "temes-savsap",

@@ -5,50 +5,114 @@
     "links": "a–b · type: kin | function | pair | tradition · note: iki maddeyi BİRBİRİNDEN ne ayırıyor (süsleme değil, fark)"
   },
   "_headlineCap": 9,
-
   "families": {
     "A": {
       "motif": "B184.1.3",
       "motifNote": "'Magic horse from water world' — dört üyenin dördü de bu kodun altında. Kitabın tek tam örtüşen ailesi.",
-      "motifSpread": ["B184.1"],
+      "motifSpread": [
+        "B184.1"
+      ],
       "divergence": "İrlanda'da biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca boğar; Suomi'de kıyıdan çağırır; Filipinler'de hiç suya girmez — yolu daireye çevirir.",
-      "headline": ["each-uisce", "nykur", "nakki", "tikbalang"],
+      "divergenceEn": "In Ireland it eats the rider and leaves the liver on the shore; in Iceland it only drowns him; in Finland it calls from the bank; in the Philippines it never enters the water at all, and turns the road into a circle.",
+      "headline": [
+        "each-uisce",
+        "nykur",
+        "nakki",
+        "tikbalang"
+      ],
       "opening": {
         "title": "The Water Horse",
         "thesis": "Dört gelenek aynı tuzağı kurmuş: uysal duran bir at ve ona binme kararı. Ayrılan şey tuzağın kendisi değil, ARDINDAN gelen ahlaktır.",
         "map": "Kuzey Atlantik yayı (Ériu · Ísland · Suomi) + Filipinler — bitişik olmayan iki küme; yayılım değil bağımsız buluş.",
-        "plates": ["plate-016", "plate-108", "plate-059", "plate-075"],
-        "table": ["Kıyıda ne yapar", "Binildiğinde nereye gider", "Biniciye ne olur", "Kaçış yolu var mı"],
+        "plates": [
+          "plate-016",
+          "plate-108",
+          "plate-059",
+          "plate-075"
+        ],
+        "table": [
+          "Kıyıda ne yapar",
+          "Binildiğinde nereye gider",
+          "Biniciye ne olur",
+          "Kaçış yolu var mı"
+        ],
         "closing": "Filipin üyesi kümenin dışında durur ve ailenin sınırını gösterir: su atı imgesi sudan çıkabiliyor. Çıkınca yiyici olmaktan çıkıyor, yolu şaşırtan oluyor."
       }
     },
     "B": {
       "motif": "D113.3",
       "motifNote": "'Transformation man to fox'. TOHUM KODU DÜZELTİLDİ: aile kaydı D113.1 taşıyordu, o kod 'Transformation: man to wolf'tur — tilki değil kurt. Faz 1'in madde düzeyinde yaptığı düzeltme aile düzeyine taşındı.",
-      "motifSpread": ["G262.5"],
+      "motifSpread": [
+        "G262.5"
+      ],
       "divergence": "Çin'de ömür (qi) toplar ve kimi anlatıda sadık kalır; Kore'de insan olmak için karaciğer yer ve sınavı kaybeder. Biri insanlıktan çalar, öteki insanlığa girmeye çalışır.",
-      "headline": ["huli-jing", "kumiho"],
+      "divergenceEn": "In China it gathers a man's life and in some tellings stays faithful; in Korea it eats a liver in order to become human, and loses the test. One steals from humanity; the other is trying to enter it.",
+      "headline": [
+        "huli-jing",
+        "kumiho"
+      ],
       "opening": {
         "title": "The Fox Woman",
         "thesis": "İki gelenek aynı hayvanı seçmiş ve aynı dönüşümü kurmuş; ayrıldıkları yer dönüşümün YÖNÜ. Húli jīng insandan alır, kumiho insan olmaya çalışır.",
         "map": "Zhōnghuá → Hangug; komşu ve tarihsel olarak bağlı iki gelenek — bu aile yayılımın kanıtı, bağımsız buluşun değil. Kitap bunu saklamaz, tezin sınırı olarak yazar.",
-        "plates": ["plate-030", "plate-031"],
-        "table": ["Kaç yıl sonra dönüşür", "Ne alır", "Dönüşüm kalıcı mı", "İyi olabilir mi"],
+        "plates": [
+          "plate-030",
+          "plate-031"
+        ],
+        "table": [
+          "Kaç yıl sonra dönüşür",
+          "Ne alır",
+          "Dönüşüm kalıcı mı",
+          "İyi olabilir mi"
+        ],
         "closing": "Yamato'nun kitsune'si kapsamın dışında bırakıldı: koruyucu kutsal tilki (Inari) ile yiyici tilki aynı maddede toplanamaz ve ikisi de üç maddelik Yamato kotasını hak etmedi. Karşılaştırma açılışında anılır, kendi maddesi yoktur."
       }
     },
     "C": {
       "motif": "G262",
       "motifNote": "'Murderous witch'. TOHUM KODU DÜZELTİLDİ: aile kaydı G264 taşıyordu ve o kod 'La Belle Dame Sans Merci — witch entices MEN with offers of love'tur; ailenin avı erkek değil loğusa ve yeni doğandır. Faz 1'de on dört maddede düzeltilen sistematik hata aile düzeyine taşındı.",
-      "motifSpread": ["G262.0.1", "G262.1", "G262.1.3", "G262.5", "G442", "E220"],
+      "motifSpread": [
+        "G262.0.1",
+        "G262.1",
+        "G262.1.3",
+        "G262.5",
+        "G442",
+        "E220"
+      ],
       "divergence": "Dokuz gelenek korkuyu bir FAİLE yükler — Mezopotamya'da iblise, Roma'da kuşa, Filipinler'de komşuya. Yorùbá yüklemez: orada ölen çocuğun kendisi geri gelir. Aynı ölüm oranı, iki ayrı suçlu.",
-      "headline": ["lamia-hellenic", "lamashtu", "lilith", "al-karisi", "abiku", "pontianak", "aswang", "krasue", "kenas-unarpe"],
+      "divergenceEn": "Nine traditions put the blame on an agent: a demon in Mesopotamia, a bird in Rome, a neighbour in the Philippines. Yorùbá tradition does not. There the child who died comes back itself. The same death rate, two different culprits.",
+      "headline": [
+        "lamia-hellenic",
+        "lamashtu",
+        "lilith",
+        "al-karisi",
+        "abiku",
+        "pontianak",
+        "aswang",
+        "krasue",
+        "kenas-unarpe"
+      ],
       "opening": {
         "title": "The Night Hag",
         "thesis": "Kitabın en güçlü bölümü. Ortak korku doğum ölümüdür; her gelenek ona bir yüz vermiştir ve yüzler birbirine benzemez. Bu bir liste değil, bir kanıttır: aynı ölüm oranı, dokuz bağımsız anlatı.",
         "map": "Akdeniz · Mezopotamya · Talmud · Anadolu · Batı Afrika · Nusantara · Filipinler · Siam · Ainu — dört kıta, temas yok.",
-        "plates": ["plate-003", "plate-021", "plate-086", "plate-052", "plate-041", "plate-076", "plate-073", "plate-071", "plate-066"],
-        "table": ["Kimi hedefler (anne / çocuk / ikisi)", "Hangi kılıkta gelir", "Karşı önlem nedir", "Suçlu kimdir"],
+        "plates": [
+          "plate-003",
+          "plate-021",
+          "plate-086",
+          "plate-052",
+          "plate-041",
+          "plate-076",
+          "plate-073",
+          "plate-071",
+          "plate-066"
+        ],
+        "table": [
+          "Kimi hedefler (anne / çocuk / ikisi)",
+          "Hangi kılıkta gelir",
+          "Karşı önlem nedir",
+          "Suçlu kimdir"
+        ],
         "closing": "Àbíkú ailenin sınırıdır ve ailenin tezini o kanıtlar: sekiz gelenek bir avcı icat etti, biri etmedi. Karşı önlem sütunu okununca fark ortaya çıkar — muskaların hepsi çocuğu KORUR, Yorùbá adları ise çocuğu KALMAYA ikna eder.",
         "longTail": "Beş üye açılışa girmez, akraba imge tablosunda ve maddelerinde durur: Strix · Adze · Qalupalik · Ma lai · Manananggal. Beşi de imgeyi taşır; iki sayfaya sığmazlar."
       }
@@ -56,30 +120,97 @@
     "D": {
       "motif": "B31",
       "motifNote": "'Giant birds' — Thompson BÖLÜM başlığı. Aile düzeyinde bilerek bölüm kodu kullanılıyor: dokuz üye tek bir yaprak kodun altında toplanmıyor. Madde düzeyinde bölüm kodu KULLANILMAZ (Faz 1, Rukh düzeltmesi: B31 değil B31.1).",
-      "motifSpread": ["A284.2", "B31.1", "B31.1.0.1", "B31.5", "B32", "B56"],
+      "motifSpread": [
+        "A284.2",
+        "B31.1",
+        "B31.1.0.1",
+        "B31.5",
+        "B32",
+        "B56"
+      ],
       "divergence": "Mezopotamya'da kader tabletlerini çalar; İran'da bir çocuğu büyütür ve yol gösterir; Kuzey Amerika'da su altındaki düşmanla savaşır; Nguni'de bir cadıya bağlanır ve kan ister — aynı kanat, dört ayrı ahlak.",
-      "headline": ["anzu", "garuda", "simurgh", "bennu", "ziz", "rukh", "khyung", "impundulu", "animikii"],
+      "divergenceEn": "In Mesopotamia it steals the tablets of destiny; in Iran it raises a child and shows the way; in North America it fights the enemy under the water; among the Nguni it is bound to a witch and asks for blood. One wing, four moralities.",
+      "headline": [
+        "anzu",
+        "garuda",
+        "simurgh",
+        "bennu",
+        "ziz",
+        "rukh",
+        "khyung",
+        "impundulu",
+        "animikii"
+      ],
       "opening": {
         "title": "The Storm Bird",
         "thesis": "Dev kuş her yerde var; ne yaptığı hiçbir yerde aynı değil. Thompson bile onları tek yere koyamamış — üç ayrı kod dalına dağılmışlar (A284.2 · B31 · B32/B56). Dağılımın kendisi kanıttır.",
         "map": "Mezopotamya · Mısır · İran · Hindistan · Talmud · Arap · Tibet · Güney Afrika · Kuzey Amerika Gölleri.",
-        "plates": ["plate-020", "plate-013", "plate-043", "plate-006", "plate-087", "plate-057", "plate-078", "plate-090", "plate-102"],
-        "table": ["Kanat neyi getirir", "Kimin tarafında", "Yılanla ilişkisi", "Bedeli kim öder"],
+        "plates": [
+          "plate-020",
+          "plate-013",
+          "plate-043",
+          "plate-006",
+          "plate-087",
+          "plate-057",
+          "plate-078",
+          "plate-090",
+          "plate-102"
+        ],
+        "table": [
+          "Kanat neyi getirir",
+          "Kimin tarafında",
+          "Yılanla ilişkisi",
+          "Bedeli kim öder"
+        ],
         "closing": "Dört üyenin pençesinde bir yılan var (Garuḍa · Khyung · Animikii · Impundulu dolaylı olarak). Kuş–yılan karşıtlığı bu ailenin ve E ailesinin aynı sayfada okunmasını gerektirir; iki açılış birbirine gönderme yapar."
       }
     },
     "E": {
       "motif": "B11.2.1.1",
       "motifNote": "'Dragon as modified serpent' — aileyi ayıran şey budur: bu ejderhalar YILAN biçimindedir. Sınıf V'in kanatlı ve bileşik ejderhaları bu koda girmez.",
-      "motifSpread": ["B11.1", "B11.2", "B11.2.3", "B11.3", "B11.3.1.2", "B11.7.1", "B91.1"],
+      "motifSpread": [
+        "B11.1",
+        "B11.2",
+        "B11.2.3",
+        "B11.3",
+        "B11.3.1.2",
+        "B11.7.1",
+        "B91.1"
+      ],
       "divergence": "Kuzeyde dünyayı çevreler ve kıyameti getirir; Mısır'da her gece yenilir ve ertesi gece geri gelir; And'da iki dünyayı birbirine bağlar — yıkıcı değil taşıyıcıdır. Aynı gövde, üç ayrı kozmoloji.",
-      "headline": ["jormungandr", "apep", "iku-turso", "zmey", "vishap", "amaru", "thuong-luong", "inkanyamba", "imugi"],
+      "divergenceEn": "In the north it encircles the world and brings the end of it; in Egypt it is beaten every night and returns the next; in the Andes it binds two worlds and carries rather than destroys. One body, three cosmologies.",
+      "headline": [
+        "jormungandr",
+        "apep",
+        "iku-turso",
+        "zmey",
+        "vishap",
+        "amaru",
+        "thuong-luong",
+        "inkanyamba",
+        "imugi"
+      ],
       "opening": {
         "title": "The Serpent of the Deep",
         "thesis": "Dibi olan her yerde bir yılan var. Ayrılan şey yılanın işi: kimi düzeni tehdit eder, kimi düzeni TAŞIR. Apep'le Amaru aynı imgeyi taşıyıp zıt kozmolojik rol oynar.",
         "map": "Norðr · Kemet · Suomi · Slovjan · Hayk · Tawantinsuyu · Việt · Nguni · Hangug.",
-        "plates": ["plate-008", "plate-005", "plate-058", "plate-038", "plate-081", "plate-095", "plate-067", "plate-091", "plate-032"],
-        "table": ["Nerede yatar", "Düzenin neresinde", "Yenilir mi", "Dönüşü var mı"],
+        "plates": [
+          "plate-008",
+          "plate-005",
+          "plate-058",
+          "plate-038",
+          "plate-081",
+          "plate-095",
+          "plate-067",
+          "plate-091",
+          "plate-032"
+        ],
+        "table": [
+          "Nerede yatar",
+          "Düzenin neresinde",
+          "Yenilir mi",
+          "Dönüşü var mı"
+        ],
         "closing": "Imugi ailenin en sessiz üyesidir ve en çok şeyi söyler: o, ejderha OLAMAYAN yılandır. Bin yıl bekler, bir insan bağırır ve dönüşüm bozulur. Ailenin geri kalanı ne olduğunu anlatır; Imugi ne olunamadığını.",
         "longTail": "Altı üye açılışa girmez: Nāga · Yamata-no-Orochi · Aži Dahāka · Taniwha · Phaya Nak · Zmeu. Zmeu özellikle önemli: Zmey'le aynı gövdeyi taşır ama insan gibi pazarlık eder — ailenin dış sınırı orada."
       }
@@ -87,30 +218,78 @@
     "F": {
       "motif": "F150",
       "motifNote": "'Access to otherworld' — Thompson bölüm kodu; alt dalları (F150.2 'Entrance to other world guarded by monsters') ailenin tam tanımıdır.",
-      "motifSpread": ["B12", "B19", "B31.4", "D1635", "E17"],
+      "motifSpread": [
+        "B12",
+        "B19",
+        "B31.4",
+        "D1635",
+        "E17"
+      ],
       "divergence": "Kérberos girene izin verir, çıkana vermez; Ḫumbaba ormanı korur ve korumak için ölür; Qílín kimseyi durdurmaz — yalnızca adaletsizin üzerine basmaz; Basiliscus geçmeye kalkanı öldürmez, BAKAR ve bakış yeterlidir.",
-      "headline": ["kerberos", "humbaba", "camazotz", "qilin", "basiliscus", "golem", "aralez", "temes-savsap"],
+      "divergenceEn": "Kérberos lets everyone in and no one out; Ḫumbaba keeps a forest and dies for keeping it; Qílín stops nobody and simply declines to tread on the unjust; Basiliscus does not fight whoever tries to pass, but looks, and the look is enough.",
+      "headline": [
+        "kerberos",
+        "humbaba",
+        "camazotz",
+        "qilin",
+        "basiliscus",
+        "golem",
+        "aralez",
+        "temes-savsap"
+      ],
       "opening": {
         "title": "The Threshold Guardian",
         "thesis": "Bir kapı, ancak bekleyeni varsa kapıdır. Sekiz gelenek bekçiyi farklı sertlikte kurmuş: kimi cezalandırır, kimi yalnızca bakar, biri de geçişi bir SINAVA bağlar.",
         "map": "Hellenic · Sumer · Maya · Zhōnghuá · Romana · Talmud · Hayk · Melanesia.",
-        "plates": ["plate-001", "plate-019", "plate-034", "plate-029", "plate-026", "plate-085", "plate-082", "plate-112"],
-        "table": ["Neyi bekler", "Bedeli nedir", "Geçilebilir mi", "Geçilirse ne olur"],
+        "plates": [
+          "plate-001",
+          "plate-019",
+          "plate-034",
+          "plate-029",
+          "plate-026",
+          "plate-085",
+          "plate-082",
+          "plate-112"
+        ],
+        "table": [
+          "Neyi bekler",
+          "Bedeli nedir",
+          "Geçilebilir mi",
+          "Geçilirse ne olur"
+        ],
         "closing": "Temes Savsap ailenin en incelikli üyesidir: kum çizimini yarılar ve ölü onu tamamlayamazsa geçemez. Bekçi burada bir engel değil bir SINAVDIR — ve sınav ölmeden önce öğrenilmiş olmalıdır. Aralez ise ailenin tersidir: eşikte durup geri gönderir."
       }
     },
     "G": {
       "motif": "F567",
       "motifNote": "'Wild man'. TOHUM KODU DÜZELTİLDİ: aile kaydı F460 taşıyordu, o kod 'Mountain-spirits' (huldra ve dağ adamları) bölümüdür ve H ailesine daha yakındır. Dört üyenin üçü F567 taşıyor.",
-      "motifSpread": ["G100"],
+      "motifSpread": [
+        "G100"
+      ],
       "divergence": "Bask ülkesinde çobanı fırtınadan korur ve demirciliği öğretir; Amazon'da avcıyı ormandan kovar; Sápmi'de insanı avlar ve kurnazlıkla yenilir. Doğanın tarafını tutar — ama doğanın tarafı her yerde aynı taraf değildir.",
-      "headline": ["basajaun", "migoi", "curupira", "stallu"],
+      "divergenceEn": "In the Basque country it shelters the shepherd from storms and teaches him ironwork; in the Amazon it drives the hunter out of the forest; in Sápmi it hunts people and is beaten by cunning. It takes nature's side, and nature's side is not the same side everywhere.",
+      "headline": [
+        "basajaun",
+        "migoi",
+        "curupira",
+        "stallu"
+      ],
       "opening": {
         "title": "The Wild Man",
         "thesis": "İnsana benzeyen ama insan olmayan; ormanda veya dağda yaşayan; insanın oraya girmesine bir sınır koyan. Dört gelenek aynı figürü kurmuş ve dördünde de sınırın hangi tarafında durduğu değişiyor.",
         "map": "Euskal · Bod · Tupi-Guarani · Sápmi — dört ayrı kıta parçası, hiçbir temas yok.",
-        "plates": ["plate-061", "plate-077", "plate-098", "plate-104"],
-        "table": ["Nerede yaşar", "İnsana ne öğretir veya ne yapar", "İz bırakır mı", "Nasıl atlatılır"],
+        "plates": [
+          "plate-061",
+          "plate-077",
+          "plate-098",
+          "plate-104"
+        ],
+        "table": [
+          "Nerede yaşar",
+          "İnsana ne öğretir veya ne yapar",
+          "İz bırakır mı",
+          "Nasıl atlatılır"
+        ],
         "closing": "Üç üye iz üzerinden tanımlanır: Migoi geri geri yürür, Curupira'nın ayakları ters, Basajaun ıslıkla haber verir. Yaban adamı görülmez — okunur. Bu, plakalarda da böyle çözülür: figür değil, izin okunabilirliği.",
         "note": "Almas (Mongol) ve Ochokochi (Kartveli) yol haritasının açılış listesindeydi; Faz 1'de iki bağımsız kaynak doğrulanamadığı için düşürüldü. Açılış metninde bu ADIYLA anılır — kapsamın dürüstlüğü de kitabın iddiasıdır."
       }
@@ -118,21 +297,38 @@
     "H": {
       "motif": "F251",
       "motifNote": "'Origin of fairies'. Aileyi bir arada tutan soru budur: bunlar KİM? Üç gelenek de bir köken cevabı verir — İzlanda'da erken tanrıların soyu (F251.1), Ainu'da adanın önceki halkı, Sápmi'de yerin altındaki sürü sahipleri (F451).",
-      "motifSpread": ["F251.1", "F451", "F211.3"],
+      "motifSpread": [
+        "F251.1",
+        "F451",
+        "F211.3"
+      ],
       "divergence": "İzlanda'da yol güzergâhı hâlâ onlar için değiştirilir — yaşayan bir folklor; Ainu'da geçmişe yerleştirilmiş, adanın önceki sakinleri sayılır; Sápmi'de adı anılmaz, çünkü anmak dikkat çeker.",
-      "headline": ["huldufolk", "koropokkuru", "ulda"],
+      "divergenceEn": "In Iceland a road is still diverted for them, a living folklore; among the Ainu they are placed in the past, as the island's earlier inhabitants; in Sápmi their name is not spoken, because speaking it attracts attention.",
+      "headline": [
+        "huldufolk",
+        "koropokkuru",
+        "ulda"
+      ],
       "opening": {
         "title": "The Hidden People",
         "thesis": "Yanı başımızda ama görünmeyen bir topluluk. Ailenin sorusu 'ne yapar' değil 'kim'dir — ve üç gelenek üç ayrı zaman kipiyle cevap verir: hâlâ buradalar · önce buradaydılar · aşağıdalar.",
         "map": "Ísland · Ainu · Sápmi — üçü de kuzey, üçü de temassız.",
-        "plates": ["plate-107", "plate-064", "plate-105"],
-        "table": ["Nerede yaşar", "Görülür mü", "Zaman kipi (geçmiş / şimdi)", "Adı anılır mı"],
+        "plates": [
+          "plate-107",
+          "plate-064",
+          "plate-105"
+        ],
+        "table": [
+          "Nerede yaşar",
+          "Görülür mü",
+          "Zaman kipi (geçmiş / şimdi)",
+          "Adı anılır mı"
+        ],
         "closing": "Bu ailenin plakaları bir tekil figür değil bir TOPLULUK gösterir; kitabın tek çoğul kompozisyonu buradadır ve gerekçesi ailenin kendisidir.",
         "note": "Orang Bunian (Nusantara) ve Aos Sí (Ériu) yol haritasının açılış listesindeydi; ilki Faz 1'de kaynak doğrulanamadığı için düşürüldü, ikincisi zaten varyant olarak işaretliydi."
       }
     }
   },
-
   "classOpenings": {
     "I": {
       "title": "THE GUARDIANS",
@@ -195,201 +391,1092 @@
       ]
     }
   },
-
   "links": [
-    {"a": "each-uisce", "b": "nykur", "type": "kin", "note": "İskoçya kaydında biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca göle götürür."},
-    {"a": "each-uisce", "b": "nakki", "type": "kin", "note": "Ériu'da kıyıda binilmeyi bekler; Suomi'de at, insan veya kadın kılığına girer — biçim sabit değil."},
-    {"a": "nykur", "b": "nakki", "type": "kin", "note": "İkisi de adla kovulur: 'nykur' denince kaçar, näkki'ye karşı çocuklara adı öğretilir."},
-    {"a": "tikbalang", "b": "each-uisce", "type": "kin", "note": "Ailenin tek karasal üyesi: suya çekmez, yolu daireye çevirir. Su atı sudan çıkınca ne olur — cevabı budur."},
-    {"a": "tikbalang", "b": "nykur", "type": "kin", "note": "İkisinin de ayağı yanlıştır — Nykur'un toynağı ters, Tikbalang'ın bacağı orantısız uzun."},
-
-    {"a": "huli-jing", "b": "kumiho", "type": "kin", "note": "Húli jīng insandan ömür alır ve kimi anlatıda sadık kalır; kumiho insan OLMAK için karaciğer yer ve sınavı kaybeder."},
-    {"a": "huli-jing", "b": "nhang", "type": "function", "note": "İkisi de kadın biçimine girip erkeği alır; Húli jīng ömür toplar ve yaşatır, Nhang kan içer ve öldürür."},
-    {"a": "huli-jing", "b": "long", "type": "tradition", "note": "Zhōnghuá'nın iki uzun ömürlüsü: Lóng zamanla yükselir, húli jīng zamanla insanlaşır."},
-
-    {"a": "lamia-hellenic", "b": "lamashtu", "type": "kin", "note": "Lámia bir cezadır — kaybettiği çocukların yerine başkasını alır; Lamashtu bir iblistir ve kaybetmemiştir."},
-    {"a": "lamashtu", "b": "lilith", "type": "kin", "note": "İkisi de muskayla karşılanır: biri Pazuzu figürüyle, öteki üç melek adıyla. Karşı önlem yazıya geçmiştir."},
-    {"a": "lilith", "b": "al-karisi", "type": "kin", "note": "Lilith yeni doğana yönelir; Al Karısı loğusanın ciğerini alır — hedef çocuktan anneye kayar."},
-    {"a": "al-karisi", "b": "kenas-unarpe", "type": "kin", "note": "İkisi de anneyi hedefler; Al Karısı sudan korkar, Kenas-unarpe suyun kenarında bekler."},
-    {"a": "kenas-unarpe", "b": "qalupalik", "type": "kin", "note": "Kuzeyin iki bekleyeni: biri bataklıkta loğusayı, öteki buzun altında yalnız çocuğu."},
-    {"a": "lamia-hellenic", "b": "strix", "type": "kin", "note": "Roma, Yunan'ın kraliçesini kuşa çevirir: Lámia bir hikâyedir, strix bir TÜRDÜR ve Ovidius ona tarih verir."},
-    {"a": "strix", "b": "adze", "type": "kin", "note": "İkisi de küçük bir canlının kılığında girer — biri kuş, öteki ateşböceği. Kılık, girişi mümkün kılan şeydir."},
-    {"a": "adze", "b": "abiku", "type": "kin", "note": "Aynı gelenekte iki cevap: Adze dışarıdan gelen bir faildir, Àbíkú çocuğun kendisidir."},
-    {"a": "abiku", "b": "pontianak", "type": "kin", "note": "Àbíkú ölen çocuğun dönüşüdür, Pontianak ölen annenin. Aynı doğum, iki ayrı hayalet."},
-    {"a": "pontianak", "b": "krasue", "type": "kin", "note": "Pontianak kokusuyla tanınır (çiçek), Krasue görüntüsüyle — geceleri uçan baş ve sarkan organlar."},
-    {"a": "krasue", "b": "manananggal", "type": "kin", "note": "Krasue'nin gövdesi bir yerde bekler, Manananggal'ın alt yarısı; ikisi de gövde bulunursa ölür."},
-    {"a": "manananggal", "b": "aswang", "type": "kin", "note": "Aynı gelenekte iki katman: Aswang bir kategori (gündüz komşu), Manananggal onun en somut biçimi."},
-    {"a": "aswang", "b": "ma-lai", "type": "kin", "note": "Aswang cesedin yerine muz gövdesi bırakır — hile bırakır; Ma lai iz bırakmaz, yalnızca döner."},
-    {"a": "ma-lai", "b": "krasue", "type": "kin", "note": "İki uçan baş, iki ayrı gelenek; Ma lai pislik ve kan arar, Krasue lohusalık artığı — biri iğrençliğe, öteki doğuma bağlı."},
-
-    {"a": "anzu", "b": "simurgh", "type": "kin", "note": "Anzû kader tabletlerini ÇALAR; Sīmurgh bir çocuğu büyütür ve yol gösterir. Aynı kanat, hırsız ve bilge."},
-    {"a": "simurgh", "b": "garuda", "type": "kin", "note": "Sīmurgh çağrılır (tüy yakılır), Garuḍa binilir. Biri danışman, öteki taşıt."},
-    {"a": "garuda", "b": "khyung", "type": "kin", "note": "İkisi de pençesinde yılan tutar; Garuḍa'nınki bir düşmanlık, Khyung'unki bir kozmik düzen işareti."},
-    {"a": "khyung", "b": "animikii", "type": "kin", "note": "İki gök varlığı, iki ayrı kıta: Khyung yılanı tutar, Animikii su varlığıyla savaşır. Kuş–su karşıtlığı iki yerde bağımsız kurulmuş."},
-    {"a": "animikii", "b": "impundulu", "type": "kin", "note": "Animikii gök gürültüsünü GETİRİR; Impundulu şimşeği ÇAĞIRIR ve bir insana bağlıdır — biri hava, öteki sahiplik."},
-    {"a": "impundulu", "b": "ziz", "type": "kin", "note": "Impundulu kan ister ve beslenmezse sahibine döner; Ziz kimseden bir şey istemez — gölgesi güneşi kapatır, o kadar."},
-    {"a": "ziz", "b": "rukh", "type": "kin", "note": "Thompson ikisini yan yana kodlar (B31.1 · B31.1.0.1): Rukh gemiyi batırır, Ziz yalnızca büyüktür. Ölçek ile tehlike aynı şey değildir."},
-    {"a": "rukh", "b": "anzu", "type": "kin", "note": "Rukh bir gezi anlatısına girer (Sindbad), Anzû bir devlet anlatısına — biri denizde, öteki tapınakta."},
-    {"a": "bennu", "b": "simurgh", "type": "kin", "note": "Bennu zamanın başlangıcını işaretler, Sīmurgh bir ömrü taşır — biri kozmik takvim, öteki kişisel kader."},
-    {"a": "bennu", "b": "ziz", "type": "kin", "note": "İkisi de kozmolojiyi doldurmak için var: Bennu ilk tepeye konar, Ziz üçlünün gök ayağıdır."},
-
-    {"a": "jormungandr", "b": "apep", "type": "kin", "note": "Jörmungandr bir kez ve son kez yenilir; Apep her sabah yeniden yenilir. Kıyamet ile döngü arasındaki fark."},
-    {"a": "apep", "b": "iku-turso", "type": "kin", "note": "Apep'in adı her gün anılır ve lanetlenir; Iku-Turso'nun adı uğursuz sayılıp anılmaz."},
-    {"a": "iku-turso", "b": "jormungandr", "type": "kin", "note": "İkisi de kuzey denizinin dibinde; biri yemin ettirilip gönderilir, öteki orada bekler."},
-    {"a": "vishap", "b": "zmey", "type": "kin", "note": "Vishap taş dikitlerle işaretlenir — yeri bellidir; Zmey'in yeri yoktur, kesilen başı yerine yenisi çıkar."},
-    {"a": "zmey", "b": "zmeu", "type": "kin", "note": "Zmey yalnızca güçtür; Zmeu insan gibi pazarlık eder. Ailenin dış sınırı tam olarak burasıdır."},
-    {"a": "zmeu", "b": "azi-dahaka", "type": "kin", "note": "İkisi de konuşur ve ikisi de tutsak alır; Aži Dahāka'nın tutsaklığı kendi başına gelir — dağın altına zincirlenir."},
-    {"a": "azi-dahaka", "b": "vishap", "type": "kin", "note": "Komşu iki yayla: biri dağın altında zincirli bekler, öteki dağ gölünde yatar. İkisi de çözülmeyi bekliyor sayılır."},
-    {"a": "amaru", "b": "inkanyamba", "type": "kin", "note": "Amaru iki dünyayı BAĞLAR; Inkanyamba kızdığında fırtına getirir. Biri köprü, öteki tehdit."},
-    {"a": "inkanyamba", "b": "taniwha", "type": "kin", "note": "İkisi de bir suyun sahibidir — şelale ve nehir ağzı; Taniwha kimi kabileye koruyucudur, Inkanyamba kimseye değil."},
-    {"a": "taniwha", "b": "amaru", "type": "kin", "note": "İki koruyucu yılan, iki okyanus: biri iwi'ye, öteki iki dünyaya bağlı."},
-    {"a": "imugi", "b": "thuong-luong", "type": "kin", "note": "Imugi ejderha olmayı bekler ve olamaz; Thuồng luồng olduğu şeyle yetinir ve insan ona benzemeye çalışır (dövme)."},
-    {"a": "thuong-luong", "b": "phaya-nak", "type": "kin", "note": "Aynı nehir sisteminin iki adı: biri dövmenin kökeni, öteki ateş toplarının."},
-    {"a": "phaya-nak", "b": "naga", "type": "kin", "note": "Aynı kelime, iki coğrafya: Nāga hazineyi ve yağmuru tutar, Phaya Nak bir şehir yönetir."},
-    {"a": "naga", "b": "imugi", "type": "kin", "note": "Nāga zaten bir halktır; Imugi tek başına ve bekleyendir. Biri düzen, öteki eşik."},
-    {"a": "yamata-no-orochi", "b": "zmey", "type": "kin", "note": "İki çok başlı: Orochi sarhoş edilip parçalanır, Zmey'in başı ateşle dağlanmadıkça geri çıkar."},
-    {"a": "yamata-no-orochi", "b": "herensuge", "type": "function", "note": "İkisi de yıllık kurban ister; Orochi'den bir kılıç çıkar, Herensuge'den bir aziz anlatısı."},
-
-    {"a": "kerberos", "b": "humbaba", "type": "kin", "note": "Kérberos kapıyı, Ḫumbaba ormanı bekler; biri görevini sürdürür, öteki görevi yüzünden öldürülür."},
-    {"a": "kerberos", "b": "temes-savsap", "type": "kin", "note": "İkisi de ölüler diyarının girişinde; Kérberos gücü, Temes Savsap bir SINAVI kullanır."},
-    {"a": "temes-savsap", "b": "camazotz", "type": "kin", "note": "Temes Savsap geçişi bilgiye bağlar; Camazotz geçeni keser. Sınav ile infaz."},
-    {"a": "camazotz", "b": "kerberos", "type": "kin", "note": "İkisi de yeraltının bir odasını tutar; biri köpek, öteki yarasa — hayvan seçimi coğrafyanın seçimidir."},
-    {"a": "qilin", "b": "basiliscus", "type": "kin", "note": "Qílín otu bile ezmez; Basiliscus geçtiği yeri çöle çevirir. Aynı sınıfın iki ucu: dokunmayan ve yok eden."},
-    {"a": "basiliscus", "b": "humbaba", "type": "kin", "note": "İkisi de bakışla iş görür; Ḫumbaba'nın yüzü bağırsak kıvrımlarıdır — bakılan da bakan kadar önemlidir."},
-    {"a": "golem", "b": "aralez", "type": "kin", "note": "Golem adla canlandırılır ve harf silinince çöker; Aralez yalayarak diriltir. Biri yazının, öteki bedenin işi."},
-    {"a": "golem", "b": "humbaba", "type": "kin", "note": "İkisi de korumak için yapılmış ve ikisi de koruduğu şey yüzünden yok olmuştur."},
-    {"a": "aralez", "b": "temes-savsap", "type": "kin", "note": "İkisi de ölümün eşiğinde durur: Aralez geri gönderir, Temes Savsap geçirmez."},
-
-    {"a": "basajaun", "b": "migoi", "type": "kin", "note": "Basajaun ıslıkla haber verir — sesiyle bilinir; Migoi görülmemek için geri geri yürür — iziyle."},
-    {"a": "migoi", "b": "curupira", "type": "kin", "note": "İkisi de izi yanıltır: biri ters yürüyerek, öteki ters ayakla. Aynı hile, iki ayrı anatomi."},
-    {"a": "curupira", "b": "basajaun", "type": "kin", "note": "Curupira avcıyı cezalandırır, Basajaun çobanı korur. Doğanın tarafı, insanın işine göre değişir."},
-    {"a": "stallu", "b": "basajaun", "type": "kin", "note": "Stállu insanı avlar ve kurnazlıkla yenilir; Basajaun insana demirciliği öğretir. Ailenin ahlaki uçları."},
-    {"a": "stallu", "b": "migoi", "type": "kin", "note": "Stállu demir giyer ve gümüş toplar — eşyalıdır; Migoi'nin hiçbir eşyası yoktur."},
-
-    {"a": "koropokkuru", "b": "ulda", "type": "kin", "note": "Koropokkuru balık bırakıp kaybolur — verir; Ulda sürü güder ve adı anılmaz — kendi işine bakar."},
-    {"a": "ulda", "b": "huldufolk", "type": "kin", "note": "İkisi de yer altındadır; Huldufólk'un yeri hâlâ savunulur (yol güzergâhı), Ulda'nınki yalnızca anılmaz."},
-    {"a": "huldufolk", "b": "koropokkuru", "type": "kin", "note": "Huldufólk şimdiki zamandadır, Koropokkuru geçmiş zamanda — biri komşu, öteki önceki halk."},
-
-    {"a": "domovoy", "b": "huldufolk", "type": "function", "note": "Biri evin İÇİNDE saklı, öteki kayanın içinde; ikisi de taşınırken hesaba katılır."},
-    {"a": "domovoy", "b": "lemures", "type": "function", "note": "İkisi de eve bağlıdır: Domovoy beslenir ve kalır, Lemures yatıştırılır ve gönderilir."},
-    {"a": "domovoy", "b": "dokkaebi", "type": "function", "note": "İkisi de eşyaya ve haneye bağlıdır; Domovoy sadıktır, Dokkaebi keyfî."},
-    {"a": "repun-kamuy", "b": "ong-ba-muoi", "type": "function", "note": "İkisinin de adı doğrudan anılmaz; biri denizin, öteki ormanın sahibidir ve saygı bir av kuralıdır."},
-    {"a": "repun-kamuy", "b": "moo", "type": "function", "note": "İkisi de suyun ve soyun sahibidir; Repun Kamuy av bağışlar, Moʻo yalnızca korur."},
-    {"a": "repun-kamuy", "b": "adaro", "type": "function", "note": "İki Pasifik deniz varlığı: biri avı bağışlar, öteki yolunu şaşıranı vurur."},
-    {"a": "ong-ba-muoi", "b": "curupira", "type": "function", "note": "İkisi de ormanın efendisidir; Ông Ba Mươi'ye saygı gösterilir, Curupira'dan kaçılır."},
-    {"a": "boitata", "b": "curupira", "type": "function", "note": "Aynı geleneğin aynı işlevi iki bedende: Curupira izi yanıltır, Boitatá ateşle kovalar."},
-    {"a": "boitata", "b": "iara", "type": "tradition", "note": "Tupi-Guarani'nin iki ucu: biri ormanı korur, öteki nehre çeker."},
-    {"a": "boitata", "b": "masalai", "type": "function", "note": "İkisi de toprağın kendisini savunur; Masalai bir yere bağlıdır, Boitatá gezer."},
-
-    {"a": "chimaira", "b": "ammit", "type": "function", "note": "İki bileşik gövde: Chímaira üç hayvanı yan yana taşır, Ammit üçünü tek işlevde birleştirir — yutma."},
-    {"a": "chimaira", "b": "makara", "type": "function", "note": "İkisi de bileşiktir; Chímaira'nın parçaları saldırır, Makara'nınki bir eşiği süsler."},
-    {"a": "chimaira", "b": "herensuge", "type": "function", "note": "İkisi de bir kahraman anlatısının hedefi; biri kanattan öldürülür, öteki azizle."},
-    {"a": "ammit", "b": "supay", "type": "function", "note": "Ammit yargının sonucudur — kalp tartılır; Supay yeraltının sahibidir ve yargılamaz, tutar."},
-    {"a": "ammit", "b": "apep", "type": "tradition", "note": "Kemet'in iki yutucusu: Apep güneşi, Ammit kalbi hedefler — biri kozmik, öteki kişisel."},
-    {"a": "fenrir", "b": "jormungandr", "type": "pair", "note": "Kardeşler ve Ragnarök'ün iki ayrı ucu: biri Óðinn'i yutar, öteki Þórr'u zehirler."},
-    {"a": "fenrir", "b": "amarok", "type": "function", "note": "Fenrir bağlanır ve kurtulur; Amarok bağlanmaz — kuralı çiğneyeni bulmakla yetinir."},
-    {"a": "fenrir", "b": "draugr", "type": "tradition", "note": "Norðr'un iki bekleyeni: biri zinciri, öteki höyüğü bekler."},
-    {"a": "ponaturi", "b": "adaro", "type": "function", "note": "İki deniz halkı: Ponaturi ışıktan ölür, Adaro ışığı silah olarak kullanır."},
-    {"a": "ponaturi", "b": "moo", "type": "tradition", "note": "Maohi'nin iki su varlığı: biri gelir ve tehdittir, öteki kalır ve korur."},
-    {"a": "ponaturi", "b": "taniwha", "type": "function", "note": "Ponaturi denizden karaya çıkar; Taniwha nehir ağzında durur — biri istila, öteki sınır."},
-    {"a": "amarok", "b": "windigo", "type": "function", "note": "İkisi de kuzeyin yalnızlığından doğar: Amarok kuralı çiğneyeni cezalandırır, Windigo kuralın kendisini yok eder."},
-    {"a": "amarok", "b": "stallu", "type": "function", "note": "İkisi de tek başına avlanan insanı hedefler; biri hayvan, öteki eşyalı bir dev."},
-    {"a": "karakoncolos", "b": "al-karisi", "type": "tradition", "note": "Türk geleneğinin iki mevsimi: biri zemherinin, öteki doğumun tehlikesi."},
-    {"a": "karakoncolos", "b": "ghul", "type": "function", "note": "Karakoncolos soru sorar ve yanlış cevabı cezalandırır; Ghūl soru sormaz, kılık değiştirir."},
-    {"a": "karakoncolos", "b": "strigoi", "type": "function", "note": "İkisi de kışın belirli günlerine bağlıdır; biri sokakta, öteki mezarda başlar."},
-    {"a": "ghul", "b": "pishtaco", "type": "function", "note": "İkisi de yoldaki yabancıdır; Ghūl kılık değiştirir, Pishtaco zaten yabancı görünür — korku sömürünün suretini alır."},
-    {"a": "ghul", "b": "ifrit", "type": "tradition", "note": "Arap geleneğinde iki ayrı kategori: Ghūl bir yiyici, ʿIfrīt bir cin sınıfı — biri açlık, öteki güç."},
-    {"a": "ajatar", "b": "iku-turso", "type": "tradition", "note": "Suomi'nin iki eski varlığı: biri ormanda hastalık yayar, öteki denizin dibinde bekler."},
-    {"a": "ajatar", "b": "nakki", "type": "tradition", "note": "İkisi de Kalevala çevresinden; Ajatar hastalıkla, Näkki suyla öldürür."},
-    {"a": "ajatar", "b": "srin-po", "type": "function", "note": "İkisi de bastırılması gereken eski bir güçtür — biri hastalıkla, öteki tapınakla."},
-    {"a": "srin-po", "b": "migoi", "type": "tradition", "note": "Bod'un iki yer varlığı: Srin-po toprağın altında bastırılmıştır, Migoi karda serbesttir."},
-    {"a": "srin-po", "b": "khyung", "type": "tradition", "note": "Bön kozmolojisinin iki ucu: yerin altındaki et yiyen halk ve gökteki kartal."},
-    {"a": "olgoi-khorkhoi", "b": "basiliscus", "type": "function", "note": "Basiliscus bakışla, Olgoi-Khorkhoi dokunuşla öldürür — ikisi de mesafeyi kaldırır."},
-    {"a": "olgoi-khorkhoi", "b": "adaro", "type": "function", "note": "İkisi de görünmeden vurur: biri kumun altından, öteki güneş ışınıyla."},
-    {"a": "devi", "b": "stallu", "type": "function", "note": "İki hantal dev: Devi sayıca artar, Stállu eşya biriktirir; ikisi de kurnazlıkla yenilir."},
-    {"a": "devi", "b": "herensuge", "type": "function", "note": "İkisi de çok başlıdır ve baş sayısı tehlikenin ölçüsüdür."},
-    {"a": "devi", "b": "nhang", "type": "tradition", "note": "Kafkasya'nın iki yüzü: mağarada bekleyen güç ve ırmakta biçim değiştiren aldatma."},
-    {"a": "tokoloshe", "b": "koropokkuru", "type": "function", "note": "İki küçük halk, iki ahlak: Koropokkuru balık bırakır, Tokoloshe geceleri gelir."},
-    {"a": "tokoloshe", "b": "impundulu", "type": "tradition", "note": "Nguni'nin iki gönderilmişi: ikisi de bir büyücüye bağlıdır, biri yerde biri gökte."},
-    {"a": "tokoloshe", "b": "adze", "type": "function", "note": "İkisi de küçüktür ve geceleyin gelir; Adze kılık değiştirir, Tokoloshe değiştirmez — gönderilir."},
-    {"a": "pishtaco", "b": "supay", "type": "tradition", "note": "Tawantinsuyu'nun iki sömürü anlatısı: biri bedeni, öteki madeni alır."},
-    {"a": "pishtaco", "b": "windigo", "type": "function", "note": "İkisi de ekonomik bir korkuyu bedenleştirir: biri yağı çıkarır, öteki asla doymaz."},
-    {"a": "windigo", "b": "draugr", "type": "function", "note": "İkisi de büyüyen bir gövdedir: Draugr şişer ve ağırlaşır, Windigo yedikçe boy atar."},
-    {"a": "windigo", "b": "qalupalik", "type": "function", "note": "İki kuzey korkusu, iki yaş grubu: Qalupalik çocuğu alır, Windigo yetişkini dönüştürür."},
-
-    {"a": "tengu", "b": "qilin", "type": "function", "note": "Qílín adaletsizin üzerine BASMAZ; Tengu kibirliyi cezalandırır. Aynı ahlak, iki ayrı yaptırım."},
-    {"a": "tengu", "b": "kappa", "type": "tradition", "note": "Yamato'nun iki dağ/su varlığı: ikisi de sınar, biri dövüş öğretir, öteki güreşe çağırır."},
-    {"a": "puca", "b": "each-uisce", "type": "tradition", "note": "Ériu'da iki at: Púca bindirir ve bırakır, Each-uisce bindirir ve boğar."},
-    {"a": "puca", "b": "bean-sidhe", "type": "tradition", "note": "İkisi de habercidir; Púca'nın haberi belirsiz, Bean sídhe'ninki kesindir."},
-    {"a": "puca", "b": "dokkaebi", "type": "function", "note": "İki keyfî varlık: ikisi de sevdiğine yardım, sevmediğine bela verir."},
-    {"a": "nahual", "b": "way", "type": "kin", "note": "Nahual dönüşümü SEÇER (büyücüdür), Way herkeste vardır ve uykuda serbest kalır."},
-    {"a": "nahual", "b": "buda", "type": "function", "note": "İkisi de gündüz bir zanaatkâr, gece bir hayvandır; biri kendi hayvanına döner, öteki sırtlana."},
-    {"a": "nahual", "b": "varcolac", "type": "function", "note": "İkisi de doğum koşuluna bağlıdır: biri doğduğu güne, öteki annesinin gece iplik eğirmesine."},
-    {"a": "way", "b": "xtabay", "type": "tradition", "note": "Maya'nın iki ruhu: biri her insanın içinde, öteki ağacın altında bekler."},
-    {"a": "way", "b": "tupilaq", "type": "function", "note": "Way'e verilen zarar sahibine geçer; Tupilaq zarar veremezse yapanına döner. İkisi de bir bağın bedelidir."},
-    {"a": "dokkaebi", "b": "kumiho", "type": "tradition", "note": "Hangug'un iki karşılaşması: Dokkaebi güreşe çağırır ve sol tarafından yenilir, Kumiho sınar ve sınavı kendi kaybeder."},
-    {"a": "xtabay", "b": "iara", "type": "function", "note": "İkisi de güzellikle çağırır; Xtabay ağaçta ve dikene çevirir, Iara suda ve şarkıyla."},
-    {"a": "xtabay", "b": "lamia-euskal", "type": "function", "note": "İkisi de saç ve güzellikle tanımlanır; Lamia bir tarak ister, Xtabay bir kucaklama."},
-    {"a": "anansi", "b": "adze", "type": "tradition", "note": "Aynı gelenekte kurnazlık ile kötülük: Anansi zayıfın aklı, Adze güçsüzün korkusudur."},
-    {"a": "anansi", "b": "dokkaebi", "type": "function", "note": "İki hilekâr: Anansi pazarlıkla kazanır, Dokkaebi güreşle kaybeder."},
-    {"a": "anansi", "b": "puca", "type": "function", "note": "İkisi de kuralları çevirir; Anansi'nin hilesi kalıcı bir sonuç verir (hikâyeler ona geçer), Púca'nınki geçicidir."},
-    {"a": "peri", "b": "ifrit", "type": "function", "note": "İkisi de ateşten yaratılmıştır; Perī kararsızdır, ʿIfrīt dik başlı — aynı madde, iki mizaç."},
-    {"a": "peri", "b": "kinnari", "type": "function", "note": "İki yarı-varlık: Perī insanın aklını alır, Kinnarī yalnızca şarkı söyler."},
-    {"a": "peri", "b": "simurgh", "type": "tradition", "note": "Pars'ın iki yardımcısı: biri kararsız, öteki güvenilir — kitabın ikisini de aynı geleneğe borçlu olması tesadüf değil."},
-    {"a": "tupilaq", "b": "golem", "type": "function", "note": "İkisi de yapılır ve ikisi de ustasına döner: biri güçlü bir düşman yüzünden, öteki bir harf silinmediği için."},
-    {"a": "tupilaq", "b": "qalupalik", "type": "tradition", "note": "Inuit'in iki tehlikesi: biri yapılır ve gönderilir, öteki hep oradadır."},
-    {"a": "ifrit", "b": "rukh", "type": "tradition", "note": "Arap anlatısının iki ölçeği: biri tahtı taşır, öteki gemiyi batırır."},
-    {"a": "nhang", "b": "iara", "type": "function", "note": "İkisi de kadın biçiminde suya çeker; Nhang kan içer, Iara yalnızca alıkoyar."},
-    {"a": "nhang", "b": "aralez", "type": "tradition", "note": "Hayk'ın iki ucu: biri kanı alır, öteki yarayı iyileştirir."},
-    {"a": "buda", "b": "skuggabaldur", "type": "function", "note": "İkisi de sürüye zarar verir ve ikisi de melez sayılır; biri insanla hayvan, öteki iki hayvan arasında."},
-    {"a": "buda", "b": "adze", "type": "function", "note": "İkisi de bir insanın içinden çalışır — biri nazarla, öteki kan içerek."},
-    {"a": "varcolac", "b": "strigoi", "type": "tradition", "note": "Dacia'nın iki gece varlığı: biri göğü, öteki aileyi tüketir."},
-    {"a": "varcolac", "b": "zmeu", "type": "tradition", "note": "Rumen masalının iki düşmanı: biri kozmik bir açıklama, öteki bir pazarlık."},
-    {"a": "gufihtar", "b": "ulda", "type": "tradition", "note": "Sápmi'nin iki gizlisi: Ulda yerin altında yaşar, Gufihtar yolcuyu görünmez kılar."},
-    {"a": "gufihtar", "b": "huldufolk", "type": "function", "note": "İkisi de görünmezliği yönetir; Huldufólk kendi görünmezliğini, Gufihtar başkasınınkini."},
-    {"a": "gufihtar", "b": "masalai", "type": "function", "note": "İkisi de araziye bağlıdır ve ikisi de yüksek sesle konuşulmayan yerlerdir."},
-    {"a": "skuggabaldur", "b": "huldufolk", "type": "tradition", "note": "Ísland'ın iki ucu: biri kayanın içindeki komşu, öteki kurşun işlemeyen melez."},
-    {"a": "skuggabaldur", "b": "nykur", "type": "tradition", "note": "İzlanda'nın iki tehlikeli hayvanı: biri sürüye, öteki biniciye."},
-    {"a": "masalai", "b": "temes-savsap", "type": "tradition", "note": "Melanezya'nın iki sınırı: biri arazinin, öteki ölümün."},
-    {"a": "masalai", "b": "adaro", "type": "tradition", "note": "Melanezya'da kara ve deniz: Masalai yerinde kalır, Adaro açıkta vurur."},
-
-    {"a": "kappa", "b": "nakki", "type": "function", "note": "İkisi de suya çeker ve ikisinin de bir zaafı vardır: Kappa'nın çanağındaki su, Näkki'nin adı."},
-    {"a": "kappa", "b": "ahuizotl", "type": "function", "note": "İkisi de küçüktür ve gövdenin bir parçasını alır: biri güreşten sonra, öteki gözü ve tırnağı."},
-    {"a": "makara", "b": "naga", "type": "tradition", "note": "Bharatiya'nın iki su varlığı: Makara eşiği süsler, Nāga suyun altında yaşar."},
-    {"a": "makara", "b": "kerberos", "type": "function", "note": "İkisi de bir kapıya aittir; Kérberos kapıda durur, Makara kapıya OYULUR — bekçi bir imgeye dönüşmüştür."},
-    {"a": "cipactli", "b": "ammit", "type": "function", "note": "Cipactli'nin her ekleminde bir ağız vardır ve doyurulmalıdır; Ammit tek ağızdır ve yalnızca hak edeni yutar."},
-    {"a": "cipactli", "b": "camazotz", "type": "tradition", "note": "Mezoamerika'nın iki kozmolojik gövdesi: biri yeryüzünü verir, öteki yeraltını bekler."},
-    {"a": "cipactli", "b": "apep", "type": "function", "note": "İkisi de düzenin sürekli yeniden kurulmasını gerektirir: biri beslenerek, öteki yenilerek."},
-    {"a": "ahuizotl", "b": "iara", "type": "function", "note": "İkisi de suya çeker; Ahuizotl'un aldığı şey sayılabilir (göz, diş, tırnak), Iara'nınki sayılamaz."},
-    {"a": "moo", "b": "taniwha", "type": "function", "note": "İki Pasifik koruyucusu: Moʻo suyun rengiyle bilinir, Taniwha kabile ilişkisiyle."},
-    {"a": "sahmeran", "b": "naga", "type": "function", "note": "İkisi de yılanların yönetimidir; Şahmeran bilgiyi taşır ve o bilgi yüzünden ölür, Nāga hazineyi taşır."},
-    {"a": "sahmeran", "b": "al-karisi", "type": "tradition", "note": "Türk geleneğinin iki dişi varlığı: biri sır tutar, öteki can alır."},
-    {"a": "sahmeran", "b": "karakoncolos", "type": "tradition", "note": "İkisi de bir SORUYA bağlıdır: biri sırrın açığa çıkmasıyla ölür, öteki yanlış cevabı cezalandırır."},
-    {"a": "lamia-euskal", "b": "basajaun", "type": "tradition", "note": "Euskal'ın iki sahibi: biri ırmağın, öteki ormanın; ikisi de karşılığında iş yapar."},
-    {"a": "iara", "b": "rusalka", "type": "function", "note": "İkisi de suda ölümle ilişkilidir; Rusalka ölmüş bir kızın DÖNÜŞÜDÜR, Iara nehrin annesidir — biri sonuç, öteki köken."},
-    {"a": "mishipeshu", "b": "animikii", "type": "pair", "note": "Ezelî karşıtlar: biri suyun altında bakırı korur, öteki gökten gürler. Kitabın tek doğrudan düşman çifti."},
-    {"a": "mishipeshu", "b": "inkanyamba", "type": "function", "note": "İkisi de suyun altından fırtına kaldırır; biri gölün, öteki şelalenin."},
-    {"a": "mishipeshu", "b": "taniwha", "type": "function", "note": "İkisi de bir suyun sahibidir ve ikisi de hem koruyucu hem tehlikedir."},
-    {"a": "adaro", "b": "moo", "type": "function", "note": "İki Pasifik su varlığı: Adaro açık denizde vurur, Moʻo gölcüğü bekler."},
-
-    {"a": "long", "b": "phaya-nak", "type": "function", "note": "İkisi de yağmurun ve ırmağın yöneticisidir; Lóng'a kuraklıkta yakarılır, Phaya Nak yılda bir ateş topu gönderir."},
-    {"a": "long", "b": "imugi", "type": "function", "note": "Lóng olunmuş hâldir, Imugi olunamamış — aynı basamağın iki ucu."},
-    {"a": "long", "b": "qilin", "type": "tradition", "note": "Zhōnghuá'nın iki hayırlı varlığı: biri yağmuru, öteki adaleti haber verir."},
-    {"a": "herensuge", "b": "zmey", "type": "function", "note": "İki çok başlı ejderha, iki ayrı son: biri azizle, öteki ateşle dağlanarak."},
-    {"a": "herensuge", "b": "basajaun", "type": "tradition", "note": "Euskal'ın iki dağ varlığı: biri kurban ister, öteki sürüyü korur."},
-    {"a": "kinnari", "b": "garuda", "type": "function", "note": "İki kuş-insan: Garuḍa avlar, Kinnarī avlanır."},
-    {"a": "kinnari", "b": "bennu", "type": "function", "note": "İkisi de bir düzenin işaretidir ve ikisi de saldırmaz — kitabın en zararsız iki maddesi."},
-    {"a": "kinnari", "b": "phaya-nak", "type": "tradition", "note": "Siam'ın iki Himavanta varlığı: biri ormanda şarkı söyler, öteki ırmağın altında hüküm sürer."},
-
-    {"a": "draugr", "b": "strigoi", "type": "function", "note": "İkisi de gömüldüğü yerden kalkar; Draugr malını korur, Strigoi ailesinin kanını alır — biri mülkiyet, öteki soy."},
-    {"a": "draugr", "b": "lemures", "type": "function", "note": "Draugr güreşle yenilir, Lemures törenle gönderilir. Güç ile ritüel."},
-    {"a": "bean-sidhe", "b": "abiku", "type": "function", "note": "İkisi de ölümü ADLA bağlar: Bean sídhe bir aileye, Àbíkú bir anneye — biri haber verir, öteki tekrarlar."},
-    {"a": "bean-sidhe", "b": "lemures", "type": "function", "note": "Bean sídhe'nin sesi duyulur ve hiçbir şey yapılamaz; Lemures'e karşı yapılacak dokuz adımlık bir tören vardır."},
-    {"a": "lemures", "b": "supay", "type": "function", "note": "İkisi de sunuyla yatıştırılır: biri baklayla, öteki koka ve alkolle."},
-    {"a": "rusalka", "b": "pontianak", "type": "function", "note": "İki ölmüş kadının dönüşü: Rusalka ekini sular ve boğar, Pontianak yalnızca yeni doğana yönelir."},
-    {"a": "rusalka", "b": "nakki", "type": "function", "note": "İkisi de suyun kenarında görünür; Näkki hep oradaydı, Rusalka önce bir insandı."},
-    {"a": "rusalka", "b": "zmey", "type": "tradition", "note": "Slovjan'ın iki ucu: biri tarlayı sular, öteki hazineyi bekler."},
-    {"a": "strigoi", "b": "abiku", "type": "function", "note": "İkisi de aileye geri döner; Strigoi alır, Àbíkú yalnızca gider ve tekrar gelir."},
-    {"a": "supay", "b": "amaru", "type": "tradition", "note": "Tawantinsuyu'nun iki dünyası: Supay aşağıyı tutar, Amaru aşağıyla yukarıyı bağlar."}
+    {
+      "a": "each-uisce",
+      "b": "nykur",
+      "type": "kin",
+      "note": "İskoçya kaydında biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca göle götürür."
+    },
+    {
+      "a": "each-uisce",
+      "b": "nakki",
+      "type": "kin",
+      "note": "Ériu'da kıyıda binilmeyi bekler; Suomi'de at, insan veya kadın kılığına girer — biçim sabit değil."
+    },
+    {
+      "a": "nykur",
+      "b": "nakki",
+      "type": "kin",
+      "note": "İkisi de adla kovulur: 'nykur' denince kaçar, näkki'ye karşı çocuklara adı öğretilir."
+    },
+    {
+      "a": "tikbalang",
+      "b": "each-uisce",
+      "type": "kin",
+      "note": "Ailenin tek karasal üyesi: suya çekmez, yolu daireye çevirir. Su atı sudan çıkınca ne olur — cevabı budur."
+    },
+    {
+      "a": "tikbalang",
+      "b": "nykur",
+      "type": "kin",
+      "note": "İkisinin de ayağı yanlıştır — Nykur'un toynağı ters, Tikbalang'ın bacağı orantısız uzun."
+    },
+    {
+      "a": "huli-jing",
+      "b": "kumiho",
+      "type": "kin",
+      "note": "Húli jīng insandan ömür alır ve kimi anlatıda sadık kalır; kumiho insan OLMAK için karaciğer yer ve sınavı kaybeder."
+    },
+    {
+      "a": "huli-jing",
+      "b": "nhang",
+      "type": "function",
+      "note": "İkisi de kadın biçimine girip erkeği alır; Húli jīng ömür toplar ve yaşatır, Nhang kan içer ve öldürür."
+    },
+    {
+      "a": "huli-jing",
+      "b": "long",
+      "type": "tradition",
+      "note": "Zhōnghuá'nın iki uzun ömürlüsü: Lóng zamanla yükselir, húli jīng zamanla insanlaşır."
+    },
+    {
+      "a": "lamia-hellenic",
+      "b": "lamashtu",
+      "type": "kin",
+      "note": "Lámia bir cezadır — kaybettiği çocukların yerine başkasını alır; Lamashtu bir iblistir ve kaybetmemiştir."
+    },
+    {
+      "a": "lamashtu",
+      "b": "lilith",
+      "type": "kin",
+      "note": "İkisi de muskayla karşılanır: biri Pazuzu figürüyle, öteki üç melek adıyla. Karşı önlem yazıya geçmiştir."
+    },
+    {
+      "a": "lilith",
+      "b": "al-karisi",
+      "type": "kin",
+      "note": "Lilith yeni doğana yönelir; Al Karısı loğusanın ciğerini alır — hedef çocuktan anneye kayar."
+    },
+    {
+      "a": "al-karisi",
+      "b": "kenas-unarpe",
+      "type": "kin",
+      "note": "İkisi de anneyi hedefler; Al Karısı sudan korkar, Kenas-unarpe suyun kenarında bekler."
+    },
+    {
+      "a": "kenas-unarpe",
+      "b": "qalupalik",
+      "type": "kin",
+      "note": "Kuzeyin iki bekleyeni: biri bataklıkta loğusayı, öteki buzun altında yalnız çocuğu."
+    },
+    {
+      "a": "lamia-hellenic",
+      "b": "strix",
+      "type": "kin",
+      "note": "Roma, Yunan'ın kraliçesini kuşa çevirir: Lámia bir hikâyedir, strix bir TÜRDÜR ve Ovidius ona tarih verir."
+    },
+    {
+      "a": "strix",
+      "b": "adze",
+      "type": "kin",
+      "note": "İkisi de küçük bir canlının kılığında girer — biri kuş, öteki ateşböceği. Kılık, girişi mümkün kılan şeydir."
+    },
+    {
+      "a": "adze",
+      "b": "abiku",
+      "type": "kin",
+      "note": "Aynı gelenekte iki cevap: Adze dışarıdan gelen bir faildir, Àbíkú çocuğun kendisidir."
+    },
+    {
+      "a": "abiku",
+      "b": "pontianak",
+      "type": "kin",
+      "note": "Àbíkú ölen çocuğun dönüşüdür, Pontianak ölen annenin. Aynı doğum, iki ayrı hayalet."
+    },
+    {
+      "a": "pontianak",
+      "b": "krasue",
+      "type": "kin",
+      "note": "Pontianak kokusuyla tanınır (çiçek), Krasue görüntüsüyle — geceleri uçan baş ve sarkan organlar."
+    },
+    {
+      "a": "krasue",
+      "b": "manananggal",
+      "type": "kin",
+      "note": "Krasue'nin gövdesi bir yerde bekler, Manananggal'ın alt yarısı; ikisi de gövde bulunursa ölür."
+    },
+    {
+      "a": "manananggal",
+      "b": "aswang",
+      "type": "kin",
+      "note": "Aynı gelenekte iki katman: Aswang bir kategori (gündüz komşu), Manananggal onun en somut biçimi."
+    },
+    {
+      "a": "aswang",
+      "b": "ma-lai",
+      "type": "kin",
+      "note": "Aswang cesedin yerine muz gövdesi bırakır — hile bırakır; Ma lai iz bırakmaz, yalnızca döner."
+    },
+    {
+      "a": "ma-lai",
+      "b": "krasue",
+      "type": "kin",
+      "note": "İki uçan baş, iki ayrı gelenek; Ma lai pislik ve kan arar, Krasue lohusalık artığı — biri iğrençliğe, öteki doğuma bağlı."
+    },
+    {
+      "a": "anzu",
+      "b": "simurgh",
+      "type": "kin",
+      "note": "Anzû kader tabletlerini ÇALAR; Sīmurgh bir çocuğu büyütür ve yol gösterir. Aynı kanat, hırsız ve bilge."
+    },
+    {
+      "a": "simurgh",
+      "b": "garuda",
+      "type": "kin",
+      "note": "Sīmurgh çağrılır (tüy yakılır), Garuḍa binilir. Biri danışman, öteki taşıt."
+    },
+    {
+      "a": "garuda",
+      "b": "khyung",
+      "type": "kin",
+      "note": "İkisi de pençesinde yılan tutar; Garuḍa'nınki bir düşmanlık, Khyung'unki bir kozmik düzen işareti."
+    },
+    {
+      "a": "khyung",
+      "b": "animikii",
+      "type": "kin",
+      "note": "İki gök varlığı, iki ayrı kıta: Khyung yılanı tutar, Animikii su varlığıyla savaşır. Kuş–su karşıtlığı iki yerde bağımsız kurulmuş."
+    },
+    {
+      "a": "animikii",
+      "b": "impundulu",
+      "type": "kin",
+      "note": "Animikii gök gürültüsünü GETİRİR; Impundulu şimşeği ÇAĞIRIR ve bir insana bağlıdır — biri hava, öteki sahiplik."
+    },
+    {
+      "a": "impundulu",
+      "b": "ziz",
+      "type": "kin",
+      "note": "Impundulu kan ister ve beslenmezse sahibine döner; Ziz kimseden bir şey istemez — gölgesi güneşi kapatır, o kadar."
+    },
+    {
+      "a": "ziz",
+      "b": "rukh",
+      "type": "kin",
+      "note": "Thompson ikisini yan yana kodlar (B31.1 · B31.1.0.1): Rukh gemiyi batırır, Ziz yalnızca büyüktür. Ölçek ile tehlike aynı şey değildir."
+    },
+    {
+      "a": "rukh",
+      "b": "anzu",
+      "type": "kin",
+      "note": "Rukh bir gezi anlatısına girer (Sindbad), Anzû bir devlet anlatısına — biri denizde, öteki tapınakta."
+    },
+    {
+      "a": "bennu",
+      "b": "simurgh",
+      "type": "kin",
+      "note": "Bennu zamanın başlangıcını işaretler, Sīmurgh bir ömrü taşır — biri kozmik takvim, öteki kişisel kader."
+    },
+    {
+      "a": "bennu",
+      "b": "ziz",
+      "type": "kin",
+      "note": "İkisi de kozmolojiyi doldurmak için var: Bennu ilk tepeye konar, Ziz üçlünün gök ayağıdır."
+    },
+    {
+      "a": "jormungandr",
+      "b": "apep",
+      "type": "kin",
+      "note": "Jörmungandr bir kez ve son kez yenilir; Apep her sabah yeniden yenilir. Kıyamet ile döngü arasındaki fark."
+    },
+    {
+      "a": "apep",
+      "b": "iku-turso",
+      "type": "kin",
+      "note": "Apep'in adı her gün anılır ve lanetlenir; Iku-Turso'nun adı uğursuz sayılıp anılmaz."
+    },
+    {
+      "a": "iku-turso",
+      "b": "jormungandr",
+      "type": "kin",
+      "note": "İkisi de kuzey denizinin dibinde; biri yemin ettirilip gönderilir, öteki orada bekler."
+    },
+    {
+      "a": "vishap",
+      "b": "zmey",
+      "type": "kin",
+      "note": "Vishap taş dikitlerle işaretlenir — yeri bellidir; Zmey'in yeri yoktur, kesilen başı yerine yenisi çıkar."
+    },
+    {
+      "a": "zmey",
+      "b": "zmeu",
+      "type": "kin",
+      "note": "Zmey yalnızca güçtür; Zmeu insan gibi pazarlık eder. Ailenin dış sınırı tam olarak burasıdır."
+    },
+    {
+      "a": "zmeu",
+      "b": "azi-dahaka",
+      "type": "kin",
+      "note": "İkisi de konuşur ve ikisi de tutsak alır; Aži Dahāka'nın tutsaklığı kendi başına gelir — dağın altına zincirlenir."
+    },
+    {
+      "a": "azi-dahaka",
+      "b": "vishap",
+      "type": "kin",
+      "note": "Komşu iki yayla: biri dağın altında zincirli bekler, öteki dağ gölünde yatar. İkisi de çözülmeyi bekliyor sayılır."
+    },
+    {
+      "a": "amaru",
+      "b": "inkanyamba",
+      "type": "kin",
+      "note": "Amaru iki dünyayı BAĞLAR; Inkanyamba kızdığında fırtına getirir. Biri köprü, öteki tehdit."
+    },
+    {
+      "a": "inkanyamba",
+      "b": "taniwha",
+      "type": "kin",
+      "note": "İkisi de bir suyun sahibidir — şelale ve nehir ağzı; Taniwha kimi kabileye koruyucudur, Inkanyamba kimseye değil."
+    },
+    {
+      "a": "taniwha",
+      "b": "amaru",
+      "type": "kin",
+      "note": "İki koruyucu yılan, iki okyanus: biri iwi'ye, öteki iki dünyaya bağlı."
+    },
+    {
+      "a": "imugi",
+      "b": "thuong-luong",
+      "type": "kin",
+      "note": "Imugi ejderha olmayı bekler ve olamaz; Thuồng luồng olduğu şeyle yetinir ve insan ona benzemeye çalışır (dövme)."
+    },
+    {
+      "a": "thuong-luong",
+      "b": "phaya-nak",
+      "type": "kin",
+      "note": "Aynı nehir sisteminin iki adı: biri dövmenin kökeni, öteki ateş toplarının."
+    },
+    {
+      "a": "phaya-nak",
+      "b": "naga",
+      "type": "kin",
+      "note": "Aynı kelime, iki coğrafya: Nāga hazineyi ve yağmuru tutar, Phaya Nak bir şehir yönetir."
+    },
+    {
+      "a": "naga",
+      "b": "imugi",
+      "type": "kin",
+      "note": "Nāga zaten bir halktır; Imugi tek başına ve bekleyendir. Biri düzen, öteki eşik."
+    },
+    {
+      "a": "yamata-no-orochi",
+      "b": "zmey",
+      "type": "kin",
+      "note": "İki çok başlı: Orochi sarhoş edilip parçalanır, Zmey'in başı ateşle dağlanmadıkça geri çıkar."
+    },
+    {
+      "a": "yamata-no-orochi",
+      "b": "herensuge",
+      "type": "function",
+      "note": "İkisi de yıllık kurban ister; Orochi'den bir kılıç çıkar, Herensuge'den bir aziz anlatısı."
+    },
+    {
+      "a": "kerberos",
+      "b": "humbaba",
+      "type": "kin",
+      "note": "Kérberos kapıyı, Ḫumbaba ormanı bekler; biri görevini sürdürür, öteki görevi yüzünden öldürülür."
+    },
+    {
+      "a": "kerberos",
+      "b": "temes-savsap",
+      "type": "kin",
+      "note": "İkisi de ölüler diyarının girişinde; Kérberos gücü, Temes Savsap bir SINAVI kullanır."
+    },
+    {
+      "a": "temes-savsap",
+      "b": "camazotz",
+      "type": "kin",
+      "note": "Temes Savsap geçişi bilgiye bağlar; Camazotz geçeni keser. Sınav ile infaz."
+    },
+    {
+      "a": "camazotz",
+      "b": "kerberos",
+      "type": "kin",
+      "note": "İkisi de yeraltının bir odasını tutar; biri köpek, öteki yarasa — hayvan seçimi coğrafyanın seçimidir."
+    },
+    {
+      "a": "qilin",
+      "b": "basiliscus",
+      "type": "kin",
+      "note": "Qílín otu bile ezmez; Basiliscus geçtiği yeri çöle çevirir. Aynı sınıfın iki ucu: dokunmayan ve yok eden."
+    },
+    {
+      "a": "basiliscus",
+      "b": "humbaba",
+      "type": "kin",
+      "note": "İkisi de bakışla iş görür; Ḫumbaba'nın yüzü bağırsak kıvrımlarıdır — bakılan da bakan kadar önemlidir."
+    },
+    {
+      "a": "golem",
+      "b": "aralez",
+      "type": "kin",
+      "note": "Golem adla canlandırılır ve harf silinince çöker; Aralez yalayarak diriltir. Biri yazının, öteki bedenin işi."
+    },
+    {
+      "a": "golem",
+      "b": "humbaba",
+      "type": "kin",
+      "note": "İkisi de korumak için yapılmış ve ikisi de koruduğu şey yüzünden yok olmuştur."
+    },
+    {
+      "a": "aralez",
+      "b": "temes-savsap",
+      "type": "kin",
+      "note": "İkisi de ölümün eşiğinde durur: Aralez geri gönderir, Temes Savsap geçirmez."
+    },
+    {
+      "a": "basajaun",
+      "b": "migoi",
+      "type": "kin",
+      "note": "Basajaun ıslıkla haber verir — sesiyle bilinir; Migoi görülmemek için geri geri yürür — iziyle."
+    },
+    {
+      "a": "migoi",
+      "b": "curupira",
+      "type": "kin",
+      "note": "İkisi de izi yanıltır: biri ters yürüyerek, öteki ters ayakla. Aynı hile, iki ayrı anatomi."
+    },
+    {
+      "a": "curupira",
+      "b": "basajaun",
+      "type": "kin",
+      "note": "Curupira avcıyı cezalandırır, Basajaun çobanı korur. Doğanın tarafı, insanın işine göre değişir."
+    },
+    {
+      "a": "stallu",
+      "b": "basajaun",
+      "type": "kin",
+      "note": "Stállu insanı avlar ve kurnazlıkla yenilir; Basajaun insana demirciliği öğretir. Ailenin ahlaki uçları."
+    },
+    {
+      "a": "stallu",
+      "b": "migoi",
+      "type": "kin",
+      "note": "Stállu demir giyer ve gümüş toplar — eşyalıdır; Migoi'nin hiçbir eşyası yoktur."
+    },
+    {
+      "a": "koropokkuru",
+      "b": "ulda",
+      "type": "kin",
+      "note": "Koropokkuru balık bırakıp kaybolur — verir; Ulda sürü güder ve adı anılmaz — kendi işine bakar."
+    },
+    {
+      "a": "ulda",
+      "b": "huldufolk",
+      "type": "kin",
+      "note": "İkisi de yer altındadır; Huldufólk'un yeri hâlâ savunulur (yol güzergâhı), Ulda'nınki yalnızca anılmaz."
+    },
+    {
+      "a": "huldufolk",
+      "b": "koropokkuru",
+      "type": "kin",
+      "note": "Huldufólk şimdiki zamandadır, Koropokkuru geçmiş zamanda — biri komşu, öteki önceki halk."
+    },
+    {
+      "a": "domovoy",
+      "b": "huldufolk",
+      "type": "function",
+      "note": "Biri evin İÇİNDE saklı, öteki kayanın içinde; ikisi de taşınırken hesaba katılır."
+    },
+    {
+      "a": "domovoy",
+      "b": "lemures",
+      "type": "function",
+      "note": "İkisi de eve bağlıdır: Domovoy beslenir ve kalır, Lemures yatıştırılır ve gönderilir."
+    },
+    {
+      "a": "domovoy",
+      "b": "dokkaebi",
+      "type": "function",
+      "note": "İkisi de eşyaya ve haneye bağlıdır; Domovoy sadıktır, Dokkaebi keyfî."
+    },
+    {
+      "a": "repun-kamuy",
+      "b": "ong-ba-muoi",
+      "type": "function",
+      "note": "İkisinin de adı doğrudan anılmaz; biri denizin, öteki ormanın sahibidir ve saygı bir av kuralıdır."
+    },
+    {
+      "a": "repun-kamuy",
+      "b": "moo",
+      "type": "function",
+      "note": "İkisi de suyun ve soyun sahibidir; Repun Kamuy av bağışlar, Moʻo yalnızca korur."
+    },
+    {
+      "a": "repun-kamuy",
+      "b": "adaro",
+      "type": "function",
+      "note": "İki Pasifik deniz varlığı: biri avı bağışlar, öteki yolunu şaşıranı vurur."
+    },
+    {
+      "a": "ong-ba-muoi",
+      "b": "curupira",
+      "type": "function",
+      "note": "İkisi de ormanın efendisidir; Ông Ba Mươi'ye saygı gösterilir, Curupira'dan kaçılır."
+    },
+    {
+      "a": "boitata",
+      "b": "curupira",
+      "type": "function",
+      "note": "Aynı geleneğin aynı işlevi iki bedende: Curupira izi yanıltır, Boitatá ateşle kovalar."
+    },
+    {
+      "a": "boitata",
+      "b": "iara",
+      "type": "tradition",
+      "note": "Tupi-Guarani'nin iki ucu: biri ormanı korur, öteki nehre çeker."
+    },
+    {
+      "a": "boitata",
+      "b": "masalai",
+      "type": "function",
+      "note": "İkisi de toprağın kendisini savunur; Masalai bir yere bağlıdır, Boitatá gezer."
+    },
+    {
+      "a": "chimaira",
+      "b": "ammit",
+      "type": "function",
+      "note": "İki bileşik gövde: Chímaira üç hayvanı yan yana taşır, Ammit üçünü tek işlevde birleştirir — yutma."
+    },
+    {
+      "a": "chimaira",
+      "b": "makara",
+      "type": "function",
+      "note": "İkisi de bileşiktir; Chímaira'nın parçaları saldırır, Makara'nınki bir eşiği süsler."
+    },
+    {
+      "a": "chimaira",
+      "b": "herensuge",
+      "type": "function",
+      "note": "İkisi de bir kahraman anlatısının hedefi; biri kanattan öldürülür, öteki azizle."
+    },
+    {
+      "a": "ammit",
+      "b": "supay",
+      "type": "function",
+      "note": "Ammit yargının sonucudur — kalp tartılır; Supay yeraltının sahibidir ve yargılamaz, tutar."
+    },
+    {
+      "a": "ammit",
+      "b": "apep",
+      "type": "tradition",
+      "note": "Kemet'in iki yutucusu: Apep güneşi, Ammit kalbi hedefler — biri kozmik, öteki kişisel."
+    },
+    {
+      "a": "fenrir",
+      "b": "jormungandr",
+      "type": "pair",
+      "note": "Kardeşler ve Ragnarök'ün iki ayrı ucu: biri Óðinn'i yutar, öteki Þórr'u zehirler."
+    },
+    {
+      "a": "fenrir",
+      "b": "amarok",
+      "type": "function",
+      "note": "Fenrir bağlanır ve kurtulur; Amarok bağlanmaz — kuralı çiğneyeni bulmakla yetinir."
+    },
+    {
+      "a": "fenrir",
+      "b": "draugr",
+      "type": "tradition",
+      "note": "Norðr'un iki bekleyeni: biri zinciri, öteki höyüğü bekler."
+    },
+    {
+      "a": "ponaturi",
+      "b": "adaro",
+      "type": "function",
+      "note": "İki deniz halkı: Ponaturi ışıktan ölür, Adaro ışığı silah olarak kullanır."
+    },
+    {
+      "a": "ponaturi",
+      "b": "moo",
+      "type": "tradition",
+      "note": "Maohi'nin iki su varlığı: biri gelir ve tehdittir, öteki kalır ve korur."
+    },
+    {
+      "a": "ponaturi",
+      "b": "taniwha",
+      "type": "function",
+      "note": "Ponaturi denizden karaya çıkar; Taniwha nehir ağzında durur — biri istila, öteki sınır."
+    },
+    {
+      "a": "amarok",
+      "b": "windigo",
+      "type": "function",
+      "note": "İkisi de kuzeyin yalnızlığından doğar: Amarok kuralı çiğneyeni cezalandırır, Windigo kuralın kendisini yok eder."
+    },
+    {
+      "a": "amarok",
+      "b": "stallu",
+      "type": "function",
+      "note": "İkisi de tek başına avlanan insanı hedefler; biri hayvan, öteki eşyalı bir dev."
+    },
+    {
+      "a": "karakoncolos",
+      "b": "al-karisi",
+      "type": "tradition",
+      "note": "Türk geleneğinin iki mevsimi: biri zemherinin, öteki doğumun tehlikesi."
+    },
+    {
+      "a": "karakoncolos",
+      "b": "ghul",
+      "type": "function",
+      "note": "Karakoncolos soru sorar ve yanlış cevabı cezalandırır; Ghūl soru sormaz, kılık değiştirir."
+    },
+    {
+      "a": "karakoncolos",
+      "b": "strigoi",
+      "type": "function",
+      "note": "İkisi de kışın belirli günlerine bağlıdır; biri sokakta, öteki mezarda başlar."
+    },
+    {
+      "a": "ghul",
+      "b": "pishtaco",
+      "type": "function",
+      "note": "İkisi de yoldaki yabancıdır; Ghūl kılık değiştirir, Pishtaco zaten yabancı görünür — korku sömürünün suretini alır."
+    },
+    {
+      "a": "ghul",
+      "b": "ifrit",
+      "type": "tradition",
+      "note": "Arap geleneğinde iki ayrı kategori: Ghūl bir yiyici, ʿIfrīt bir cin sınıfı — biri açlık, öteki güç."
+    },
+    {
+      "a": "ajatar",
+      "b": "iku-turso",
+      "type": "tradition",
+      "note": "Suomi'nin iki eski varlığı: biri ormanda hastalık yayar, öteki denizin dibinde bekler."
+    },
+    {
+      "a": "ajatar",
+      "b": "nakki",
+      "type": "tradition",
+      "note": "İkisi de Kalevala çevresinden; Ajatar hastalıkla, Näkki suyla öldürür."
+    },
+    {
+      "a": "ajatar",
+      "b": "srin-po",
+      "type": "function",
+      "note": "İkisi de bastırılması gereken eski bir güçtür — biri hastalıkla, öteki tapınakla."
+    },
+    {
+      "a": "srin-po",
+      "b": "migoi",
+      "type": "tradition",
+      "note": "Bod'un iki yer varlığı: Srin-po toprağın altında bastırılmıştır, Migoi karda serbesttir."
+    },
+    {
+      "a": "srin-po",
+      "b": "khyung",
+      "type": "tradition",
+      "note": "Bön kozmolojisinin iki ucu: yerin altındaki et yiyen halk ve gökteki kartal."
+    },
+    {
+      "a": "olgoi-khorkhoi",
+      "b": "basiliscus",
+      "type": "function",
+      "note": "Basiliscus bakışla, Olgoi-Khorkhoi dokunuşla öldürür — ikisi de mesafeyi kaldırır."
+    },
+    {
+      "a": "olgoi-khorkhoi",
+      "b": "adaro",
+      "type": "function",
+      "note": "İkisi de görünmeden vurur: biri kumun altından, öteki güneş ışınıyla."
+    },
+    {
+      "a": "devi",
+      "b": "stallu",
+      "type": "function",
+      "note": "İki hantal dev: Devi sayıca artar, Stállu eşya biriktirir; ikisi de kurnazlıkla yenilir."
+    },
+    {
+      "a": "devi",
+      "b": "herensuge",
+      "type": "function",
+      "note": "İkisi de çok başlıdır ve baş sayısı tehlikenin ölçüsüdür."
+    },
+    {
+      "a": "devi",
+      "b": "nhang",
+      "type": "tradition",
+      "note": "Kafkasya'nın iki yüzü: mağarada bekleyen güç ve ırmakta biçim değiştiren aldatma."
+    },
+    {
+      "a": "tokoloshe",
+      "b": "koropokkuru",
+      "type": "function",
+      "note": "İki küçük halk, iki ahlak: Koropokkuru balık bırakır, Tokoloshe geceleri gelir."
+    },
+    {
+      "a": "tokoloshe",
+      "b": "impundulu",
+      "type": "tradition",
+      "note": "Nguni'nin iki gönderilmişi: ikisi de bir büyücüye bağlıdır, biri yerde biri gökte."
+    },
+    {
+      "a": "tokoloshe",
+      "b": "adze",
+      "type": "function",
+      "note": "İkisi de küçüktür ve geceleyin gelir; Adze kılık değiştirir, Tokoloshe değiştirmez — gönderilir."
+    },
+    {
+      "a": "pishtaco",
+      "b": "supay",
+      "type": "tradition",
+      "note": "Tawantinsuyu'nun iki sömürü anlatısı: biri bedeni, öteki madeni alır."
+    },
+    {
+      "a": "pishtaco",
+      "b": "windigo",
+      "type": "function",
+      "note": "İkisi de ekonomik bir korkuyu bedenleştirir: biri yağı çıkarır, öteki asla doymaz."
+    },
+    {
+      "a": "windigo",
+      "b": "draugr",
+      "type": "function",
+      "note": "İkisi de büyüyen bir gövdedir: Draugr şişer ve ağırlaşır, Windigo yedikçe boy atar."
+    },
+    {
+      "a": "windigo",
+      "b": "qalupalik",
+      "type": "function",
+      "note": "İki kuzey korkusu, iki yaş grubu: Qalupalik çocuğu alır, Windigo yetişkini dönüştürür."
+    },
+    {
+      "a": "tengu",
+      "b": "qilin",
+      "type": "function",
+      "note": "Qílín adaletsizin üzerine BASMAZ; Tengu kibirliyi cezalandırır. Aynı ahlak, iki ayrı yaptırım."
+    },
+    {
+      "a": "tengu",
+      "b": "kappa",
+      "type": "tradition",
+      "note": "Yamato'nun iki dağ/su varlığı: ikisi de sınar, biri dövüş öğretir, öteki güreşe çağırır."
+    },
+    {
+      "a": "puca",
+      "b": "each-uisce",
+      "type": "tradition",
+      "note": "Ériu'da iki at: Púca bindirir ve bırakır, Each-uisce bindirir ve boğar."
+    },
+    {
+      "a": "puca",
+      "b": "bean-sidhe",
+      "type": "tradition",
+      "note": "İkisi de habercidir; Púca'nın haberi belirsiz, Bean sídhe'ninki kesindir."
+    },
+    {
+      "a": "puca",
+      "b": "dokkaebi",
+      "type": "function",
+      "note": "İki keyfî varlık: ikisi de sevdiğine yardım, sevmediğine bela verir."
+    },
+    {
+      "a": "nahual",
+      "b": "way",
+      "type": "kin",
+      "note": "Nahual dönüşümü SEÇER (büyücüdür), Way herkeste vardır ve uykuda serbest kalır."
+    },
+    {
+      "a": "nahual",
+      "b": "buda",
+      "type": "function",
+      "note": "İkisi de gündüz bir zanaatkâr, gece bir hayvandır; biri kendi hayvanına döner, öteki sırtlana."
+    },
+    {
+      "a": "nahual",
+      "b": "varcolac",
+      "type": "function",
+      "note": "İkisi de doğum koşuluna bağlıdır: biri doğduğu güne, öteki annesinin gece iplik eğirmesine."
+    },
+    {
+      "a": "way",
+      "b": "xtabay",
+      "type": "tradition",
+      "note": "Maya'nın iki ruhu: biri her insanın içinde, öteki ağacın altında bekler."
+    },
+    {
+      "a": "way",
+      "b": "tupilaq",
+      "type": "function",
+      "note": "Way'e verilen zarar sahibine geçer; Tupilaq zarar veremezse yapanına döner. İkisi de bir bağın bedelidir."
+    },
+    {
+      "a": "dokkaebi",
+      "b": "kumiho",
+      "type": "tradition",
+      "note": "Hangug'un iki karşılaşması: Dokkaebi güreşe çağırır ve sol tarafından yenilir, Kumiho sınar ve sınavı kendi kaybeder."
+    },
+    {
+      "a": "xtabay",
+      "b": "iara",
+      "type": "function",
+      "note": "İkisi de güzellikle çağırır; Xtabay ağaçta ve dikene çevirir, Iara suda ve şarkıyla."
+    },
+    {
+      "a": "xtabay",
+      "b": "lamia-euskal",
+      "type": "function",
+      "note": "İkisi de saç ve güzellikle tanımlanır; Lamia bir tarak ister, Xtabay bir kucaklama."
+    },
+    {
+      "a": "anansi",
+      "b": "adze",
+      "type": "tradition",
+      "note": "Aynı gelenekte kurnazlık ile kötülük: Anansi zayıfın aklı, Adze güçsüzün korkusudur."
+    },
+    {
+      "a": "anansi",
+      "b": "dokkaebi",
+      "type": "function",
+      "note": "İki hilekâr: Anansi pazarlıkla kazanır, Dokkaebi güreşle kaybeder."
+    },
+    {
+      "a": "anansi",
+      "b": "puca",
+      "type": "function",
+      "note": "İkisi de kuralları çevirir; Anansi'nin hilesi kalıcı bir sonuç verir (hikâyeler ona geçer), Púca'nınki geçicidir."
+    },
+    {
+      "a": "peri",
+      "b": "ifrit",
+      "type": "function",
+      "note": "İkisi de ateşten yaratılmıştır; Perī kararsızdır, ʿIfrīt dik başlı — aynı madde, iki mizaç."
+    },
+    {
+      "a": "peri",
+      "b": "kinnari",
+      "type": "function",
+      "note": "İki yarı-varlık: Perī insanın aklını alır, Kinnarī yalnızca şarkı söyler."
+    },
+    {
+      "a": "peri",
+      "b": "simurgh",
+      "type": "tradition",
+      "note": "Pars'ın iki yardımcısı: biri kararsız, öteki güvenilir — kitabın ikisini de aynı geleneğe borçlu olması tesadüf değil."
+    },
+    {
+      "a": "tupilaq",
+      "b": "golem",
+      "type": "function",
+      "note": "İkisi de yapılır ve ikisi de ustasına döner: biri güçlü bir düşman yüzünden, öteki bir harf silinmediği için."
+    },
+    {
+      "a": "tupilaq",
+      "b": "qalupalik",
+      "type": "tradition",
+      "note": "Inuit'in iki tehlikesi: biri yapılır ve gönderilir, öteki hep oradadır."
+    },
+    {
+      "a": "ifrit",
+      "b": "rukh",
+      "type": "tradition",
+      "note": "Arap anlatısının iki ölçeği: biri tahtı taşır, öteki gemiyi batırır."
+    },
+    {
+      "a": "nhang",
+      "b": "iara",
+      "type": "function",
+      "note": "İkisi de kadın biçiminde suya çeker; Nhang kan içer, Iara yalnızca alıkoyar."
+    },
+    {
+      "a": "nhang",
+      "b": "aralez",
+      "type": "tradition",
+      "note": "Hayk'ın iki ucu: biri kanı alır, öteki yarayı iyileştirir."
+    },
+    {
+      "a": "buda",
+      "b": "skuggabaldur",
+      "type": "function",
+      "note": "İkisi de sürüye zarar verir ve ikisi de melez sayılır; biri insanla hayvan, öteki iki hayvan arasında."
+    },
+    {
+      "a": "buda",
+      "b": "adze",
+      "type": "function",
+      "note": "İkisi de bir insanın içinden çalışır — biri nazarla, öteki kan içerek."
+    },
+    {
+      "a": "varcolac",
+      "b": "strigoi",
+      "type": "tradition",
+      "note": "Dacia'nın iki gece varlığı: biri göğü, öteki aileyi tüketir."
+    },
+    {
+      "a": "varcolac",
+      "b": "zmeu",
+      "type": "tradition",
+      "note": "Rumen masalının iki düşmanı: biri kozmik bir açıklama, öteki bir pazarlık."
+    },
+    {
+      "a": "gufihtar",
+      "b": "ulda",
+      "type": "tradition",
+      "note": "Sápmi'nin iki gizlisi: Ulda yerin altında yaşar, Gufihtar yolcuyu görünmez kılar."
+    },
+    {
+      "a": "gufihtar",
+      "b": "huldufolk",
+      "type": "function",
+      "note": "İkisi de görünmezliği yönetir; Huldufólk kendi görünmezliğini, Gufihtar başkasınınkini."
+    },
+    {
+      "a": "gufihtar",
+      "b": "masalai",
+      "type": "function",
+      "note": "İkisi de araziye bağlıdır ve ikisi de yüksek sesle konuşulmayan yerlerdir."
+    },
+    {
+      "a": "skuggabaldur",
+      "b": "huldufolk",
+      "type": "tradition",
+      "note": "Ísland'ın iki ucu: biri kayanın içindeki komşu, öteki kurşun işlemeyen melez."
+    },
+    {
+      "a": "skuggabaldur",
+      "b": "nykur",
+      "type": "tradition",
+      "note": "İzlanda'nın iki tehlikeli hayvanı: biri sürüye, öteki biniciye."
+    },
+    {
+      "a": "masalai",
+      "b": "temes-savsap",
+      "type": "tradition",
+      "note": "Melanezya'nın iki sınırı: biri arazinin, öteki ölümün."
+    },
+    {
+      "a": "masalai",
+      "b": "adaro",
+      "type": "tradition",
+      "note": "Melanezya'da kara ve deniz: Masalai yerinde kalır, Adaro açıkta vurur."
+    },
+    {
+      "a": "kappa",
+      "b": "nakki",
+      "type": "function",
+      "note": "İkisi de suya çeker ve ikisinin de bir zaafı vardır: Kappa'nın çanağındaki su, Näkki'nin adı."
+    },
+    {
+      "a": "kappa",
+      "b": "ahuizotl",
+      "type": "function",
+      "note": "İkisi de küçüktür ve gövdenin bir parçasını alır: biri güreşten sonra, öteki gözü ve tırnağı."
+    },
+    {
+      "a": "makara",
+      "b": "naga",
+      "type": "tradition",
+      "note": "Bharatiya'nın iki su varlığı: Makara eşiği süsler, Nāga suyun altında yaşar."
+    },
+    {
+      "a": "makara",
+      "b": "kerberos",
+      "type": "function",
+      "note": "İkisi de bir kapıya aittir; Kérberos kapıda durur, Makara kapıya OYULUR — bekçi bir imgeye dönüşmüştür."
+    },
+    {
+      "a": "cipactli",
+      "b": "ammit",
+      "type": "function",
+      "note": "Cipactli'nin her ekleminde bir ağız vardır ve doyurulmalıdır; Ammit tek ağızdır ve yalnızca hak edeni yutar."
+    },
+    {
+      "a": "cipactli",
+      "b": "camazotz",
+      "type": "tradition",
+      "note": "Mezoamerika'nın iki kozmolojik gövdesi: biri yeryüzünü verir, öteki yeraltını bekler."
+    },
+    {
+      "a": "cipactli",
+      "b": "apep",
+      "type": "function",
+      "note": "İkisi de düzenin sürekli yeniden kurulmasını gerektirir: biri beslenerek, öteki yenilerek."
+    },
+    {
+      "a": "ahuizotl",
+      "b": "iara",
+      "type": "function",
+      "note": "İkisi de suya çeker; Ahuizotl'un aldığı şey sayılabilir (göz, diş, tırnak), Iara'nınki sayılamaz."
+    },
+    {
+      "a": "moo",
+      "b": "taniwha",
+      "type": "function",
+      "note": "İki Pasifik koruyucusu: Moʻo suyun rengiyle bilinir, Taniwha kabile ilişkisiyle."
+    },
+    {
+      "a": "sahmeran",
+      "b": "naga",
+      "type": "function",
+      "note": "İkisi de yılanların yönetimidir; Şahmeran bilgiyi taşır ve o bilgi yüzünden ölür, Nāga hazineyi taşır."
+    },
+    {
+      "a": "sahmeran",
+      "b": "al-karisi",
+      "type": "tradition",
+      "note": "Türk geleneğinin iki dişi varlığı: biri sır tutar, öteki can alır."
+    },
+    {
+      "a": "sahmeran",
+      "b": "karakoncolos",
+      "type": "tradition",
+      "note": "İkisi de bir SORUYA bağlıdır: biri sırrın açığa çıkmasıyla ölür, öteki yanlış cevabı cezalandırır."
+    },
+    {
+      "a": "lamia-euskal",
+      "b": "basajaun",
+      "type": "tradition",
+      "note": "Euskal'ın iki sahibi: biri ırmağın, öteki ormanın; ikisi de karşılığında iş yapar."
+    },
+    {
+      "a": "iara",
+      "b": "rusalka",
+      "type": "function",
+      "note": "İkisi de suda ölümle ilişkilidir; Rusalka ölmüş bir kızın DÖNÜŞÜDÜR, Iara nehrin annesidir — biri sonuç, öteki köken."
+    },
+    {
+      "a": "mishipeshu",
+      "b": "animikii",
+      "type": "pair",
+      "note": "Ezelî karşıtlar: biri suyun altında bakırı korur, öteki gökten gürler. Kitabın tek doğrudan düşman çifti."
+    },
+    {
+      "a": "mishipeshu",
+      "b": "inkanyamba",
+      "type": "function",
+      "note": "İkisi de suyun altından fırtına kaldırır; biri gölün, öteki şelalenin."
+    },
+    {
+      "a": "mishipeshu",
+      "b": "taniwha",
+      "type": "function",
+      "note": "İkisi de bir suyun sahibidir ve ikisi de hem koruyucu hem tehlikedir."
+    },
+    {
+      "a": "adaro",
+      "b": "moo",
+      "type": "function",
+      "note": "İki Pasifik su varlığı: Adaro açık denizde vurur, Moʻo gölcüğü bekler."
+    },
+    {
+      "a": "long",
+      "b": "phaya-nak",
+      "type": "function",
+      "note": "İkisi de yağmurun ve ırmağın yöneticisidir; Lóng'a kuraklıkta yakarılır, Phaya Nak yılda bir ateş topu gönderir."
+    },
+    {
+      "a": "long",
+      "b": "imugi",
+      "type": "function",
+      "note": "Lóng olunmuş hâldir, Imugi olunamamış — aynı basamağın iki ucu."
+    },
+    {
+      "a": "long",
+      "b": "qilin",
+      "type": "tradition",
+      "note": "Zhōnghuá'nın iki hayırlı varlığı: biri yağmuru, öteki adaleti haber verir."
+    },
+    {
+      "a": "herensuge",
+      "b": "zmey",
+      "type": "function",
+      "note": "İki çok başlı ejderha, iki ayrı son: biri azizle, öteki ateşle dağlanarak."
+    },
+    {
+      "a": "herensuge",
+      "b": "basajaun",
+      "type": "tradition",
+      "note": "Euskal'ın iki dağ varlığı: biri kurban ister, öteki sürüyü korur."
+    },
+    {
+      "a": "kinnari",
+      "b": "garuda",
+      "type": "function",
+      "note": "İki kuş-insan: Garuḍa avlar, Kinnarī avlanır."
+    },
+    {
+      "a": "kinnari",
+      "b": "bennu",
+      "type": "function",
+      "note": "İkisi de bir düzenin işaretidir ve ikisi de saldırmaz — kitabın en zararsız iki maddesi."
+    },
+    {
+      "a": "kinnari",
+      "b": "phaya-nak",
+      "type": "tradition",
+      "note": "Siam'ın iki Himavanta varlığı: biri ormanda şarkı söyler, öteki ırmağın altında hüküm sürer."
+    },
+    {
+      "a": "draugr",
+      "b": "strigoi",
+      "type": "function",
+      "note": "İkisi de gömüldüğü yerden kalkar; Draugr malını korur, Strigoi ailesinin kanını alır — biri mülkiyet, öteki soy."
+    },
+    {
+      "a": "draugr",
+      "b": "lemures",
+      "type": "function",
+      "note": "Draugr güreşle yenilir, Lemures törenle gönderilir. Güç ile ritüel."
+    },
+    {
+      "a": "bean-sidhe",
+      "b": "abiku",
+      "type": "function",
+      "note": "İkisi de ölümü ADLA bağlar: Bean sídhe bir aileye, Àbíkú bir anneye — biri haber verir, öteki tekrarlar."
+    },
+    {
+      "a": "bean-sidhe",
+      "b": "lemures",
+      "type": "function",
+      "note": "Bean sídhe'nin sesi duyulur ve hiçbir şey yapılamaz; Lemures'e karşı yapılacak dokuz adımlık bir tören vardır."
+    },
+    {
+      "a": "lemures",
+      "b": "supay",
+      "type": "function",
+      "note": "İkisi de sunuyla yatıştırılır: biri baklayla, öteki koka ve alkolle."
+    },
+    {
+      "a": "rusalka",
+      "b": "pontianak",
+      "type": "function",
+      "note": "İki ölmüş kadının dönüşü: Rusalka ekini sular ve boğar, Pontianak yalnızca yeni doğana yönelir."
+    },
+    {
+      "a": "rusalka",
+      "b": "nakki",
+      "type": "function",
+      "note": "İkisi de suyun kenarında görünür; Näkki hep oradaydı, Rusalka önce bir insandı."
+    },
+    {
+      "a": "rusalka",
+      "b": "zmey",
+      "type": "tradition",
+      "note": "Slovjan'ın iki ucu: biri tarlayı sular, öteki hazineyi bekler."
+    },
+    {
+      "a": "strigoi",
+      "b": "abiku",
+      "type": "function",
+      "note": "İkisi de aileye geri döner; Strigoi alır, Àbíkú yalnızca gider ve tekrar gelir."
+    },
+    {
+      "a": "supay",
+      "b": "amaru",
+      "type": "tradition",
+      "note": "Tawantinsuyu'nun iki dünyası: Supay aşağıyı tutar, Amaru aşağıyla yukarıyı bağlar."
+    }
   ]
 }

@@ -4,28 +4,51 @@
 > Hiçbir şeyi hatırladığınız varsayılmaz. Buradaki her sayı ya bir dosyadan
 > ölçülmüştür ya da bir kod satırından türetilmiştir; ikisi de gösterilmiştir.
 >
-> Son güncelleme: **7 Ağustos 2026** — Faz 3 tamamlandı
+> Son güncelleme: **7 Ağustos 2026** — Faz 4 tamamlandı
 > Kök dizin: `/home/emre/Downloads/MY-DİGİTAL-BOOK/CODEX_BESTIARIUM`
 
 ---
 
 ## 1. Bir cümlede durum
 
-**Faz 3 tamamlandı.** Kitabın ilk **45 maddesi yazıldı** — sınıf I (Bekçiler,
-18) ve sınıf II (Yutucular, 27) — iki sınıf açılışı ve dört karşılaştırma
-açılışıyla birlikte. **30.288 kelime madde metni**, madde ortalaması 673
-(hedef 700), bant dışı madde sıfır. Kitabın **sesi burada kuruldu**. Sayfa
-bütçesi 45 maddenin tamamı gerçek metinle dizilerek doğrulandı ve
-**değişmedi** (436 sayfa). `.gate` → `phase3`, etiket `v0.3.0`.
+**Faz 4 tamamlandı.** Kitap **88/112 maddeye** ulaştı: Faz 4 sınıf III
+(Şekil Değiştirenler, 19) ve sınıf IV (Su Sakinleri, 24) maddelerini,
+iki sınıf açılışını ve üç karşılaştırma açılışını yazdı. **43 madde ·
+29.770 kelime**, madde ortalaması 692 (hedef 700), bant dışı madde
+sıfır. Kitapta toplam **65.911 kelime** metin var. Sayfa bütçesi 88
+maddenin tamamı gerçek metinle dizilerek yeniden doğrulandı ve
+**değişmedi** (436 sayfa). `.gate` → `phase3`, etiket `v0.4.0`.
 **Proza depoda değildir** (karar A1/D29).
 
-> Faz 3 beş kapı kusuru buldu ve kapattı; hepsi CHANGELOG D31–D38'de.
-> Üçü *ölü kuraldı* — hiç devreye girmemiş muafiyetler ve denetimler.
+> **Üslup sürüklenmesi %21,0 → %8,9 düştü** ve tek bir Faz 3 maddesi
+> üslup için açılmadı (karar D40). Ayrıntı: § 11c.
+
+> Faz 4 beş kapı/veri kusuru buldu ve kapattı (D42–D46) ve `qa_echo`
+> **on dokuz** üslup kalıplaşması yakaladı; hepsi gerçekti.
 
 > Güncel ölçüm: [`BOOK_STATS.md`](../BOOK_STATS.md) ·
 > kapsam kararları: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md) ·
 > kaynak ölçütü: [`SOURCING_STANDARD.md`](SOURCING_STANDARD.md) ·
 > açılış planları: [`KIN_OPENINGS.md`](KIN_OPENINGS.md)
+
+### Faz 4 · Definition of Done
+
+| # | Ölçüt | Durum |
+|---|---|---|
+| 1 | Bütün metin kapıları 88 madde üzerinde 0 başarısız | ✅ |
+| 2 | 93 plaka ölçüldü; dağılım pilot setle örtüşüyor | ⛔ **ham AI çıktısı yok** — kurucudan gelir (karar D39); hat hazır ve kalibre |
+| 3 | A, B, E karşılaştırma açılışları; A ailesi ekstra geçişten geçti | ✅ 3/3 |
+| 4 | Kin-Images Chart üretildi | ✅ `make_kin_chart.py` · 8 aile · 2 sayfa · plaka çerçeveleri D39'u bekliyor |
+| 5 | Kindle dosya boyutu projeksiyonu bütçe içinde | ✅ 3,74 MB / 6,0 MB (kalibrasyonla) |
+| 6 | CI yeşil, merge, `v0.4.0` | ✅ |
+
+> **2. madde hakkında.** Faz 2 ve Faz 3'ün aynı maddesiyle aynı sebep,
+> ve artık bir karar: **D39**. Ham AI plaka üretimi kurucunun işidir ve
+> Faz 5'ten önce tamamlanacaktır. Hat bekleme durumunda hazır tutuldu ve
+> Faz 4'te bir kez daha sınandı: `convert_plates --calibrate` 112
+> plakalık Kindle projeksiyonunu ölçtü, `make_kin_chart` plaka
+> çerçevelerini doğru oranda çizdi. Plakalar geldiğinde aynı komutlar
+> çerçeveleri doldurur; yerleşim ve bütçe değişmez.
 
 ### Faz 3 · Definition of Done
 
@@ -99,7 +122,7 @@ Faz 2 sonunda hat **on dokuz** betiğe çıktı ve üçü ölçümün kendisini 
 | **Yazar / künye** | Emre Doğan · Vâliçe Press |
 | **Dil** | Kitabın kendisi **İngilizce**. Bu belgeler ve raporlar Türkçe. |
 | **Kapsam** | **112 yaratık · 40 gelenek** (Faz 1'de kilitlendi) · 6 sınıf · 8 akraba imge ailesi |
-| **Hacim** | **436 sayfa** (Faz 2 provasından ölçüldü) · ~78.400 kelime · 6 × 9 inç |
+| **Hacim** | **436 sayfa** (Faz 4 provasında 88 maddeyle yeniden doğrulandı) · ~78.400 kelime · 6 × 9 inç |
 | **İllüstrasyon** | 112 çizgi plaka, tek gravür dilinde |
 | **Platform** | Amazon KDP — Ciltsiz · Ciltli · Büyük punto · Kindle |
 | **Kaynak** | `01_SOURCE/spec.json` — **tek doğruluk kaynağı** |
@@ -480,7 +503,7 @@ pypdf, python-docx, ebooklib, pyyaml + sistem aracı olarak `poppler-utils`.
 | 2 | Akraba aile üyelik tutarsızlığı (§ 6②) | ✅ **Faz 2'de çözüldü** — D23, D24 |
 | 3 | Kapsam 120/40 mı 100/35 mi | ✅ **Faz 1'de kilitlendi** — 112/40 |
 | 4 | `STYLE.md` ses kalibrasyon örnekleri | ✅ **Faz 1'de** Cilt 1'den kopyalandı |
-| 5 | **Pilot plaka seti (10 ham plaka)** | ⚠ hat hazır ve kalibre; **ham AI çıktısı bekleniyor** — hattın dışındaki tek girdi |
+| 5 | **Ham plaka seti** | ⚠ hat hazır ve kalibre; **kurucu Faz 5 öncesi üretecek** — karar D39 |
 | 6 | **Herkese açık depoda proza** | ⛔ Faz 3 öncesi karar — [yol haritası § A1](../CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md#a1--depo-herkese-açık-manuscript-ne-olacak) |
 | 7 | Vektör temizlik dışarıya verilecek mi | pilot süresi ölçülünce — [§ A3](../CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md#a3--vektör-temizlik-dışarıya-verilecek-mi) |
 | 8 | Dış hat kalınlığı tahmincisi kalibre edilemedi | gerçek plakalarda yeniden değerlendirilecek (§ 6b②) |
@@ -491,42 +514,88 @@ pypdf, python-docx, ebooklib, pyyaml + sistem aracı olarak `poppler-utils`.
 
 ## 11. Sıradaki adım
 
-**Kurucu onayı bekleniyor.** Faz 1, 2 ve 3 tamamlandı. **Faz 4 onay gelmeden
-başlamaz.**
+**Kurucu onayı bekleniyor.** Faz 1, 2, 3 ve 4 tamamlandı. **Faz 5 onay
+gelmeden başlamaz.**
 
-A1 kapandı: kurucu (a) şıkkını seçti — depo public, proza depo dışında
-(D29). Politika artık bir disiplin talebi değil, `validate_structure`
-içindeki bir kapıdır (D30).
-
-Faz 4 sınıf III (Şekil Değiştirenler, 19) ve sınıf IV (Su Sakinleri, 24)
-maddelerini yazar: **43 madde**. Yol haritası Faz 4 için 22+24=46 diyor;
-bu sayı da 120 maddelik aşılmış kapsamdan gelir (bkz. D21 ve Faz 3
-kapsam notu). `ROADMAP_PROGRESS.md` doğru sayıyı zaten kullanıyor.
-
-Faz 4 açılışları: **A · Su atı**, **B · Tilki kadın**, **E · Derinlerin
-yılanı** — üçü de `KIN_OPENINGS.md`'de kilitli.
+Faz 5 sınıf V (Gök ve Fırtına, 16) ve sınıf VI (Huzursuz Ölüler, 8)
+maddelerini yazar: **24 madde**. Ayrıca **D · Fırtına kuşu** karşılaştırma
+açılışı, bütün ön/arka madde ve **üç editoryal geçiş**. Yol haritası Faz 5
+için 17+10=27 diyor; bu sayı 120 maddelik aşılmış kapsamdan gelir (D21).
 
 Onay geldiğinde ilk emir:
 
 ```
-"Sınıf III'ün ilk üç maddesini yaz. Girdi her madde için üçlüdür —
+"Sınıf V'in ilk üç maddesini yaz. Girdi her madde için üçlüdür —
  araştırma dosyası + STYLE.md + yedi bölümlü şablon.
  Tek seferde en fazla üç madde."
 ```
 
-### Faz 4'e devredilen üç şey
+> **`.gate` Faz 4'te de `phase3` kaldı ve Faz 5'te de kalır.** Kapı
+> seviyeleri `draft → phase1 → phase2 → phase3` ile biter; `phase3` bir
+> *faz adı* değil, **yazım kapısının** adıdır ve yazılan her maddeyi
+> denetler. Yazım fazları yeni seviye açmaz, açılmış olanı taşır.
 
-1. **Üslup sürüklenmesi %21** — uyarı bandında. Yükselen sözcükler
-   çözümleyici kayda ait (*about · rather · nothing · person · people ·
-   creature · figure*). 5. bölümlerin soyut dağarcığı kalınlaşıyor.
-   Faz 4'te her beş maddede `qa_drift` koşulmalı; Faz 5 editoryal
-   inceleme bunu düzeltir.
-2. **Ham plaka seti** — hattın dışındaki tek girdi, hâlâ bekliyor.
-   45 maddenin plakası da bu girdiye bağlı.
-3. **Kayıtlı vaka açığı** — araştırma dosyalarının `incident` alanı
-   112 maddenin 109'unda *"Faz 3'te kaynaktan doğrudan okunacak"*
-   yazıyor. Faz 3 bunu dosyadaki `behaviour` ve kanonik olaydan yazarak
-   çözdü; uydurma yapılmadı. Ayrıntı: § 12.
+### Faz 5'e devredilen dört şey
+
+1. **Üslup uyumlama geçişi (D40)** — yol haritası Faz 5 § ①'de kilitli
+   ve DoD 4b'ye bağlı. Faz 4 sürüklenmeyi %21'den %8,9'a indirdi ama
+   *düzeltmeden*: düşüş yeni maddelerden geldi, eski metin açılmadı.
+   Geçiş üç somut hedefle başlar (§ 11c).
+2. **Ham plaka seti (D39)** — hattın dışındaki tek girdi. 88 maddenin
+   plakası da buna bağlı. Kurucu Faz 5'ten önce üretecek.
+3. **Kayıtlı vaka açığı (D41)** — kapalı; gelecek baskı notu yol
+   haritası Faz 5 § ②'de.
+4. **Tikbalang'ın madde içi tekrarı** — açılış cümlesi ile 3. bölüm aynı
+   öbeği taşıyor (*"a horse's head on a man's body"*). `qa_echo` madde
+   İÇİ öbek tekrarını bu biçimde aramıyor; D40 gereği metin açılmadı.
+
+---
+
+## 11c. Faz 4'ün bulgusu: sürüklenme nereden geliyor
+
+Sürüklenme Faz 4'te **düzeltilmedi, on beş kez ölçüldü** (D40) ve her
+ölçüm bir commit iletisine geçti:
+
+```
+%21,0 → 15,0 → 13,2 → 8,7 → 9,8 → 9,1 → 10,5 → 10,4
+      → 12,0 → 14,1 → 16,5 → 13,4 → 11,9 → 10,3 → 10,5 → 8,9
+```
+
+Faz 3 kapanışında **%21,0**, Faz 4 kapanışında **%8,9**. Cümle uzunluğu
+ritmi eğimi %+8,9'dan **%+2,7**'ye indi.
+
+**Düşüş bir düzeltmeden gelmedi.** Sınıf III ve IV maddeleri somut bir
+mekanizma anlatıyor — takvim, ters toynak, başındaki çanak, kuyruktaki
+el, ekimde yükselen ışık — ve somut mekanizma çözümleyici dağarcığı
+seyreltiyor. Ortadaki tırmanış (%8,7 → %16,5) da aynı şeyin tersidir.
+
+### Faz 5 uyumlama geçişinin üç somut hedefi
+
+`qa_echo` Faz 4'te **on dokuz** kalıplaşma yakaladı ve üç kümeye ayrıldılar.
+Kapı yalnızca **birebir 8 kelimelik** çakışmayı görür; kalanı görmez ve
+geçişin işi tam olarak kalanıdır.
+
+| # | Küme | Örnek |
+|---|---|---|
+| ① | **Yazarın çözümleyici kalıpları** | *"What the tradition supplies is not…"* — metinde sekiz yerde. Ayrıca *"almost every creature in this book is a…"*, *"that is the whole of the account"*. Sürüklenmenin yükselen sözcük listesi aynı yeri gösteriyor: **kitabın kendine göndermesi**. |
+| ② | **Yaşayan gelenek kapısının boilerplate'e dönmesi** | Üç kez yakalandı (Tupilaq ↔ Repun Kamuy, Masalai ↔ Taniwha, Inkanyamba ↔ Amaru). Kısıt cümlesi kalıplaşırsa okur onu atlamayı öğrenir. **Etik kapı her maddede yeniden kurulmalı.** |
+| ③ | **Karşılıklı çapraz referansın aynı cümleyle kurulması** | Nahual ↔ Way, Taniwha ↔ Inkanyamba. Faz 3'ün Lámia ↔ Strix kusuruyla aynı. Karşılıklı bir çift aynı fikri anlatabilir, aynı kelimeleri kullanamaz. |
+
+---
+
+## 11b. Kurucu kararları — 7 Ağustos 2026
+
+Faz 3 raporunun kurucuya bıraktığı üç soru kapandı. **Üçü de artık açık
+soru değildir.** Tam gerekçeler: `CHANGELOG.md` D39–D41.
+
+| Konu | Karar | Faz 4'te ne yapılır |
+|---|---|---|
+| **A · İllüstrasyon** | Ham AI plaka üretimi **kurucunun sorumluluğudur** ve **Faz 5'ten önce** tamamlanacaktır. Faz 4 bu yüzden bloklanmaz. | Hat bekleme durumunda **hazır** tutulur ve bozulmaz. Plakaya bağlı Definition of Done maddeleri açık kalır ve sebebi yazılır. |
+| **B · Üslup sürüklenmesi** | Mevcut sürüklenme (%21) Faz 4'te **düzeltilmez**. Faz 3 metni yeniden yazılmaz. | `qa_drift` düzenli koşar (her beş maddede), her ölçüm kayda geçer, artış olursa belgelenir. Düzeltme **Faz 5'in editoryal geçişine** aittir. |
+| **C · Kayıtlı vaka açığı** | Ek tarihsel araştırma turu **yapılmaz**. Davranış temelli editoryal yaklaşım sürer. | 4. bölümler yalnızca araştırma dosyasındaki malzemeden yazılır. **Tarihsel vaka uydurulmaz, örnek uydurulmaz.** Konu gelecek bir baskıda yeniden açılabilir; not Faz 5'te. |
+
+> Üçünün ortak yanı: hiçbiri bir kapıyı gevşetmiyor. Ertelenen şey
+> **düzeltme**dir, **ölçüm** değil.
 
 ---
 
@@ -572,12 +641,14 @@ Evi'nde Hunahpú'nun başı (Popol Vuh II).
 ### Faz 4–5 için ne demek
 
 Bu bir **eksik değil, ertelenmiş bir araştırma kalemidir** ve kalan 67
-maddede de aynı biçimde karşılaşılacaktır. İki seçenek var:
+maddede de aynı biçimde karşılaşılacaktır. İki seçenek vardı:
 
 1. **Bugünkü çözüm** — 4. bölüm dosyadaki malzemeden yazılır; kanonik olay
    varsa vaka odur. Uydurma riski sıfır, "tarih ve yer" oranı düşük.
 2. **Ek araştırma turu** — 109 maddenin `incident` alanı için kaynak
    metinlere dönülür. Maliyetli ve Faz 1'in bütçesinde yoktu.
 
-Karar **kurucunundur** ve Faz 4 başlamadan verilmelidir. Bugünkü metin
-(1) ile yazılmıştır ve kapılardan geçmektedir.
+**Kurucu (1)'i seçti** — karar C, 7 Ağustos 2026 · CHANGELOG D41.
+Faz 4 aynı yöntemle yazılır. Tarihsel vaka uydurulmaz, örnek uydurulmaz;
+kayıt yoksa cümle de yoktur. Konu, yeni doğrulanmış kaynak bulunursa
+**gelecek bir baskıda** yeniden açılabilir ve bu not Faz 5'e bırakıldı.

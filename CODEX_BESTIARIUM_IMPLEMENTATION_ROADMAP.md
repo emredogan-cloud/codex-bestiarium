@@ -195,6 +195,17 @@ Bunlar tartışmaya kapalıdır. Değişirse takvim yeniden hesaplanır ve
 
 > Bunlar **Faz 1'i bloke etmez** ama Faz 3 başlamadan yanıtlanmalıdır.
 
+### Durum tablosu — 7 Ağustos 2026
+
+| # | Konu | Durum |
+|---|---|---|
+| A1 | Depo public, proza nerede durur | ✅ **kapandı** — (a) şıkkı · CHANGELOG D29, D30 |
+| A2 | Kapsam 120/40 mı 100/35 mi | ✅ **kapandı** — Faz 1'de 112/40'a kilitlendi |
+| A3 | Vektör temizlik dışarıya verilecek mi | ⏳ açık — pilot süresi ölçülünce; ham plaka girdisine bağlı (D39) |
+| A4 | İllüstrasyon: ham AI plakaları kim üretir | ✅ **kapandı** — kurucu üretir, Faz 5'ten önce · D39 |
+| A5 | Üslup sürüklenmesi ne zaman düzeltilir | ✅ **kapandı** — Faz 5, editoryal geçiş · D40 |
+| A6 | Kayıtlı vaka açığı için ek araştırma turu | ✅ **kapandı** — yapılmaz; davranış temelli yaklaşım sürer · D41 |
+
 ### A1 · Depo herkese açık, manuscript ne olacak?
 
 Depo talimat gereği **public**tir. Bugün bunun bir maliyeti yok: depoda kod,
@@ -597,6 +608,17 @@ Bu fazın asıl riski sürüklenmedir: 48 madde geride kalmıştır ve ses kalı
 oturmaya başlar. `qa_drift.py` bu fazda haftalık değil, **her beş maddede**
 çalıştırılır.
 
+### Kurucu kararları — 7 Ağustos 2026 (D39 · D40 · D41)
+
+Faz 3 raporunun kurucuya bıraktığı üç soru, Faz 4 başlamadan karara
+bağlandı. Tam gerekçeler `CHANGELOG.md` D39–D41'de.
+
+| Karar | Faz 4'e etkisi |
+|---|---|
+| **D39 · İllüstrasyon** — ham AI plaka üretimi kurucunun sorumluluğudur ve Faz 5'ten önce tamamlanacaktır | Aşağıdaki dizgi görevlerinden **plaka üretimine bağlı olanlar** bu fazda kapatılamaz ve Faz 4 bu yüzden bloklanmaz. Hat bekleme durumunda hazır tutulur. |
+| **D40 · Üslup sürüklenmesi** — mevcut %21 Faz 4'te düzeltilmez | `qa_drift` her beş maddede koşar ve **ölçüm kayda geçer**; Faz 3 metni yeniden yazılmaz. Düzeltme Faz 5'in editoryal geçişine aittir. |
+| **D41 · Kayıtlı vaka açığı** — ek araştırma turu yapılmaz | 4. bölümler yalnızca araştırma dosyasındaki malzemeden yazılır. Aşağıdaki "kayıtlı vaka ara" görevi bu çerçevede okunur: **aranır, bulunamazsa uydurulmaz.** |
+
 ### Çıktılar
 
 | # | Çıktı | Yol |
@@ -697,6 +719,43 @@ manuscript **dizgiye hazırdır** — sonrasında tek bir cümle değişmez.
 Üç geçiş sırayla: düşman olgu denetimi (30 sa) → satır editörlüğü (20 sa) →
 ana dil geçişi (10 sa, dış kaynak).
 
+### ⚠ Faz 4'ten devralınan iki zorunluluk (D40 · D41)
+
+Bu iki madde Faz 4'te **bilerek ertelendi** ve buraya bırakıldı. Faz 5
+onları kapatmadan tamamlanmış sayılmaz.
+
+**① Tam editoryal üslup uyumlama geçişi — D40.**
+Faz 3'ün 45 maddesi ölçüldüğünde `qa_drift` %21 sürüklenme raporladı ve
+Faz 4 boyunca ölçüm sürdü. Kurucu kararı: **Faz 4 bu sürüklenmeyi
+düzeltmez, izler.** Düzeltmenin yeri burasıdır ve **Geçiş 2'nin (satır
+editörlüğü) ayrılmaz parçasıdır.** Gerekçe: sürüklenme bir *madde*
+kusuru değil bir *seri* kusurudur — 45 maddeyi ayrı, 88'i ayrı düzeltmek
+iki farklı üslup üretir. Kitabın tamamı elde olduğunda tek geçişte ele
+alınır.
+
+Uyumlama geçişi şunları kapsar:
+
+- [ ] `qa_drift.py` çıktısındaki **yükselen sözcük listesini** kaynak al: çözümleyici kayda ait dağarcık (*about · rather · nothing · person · people · creature · figure*) sınıf ilerledikçe kalınlaşıyor.
+- [ ] 5. bölümlerin (*neden korkulur*) soyutluk seviyesini kitap boyunca eşitle — `STYLE.md` § 7 örnek 3: yorum **tez cümlesiyle değil sahneyle** taşınır.
+- [ ] Erken maddelerle geç maddelerin cümle uzunluğu dağılımını karşılaştır; ikisi de 14–18 bandında olsa bile **eğim** kalmamalı.
+- [ ] Geçiş sonunda `qa_drift.py` yeniden koşar ve **eğim düşmüş olmalıdır**. Ölçüm `06_REPORTS/qa-drift.json` ile karşılaştırmalı raporlanır.
+- [ ] Her düzeltme diğerleri gibi `edits.json`'a girer; elle düzenleme yok.
+
+**② Kayıtlı vaka açığı — D41 · gelecek baskı notu.**
+Araştırma dosyalarının `incident` alanı 112 maddenin 109'unda *"Faz 3'te
+kaynaktan doğrudan okunacak"* diyor. Kurucu kararı: **ek tarihsel
+araştırma turu yapılmaz**; 4. bölümler dosyadaki `behaviour`, `variants`,
+`counter` ve kanonik olaydan yazılır. Bu, Faz 3'te ve Faz 4'te böyle
+yapıldı ve Faz 5'te de böyle yapılacaktır.
+
+> **Bu konu kapatılmıştır, gizlenmemiştir.** Yeni *doğrulanmış* kaynaklar
+> ortaya çıkarsa — arşiv dijitalleştirmesi, yeni bir bilimsel derleme,
+> erişilebilir hâle gelen bir saha kaydı — konu **gelecek bir baskıda**
+> yeniden açılabilir. O zamana kadar geçerli kural değişmez:
+> **uydurma yok. Kayıt yoksa cümle de yok.**
+> Sonsöz bu tercihi savunmacı olmayan bir dille yazar (aynı yerde
+> Aborjin geleneklerinin dışarıda bırakılması da anlatılıyor).
+
 ### Çıktılar
 
 | # | Çıktı | Yol |
@@ -734,7 +793,7 @@ ana dil geçişi (10 sa, dış kaynak).
 ### Editoryal görevler
 
 - [ ] **Geçiş 1 · Düşman olgu denetimi (30 sa).** Ayrı bir oturum, **yalnızca bitmiş metni görerek** (araştırma notları verilmeden), her olgusal iddiayı çürütmeye çalışır. Çıktı: itiraz listesi.
-- [ ] **Geçiş 2 · Satır editörlüğü (20 sa).** Kesme ve sıkıştırma. Hiçbir madde %8'den fazla uzamaz.
+- [ ] **Geçiş 2 · Satır editörlüğü (20 sa).** Kesme ve sıkıştırma. Hiçbir madde %8'den fazla uzamaz. **Üslup uyumlama geçişi buranın parçasıdır — D40, yukarıdaki ① maddesi.**
 - [ ] **Geçiş 3 · Ana dil geçişi (10 sa, dış kaynak).** Ana dili İngilizce bir satır editörü — ses doğallığı. **Dışarıya verilecek ilk iştir.**
 - [ ] Her düzeltme `edits.json`'a kaydedilir: `id`, öncesi, sonrası, kategori, gerekçe. **Elle düzenleme yapılmaz.**
 - [ ] Tırnak dengesi 1:1; bölüm numarası sızıntısı sıfır.
@@ -767,6 +826,7 @@ ana dil geçişi (10 sa, dış kaynak).
 2. 120 plaka ölçüldü; tolerans dışı sıfır.
 3. Üç editoryal geçiş tamamlandı; itiraz listesindeki her madde kapatıldı.
 4. Her düzeltme `edits.json`'da; elle düzenleme yok.
+4b. **Üslup uyumlama geçişi yapıldı (D40); `qa_drift` eğimi geçiş öncesine göre düşmüş ve ölçüm raporlanmış.**
 5. Tam prova dizgisi çalıştırıldı; ölçülen sayfa sayısı `BOOK_STATS.md`'de.
 6. Ölçülen sayfa sayısıyla fiyat ve telif yeniden doğrulandı.
 7. CI yeşil, merge, **`v0.5.0`** etiketi.
