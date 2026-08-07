@@ -3,16 +3,41 @@
 # ─────────────────────────────────────────────────────────────────────────
 
 # ① KİTABIN PROZASI  ──────────────────────────────────────────────────────
-# Depo herkese açıktır. 92.000 kelimelik metnin açık bir depoda durması üç
-# somut risk taşır: KDP fiyat eşleştirmesi, kamu malı yanlış sınıflandırması,
-# intihal. Karar ve alternatifler:
+# KARAR A1 = (a) — KURUCU ONAYI, Faz 3 emri, 7 Ağustos 2026.
+# Depo PUBLIC kalır; ticari değeri olan manuscript depo DIŞINDA yaşar.
+# Gerekçe üç somut risktir: KDP fiyat eşleştirmesi, kamu malı yanlış
+# sınıflandırması, intihal / AI eğitim verisi.
 #   CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md § A1
+#
+# Depo AÇIK tutmaya devam ettiği şeyler: otomasyon, hat, CI/CD, doğrulama,
+# belgeler, araştırma dosyaları (künye ve alıntı notudur, proza değildir —
+# iki kaynak kapısının denetlenebilmesi için gereklidirler).
 #
 # CI proza VARSA denetler, yoksa yeşil kalır. Yerelde tam denetim:
 #   ./08_BUILD/qa_all.sh
+#
+# DİKKAT — buradaki her kalıp bir YOL kalıbıdır. Yeni bir proza dosyası
+# başka bir ada konursa bu liste onu YAKALAMAZ. Bu yüzden
+# validate_structure.py ayrıca "proza sızıntısı" denetimi yapar: takip
+# edilen dosyalarda madde metni görürse KIRMIZI yanar.
 01_SOURCE/book.json
 01_SOURCE/book-edited.json
+01_SOURCE/book-*.json
 01_SOURCE/edits.json
+
+# Taslak bölümler, nihai proza ve manuscript dökümleri — hangi biçimde
+# olursa olsun. (Faz 3 öncesinde yalnızca book.json vardı; yazım
+# başlayınca ara biçimler de doğar.)
+02_MANUSCRIPT/*
+!02_MANUSCRIPT/.gitkeep
+!02_MANUSCRIPT/README.md
+
+# Özel editoryal notlar — kurucu okumaları, düzeltme turları, ses
+# kalibrasyon oturumları. Bunlar üretim malzemesidir, vitrin değil.
+00_CONTEXT/private/
+**/*.private.md
+**/*_PRIVATE.md
+06_REPORTS/editorial/
 
 # ② ÜRETİLMİŞ YAYIN DOSYALARI  ────────────────────────────────────────────
 # Hepsi kaynaktan yeniden üretilebilir; ikili dosya olarak depoyu şişirirler.

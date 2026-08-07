@@ -15,7 +15,87 @@ sayılar, açık kalanlar.
 ## [Yayımlanmamış]
 
 ### Sıradaki
-- Faz 3 · Çekirdek yazım (Bekçiler ve Yutucular) — **kurucu onayı bekliyor**
+- Faz 4 · Genişleme (Şekil Değiştirenler ve Su Sakinleri) — **kurucu onayı bekliyor**
+
+---
+
+## [0.3.0] — 2026-08-07
+
+**FAZ 3 TAMAMLANDI.** Kitabın ilk 45 maddesi yazıldı: sınıf I (Bekçiler, 18)
+ve sınıf II (Yutucular, 27), iki sınıf açılışı ve dört karşılaştırma açılışı.
+**Kitabın sesi burada kuruldu.**
+
+### Ölçülenler
+
+| Ölçü | Değer |
+|---|---:|
+| Yazılmış madde | **45/112** |
+| Madde metni | **30.288 kelime** |
+| Açılış metni | 3.111 kelime (6 açılış) |
+| Madde ortalaması | **673** kelime (hedef 700 · sapma %3,9) |
+| En kısa / en uzun | 632 / 707 |
+| Bant dışı madde | **0** |
+| Kitap geneli cümle ortalaması | 16,4 kelime (bant 14–18) |
+| Ünlem işareti | 0 |
+| Yasak kalıp | 0 |
+| Maddeler arası 8+ kelimelik tekrar | 0 |
+
+### Prova dizgisi — 45 maddenin tamamı GERÇEK metinle ölçüldü
+
+Faz 2'nin prova dizgisi ölçüm dolgusuyla çalışıyordu ve gerekçesi doğruydu:
+o fazda proza yoktu. Faz 3'te `entry_page.py` gerçek metni okuyacak biçimde
+genişletildi ve 45 maddenin tamamı dizildi.
+
+| | Faz 2 modeli (dolgu) | Faz 3 ölçümü (gerçek metin) |
+|---|---:|---:|
+| İçerik yüksekliği | 2,558 sayfa | **2,144 sayfa** (en az 2,018 · en çok 2,245) |
+| Faturalanan sayfa | 3,0 | **3,0** |
+| Sınıf I + II toplamı | 135 | **135** |
+
+**Sayfa bütçesi değişmedi.** Model muhafazakârmış: gerçek metin dolgudan
+%16 daha az dikey yer kaplıyor, ama plaka kuralı yüzünden her madde yine
+sayfa başından başlıyor ve 3 sayfa faturalanıyor. 436 sayfalık toplam bütçe
+ve fiyat modeli **olduğu gibi geçerli**; yol haritasının "%5'ten fazla
+saparsa bildir" eşiği **aşılmadı** (sapma %0).
+
+### Uyarı — üslup sürüklenmesi %21
+
+`qa_drift`, en sık 50 içerik kelimesinin yoğunluğunda 45 madde boyunca
+**%+21** artış ölçtü. Uyarı eşiği %20, başarısızlık eşiği %35; değer
+uyarı bandının hemen üstünde ve başarısızlıktan uzak. Yükselen kelimeler
+çözümleyici kayda ait: *about · rather · nothing · person · people ·
+creature · figure · body · something · tradition*. Yani 5. bölümlerin
+("neden korkulur") soyut sözcük dağarcığı faz boyunca kalınlaşmış.
+**Faz 5'in editoryal incelemesine girdi olarak devrediliyor.**
+
+### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D36 | `entry_page.py` **gerçek metinle** diziyor | Faz 2'nin "PROZA YOK" kuralı Faz 3'te aşıldı. Dolguyla ölçmeye devam etmek modeli modele karşı sınamak olurdu; yol haritası GERÇEK sayfa sayısını istiyor. Metin varsa gerçek proza, yoksa dolgu. Rapor hangisinin kullanıldığını (`textSource`) yazıyor. |
+| D37 | `qa_drift` **yargıladığı sayıyı** gösteriyor | Rapor satırı "başlangıç ~72‰, bitiş ~71‰" derken aynı cümlede "%+21 artış" diyordu. İkisi de doğruydu ama farklı şeylerdi: oran uydurulan doğrudan, uçlar iki tek maddeden. Yan yana okununca ölçüm kendi kendisiyle çelişiyor görünüyordu. Artık doğrunun uçları gösteriliyor, ham uçlar ayrıca. |
+| D38 | Manuscript ölçüsü **depoya alındı** | `BOOK_STATS.md` `book.json`'dan türeyen sayılar taşıyor, `book.json` ise A1/D29 gereği depoda yok. Aynı komut yerelde ve CI'da iki farklı belge üretiyordu; her yazım commit'i "bayat belge" diye kırmızı yanacaktı. `01_SOURCE/manuscript_metrics.json` yalnızca SAYI içerir — tek bir proza cümlesi bile değil. Gerekçe plakalarınkiyle aynı (`.gitignore` § ③): **depo varlığı değil, ölçüsünü taşır.** |
+
+### Kararlar (yazım sırasında bulunan kapı kusurları)
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D29 | **A1 kapatıldı: (a) şıkkı.** Depo PUBLIC kalır; ticari değeri olan manuscript depo DIŞINDA yaşar | Kurucu emri, 7 Ağustos 2026. Yol haritası § A1'in önerdiği ve `.gitignore`'ın zaten varsaydığı şık. Açık kalan: otomasyon, hat, CI/CD, doğrulama, belgeler, araştırma dosyaları. Kapalı olan: proza, taslak bölümler, özel editoryal notlar, üretilmiş manuscript dökümleri. |
+| D30 | Politika **yol kalıbına bırakılmadı**, içerik denetimi eklendi | `.gitignore` bir YOL listesidir; başka bir ada konan proza dosyasını yakalamaz. `validate_structure.check_manuscript_leak` artık takip edilen dosyalarda madde açılış cümlelerini arar. Kasıtlı bir sızıntıyla sınandı: yakaladı. Gerekçe D28'in aynısı — **disiplin unutulur, mekanizma unutmaz.** |
+| D31 | Araştırma hattı **yazım durumunun sahibi değildir** | `research_gen.sync_spec` durumu koşulsuz `verified` yazıyordu. Bir madde `written` işaretlendiği anda `--check` bayat yanıyor, `qa_all.sh --fix` ise durumu sessizce geri alıyordu: tamamlanmış yazım işi her tazeleme koşusunda kayboluyordu. Artık araştırma kapısı düşerse durum `draft`'a iner (kalite geriye gidemez), geçerse `written`/`edited`/`final` korunur. |
+| D32 | `qa_diacritics` **büyük/küçük harfe duyarlı** arıyor | Tarama `re.I` ile koşuyordu. `Lóng`un diakritiksiz hâli `Long`tur ve İngilizce metnin en sık sözcüklerinden biriyle çakışıyordu: *“…long after it has gone”* cümlesi diakritik hatası olarak raporlandı. 78.400 kelimelik bir kitapta bu kapı yazarı “long” sözcüğünü hiç kullanmamaya zorlardı — **doğru metni reddeden bir cetvel.** Faz 2'nin plaka cetveliyle aynı sınıf kusur. Adlar bu kitapta her zaman büyük harfle yazılır; küçük harfli “long” ad değildir, büyük harfli “Long” hâlâ yakalanır (sınandı). |
+| D35 | `qa_diacritics`: düz biçimi **başka bir maddenin gerçek adı** olan dizeler bayraklanmıyor | Kitapta iki ayrı madde var: `Lámia` (Hellenic) ve `Lamia` (Euskal). Bask olanın adında aksan **yoktur**. Kapı, doğru yazılmış "Lamia"yı "Lámia"nın düşürülmüş hâli sanıp reddediyordu — yani Bask maddesinin ve ona yapılan her çapraz referansın yazılmasını engelliyordu. Bu, dize düzeyinde **çözülemeyen** gerçek bir belirsizliktir; ayrım editoryaldır ve Faz 5'in düşman denetçi oturumuna bırakıldı. Sınandı: Kerberos · Humbaba · Qilin düşürmeleri hâlâ yakalanıyor, Bask `Lamia` geçiyor. |
+| D34 | `qa_echo` **kaynak notunu maddeler arası öbek taramasından muaf tutuyor**, `ALLOWED_ECHOES` ölü kuraldan çıkarıldı | Aynı başvuru eseri (Rose'un ansiklopedisi, Thompson'ın dizini) 112 maddenin çoğunda anılır ve künye biçimi **tutarlı olmak zorundadır**; bir başvuru cildinde künyeyi maddeden maddeye değiştirmek kusurun ta kendisidir. Kapı bunu "üslup tekrarı" sayıyordu. `qa_voice` aynı bölümü aynı gerekçeyle zaten muaf tutuyordu. Ayrıca `ALLOWED_ECHOES` **üçüncü ölü kuraldı**: 8 kelimelik gram'ın kümedeki bir öğeye BİREBİR EŞİT olması aranıyordu, en uzun öğe ise 4 kelimeydi — muafiyet hiç devreye girmemişti. Artık kapsama ilişkisine bakılıyor. Sınandı: proza tekrarı yakalanıyor, tutarlı künye geçiyor, kaynak notundaki birebir kopya paragraf **hâlâ** yakalanıyor. |
+| D33 | Cümle uzunluğu **nişanı 16,0'a çekildi**, kenara yazılmıyor | `qa_voice` kitap geneli ortalamayı 14–18'de ister ve bunu blok ortalamalarının ortalaması olarak alır. Açılış kural gereği tek cümledir (25–40 kelime) ve o blok tek başına ~27 ile hesaba girer. Aritmetik, açılış dışındaki blokların ~14 olmasını gerektirir. İlk parti bunu iki kez ıskaladı (17,9 → tavana yapıştı; 13,75 → tabanı deldi). `write_entry.py` artık her bölümün cümle ortalamasını ve partinin qa_voice tahminini basıyor. |
+
+### Faz 3 kapsamı hakkında bir not
+
+Yol haritasının Faz 3 çıktı tablosu **19 + 29 = 48 madde** yazıyor. Bu sayı
+120 maddelik kapsam için hesaplanmıştı ve o kitap **D21 ile kapandı**. Sınıf
+I ve II'nin yürürlükteki gerçek sayısı **18 + 27 = 45**'tir; `spec.json`,
+`update_docs.py` ve `ROADMAP_PROGRESS.md` bu sayıyı zaten kullanıyor
+(`0/45`). Faz 3 **sınıf I ve II'nin tamamını** yazar — yol haritasının
+tarifi budur; 48 rakamı onun aşılmış aritmetiğidir.
 
 ---
 

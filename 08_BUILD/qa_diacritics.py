@@ -129,13 +129,42 @@ def main() -> int:
         if has_marks(c["name"])
     ]
 
+    # BÜYÜK/KÜÇÜK HARFE DUYARLI aranır. Faz 3'te bulundu: tarama `re.I` ile
+    # koşuyordu ve `Lóng`un düz hâli `Long`, İngilizce metnin en sık
+    # sözcüklerinden biriyle çakışıyordu. "…long after it has gone" cümlesi
+    # diakritik hatası olarak raporlanıyordu. 78.400 kelimelik bir kitapta bu
+    # kapı, yazarı "long" sözcüğünü hiç kullanmamaya zorlardı — yani doğru
+    # metni reddeden bir cetvel olurdu. Plaka cetvelinin Faz 2'de bulunan
+    # kusuruyla aynı sınıf: ölçüm aracının kendisi yanlış ölçüyordu.
+    #
+    # Bu kitapta yaratık adları HER ZAMAN özel ad olarak, büyük harfle
+    # yazılır. Küçük harfli "long" bir ad değildir; büyük harfli "Long"
+    # düşürülmüş diakritiktir ve yakalanmaya devam eder.
+    # İKİ AD, TEK DÜZ BİÇİM.
+    #
+    # Faz 3'te bulundu: `Lámia` (Hellenic) ile `Lamia` (Euskal) kitapta AYRI
+    # iki maddedir ve Bask olanın adında aksan YOKTUR. Kapı, doğru yazılmış
+    # "Lamia"yı "Lámia"nın düşürülmüş hâli sanıp reddediyordu — yani Bask
+    # maddesinin ve ona yapılan her çapraz referansın yazılmasını
+    # engelliyordu.
+    #
+    # Bir dizinin düz biçimi BAŞKA bir maddenin GERÇEK adıysa, o dize
+    # meşrudur ve bayrak kaldırılmaz. Bu, dize düzeyinde çözülemeyen gerçek
+    # bir belirsizliktir: "Lamia" yazan biri Bask maddesini de kastediyor
+    # olabilir, Yunan maddesinin aksanını da düşürmüş olabilir. Ayrım
+    # editoryaldır ve Faz 5'in düşman denetçi oturumuna bırakılmıştır;
+    # otomatik kapı burada yanlış pozitif üretmeyi bırakır.
+    real_names = {c["name"] for c in creatures}
+
     hits = []
     for label, text in blocks:
         norm = unicodedata.normalize("NFC", text)
         for cid, correct, flat in targets:
             if flat.lower() == correct.lower():
                 continue
-            pattern = re.compile(r"(?<!\w)" + re.escape(flat) + r"(?!\w)", re.I)
+            if flat in real_names:
+                continue
+            pattern = re.compile(r"(?<!\w)" + re.escape(flat) + r"(?!\w)")
             for m in pattern.finditer(norm):
                 start = max(0, m.start() - 35)
                 end = min(len(norm), m.end() + 35)

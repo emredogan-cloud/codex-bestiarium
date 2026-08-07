@@ -42,6 +42,7 @@ from bestiarium import (  # noqa: E402
     ROOT,
     WORD_TARGET,
     Result,
+    load_book,
     load_spec,
 )
 
@@ -288,6 +289,31 @@ def filler_sections() -> dict:
     return out
 
 
+def real_sections(entry_id: str):
+    """Yazılmış metin varsa onu döndürür; yoksa None.
+
+    Faz 2'de bu betik yalnızca dolguyla dizerdi ve gerekçesi doğruydu: o
+    fazda proza YOKTU, ölçülen şey geometriydi. Faz 3'te metin geldi ve yol
+    haritası GERÇEK sayfa sayısının ölçülmesini istiyor (Faz 3, dizgi
+    görevleri). Dolguyla ölçmeye devam etmek, modeli modele karşı sınamak
+    olurdu.
+
+    Dolgu bölüm bandının TAM ORTASINDA üretilir; gerçek metin bandın
+    herhangi bir yerinde durabilir. Fark sayfa sayısını değiştirebilir ve
+    değiştiriyorsa Faz 6'da değil ŞİMDİ bilinmelidir.
+    """
+    book = load_book()
+    if not book:
+        return None
+    entry = (book.get("entries") or {}).get(entry_id)
+    if not entry:
+        return None
+    sec = entry.get("sections") or {}
+    if not all((sec.get(k) or "").strip() for k, _, _, _ in ENTRY_SECTIONS):
+        return None
+    return {k: sec[k] for k, _, _, _ in ENTRY_SECTIONS}
+
+
 def build_proof(entry_id: str, edition: str, out_path: str) -> dict:
     """Bir maddeyi gerçekten dizer ve KAÇ SAYFA tuttuğunu ölçer."""
     _require_reportlab()
@@ -303,7 +329,11 @@ def build_proof(entry_id: str, edition: str, out_path: str) -> dict:
 
     L = MP.configure(edition)
     S = entry_styles(L)
-    sections = filler_sections()
+    # Metin varsa GERÇEK proza ile diz; yoksa ölçüm dolgusuna düş.
+    sections = real_sections(entry_id)
+    used_real = sections is not None
+    if not used_real:
+        sections = filler_sections()
     words = sum(len(v.split()) for v in sections.values())
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
@@ -370,6 +400,7 @@ def build_proof(entry_id: str, edition: str, out_path: str) -> dict:
         "file": os.path.relpath(out_path, ROOT),
         "words": words,
         "wordTarget": WORD_TARGET,
+        "textSource": "manuscript" if used_real else "filler",
         "pages": pages,
         "textWidthIn": round(L.ed.text_w, 3),
         "textHeightIn": round(L.ed.text_h, 3),

@@ -980,7 +980,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ölüler diyarının kapısında duran üç başlı köpek; girmeye izin verir, çıkmaya vermez.",
       "researchFile": "01_SOURCE/research/kerberos.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "chimaira",
@@ -1036,7 +1036,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Aslan, keçi ve yılanın tek gövdede birleştiği, ateş soluyan Likya canavarı.",
       "researchFile": "01_SOURCE/research/chimaira.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lamia-hellenic",
@@ -1089,7 +1089,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çocuklarını kaybettikten sonra başkalarının çocuklarını avlayan kraliçe.",
       "researchFile": "01_SOURCE/research/lamia-hellenic.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ammit",
@@ -1144,7 +1144,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kalbi tüyden ağır çıkanı yutan; timsah, aslan ve su aygırının bileşimi.",
       "researchFile": "01_SOURCE/research/ammit.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "apep",
@@ -1307,7 +1307,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bağlanmak için bir tanrının elini alan, Ragnarök'te zinciri kıracak kurt.",
       "researchFile": "01_SOURCE/research/fenrir.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "jormungandr",
@@ -1956,7 +1956,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Sedir ormanının bekçisi; yüzü bağırsak kıvrımlarından örülmüş dev.",
       "researchFile": "01_SOURCE/research/humbaba.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "anzu",
@@ -2063,7 +2063,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Loğusanın yanına sokulup çocuğu emziren yerine kaçıran dişi iblis.",
       "researchFile": "01_SOURCE/research/lamashtu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "cipactli",
@@ -2277,7 +2277,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Geceleri bebeklerin kanını emen kuş kılığındaki cadı.",
       "researchFile": "01_SOURCE/research/strix.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "basiliscus",
@@ -2333,7 +2333,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bakışı ve soluğu öldüren; yolundaki her şeyi çöle çeviren küçük yılan.",
       "researchFile": "01_SOURCE/research/basiliscus.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lemures",
@@ -2496,7 +2496,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Adaletsizin üzerine basmayan; iyi bir hükümdarın gelişini haber veren.",
       "researchFile": "01_SOURCE/research/qilin.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "huli-jing",
@@ -2766,7 +2766,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yeraltının beşinci evini bekleyen; başları kesen yarasa.",
       "researchFile": "01_SOURCE/research/camazotz.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "xtabay",
@@ -3037,7 +3037,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ocağın altında yaşayan, evi koruyan, taşınırken götürülmesi gereken.",
       "researchFile": "01_SOURCE/research/domovoy.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "anansi",
@@ -3198,7 +3198,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ateşböceği kılığında giren, uyuyanın kanını içen.",
       "researchFile": "01_SOURCE/research/adze.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "simurgh",
@@ -3522,7 +3522,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz denizde saklanan, geceleri karaya çıkan deniz halkı.",
       "researchFile": "01_SOURCE/research/ponaturi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "qalupalik",
@@ -3575,7 +3575,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Buz altında bekleyen, yalnız çocuğu çeken yeşil derili.",
       "researchFile": "01_SOURCE/research/qalupalik.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "amarok",
@@ -3628,7 +3628,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yalnız avlanan dev kurt; kuralı çiğneyen avcıyı bulur.",
       "researchFile": "01_SOURCE/research/amarok.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tupilaq",
@@ -3738,7 +3738,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Loğusanın ciğerini alan; kızıl giyimli, sudan korkan.",
       "researchFile": "01_SOURCE/research/al-karisi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "karakoncolos",
@@ -3793,7 +3793,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Zemherinin ilk günlerinde çıkan; soru sorup yanlış cevabı cezalandıran.",
       "researchFile": "01_SOURCE/research/karakoncolos.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "sahmeran",
@@ -3901,7 +3901,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Mezarlıkta ve çölde bekleyen; kılık değiştirip yolcuyu yiyen.",
       "researchFile": "01_SOURCE/research/ghul.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ifrit",
@@ -4175,7 +4175,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanda yaşayan, hastalık yayan dişi yılan-ruh.",
       "researchFile": "01_SOURCE/research/ajatar.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "basajaun",
@@ -4230,7 +4230,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanın efendisi; sürüyü fırtınadan koruyan yaban adamı.",
       "researchFile": "01_SOURCE/research/basajaun.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lamia-euskal",
@@ -4387,7 +4387,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Devetabanı yaprağı altında yaşayan küçük halk; balık bırakıp kaybolan.",
       "researchFile": "01_SOURCE/research/koropokkuru.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "repun-kamuy",
@@ -4445,7 +4445,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Açık denizin tanrısı; katil balina kılığında av bağışlayan.",
       "researchFile": "01_SOURCE/research/repun-kamuy.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "kenas-unarpe",
@@ -4493,7 +4493,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Bataklıkta bekleyen; loğusayı ve yolcuyu avlayan yaşlı kadın.",
       "researchFile": "01_SOURCE/research/kenas-unarpe.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "thuong-luong",
@@ -4593,7 +4593,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bağırsaklarıyla birlikte uçan baş; geceleri pislik ve kan arayan.",
       "researchFile": "01_SOURCE/research/ma-lai.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ong-ba-muoi",
@@ -4643,7 +4643,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanın kaplanı; adı söylenmez, saygıyla anılır.",
       "researchFile": "01_SOURCE/research/ong-ba-muoi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "phaya-nak",
@@ -4750,7 +4750,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Uçan baş ve sarkan iç organlar; doğum yapanın kanını arayan.",
       "researchFile": "01_SOURCE/research/krasue.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "kinnari",
@@ -4857,7 +4857,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz komşu, gece yiyici; ölüyü ve doğmamışı arayan.",
       "researchFile": "01_SOURCE/research/aswang.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "manananggal",
@@ -4909,7 +4909,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Belinden ayrılıp uçan üst gövde; hortumuyla ceninleri emen.",
       "researchFile": "01_SOURCE/research/manananggal.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tikbalang",
@@ -5066,7 +5066,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Karda iz bırakan yaban adam; görülmemek için ters yürüdüğü söylenen.",
       "researchFile": "01_SOURCE/research/migoi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "khyung",
@@ -5170,7 +5170,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Toprağın altındaki et yiyen halk; tapınaklarla bastırılan.",
       "researchFile": "01_SOURCE/research/srin-po.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "olgoi-khorkhoi",
@@ -5223,7 +5223,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Çölün altında yaşayan; dokunmadan öldüren bağırsak-solucan.",
       "researchFile": "01_SOURCE/research/olgoi-khorkhoi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "vishap",
@@ -5320,7 +5320,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Savaş ölülerinin yarasını yalayarak dirilten köpek ruhu.",
       "researchFile": "01_SOURCE/research/aralez.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "nhang",
@@ -5423,7 +5423,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çok başlı dev; kardeşleriyle mağarada yaşayan.",
       "researchFile": "01_SOURCE/research/devi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "golem",
@@ -5475,7 +5475,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Çamurdan yoğrulup adla canlandırılan; itaat eden ama anlamayan.",
       "researchFile": "01_SOURCE/research/golem.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lilith",
@@ -5529,7 +5529,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "İtaat etmeyen ilk eş; yeni doğana muska ile karşı konulan.",
       "researchFile": "01_SOURCE/research/lilith.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ziz",
@@ -5682,7 +5682,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Küçük, tüylü, kötü niyetli; yatağın altında bekleyen.",
       "researchFile": "01_SOURCE/research/tokoloshe.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "impundulu",
@@ -6051,7 +6051,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yolcunun yağını çıkarıp alan yabancı; sömürünün suretini almış korku.",
       "researchFile": "01_SOURCE/research/pishtaco.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "supay",
@@ -6159,7 +6159,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ayakları ters dönük orman bekçisi; avcıyı izini takip ettirerek kaybettiren.",
       "researchFile": "01_SOURCE/research/curupira.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "boitata",
@@ -6213,7 +6213,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ateşten yılan; ormanı yakanı kovalayan göz.",
       "researchFile": "01_SOURCE/research/boitata.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "iara",
@@ -6432,7 +6432,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Açlıktan doğan; yedikçe büyüyen ve asla doymayan.",
       "researchFile": "01_SOURCE/research/windigo.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "stallu",
@@ -6487,7 +6487,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Demir giyimli, gümüş toplayan, aptal ama tehlikeli dev.",
       "researchFile": "01_SOURCE/research/stallu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ulda",
@@ -6535,7 +6535,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yerin altında sürü güden gizli halk; adları anılmaz.",
       "researchFile": "01_SOURCE/research/ulda.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "gufihtar",
@@ -6638,7 +6638,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kayaların içindeki gizli halk; yol güzergâhını hâlâ değiştirten.",
       "researchFile": "01_SOURCE/research/huldufolk.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "nykur",
@@ -6889,7 +6889,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ölüler diyarının girişinde bekleyen dişi ruh; önündeki kum çizimini tamamlayamayan ölüyü geçirmeyen.",
       "researchFile": "01_SOURCE/research/temes-savsap.md",
-      "status": "verified"
+      "status": "written"
     }
   ]
 }

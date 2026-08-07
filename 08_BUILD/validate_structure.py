@@ -19,6 +19,7 @@ DENETLENEN
     · JSON / YAML / HTML      ayrıştırılabilirlik
     · plaka referansları      spec.json ↔ prompts ↔ dosya sistemi
     · KDP uyumluluğu          sayfa/fiyat/anahtar kelime kısıtları
+    · manuscript sızıntısı    proza herkese açık depoya girdi mi (karar A1)
 
 KULLANIM
     python3 08_BUILD/validate_structure.py
@@ -595,6 +596,125 @@ def check_kdp(r: Result) -> None:
 
 
 # =============================================================================
+# MANUSCRIPT SIZINTISI — KARAR A1
+# =============================================================================
+
+# Depo PUBLIC kalır, proza depo DIŞINDA yaşar. .gitignore bunu YOL kalıbıyla
+# sağlar; yol kalıbı yeni bir ada konan proza dosyasını yakalamaz. Bu denetim
+# ikinci hattır ve İÇERİĞE bakar: takip edilen bir dosyada madde metni varsa
+# kırmızı yanar.
+#
+# Politikayı bir disiplin talebi olmaktan çıkarıp mekanizmaya bağlar —
+# projenin geri kalanıyla aynı gerekçe: disiplin unutulur, mekanizma unutmaz.
+
+PROSE_PATTERNS = [
+    "01_SOURCE/book.json",
+    "01_SOURCE/book-edited.json",
+    "01_SOURCE/edits.json",
+    "02_MANUSCRIPT/",
+]
+
+# İçerik taramasından muaf olanlar: bu denetimin KENDİSİ ve politikayı
+# anlatan belgeler yol adlarını yazmak zorundadır.
+LEAK_SCAN_SKIP = {
+    ".gitignore",
+    "08_BUILD/validate_structure.py",
+    "CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md",
+}
+
+
+def _tracked_files() -> list[str] | None:
+    """git'in takip ettiği dosyalar. git yoksa None — denetim atlanır."""
+    import subprocess
+    try:
+        out = subprocess.run(
+            ["git", "-C", ROOT, "ls-files"],
+            capture_output=True, text=True, timeout=30, check=False,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return None
+    if out.returncode != 0:
+        return None
+    return [line for line in out.stdout.splitlines() if line.strip()]
+
+
+def check_manuscript_leak(r: Result) -> None:
+    tracked = _tracked_files()
+    if tracked is None:
+        r.ok("manuscript sızıntısı denetimi atlandı", "git deposu okunamadı")
+        return
+
+    # --- 1. .gitignore kuralı hâlâ yerinde mi ---
+    gi_path = os.path.join(ROOT, ".gitignore")
+    gi = read(gi_path) if os.path.exists(gi_path) else ""
+    missing_rules = [p for p in PROSE_PATTERNS if p.rstrip("/") not in gi]
+    r.add(
+        not missing_rules,
+        ".gitignore proza yollarını dışarıda tutuyor (karar A1)",
+        f"eksik kural: {missing_rules} — kural silinirse politika sessizce düşer",
+    )
+
+    # --- 2. proza yolları takip ediliyor mu ---
+    leaked_paths = [
+        f for f in tracked
+        if any(f == p or f.startswith(p) for p in PROSE_PATTERNS)
+        and not f.endswith((".gitkeep", "README.md"))
+    ]
+    r.add(
+        not leaked_paths,
+        "proza dosyası takip edilmiyor",
+        f"{leaked_paths[:10]} — `git rm --cached` ile depodan çıkarın",
+    )
+
+    # --- 3. İÇERİK: madde prozası takip edilen bir dosyaya sızmış mı ---
+    # Ölçüt: her maddenin AÇILIŞ cümlesi benzersizdir (qa_echo bunu ayrıca
+    # garanti eder). Açılış cümlesi takip edilen bir dosyada birebir
+    # geçiyorsa proza sızmıştır.
+    book_path = os.path.join(ROOT, "01_SOURCE", "book.json")
+    if not os.path.exists(book_path):
+        book_path = os.path.join(ROOT, "01_SOURCE", "book-edited.json")
+    if not os.path.exists(book_path):
+        r.ok("içerik sızıntısı taraması", "yerelde manuscript yok — tarayacak metin yok")
+        return
+
+    try:
+        with open(book_path, encoding="utf-8") as fh:
+            book = json.load(fh)
+    except (OSError, json.JSONDecodeError) as exc:
+        r.fail("manuscript okunamadı", f"{book_path}: {exc}")
+        return
+
+    needles = []
+    for key, entry in (book.get("entries", {}) or {}).items():
+        opening = (entry.get("sections", {}) or {}).get("opening", "").strip()
+        if len(opening) >= 40:
+            needles.append((key, opening))
+
+    hits = []
+    for path in tracked:
+        if path in LEAK_SCAN_SKIP:
+            continue
+        if not path.lower().endswith((".md", ".json", ".txt", ".html", ".yml", ".yaml")):
+            continue
+        full = os.path.join(ROOT, path)
+        if not os.path.isfile(full):
+            continue
+        try:
+            body = read(full)
+        except OSError:
+            continue
+        for key, opening in needles:
+            if opening in body:
+                hits.append(f"{path} ← “{key}” açılış cümlesi")
+
+    r.add(
+        not hits,
+        f"madde prozası takip edilen dosyalara sızmamış ({len(needles)} madde tarandı)",
+        "\n         ".join(hits[:10]),
+    )
+
+
+# =============================================================================
 # GİRİŞ NOKTASI
 # =============================================================================
 
@@ -620,6 +740,7 @@ def main() -> int:
     check_spec_integrity(r)
     check_roadmap_toc(r)
     check_kdp(r)
+    check_manuscript_leak(r)
 
     code = r.report(verbose=args.verbose)
     if args.json_out:

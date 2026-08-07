@@ -42,14 +42,38 @@ from textutil import (  # noqa: E402
 
 DEFAULT_N = 8
 
-# Yedi bölümlü iskeletin ve kaynak notlarının doğal tekrarları. Bunlar
-# kusur değildir; şablonun kendisidir.
+# KAYNAK NOTU ÇAPRAZ TEKRAR TARAMASINDAN MUAFTIR.
+#
+# Faz 3'te bulundu. Aynı başvuru eseri (Rose'un ansiklopedisi, Thompson'ın
+# dizini) 112 maddenin çoğunda anılır ve künye biçimi TUTARLI olmak
+# zorundadır — bir başvuru cildinde künyeyi maddeden maddeye değiştirmek
+# kusurun ta kendisidir. Bu kapı, tutarlı künyeyi "üslup tekrarı" sayıp
+# yazarı her maddede farklı bir künye biçimi uydurmaya zorluyordu.
+#
+# `qa_voice` aynı bölümü aynı gerekçeyle zaten muaf tutuyor (EXEMPT_SECTIONS):
+# kaynak notu prozanın değil, künyenin yeridir. Muafiyet YALNIZCA maddeler
+# arası n-gram taramasındadır; birebir kopya paragraf, madde içi tekrar ve
+# açılış cümlesi denetimleri kaynak notunu görmeye devam eder.
+ECHO_EXEMPT_SECTIONS = {"sources"}
+
+# İskeletin doğal tekrarları. Bir n-gram bu ifadelerden birinin İÇİNDE
+# kalıyorsa kusur değildir.
+#
+# DİKKAT — eskiden `gram in ALLOWED_ECHOES` diye denetleniyordu, yani 8
+# kelimelik bir gram'ın buradaki bir öğeye BİREBİR EŞİT olması gerekiyordu.
+# Kümedeki en uzun öğe 4 kelimeydi; hiçbir gram hiçbir öğeye eşit olamazdı.
+# Muafiyet hiç devreye girmedi: ÖLÜ KURAL (D28 ve D32'nin üçüncü örneği).
+# Artık kapsama ilişkisine bakılıyor ve öğeler n-gram'dan uzun tutuluyor.
 ALLOWED_ECHOES = {
-    "thompson motif index",
-    "compare",
-    "see also",
-    "in the tradition of",
+    "compare the entry on the same image in the tradition of",
+    "see also the kin image chart at the back of the book",
+    "thompson motif index of folk literature revised edition",
 }
+
+
+def allowed_echo(gram: str) -> bool:
+    """n-gram, izin verilen bir ifadenin içinde mi kalıyor?"""
+    return any(gram in phrase for phrase in ALLOWED_ECHOES)
 
 
 def ngrams(tokens: list[str], n: int):
@@ -78,11 +102,19 @@ def main() -> int:
     blocks = all_prose_blocks(book)
 
     # --- 1. bloklar arası n-gram tekrarı ---
+    # Kaynak notu bu taramadan muaftır (ECHO_EXEMPT_SECTIONS); künye
+    # tutarlılığı kusur değil, kuraldır.
+    scannable = [
+        (label, text)
+        for label, text in blocks
+        if label.rsplit("/", 1)[-1] not in ECHO_EXEMPT_SECTIONS
+    ]
+
     seen: dict[str, list[str]] = collections.defaultdict(list)
-    for label, text in blocks:
+    for label, text in scannable:
         toks = [w.lower() for w in words(text)]
         for _, gram in ngrams(toks, args.n):
-            if gram in ALLOWED_ECHOES:
+            if allowed_echo(gram):
                 continue
             if label not in seen[gram]:
                 seen[gram].append(label)
