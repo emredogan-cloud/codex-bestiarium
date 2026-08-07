@@ -5475,7 +5475,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Çamurdan yoğrulup adla canlandırılan; itaat eden ama anlamayan.",
       "researchFile": "01_SOURCE/research/golem.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lilith",
@@ -6159,7 +6159,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ayakları ters dönük orman bekçisi; avcıyı izini takip ettirerek kaybettiren.",
       "researchFile": "01_SOURCE/research/curupira.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "boitata",
@@ -6213,7 +6213,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ateşten yılan; ormanı yakanı kovalayan göz.",
       "researchFile": "01_SOURCE/research/boitata.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "iara",
