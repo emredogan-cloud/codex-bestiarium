@@ -1199,7 +1199,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Her gece güneş teknesini yutmaya çalışan, her sabah yeniden yenilen yılan.",
       "researchFile": "01_SOURCE/research/apep.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "bennu",
@@ -1524,7 +1524,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Başındaki çanakta su taşıyan, güreşe çağıran, boğan ırmak çocuğu.",
       "researchFile": "01_SOURCE/research/kappa.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tengu",
@@ -6842,7 +6842,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yer ruhu; hayvan veya insan kılığında toprağı savunan.",
       "researchFile": "01_SOURCE/research/masalai.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "temes-savsap",

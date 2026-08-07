@@ -57,6 +57,7 @@ import argparse
 import collections
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -77,6 +78,7 @@ from bestiarium import (  # noqa: E402
     WORD_BAND,
     WORD_TARGET,
     Result,
+    load_book,
     load_spec,
 )
 
@@ -320,6 +322,74 @@ def verify(spec: dict, km: dict, r: Result) -> None:
         if klass["targetEntries"] != counts.get(k, 0)
     ]
     r.add(not drift, "sınıf hedefi ölçülen dağılımla birebir", f"{drift}")
+
+    verify_kin_text(spec, r)
+
+
+def verify_kin_text(spec: dict, r: Result) -> None:
+    """6. bölüm ('Akrabaları') spec'teki her çapraz referansı anıyor mu?
+
+    Yol haritası Faz 4, editoryal görevler: *"Akraba satırlarını (6. bölüm)
+    spec.json'daki crossRefs ile karşılaştır — tutmayan varsa biri
+    yanlıştır."* Bu bir GÖZ işi olarak yazılmıştı ve göz işi 112 maddede
+    kayar. Burada mekanizmaya çevriliyor.
+
+    İki yönlü kaçak var ve ikisi de sessizdir:
+
+      ① spec bir bağ taşıyor, metin onu anmıyor. Dizin ve akraba imge
+        tablosu bağı gösterir, okur maddeye gider ve orada bulamaz.
+      ② metin bir yaratık adı anıyor, spec'te o bağ yok. Bu daha
+        kötüsüdür: karşılıklılık kırılmıştır, çünkü öteki maddenin
+        6. bölümü bu maddeyi anmak zorunda değildir.
+
+    Metin yoksa (Faz 3 öncesi, ya da CI'da — karar A1/D29) kontrol
+    ATLANIR; açılmamış bir kapı derlemeyi kırmızı yakmaz.
+    """
+    book = load_book()
+    if not book or not book.get("entries"):
+        r.ok("akraba metni ↔ crossRefs", "metin yok — atlandı (A1/D29)")
+        return
+
+    entries = book["entries"]
+    byid = {c["id"]: c for c in spec["creatures"]}
+    # Ad → kimlik. Diakritikli ad metinde AYNEN geçer (STYLE § 4.1); altNames
+    # de sayılır, çünkü madde yerleşik İngilizce adı bir kez verebilir.
+    name_of = {cid: byid[cid]["name"] for cid in byid}
+
+    # KELİME SINIRI ŞART. Düz alt dize araması “Devi”yi “Devil” içinde,
+    # “Way”i “always” içinde bulur ve gerçek olmayan bir bağ raporlar.
+    # Faz 3'ün D32 kusuru buydu: doğru metni reddeden bir cetvel.
+    def mentions(text: str, name: str) -> bool:
+        return bool(re.search(rf"(?<!\w){re.escape(name)}(?!\w)", text))
+
+    missing, stray = [], []
+    for cid, entry in entries.items():
+        rec = byid.get(cid)
+        if not rec:
+            continue
+        text = entry.get("sections", {}).get("kin", "") or ""
+        wanted = rec.get("crossRefs") or []
+        for ref in wanted:
+            names = [name_of[ref], *(byid[ref].get("altNames") or [])]
+            if not any(n and mentions(text, n) for n in names):
+                missing.append(f"{cid}→{ref}")
+        # Metinde anılan ama bağı olmayan yaratık adı
+        for other, name in name_of.items():
+            if other == cid or other in wanted or len(name) < 4:
+                continue
+            if mentions(text, name):
+                stray.append(f"{cid}✗{other}")
+
+    r.add(
+        not missing,
+        "6. bölüm spec'teki her çapraz referansı anıyor",
+        f"{missing[:12]} — bağ dizinde var, maddede yok",
+    )
+    r.add(
+        not stray,
+        "6. bölüm bağı olmayan yaratık anmıyor",
+        f"{stray[:12]} — anılan ad karşılıklı bir bağ değil",
+    )
 
 
 # =============================================================================
