@@ -46,8 +46,15 @@ jobs:
           LEVEL="draft"; [ -f .gate ] && LEVEL="$(tr -d '[:space:]' < .gate)"
           echo "::notice::etiket=$TAG · kapı=$LEVEL"
 
-          # Faz etiketiyle kapı seviyesi tutarlı mı
+          # Ön sürüm (v0.1.0-alpha gibi) bir FAZ KAPANIŞI DEĞİLDİR — ara
+          # teslimdir ve kapı seviyesi aramaz. Faz kapanışı yalın etikettir.
           case "$TAG" in
+            *-*) echo "::notice::ön sürüm — kapı seviyesi aranmıyor"
+                 echo "prerelease=true" >> "$GITHUB_OUTPUT"; WANT="" ;;
+          esac
+
+          # Faz etiketiyle kapı seviyesi tutarlı mı
+          [ -z "${WANT+x}" ] && case "$TAG" in
             v0.1.*) WANT=phase1 ;;
             v0.2.*) WANT=phase2 ;;
             v0.3.*|v0.4.*|v0.5.*|v1.*) WANT=phase3 ;;
