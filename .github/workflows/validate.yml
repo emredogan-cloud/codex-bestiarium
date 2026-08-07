@@ -65,6 +65,12 @@ jobs:
             echo "::notice::master yol haritası bu ortamda yok — tohum karşılaştırması atlandı"
           fi
 
+      - name: araştırma ↔ spec.json
+        run: python3 08_BUILD/research_gen.py --check
+
+      - name: tasnif ve çapraz referanslar ↔ spec.json
+        run: python3 08_BUILD/classify.py --check --verbose
+
       - name: spec şeması
         run: |
           python3 08_BUILD/validate_spec.py \
@@ -72,8 +78,22 @@ jobs:
             --verbose \
             --json 06_REPORTS/spec-validation.json
 
+      # Dizin kapısı da kümülatiftir: Faz 2'den itibaren eksik telaffuz
+      # uyarı değil HATADIR. Seviye `.gate`ten okunur.
       - name: dizinler üretilebiliyor
-        run: python3 08_BUILD/make_index.py --gate draft
+        run: |
+          case "${{ needs.gate.outputs.level }}" in
+            phase2|phase3) IDX_GATE=phase2 ;;
+            *)             IDX_GATE=draft  ;;
+          esac
+          python3 08_BUILD/make_index.py --gate "$IDX_GATE" --verbose
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crossref-graph
+          path: 06_REPORTS/crossref-graph.json
+          if-no-files-found: ignore
 
       - uses: actions/upload-artifact@v4
         if: always()
@@ -175,14 +195,19 @@ jobs:
       - name: prompt kütüphanesi
         run: python3 08_BUILD/make_prompts.py --check
 
+      - name: KIN_OPENINGS + çapraz referans grafiği
+        run: python3 08_BUILD/classify.py --check
+
       - name: bayatsa farkı göster
         if: failure()
         run: |
+          python3 08_BUILD/classify.py
           python3 08_BUILD/update_docs.py
           python3 08_BUILD/make_prompts.py
           echo "::group::fark"
           git --no-pager diff --stat
-          git --no-pager diff -- BOOK_STATS.md ROADMAP_PROGRESS.md | head -120
+          git --no-pager diff -- BOOK_STATS.md ROADMAP_PROGRESS.md \
+            00_CONTEXT/KIN_OPENINGS.md | head -120
           echo "::endgroup::"
           echo "::error::Üretilen belgeler bayat. Düzeltmek için: ./08_BUILD/qa_all.sh --fix"
 

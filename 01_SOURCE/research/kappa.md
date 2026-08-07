@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `kappa` |
 | **Ad** | Kappa |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Kawatarō |
 | **Gelenek** | Yamato 神 · Doğu Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | — |
@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ahuizotl** `ahuizotl` | Mēxihcah ☼ | `function` | İkisi de küçüktür ve gövdenin bir parçasını alır: biri güreşten sonra, öteki gözü ve tırnağı. |
+| **Näkki** `nakki` | Suomi ᛉ | `function` | İkisi de suya çeker ve ikisinin de bir zaafı vardır: Kappa'nın çanağındaki su, Näkki'nin adı. |
+| **Tengu** `tengu` | Yamato 神 | `tradition` | Yamato'nun iki dağ/su varlığı: ikisi de sınar, biri dövüş öğretir, öteki güreşe çağırır. |
 
 ## 8. Kısıtlılık taraması
 

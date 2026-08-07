@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Anansi** `anansi` | Yorùbá · Ashanti ✺ | `function` | İkisi de kuralları çevirir; Anansi'nin hilesi kalıcı bir sonuç verir (hikâyeler ona geçer), Púca'nınki geçicidir. |
+| **Bean sídhe** `bean-sidhe` | Ériu ☘ | `tradition` | İkisi de habercidir; Púca'nın haberi belirsiz, Bean sídhe'ninki kesindir. |
+| **Dokkaebi** `dokkaebi` | Hangug 단 | `function` | İki keyfî varlık: ikisi de sevdiğine yardım, sevmediğine bela verir. |
+| **Each-uisce** `each-uisce` | Ériu ☘ | `tradition` | Ériu'da iki at: Púca bindirir ve bırakır, Each-uisce bindirir ve boğar. |
 
 ## 8. Kısıtlılık taraması
 

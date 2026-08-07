@@ -4,7 +4,9 @@
     {
       "id": "fenrir",
       "name": "Fenrir",
-      "altNames": [],
+      "altNames": [
+        "Fenrisúlfr"
+      ],
       "pronunciation": "FEN-rir",
       "sources": [
         {
@@ -115,7 +117,10 @@
     {
       "id": "draugr",
       "name": "Draugr",
-      "altNames": [],
+      "altNames": [
+        "Draugar (çoğul)",
+        "Haugbúi"
+      ],
       "pronunciation": "DROU-gr",
       "sources": [
         {

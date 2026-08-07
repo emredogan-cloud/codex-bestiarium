@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `lemures` |
 | **Ad** | Lemures |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Larvae (akraba) |
 | **Gelenek** | Romana SPQR · Akdeniz |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | — |
@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Bean sídhe** `bean-sidhe` | Ériu ☘ | `function` | Bean sídhe'nin sesi duyulur ve hiçbir şey yapılamaz; Lemures'e karşı yapılacak dokuz adımlık bir tören vardır. |
+| **Domovoy** `domovoy` | Slovjan ⚡ | `function` | İkisi de eve bağlıdır: Domovoy beslenir ve kalır, Lemures yatıştırılır ve gönderilir. |
+| **Draugr** `draugr` | Norðr ᚦ | `function` | Draugr güreşle yenilir, Lemures törenle gönderilir. Güç ile ritüel. |
+| **Supay** `supay` | Tawantinsuyu ☉ | `function` | İkisi de sunuyla yatıştırılır: biri baklayla, öteki koka ve alkolle. |
 
 ## 8. Kısıtlılık taraması
 

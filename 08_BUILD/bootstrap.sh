@@ -29,13 +29,29 @@ fi
 echo "▸ bağımlılıklar kuruldu"
 
 # --- fontlar ---------------------------------------------------------------
+# Fontlar depoda tutulmaz (.gitignore § ④) ama HER ORTAMDA aynı olmalıdır —
+# tipografik ses Cilt 1 ile birebir aynıdır. İki kaynak, bu sırayla:
+#   ① kardeş depo (yerel iş istasyonu)
+#   ② Google Fonts (SIL OFL 1.1 — serbestçe dağıtılabilir; CI bunu kullanır)
+# İkincisi olmadan CI dizgiyi hiç sınayamıyordu; artık sınıyor.
 FONTS="$ROOT/07_ASSETS/fonts"
+GF="https://raw.githubusercontent.com/google/fonts/main/ofl"
 if [ ! -f "$FONTS/Cinzel[wght].ttf" ]; then
   SRC="$ROOT/../CODEX_MYTHOLOGICA/07_ASSETS/fonts"
   if [ -d "$SRC" ]; then
     echo "▸ fontlar Codex Mythologica'dan kopyalanıyor…"
     mkdir -p "$FONTS"
     cp "$SRC"/*.ttf "$FONTS/"
+  elif command -v curl >/dev/null 2>&1; then
+    echo "▸ fontlar Google Fonts'tan indiriliyor (SIL OFL 1.1)…"
+    mkdir -p "$FONTS"
+    curl -fsSL "$GF/cinzel/Cinzel%5Bwght%5D.ttf" \
+         -o "$FONTS/Cinzel[wght].ttf" &&
+    curl -fsSL "$GF/ebgaramond/EBGaramond%5Bwght%5D.ttf" \
+         -o "$FONTS/EBGaramond[wght].ttf" &&
+    curl -fsSL "$GF/ebgaramond/EBGaramond-Italic%5Bwght%5D.ttf" \
+         -o "$FONTS/EBGaramond-Italic[wght].ttf" ||
+      echo "⚠ font indirilemedi — ağ yok veya kaynak değişti"
   else
     echo "⚠ FONT YOK. Cinzel ve EB Garamond (SIL OFL 1.1) gerekli:"
     echo "  $FONTS/"

@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `lamia-hellenic` |
 | **Ad** | Lámia |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Lamiai (çoğul) |
 | **Gelenek** | Hellenic Ω · Akdeniz |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |
@@ -76,9 +76,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Lamashtu** `lamashtu` | Sumer 𒀭 | `kin` | Lámia bir cezadır — kaybettiği çocukların yerine başkasını alır; Lamashtu bir iblistir ve kaybetmemiştir. |
+| **Strix** `strix` | Romana SPQR | `kin` | Roma, Yunan'ın kraliçesini kuşa çevirir: Lámia bir hikâyedir, strix bir TÜRDÜR ve Ovidius ona tarih verir. |
 
 ## 8. Kısıtlılık taraması
 

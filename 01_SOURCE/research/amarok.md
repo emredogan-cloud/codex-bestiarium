@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `amarok` |
 | **Ad** | Amarok |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Amaroq |
 | **Gelenek** | Inuit ᐃ · Kutup |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |
@@ -72,9 +72,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Fenrir** `fenrir` | Norðr ᚦ | `function` | Fenrir bağlanır ve kurtulur; Amarok bağlanmaz — kuralı çiğneyeni bulmakla yetinir. |
+| **Stállu** `stallu` | Sápmi ❄ | `function` | İkisi de tek başına avlanan insanı hedefler; biri hayvan, öteki eşyalı bir dev. |
+| **Windigo** `windigo` | Anishinaabe ▲ | `function` | İkisi de kuzeyin yalnızlığından doğar: Amarok kuralı çiğneyeni cezalandırır, Windigo kuralın kendisini yok eder. |
 
 ## 8. Kısıtlılık taraması
 

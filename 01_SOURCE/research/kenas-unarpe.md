@@ -82,9 +82,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Al Karısı** `al-karisi` | Türk ☾ | `kin` | İkisi de anneyi hedefler; Al Karısı sudan korkar, Kenas-unarpe suyun kenarında bekler. |
+| **Qalupalik** `qalupalik` | Inuit ᐃ | `kin` | Kuzeyin iki bekleyeni: biri bataklıkta loğusayı, öteki buzun altında yalnız çocuğu. |
 
 ## 8. Kısıtlılık taraması
 

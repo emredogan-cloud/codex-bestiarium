@@ -76,9 +76,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Karakoncolos** `karakoncolos` | Türk ☾ | `tradition` | Türk geleneğinin iki mevsimi: biri zemherinin, öteki doğumun tehlikesi. |
+| **Kenas-unarpe** `kenas-unarpe` | Ainu ᚼ | `kin` | İkisi de anneyi hedefler; Al Karısı sudan korkar, Kenas-unarpe suyun kenarında bekler. |
+| **Lilith** `lilith` | Talmud ✡ | `kin` | Lilith yeni doğana yönelir; Al Karısı loğusanın ciğerini alır — hedef çocuktan anneye kayar. |
+| **Şahmeran** `sahmeran` | Türk ☾ | `tradition` | Türk geleneğinin iki dişi varlığı: biri sır tutar, öteki can alır. |
 
 ## 8. Kısıtlılık taraması
 

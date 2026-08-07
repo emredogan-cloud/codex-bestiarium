@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `camazotz` |
 | **Ad** | Camazotz |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Zotz |
 | **Gelenek** | Maya 𝋠 · Mezoamerika |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | F · Eşik bekçisi |
@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Cipactli** `cipactli` | Mēxihcah ☼ | `tradition` | Mezoamerika'nın iki kozmolojik gövdesi: biri yeryüzünü verir, öteki yeraltını bekler. |
+| **Kérberos** `kerberos` | Hellenic Ω | `kin` | İkisi de yeraltının bir odasını tutar; biri köpek, öteki yarasa — hayvan seçimi coğrafyanın seçimidir. |
+| **Temes Savsap** `temes-savsap` | Melanesia ◉ | `kin` | Temes Savsap geçişi bilgiye bağlar; Camazotz geçeni keser. Sınav ile infaz. |
 
 ## 8. Kısıtlılık taraması
 

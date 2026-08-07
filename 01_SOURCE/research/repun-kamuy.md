@@ -81,9 +81,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adaro** `adaro` | Melanesia ◉ | `function` | İki Pasifik deniz varlığı: biri avı bağışlar, öteki yolunu şaşıranı vurur. |
+| **Moʻo** `moo` | Mā'ohi ᴥ | `function` | İkisi de suyun ve soyun sahibidir; Repun Kamuy av bağışlar, Moʻo yalnızca korur. |
+| **Ông Ba Mươi** `ong-ba-muoi` | Việt ☴ | `function` | İkisinin de adı doğrudan anılmaz; biri denizin, öteki ormanın sahibidir ve saygı bir av kuralıdır. |
 
 ## 8. Kısıtlılık taraması
 

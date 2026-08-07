@@ -4,7 +4,9 @@
     {
       "id": "yamata-no-orochi",
       "name": "Yamata-no-Orochi",
-      "altNames": [],
+      "altNames": [
+        "Orochi"
+      ],
       "pronunciation": "yah-MAH-tah no o-RO-chee",
       "sources": [
         {
@@ -60,7 +62,9 @@
     {
       "id": "kappa",
       "name": "Kappa",
-      "altNames": [],
+      "altNames": [
+        "Kawatarō"
+      ],
       "pronunciation": "KAHP-pah",
       "sources": [
         {
@@ -116,7 +120,9 @@
     {
       "id": "tengu",
       "name": "Tengu",
-      "altNames": [],
+      "altNames": [
+        "Karasu-tengu"
+      ],
       "pronunciation": "TEN-goo",
       "sources": [
         {

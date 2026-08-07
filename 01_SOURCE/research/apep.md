@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ammit** `ammit` | Kemet 𓂀 | `tradition` | Kemet'in iki yutucusu: Apep güneşi, Ammit kalbi hedefler — biri kozmik, öteki kişisel. |
+| **Cipactli** `cipactli` | Mēxihcah ☼ | `function` | İkisi de düzenin sürekli yeniden kurulmasını gerektirir: biri beslenerek, öteki yenilerek. |
+| **Iku-Turso** `iku-turso` | Suomi ᛉ | `kin` | Apep'in adı her gün anılır ve lanetlenir; Iku-Turso'nun adı uğursuz sayılıp anılmaz. |
+| **Jörmungandr** `jormungandr` | Norðr ᚦ | `kin` | Jörmungandr bir kez ve son kez yenilir; Apep her sabah yeniden yenilir. Kıyamet ile döngü arasındaki fark. |
 
 ## 8. Kısıtlılık taraması
 

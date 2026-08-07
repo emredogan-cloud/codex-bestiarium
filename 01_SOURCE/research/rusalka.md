@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `rusalka` |
 | **Ad** | Rusalka |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Rusalki (çoğul) |
 | **Gelenek** | Slovjan ⚡ · Kuzey Avrupa |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | — |
@@ -78,9 +78,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Iara** `iara` | Tupi-Guarani ❂ | `function` | İkisi de suda ölümle ilişkilidir; Rusalka ölmüş bir kızın DÖNÜŞÜDÜR, Iara nehrin annesidir — biri sonuç, öteki köken. |
+| **Näkki** `nakki` | Suomi ᛉ | `function` | İkisi de suyun kenarında görünür; Näkki hep oradaydı, Rusalka önce bir insandı. |
+| **Pontianak** `pontianak` | Nusantara ❋ | `function` | İki ölmüş kadının dönüşü: Rusalka ekini sular ve boğar, Pontianak yalnızca yeni doğana yönelir. |
+| **Zmey** `zmey` | Slovjan ⚡ | `tradition` | Slovjan'ın iki ucu: biri tarlayı sular, öteki hazineyi bekler. |
 
 ## 8. Kısıtlılık taraması
 

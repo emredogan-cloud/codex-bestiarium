@@ -81,9 +81,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Masalai** `masalai` | Melanesia ◉ | `tradition` | Melanezya'da kara ve deniz: Masalai yerinde kalır, Adaro açıkta vurur. |
+| **Moʻo** `moo` | Mā'ohi ᴥ | `function` | İki Pasifik su varlığı: Adaro açık denizde vurur, Moʻo gölcüğü bekler. |
+| **Olgoi-Khorkhoi** `olgoi-khorkhoi` | Mongol ⚔ | `function` | İkisi de görünmeden vurur: biri kumun altından, öteki güneş ışınıyla. |
+| **Ponaturi** `ponaturi` | Mā'ohi ᴥ | `function` | İki deniz halkı: Ponaturi ışıktan ölür, Adaro ışığı silah olarak kullanır. |
+| **Repun Kamuy** `repun-kamuy` | Ainu ᚼ | `function` | İki Pasifik deniz varlığı: biri avı bağışlar, öteki yolunu şaşıranı vurur. |
 
 ## 8. Kısıtlılık taraması
 

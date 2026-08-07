@@ -1,5 +1,5 @@
 {
-  "_note": "Plaka konusu — İngilizce görsel betimleme. Kaynak: master yol haritası Bölüm 04 tohum tablosunun tek satırlık tanımları. Faz 1 araştırması bittiğinde bu alanlar araştırma dosyalarının 'neye benzer' bölümünden ZENGİNLEŞTİRİLİR; uydurma anatomi eklenmez.",
+  "_note": "Plaka konusu — İngilizce görsel betimleme. Kaynak: master yol haritası Bölüm 04 tohum tablosunun tek satırlık tanımları. Faz 1 araştırması bittiğinde bu alanlar araştırma dosyalarının 'neye benzer' bölümünden ZENGİNLEŞTİRİLİR; uydurma anatomi eklenmez. FAZ 2 NOTU: 8 konu, Faz 1'de kapsamdan DÜŞÜRÜLEN maddelere aittir (almas, chotgor, ganen, kaji, ochokochi, orang-bunian, rangda, zar) ve bilerek korunmuştur — düşürme kararı geri alınırsa (kütüphane erişimiyle yeniden değerlendirme) görsel betimleme hazır durur. make_prompts.py yalnızca spec.json'daki maddeler için prompt üretir; fazladan konu prompt kütüphanesine girmez.",
   "_generatedBy": "elle yazıldı · make_prompts.py okur",
   "subjects": {
     "kerberos": {
@@ -602,5 +602,19 @@
       "name": "Temes Savsap",
       "subject": "a seated female guardian spirit at the entrance to the land of the dead, one hand extended over an unfinished continuous line traced before her"
     }
+  },
+  "_scope": {
+    "inSpec": 112,
+    "subjects": 120,
+    "droppedRetained": [
+      "almas",
+      "chotgor",
+      "ganen",
+      "kaji",
+      "ochokochi",
+      "orang-bunian",
+      "rangda",
+      "zar"
+    ]
   }
 }

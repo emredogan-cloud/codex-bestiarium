@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adze** `adze` | Yorùbá · Ashanti ✺ | `tradition` | Aynı gelenekte kurnazlık ile kötülük: Anansi zayıfın aklı, Adze güçsüzün korkusudur. |
+| **Dokkaebi** `dokkaebi` | Hangug 단 | `function` | İki hilekâr: Anansi pazarlıkla kazanır, Dokkaebi güreşle kaybeder. |
+| **Púca** `puca` | Ériu ☘ | `function` | İkisi de kuralları çevirir; Anansi'nin hilesi kalıcı bir sonuç verir (hikâyeler ona geçer), Púca'nınki geçicidir. |
 
 ## 8. Kısıtlılık taraması
 

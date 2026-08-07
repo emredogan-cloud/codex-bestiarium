@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adze** `adze` | Yorùbá · Ashanti ✺ | `function` | İkisi de bir insanın içinden çalışır — biri nazarla, öteki kan içerek. |
+| **Nahual** `nahual` | Mēxihcah ☼ | `function` | İkisi de gündüz bir zanaatkâr, gece bir hayvandır; biri kendi hayvanına döner, öteki sırtlana. |
+| **Skuggabaldur** `skuggabaldur` | Ísland ❆ | `function` | İkisi de sürüye zarar verir ve ikisi de melez sayılır; biri insanla hayvan, öteki iki hayvan arasında. |
 
 ## 8. Kısıtlılık taraması
 

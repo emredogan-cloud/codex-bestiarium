@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `kerberos` |
 | **Ad** | Kérberos |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Cerberus |
 | **Gelenek** | Hellenic Ω · Akdeniz |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | F · Eşik bekçisi |
@@ -80,9 +80,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Camazotz** `camazotz` | Maya 𝋠 | `kin` | İkisi de yeraltının bir odasını tutar; biri köpek, öteki yarasa — hayvan seçimi coğrafyanın seçimidir. |
+| **Ḫumbaba** `humbaba` | Sumer 𒀭 | `kin` | Kérberos kapıyı, Ḫumbaba ormanı bekler; biri görevini sürdürür, öteki görevi yüzünden öldürülür. |
+| **Makara** `makara` | Bharatiya ॐ | `function` | İkisi de bir kapıya aittir; Kérberos kapıda durur, Makara kapıya OYULUR — bekçi bir imgeye dönüşmüştür. |
+| **Temes Savsap** `temes-savsap` | Melanesia ◉ | `kin` | İkisi de ölüler diyarının girişinde; Kérberos gücü, Temes Savsap bir SINAVI kullanır. |
 
 ## 8. Kısıtlılık taraması
 

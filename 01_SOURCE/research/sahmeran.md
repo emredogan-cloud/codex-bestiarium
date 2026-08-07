@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Al Karısı** `al-karisi` | Türk ☾ | `tradition` | Türk geleneğinin iki dişi varlığı: biri sır tutar, öteki can alır. |
+| **Karakoncolos** `karakoncolos` | Türk ☾ | `tradition` | İkisi de bir SORUYA bağlıdır: biri sırrın açığa çıkmasıyla ölür, öteki yanlış cevabı cezalandırır. |
+| **Nāga** `naga` | Bharatiya ॐ | `function` | İkisi de yılanların yönetimidir; Şahmeran bilgiyi taşır ve o bilgi yüzünden ölür, Nāga hazineyi taşır. |
 
 ## 8. Kısıtlılık taraması
 

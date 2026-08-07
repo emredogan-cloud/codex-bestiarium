@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ajatar** `ajatar` | Suomi ᛉ | `tradition` | Suomi'nin iki eski varlığı: biri ormanda hastalık yayar, öteki denizin dibinde bekler. |
+| **Apep** `apep` | Kemet 𓂀 | `kin` | Apep'in adı her gün anılır ve lanetlenir; Iku-Turso'nun adı uğursuz sayılıp anılmaz. |
+| **Jörmungandr** `jormungandr` | Norðr ᚦ | `kin` | İkisi de kuzey denizinin dibinde; biri yemin ettirilip gönderilir, öteki orada bekler. |
 
 ## 8. Kısıtlılık taraması
 

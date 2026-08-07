@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `fenrir` |
 | **Ad** | Fenrir |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Fenrisúlfr |
 | **Gelenek** | Norðr ᚦ · Kuzey Avrupa |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |
@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Amarok** `amarok` | Inuit ᐃ | `function` | Fenrir bağlanır ve kurtulur; Amarok bağlanmaz — kuralı çiğneyeni bulmakla yetinir. |
+| **Draugr** `draugr` | Norðr ᚦ | `tradition` | Norðr'un iki bekleyeni: biri zinciri, öteki höyüğü bekler. |
+| **Jörmungandr** `jormungandr` | Norðr ᚦ | `pair` | Kardeşler ve Ragnarök'ün iki ayrı ucu: biri Óðinn'i yutar, öteki Þórr'u zehirler. |
 
 ## 8. Kısıtlılık taraması
 

@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Àbíkú** `abiku` | Yorùbá · Ashanti ✺ | `function` | İkisi de aileye geri döner; Strigoi alır, Àbíkú yalnızca gider ve tekrar gelir. |
+| **Draugr** `draugr` | Norðr ᚦ | `function` | İkisi de gömüldüğü yerden kalkar; Draugr malını korur, Strigoi ailesinin kanını alır — biri mülkiyet, öteki soy. |
+| **Karakoncolos** `karakoncolos` | Türk ☾ | `function` | İkisi de kışın belirli günlerine bağlıdır; biri sokakta, öteki mezarda başlar. |
+| **Vârcolac** `varcolac` | Dacia ✠ | `tradition` | Dacia'nın iki gece varlığı: biri göğü, öteki aileyi tüketir. |
 
 ## 8. Kısıtlılık taraması
 

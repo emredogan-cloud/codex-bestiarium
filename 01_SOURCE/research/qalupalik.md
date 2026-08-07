@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `qalupalik` |
 | **Ad** | Qalupalik |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Qallupilluit (çoğul) |
 | **Gelenek** | Inuit ᐃ · Kutup |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |
@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Kenas-unarpe** `kenas-unarpe` | Ainu ᚼ | `kin` | Kuzeyin iki bekleyeni: biri bataklıkta loğusayı, öteki buzun altında yalnız çocuğu. |
+| **Tupilaq** `tupilaq` | Inuit ᐃ | `tradition` | Inuit'in iki tehlikesi: biri yapılır ve gönderilir, öteki hep oradadır. |
+| **Windigo** `windigo` | Anishinaabe ▲ | `function` | İki kuzey korkusu, iki yaş grubu: Qalupalik çocuğu alır, Windigo yetişkini dönüştürür. |
 
 ## 8. Kısıtlılık taraması
 

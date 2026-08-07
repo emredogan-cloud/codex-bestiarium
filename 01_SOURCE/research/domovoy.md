@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `domovoy` |
 | **Ad** | Domovoy |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Domovoi, Domovik |
 | **Gelenek** | Slovjan ⚡ · Kuzey Avrupa |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | — |
@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Dokkaebi** `dokkaebi` | Hangug 단 | `function` | İkisi de eşyaya ve haneye bağlıdır; Domovoy sadıktır, Dokkaebi keyfî. |
+| **Huldufólk** `huldufolk` | Ísland ❆ | `function` | Biri evin İÇİNDE saklı, öteki kayanın içinde; ikisi de taşınırken hesaba katılır. |
+| **Lemures** `lemures` | Romana SPQR | `function` | İkisi de eve bağlıdır: Domovoy beslenir ve kalır, Lemures yatıştırılır ve gönderilir. |
 
 ## 8. Kısıtlılık taraması
 

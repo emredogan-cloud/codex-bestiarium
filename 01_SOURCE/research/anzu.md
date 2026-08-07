@@ -75,9 +75,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Rukh** `rukh` | ʿArab ☪ | `kin` | Rukh bir gezi anlatısına girer (Sindbad), Anzû bir devlet anlatısına — biri denizde, öteki tapınakta. |
+| **Sīmurgh** `simurgh` | Pārs 𐎩 | `kin` | Anzû kader tabletlerini ÇALAR; Sīmurgh bir çocuğu büyütür ve yol gösterir. Aynı kanat, hırsız ve bilge. |
 
 ## 8. Kısıtlılık taraması
 

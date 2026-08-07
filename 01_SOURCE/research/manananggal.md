@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `manananggal` |
 | **Ad** | Manananggal |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Mananangal |
 | **Gelenek** | Filipin ✧ · Güneydoğu Asya |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |
@@ -73,9 +73,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Aswang** `aswang` | Filipin ✧ | `kin` | Aynı gelenekte iki katman: Aswang bir kategori (gündüz komşu), Manananggal onun en somut biçimi. |
+| **Krasue** `krasue` | Siam ☸ | `kin` | Krasue'nin gövdesi bir yerde bekler, Manananggal'ın alt yarısı; ikisi de gövde bulunursa ölür. |
 
 ## 8. Kısıtlılık taraması
 

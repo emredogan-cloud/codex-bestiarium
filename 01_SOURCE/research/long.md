@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `long` |
 | **Ad** | Lóng |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Lung (Wade-Giles) |
 | **Gelenek** | Zhōnghuá 龍 · Doğu Asya |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | — |
@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Húli jīng** `huli-jing` | Zhōnghuá 龍 | `tradition` | Zhōnghuá'nın iki uzun ömürlüsü: Lóng zamanla yükselir, húli jīng zamanla insanlaşır. |
+| **Imugi** `imugi` | Hangug 단 | `function` | Lóng olunmuş hâldir, Imugi olunamamış — aynı basamağın iki ucu. |
+| **Phaya Nak** `phaya-nak` | Siam ☸ | `function` | İkisi de yağmurun ve ırmağın yöneticisidir; Lóng'a kuraklıkta yakarılır, Phaya Nak yılda bir ateş topu gönderir. |
+| **Qílín** `qilin` | Zhōnghuá 龍 | `tradition` | Zhōnghuá'nın iki hayırlı varlığı: biri yağmuru, öteki adaleti haber verir. |
 
 ## 8. Kısıtlılık taraması
 

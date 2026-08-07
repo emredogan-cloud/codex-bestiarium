@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `tupilaq` |
 | **Ad** | Tupilaq |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Tupilak |
 | **Gelenek** | Inuit ᐃ · Kutup |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |
@@ -72,9 +72,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Golem** `golem` | Talmud ✡ | `function` | İkisi de yapılır ve ikisi de ustasına döner: biri güçlü bir düşman yüzünden, öteki bir harf silinmediği için. |
+| **Qalupalik** `qalupalik` | Inuit ᐃ | `tradition` | Inuit'in iki tehlikesi: biri yapılır ve gönderilir, öteki hep oradadır. |
+| **Way** `way` | Maya 𝋠 | `function` | Way'e verilen zarar sahibine geçer; Tupilaq zarar veremezse yapanına döner. İkisi de bir bağın bedelidir. |
 
 ## 8. Kısıtlılık taraması
 

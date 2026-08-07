@@ -194,8 +194,76 @@ def make_bad() -> dict:
     return book
 
 
+# =============================================================================
+# SPEC KURGULARI — KAPI SEVİYELERİNİN KENDİ TESTİ
+# =============================================================================
+# Metin kapıları `bad.json` ile sınanıyordu; ŞEMA kapılarının böyle bir sınavı
+# yoktu. Onun yerine selftest "bir üst kapı henüz kapalı olmalı" varsayımını
+# kullanıyordu — ve o varsayım her faz kapanışında kendini yanlışlar: kapı
+# açıldığında test kırmızıya döner, kusur olmadığı hâlde.
+#
+# Doğrusu, metin kapılarında olduğu gibi, KUSUR YERLEŞTİRMEKTİR. Kurgu gerçek
+# spec.json'dan türetilir (bayatlamaz) ve her kapı seviyesine tam bir kusur
+# konur. Yakalamayan bir kapı, kapı değildir.
+
+SPEC_DEFECTS = {
+    "draft": "iki maddeye aynı plaka kimliği verilir",
+    "phase1": "bir maddenin ikinci bağımsız kaynağı silinir",
+    "phase2": "bir maddenin çapraz referansları boşaltılır (tek yön kalır)",
+    "phase3": "yazılmış bir maddenin araştırma dosyası yolu bozulur",
+}
+
+
+def _load_real_spec() -> dict:
+    root = os.path.dirname(os.path.dirname(HERE))
+    with open(os.path.join(root, "01_SOURCE", "spec.json"), encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def make_bad_spec(gate: str, spec: dict) -> dict:
+    """Gerçek spec'in kopyası + o kapıya ait TAM BİR kusur."""
+    spec = json.loads(json.dumps(spec))
+    creatures = spec["creatures"]
+
+    if gate == "draft":
+        creatures[1]["plate"] = creatures[0]["plate"]
+
+    elif gate == "phase1":
+        victim = next(
+            c for c in creatures
+            if len([s for s in c["sources"] if s.get("type") != "index"]) >= 2
+        )
+        keep = [s for s in victim["sources"] if s.get("type") != "index"][:1]
+        victim["sources"] = keep + [
+            s for s in victim["sources"] if s.get("type") == "index"
+        ]
+
+    elif gate == "phase2":
+        victim = next(c for c in creatures if c.get("crossRefs"))
+        victim["crossRefs"] = []
+
+    elif gate == "phase3":
+        victim = creatures[0]
+        victim["status"] = "written"
+        victim["researchFile"] = "01_SOURCE/research/__yok__.md"
+
+    else:  # pragma: no cover
+        raise ValueError(gate)
+
+    spec["meta"]["fixture"] = f"bad-spec-{gate}"
+    return spec
+
+
 def main() -> int:
     os.makedirs(OUT, exist_ok=True)
+    real = _load_real_spec()
+    for gate in SPEC_DEFECTS:
+        path = os.path.join(OUT, f"spec_bad_{gate}.json")
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump(make_bad_spec(gate, real), fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+        print(f"yazıldı: tests/fixtures/spec_bad_{gate}.json — {SPEC_DEFECTS[gate]}")
+
     for name, data in (("good", make_good()), ("bad", make_bad())):
         path = os.path.join(OUT, f"{name}.json")
         with open(path, "w", encoding="utf-8") as fh:

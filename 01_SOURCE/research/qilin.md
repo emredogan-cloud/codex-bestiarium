@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Basiliscus** `basiliscus` | Romana SPQR | `kin` | Qílín otu bile ezmez; Basiliscus geçtiği yeri çöle çevirir. Aynı sınıfın iki ucu: dokunmayan ve yok eden. |
+| **Lóng** `long` | Zhōnghuá 龍 | `tradition` | Zhōnghuá'nın iki hayırlı varlığı: biri yağmuru, öteki adaleti haber verir. |
+| **Tengu** `tengu` | Yamato 神 | `function` | Qílín adaletsizin üzerine BASMAZ; Tengu kibirliyi cezalandırır. Aynı ahlak, iki ayrı yaptırım. |
 
 ## 8. Kısıtlılık taraması
 

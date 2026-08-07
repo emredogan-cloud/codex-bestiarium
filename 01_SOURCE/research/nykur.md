@@ -73,9 +73,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Each-uisce** `each-uisce` | Ériu ☘ | `kin` | İskoçya kaydında biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca göle götürür. |
+| **Näkki** `nakki` | Suomi ᛉ | `kin` | İkisi de adla kovulur: 'nykur' denince kaçar, näkki'ye karşı çocuklara adı öğretilir. |
+| **Skuggabaldur** `skuggabaldur` | Ísland ❆ | `tradition` | İzlanda'nın iki tehlikeli hayvanı: biri sürüye, öteki biniciye. |
+| **Tikbalang** `tikbalang` | Filipin ✧ | `kin` | İkisinin de ayağı yanlıştır — Nykur'un toynağı ters, Tikbalang'ın bacağı orantısız uzun. |
 
 ## 8. Kısıtlılık taraması
 

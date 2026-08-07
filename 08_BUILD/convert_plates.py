@@ -18,18 +18,28 @@ her formatın kendi kısıtı vardır ve o kısıt burada tek yerde tanımlıdı
     aplus   plate-NNN.jpg    RGB · kalite 88 · ≤2 MB
             Amazon A+ yalnızca RGB kabul eder; CMYK reddedilir.
 
-    web     plate-NNN.webp   site ve basın kiti için
+    web     plate-NNN.webp   1400 px · 16 ton · KAYIPSIZ · ≤300 KB
+            Site, basın kiti, Pinterest. Kayıplı sıkıştırma bu çizgi dilinde
+            hem bütçeyi üçe katlıyor hem artefakt bırakıyor (Faz 2 ölçümü).
+
+BÜTÇELER PLAKA GELMEDEN ÖLÇÜLÜR
+    `--calibrate`, `tests/plate_fixtures.py`'nin kurgusunu dört formata
+    çevirir ve gerçek baytı 112 plakaya ekstrapole eder. Belirleyici olan
+    konu değil ÇİZGİ DİLİDİR; ince 45° tarama her kodlayıcı için en kötü
+    durumdur. Risk 5 böylece Faz 6'da değil Faz 2'de yanıtlanır.
 
 KULLANIM
     python3 08_BUILD/convert_plates.py                  # eksikleri üret
     python3 08_BUILD/convert_plates.py --force          # hepsini yeniden üret
     python3 08_BUILD/convert_plates.py --formats print,kindle
     python3 08_BUILD/convert_plates.py --check          # bütçeleri denetle
+    python3 08_BUILD/convert_plates.py --calibrate      # kurguda bütçe ölçümü
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import sys
 
@@ -37,6 +47,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from bestiarium import (  # noqa: E402
     ASSET_DIR,
+    EPUB_BUDGET_MB,
     PLATES_DIR,
     PLATE_EPUB_BUDGET_KB,
     PLATE_SPEC,
@@ -44,6 +55,10 @@ from bestiarium import (  # noqa: E402
     Result,
     load_spec,
 )
+
+# EPUB toplam bütçesi 7 MB; plakalar için hedef 6 MB (metin ve fontlar için
+# 1 MB pay bırakılır).
+EPUB_TARGET_MB = EPUB_BUDGET_MB - 1.0
 
 FORMATS = {
     "print": {"dir": "plates_print", "ext": ".tif", "budget_kb": None},
@@ -55,6 +70,20 @@ FORMATS = {
 
 # Kindle plakası: dosya boyutu bütçesini tutturmak için ölçek düşürülür.
 KINDLE_MAX_WIDTH = 900
+
+# Web plakası: Faz 2'de ölçüldü ve KAYIPSIZA çevrildi.
+#
+# Ham ölçüm (1800 px, kalite 86, kayıplı): 954 KB — bütçenin üç katı.
+# İnce 45° tarama, kayıplı kodlayıcı için en kötü durumdur: yüksek frekansı
+# kodlamak için bit harcar ve yine de artefakt bırakır. Ölçek düşürmek
+# yetmedi (1200 px kalite 80 → 348 KB, hâlâ bütçe dışı).
+#
+# Çözüm Kindle yolunda zaten vardı: gravür birkaç tonluk bir görüntüdür.
+# 16 tona indirilip KAYIPSIZ kaydedildiğinde 1400 pikselde **159 KB** —
+# bütçenin yarısı, üstelik artefaktsız. Kayıplı 1400/q80 aynı boyutta
+# 474 KB ve daha kötü görünüyordu.
+WEB_MAX_WIDTH = 1400
+WEB_TONES = 16
 
 
 def _require_pil():
@@ -93,10 +122,69 @@ def convert_one(src: str, fmt: str, dst: str) -> int:
             im.convert("RGB").save(dst, "JPEG", quality=88, optimize=True,
                                    progressive=True, dpi=(72, 72))
         elif fmt == "web":
-            im.convert("L").save(dst, "WEBP", quality=86, method=6)
+            # 16 ton + KAYIPSIZ. Gerekçe dosya başındaki WEB_MAX_WIDTH
+            # notunda: kayıplı sıkıştırma bu çizgi dilinde hem üç kat büyük
+            # hem daha kötü çıkıyor.
+            g = im.convert("L")
+            if g.width > WEB_MAX_WIDTH:
+                h = round(g.height * WEB_MAX_WIDTH / g.width)
+                g = g.resize((WEB_MAX_WIDTH, h), Image.LANCZOS)
+            g.quantize(colors=WEB_TONES, method=Image.MEDIANCUT).convert("L").save(
+                dst, "WEBP", lossless=True, method=6
+            )
         else:
             raise ValueError(fmt)
     return os.path.getsize(dst)
+
+
+def calibrate(r: Result) -> dict:
+    """Bütçeleri PLAKA GELMEDEN ölçer — kalibrasyon kurgusu üzerinde.
+
+    Yol haritası Faz 2 ve Faz 4 aynı soruyu soruyor: "Kindle bütçesi 112
+    plakaya ekstrapole edildiğinde ≤6 MB mı?" O soru, gerçek plaka gelmeden
+    de yanıtlanabilir — çünkü belirleyici olan konu değil, ÇİZGİ DİLİDİR:
+    ince 45° tarama, her kodlayıcı için en kötü durumdur.
+
+    `tests/plate_fixtures.py`'nin kurgusu tam da o çizgi dilindedir. Dört
+    format ondan üretilir, gerçek bayt sayılır ve 112'ye ekstrapole edilir.
+    Risk 5 (Kindle dosya boyutu telifi yiyor) böylece Faz 2'de ölçülür,
+    Faz 6'da sürprize dönüşmez.
+    """
+    import tempfile
+
+    _require_pil()
+    fixture = os.path.join(
+        ROOT, "08_BUILD", "tests", "fixtures", "plates", "good.png"
+    )
+    if not os.path.exists(fixture):
+        sys.path.insert(0, os.path.join(ROOT, "08_BUILD"))
+        from tests import plate_fixtures  # noqa: PLC0415
+
+        plate_fixtures.main()
+
+    n_plates = len(load_spec()["creatures"])
+    measured: dict[str, float] = {}
+    with tempfile.TemporaryDirectory() as tmp:
+        for fmt, meta in FORMATS.items():
+            dst = os.path.join(tmp, meta["dir"], "plate-000" + meta["ext"])
+            kb = convert_one(fixture, fmt, dst) / 1024
+            measured[fmt] = kb
+            budget = meta["budget_kb"]
+            if budget:
+                r.add(kb <= budget, f"bütçe · {fmt}",
+                      f"kurguda {kb:.0f} KB · bütçe {budget} KB")
+            else:
+                r.ok(f"bütçe · {fmt}", f"kurguda {kb:.0f} KB · bütçe yok (kayıpsız)")
+
+    epub_mb = measured["kindle"] * n_plates / 1024
+    r.add(
+        epub_mb <= EPUB_TARGET_MB,
+        f"{n_plates} plakalık EPUB projeksiyonu ≤{EPUB_TARGET_MB} MB",
+        f"{epub_mb:.2f} MB (plaka başına {measured['kindle']:.0f} KB) — "
+        f"Risk 5: Kindle teslim ücreti",
+    )
+    return {"perPlateKb": {k: round(v, 1) for k, v in measured.items()},
+            "plates": n_plates, "epubProjectionMb": round(epub_mb, 2)}
 
 
 def main() -> int:
@@ -105,10 +193,27 @@ def main() -> int:
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--check", action="store_true",
                     help="dönüştürme; yalnızca bütçeleri denetle")
+    ap.add_argument("--calibrate", action="store_true",
+                    help="kalibrasyon kurgusu üzerinde bütçeleri ölç "
+                         "(plaka gelmeden de koşar)")
     ap.add_argument("--verbose", "-v", action="store_true")
     ap.add_argument("--json", dest="json_out",
                     default="06_REPORTS/plate-formats.json")
     args = ap.parse_args()
+
+    if args.calibrate:
+        r = Result("PLAKA FORMAT BÜTÇELERİ · KALİBRASYON (convert_plates)")
+        data = calibrate(r)
+        code = r.report(verbose=args.verbose)
+        path = os.path.join(ROOT, "06_REPORTS", "plate-format-calibration.json")
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump({**data, "passed": len(r.passed),
+                       "failed": len(r.failures)}, fh,
+                      ensure_ascii=False, indent=2)
+            fh.write("\n")
+        print(f"rapor: 06_REPORTS/plate-format-calibration.json")
+        return code
 
     wanted = [f.strip() for f in args.formats.split(",") if f.strip()]
     bad = [f for f in wanted if f not in FORMATS]

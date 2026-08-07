@@ -76,9 +76,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Anzû** `anzu` | Sumer 𒀭 | `kin` | Anzû kader tabletlerini ÇALAR; Sīmurgh bir çocuğu büyütür ve yol gösterir. Aynı kanat, hırsız ve bilge. |
+| **Bennu** `bennu` | Kemet 𓂀 | `kin` | Bennu zamanın başlangıcını işaretler, Sīmurgh bir ömrü taşır — biri kozmik takvim, öteki kişisel kader. |
+| **Garuḍa** `garuda` | Bharatiya ॐ | `kin` | Sīmurgh çağrılır (tüy yakılır), Garuḍa binilir. Biri danışman, öteki taşıt. |
+| **Perī** `peri` | Pārs 𐎩 | `tradition` | Pars'ın iki yardımcısı: biri kararsız, öteki güvenilir — kitabın ikisini de aynı geleneğe borçlu olması tesadüf değil. |
 
 ## 8. Kısıtlılık taraması
 

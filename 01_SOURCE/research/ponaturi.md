@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Adaro** `adaro` | Melanesia ◉ | `function` | İki deniz halkı: Ponaturi ışıktan ölür, Adaro ışığı silah olarak kullanır. |
+| **Moʻo** `moo` | Mā'ohi ᴥ | `tradition` | Maohi'nin iki su varlığı: biri gelir ve tehdittir, öteki kalır ve korur. |
+| **Taniwha** `taniwha` | Mā'ohi ᴥ | `function` | Ponaturi denizden karaya çıkar; Taniwha nehir ağzında durur — biri istila, öteki sınır. |
 
 ## 8. Kısıtlılık taraması
 

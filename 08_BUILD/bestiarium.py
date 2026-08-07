@@ -50,7 +50,12 @@ TARGET_TRADITIONS = 40
 SCOPE_FLOOR = 100          # bu sayının altına inilirse kitap yeniden planlanır
 VERIFY_FLOOR = 112         # Faz 1 tamamlanma ölçütü
 MIN_SOURCES = 2            # iki bağımsız kaynak kuralı
-TARGET_PAGES = 380      # Faz 1 kilidi sonrası; dizgi Faz 6'da ölçecek
+# Faz 2'nin PROVA DİZGİSİNDEN ölçüldü (`entry_page.py --proof`):
+#   madde 112 × 3 = 336 · açılış 28 · ön/arka madde + dizin + kaynak 72
+# Madde başına 3 sayfa bir yuvarlama değil, PLAKA KURALININ bedelidir:
+# plaka maddenin üst yarısına oturur, dolayısıyla her madde bir sayfanın
+# başından başlar ve son sayfası yarım kalır (ölçülen içerik 2,558 sayfa).
+TARGET_PAGES = 436
 TARGET_WORDS = 78_400   # 112 × 700
 
 # --- madde bantları (yol haritası Bölüm 05.2) -----------------------------
@@ -149,8 +154,18 @@ MAX_EXCLAMATIONS = 0
 PLATE_SPEC = {
     "aspect": 1.25,               # 1:1,25 dikey
     "aspect_tol": 0.02,
-    "line_weight_pt": 1.4,        # ana çizgi kalınlığı
+    # DIŞ HAT kalınlığı. Faz 2 kalibrasyonu bunun TARAMA darbesiyle
+    # karıştırıldığını gösterdi: 22–28 çizgi/cm'lik bir taramanın periyodu
+    # ≈4,7 pikseldir ve içine 1,4 pt (5,8 px) sığmaz. İkisi ayrı ölçülür.
+    "line_weight_pt": 1.4,
     "line_weight_tol": 0.15,      # ±%15
+    # Tarama darbesinin periyoda oranı — tonun ölçüsü. Bandı sıklıktan
+    # türer; sabit bir pt değeri şartnameyi kendi kendisiyle çeliştirirdi.
+    # 0,5 = yarı yarıya siyah-beyaz.
+    "hatch_duty": (0.35, 0.65),
+    # Dış hat ölçümü için gereken en az kontur kesişmesi. Altındaysa kural
+    # ATLANIR — olmayan bir ölçümle plaka reddedilmez.
+    "contour_min_runs": 20,
     "hatch_primary_deg": 45.0,
     "hatch_secondary_deg": 135.0,
     "hatch_angle_tol_deg": 5.0,

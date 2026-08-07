@@ -8,9 +8,9 @@
 |---|---|
 | **id** | `boitata` |
 | **Ad** | Boitatá |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Boi-tatá, Baitatá |
 | **Gelenek** | Tupi-Guarani ❂ · Amazon |
-| **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
+| **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | — |
 | **Plaka** | `plate-099` |
 | **Telaffuz (taslak)** | boy-tah-TAH |
@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Curupira** `curupira` | Tupi-Guarani ❂ | `function` | Aynı geleneğin aynı işlevi iki bedende: Curupira izi yanıltır, Boitatá ateşle kovalar. |
+| **Iara** `iara` | Tupi-Guarani ❂ | `tradition` | Tupi-Guarani'nin iki ucu: biri ormanı korur, öteki nehre çeker. |
+| **Masalai** `masalai` | Melanesia ◉ | `function` | İkisi de toprağın kendisini savunur; Masalai bir yere bağlıdır, Boitatá gezer. |
 
 ## 8. Kısıtlılık taraması
 

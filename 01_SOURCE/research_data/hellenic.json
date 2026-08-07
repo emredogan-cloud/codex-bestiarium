@@ -4,7 +4,9 @@
     {
       "id": "kerberos",
       "name": "Kérberos",
-      "altNames": [],
+      "altNames": [
+        "Cerberus"
+      ],
       "pronunciation": "KER-be-ros",
       "sources": [
         {
@@ -70,7 +72,10 @@
     {
       "id": "chimaira",
       "name": "Chímaira",
-      "altNames": [],
+      "altNames": [
+        "Chimera",
+        "Chimaera"
+      ],
       "pronunciation": "KHEE-my-ra",
       "sources": [
         {
@@ -126,7 +131,9 @@
     {
       "id": "lamia-hellenic",
       "name": "Lámia",
-      "altNames": [],
+      "altNames": [
+        "Lamiai (çoğul)"
+      ],
       "pronunciation": "LAH-mee-a",
       "sources": [
         {

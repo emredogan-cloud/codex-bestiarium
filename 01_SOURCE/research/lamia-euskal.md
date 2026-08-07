@@ -73,9 +73,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Basajaun** `basajaun` | Euskal ✜ | `tradition` | Euskal'ın iki sahibi: biri ırmağın, öteki ormanın; ikisi de karşılığında iş yapar. |
+| **Xtabay** `xtabay` | Maya 𝋠 | `function` | İkisi de saç ve güzellikle tanımlanır; Lamia bir tarak ister, Xtabay bir kucaklama. |
 
 ## 8. Kısıtlılık taraması
 

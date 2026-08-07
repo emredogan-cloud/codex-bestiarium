@@ -72,9 +72,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Golem** `golem` | Talmud ✡ | `kin` | Golem adla canlandırılır ve harf silinince çöker; Aralez yalayarak diriltir. Biri yazının, öteki bedenin işi. |
+| **Nhang** `nhang` | Hayk ✚ | `tradition` | Hayk'ın iki ucu: biri kanı alır, öteki yarayı iyileştirir. |
+| **Temes Savsap** `temes-savsap` | Melanesia ◉ | `kin` | İkisi de ölümün eşiğinde durur: Aralez geri gönderir, Temes Savsap geçirmez. |
 
 ## 8. Kısıtlılık taraması
 

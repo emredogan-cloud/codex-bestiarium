@@ -4,7 +4,9 @@
     {
       "id": "aswang",
       "name": "Aswang",
-      "altNames": [],
+      "altNames": [
+        "Asuang"
+      ],
       "pronunciation": "AHS-wahng",
       "sources": [
         {
@@ -59,7 +61,9 @@
     {
       "id": "manananggal",
       "name": "Manananggal",
-      "altNames": [],
+      "altNames": [
+        "Mananangal"
+      ],
       "pronunciation": "mah-nah-nahng-GAHL",
       "sources": [
         {
@@ -113,7 +117,9 @@
     {
       "id": "tikbalang",
       "name": "Tikbalang",
-      "altNames": [],
+      "altNames": [
+        "Tigbalang"
+      ],
       "pronunciation": "tik-bah-LAHNG",
       "sources": [
         {

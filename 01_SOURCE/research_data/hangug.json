@@ -4,7 +4,9 @@
     {
       "id": "kumiho",
       "name": "Kumiho",
-      "altNames": [],
+      "altNames": [
+        "Gumiho"
+      ],
       "pronunciation": "KOO-mee-ho",
       "sources": [
         {
@@ -61,7 +63,9 @@
     {
       "id": "imugi",
       "name": "Imugi",
-      "altNames": [],
+      "altNames": [
+        "Imoogi"
+      ],
       "pronunciation": "EE-moo-gee",
       "sources": [
         {
@@ -115,7 +119,9 @@
     {
       "id": "dokkaebi",
       "name": "Dokkaebi",
-      "altNames": [],
+      "altNames": [
+        "Tokkaebi"
+      ],
       "pronunciation": "TOK-kay-bee",
       "sources": [
         {

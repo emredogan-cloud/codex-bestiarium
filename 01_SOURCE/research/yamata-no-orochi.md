@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `yamata-no-orochi` |
 | **Ad** | Yamata-no-Orochi |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Orochi |
 | **Gelenek** | Yamato 神 · Doğu Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | E · Derinlerin yılanı |
@@ -75,9 +75,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Herensuge** `herensuge` | Euskal ✜ | `function` | İkisi de yıllık kurban ister; Orochi'den bir kılıç çıkar, Herensuge'den bir aziz anlatısı. |
+| **Zmey** `zmey` | Slovjan ⚡ | `kin` | İki çok başlı: Orochi sarhoş edilip parçalanır, Zmey'in başı ateşle dağlanmadıkça geri çıkar. |
 
 ## 8. Kısıtlılık taraması
 

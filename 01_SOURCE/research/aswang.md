@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `aswang` |
 | **Ad** | Aswang |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Asuang |
 | **Gelenek** | Filipin ✧ · Güneydoğu Asya |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |
@@ -75,9 +75,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ma lai** `ma-lai` | Việt ☴ | `kin` | Aswang cesedin yerine muz gövdesi bırakır — hile bırakır; Ma lai iz bırakmaz, yalnızca döner. |
+| **Manananggal** `manananggal` | Filipin ✧ | `kin` | Aynı gelenekte iki katman: Aswang bir kategori (gündüz komşu), Manananggal onun en somut biçimi. |
 
 ## 8. Kısıtlılık taraması
 

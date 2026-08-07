@@ -74,9 +74,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Curupira** `curupira` | Tupi-Guarani ❂ | `function` | İkisi de ormanın efendisidir; Ông Ba Mươi'ye saygı gösterilir, Curupira'dan kaçılır. |
+| **Repun Kamuy** `repun-kamuy` | Ainu ᚼ | `function` | İkisinin de adı doğrudan anılmaz; biri denizin, öteki ormanın sahibidir ve saygı bir av kuralıdır. |
 
 ## 8. Kısıtlılık taraması
 

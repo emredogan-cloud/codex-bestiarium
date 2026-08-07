@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `ahuizotl` |
 | **Ad** | Ahuizotl |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Ahuítzotl |
 | **Gelenek** | Mēxihcah ☼ · Mezoamerika |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | — |
@@ -74,9 +74,14 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Iara** `iara` | Tupi-Guarani ❂ | `function` | İkisi de suya çeker; Ahuizotl'un aldığı şey sayılabilir (göz, diş, tırnak), Iara'nınki sayılamaz. |
+| **Kappa** `kappa` | Yamato 神 | `function` | İkisi de küçüktür ve gövdenin bir parçasını alır: biri güreşten sonra, öteki gözü ve tırnağı. |
 
 ## 8. Kısıtlılık taraması
 

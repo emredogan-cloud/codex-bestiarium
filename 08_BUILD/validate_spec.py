@@ -231,6 +231,42 @@ def check_records(spec: dict, r: Result) -> None:
           f"{bad_target[:10]}")
 
 
+def _dropped_per_tradition(spec: dict) -> dict[str, int]:
+    """Kapsam kararıyla DÜŞÜRÜLMÜŞ madde sayısı, gelenek başına.
+
+    Düşen maddenin geleneği tohum tablosunda kalır ama kaydı spec'te yoktur;
+    gelenek eşlemesi araştırma verisinden okunur (iş korunmuştur), yoksa
+    `scope_amendments.json`'daki `tradition` alanından.
+    """
+    amend_path = os.path.join(ROOT, "01_SOURCE", "scope_amendments.json")
+    if not os.path.exists(amend_path):
+        return {}
+    with open(amend_path, encoding="utf-8") as fh:
+        amendments = json.load(fh).get("amendments", [])
+    dropped = [a for a in amendments if a.get("action") == "drop"]
+    if not dropped:
+        return {}
+
+    trad_of: dict[str, str] = {}
+    data_dir = os.path.join(ROOT, "01_SOURCE", "research_data")
+    if os.path.isdir(data_dir):
+        for fname in sorted(os.listdir(data_dir)):
+            if not fname.endswith(".json") or fname.startswith("_"):
+                continue
+            with open(os.path.join(data_dir, fname), encoding="utf-8") as fh:
+                block = json.load(fh)
+            tid = block.get("tradition") or os.path.splitext(fname)[0]
+            for rec in block.get("creatures", []):
+                trad_of[rec["id"]] = tid
+
+    counts: collections.Counter = collections.Counter()
+    for a in dropped:
+        tid = a.get("tradition") or trad_of.get(a.get("id", ""))
+        if tid:
+            counts[tid] += 1
+    return dict(counts)
+
+
 def check_distribution(spec: dict, r: Result) -> None:
     """Sınıf dağılımı ve aile üyelikleri — kapsam iddiasının sayısal kanıtı."""
     creatures = spec.get("creatures", [])
@@ -261,11 +297,29 @@ def check_distribution(spec: dict, r: Result) -> None:
     else:
         r.ok("sınıf dağılımı yol haritası hedefiyle birebir")
 
-    # Gelenek başına madde sayısı
+    # Gelenek başına madde sayısı. Sapmanın kendisi bir hata değildir — ama
+    # AÇIKLANMAMIŞ sapma hatadır. Faz 1'in düşürme kararları
+    # `scope_amendments.json`'da kayıtlıdır; oradan açıklanan her eksik madde
+    # bir KARARDIR. Açıklanamayan bir sapma sessizce geçmez.
     by_trad = collections.Counter(c.get("tradition") for c in creatures)
     uneven = {k: v for k, v in by_trad.items() if v != 3}
-    if uneven:
-        r.warn("gelenek başına madde sayısı 3 değil", f"{uneven}")
+    dropped_by_trad = _dropped_per_tradition(spec)
+    unexplained = {
+        k: v for k, v in uneven.items()
+        if v + dropped_by_trad.get(k, 0) != 3
+    }
+    if unexplained:
+        r.fail(
+            "gelenek başına madde sayısındaki sapma açıklanmış",
+            f"{unexplained} — eksik madde ya 3'e tamamlanır ya da "
+            "scope_amendments.json'da gerekçesiyle kayda geçer",
+        )
+    elif uneven:
+        r.ok(
+            "gelenek başına madde sayısı",
+            f"{len(uneven)} gelenekte 3'ün altında: {uneven} — "
+            f"hepsi kayıtlı kapsam kararlarıyla açıklanıyor",
+        )
     else:
         r.ok("her gelenekte tam 3 madde")
 

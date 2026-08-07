@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Buda** `buda` | Ityop'ya ✤ | `function` | İkisi de gündüz bir zanaatkâr, gece bir hayvandır; biri kendi hayvanına döner, öteki sırtlana. |
+| **Vârcolac** `varcolac` | Dacia ✠ | `function` | İkisi de doğum koşuluna bağlıdır: biri doğduğu güne, öteki annesinin gece iplik eğirmesine. |
+| **Way** `way` | Maya 𝋠 | `kin` | Nahual dönüşümü SEÇER (büyücüdür), Way herkeste vardır ve uykuda serbest kalır. |
 
 ## 8. Kısıtlılık taraması
 

@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `ammit` |
 | **Ad** | Ammit |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Ammut |
 | **Gelenek** | Kemet 𓂀 · Akdeniz |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |
@@ -76,9 +76,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Apep** `apep` | Kemet 𓂀 | `tradition` | Kemet'in iki yutucusu: Apep güneşi, Ammit kalbi hedefler — biri kozmik, öteki kişisel. |
+| **Chímaira** `chimaira` | Hellenic Ω | `function` | İki bileşik gövde: Chímaira üç hayvanı yan yana taşır, Ammit üçünü tek işlevde birleştirir — yutma. |
+| **Cipactli** `cipactli` | Mēxihcah ☼ | `function` | Cipactli'nin her ekleminde bir ağız vardır ve doyurulmalıdır; Ammit tek ağızdır ve yalnızca hak edeni yutar. |
+| **Supay** `supay` | Tawantinsuyu ☉ | `function` | Ammit yargının sonucudur — kalp tartılır; Supay yeraltının sahibidir ve yargılamaz, tutar. |
 
 ## 8. Kısıtlılık taraması
 

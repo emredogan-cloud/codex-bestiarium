@@ -46,6 +46,10 @@ CASES = [
     ("qa_drift.py",       [],             0, 0),
 ]
 
+# Şema kapılarının kusur kurguları — `make_fixtures.py` üretir.
+# Her seviyeye TAM BİR kusur konur ve o seviyenin onu yakalaması beklenir.
+GATE_FIXTURES = ["draft", "phase1", "phase2", "phase3"]
+
 
 def run(script: str, extra: list[str], book: str) -> tuple[int, str]:
     cmd = [PY, os.path.join(BUILD, script), "--book", book, *extra]
@@ -102,19 +106,13 @@ def main() -> int:
         failures += 1
         print(proc.stdout)
 
-    # Kapıların GERÇEKTEN ısırdığını kanıtlamak için, AÇILMAMIŞ bir sonraki
-    # kapıya bakılır. Sabit bir faza bakmak yanlıştır: o faz bitince test
-    # kendi kendini yanlışlar. Aktif seviye `.gate`ten okunur; bir üstü
-    # kapalı olmalıdır.
+    # Aktif kapı GEÇMELİ
     gate_file = os.path.join(ROOT, ".gate")
     level = "draft"
     if os.path.exists(gate_file):
         with open(gate_file, encoding="utf-8") as fh:
             level = fh.read().strip() or "draft"
-    order = ["draft", "phase1", "phase2", "phase3"]
-    nxt = order[min(order.index(level) + 1, len(order) - 1)] if level in order else "phase1"
 
-    # Aktif kapı GEÇMELİ
     proc = subprocess.run(
         [PY, os.path.join(BUILD, "validate_spec.py"), "--gate", level],
         capture_output=True, text=True, cwd=ROOT,
@@ -126,17 +124,34 @@ def main() -> int:
         failures += 1
         print(proc.stdout[-1500:])
 
-    # BİR ÜSTÜ kapalı olmalı — kapıların ısırdığının kanıtı
-    if nxt != level:
+    # ŞEMA KAPILARININ ISIRDIĞININ KANITI
+    # ------------------------------------------------------------------
+    # Eskiden burada "bir üst kapı henüz kapalı olmalı" sınanıyordu. O
+    # varsayım her faz kapanışında kendini yanlışlar: kapı açıldığı anda
+    # test, ortada kusur yokken kırmızıya döner. Metin kapılarında olduğu
+    # gibi doğru yöntem KUSUR YERLEŞTİRMEKTİR — her kapı seviyesi için
+    # gerçek spec'ten türetilmiş, tam bir kusur taşıyan bir kurgu.
+    for gate in GATE_FIXTURES:
+        fixture = os.path.join(FIXTURES, f"spec_bad_{gate}.json")
+        if not os.path.exists(fixture):
+            print(f"[FAIL] spec kurgusu yok: tests/fixtures/spec_bad_{gate}.json "
+                  "— python3 08_BUILD/tests/make_fixtures.py")
+            failures += 1
+            continue
         proc = subprocess.run(
-            [PY, os.path.join(BUILD, "validate_spec.py"), "--gate", nxt],
+            [PY, os.path.join(BUILD, "validate_spec.py"),
+             "--gate", gate, "--spec", fixture],
             capture_output=True, text=True, cwd=ROOT,
         )
         ok = proc.returncode == 1
-        print(f"[{'  ok ' if ok else 'FAIL'}] validate_spec.py     sonraki kapı "
-              f"'{nxt}' → henüz KAPALI olmalı (alınan {proc.returncode})")
+        print(f"[{'  ok ' if ok else 'FAIL'}] validate_spec.py     "
+              f"kusurlu spec, kapı '{gate}' → yakalamalı "
+              f"(beklenen çıkış 1, alınan {proc.returncode})")
         if not ok:
             failures += 1
+            if args.verbose:
+                print("         " + "\n         ".join(
+                    proc.stdout.strip().splitlines()[-10:]))
 
     print("-" * 78)
     if failures:

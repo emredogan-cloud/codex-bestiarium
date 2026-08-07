@@ -62,7 +62,10 @@
     {
       "id": "varcolac",
       "name": "Vârcolac",
-      "altNames": [],
+      "altNames": [
+        "Vircolac",
+        "Pricolici (akraba)"
+      ],
       "pronunciation": "vur-ko-LAHK",
       "sources": [
         {
@@ -116,7 +119,9 @@
     {
       "id": "zmeu",
       "name": "Zmeu",
-      "altNames": [],
+      "altNames": [
+        "Zmeul"
+      ],
       "pronunciation": "ZMEH-oo",
       "sources": [
         {

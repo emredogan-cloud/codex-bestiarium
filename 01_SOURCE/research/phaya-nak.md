@@ -75,9 +75,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Kinnarī** `kinnari` | Siam ☸ | `tradition` | Siam'ın iki Himavanta varlığı: biri ormanda şarkı söyler, öteki ırmağın altında hüküm sürer. |
+| **Lóng** `long` | Zhōnghuá 龍 | `function` | İkisi de yağmurun ve ırmağın yöneticisidir; Lóng'a kuraklıkta yakarılır, Phaya Nak yılda bir ateş topu gönderir. |
+| **Nāga** `naga` | Bharatiya ॐ | `kin` | Aynı kelime, iki coğrafya: Nāga hazineyi ve yağmuru tutar, Phaya Nak bir şehir yönetir. |
+| **Thuồng luồng** `thuong-luong` | Việt ☴ | `kin` | Aynı nehir sisteminin iki adı: biri dövmenin kökeni, öteki ateş toplarının. |
 
 ## 8. Kısıtlılık taraması
 

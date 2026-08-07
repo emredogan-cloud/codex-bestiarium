@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `zmeu` |
 | **Ad** | Zmeu |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Zmeul |
 | **Gelenek** | Dacia ✠ · Balkanlar |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | E · Derinlerin yılanı |
@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Aži Dahāka** `azi-dahaka` | Pārs 𐎩 | `kin` | İkisi de konuşur ve ikisi de tutsak alır; Aži Dahāka'nın tutsaklığı kendi başına gelir — dağın altına zincirlenir. |
+| **Vârcolac** `varcolac` | Dacia ✠ | `tradition` | Rumen masalının iki düşmanı: biri kozmik bir açıklama, öteki bir pazarlık. |
+| **Zmey** `zmey` | Slovjan ⚡ | `kin` | Zmey yalnızca güçtür; Zmeu insan gibi pazarlık eder. Ailenin dış sınırı tam olarak burasıdır. |
 
 ## 8. Kısıtlılık taraması
 

@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Animikii** `animikii` | Anishinaabe ▲ | `pair` | Ezelî karşıtlar: biri suyun altında bakırı korur, öteki gökten gürler. Kitabın tek doğrudan düşman çifti. |
+| **Inkanyamba** `inkanyamba` | Nguni ◈ | `function` | İkisi de suyun altından fırtına kaldırır; biri gölün, öteki şelalenin. |
+| **Taniwha** `taniwha` | Mā'ohi ᴥ | `function` | İkisi de bir suyun sahibidir ve ikisi de hem koruyucu hem tehlikedir. |
 
 ## 8. Kısıtlılık taraması
 

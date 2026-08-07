@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `supay` |
 | **Ad** | Supay |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Zupay |
 | **Gelenek** | Tawantinsuyu ☉ · And |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | — |
@@ -72,9 +72,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Amaru** `amaru` | Tawantinsuyu ☉ | `tradition` | Tawantinsuyu'nun iki dünyası: Supay aşağıyı tutar, Amaru aşağıyla yukarıyı bağlar. |
+| **Ammit** `ammit` | Kemet 𓂀 | `function` | Ammit yargının sonucudur — kalp tartılır; Supay yeraltının sahibidir ve yargılamaz, tutar. |
+| **Lemures** `lemures` | Romana SPQR | `function` | İkisi de sunuyla yatıştırılır: biri baklayla, öteki koka ve alkolle. |
+| **Pishtaco** `pishtaco` | Tawantinsuyu ☉ | `tradition` | Tawantinsuyu'nun iki sömürü anlatısı: biri bedeni, öteki madeni alır. |
 
 ## 8. Kısıtlılık taraması
 

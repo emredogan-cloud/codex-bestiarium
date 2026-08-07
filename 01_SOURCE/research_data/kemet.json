@@ -4,7 +4,9 @@
     {
       "id": "ammit",
       "name": "Ammit",
-      "altNames": [],
+      "altNames": [
+        "Ammut"
+      ],
       "pronunciation": "AH-mit",
       "sources": [
         {
@@ -117,7 +119,9 @@
     {
       "id": "bennu",
       "name": "Bennu",
-      "altNames": [],
+      "altNames": [
+        "Benu"
+      ],
       "pronunciation": "BEN-noo",
       "sources": [
         {

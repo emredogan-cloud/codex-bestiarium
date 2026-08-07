@@ -74,9 +74,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Àbíkú** `abiku` | Yorùbá · Ashanti ✺ | `kin` | Aynı gelenekte iki cevap: Adze dışarıdan gelen bir faildir, Àbíkú çocuğun kendisidir. |
+| **Anansi** `anansi` | Yorùbá · Ashanti ✺ | `tradition` | Aynı gelenekte kurnazlık ile kötülük: Anansi zayıfın aklı, Adze güçsüzün korkusudur. |
+| **Buda** `buda` | Ityop'ya ✤ | `function` | İkisi de bir insanın içinden çalışır — biri nazarla, öteki kan içerek. |
+| **Strix** `strix` | Romana SPQR | `kin` | İkisi de küçük bir canlının kılığında girer — biri kuş, öteki ateşböceği. Kılık, girişi mümkün kılan şeydir. |
+| **Tokoloshe** `tokoloshe` | Nguni ◈ | `function` | İkisi de küçüktür ve geceleyin gelir; Adze kılık değiştirir, Tokoloshe değiştirmez — gönderilir. |
 
 ## 8. Kısıtlılık taraması
 

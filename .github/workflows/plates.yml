@@ -36,6 +36,40 @@ permissions:
   contents: read
 
 jobs:
+  calibration:
+    name: ölçüm kalibrasyonu — cetvel doğru mu
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: pillow + numpy
+        run: pip install --quiet pillow numpy
+
+      # Bu iş, plaka kapısının `selftest.py` karşılığıdır. 112 plakayı
+      # otomatik reddetme yetkisi olan bir ölçümün, geometrisi BİLİNEN bir
+      # plakada doğru sayıyı bulduğu kanıtlanmadan hiçbir plaka ölçülmez.
+      # İlk çalıştırmasında iki gerçek kusur buldu (√2 açı yanlılığı ve
+      # tarama darbesiyle dış hattın karışması); ikisi de düzeltildi.
+      - name: cetvel doğru mu ölçüyor
+        run: |
+          python3 08_BUILD/tests/plate_selftest.py --verbose \
+            --json 06_REPORTS/plate-calibration.json
+
+      # Risk 5 (Kindle dosya boyutu telifi yiyor) plaka gelmeden ölçülür:
+      # belirleyici olan konu değil çizgi dilidir ve kurgu tam o dildedir.
+      - name: format bütçeleri kurguda tutuyor mu
+        run: python3 08_BUILD/convert_plates.py --calibrate --verbose
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plate-calibration
+          path: 06_REPORTS/plate-*calibration.json
+          if-no-files-found: ignore
+
   prompts:
     name: prompt kütüphanesi
     runs-on: ubuntu-latest

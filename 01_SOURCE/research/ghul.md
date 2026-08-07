@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **ʿIfrīt** `ifrit` | ʿArab ☪ | `tradition` | Arap geleneğinde iki ayrı kategori: Ghūl bir yiyici, ʿIfrīt bir cin sınıfı — biri açlık, öteki güç. |
+| **Karakoncolos** `karakoncolos` | Türk ☾ | `function` | Karakoncolos soru sorar ve yanlış cevabı cezalandırır; Ghūl soru sormaz, kılık değiştirir. |
+| **Pishtaco** `pishtaco` | Tawantinsuyu ☉ | `function` | İkisi de yoldaki yabancıdır; Ghūl kılık değiştirir, Pishtaco zaten yabancı görünür — korku sömürünün suretini alır. |
 
 ## 8. Kısıtlılık taraması
 

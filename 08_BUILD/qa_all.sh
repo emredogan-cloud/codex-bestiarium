@@ -17,7 +17,7 @@ BUILD="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(dirname "$BUILD")"
 cd "$ROOT"
 
-GATE="draft"
+GATE=""
 FIX=0
 for arg in "$@"; do
   case "$arg" in
@@ -27,9 +27,15 @@ for arg in "$@"; do
   esac
 done
 
-# Kapı seviyesi bir dosyada da tutulabilir; varsa o kazanır.
-if [ -f ".gate" ] && [ $# -eq 0 ]; then
-  GATE="$(tr -d '[:space:]' < .gate)"
+# Kapı seviyesi `.gate` dosyasındadır; yalnızca AÇIKÇA bir seviye verilirse
+# o kazanır. (Eskiden `--fix` de kapıyı draft'a düşürüyordu — yani belgeleri
+# tazeleyen koşu, açılmış kapıları hiç denetlemiyordu.)
+if [ -z "$GATE" ]; then
+  if [ -f ".gate" ]; then
+    GATE="$(tr -d '[:space:]' < .gate)"
+  else
+    GATE="draft"
+  fi
 fi
 
 PY="${PYTHON:-python3}"
@@ -52,11 +58,20 @@ echo "════════════════════════�
 echo "  CODEX BESTIARIUM · KALİTE KAPILARI · kapı: $GATE"
 echo "════════════════════════════════════════════════════════════════════════"
 
+# Dizin kapısı da kümülatiftir; Faz 2'den itibaren telaffuz zorunludur.
+case "$GATE" in
+  phase2|phase3) IDX_GATE="phase2" ;;
+  *)             IDX_GATE="draft"  ;;
+esac
+
+# SIRA ÖNEMLİ: classify çapraz referansları spec'e yazar, research_gen o
+# referansları araştırma dosyalarına basar, update_docs ikisini de ölçer.
 if [ "$FIX" = "1" ]; then
-  $PY 08_BUILD/update_docs.py
-  $PY 08_BUILD/make_prompts.py
-  $PY 08_BUILD/make_index.py --gate draft >/dev/null
+  $PY 08_BUILD/classify.py >/dev/null
   $PY 08_BUILD/research_gen.py >/dev/null
+  $PY 08_BUILD/make_index.py --gate "$IDX_GATE" >/dev/null
+  $PY 08_BUILD/make_prompts.py
+  $PY 08_BUILD/update_docs.py
 fi
 
 # Tohum karşılaştırması master yol haritasını okur; o dosya KARDEŞ depodadır
@@ -73,6 +88,7 @@ else
   echo "ATLANDI: master yol haritası bu ortamda yok ($SEED_SRC)"
 fi
 run "araştırma ↔ spec"           $PY 08_BUILD/research_gen.py --check
+run "tasnif ↔ spec"               $PY 08_BUILD/classify.py --check
 run "spec şeması"                 $PY 08_BUILD/validate_spec.py --gate "$GATE" --json 06_REPORTS/spec-validation.json
 run "depo ve belge bütünlüğü"     $PY 08_BUILD/validate_structure.py --json 06_REPORTS/structure.json
 run "kalite kapılarının testi"    $PY 08_BUILD/tests/selftest.py
@@ -81,9 +97,53 @@ run "ses ve yasak kalıp"          $PY 08_BUILD/qa_voice.py --json 06_REPORTS/qa
 run "üslup sürüklenmesi"          $PY 08_BUILD/qa_drift.py --json 06_REPORTS/qa-drift.json
 run "tekrar taraması"             $PY 08_BUILD/qa_echo.py --json 06_REPORTS/qa-echo.json
 run "diakritik"                   $PY 08_BUILD/qa_diacritics.py --json 06_REPORTS/qa-diacritics.json
+# Plaka ölçümünün KENDİ testi. Pillow ve numpy ister; venv yoksa ATLANIR
+# (çıkış 2). CI'da (plates.yml · calibration) bağımlılıklar kurulu olduğu
+# için orada atlanamaz ve kırmızı yanabilir.
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ plaka ölçümünün kalibrasyonu"
+echo "──────────────────────────────────────────────────────────────────────"
+CAL_PY="$PY"
+[ -x "08_BUILD/.venv/bin/python" ] && CAL_PY="08_BUILD/.venv/bin/python"
+$CAL_PY 08_BUILD/tests/plate_selftest.py
+case $? in
+  0) ;;
+  2) echo "ATLANDI: Pillow/numpy yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+  *) FAILED+=("plaka ölçümünün kalibrasyonu") ;;
+esac
+
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ plaka format bütçeleri (kalibrasyon)"
+echo "──────────────────────────────────────────────────────────────────────"
+$CAL_PY 08_BUILD/convert_plates.py --calibrate
+case $? in
+  0) ;;
+  2) echo "ATLANDI: Pillow yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+  *) FAILED+=("plaka format bütçeleri") ;;
+esac
+
+# Madde sayfası prova dizgisi. reportlab + font ister; ikisi de yoksa atlanır.
+# Sayfa bütçesinin (436 sayfa) tek dayanağı bu ölçümdür.
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ madde sayfası prova dizgisi"
+echo "──────────────────────────────────────────────────────────────────────"
+if ls 07_ASSETS/fonts/*.ttf >/dev/null 2>&1; then
+  $CAL_PY 08_BUILD/entry_page.py --proof
+  case $? in
+    0) ;;
+    2) echo "ATLANDI: reportlab yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+    *) FAILED+=("madde sayfası prova dizgisi") ;;
+  esac
+else
+  echo "ATLANDI: font yok — ./08_BUILD/bootstrap.sh çalıştırın"
+fi
+
 run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
 run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
-run "dizinler"                    $PY 08_BUILD/make_index.py --gate draft
+run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"
 run "üretilen belgeler güncel"    $PY 08_BUILD/update_docs.py --check
 run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py --check
 

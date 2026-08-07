@@ -819,7 +819,7 @@
         {
           "name": "Boitatá",
           "id": "boitata",
-          "class": "V",
+          "class": "I",
           "page": "—"
         },
         {
@@ -2106,7 +2106,7 @@
       "en": "The Water Horse",
       "motif": "B184.1.3",
       "image": "Suyun kıyısında duran, sırtına bineni suya çeken at",
-      "divergence": "İrlanda'da yiyicidir, İzlanda'da boğar, Filipinler'de yolu şaşırtır.",
+      "divergence": "İrlanda'da biniciyi yer ve karaciğerini kıyıya bırakır; İzlanda'da yalnızca boğar; Suomi'de kıyıdan çağırır; Filipinler'de hiç suya girmez — yolu daireye çevirir.",
       "members": [
         {
           "name": "Each-uisce",
@@ -2142,9 +2142,9 @@
       "family": "B",
       "tr": "Tilki kadın",
       "en": "The Fox Woman",
-      "motif": "D113.1",
+      "motif": "D113.3",
       "image": "Kadına dönüşen, ömür veya karaciğer alan tilki",
-      "divergence": "Çin'de ölümsüzlük arar, Kore'de karaciğer yer, Japonya'da bazen koruyucudur.",
+      "divergence": "Çin'de ömür (qi) toplar ve kimi anlatıda sadık kalır; Kore'de insan olmak için karaciğer yer ve sınavı kaybeder. Biri insanlıktan çalar, öteki insanlığa girmeye çalışır.",
       "members": [
         {
           "name": "Húli jīng",
@@ -2166,9 +2166,9 @@
       "family": "C",
       "tr": "Gece cadısı",
       "en": "The Night Hag",
-      "motif": "G264",
+      "motif": "G262",
       "image": "Loğusayı ve yeni doğanı avlayan dişi varlık",
-      "divergence": "Dokuz gelenek, bir korku: doğum ölümlerinin folklora dönüşmesi.",
+      "divergence": "Dokuz gelenek korkuyu bir FAİLE yükler — Mezopotamya'da iblise, Roma'da kuşa, Filipinler'de komşuya. Yorùbá yüklemez: orada ölen çocuğun kendisi geri gelir. Aynı ölüm oranı, iki ayrı suçlu.",
       "members": [
         {
           "name": "Lámia",
@@ -2276,7 +2276,7 @@
       "en": "The Storm Bird",
       "motif": "B31",
       "image": "Kanadı gök gürültüsü, gözü şimşek olan dev kuş",
-      "divergence": "Mezopotamya'da hırsız, İran'da bilge, Kuzey Amerika'da savaşçı.",
+      "divergence": "Mezopotamya'da kader tabletlerini çalar; İran'da bir çocuğu büyütür ve yol gösterir; Kuzey Amerika'da su altındaki düşmanla savaşır; Nguni'de bir cadıya bağlanır ve kan ister — aynı kanat, dört ayrı ahlak.",
       "members": [
         {
           "name": "Bennu",
@@ -2349,7 +2349,7 @@
       "en": "The Serpent of the Deep",
       "motif": "B11.2.1.1",
       "image": "Dünyayı çevreleyen veya dibinde yatan yılan",
-      "divergence": "Kuzeyde kıyameti getirir, Mısır'da her gece yenilir, And'da iki dünyayı bağlar.",
+      "divergence": "Kuzeyde dünyayı çevreler ve kıyameti getirir; Mısır'da her gece yenilir ve ertesi gece geri gelir; And'da iki dünyayı birbirine bağlar — yıkıcı değil taşıyıcıdır. Aynı gövde, üç ayrı kozmoloji.",
       "members": [
         {
           "name": "Apep",
@@ -2464,7 +2464,7 @@
       "en": "The Threshold Guardian",
       "motif": "F150",
       "image": "Geçilmesi gereken kapıda duran varlık",
-      "divergence": "Bazıları cezalandırır, bazıları yalnızca bakar — ve bakış yeterlidir.",
+      "divergence": "Kérberos girene izin verir, çıkana vermez; Ḫumbaba ormanı korur ve korumak için ölür; Qílín kimseyi durdurmaz — yalnızca adaletsizin üzerine basmaz; Basiliscus geçmeye kalkanı öldürmez, BAKAR ve bakış yeterlidir.",
       "members": [
         {
           "name": "Kérberos",
@@ -2528,9 +2528,9 @@
       "family": "G",
       "tr": "Yaban adamı",
       "en": "The Wild Man",
-      "motif": "F460",
+      "motif": "F567",
       "image": "Ormanda/dağda yaşayan, insana benzeyen ama insan olmayan",
-      "divergence": "Baskça'da çobanı korur, Amazon'da avcıyı cezalandırır — doğanın tarafı.",
+      "divergence": "Bask ülkesinde çobanı fırtınadan korur ve demirciliği öğretir; Amazon'da avcıyı ormandan kovar; Sápmi'de insanı avlar ve kurnazlıkla yenilir. Doğanın tarafını tutar — ama doğanın tarafı her yerde aynı taraf değildir.",
       "members": [
         {
           "name": "Basajaun",
@@ -2568,7 +2568,7 @@
       "en": "The Hidden People",
       "motif": "F251",
       "image": "Yanı başımızda ama görünmeyen bir topluluk",
-      "divergence": "İzlanda'da hâlâ yol güzergâhı değiştirtir — yaşayan folklor.",
+      "divergence": "İzlanda'da yol güzergâhı hâlâ onlar için değiştirilir — yaşayan bir folklor; Ainu'da geçmişe yerleştirilmiş, adanın önceki sakinleri sayılır; Sápmi'de adı anılmaz, çünkü anmak dikkat çeker.",
       "members": [
         {
           "name": "Koropokkuru",
@@ -2596,6 +2596,15 @@
   ],
   "pronunciation": [
     {
+      "name": "Abiku",
+      "id": "abiku",
+      "seeAlso": "Àbíkú",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Àbíkú",
       "id": "abiku",
       "pronunciation": "ah-BEE-koo",
@@ -2622,7 +2631,17 @@
       "seeAlso": "ʿIfrīt",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Ahuítzotl",
+      "id": "ahuizotl",
+      "seeAlso": "Ahuizotl",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Ahuizotl",
@@ -2644,7 +2663,8 @@
       "seeAlso": "Ajatar",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Al Bastı",
@@ -2652,7 +2672,17 @@
       "seeAlso": "Al Karısı",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Al Karisi",
+      "id": "al-karisi",
+      "seeAlso": "Al Karısı",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Al Karısı",
@@ -2667,7 +2697,17 @@
       "seeAlso": "Al Karısı",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Álfar (akraba)",
+      "id": "huldufolk",
+      "seeAlso": "Huldufólk",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "allghoi khorkhoi",
@@ -2675,7 +2715,8 @@
       "seeAlso": "Olgoi-Khorkhoi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Almastı",
@@ -2683,7 +2724,8 @@
       "seeAlso": "Al Karısı",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Amarok",
@@ -2691,6 +2733,15 @@
       "pronunciation": "AH-mah-rok",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Amaroq",
+      "id": "amarok",
+      "seeAlso": "Amarok",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Amaru",
@@ -2707,12 +2758,22 @@
       "type": "entry"
     },
     {
+      "name": "Ammut",
+      "id": "ammit",
+      "seeAlso": "Ammit",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Ananse",
       "id": "anansi",
       "seeAlso": "Anansi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Anansi",
@@ -2734,7 +2795,17 @@
       "seeAlso": "Animikii",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Anzu",
+      "id": "anzu",
+      "seeAlso": "Anzû",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Anzû",
@@ -2749,7 +2820,8 @@
       "seeAlso": "Krasue",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Apep",
@@ -2764,7 +2836,8 @@
       "seeAlso": "Apep",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Aralez",
@@ -2779,7 +2852,17 @@
       "seeAlso": "Aralez",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Asuang",
+      "id": "aswang",
+      "seeAlso": "Aswang",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Aswang",
@@ -2794,7 +2877,8 @@
       "seeAlso": "Adaro",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Aughisky",
@@ -2802,7 +2886,17 @@
       "seeAlso": "Each-uisce",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Azi Dahaka",
+      "id": "azi-dahaka",
+      "seeAlso": "Aži Dahāka",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Aži Dahāka",
@@ -2812,12 +2906,22 @@
       "type": "entry"
     },
     {
+      "name": "Baitatá",
+      "id": "boitata",
+      "seeAlso": "Boitatá",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Banshee",
       "id": "bean-sidhe",
       "seeAlso": "Bean sídhe",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Basajaun",
@@ -2834,12 +2938,31 @@
       "type": "entry"
     },
     {
+      "name": "Basilisk",
+      "id": "basiliscus",
+      "seeAlso": "Basiliscus",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Basiliskos",
+      "id": "basiliscus",
+      "seeAlso": "Basiliscus",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Basojaun",
       "id": "basajaun",
       "seeAlso": "Basajaun",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Bean chaointe",
@@ -2847,7 +2970,17 @@
       "seeAlso": "Bean sídhe",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Bean sidhe",
+      "id": "bean-sidhe",
+      "seeAlso": "Bean sídhe",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Bean sídhe",
@@ -2864,6 +2997,33 @@
       "type": "entry"
     },
     {
+      "name": "Benu",
+      "id": "bennu",
+      "seeAlso": "Bennu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Boi-tatá",
+      "id": "boitata",
+      "seeAlso": "Boitatá",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Boitata",
+      "id": "boitata",
+      "seeAlso": "Boitatá",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Boitatá",
       "id": "boitata",
       "pronunciation": "boy-tah-TAH",
@@ -2876,7 +3036,8 @@
       "seeAlso": "Buda",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Buda",
@@ -2886,6 +3047,15 @@
       "type": "entry"
     },
     {
+      "name": "Caipora (akraba)",
+      "id": "curupira",
+      "seeAlso": "Curupira",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Camazotz",
       "id": "camazotz",
       "pronunciation": "kah-mah-SOTS",
@@ -2893,11 +3063,47 @@
       "type": "entry"
     },
     {
+      "name": "Cerberus",
+      "id": "kerberos",
+      "seeAlso": "Kérberos",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Chimaera",
+      "id": "chimaira",
+      "seeAlso": "Chímaira",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Chimaira",
+      "id": "chimaira",
+      "seeAlso": "Chímaira",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Chímaira",
       "id": "chimaira",
       "pronunciation": "KHEE-my-ra",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Chimera",
+      "id": "chimaira",
+      "seeAlso": "Chímaira",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Cipactli",
@@ -2919,7 +3125,8 @@
       "seeAlso": "Aži Dahāka",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Dev",
@@ -2927,7 +3134,8 @@
       "seeAlso": "Devi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Devebi (çoğul)",
@@ -2935,7 +3143,8 @@
       "seeAlso": "Devi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Devi",
@@ -2945,6 +3154,15 @@
       "type": "entry"
     },
     {
+      "name": "Dimme",
+      "id": "lamashtu",
+      "seeAlso": "Lamashtu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Dokkaebi",
       "id": "dokkaebi",
       "pronunciation": "TOK-kay-bee",
@@ -2952,11 +3170,38 @@
       "type": "entry"
     },
     {
+      "name": "Domovik",
+      "id": "domovoy",
+      "seeAlso": "Domovoy",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Domovoi",
+      "id": "domovoy",
+      "seeAlso": "Domovoy",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Domovoy",
       "id": "domovoy",
       "pronunciation": "do-mo-VOY",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Draugar (çoğul)",
+      "id": "draugr",
+      "seeAlso": "Draugr",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Draugr",
@@ -2978,7 +3223,8 @@
       "seeAlso": "Each-uisce",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Efreet",
@@ -2986,7 +3232,17 @@
       "seeAlso": "ʿIfrīt",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Erensuge",
+      "id": "herensuge",
+      "seeAlso": "Herensuge",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Fenrir",
@@ -2994,6 +3250,24 @@
       "pronunciation": "FEN-rir",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Fenrisúlfr",
+      "id": "fenrir",
+      "seeAlso": "Fenrir",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Garuda",
+      "id": "garuda",
+      "seeAlso": "Garuḍa",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Garuḍa",
@@ -3008,7 +3282,17 @@
       "seeAlso": "Ghūl",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Ghul",
+      "id": "ghul",
+      "seeAlso": "Ghūl",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Ghūl",
@@ -3023,7 +3307,8 @@
       "seeAlso": "Ghūl",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Golem",
@@ -3045,7 +3330,8 @@
       "seeAlso": "Gufihtar",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Gufittar",
@@ -3053,7 +3339,26 @@
       "seeAlso": "Gufihtar",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Gumiho",
+      "id": "kumiho",
+      "seeAlso": "Kumiho",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Haugbúi",
+      "id": "draugr",
+      "seeAlso": "Draugr",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Herensuge",
@@ -3063,6 +3368,15 @@
       "type": "entry"
     },
     {
+      "name": "Huldufolk",
+      "id": "huldufolk",
+      "seeAlso": "Huldufólk",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Huldufólk",
       "id": "huldufolk",
       "pronunciation": "HOOL-doo-folk",
@@ -3070,11 +3384,29 @@
       "type": "entry"
     },
     {
+      "name": "Huli jing",
+      "id": "huli-jing",
+      "seeAlso": "Húli jīng",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Húli jīng",
       "id": "huli-jing",
       "pronunciation": "HOO-lee JING",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Humbaba",
+      "id": "humbaba",
+      "seeAlso": "Ḫumbaba",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Ḫumbaba",
@@ -3089,7 +3421,8 @@
       "seeAlso": "Ḫumbaba",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Iara",
@@ -3097,6 +3430,15 @@
       "pronunciation": "ee-AH-rah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Ifrit",
+      "id": "ifrit",
+      "seeAlso": "ʿIfrīt",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Iku-Turso",
@@ -3111,7 +3453,17 @@
       "seeAlso": "Anzû",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Imoogi",
+      "id": "imugi",
+      "seeAlso": "Imugi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Impundulu",
@@ -3135,6 +3487,15 @@
       "type": "entry"
     },
     {
+      "name": "Jormungandr",
+      "id": "jormungandr",
+      "seeAlso": "Jörmungandr",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Jörmungandr",
       "id": "jormungandr",
       "pronunciation": "YUR-mun-gand-r",
@@ -3154,7 +3515,8 @@
       "seeAlso": "Karakoncolos",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Karakoncolos",
@@ -3164,12 +3526,31 @@
       "type": "entry"
     },
     {
+      "name": "Karasu-tengu",
+      "id": "tengu",
+      "seeAlso": "Tengu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Kasu",
       "id": "krasue",
       "seeAlso": "Krasue",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Kawatarō",
+      "id": "kappa",
+      "seeAlso": "Kappa",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Kenas-unarpe",
@@ -3184,7 +3565,17 @@
       "seeAlso": "Kenas-unarpe",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Kerberos",
+      "id": "kerberos",
+      "seeAlso": "Kérberos",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Kérberos",
@@ -3192,6 +3583,15 @@
       "pronunciation": "KER-be-ros",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Kharisiri",
+      "id": "pishtaco",
+      "seeAlso": "Pishtaco",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Khyung",
@@ -3206,7 +3606,8 @@
       "seeAlso": "Qílín",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Kinnara (eril)",
@@ -3214,7 +3615,8 @@
       "seeAlso": "Kinnarī",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Kinnaree",
@@ -3222,7 +3624,17 @@
       "seeAlso": "Kinnarī",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Kinnari",
+      "id": "kinnari",
+      "seeAlso": "Kinnarī",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Kinnarī",
@@ -3237,7 +3649,8 @@
       "seeAlso": "Qílín",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Koncolos",
@@ -3245,7 +3658,8 @@
       "seeAlso": "Karakoncolos",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Koro-pok-guru",
@@ -3253,7 +3667,8 @@
       "seeAlso": "Koropokkuru",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Koropokkuru",
@@ -3268,7 +3683,8 @@
       "seeAlso": "Koropokkuru",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Krasue",
@@ -3290,7 +3706,8 @@
       "seeAlso": "Pontianak",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Kwaku Anansi",
@@ -3298,7 +3715,8 @@
       "seeAlso": "Anansi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Lamashtu",
@@ -3308,11 +3726,29 @@
       "type": "entry"
     },
     {
+      "name": "Lamaštu",
+      "id": "lamashtu",
+      "seeAlso": "Lamashtu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Lamia",
       "id": "lamia-euskal",
       "pronunciation": "LAH-mee-ah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Lamia",
+      "id": "lamia-hellenic",
+      "seeAlso": "Lámia",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Lámia",
@@ -3322,12 +3758,22 @@
       "type": "entry"
     },
     {
+      "name": "Lamiai (çoğul)",
+      "id": "lamia-hellenic",
+      "seeAlso": "Lámia",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Lamiak (çoğul)",
       "id": "lamia-euskal",
       "seeAlso": "Lamia",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Laminak",
@@ -3335,7 +3781,8 @@
       "seeAlso": "Lamia",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Langsuir (akraba)",
@@ -3343,7 +3790,17 @@
       "seeAlso": "Pontianak",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Larvae (akraba)",
+      "id": "lemures",
+      "seeAlso": "Lemures",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Lemures",
@@ -3360,11 +3817,38 @@
       "type": "entry"
     },
     {
+      "name": "Lilitu (Mezopotamya)",
+      "id": "lilith",
+      "seeAlso": "Lilith",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Long",
+      "id": "long",
+      "seeAlso": "Lóng",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Lóng",
       "id": "long",
       "pronunciation": "LOONG",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Lung (Wade-Giles)",
+      "id": "long",
+      "seeAlso": "Lóng",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Ma lai",
@@ -3379,7 +3863,8 @@
       "seeAlso": "Iara",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Makara",
@@ -3387,6 +3872,15 @@
       "pronunciation": "MAH-kah-rah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Mananangal",
+      "id": "manananggal",
+      "seeAlso": "Manananggal",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Manananggal",
@@ -3408,7 +3902,8 @@
       "seeAlso": "Masalai",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Matianak",
@@ -3416,7 +3911,8 @@
       "seeAlso": "Pontianak",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Mi-go",
@@ -3424,7 +3920,8 @@
       "seeAlso": "Migoi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Michipeshu",
@@ -3432,7 +3929,8 @@
       "seeAlso": "Mishipeshu",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Migö",
@@ -3440,7 +3938,8 @@
       "seeAlso": "Migoi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Migoi",
@@ -3455,7 +3954,8 @@
       "seeAlso": "Mishipeshu",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Mishipeshu",
@@ -3470,7 +3970,26 @@
       "seeAlso": "Jörmungandr",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Mo'o",
+      "id": "moo",
+      "seeAlso": "Moʻo",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Moo",
+      "id": "moo",
+      "seeAlso": "Moʻo",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Moroi (akraba)",
@@ -3478,7 +3997,8 @@
       "seeAlso": "Strigoi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Moʻo",
@@ -3488,6 +4008,15 @@
       "type": "entry"
     },
     {
+      "name": "Naga",
+      "id": "naga",
+      "seeAlso": "Nāga",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
+    },
+    {
       "name": "Nāga",
       "id": "naga",
       "pronunciation": "NAH-gah",
@@ -3495,12 +4024,22 @@
       "type": "entry"
     },
     {
+      "name": "Nāginī (dişil)",
+      "id": "naga",
+      "seeAlso": "Nāga",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Nagual",
       "id": "nahual",
       "seeAlso": "Nahual",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Nahual",
@@ -3508,6 +4047,24 @@
       "pronunciation": "nah-WAHL",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Nakaq",
+      "id": "pishtaco",
+      "seeAlso": "Pishtaco",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Nakki",
+      "id": "nakki",
+      "seeAlso": "Näkki",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Näkki",
@@ -3522,7 +4079,8 @@
       "seeAlso": "Näkki",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Näkkiäinen",
@@ -3530,7 +4088,8 @@
       "seeAlso": "Näkki",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Nawal",
@@ -3538,7 +4097,8 @@
       "seeAlso": "Nahual",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Nhang",
@@ -3553,7 +4113,8 @@
       "seeAlso": "Nhang",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Nitat-unarabe",
@@ -3561,7 +4122,8 @@
       "seeAlso": "Kenas-unarpe",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Nykur",
@@ -3569,6 +4131,15 @@
       "pronunciation": "NEE-koor",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Ogbanje (Igbo karşılığı)",
+      "id": "abiku",
+      "seeAlso": "Àbíkú",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Olgoi-Khorkhoi",
@@ -3583,7 +4154,17 @@
       "seeAlso": "Olgoi-Khorkhoi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Ong Ba Muoi",
+      "id": "ong-ba-muoi",
+      "seeAlso": "Ông Ba Mươi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Ông Ba Mươi",
@@ -3593,12 +4174,22 @@
       "type": "entry"
     },
     {
+      "name": "Orochi",
+      "id": "yamata-no-orochi",
+      "seeAlso": "Yamata-no-Orochi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Pari",
       "id": "peri",
       "seeAlso": "Perī",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Peri",
@@ -3606,7 +4197,8 @@
       "seeAlso": "Perī",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Perī",
@@ -3628,7 +4220,8 @@
       "seeAlso": "Krasue",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Phouka",
@@ -3636,7 +4229,8 @@
       "seeAlso": "Púca",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Pishtaco",
@@ -3665,7 +4259,26 @@
       "seeAlso": "Púca",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Pricolici (akraba)",
+      "id": "varcolac",
+      "seeAlso": "Vârcolac",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Puca",
+      "id": "puca",
+      "seeAlso": "Púca",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Púca",
@@ -3675,11 +4288,29 @@
       "type": "entry"
     },
     {
+      "name": "Qallupilluit (çoğul)",
+      "id": "qalupalik",
+      "seeAlso": "Qalupalik",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Qalupalik",
       "id": "qalupalik",
       "pronunciation": "kah-loo-PAH-lik",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Qilin",
+      "id": "qilin",
+      "seeAlso": "Qílín",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Qílín",
@@ -3701,7 +4332,8 @@
       "seeAlso": "Repun Kamuy",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Roc",
@@ -3709,7 +4341,8 @@
       "seeAlso": "Rukh",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Rukh",
@@ -3724,7 +4357,8 @@
       "seeAlso": "Rukh",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Rusalka",
@@ -3734,12 +4368,22 @@
       "type": "entry"
     },
     {
+      "name": "Rusalki (çoğul)",
+      "id": "rusalka",
+      "seeAlso": "Rusalka",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Saēna",
       "id": "simurgh",
       "seeAlso": "Sīmurgh",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Şahmaran",
@@ -3747,7 +4391,17 @@
       "seeAlso": "Şahmeran",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Sahmeran",
+      "id": "sahmeran",
+      "seeAlso": "Şahmeran",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Şahmeran",
@@ -3762,7 +4416,8 @@
       "seeAlso": "Sīmurgh",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Shahmaran",
@@ -3770,7 +4425,8 @@
       "seeAlso": "Şahmeran",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Simorgh",
@@ -3778,7 +4434,17 @@
       "seeAlso": "Sīmurgh",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Simurgh",
+      "id": "simurgh",
+      "seeAlso": "Sīmurgh",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Sīmurgh",
@@ -3788,11 +4454,29 @@
       "type": "entry"
     },
     {
+      "name": "Skoffín (akraba)",
+      "id": "skuggabaldur",
+      "seeAlso": "Skuggabaldur",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Skuggabaldur",
       "id": "skuggabaldur",
       "pronunciation": "SKOOG-gah-bald-oor",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Srin mo (dişil)",
+      "id": "srin-po",
+      "seeAlso": "Srin-po",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Srin-po",
@@ -3807,7 +4491,8 @@
       "seeAlso": "Stállu",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Stallo",
@@ -3815,7 +4500,17 @@
       "seeAlso": "Stállu",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Stallu",
+      "id": "stallu",
+      "seeAlso": "Stállu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Stállu",
@@ -3830,7 +4525,8 @@
       "seeAlso": "Stállu",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Striga",
@@ -3838,7 +4534,8 @@
       "seeAlso": "Strix",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Strigae (çoğul)",
@@ -3846,7 +4543,8 @@
       "seeAlso": "Strix",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Strigoi",
@@ -3861,7 +4559,8 @@
       "seeAlso": "Strigoi",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Strix",
@@ -3869,6 +4568,15 @@
       "pronunciation": "STRIKS",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Suparṇa",
+      "id": "garuda",
+      "seeAlso": "Garuḍa",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Supay",
@@ -3904,7 +4612,8 @@
       "seeAlso": "Tokoloshe",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Thunderbird",
@@ -3912,7 +4621,17 @@
       "seeAlso": "Animikii",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Thuong luong",
+      "id": "thuong-luong",
+      "seeAlso": "Thuồng luồng",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Thuồng luồng",
@@ -3920,6 +4639,15 @@
       "pronunciation": "twong LWONG",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Tigbalang",
+      "id": "tikbalang",
+      "seeAlso": "Tikbalang",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Tikbalang",
@@ -3934,7 +4662,17 @@
       "seeAlso": "Tokoloshe",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Tokkaebi",
+      "id": "dokkaebi",
+      "seeAlso": "Dokkaebi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Tokoloshe",
@@ -3942,6 +4680,15 @@
       "pronunciation": "to-ko-LO-sheh",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Tupilak",
+      "id": "tupilaq",
+      "seeAlso": "Tupilaq",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Tupilaq",
@@ -3956,7 +4703,8 @@
       "seeAlso": "Iku-Turso",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Tursas",
@@ -3964,7 +4712,8 @@
       "seeAlso": "Iku-Turso",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Uiara",
@@ -3972,7 +4721,8 @@
       "seeAlso": "Iara",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Ulda",
@@ -3987,7 +4737,8 @@
       "seeAlso": "Ulda",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Uldat (çoğul)",
@@ -3995,7 +4746,17 @@
       "seeAlso": "Ulda",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Varcolac",
+      "id": "varcolac",
+      "seeAlso": "Vârcolac",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": true
     },
     {
       "name": "Vârcolac",
@@ -4005,12 +4766,22 @@
       "type": "entry"
     },
     {
+      "name": "Vircolac",
+      "id": "varcolac",
+      "seeAlso": "Vârcolac",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "višap",
       "id": "vishap",
       "seeAlso": "Vishap",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Vishap",
@@ -4025,7 +4796,8 @@
       "seeAlso": "Vishap",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Way",
@@ -4035,12 +4807,22 @@
       "type": "entry"
     },
     {
+      "name": "Wayob (çoğul)",
+      "id": "way",
+      "seeAlso": "Way",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
       "name": "Wendigo",
       "id": "windigo",
       "seeAlso": "Windigo",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Wiindigoo",
@@ -4048,7 +4830,8 @@
       "seeAlso": "Windigo",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Windigo",
@@ -4056,6 +4839,24 @@
       "pronunciation": "WIN-dee-go",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "X-tabai",
+      "id": "xtabay",
+      "seeAlso": "Xtabay",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Xtabai",
+      "id": "xtabay",
+      "seeAlso": "Xtabay",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Xtabay",
@@ -4077,7 +4878,8 @@
       "seeAlso": "Aralez",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Zahhâk",
@@ -4085,7 +4887,8 @@
       "seeAlso": "Aži Dahāka",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Ziz",
@@ -4100,7 +4903,8 @@
       "seeAlso": "Zmey",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Zmeu",
@@ -4108,6 +4912,15 @@
       "pronunciation": "ZMEH-oo",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Zmeul",
+      "id": "zmeu",
+      "seeAlso": "Zmeu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Zmey",
@@ -4122,7 +4935,17 @@
       "seeAlso": "Zmey",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Zotz",
+      "id": "camazotz",
+      "seeAlso": "Camazotz",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "Zû",
@@ -4130,7 +4953,17 @@
       "seeAlso": "Anzû",
       "pronunciation": "",
       "page": "—",
-      "type": "crossref"
+      "type": "crossref",
+      "generated": false
+    },
+    {
+      "name": "Zupay",
+      "id": "supay",
+      "seeAlso": "Supay",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref",
+      "generated": false
     },
     {
       "name": "ʿIfrīt",

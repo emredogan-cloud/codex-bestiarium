@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `pishtaco` |
 | **Ad** | Pishtaco |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Nakaq, Kharisiri |
 | **Gelenek** | Tawantinsuyu ☉ · And |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |
@@ -74,9 +74,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Ghūl** `ghul` | ʿArab ☪ | `function` | İkisi de yoldaki yabancıdır; Ghūl kılık değiştirir, Pishtaco zaten yabancı görünür — korku sömürünün suretini alır. |
+| **Supay** `supay` | Tawantinsuyu ☉ | `tradition` | Tawantinsuyu'nun iki sömürü anlatısı: biri bedeni, öteki madeni alır. |
+| **Windigo** `windigo` | Anishinaabe ▲ | `function` | İkisi de ekonomik bir korkuyu bedenleştirir: biri yağı çıkarır, öteki asla doymaz. |
 
 ## 8. Kısıtlılık taraması
 

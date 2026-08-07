@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `naga` |
 | **Ad** | Nāga |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Nāginī (dişil) |
 | **Gelenek** | Bharatiya ॐ · Güney Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | E · Derinlerin yılanı |
@@ -76,9 +76,16 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Imugi** `imugi` | Hangug 단 | `kin` | Nāga zaten bir halktır; Imugi tek başına ve bekleyendir. Biri düzen, öteki eşik. |
+| **Makara** `makara` | Bharatiya ॐ | `tradition` | Bharatiya'nın iki su varlığı: Makara eşiği süsler, Nāga suyun altında yaşar. |
+| **Phaya Nak** `phaya-nak` | Siam ☸ | `kin` | Aynı kelime, iki coğrafya: Nāga hazineyi ve yağmuru tutar, Phaya Nak bir şehir yönetir. |
+| **Şahmeran** `sahmeran` | Türk ☾ | `function` | İkisi de yılanların yönetimidir; Şahmeran bilgiyi taşır ve o bilgi yüzünden ölür, Nāga hazineyi taşır. |
 
 ## 8. Kısıtlılık taraması
 

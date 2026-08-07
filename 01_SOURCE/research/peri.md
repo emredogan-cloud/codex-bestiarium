@@ -75,9 +75,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **ʿIfrīt** `ifrit` | ʿArab ☪ | `function` | İkisi de ateşten yaratılmıştır; Perī kararsızdır, ʿIfrīt dik başlı — aynı madde, iki mizaç. |
+| **Kinnarī** `kinnari` | Siam ☸ | `function` | İki yarı-varlık: Perī insanın aklını alır, Kinnarī yalnızca şarkı söyler. |
+| **Sīmurgh** `simurgh` | Pārs 𐎩 | `tradition` | Pars'ın iki yardımcısı: biri kararsız, öteki güvenilir — kitabın ikisini de aynı geleneğe borçlu olması tesadüf değil. |
 
 ## 8. Kısıtlılık taraması
 

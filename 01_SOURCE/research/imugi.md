@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `imugi` |
 | **Ad** | Imugi |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Imoogi |
 | **Gelenek** | Hangug 단 · Doğu Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | E · Derinlerin yılanı |
@@ -73,9 +73,15 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Lóng** `long` | Zhōnghuá 龍 | `function` | Lóng olunmuş hâldir, Imugi olunamamış — aynı basamağın iki ucu. |
+| **Nāga** `naga` | Bharatiya ॐ | `kin` | Nāga zaten bir halktır; Imugi tek başına ve bekleyendir. Biri düzen, öteki eşik. |
+| **Thuồng luồng** `thuong-luong` | Việt ☴ | `kin` | Imugi ejderha olmayı bekler ve olamaz; Thuồng luồng olduğu şeyle yetinir ve insan ona benzemeye çalışır (dövme). |
 
 ## 8. Kısıtlılık taraması
 

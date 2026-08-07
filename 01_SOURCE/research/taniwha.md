@@ -72,9 +72,17 @@
 
 ## 7. Akrabalar
 
-> Çapraz referanslar Faz 2'de kesinleşir ve karşılıklı kurulur.
+> Faz 2 çıktısı. Kaynak: [`01_SOURCE/kin_map.json`](../kin_map.json) ·
+> bağlar **karşılıklıdır** ve `08_BUILD/classify.py` tarafından kurulur.
+> Bu tablo maddenin 6. bölümünün ("Akrabaları") ham malzemesidir.
 
-*Faz 2'de doldurulacak.*
+| Madde | Gelenek | Bağ | Ayrışma noktası |
+|---|---|---|---|
+| **Amaru** `amaru` | Tawantinsuyu ☉ | `kin` | İki koruyucu yılan, iki okyanus: biri iwi'ye, öteki iki dünyaya bağlı. |
+| **Inkanyamba** `inkanyamba` | Nguni ◈ | `kin` | İkisi de bir suyun sahibidir — şelale ve nehir ağzı; Taniwha kimi kabileye koruyucudur, Inkanyamba kimseye değil. |
+| **Mishipeshu** `mishipeshu` | Anishinaabe ▲ | `function` | İkisi de bir suyun sahibidir ve ikisi de hem koruyucu hem tehlikedir. |
+| **Moʻo** `moo` | Mā'ohi ᴥ | `function` | İki Pasifik koruyucusu: Moʻo suyun rengiyle bilinir, Taniwha kabile ilişkisiyle. |
+| **Ponaturi** `ponaturi` | Mā'ohi ᴥ | `function` | Ponaturi denizden karaya çıkar; Taniwha nehir ağzında durur — biri istila, öteki sınır. |
 
 ## 8. Kısıtlılık taraması
 
