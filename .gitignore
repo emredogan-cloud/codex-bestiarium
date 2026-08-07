@@ -26,6 +26,11 @@
 03_APLUS/exports/
 09_ARCHIVE/*
 !09_ARCHIVE/.gitkeep
+# Düşürülen maddelerin araştırma dosyaları DEPODA KALIR: yapılan iş ve
+# düşürme gerekçesi kayıt altında olmalı. SCOPE_DECISIONS.md bunlara
+# bağlantı veriyor; dışarıda bırakmak o bağlantıyı kırar.
+!09_ARCHIVE/dropped-research/
+!09_ARCHIVE/dropped-research/**
 
 # ③ GÖRSEL VARLIKLAR  ─────────────────────────────────────────────────────
 # 120 plaka × 4 format = çok büyük. Ham çıktı yerel olarak saklanır ve
