@@ -15,7 +15,23 @@ sayılar, açık kalanlar.
 ## [Yayımlanmamış]
 
 ### Sıradaki
-- Faz 3 · Çekirdek yazım (Bekçiler ve Yutucular) — **kurucu onayı bekliyor**
+- Faz 3 · Çekirdek yazım (Bekçiler ve Yutucular) — **başladı**
+
+### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D29 | **A1 kapatıldı: (a) şıkkı.** Depo PUBLIC kalır; ticari değeri olan manuscript depo DIŞINDA yaşar | Kurucu emri, 7 Ağustos 2026. Yol haritası § A1'in önerdiği ve `.gitignore`'ın zaten varsaydığı şık. Açık kalan: otomasyon, hat, CI/CD, doğrulama, belgeler, araştırma dosyaları. Kapalı olan: proza, taslak bölümler, özel editoryal notlar, üretilmiş manuscript dökümleri. |
+| D30 | Politika **yol kalıbına bırakılmadı**, içerik denetimi eklendi | `.gitignore` bir YOL listesidir; başka bir ada konan proza dosyasını yakalamaz. `validate_structure.check_manuscript_leak` artık takip edilen dosyalarda madde açılış cümlelerini arar. Kasıtlı bir sızıntıyla sınandı: yakaladı. Gerekçe D28'in aynısı — **disiplin unutulur, mekanizma unutmaz.** |
+
+### Faz 3 kapsamı hakkında bir not
+
+Yol haritasının Faz 3 çıktı tablosu **19 + 29 = 48 madde** yazıyor. Bu sayı
+120 maddelik kapsam için hesaplanmıştı ve o kitap **D21 ile kapandı**. Sınıf
+I ve II'nin yürürlükteki gerçek sayısı **18 + 27 = 45**'tir; `spec.json`,
+`update_docs.py` ve `ROADMAP_PROGRESS.md` bu sayıyı zaten kullanıyor
+(`0/45`). Faz 3 **sınıf I ve II'nin tamamını** yazar — yol haritasının
+tarifi budur; 48 rakamı onun aşılmış aritmetiğidir.
 
 ---
 
