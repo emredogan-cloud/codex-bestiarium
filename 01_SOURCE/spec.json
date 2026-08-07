@@ -3198,7 +3198,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ateşböceği kılığında giren, uyuyanın kanını içen.",
       "researchFile": "01_SOURCE/research/adze.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "simurgh",
@@ -3522,7 +3522,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz denizde saklanan, geceleri karaya çıkan deniz halkı.",
       "researchFile": "01_SOURCE/research/ponaturi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "qalupalik",
@@ -3575,7 +3575,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Buz altında bekleyen, yalnız çocuğu çeken yeşil derili.",
       "researchFile": "01_SOURCE/research/qalupalik.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "amarok",
