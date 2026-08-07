@@ -4593,7 +4593,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bağırsaklarıyla birlikte uçan baş; geceleri pislik ve kan arayan.",
       "researchFile": "01_SOURCE/research/ma-lai.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "ong-ba-muoi",
@@ -4750,7 +4750,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Uçan baş ve sarkan iç organlar; doğum yapanın kanını arayan.",
       "researchFile": "01_SOURCE/research/krasue.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "kinnari",
@@ -4857,7 +4857,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz komşu, gece yiyici; ölüyü ve doğmamışı arayan.",
       "researchFile": "01_SOURCE/research/aswang.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "manananggal",
