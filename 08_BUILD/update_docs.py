@@ -31,6 +31,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from bestiarium import (  # noqa: E402
+    LIVING_TRADITIONS,
     PLATES_DIR,
     RESEARCH_DIR,
     ROOT,
@@ -158,6 +159,11 @@ def gather() -> dict:
     pron_ok = sum(1 for c in creatures if (c.get("pronunciation") or "").strip())
     xref_ok = sum(1 for c in creatures if len(c.get("crossRefs") or []) >= 2)
     screened = sum(1 for c in creatures if c.get("restrictionScreened"))
+    living = sum(1 for c in creatures if c.get("tradition") in LIVING_TRADITIONS)
+    screened_living = sum(
+        1 for c in creatures
+        if c.get("tradition") in LIVING_TRADITIONS and c.get("restrictionScreened")
+    )
 
     words_total = 0
     entry_words: list[int] = []
@@ -190,6 +196,8 @@ def gather() -> dict:
         "pron_ok": pron_ok,
         "xref_ok": xref_ok,
         "screened": screened,
+        "living": living,
+        "screened_living": screened_living,
         "words_total": words_total,
         "entry_words": entry_words,
         "commits": git("rev-list", "--count", "HEAD") or "0",
@@ -236,7 +244,13 @@ def render_stats(d: dict) -> str:
         ("Doğrulanmış motif kodu", d["motif_ok"], TARGET_CREATURES),
         ("Telaffuz alanı dolu", d["pron_ok"], TARGET_CREATURES),
         ("Çapraz referansı olan madde", d["xref_ok"], TARGET_CREATURES),
-        ("Kısıtlılık taraması yapılmış", d["screened"], TARGET_CREATURES),
+        # Kısıtlılık taraması YALNIZCA yaşayan gelenek maddeleri için
+        # zorunludur (bestiarium.LIVING_TRADITIONS · validate_spec phase1).
+        # Payda 112 yazılınca kapı %39 görünüyordu ve bu, ölçülmüş bir sayı
+        # değil yanlış bir paydaydı — "buradaki her sayı ölçülmüştür" diyen
+        # bir belgede en pahalı hata türü.
+        ("Kısıtlılık taraması · zorunlu (yaşayan gelenek)",
+         d["screened_living"], d["living"]),
         ("Yazılmış madde", d["written"], TARGET_CREATURES),
         ("Normalize plaka", d["plates"], TARGET_CREATURES),
     ]
@@ -247,6 +261,11 @@ def render_stats(d: dict) -> str:
       f"`{bar(est_words, TARGET_WORDS)}` %{100 * est_words / TARGET_WORDS:.0f} |")
     A(f"| Tahmini sayfa | {est_pages or '—'} | {TARGET_PAGES} | "
       f"`{bar(est_pages, TARGET_PAGES)}` %{100 * est_pages / TARGET_PAGES:.0f} |")
+    A("")
+    A("Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde")
+    A(f"**zorunludur**; toplam {d['screened']} maddede yapıldı — "
+      f"{d['screened'] - d['screened_living']} tanesi gönüllü. Zorunlu olmayan")
+    A("bir taramayı yapmak serbesttir; zorunlu olanı atlamak kapıyı kırar.")
     A("")
     A(f"Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın")
     A("ölçülen 6×9 · 11,2/15,6 pt dizgi yoğunluğu). Gerçek değer dizgi")

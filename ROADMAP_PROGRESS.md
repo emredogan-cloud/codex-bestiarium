@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/2-tasnif` · son etiket `v0.1.0`
+> Son ölçüm: **2026-08-07** · dal `main` · son etiket `v0.2.0`
 
 Kaynak: [`CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md`](CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md)
 

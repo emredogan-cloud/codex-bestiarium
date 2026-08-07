@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/2-tasnif` · son etiket `v0.1.0` · 14 commit
+> Son ölçüm: **2026-08-07** · dal `main` · son etiket `v0.2.0` · 19 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -18,11 +18,15 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Doğrulanmış motif kodu | 112 | 112 | `████████████████████████` %100 |
 | Telaffuz alanı dolu | 112 | 112 | `████████████████████████` %100 |
 | Çapraz referansı olan madde | 112 | 112 | `████████████████████████` %100 |
-| Kısıtlılık taraması yapılmış | 44 | 112 | `█████████░░░░░░░░░░░░░░░` %39 |
+| Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
 | Yazılmış madde | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Normalize plaka | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Kelime (yazılmış) | 0 | 78,400 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
 | Tahmini sayfa | — | 436 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
+
+Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde
+**zorunludur**; toplam 44 maddede yapıldı — 9 tanesi gönüllü. Zorunlu olmayan
+bir taramayı yapmak serbesttir; zorunlu olanı atlamak kapıyı kırar.
 
 Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 ölçülen 6×9 · 11,2/15,6 pt dizgi yoğunluğu). Gerçek değer dizgi

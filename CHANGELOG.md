@@ -19,6 +19,38 @@ sayılar, açık kalanlar.
 
 ---
 
+## [0.2.1] — 2026-08-07
+
+**Kısıtlılık kapısında ölü kural.** Faz 2'nin kapanış ölçümleri sırasında
+bulundu ve hemen kapatıldı.
+
+### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D28 | `LIVING_TRADITIONS` kimlikleri düzeltildi ve **kapıya bir kapı eklendi** | Listedeki `ityop-ya` ve `ma-ohi` hiçbir gelenek kimliğine denk gelmiyordu (`spec.json` `ityopya` ve `maohi` yazıyor). Denk gelmeyen satır sessizce ÖLÜ BİR KURALDIR: kapı o geleneği hiç denetlemez ve hiçbir yerde hata görünmez. Ityop'ya maddesi (Buda) zorunlu kısıtlılık kapısının **dışında** kalmıştı. `validate_spec.check_structure` artık her kimliğin gerçek bir geleneğe denk geldiğini denetliyor. |
+
+### Neden önemli
+
+Buda maddesi, kitabın **en hassas etik notunu** taşıyor: buda suçlaması
+tarihsel olarak Beta Israel'e ve zanaatkâr kastlara yöneltilmiş, gerçek
+insanlara zarar vermiş bir suçlamadır. Araştırmacı taramayı zaten yapmış ve
+notu yazmıştı — **kapı yakalamamıştı**. Yani kapının sessizliği, kalitenin
+kanıtı değil, araştırmacının titizliğinin gölgesiydi.
+
+Yaşayan gelenek kapısı bu kitabın etik omurgasıdır (Risk 3). Bir omurga
+kendini de denetlemelidir.
+
+### Düzeltilenler
+
+- `BOOK_STATS.md` "Kısıtlılık taraması" satırı yanlış paydayla (112) %39
+  gösteriyordu; oysa tarama yalnızca yaşayan gelenek maddelerinde zorunlu.
+  Artık **35/35 (%100)** ve gönüllü yapılan 9 tarama ayrıca belirtiliyor.
+  "Buradaki her sayı ölçülmüştür" diyen bir belgede yanlış payda, yanlış
+  sayının kendisi kadar pahalıdır.
+
+---
+
 ## [0.2.0] — 2026-08-07
 
 **FAZ 2 TAMAMLANDI.** Tasnif kilitlendi, çapraz referans grafiği kuruldu,
@@ -302,7 +334,8 @@ haritasının iki bölümü arasındaki gerçek farklardır:
 
 ---
 
-[Yayımlanmamış]: https://github.com/emredogan-cloud/codex-bestiarium/compare/v0.2.0...HEAD
+[Yayımlanmamış]: https://github.com/emredogan-cloud/codex-bestiarium/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.2.1
 [0.2.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.2.0
 [0.1.0]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.1.0
 [0.1.0-alpha]: https://github.com/emredogan-cloud/codex-bestiarium/releases/tag/v0.1.0-alpha

@@ -118,6 +118,18 @@ def check_structure(spec: dict, r: Result) -> None:
         f"bulunan: {inherited} — seri sürekliliği bu sayıya bağlı",
     )
 
+    # ÖLÜ KURAL DENETİMİ — kapının kendi kapısı.
+    # `LIVING_TRADITIONS`'daki bir kimlik hiçbir geleneğe denk gelmiyorsa o
+    # satır sessizce ölüdür: kısıtlılık kapısı o geleneği HİÇ denetlemez ve
+    # hiçbir yerde hata görünmez. Faz 2'de iki ölü kural bulundu ve biri
+    # (Ityop'ya) gerçekten kapının dışında kalmıştı.
+    dead = sorted(LIVING_TRADITIONS - set(trad_ids))
+    r.add(
+        not dead,
+        "yaşayan gelenek listesindeki her kimlik gerçek bir geleneğe denk geliyor",
+        f"ölü kural: {dead} — denk gelmeyen satır, denetlenmeyen gelenektir",
+    )
+
 
 def check_records(spec: dict, r: Result) -> None:
     creatures = spec.get("creatures", [])

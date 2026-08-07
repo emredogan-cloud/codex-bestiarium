@@ -87,7 +87,7 @@
 
 ## 8. Kısıtlılık taraması
 
-Bu gelenek `LIVING_TRADITIONS` listesinde değil; ek kapı uygulanmaz.
+> **Yaşayan gelenek — bu tarama zorunludur.**
 
 ⚠ ETİK DİKKAT: buda suçlaması tarihsel olarak Beta Israel (Etiyopya Yahudileri) ve zanaatkâr kastlara yöneltilmiş, gerçek insanlara zarar vermiş bir suçlamadır. Madde figürü anlatırken suçlamayı YENİDEN ÜRETMEYECEK; Reminick'in toplumsal çözümlemesi maddenin parçası olacak. Yaşayan bir topluluğa yönelik suçlamayı 'folklor' diye nötrleştirmek bu kitabın standardını ihlal eder.
 

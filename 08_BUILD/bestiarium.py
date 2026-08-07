@@ -102,10 +102,18 @@ def motif_valid(code: str) -> bool:
 # Bu geleneklerin maddeleri için yalnızca YAYIMLANMIŞ ve KISITLANMAMIŞ
 # malzeme kullanılır; kısıtlı olduğu bilinen anlatı anlatılmaz, kısıtlı
 # olduğu söylenir.
+#
+# DİKKAT — buradaki her kimlik `spec.json` → `traditions[].id` ile BİREBİR
+# eşleşmelidir. Eşleşmeyen bir satır sessizce ÖLÜ BİR KURALDIR: kapı o
+# geleneği hiç denetlemez ve kimse fark etmez. Faz 2'de iki ölü kural
+# bulundu — `ityop-ya` ve `ma-ohi`, spec'te `ityopya` ve `maohi` yazıyor —
+# ve Ityop'ya maddesi zorunlu kısıtlılık kapısının DIŞINDA kalmıştı
+# (araştırmacı yine de taramıştı; kapı yakalamamıştı).
+# `validate_spec.check_structure` artık bu eşleşmeyi denetliyor.
 LIVING_TRADITIONS = {
-    "inuit", "ainu", "sapmi", "anishinaabe", "ma-ohi", "maohi",
+    "inuit", "ainu", "sapmi", "anishinaabe", "maohi",
     "melanesia", "nguni", "tupi-guarani", "yoruba-ashanti",
-    "tawantinsuyu", "ityop-ya", "bod", "mongol",
+    "tawantinsuyu", "ityopya", "bod", "mongol",
 }
 
 # --- ses kuralları (yol haritası Bölüm 08.1) ------------------------------
