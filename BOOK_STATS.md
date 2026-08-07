@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/4-genisleme` · son etiket `v0.3.0` · 48 commit
+> Son ölçüm: **2026-08-07** · dal `faz/4-genisleme` · son etiket `v0.3.0` · 49 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -19,10 +19,10 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Telaffuz alanı dolu | 112 | 112 | `████████████████████████` %100 |
 | Çapraz referansı olan madde | 112 | 112 | `████████████████████████` %100 |
 | Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
-| Yazılmış madde | 51 | 112 | `███████████░░░░░░░░░░░░░` %46 |
+| Yazılmış madde | 54 | 112 | `████████████░░░░░░░░░░░░` %48 |
 | Normalize plaka | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| Kelime (yazılmış) | 37,657 | 78,400 | `████████████░░░░░░░░░░░░` %48 |
-| Tahmini sayfa | 145 | 436 | `████████░░░░░░░░░░░░░░░░` %33 |
+| Kelime (yazılmış) | 39,805 | 78,400 | `████████████░░░░░░░░░░░░` %51 |
+| Tahmini sayfa | 153 | 436 | `████████░░░░░░░░░░░░░░░░` %35 |
 
 Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde
 **zorunludur**; toplam 44 maddede yapıldı — 9 tanesi gönüllü. Zorunlu olmayan
@@ -44,8 +44,8 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 | Durum | Madde | Pay |
 |---|---:|---:|
 | `draft` | 0 | %0 |
-| `verified` | 61 | %54 |
-| `written` | 51 | %46 |
+| `verified` | 58 | %52 |
+| `written` | 54 | %48 |
 | `edited` | 0 | %0 |
 | `final` | 0 | %0 |
 
@@ -131,11 +131,11 @@ Aileye bağlı madde: **59/112** · bağımsız madde: 53
 
 | Ölçü | Değer |
 |---|---:|
-| Yazılmış madde | 51 |
-| Ortalama | 677 kelime |
+| Yazılmış madde | 54 |
+| Ortalama | 680 kelime |
 | En kısa | 632 |
 | En uzun | 752 |
-| Bantta (620–790) | 51/51 |
+| Bantta (620–790) | 54/54 |
 
 ---
 

@@ -2820,7 +2820,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ceiba ağacında bekleyen, saçını tarayan, yolcuyu dikenlere götüren.",
       "researchFile": "01_SOURCE/research/xtabay.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "way",
@@ -2873,7 +2873,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Her insanın uykuda serbest kalan hayvan eşlikçisi.",
       "researchFile": "01_SOURCE/research/way.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "rusalka",
@@ -3091,7 +3091,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Bütün hikâyeleri gökten satın alan örümcek; zayıfın kurnazlığı.",
       "researchFile": "01_SOURCE/research/anansi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "abiku",
