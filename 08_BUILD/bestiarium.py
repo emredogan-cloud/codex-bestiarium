@@ -36,7 +36,7 @@ FONT_DIR = os.path.join(ASSET_DIR, "fonts")
 BOOK_SLUG = "CODEX_BESTIARIUM"
 BOOK_TITLE = "Codex Bestiarium"
 BOOK_SUBTITLE = (
-    "A World Bestiary: 120 Legendary Creatures from 40 Traditions — "
+    "A World Bestiary: 112 Legendary Creatures from 40 Traditions — "
     "Beasts, Spirits, and Guardians of World Folklore"
 )
 SERIES = "Codex"
@@ -45,13 +45,13 @@ AUTHOR = "Emre Doğan"
 IMPRINT = "Vâliçe Press"
 
 # --- kapsam kapıları (yol haritası Bölüm 04 · Bölüm 09 Faz 0) -------------
-TARGET_CREATURES = 120
+TARGET_CREATURES = 112   # Faz 1'de kilitlendi (120 aday → 8 düşürüldü)
 TARGET_TRADITIONS = 40
 SCOPE_FLOOR = 100          # bu sayının altına inilirse kitap yeniden planlanır
 VERIFY_FLOOR = 112         # Faz 1 tamamlanma ölçütü
 MIN_SOURCES = 2            # iki bağımsız kaynak kuralı
-TARGET_PAGES = 404
-TARGET_WORDS = 92_000
+TARGET_PAGES = 380      # Faz 1 kilidi sonrası; dizgi Faz 6'da ölçecek
+TARGET_WORDS = 78_400   # 112 × 700
 
 # --- madde bantları (yol haritası Bölüm 05.2) -----------------------------
 WORD_TARGET = 700

@@ -12,7 +12,7 @@
 | **Gelenek** | Hayk ✚ · Kafkasya |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |
-| **Plaka** | `plate-087` |
+| **Plaka** | `plate-083` |
 | **Telaffuz (taslak)** | n-HAHNG |
 | **Durum** | `draft` |
 
@@ -41,9 +41,11 @@
 
 | Kod | Thompson tanımı | Doğrulandı |
 |---|---|---|
-| `D113` | Transformation: man to canine animal (wild) | ⬜ |
+| `F420` | Water-spirits | ✅ |
 
-**Gerekçe.** KOD UYMUYOR. Tohum D113 öneriyor ama doğrulanan tanımı 'Transformation: man to canine animal (wild)' — KÖPEKGİL dönüşümü. Nhang fok veya kadın biçimine girer, köpekgile değil. Doğru kod büyük olasılıkla D100 ('Transformation: man to animal') üst kümesinde veya F420 ('Water-spirits') altında. Faz 2'de karara bağlanacak; şimdilik doğrulanmamış sayılır.
+**Gerekçe.** TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113 ('Transformation: man to canine animal (wild)') idi — nhang fok ve kadın biçimine girer, köpekgile değil. Doğrulanan F420 ('Water-spirits') nhang'ın ırmak varlığı olmasını doğru tasnif eder; biçim değiştirme ikincildir.
+
+> ⚠ **Tohum kodu değiştirildi.** D113 → F420. Nhang köpekgile dönüşmez; ırmak ruhudur.
 
 ## 3. Coğrafya ve ilk kayıt
 
@@ -89,7 +91,6 @@ Kaydedilmedi.
 
 ## 10. Yazım notları
 
-- ⚠ Motif kodu uymuyor — Faz 2'de düzeltilecek.
 - Nhang'ın erkeği baştan çıkarıp öldürmesi, G264 ('La Belle Dame Sans Merci') tanımına C ailesinin çoğu üyesinden DAHA çok uyuyor. Faz 2'de değerlendirilmeli.
 
 ## Kontrol listesi
@@ -97,13 +98,10 @@ Kaydedilmedi.
 - [x] En az iki bağımsız kaynak, tam künyeyle
 - [x] En az biri primary/scholarly
 - [x] En az biri kesin-yer doğrulamalı (fulltext/toc/canon/article)
-- [ ] Motif kodu doğrulandı ve gerekçelendirildi
+- [x] Motif kodu doğrulandı ve gerekçelendirildi
 - [x] Bölge somut, ilk kayıt tarihli
 - [x] Fiziksel tarif kaynağa dayanıyor
 - [x] Kısıtlılık taraması yapıldı (yaşayan gelenekse)
 - [x] Telaffuz taslağı yazıldı
 - [x] Bu dosyada proza cümlesi yok
-
-> ⛔ **Kapı açık değil:**
-> - motif kodu doğrulanmadı — madde 'verified' olamaz
 

@@ -1,0 +1,170 @@
+{
+  "tradition": "hangug",
+  "creatures": [
+    {
+      "id": "kumiho",
+      "name": "Kumiho",
+      "altNames": [],
+      "pronunciation": "KOO-mee-ho",
+      "sources": [
+        {
+          "ref": "*Samguk yusa* (Üç Krallığın Anıları, İlyeon, ~1281)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "James H. Grayson, *Myths and Legends from Korea: An Annotated Compendium of Ancient and Modern Materials* (Richmond: Curzon, 2001)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Kumiho”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D113.3",
+        "G262.5"
+      ],
+      "motifDefs": {
+        "D113.3": "Transformation man to fox",
+        "G262.5": "Witch takes out man's liver"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.1 ('man to WOLF') idi; kumiho tilkidir. Doğrulanan D113.3 ('Transformation man to fox') doğru koddur. İkinci kod G262.5 ('Witch takes out man's liver') eklendi — kumiho'nun tanımlayıcı eylemi budur ve Thompson'ın tanımı birebir uyuyor.",
+      "motifChanged": "D113.1 → D113.3 + G262.5.",
+      "region": "Hangug; dağ ve mezarlık",
+      "attested": "*Samguk yusa* (13. yy) ve sonrası; 19.–20. yy sözlü derlemeler",
+      "appearance": [
+        "Dokuz kuyruklu tilki",
+        "Kadın biçimine girdiğinde kuyruk gizlenir",
+        "İnsan olmak için bin yıl beklediği anlatılır"
+      ],
+      "behaviour": "İnsan olmak için karaciğer yer. Kimi anlatıda insan olma sınavını son anda kaybeder.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Tilki kadın ailesinin (B) Kore üyesi. Ayrışma: Húli jīng ÖMÜR toplar, Kumiho KARACİĞER yer — biri soyut, diğeri cerrahi."
+      ]
+    },
+    {
+      "id": "imugi",
+      "name": "Imugi",
+      "altNames": [],
+      "pronunciation": "EE-moo-gee",
+      "sources": [
+        {
+          "ref": "James H. Grayson, *Myths and Legends from Korea* (Richmond: Curzon, 2001)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Choi In-hak, *A Type Index of Korean Folktales* (Seul: Myong Ji University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Imugi”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.1"
+      ],
+      "motifDefs": {
+        "B11.1": "Origin of dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.1 ('Origin of dragon') doğrulandı ve korundu. Imugi'nin tanımı ejderha OLMA sürecidir — kod tam olarak ejderhanın kökenini tasnif eder.",
+      "region": "Hangug; göl, mağara, derin su",
+      "attested": "19.–20. yy sözlü derlemeler; Grayson ve Choi derlemeleri",
+      "appearance": [
+        "Büyük su yılanı",
+        "Henüz boynuzsuz",
+        "Bin yıl beklediği anlatılır"
+      ],
+      "behaviour": "Ejderha (yong) olmayı bekler. Çoğu anlatıda olamaz — bir insan onu görüp bağırırsa dönüşüm bozulur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) tek BAŞARISIZ üyesi — ayrışma noktası bu."
+      ]
+    },
+    {
+      "id": "dokkaebi",
+      "name": "Dokkaebi",
+      "altNames": [],
+      "pronunciation": "TOK-kay-bee",
+      "sources": [
+        {
+          "ref": "James H. Grayson, *Myths and Legends from Korea* (Richmond: Curzon, 2001)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Choi In-hak, *A Type Index of Korean Folktales* (Seul: Myong Ji University Press, 1979)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Tokkebi”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F400"
+      ],
+      "motifDefs": {
+        "F400": "Spirits and demons (general)"
+      },
+      "motifVerified": true,
+      "motifNote": "F400 ('Spirits and demons (general)') doğrulandı ve korundu. Dokkaebi belirli bir biçime veya araziye bağlı değil; eski bir NESNEDEN doğar.",
+      "region": "Hangug; kırsal, terk edilmiş eşya",
+      "attested": "Choson dönemi kayıtları; 20. yy saha derlemeleri",
+      "appearance": [
+        "Elinde dövülmüş demir sopa (bangmangi)",
+        "Kan bulaşmış eski süpürge veya çamaşır tokacından doğduğu anlatılır",
+        "Tek bacaklı olarak da anlatılır"
+      ],
+      "behaviour": "Güreşe çağırır — sol tarafından yakalanırsa yenilir. Sevdiğine zenginlik, sevmediğine bela verir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Güreşte sol tarafından yakalamak.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Nesneden doğma: bu kitapta başka örneği yok."
+      ]
+    }
+  ]
+}

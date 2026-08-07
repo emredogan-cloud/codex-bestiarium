@@ -12,7 +12,7 @@
 | **Gelenek** | Sápmi ❄ · Kutup |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |
-| **Plaka** | `plate-114` |
+| **Plaka** | `plate-106` |
 | **Telaffuz (taslak)** | GOO-fih-tar |
 | **Durum** | `draft` |
 

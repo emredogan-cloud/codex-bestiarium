@@ -1,0 +1,179 @@
+{
+  "tradition": "yamato",
+  "creatures": [
+    {
+      "id": "yamata-no-orochi",
+      "name": "Yamata-no-Orochi",
+      "altNames": [],
+      "pronunciation": "yah-MAH-tah no o-RO-chee",
+      "sources": [
+        {
+          "ref": "*Kojiki*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "I.19"
+        },
+        {
+          "ref": "*Nihon Shoki*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "I (Susanoo bölümü)"
+        },
+        {
+          "ref": "Donald L. Philippi (çev.), *Kojiki* (Tokyo: University of Tokyo Press, 1968)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2.3"
+      ],
+      "motifDefs": {
+        "B11.2.3": "Many-headed dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2.3 ('Many-headed dragon') doğrulandı ve korundu. Sekiz baş, sekiz kuyruk — kodun tanımladığı şeyin tam örneği.",
+      "region": "Yamato; Izumo, Hi ırmağı",
+      "attested": "*Kojiki* (712); *Nihon Shoki* (720)",
+      "appearance": [
+        "Sekiz baş, sekiz kuyruk",
+        "Gövdesi sekiz vadi ve sekiz tepeyi kaplar",
+        "Sırtında yosun ve ağaçlar",
+        "Karnı sürekli kanlı"
+      ],
+      "behaviour": "Her yıl bir kız ister. Susanoo onu sekiz fıçı sake ile sarhoş edip parçalar; kuyruğundan Kusanagi kılıcı çıkar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) Japon üyesi. Ayrışma: tek yaratıkta SEKİZ baş — çokluk dışarıda değil içeride."
+      ]
+    },
+    {
+      "id": "kappa",
+      "name": "Kappa",
+      "altNames": [],
+      "pronunciation": "KAHP-pah",
+      "sources": [
+        {
+          "ref": "Yanagita Kunio, *Tōno monogatari* (Tokyo, 1910)",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "55–59. anlatılar"
+        },
+        {
+          "ref": "Michael Dylan Foster, *The Book of Yōkai: Mysterious Creatures of Japanese Folklore* (Berkeley: University of California Press, 2015)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Kappa”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F420"
+      ],
+      "motifDefs": {
+        "F420": "Water-spirits"
+      },
+      "motifVerified": true,
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Kappa bir ırmak ruhudur; başındaki çanak (sara) ve su bağı tanımlayıcıdır.",
+      "region": "Yamato; ırmak ve gölet kıyıları, ülke geneli",
+      "attested": "Edo dönemi derlemeleri (17.–19. yy); Yanagita Kunio, *Tōno monogatari* (1910)",
+      "appearance": [
+        "Çocuk boyunda",
+        "Başının tepesinde su dolu bir çanak (sara)",
+        "Kaplumbağa kabuğu",
+        "Yeşil veya sarı ten"
+      ],
+      "behaviour": "Güreşe çağırır; suya çeker. Başındaki çanaktaki su dökülürse gücünü yitirir — selam vermek onu eğilmeye zorlar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Selam vermek: kappa selamı iade ederken eğilir ve çanağındaki su dökülür.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Karşı önlem NEZAKETTİR — bu, kitabın en tuhaf ve en anlatılabilir ayrıntılarından biri."
+      ]
+    },
+    {
+      "id": "tengu",
+      "name": "Tengu",
+      "altNames": [],
+      "pronunciation": "TEN-goo",
+      "sources": [
+        {
+          "ref": "*Nihon Ryōiki*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "I.2 ve ilgili bölümler"
+        },
+        {
+          "ref": "Michael Dylan Foster, *The Book of Yōkai* (Berkeley: University of California Press, 2015)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Tengu”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D150"
+      ],
+      "motifDefs": {
+        "D150": "Transformation: man to bird"
+      },
+      "motifVerified": true,
+      "motifNote": "D150 ('Transformation: man to bird') doğrulandı ve korundu. Tengu'nun tanımlayıcı özelliği kuş-insan arası biçim ve dönüşümdür.",
+      "region": "Yamato; dağlar ve dağ tapınakları",
+      "attested": "*Nihon Ryōiki* (9. yy); Edo dönemi derlemeleri",
+      "appearance": [
+        "Kanatlı",
+        "Erken biçimde çaylak gagalı (karasu-tengu)",
+        "Geç biçimde uzun kırmızı burunlu (daitengu)"
+      ],
+      "behaviour": "Dağda yaşar; kibirli rahibi ve kendini beğenmiş savaşçıyı cezalandırır. Kimi anlatıda dövüş sanatı öğretir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [
+        {
+          "where": "Erken kayıt",
+          "what": "Kuş gagalı, kötücül"
+        },
+        {
+          "where": "Edo dönemi",
+          "what": "Uzun burunlu, kimi zaman öğretici"
+        }
+      ],
+      "variantNote": "Tengu zamanla kötücülden öğreticiye kaydı; madde bu kaymayı gösterecek.",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": []
+    }
+  ]
+}

@@ -14,75 +14,509 @@
       "access": "https://www.ruthenia.ru/folklore/thompson/f.htm · https://www.ruthenia.ru/folklore/thompson/g.htm",
       "verification": "fulltext",
       "checkedOn": "2026-08-07"
+    },
+    {
+      "id": "ruthenia-full",
+      "ref": "Stith Thompson, *Motif-Index of Folk-Literature* — A–Z bölümlerinin tamamı",
+      "access": "https://www.ruthenia.ru/folklore/thompson/{a,b,d,e,f,g}.htm — dosyalar indirilip yerel olarak ayrıştırıldı",
+      "verification": "fulltext",
+      "checkedOn": "2026-08-07",
+      "note": "24.975 kod ve tanımı çıkarıldı; aşağıdaki tanımlar o çıkarımdan BİREBİR alındı."
     }
   ],
   "motifs": {
-    "B11":          {"def": "Dragon", "src": "wikisource-v1"},
-    "B11.1":        {"def": "Origin of dragon", "src": "wikisource-v1"},
-    "B11.2":        {"def": "Form of dragon", "src": "wikisource-v1"},
-    "B11.2.1.1":    {"def": "Dragon as modified serpent", "src": "wikisource-v1"},
-    "B11.2.3":      {"def": "Many-headed dragon", "src": "wikisource-v1"},
-    "B11.3":        {"def": "Habitat of dragon", "src": "wikisource-v1"},
-    "B11.7":        {"def": "Dragon as rain-spirit", "src": "wikisource-v1"},
-    "B12":          {"def": "Basilisk. A mythical lizard or serpent whose hissing drives away all other serpents", "src": "wikisource-v1"},
-    "B15":          {"def": "Animals with unusual limbs or members", "src": "wikisource-v1"},
-    "B16":          {"def": "Devastating animals", "src": "wikisource-v1"},
-    "B19":          {"def": "Other mythical beasts", "src": "wikisource-v1"},
-    "B30":          {"def": "Mythical birds", "src": "wikisource-v1"},
-    "B31":          {"def": "Roc. A giant bird which carries off men in its claws", "src": "wikisource-v1"},
-    "B31.1.0.1":    {"def": "The bird Ziz (Hebrew counterpart of the roc)", "src": "wikisource-v1"},
-    "B31.2":        {"def": "The Bird Gam", "src": "wikisource-v1"},
-    "B31.3":        {"def": "Giant ravens. They sit on mountain; when they fly, avalanche comes", "src": "wikisource-v1"},
-    "B31.4":        {"def": "Giant bat", "src": "wikisource-v1"},
-    "B31.5":        {"def": "Simorg: giant bird", "src": "wikisource-v1"},
-    "B31.6":        {"def": "Other giant birds", "src": "wikisource-v1"},
-    "B32":          {"def": "Phoenix. Renews its youth at advanced age", "src": "wikisource-v1"},
-    "B33":          {"def": "Man-eating birds", "src": "wikisource-v1"},
-    "B34":          {"def": "Bird of dawn", "src": "wikisource-v1"},
-    "B52":          {"def": "Harpy. Bird with arms and breasts of woman", "src": "wikisource-v1"},
-    "B56":          {"def": "Garuda-bird. Lower part man, upper part bird", "src": "wikisource-v1"},
-    "B91":          {"def": "Mythical serpent", "src": "wikisource-v1"},
-    "B91.1":        {"def": "Naga. Serpent demon", "src": "wikisource-v1"},
-    "B184":         {"def": "Magic quadrupeds", "src": "wikisource-v1"},
-    "B184.1":       {"def": "Magic horse", "src": "wikisource-v1"},
-    "B184.1.3":     {"def": "Magic horse from water world", "src": "wikisource-v1"},
-
-    "F150":         {"def": "Access to otherworld", "src": "ruthenia"},
-    "F151":         {"def": "Road to otherworld", "src": "ruthenia"},
-    "F156":         {"def": "Door to otherworld", "src": "ruthenia"},
-    "F171":         {"def": "Extraordinary sights in otherworld", "src": "ruthenia"},
-    "F251":         {"def": "Origin of fairies", "src": "ruthenia"},
-    "F251.1":       {"def": "Fairies as descendants of early race of gods", "src": "ruthenia"},
-    "F400":         {"def": "Spirits and demons (general)", "src": "ruthenia"},
-    "F420":         {"def": "Water-spirits", "src": "ruthenia"},
-    "F441":         {"def": "Vegetation-spirits", "src": "ruthenia"},
-    "F451":         {"def": "Dwarfs in otherworld", "src": "ruthenia"},
-    "F460":         {"def": "Mountain-spirits", "src": "ruthenia"},
-    "F470":         {"def": "Night-spirits", "src": "ruthenia"},
-    "F480":         {"def": "House-spirits", "src": "ruthenia"},
-    "F531":         {"def": "Monstrous persons", "src": "ruthenia"},
-    "F960":         {"def": "Extraordinary nature phenomena — elements and weather", "src": "ruthenia"},
-
-    "G11":          {"def": "Kinds of cannibals", "src": "ruthenia"},
-    "G11.2":        {"def": "Cannibal giant", "src": "ruthenia"},
-    "G11.3":        {"def": "Cannibal witch", "src": "ruthenia"},
-    "G100":         {"def": "Giant ogre. Polyphemus", "src": "ruthenia"},
-    "G200":         {"def": "Witch", "src": "ruthenia"},
-    "G211":         {"def": "Witch in animal form", "src": "ruthenia"},
-    "G261":         {"def": "Witch steals children", "src": "ruthenia"},
-    "G262":         {"def": "Murderous witch", "src": "ruthenia"},
-    "G262.0.1":     {"def": "Lamia. Witch who eats children", "src": "ruthenia"},
-    "G262.1":       {"def": "Witch sucks blood", "src": "ruthenia"},
-    "G262.1.2":     {"def": "Witch sucks blood from woman's or child's breasts", "src": "ruthenia"},
-    "G262.1.3":     {"def": "Witches suck blood from the navel of a child without anyone knowing it", "src": "ruthenia"},
-    "G262.2":       {"def": "Witch eats person's entrails (heart)", "src": "ruthenia"},
-    "G262.5":       {"def": "Witch takes out man's liver", "src": "ruthenia"},
-    "G263":         {"def": "Witch injures, enchants or transforms", "src": "ruthenia"},
-    "G264":         {"def": "La Belle Dame Sans Merci. Witch entices men with offers of love and then deserts or destroys them", "src": "ruthenia"},
-    "G300":         {"def": "Other ogres", "src": "ruthenia"},
-    "G301":         {"def": "Monsters. Usually not clearly defined", "src": "ruthenia"},
-    "G302":         {"def": "Demons. Malevolent creatures (not usually further defined)", "src": "ruthenia"},
-    "G302.9.4":     {"def": "Demons injure and strangle little children", "src": "ruthenia"},
-    "G303":         {"def": "Devil (The Devil, Satan, The Bad Man, Old Nick, etc.)", "src": "ruthenia"}
+    "A177": {
+      "def": "God as thief",
+      "src": "ruthenia"
+    },
+    "A177.1": {
+      "def": "God as dupe or trickster",
+      "src": "ruthenia-full"
+    },
+    "A284": {
+      "def": "God of thunder",
+      "src": "ruthenia"
+    },
+    "A284.2": {
+      "def": "Thunderbird",
+      "src": "ruthenia-full"
+    },
+    "A737.1": {
+      "def": "Eclipse caused by monster devouring sun or moon",
+      "src": "ruthenia-full"
+    },
+    "A831": {
+      "def": "Earth from body of person (animal)",
+      "src": "ruthenia-full"
+    },
+    "B11": {
+      "def": "Dragon",
+      "src": "wikisource-v1"
+    },
+    "B11.1": {
+      "def": "Origin of dragon",
+      "src": "wikisource-v1"
+    },
+    "B11.2": {
+      "def": "Form of dragon",
+      "src": "wikisource-v1"
+    },
+    "B11.2.1.1": {
+      "def": "Dragon as modified serpent",
+      "src": "wikisource-v1"
+    },
+    "B11.2.3": {
+      "def": "Many-headed dragon",
+      "src": "wikisource-v1"
+    },
+    "B11.2.3.1": {
+      "def": "Seven-headed dragon",
+      "src": "ruthenia-full"
+    },
+    "B11.3": {
+      "def": "Habitat of dragon",
+      "src": "wikisource-v1"
+    },
+    "B11.3.1.2": {
+      "def": "Dragon‘s home beneath waterfall",
+      "src": "ruthenia-full"
+    },
+    "B11.7": {
+      "def": "Dragon as rain-spirit",
+      "src": "wikisource-v1"
+    },
+    "B11.7.1": {
+      "def": "Dragon controls water-supply",
+      "src": "ruthenia-full"
+    },
+    "B12": {
+      "def": "Basilisk. A mythical lizard or serpent whose hissing drives away all other serpents",
+      "src": "wikisource-v1"
+    },
+    "B14": {
+      "def": "Other hybrid animals",
+      "src": "ruthenia-full"
+    },
+    "B15": {
+      "def": "Animals with unusual limbs or members",
+      "src": "wikisource-v1"
+    },
+    "B16": {
+      "def": "Devastating animals",
+      "src": "wikisource-v1"
+    },
+    "B184": {
+      "def": "Magic quadrupeds",
+      "src": "wikisource-v1"
+    },
+    "B184.1": {
+      "def": "Magic horse",
+      "src": "wikisource-v1"
+    },
+    "B184.1.3": {
+      "def": "Magic horse from water world",
+      "src": "wikisource-v1"
+    },
+    "B19": {
+      "def": "Other mythical beasts",
+      "src": "wikisource-v1"
+    },
+    "B19.10": {
+      "def": "Mythical tiger",
+      "src": "ruthenia-full"
+    },
+    "B19.4.2": {
+      "def": "Fiery serpent",
+      "src": "ruthenia-full"
+    },
+    "B26": {
+      "def": "Man-tiger",
+      "src": "ruthenia-full"
+    },
+    "B30": {
+      "def": "Mythical birds",
+      "src": "wikisource-v1"
+    },
+    "B31": {
+      "def": "Giant birds (bölüm başlığı; B31.1 = Roc)",
+      "src": "ruthenia-full",
+      "correction": "Önceki turda B31 'Roc' olarak kaydedilmişti. Tam nüsha ayrıştırması B31'in BÖLÜM BAŞLIĞI, B31.1'in ise 'Roc' olduğunu gösterdi. Tohum tablosunun Rukh için verdiği B31.1 DOĞRUYDU."
+    },
+    "B31.1": {
+      "def": "Roc",
+      "src": "ruthenia-full"
+    },
+    "B31.1.0.1": {
+      "def": "The bird Ziz (Hebrew counterpart of the roc)",
+      "src": "wikisource-v1"
+    },
+    "B31.2": {
+      "def": "The Bird Gam",
+      "src": "wikisource-v1"
+    },
+    "B31.3": {
+      "def": "Giant ravens. They sit on mountain; when they fly, avalanche comes",
+      "src": "wikisource-v1"
+    },
+    "B31.4": {
+      "def": "Giant bat",
+      "src": "wikisource-v1"
+    },
+    "B31.5": {
+      "def": "Simorg: giant bird",
+      "src": "wikisource-v1"
+    },
+    "B31.6": {
+      "def": "Other giant birds",
+      "src": "wikisource-v1"
+    },
+    "B32": {
+      "def": "Phoenix. Renews its youth at advanced age",
+      "src": "wikisource-v1"
+    },
+    "B33": {
+      "def": "Man-eating birds",
+      "src": "wikisource-v1"
+    },
+    "B34": {
+      "def": "Bird of dawn",
+      "src": "wikisource-v1"
+    },
+    "B472": {
+      "def": "Helpful whale",
+      "src": "ruthenia-full"
+    },
+    "B52": {
+      "def": "Harpy. Bird with arms and breasts of woman",
+      "src": "wikisource-v1"
+    },
+    "B56": {
+      "def": "Garuda-bird. Lower part man, upper part bird",
+      "src": "wikisource-v1"
+    },
+    "B765": {
+      "def": "Fanciful qualities of snakes",
+      "src": "ruthenia-full"
+    },
+    "B871": {
+      "def": "Giant beasts",
+      "src": "ruthenia-full"
+    },
+    "B871.1": {
+      "def": "Giant domestic beasts",
+      "src": "ruthenia-full"
+    },
+    "B91": {
+      "def": "Mythical serpent",
+      "src": "wikisource-v1"
+    },
+    "B91.1": {
+      "def": "Naga. Serpent demon",
+      "src": "wikisource-v1"
+    },
+    "D100": {
+      "def": "Transformation: man to animal",
+      "src": "ruthenia"
+    },
+    "D110": {
+      "def": "Transformation: man to wild beast (mammal)",
+      "src": "ruthenia"
+    },
+    "D113": {
+      "def": "Transformation: man to canine animal (wild)",
+      "src": "ruthenia"
+    },
+    "D113.1": {
+      "def": "Transformation: man to wolf",
+      "src": "ruthenia"
+    },
+    "D113.1.1": {
+      "def": "Werwolf. A man changes periodically into the form of a wolf. He is usually malevolent when in wolf form",
+      "src": "ruthenia"
+    },
+    "D113.3": {
+      "def": "Transformation man to fox",
+      "src": "ruthenia-full"
+    },
+    "D131": {
+      "def": "Transformation: man to horse",
+      "src": "ruthenia"
+    },
+    "D150": {
+      "def": "Transformation: man to bird",
+      "src": "ruthenia"
+    },
+    "D1635": {
+      "def": "Golem",
+      "src": "ruthenia-full"
+    },
+    "D1711": {
+      "def": "Magician",
+      "src": "ruthenia-full"
+    },
+    "D610": {
+      "def": "Repeated transformation",
+      "src": "ruthenia"
+    },
+    "E0": {
+      "def": "Resuscitation",
+      "src": "ruthenia-full"
+    },
+    "E17": {
+      "def": "Resuscitation by licking corpse",
+      "src": "ruthenia-full"
+    },
+    "E200": {
+      "def": "Malevolent return from the dead",
+      "src": "ruthenia"
+    },
+    "E220": {
+      "def": "Dead relative's malevolent return",
+      "src": "ruthenia"
+    },
+    "E230": {
+      "def": "Return from dead to inflict punishment",
+      "src": "ruthenia"
+    },
+    "E251": {
+      "def": "Vampire. Corpse which comes from grave at night and sucks blood",
+      "src": "ruthenia"
+    },
+    "E251.3": {
+      "def": "Deeds of vampires",
+      "src": "ruthenia"
+    },
+    "E324": {
+      "def": "Dead child’s friendly return to parents",
+      "src": "ruthenia-full"
+    },
+    "E402": {
+      "def": "Mysterious ghostlike noises heard. Song, animal cries, footsteps, etc.",
+      "src": "ruthenia"
+    },
+    "E402.1": {
+      "def": "Noises caused by ghost of person",
+      "src": "ruthenia"
+    },
+    "E422": {
+      "def": "The living corpse. Revenant is not a specter but has the attributes of a living person",
+      "src": "ruthenia"
+    },
+    "E425": {
+      "def": "Revenant in human form",
+      "src": "ruthenia-full"
+    },
+    "E715": {
+      "def": "Separable soul kept in animal",
+      "src": "ruthenia-full"
+    },
+    "E738": {
+      "def": "Soul in form of a mythical animal",
+      "src": "ruthenia-full"
+    },
+    "E751.1": {
+      "def": "Souls weighed at Judgment Day",
+      "src": "ruthenia-full"
+    },
+    "F150": {
+      "def": "Access to otherworld",
+      "src": "ruthenia"
+    },
+    "F151": {
+      "def": "Road to otherworld",
+      "src": "ruthenia"
+    },
+    "F156": {
+      "def": "Door to otherworld",
+      "src": "ruthenia"
+    },
+    "F171": {
+      "def": "Extraordinary sights in otherworld",
+      "src": "ruthenia"
+    },
+    "F251": {
+      "def": "Origin of fairies",
+      "src": "ruthenia"
+    },
+    "F251.1": {
+      "def": "Fairies as descendants of early race of gods",
+      "src": "ruthenia"
+    },
+    "F302": {
+      "def": "Fairy mistress",
+      "src": "ruthenia-full"
+    },
+    "F400": {
+      "def": "Spirits and demons (general)",
+      "src": "ruthenia"
+    },
+    "F402": {
+      "def": "Evil spirits",
+      "src": "ruthenia-full"
+    },
+    "F420": {
+      "def": "Water-spirits",
+      "src": "ruthenia"
+    },
+    "F441": {
+      "def": "Vegetation-spirits",
+      "src": "ruthenia"
+    },
+    "F451": {
+      "def": "Dwarfs in otherworld",
+      "src": "ruthenia"
+    },
+    "F460": {
+      "def": "Mountain-spirits",
+      "src": "ruthenia"
+    },
+    "F470": {
+      "def": "Night-spirits",
+      "src": "ruthenia"
+    },
+    "F480": {
+      "def": "House-spirits",
+      "src": "ruthenia"
+    },
+    "F482": {
+      "def": "Brownie (nisse)",
+      "src": "ruthenia-full"
+    },
+    "F531": {
+      "def": "Monstrous persons",
+      "src": "ruthenia"
+    },
+    "F567": {
+      "def": "Wild man",
+      "src": "ruthenia-full"
+    },
+    "F960": {
+      "def": "Extraordinary nature phenomena — elements and weather",
+      "src": "ruthenia"
+    },
+    "G100": {
+      "def": "Giant ogre. Polyphemus",
+      "src": "ruthenia"
+    },
+    "G11": {
+      "def": "Kinds of cannibals",
+      "src": "ruthenia"
+    },
+    "G11.2": {
+      "def": "Cannibal giant",
+      "src": "ruthenia"
+    },
+    "G11.3": {
+      "def": "Cannibal witch",
+      "src": "ruthenia"
+    },
+    "G200": {
+      "def": "Witch",
+      "src": "ruthenia"
+    },
+    "G211": {
+      "def": "Witch in animal form",
+      "src": "ruthenia"
+    },
+    "G261": {
+      "def": "Witch steals children",
+      "src": "ruthenia"
+    },
+    "G261.1": {
+      "def": "Witch steals child with hand through chimney",
+      "src": "ruthenia"
+    },
+    "G262": {
+      "def": "Murderous witch",
+      "src": "ruthenia"
+    },
+    "G262.0.1": {
+      "def": "Lamia. Witch who eats children",
+      "src": "ruthenia"
+    },
+    "G262.0.1.1": {
+      "def": "Lamia devours her lover",
+      "src": "ruthenia"
+    },
+    "G262.1": {
+      "def": "Witch sucks blood",
+      "src": "ruthenia"
+    },
+    "G262.1.1": {
+      "def": "Witch's cat as sucker of blood",
+      "src": "ruthenia"
+    },
+    "G262.1.2": {
+      "def": "Witch sucks blood from woman's or child's breasts",
+      "src": "ruthenia"
+    },
+    "G262.1.3": {
+      "def": "Witches suck blood from the navel of a child without anyone knowing it",
+      "src": "ruthenia"
+    },
+    "G262.2": {
+      "def": "Witch eats person's entrails (heart)",
+      "src": "ruthenia"
+    },
+    "G262.4": {
+      "def": "Witch kills with aid of witch-ball (hair rolled in beeswax)",
+      "src": "ruthenia"
+    },
+    "G262.5": {
+      "def": "Witch takes out man's liver",
+      "src": "ruthenia"
+    },
+    "G263": {
+      "def": "Witch injures, enchants or transforms",
+      "src": "ruthenia"
+    },
+    "G264": {
+      "def": "La Belle Dame Sans Merci. Witch entices men with offers of love and then deserts or destroys them",
+      "src": "ruthenia"
+    },
+    "G300": {
+      "def": "Other ogres",
+      "src": "ruthenia"
+    },
+    "G301": {
+      "def": "Monsters. Usually not clearly defined",
+      "src": "ruthenia"
+    },
+    "G302": {
+      "def": "Demons. Malevolent creatures (not usually further defined)",
+      "src": "ruthenia"
+    },
+    "G302.9.4": {
+      "def": "Demons injure and strangle little children",
+      "src": "ruthenia"
+    },
+    "G303": {
+      "def": "Devil (The Devil, Satan, The Bad Man, Old Nick, etc.)",
+      "src": "ruthenia"
+    },
+    "G307": {
+      "def": "Jinn",
+      "src": "ruthenia-full"
+    },
+    "G308": {
+      "def": "Sea monster",
+      "src": "ruthenia-full"
+    },
+    "G312.3": {
+      "def": "Flesh-eating spirits live in trees",
+      "src": "ruthenia-full"
+    },
+    "G312.5": {
+      "def": "Bhrat, fierce flesh-eating creatures made by Creator in fit of anger",
+      "src": "ruthenia-full"
+    },
+    "G361.3": {
+      "def": "Headless ogre",
+      "src": "ruthenia-full"
+    },
+    "G442": {
+      "def": "Child-stealing demon",
+      "src": "ruthenia-full"
+    }
   }
 }

@@ -12,7 +12,7 @@
 | **Gelenek** | Ityop'ya ✤ · Afrika |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |
-| **Plaka** | `plate-094` |
+| **Plaka** | `plate-088` |
 | **Telaffuz (taslak)** | BOO-dah |
 | **Durum** | `draft` |
 

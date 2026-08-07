@@ -12,10 +12,76 @@
         "name": "Temes Savsap",
         "class": "I",
         "kinFamily": "F",
-        "motif": ["F150"],
+        "motif": [
+          "F150"
+        ],
         "seedNoteTr": "Ölüler diyarının girişinde bekleyen dişi ruh; önündeki kum çizimini tamamlayamayan ölüyü geçirmeyen."
       },
       "replacementRationale": "Deacon'ın Malekula malzemesinde (1934) belgelenmiş, yayımlanmış ve kısıtlanmamış bir EŞİK BEKÇİSİ. Kitabın tezine Kaia'dan çok daha iyi oturuyor: F ailesinin (eşik bekçisi) Okyanusya üyesi olarak Kérberos ve Ḫumbaba'nın yanına giriyor. Sınıf VI → I ve aile — → F değişimi Faz 2'nin sınıf dağılımı uzlaştırmasına devredildi."
+    },
+    {
+      "action": "drop",
+      "id": "almas",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Moğol yaban adamı. İki bağımsız kaynak katalog düzeyinin üstünde doğrulanamadı. Heissig 1980'in tam metni tarandı (390 KB); 'almas' geçmiyor. Kriptozooloji literatürü SOURCING_STANDARD § 2 uyarınca kaynak sayılmaz. Kütüphane erişimiyle Faz 2'de yeniden değerlendirilebilir."
+    },
+    {
+      "action": "drop",
+      "id": "chotgor",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Tek bağımsız kaynak bulunabildi (Heissig 1980) ve o da içerik düzeyinde doğrulanamadı — tam metin taramasında 'chotgor/čötgör' geçmiyor. İki bağımsız kaynak kuralı sağlanamadı."
+    },
+    {
+      "action": "drop",
+      "id": "ganen",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Etiyopya. Tek bağımsız kaynak bulunabildi; ikinci kaynak yok. Adın yayımlanmış literatürde yerleşik bir karşılığı bulunamadı."
+    },
+    {
+      "action": "drop",
+      "id": "kaji",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Gürcü gizli halkı. Wardrop 1894 tam metni tarandı; 'kaji' geçmiyor. Virsaladze 1973 ve Chikovani 1946 gerçek ve mevcut ama içerik düzeyinde doğrulanamıyor (kütüphane erişimi gerekiyor)."
+    },
+    {
+      "action": "drop",
+      "id": "ochokochi",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Megrel orman adamı. Wardrop 1894 tam metninde geçmiyor. Gürcü kaynakları katalog düzeyinde kaldı."
+    },
+    {
+      "action": "drop",
+      "id": "orang-bunian",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Skeat 1900'ün bu maddeyi kapsadığı DOĞRULANAMADI (tam metinde 'Bunian' bulunamadı). Kapsam iddiası geri çekildi; ikinci bağımsız kaynak kesin-yer düzeyinde doğrulanamadı."
+    },
+    {
+      "action": "drop",
+      "id": "rangda",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Belo 1949 (*Bali: Rangda and Barong*, 59 s.) gerçek ve konuyu doğrudan işliyor, ama içerik düzeyinde kesin bir yer doğrulanamadı. Ayrıca Rangda YAŞAYAN bir tören uygulamasının merkezindedir ve maskesi kutsanmış nesnedir — kısıtlılık dikkati zaten yüksekti. Faz 2'de kütüphane erişimiyle yeniden değerlendirilecek."
+    },
+    {
+      "action": "drop",
+      "id": "zar",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Zar bir YARATIK değil bir ilişki/tutulma biçimidir; 'bestiary' maddesi olarak zorlama. Ayrıca kaynaklar kesin-yer düzeyinde doğrulanamadı ve uygulama yaşayandır. Kategorik olarak da kitaba uymuyor."
+    },
+    {
+      "action": "reclassify",
+      "id": "rusalka",
+      "class": "VI",
+      "decidedOn": "2026-08-07",
+      "phase": 1,
+      "reason": "Rusalka IV (Su Sakinleri) olarak tohumlanmıştı. Ama Zelenin'in klasik çalışmasının BAŞLIĞI tezini söylüyor: *Umershie neestestvennoju smert'ju i rusalki* — 'Doğal olmayan ölümle ölenler ve rusalkalar' (Petrograd, 1916). Zelenin rusalkayı 'zaloжnye pokojniki' (huzursuz ölüler) kategorisinin içine yerleştirir: rusalka suda ÖLMÜŞ kızın DÖNÜŞÜDÜR. Sınıf VI (Huzursuz Ölüler) kaynağın kendi tezine uyuyor; sınıf IV yalnızca bulunduğu YERİ tarif ediyordu. Kitabın tasnifi işleve göredir, mekâna göre değil — bu düzeltme o ilkeyi uyguluyor. Yan etki: sınıf IV 25→24 (yol haritası hedefi tam olarak 24), sınıf VI 7→8 (taban)."
     }
   ]
 }

@@ -1,0 +1,170 @@
+{
+  "tradition": "maya",
+  "creatures": [
+    {
+      "id": "camazotz",
+      "name": "Camazotz",
+      "altNames": [],
+      "pronunciation": "kah-mah-SOTS",
+      "sources": [
+        {
+          "ref": "*Popol Vuh*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "İkinci Kitap, Xibalba sınavları"
+        },
+        {
+          "ref": "Mary Miller ve Karl Taube, *An Illustrated Dictionary of the Gods and Symbols of Ancient Mexico and the Maya* (Londra: Thames & Hudson, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Camazotz”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B31.4"
+      ],
+      "motifDefs": {
+        "B31.4": "Giant bat"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31.1 ('Roc') idi — Camazotz yırtıcı kuş değil YARASADIR. Doğrulanan B31.4'ün tanımı doğrudan 'Giant bat'.",
+      "motifChanged": "B31.1 → B31.4. Yarasa kuş değildir.",
+      "region": "Maya; Xibalba'nın beşinci evi (Zotzihá, Yarasa Evi)",
+      "attested": "*Popol Vuh* (Quiché Maya, ~1550 yazıya geçirildi)",
+      "appearance": [
+        "Dev yarasa",
+        "Kesici burunlu"
+      ],
+      "behaviour": "Xibalba'nın Yarasa Evi'ni bekler. Popol Vuh'ta Hunahpú'nun başını keser.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Eşik bekçisi ailesinin (F) Mezoamerika üyesi. Ayrışma: burada bekçi SINAVIN kendisi — ev bir odadır."
+      ]
+    },
+    {
+      "id": "xtabay",
+      "name": "Xtabay",
+      "altNames": [],
+      "pronunciation": "sh-tah-BYE",
+      "sources": [
+        {
+          "ref": "Alfred M. Tozzer, *A Comparative Study of the Mayas and the Lacandones* (New York: Macmillan, 1907)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Mary Miller ve Karl Taube, *An Illustrated Dictionary of the Gods and Symbols of Ancient Mexico and the Maya* (Londra: Thames & Hudson, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Xtabay”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F302"
+      ],
+      "motifDefs": {
+        "F302": "Fairy mistress"
+      },
+      "motifVerified": true,
+      "motifNote": "F302 ('Fairy mistress') doğrulandı ve korundu. Xtabay yolcuyu çeken doğaüstü bir sevgili figürüdür.",
+      "region": "Maya; Yucatán, ceiba ağacı çevresi",
+      "attested": "19.–20. yy Yucatec Maya sözlü derlemeleri",
+      "appearance": [
+        "Uzun siyah saçlı kadın",
+        "Ceiba (yaxché) ağacının dibinde saçını tarar",
+        "Beyaz giysili"
+      ],
+      "behaviour": "Yolcuyu ağaca çağırır; kucakladığında dikene ve pençeye dönüşür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Xtabay G264 ('La Belle Dame Sans Merci') tanımına C ailesinin çoğu üyesinden DAHA çok uyuyor; Faz 2'de değerlendirilecek."
+      ]
+    },
+    {
+      "id": "way",
+      "name": "Way",
+      "altNames": [],
+      "pronunciation": "WHY",
+      "sources": [
+        {
+          "ref": "Klasik Maya seramik yazıtları (MS 600–900), 'way' glifi",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stephen Houston ve David Stuart, \"The Way Glyph: Evidence for Co-essences among the Classic Maya\", *Research Reports on Ancient Maya Writing* 30 (Washington: Center for Maya Research, 1989)",
+          "type": "scholarly",
+          "verification": "article",
+          "locus": "Rapor no. 30",
+          "note": "Numaralı dizi yayını (Research Reports on Ancient Maya Writing 30); yer kesin ve kalıcı."
+        },
+        {
+          "ref": "Mary Miller ve Karl Taube, *An Illustrated Dictionary of the Gods and Symbols of Ancient Mexico and the Maya* (Londra: Thames & Hudson, 1993)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E715"
+      ],
+      "motifDefs": {
+        "E715": "Separable soul kept in animal"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D110 idi — ama way bir DÖNÜŞÜM değil, ayrılabilir bir ruhtur. Doğrulanan E715 ('Separable soul kept in animal') doğru koddur.",
+      "motifChanged": "D110 → E715. Way dönüşmez; AYRILIR.",
+      "region": "Maya; Yucatán, Chiapas, Guatemala yaylaları",
+      "attested": "Klasik dönem seramik yazıtları (MS 600–900); modern etnografi",
+      "appearance": [
+        "Her insanın hayvan eşlikçisi",
+        "Uykuda serbest kalır",
+        "Klasik dönem vazolarında adlandırılmış olarak resmedilir"
+      ],
+      "behaviour": "Uykuda bedenden ayrılır. Way'e verilen zarar sahibine de gelir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Maya toplulukları yaşayan geleneklerdir. Yalnızca yayımlanmış akademik betimleme kullanıldı; çağdaş topluluklara ait tören ve uygulayıcı bilgisi KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Nahual ile ayrışma: Nahual dönüşür, Way ayrılır."
+      ]
+    }
+  ]
+}

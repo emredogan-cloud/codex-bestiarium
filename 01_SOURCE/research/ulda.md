@@ -12,7 +12,7 @@
 | **Gelenek** | Sápmi ❄ · Kutup |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | H · Gizli halk |
-| **Plaka** | `plate-113` |
+| **Plaka** | `plate-105` |
 | **Telaffuz (taslak)** | OOL-dah |
 | **Durum** | `draft` |
 

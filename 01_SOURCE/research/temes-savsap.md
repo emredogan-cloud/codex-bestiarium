@@ -12,7 +12,7 @@
 | **Gelenek** | Melanesia ◉ · Okyanusya |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | F · Eşik bekçisi |
-| **Plaka** | `plate-120` |
+| **Plaka** | `plate-112` |
 | **Telaffuz (taslak)** | TEH-mes SAV-sap |
 | **Durum** | `draft` |
 

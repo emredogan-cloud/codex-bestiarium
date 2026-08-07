@@ -1,0 +1,178 @@
+{
+  "tradition": "sumer",
+  "creatures": [
+    {
+      "id": "humbaba",
+      "name": "Ḫumbaba",
+      "altNames": [
+        "Huwawa"
+      ],
+      "pronunciation": "hoom-BAH-bah",
+      "sources": [
+        {
+          "ref": "*Gılgamış Destanı*, Standart Babil sürümü",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Tablet V"
+        },
+        {
+          "ref": "Jeremy Black ve Anthony Green, *Gods, Demons and Symbols of Ancient Mesopotamia: An Illustrated Dictionary* (Londra: British Museum Press, 1992)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Humbaba”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "F150"
+      ],
+      "motifDefs": {
+        "F150": "Access to otherworld"
+      },
+      "motifVerified": true,
+      "motifNote": "F150 ('Access to otherworld') doğrulandı ve korundu. Ḫumbaba sedir ormanının — girilmesi yasak bölgenin — bekçisidir; işlevi eşiği tutmaktır.",
+      "region": "Sumer/Akkad; Sedir Ormanı (Lübnan veya Zagros)",
+      "attested": "*Gılgamış Destanı*, Standart Babil sürümü (MÖ ~1200); Sumerce 'Gılgamış ve Huwawa' (MÖ ~2000)",
+      "appearance": [
+        "Yüzü bağırsak kıvrımlarından örülmüş (Eski Babil betimleme tabletleri)",
+        "Sesi tufan",
+        "Yedi 'korkunç ışıltı' (melammu) taşır"
+      ],
+      "behaviour": "Sedir ormanını bekler. Gılgamış ve Enkidu onu öldürür; Enkidu'nun ölümü bu suçun bedeli olarak anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Eşik bekçisi ailesinin (F) Yakın Doğu üyesi.",
+        "Yüzün bağırsak kıvrımı olması: kil tabletlerde GERÇEKTEN böyle betimlenir — uydurma değil."
+      ]
+    },
+    {
+      "id": "anzu",
+      "name": "Anzû",
+      "altNames": [
+        "Imdugud",
+        "Zû"
+      ],
+      "pronunciation": "AN-zoo",
+      "sources": [
+        {
+          "ref": "*Anzû Destanı*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Tablet I–III"
+        },
+        {
+          "ref": "Jeremy Black ve Anthony Green, *Gods, Demons and Symbols of Ancient Mesopotamia: An Illustrated Dictionary* (Londra: British Museum Press, 1992)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Anzu”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B31.1"
+      ],
+      "motifDefs": {
+        "B31.1": "Roc"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DÜZELTİLDİ. Tohum B31 idi; B31 bölüm başlığıdır (Giant birds). Doğrulanan B31.1 ('Roc. A giant bird which carries off men in its claws') Anzû'nun dev yırtıcı kuş biçimini tasnif eder.",
+      "motifChanged": "B31 → B31.1 (B31 bölüm başlığıdır).",
+      "region": "Sumer/Akkad; Ekur tapınağı ve dağlar",
+      "attested": "*Anzû Destanı* (Eski Babil ve Standart Babil sürümleri); Sumerce Lugalbanda döngüsü",
+      "appearance": [
+        "Aslan başlı dev kuş",
+        "Kartal gövdeli"
+      ],
+      "behaviour": "Kader Tabletleri'ni Enlil'den çalar; Ninurta onu yener. Hırsızlık kozmik düzeni askıya alır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) Mezopotamya üyesi ve tek HIRSIZ üyesi."
+      ]
+    },
+    {
+      "id": "lamashtu",
+      "name": "Lamashtu",
+      "altNames": [],
+      "pronunciation": "lah-MASH-too",
+      "sources": [
+        {
+          "ref": "Lamaštu serisi tabletleri ve muska metinleri (Eski Babil–Yeni Asur)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Jeremy Black ve Anthony Green, *Gods, Demons and Symbols of Ancient Mesopotamia: An Illustrated Dictionary* (Londra: British Museum Press, 1992)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Lamashtu”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G442"
+      ],
+      "motifDefs": {
+        "G442": "Child-stealing demon"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci') idi — Lamashtu erkekleri baştan çıkarmaz, ÇOCUK ÇALAR. Doğrulanan G442 ('Child-stealing demon') tam tanımdır. G302.9.4 ('Demons injure and strangle little children') da uygundur ve maddede anılacak.",
+      "motifChanged": "G264 → G442. Ayrıntı: SCOPE_DECISIONS.md § 5①.",
+      "region": "Sumer/Akkad/Asur; doğum odası",
+      "attested": "Eski Babil dönemi muskaları (MÖ ~1800'den itibaren); Lamaštu serisi tabletleri",
+      "appearance": [
+        "Aslan başlı",
+        "Eşek dişli",
+        "Kuş pençeli",
+        "Göğsünde köpek ve domuz emzirirken betimlenir"
+      ],
+      "behaviour": "Loğusanın yanına sokulur; çocuğu emzirir gibi yapıp kaçırır. Muskalarla ve Pazuzu figürüyle uzaklaştırılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) en eski KAYITLI üyesi — muskalar MÖ 2. binyıla iner.",
+        "Pazuzu ile ilişkisi: bir iblisin başka bir iblisle kovulması. Maddenin 5. bölümü."
+      ]
+    }
+  ]
+}

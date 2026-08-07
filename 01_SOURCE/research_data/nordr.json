@@ -1,0 +1,172 @@
+{
+  "tradition": "nordr",
+  "creatures": [
+    {
+      "id": "fenrir",
+      "name": "Fenrir",
+      "altNames": [],
+      "pronunciation": "FEN-rir",
+      "sources": [
+        {
+          "ref": "Snorri Sturluson, *Gylfaginning*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "34"
+        },
+        {
+          "ref": "*Völuspá*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "44–49"
+        },
+        {
+          "ref": "John Lindow, *Norse Mythology: A Guide to Gods, Heroes, Rituals, and Beliefs* (Oxford: Oxford University Press, 2001)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B871"
+      ],
+      "motifDefs": {
+        "B871": "Giant beasts"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B871.1 ('Giant domestic beasts') idi — kurt EVCİL DEĞİLDİR. Doğrulanan B871 ('Giant beasts') üst kodu kullanıldı. Thompson'da özel bir 'dev kurt' alt kodu bulunamadı; doğrulanmamış alt kod uydurmaktansa doğrulanmış üst kod yazıldı.",
+      "motifChanged": "B871.1 → B871. Kurt evcil hayvan değildir.",
+      "region": "Norðr; Ásgarðr ve Lyngvi adası",
+      "attested": "*Gylfaginning* (Snorri Sturluson, ~1220); *Völuspá* (13. yy Codex Regius)",
+      "appearance": [
+        "Dev kurt",
+        "Ağzı açıldığında çenesi yeri ve göğü tutar (Gylfaginning)"
+      ],
+      "behaviour": "Bağlanmak için Týr'ın elini alır. Gleipnir ile bağlanır; Ragnarök'te zinciri kırar ve Óðinn'i yutar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Týr'ın eli: kurala uymanın bedeli. Maddenin 5. bölümü bunu taşımalı."
+      ]
+    },
+    {
+      "id": "jormungandr",
+      "name": "Jörmungandr",
+      "altNames": [
+        "Miðgarðsormr"
+      ],
+      "pronunciation": "YUR-mun-gand-r",
+      "sources": [
+        {
+          "ref": "Snorri Sturluson, *Gylfaginning*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "34, 48"
+        },
+        {
+          "ref": "*Hymiskviða*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "21–24"
+        },
+        {
+          "ref": "John Lindow, *Norse Mythology* (Oxford: Oxford University Press, 2001)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2.1.1"
+      ],
+      "motifDefs": {
+        "B11.2.1.1": "Dragon as modified serpent"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2.1.1 ('Dragon as modified serpent') doğrulandı ve korundu. Miðgarðsormr bir ejderha değil, dünyayı çevreleyen YILANDIR.",
+      "region": "Norðr; Miðgarðr'ı çevreleyen dış deniz",
+      "attested": "*Gylfaginning* (~1220); *Hymiskviða*; Gosforth ve Altuna taş kabartmaları (10.–11. yy)",
+      "appearance": [
+        "Dünyayı çevreleyecek uzunlukta deniz yılanı",
+        "Kendi kuyruğunu ısırır"
+      ],
+      "behaviour": "Denizin dibinde yatar. Þórr onu iki kez karşılar: Hymir'in teknesinde oltayla, Ragnarök'te ölümüne.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) çıpası."
+      ]
+    },
+    {
+      "id": "draugr",
+      "name": "Draugr",
+      "altNames": [],
+      "pronunciation": "DROU-gr",
+      "sources": [
+        {
+          "ref": "*Grettis saga Ásmundarsonar*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "32–35 (Glámr bölümü)"
+        },
+        {
+          "ref": "*Eyrbyggja saga*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "51–55 (Fróðá harikaları)"
+        },
+        {
+          "ref": "Hilda Roderick Ellis Davidson, *The Road to Hel: A Study of the Conception of the Dead in Old Norse Literature* (Cambridge: Cambridge University Press, 1943)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E422"
+      ],
+      "motifDefs": {
+        "E422": "The living corpse. Revenant is not a specter but has the attributes of a living person"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum E230 ('Return from dead to inflict punishment') idi; draugr ceza için dönmez, HİÇ GİTMEZ. Doğrulanan E422 ('The living corpse. Revenant is not a specter but has the attributes of a living person') draugr'ın tanımıdır: hayalet değil, ağırlaşmış ve güçlenmiş bir CESET.",
+      "motifChanged": "E230 → E422. Draugr bir hayalet değil, yürüyen bir cesettir.",
+      "region": "Norðr; İzlanda ve Norveç saga coğrafyası, höyük mezarlar",
+      "attested": "*Grettis saga* (14. yy, olaylar 11. yy); *Eyrbyggja saga* (13. yy)",
+      "appearance": [
+        "Şişmiş ve ağırlaşmış ceset",
+        "Ölü mavisi veya kara ten (*hel-blár*)",
+        "İnsanüstü ağırlık ve güç"
+      ],
+      "behaviour": "Höyüğünde yatar ve malını bekler. Grettis saga'da Glámr, öldürüldükten sonra çiftliği basar; Grettir onunla güreşir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Huzursuz ölüler sınıfının çıpası: draugr FİZİKSELDİR ve bu onu Lemures'ten ayırır."
+      ]
+    }
+  ]
+}

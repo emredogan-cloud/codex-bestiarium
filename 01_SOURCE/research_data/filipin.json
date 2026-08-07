@@ -1,0 +1,168 @@
+{
+  "tradition": "filipin",
+  "creatures": [
+    {
+      "id": "aswang",
+      "name": "Aswang",
+      "altNames": [],
+      "pronunciation": "AHS-wahng",
+      "sources": [
+        {
+          "ref": "Maximo D. Ramos, *The Creatures of Midnight: Faded Deities of Luzon, the Visayas and Mindanao* (Quezon City: Island Publishers, 1967)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Frank Lynch, \"An mga asuwang: A Bicol Belief\", *Philippine Social Sciences and Humanities Review* 14:4 (1949), 401–427",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Aswang”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.1"
+      ],
+      "motifDefs": {
+        "G262.1": "Witch sucks blood"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1 ('Witch sucks blood') aswang'ın tanımlayıcı eylemini karşılıyor. Not: 'aswang' Filipinler'de bir KATEGORİ adıdır ve alt türleri kapsar.",
+      "motifChanged": "G262 → G262.1.",
+      "region": "Filipinler; Batı Visayas (özellikle Capiz, Antique, Iloilo)",
+      "attested": "İspanyol sömürge dönemi kayıtları (17. yy); 20. yy saha derlemeleri",
+      "appearance": [
+        "Gündüz sıradan bir komşu",
+        "Gece uzun dilli veya kanatlı",
+        "Gözbebekleri ters yansıtır (tanıma işareti)"
+      ],
+      "behaviour": "Gündüz komşu, gece yiyicidir. Ölüyü ve doğmamışı arar; cesedin yerine muz gövdesinden yapılmış bir kopya bırakır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Aswang suçlaması Filipinler'de GERÇEK insanlara — özellikle Capiz sakinlerine — yöneltilmiş ve damgalama üretmiştir. Madde suçlamayı yeniden üretmeyecek; Buda ve Adze maddeleriyle aynı etik dikkat uygulanacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Aswang bir tür değil bir KATEGORİ; madde bunu ilk cümlede söylemeli."
+      ]
+    },
+    {
+      "id": "manananggal",
+      "name": "Manananggal",
+      "altNames": [],
+      "pronunciation": "mah-nah-nahng-GAHL",
+      "sources": [
+        {
+          "ref": "Maximo D. Ramos, *The Creatures of Midnight* (Quezon City: Island Publishers, 1967)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Frank Lynch, \"An mga asuwang: A Bicol Belief\", *Philippine Social Sciences and Humanities Review* 14:4 (1949), 401–427",
+          "type": "scholarly",
+          "verification": "article"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Manananggal”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.1"
+      ],
+      "motifDefs": {
+        "G262.1": "Witch sucks blood"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. G262.1 ('Witch sucks blood') manananggal'ın eylemini karşılıyor. Adı Tagalogca 'tanggal' (ayrılmak) kökünden gelir ve gövdenin ikiye ayrılması tanımlayıcıdır.",
+      "region": "Filipinler; Visayas ve Luzon",
+      "attested": "İspanyol sömürge dönemi kayıtları; Ramos derlemeleri (20. yy)",
+      "appearance": [
+        "Belden ayrılan üst gövde",
+        "Yarasa kanatları",
+        "Uzun hortum benzeri dil"
+      ],
+      "behaviour": "Geceleri belinden ayrılır ve uçar; gebe kadınların ceninlerini hortumuyla emer. Alt gövdesi gizli bir yerde bekler.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Alt gövdeye tuz veya kül dökmek — üst gövde geri dönemez.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Aswang kategorisiyle aynı etik dikkat: suçlama yeniden üretilmeyecek.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) en anatomik üyesi: ayrılma noktası GÖRÜNÜR."
+      ]
+    },
+    {
+      "id": "tikbalang",
+      "name": "Tikbalang",
+      "altNames": [],
+      "pronunciation": "tik-bah-LAHNG",
+      "sources": [
+        {
+          "ref": "Maximo D. Ramos, *The Creatures of Midnight* (Quezon City: Island Publishers, 1967)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Maximo D. Ramos, *Philippine Demonological Legends and Their Cultural Bearings* (Quezon City: Phoenix, 1971)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Tikbalang”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B184.1"
+      ],
+      "motifDefs": {
+        "B184.1": "Magic horse"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. B184.1 ('Magic horse') tikbalang'ı tasnif eder. Su atı ailesinin (A) çıpası B184.1.3 ('Magic horse from water world') ama tikbalang SUYA bağlı değildir — bu ayrım maddede söylenecek ve Faz 2'de aile üyeliği gözden geçirilecek.",
+      "region": "Filipinler; Luzon, ıssız yol ve bambu korulukları",
+      "attested": "İspanyol sömürge dönemi kayıtları; Ramos derlemeleri",
+      "appearance": [
+        "At başlı, insan gövdeli",
+        "Aşırı uzun bacaklar — oturduğunda dizleri başını aşar",
+        "Ensesinde üç altın kıl"
+      ],
+      "behaviour": "Yolcuyu daireler çizdirerek kaybettirir. Gömleğini ters giymek yolu geri açar; ensesindeki üç altın kıl koparılırsa hizmet eder.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Gömleği ters giymek.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "⚠ Su atı ailesinde (A) ama SUYA bağlı değil. Faz 2'de üyelik kararı verilmeli — aile 'su atı' ise tikbalang dışarıda kalabilir."
+      ]
+    }
+  ]
+}

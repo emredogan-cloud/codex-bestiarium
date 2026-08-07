@@ -12,7 +12,7 @@
 | **Gelenek** | Hayk ✚ · Kafkasya |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | E · Derinlerin yılanı |
-| **Plaka** | `plate-085` |
+| **Plaka** | `plate-081` |
 | **Telaffuz (taslak)** | vee-SHAHP |
 | **Durum** | `draft` |
 

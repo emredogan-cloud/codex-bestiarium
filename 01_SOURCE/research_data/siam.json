@@ -1,0 +1,175 @@
+{
+  "tradition": "siam",
+  "creatures": [
+    {
+      "id": "phaya-nak",
+      "name": "Phaya Nak",
+      "altNames": [],
+      "pronunciation": "pah-YAH NAHK",
+      "sources": [
+        {
+          "ref": "Phya Anuman Rajadhon, *Essays on Thai Folklore* (Bangkok: Thai Inter-Religious Commission for Development, 1968)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Justin Thomas McDaniel, *The Lovelorn Ghost and the Magical Monk: Practicing Buddhism in Modern Thailand* (New York: Columbia University Press, 2011)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Naga, Thai”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B91.1"
+      ],
+      "motifDefs": {
+        "B91.1": "Naga. Serpent demon"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B91 ('Mythical serpent') idi; doğrulanan B91.1 ('Naga. Serpent demon') Phaya Nak'ın Hint nāga geleneğinin Tayland kolu olduğunu doğru tasnif eder.",
+      "motifChanged": "B91 → B91.1.",
+      "region": "Siam (Tayland) ve Laos; Mekong ırmağı",
+      "attested": "Tayland ve Lao sözlü geleneği; Budist kanon uyarlamaları",
+      "appearance": [
+        "Büyük yılan",
+        "Başında çok sayıda başlık",
+        "Mekong'un altındaki şehirlerde yaşadığı anlatılır"
+      ],
+      "behaviour": "Mekong'un altındaki şehirlerin efendisi. Her yıl Ekim'de ırmaktan yükselen ışık topları (bang fai phaya nak) ona atfedilir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Phaya Nak YAŞAYAN bir tapım nesnesidir. Tapınak uygulaması, adak ve dua metni KULLANILMAZ; yalnızca yayımlanmış akademik betimleme kullanılır.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Ateş topları: yıllık, tarihli, gözlemlenebilir bir olay. 'Attested' kuralının en güçlü örneklerinden."
+      ]
+    },
+    {
+      "id": "krasue",
+      "name": "Krasue",
+      "altNames": [
+        "Kasu",
+        "Ap (Kamboçya)",
+        "Phi Krasue"
+      ],
+      "pronunciation": "krah-SOO-eh",
+      "sources": [
+        {
+          "ref": "Phya Anuman Rajadhon, *Essays on Thai Folklore* (Bangkok: Thai Inter-Religious Commission for Development, 1968)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Justin Thomas McDaniel, *The Lovelorn Ghost and the Magical Monk* (New York: Columbia University Press, 2011)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Krasue”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.1"
+      ],
+      "motifDefs": {
+        "G262.1": "Witch sucks blood"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1 ('Witch sucks blood') krasue'nin tanımlayıcı eylemini karşılıyor.",
+      "motifChanged": "G262 → G262.1.",
+      "region": "Siam (Tayland); kırsal, gece",
+      "attested": "Tayland sözlü geleneği; 20. yy derlemeler",
+      "appearance": [
+        "Gövdeden ayrılmış kadın başı",
+        "Baştan sarkan iç organlar (mide, bağırsak, akciğer)",
+        "Geceleri parlar"
+      ],
+      "behaviour": "Geceleri uçar; doğum yapanın kanını ve lohusalık artıklarını arar. Gövdesi gizli bir yerde bekler.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Krasue, Tayland korku sinemasının merkezî figürü. Tek cümlede ve 'modern' etiketiyle anılacak.",
+      "writingNotes": [
+        "Uçan baş kümesinin (Ma lai, Manananggal, Penanggalan) Tayland üyesi."
+      ]
+    },
+    {
+      "id": "kinnari",
+      "name": "Kinnarī",
+      "altNames": [
+        "Kinnara (eril)",
+        "Kinnaree"
+      ],
+      "pronunciation": "kin-nah-REE",
+      "sources": [
+        {
+          "ref": "*Paññāsa Jātaka*, Sudhana-Manoharā anlatısı",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Phya Anuman Rajadhon, *Essays on Thai Folklore* (Bangkok, 1968)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Kinnara”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B52"
+      ],
+      "motifDefs": {
+        "B52": "Harpy. Bird with arms and breasts of woman"
+      },
+      "motifVerified": true,
+      "motifNote": "B52 ('Harpy. Bird with arms and breasts of woman') doğrulandı ve korundu. Thompson'ın kaynakçasında Budist gelenek doğrudan anılır; kinnarī bu tipin Güneydoğu Asya üyesidir.",
+      "region": "Siam ve Güneydoğu Asya; Himavanta ormanı (mitik)",
+      "attested": "Pali Jātaka geleneği; *Traibhumikatha* (14. yy Tayland kozmolojisi)",
+      "appearance": [
+        "Belden yukarısı kadın, aşağısı kuş",
+        "Süslü kanatlar ve kuyruk"
+      ],
+      "behaviour": "Himavanta ormanında yaşar ve şarkı söyler. Manohara Jātaka'sında bir kinnarī avlanır ve bir prensle evlenir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Harpy koduyla paylaşım tuhaf ve öğretici: Yunan harpyia yırtıcı, kinnarī şarkıcı. Aynı biçim, karşıt ahlak."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "tradition": "anishinaabe",
+  "creatures": [
+    {
+      "id": "mishipeshu",
+      "name": "Mishipeshu",
+      "altNames": [
+        "Mishibizhiw",
+        "Michipeshu"
+      ],
+      "pronunciation": "mish-ee-PESH-oo",
+      "sources": [
+        {
+          "ref": "*The Jesuit Relations and Allied Documents*, yay. haz. Reuben Gold Thwaites (Cleveland: Burrows, 1896–1901)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Selwyn Dewdney ve Kenneth E. Kidd, *Indian Rock Paintings of the Great Lakes* (Toronto: University of Toronto Press, 1962)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Mishipeshu”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B16"
+      ],
+      "motifDefs": {
+        "B16": "Devastating animals"
+      },
+      "motifVerified": true,
+      "motifNote": "B16 ('Devastating animals') doğrulandı ve korundu. Mishipeshu göllerde fırtına ve boğulma getiren bir varlıktır.",
+      "region": "Anishinaabe; Yukarı Göller, özellikle Superior Gölü",
+      "attested": "Cizvit Relations (17. yy); Agawa Kayası piktografları; 19.–20. yy derlemeler",
+      "appearance": [
+        "Panter benzeri",
+        "Bakır pullu ve dikenli sırt",
+        "Uzun bakır kuyruk"
+      ],
+      "behaviour": "Göllerin altında yaşar. Kuyruğunu sallayınca fırtına ve dalga çıkar; bakır alanları koruduğu anlatılır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Anishinaabe gelenekleri YAŞAYANDIR. Midewiwin bilgisi, tören, kutsal yer ve topluluk-özel anlatı KULLANILMAZ. Agawa Kayası piktografları yayımlanmış arkeolojik kayıttan anılır; plakada piktograf birebir çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Animikii'nin ezelî karşıtı: su ve gök. Bu ikilik Anishinaabe kozmolojisinin ekseni ve maddede söylenecek."
+      ]
+    },
+    {
+      "id": "animikii",
+      "name": "Animikii",
+      "altNames": [
+        "Animikii-binesi",
+        "Thunderbird"
+      ],
+      "pronunciation": "ah-nee-MEE-kee",
+      "sources": [
+        {
+          "ref": "*The Jesuit Relations and Allied Documents* (Cleveland: Burrows, 1896–1901)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Christopher Vecsey, *Traditional Ojibwa Religion and Its Historical Changes* (Philadelphia: American Philosophical Society, 1983)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Thunderbird”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "A284.2"
+      ],
+      "motifDefs": {
+        "A284.2": "Thunderbird"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31.1 ('Roc') idi — animikii yük taşıyan dev kuş değil GÖK GÜRÜLTÜSÜ kuşudur. Doğrulanan A284.2 ('Thunderbird') tam tanımdır.",
+      "motifChanged": "B31.1 → A284.2.",
+      "region": "Anishinaabe; Yukarı Göller bölgesi",
+      "attested": "Cizvit Relations (17. yy); 19.–20. yy derlemeler",
+      "appearance": [
+        "Dev kuş",
+        "Kanat çırpışı gök gürültüsü",
+        "Gözlerinden şimşek"
+      ],
+      "behaviour": "Gök gürültüsünü getirir. Su varlıklarının — özellikle Mishipeshu'nun — ezelî karşıtı.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Anishinaabe gelenekleri yaşayandır. Midewiwin bilgisi, tören ve klan (doodem) işareti KULLANILMAZ; plakada klan işareti çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) Kuzey Amerika üyesi. Ayrışma: tek KARŞITI olan üye — düşmanı adı konmuş."
+      ]
+    },
+    {
+      "id": "windigo",
+      "name": "Windigo",
+      "altNames": [
+        "Wendigo",
+        "Wiindigoo"
+      ],
+      "pronunciation": "WIN-dee-go",
+      "sources": [
+        {
+          "ref": "*The Jesuit Relations and Allied Documents* (Cleveland: Burrows, 1896–1901)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Christopher Vecsey, *Traditional Ojibwa Religion and Its Historical Changes* (Philadelphia: American Philosophical Society, 1983)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Windigo”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G11.2"
+      ],
+      "motifDefs": {
+        "G11.2": "Cannibal giant"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G11 ('Kinds of cannibals') bölüm başlığıydı; doğrulanan G11.2 ('Cannibal giant') windigo'nun dev boyu ve yamyamlığını birlikte tasnif eder.",
+      "region": "Anishinaabe ve Algonkin dilli halklar; kuzey ormanları",
+      "attested": "Cizvit Relations (17. yy); 19.–20. yy kayıtlar",
+      "appearance": [
+        "İskelet gibi zayıf",
+        "Buz kalpli olarak anlatılır",
+        "Yedikçe büyür — orantısı hiç değişmez"
+      ],
+      "behaviour": "Açlıktan doğar. Yedikçe büyüdüğü için asla doymaz; açlığın kendisi kişileşmiştir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Windigo YAŞAYAN bir geleneğin parçasıdır ve 'windigo psikozu' tanısı sömürge psikiyatrisinin tartışmalı bir kurgusudur. Madde bu tanıyı YENİDEN ÜRETMEYECEK. Tören, şifa uygulaması ve topluluk-özel anlatı KULLANILMAZ.",
+      "modern": "Windigo, 20.–21. yy korku edebiyatı ve sinemasında yoğun kullanılmıştır. Tek cümlede ve 'modern' etiketiyle anılacak.",
+      "writingNotes": [
+        "Yedikçe büyüme: kitabın en saf 'doymayan' fikri ve yutucular sınıfının kapanış maddesi olmaya aday."
+      ]
+    }
+  ]
+}

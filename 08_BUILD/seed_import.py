@@ -351,6 +351,13 @@ def build_spec(traditions: list[dict], creatures: list[dict]) -> dict:
     creatures = apply_amendments(creatures, amendments)
     assign_ids(creatures)
 
+    # Düşen maddelerden sonra numaralar YENİDEN verilir. Aksi hâlde dizide
+    # boşluk kalır (…118, 120) ve hem validate_spec'in "1..N kesintisiz"
+    # kuralı hem de plaka kimlikleri (plate-NNN) bozulur.
+    creatures.sort(key=lambda c: c["number"])
+    for i, c in enumerate(creatures, 1):
+        c["number"] = i
+
     # Gelenek başına madde sayısı düşen maddelerden sonra yeniden sayılır
     counts: dict[str, int] = {}
     for c in creatures:

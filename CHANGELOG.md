@@ -12,49 +12,73 @@ sayılar, açık kalanlar.
 
 ---
 
-## [Yayımlanmamış] — Faz 1 sürüyor
+## [Yayımlanmamış]
+
+### Sıradaki
+- Faz 2 · Tasnif, veri modeli ve pilot plaka seti — **kurucu onayı bekliyor**
+
+---
+
+## [0.1.0] — 2026-08-07
+
+**FAZ 1 TAMAMLANDI.** Kapsam kilitlendi: **112 yaratık · 40 gelenek**.
 
 ### Eklenenler
-- `00_CONTEXT/SOURCING_STANDARD.md` — "iki bağımsız kaynak"ın işletilebilir tanımı
-- `08_BUILD/research_gen.py` — araştırma verisinden 120 uniform dosya + spec senkronu
-- `01_SOURCE/motif_index.json` — **67 doğrulanmış Thompson kodu**
-- `01_SOURCE/scope_amendments.json` — kapsam kararları katmanı
-- 24 araştırma dosyası (zor sekiz gelenek)
+- 112 araştırma dosyası (`01_SOURCE/research/`) — hepsi kapıdan geçti
+- `01_SOURCE/motif_index.json` — **123 doğrulanmış Thompson kodu**
+- `01_SOURCE/motif_index_full.json` — **24.975 kod**, tam nüshadan ayrıştırıldı
+- `01_SOURCE/research_data/` — 40 gelenek dosyası (araştırmanın kaynağı)
+- `00_CONTEXT/SOURCING_STANDARD.md` — kaynak gösterme ölçütü
+- `08_BUILD/research_gen.py` — araştırma → 112 uniform dosya + spec senkronu
+- `editions.py` → `verify_royalties()` — fiyat/telif doğrulaması
 - `STYLE.md` — Cilt 1'den **üç gerçek** ses kalibrasyon paragrafı
-- `editions.py` — Bestiarium sürümleri + `verify_royalties()`
+
+### Kapsam kilidi
+| | |
+|---|---:|
+| Aday | 120 |
+| **Kilitlenen** | **112** |
+| Düşürülen | 8 |
+| Değiştirilen | 1 (Kaia → Temes Savsap) |
+| Yeniden sınıflandırılan | 1 (Rusalka IV → VI) |
+| Doğrulanmış | **112 (%100)** |
+
+Düşen sekiz maddenin gerekçesi `SCOPE_DECISIONS.md` § 3'te. **Kırk gelenek
+iddiası korundu** — hiçbir gelenek tamamen boşalmadı.
 
 ### Kararlar
 | # | Karar | Gerekçe |
 |---|---|---|
-| D11 | Araştırma **türetilir**, elle yazılmaz | 120 markdown dosyasını elle tutarlı tutmak, 120 spec kaydını elle tutmakla aynı sorun. `seed_import` kararı burada da geçerli: TÜRET, YAZMA. |
-| D12 | Doğrulama gücü "okudum mu" değil "**okur gidip bakabilir mi**" | *Völuspá* 45 her baskıda aynı kıtadır; JRAI 64 (1934), 129–175 her kütüphanede aynı makaledir. `canon` ve `article` bu yüzden güçlü sayılır. |
-| D13 | Kapsam kararları tohum tablosunu **değiştirmez**, üstüne biner | Tablo master yol haritasının malıdır ve `--check` onunla karşılaştırır. Kararlar ayrı katmanda durur ve denetlenebilir kalır. |
-| D14 | **Kaia düştü**, yerine Temes Savsap | Kaia bir yaratık değil, hevehe **maske adı**; malzeme başlatma töreni kısıtlı. |
-| D15 | Motif kodu tohuma **sadık kalmaz, doğruya kalır** | İki sistematik hata bulundu (G264, B31) ve düzeltildi. |
+| D16 | Kapsam **112'de** kilitlendi, 100'de değil | Yol haritası "<112 ise kapsam 100'e iner" der. Ama 112 doğrulandı; tabana inmek doğrulanmış malzemeyi ATMAK olurdu. |
+| D17 | `sv` (sub verbo) güçlü doğrulama sayıldı | SOURCING_STANDARD § 3 zaten `s.v.`'yi kesin yer sayıyordu; § 4'ün tablosu bunu yansıtmıyordu. İki bölüm çelişiyordu; çelişki giderildi. Ölçüt değişmedi: *okur kesin bir yere gidebiliyor mu*. |
+| D18 | Düşen maddelerin araştırma dosyaları **korundu** | `09_ARCHIVE/dropped-research/`. Yapılan iş ve düşürme gerekçesi kayıt altında kalmalı. |
+| D19 | Rusalka IV → VI | Zelenin 1916'nın BAŞLIĞI tezini söylüyor: *"Doğal olmayan ölümle ölenler ve rusalkalar"*. Tasnif işleve göredir, mekâna göre değil. |
+| D20 | `selftest` kapı testi **dinamikleştirildi** | "phase1 kapalı olmalı" varsayımı Faz 1 bitince kendini yanlışlıyordu. Artık `.gate`i okuyup BİR ÜSTÜNÜN kapalı olduğunu sınıyor. |
 
-### Bulunan iki sistematik motif hatası
-- **G264 gece cadısı ailesinin kodu değil.** Doğrulanan tanımı *"La Belle Dame
-  Sans Merci — Witch entices men with offers of love"* — **erkekleri** baştan
-  çıkaran bir figür. 14 maddenin tamamı yanlış kodlanmıştı. Doğrusu
-  **`G262.0.1` "Lamia. Witch who eats children"**.
-- **B31 'Roc'tur, 'fırtına kuşu' değil.** Sīmurgh `B31.5`, Garuḍa `B56`,
-  Ziz `B31.1.0.1`. Fırtına kuşları için `A284` ("God of thunder") aday.
+### Motif kodu düzeltmeleri — **20 tohum kodu düzeltildi**
+İki **sistematik** hata bulundu ve yazımdan önce giderildi:
+- **`G264` gece cadısı ailesinin kodu değil.** Tanımı *"La Belle Dame Sans
+  Merci — witch entices **men** with offers of love"*. 14 madde yanlış
+  kodlanmıştı. Doğrusu `G262.0.1` / `G442` / `G262.1` ailesi.
+- **`B31` bölüm başlığıdır, `B31.1` 'Roc'tur.** Sīmurgh `B31.5`, Garuḍa `B56`,
+  Ziz `B31.1.0.1`, Camazotz `B31.4`, fırtına kuşları `A284.2`.
 
-Ayrıca altı tekil düzeltme (D113.1 kurt≠tilki, D113.2 sırtlan≠köpekgil, …).
-Ayrıntı: [`00_CONTEXT/SCOPE_DECISIONS.md`](00_CONTEXT/SCOPE_DECISIONS.md) § 5.
+> ⚠ Önceki turda `B31`'in 'Roc' olduğu **yanlış** kaydedilmişti; tam nüsha
+> ayrıştırması düzeltti. Tohum tablosunun Rukh için verdiği `B31.1` baştan
+> doğruydu.
+
+Ayrıca 18 tekil düzeltme (`D113.1` kurt≠tilki, `D113.2` sırtlan≠köpekgil,
+`A812` earth-diver≠gövdeden-yeryüzü, `B733`→`E17` diriltme, …).
 
 ### Ölçülenler
 | | |
 |---|---:|
-| Araştırılmış madde | 24/120 |
-| Kapıdan geçen | 11 |
-| Zor sekiz gelenek | tamamlandı · geçiş %54 |
-| Doğrulanmış motif kodu | 67 |
-| Düzeltilen tohum kodu | 8 |
-
-### Sıradaki
-- Kalan 96 maddenin araştırması
-- Kapsam kilidi (≥112 doğrulanmış madde kapısı)
+| Araştırma dosyası | 112 |
+| Bağımsız kaynak künyesi | 328 |
+| Madde başına ortalama künye | 2.9 |
+| Doğrulanmış motif kodu | 123 |
+| Çıkarılan motif kodu (tam nüsha) | 24.975 |
+| Kısıtlılık taraması | 112/112 |
 
 ---
 

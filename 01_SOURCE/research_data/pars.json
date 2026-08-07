@@ -1,0 +1,181 @@
+{
+  "tradition": "pars",
+  "creatures": [
+    {
+      "id": "simurgh",
+      "name": "Sīmurgh",
+      "altNames": [
+        "Simorgh",
+        "Senmurv",
+        "Saēna"
+      ],
+      "pronunciation": "see-MOORG",
+      "sources": [
+        {
+          "ref": "Firdevsî, *Şahnâme*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Zal ve Rüstem bölümleri"
+        },
+        {
+          "ref": "*Avesta*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Yašt 14"
+        },
+        {
+          "ref": "Arthur Christensen, *Les Kayanides* (Kopenhag: Høst, 1931)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B31.5"
+      ],
+      "motifDefs": {
+        "B31.5": "Simorg: giant bird"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi (bölüm başlığı). Doğrulanan B31.5'in tanımı doğrudan 'Simorg: giant bird' — kod bu maddenin adını taşıyor.",
+      "motifChanged": "B31 → B31.5. Ayrıntı: SCOPE_DECISIONS.md § 5②.",
+      "region": "Pārs; Elburz dağı (Alborz)",
+      "attested": "*Avesta* (Yašt 14, saēna kuşu); Firdevsî, *Şahnâme* (1010)",
+      "appearance": [
+        "Devasa kuş; kanat açıklığı bulutu kaplar",
+        "Tüyü şifa verir",
+        "Köpek başlı olarak da betimlenir (erken kayıt)"
+      ],
+      "behaviour": "Zal'ı Elburz'da büyütür. Tüyü yakıldığında gelir; Rüstem'in doğumunda ve Isfendiyar'la savaşında yol gösterir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) tek BİLGE üyesi ve kapak adayı."
+      ]
+    },
+    {
+      "id": "azi-dahaka",
+      "name": "Aži Dahāka",
+      "altNames": [
+        "Zahhâk",
+        "Dahāg"
+      ],
+      "pronunciation": "ah-ZHEE dah-HAH-kah",
+      "sources": [
+        {
+          "ref": "*Avesta*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Yašt 9.14, Yašt 19.37"
+        },
+        {
+          "ref": "Firdevsî, *Şahnâme*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Zahhâk bölümü"
+        },
+        {
+          "ref": "Arthur Christensen, *Les Kayanides* (Kopenhag: Høst, 1931)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.2"
+      ],
+      "motifDefs": {
+        "B11.2": "Form of dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "B11.2 ('Form of dragon') doğrulandı ve korundu. Aži Dahāka'yı tanımlayan şey biçimidir: omuzlarından çıkan iki yılan.",
+      "region": "Pārs; Damāvand dağı",
+      "attested": "*Avesta* (Yašt 5, 9, 19); Firdevsî, *Şahnâme* (Zahhâk olarak)",
+      "appearance": [
+        "Üç ağızlı, üç başlı, altı gözlü (Avesta)",
+        "Omuzlarından iki yılan çıkar (Şahnâme'de Zahhâk)",
+        "Yılanlar insan beyniyle beslenir"
+      ],
+      "behaviour": "Bin yıl hüküm sürer; Ferîdûn onu öldürmez, Damāvand dağının altına zincirler. Kıyamette çözülecektir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Derinlerin yılanı ailesinin (E) İran üyesi. Ayrışma: ÖLDÜRÜLMEZ, ertelenir."
+      ]
+    },
+    {
+      "id": "peri",
+      "name": "Perī",
+      "altNames": [
+        "Peri",
+        "Pari"
+      ],
+      "pronunciation": "peh-REE",
+      "sources": [
+        {
+          "ref": "Firdevsî, *Şahnâme*",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Arthur Christensen, *Les Kayanides* (Kopenhag: Høst, 1931)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Peri”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G307"
+      ],
+      "motifDefs": {
+        "G307": "Jinn"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum F300 idi ama F300 bağımsız tanım taşımıyor (yalnızca bölüm başlığı). Doğrulanan G307 ('Jinn') perī'nin ateşten yaratılmış varlıklar kümesindeki yerini tasnif eder.",
+      "motifChanged": "F300 → G307. F300 bağımsız tanım taşımıyor.",
+      "region": "Pārs; Orta Asya ve Anadolu'ya yayılmış",
+      "attested": "*Şahnâme*; İslam sonrası Fars edebiyatı; Türk halk anlatıları",
+      "appearance": [
+        "Ateşten yaratılmış",
+        "Güzel; kanatlı olarak da betimlenir",
+        "Görünür ve görünmez olabilir"
+      ],
+      "behaviour": "Ne tümüyle iyi ne tümüyle kötü. Kimi anlatıda yol gösterir, kimi anlatıda aklı alır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Ahlaki belirsizlik: kitabın 'kötü değil, güvenilmez' kategorisinin İran üyesi."
+      ]
+    }
+  ]
+}

@@ -349,18 +349,6 @@
           "id": "buda",
           "class": "III",
           "page": "—"
-        },
-        {
-          "name": "Ganen",
-          "id": "ganen",
-          "class": "II",
-          "page": "—"
-        },
-        {
-          "name": "Zar",
-          "id": "zar",
-          "class": "VI",
-          "page": "—"
         }
       ]
     },
@@ -374,18 +362,6 @@
           "name": "Devi",
           "id": "devi",
           "class": "II",
-          "page": "—"
-        },
-        {
-          "name": "Kaji",
-          "id": "kaji",
-          "class": "III",
-          "page": "—"
-        },
-        {
-          "name": "Ochokochi",
-          "id": "ochokochi",
-          "class": "I",
           "page": "—"
         }
       ]
@@ -527,18 +503,6 @@
       "inherited": false,
       "entries": [
         {
-          "name": "Almas",
-          "id": "almas",
-          "class": "I",
-          "page": "—"
-        },
-        {
-          "name": "Chötgör",
-          "id": "chotgor",
-          "class": "VI",
-          "page": "—"
-        },
-        {
           "name": "Olgoi-Khorkhoi",
           "id": "olgoi-khorkhoi",
           "class": "II",
@@ -605,21 +569,9 @@
       "inherited": false,
       "entries": [
         {
-          "name": "Orang Bunian",
-          "id": "orang-bunian",
-          "class": "I",
-          "page": "—"
-        },
-        {
           "name": "Pontianak",
           "id": "pontianak",
           "class": "VI",
-          "page": "—"
-        },
-        {
-          "name": "Rangda",
-          "id": "rangda",
-          "class": "II",
           "page": "—"
         }
       ]
@@ -743,7 +695,7 @@
         {
           "name": "Rusalka",
           "id": "rusalka",
-          "class": "IV",
+          "class": "VI",
           "page": "—"
         },
         {
@@ -1043,7 +995,7 @@
   ],
   "motifs": [
     {
-      "motif": "A177",
+      "motif": "A177.1",
       "section": "A",
       "entries": [
         {
@@ -1055,7 +1007,43 @@
       ]
     },
     {
-      "motif": "A812",
+      "motif": "A284.2",
+      "section": "A",
+      "entries": [
+        {
+          "name": "Animikii",
+          "id": "animikii",
+          "tradition": "anishinaabe",
+          "page": "—"
+        },
+        {
+          "name": "Impundulu",
+          "id": "impundulu",
+          "tradition": "nguni",
+          "page": "—"
+        },
+        {
+          "name": "Khyung",
+          "id": "khyung",
+          "tradition": "bod",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "A737.1",
+      "section": "A",
+      "entries": [
+        {
+          "name": "Vârcolac",
+          "id": "varcolac",
+          "tradition": "dacia",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "A831",
       "section": "A",
       "entries": [
         {
@@ -1067,39 +1055,9 @@
       ]
     },
     {
-      "motif": "B11",
-      "section": "B",
-      "entries": [
-        {
-          "name": "Herensuge",
-          "id": "herensuge",
-          "tradition": "euskal",
-          "page": "—"
-        },
-        {
-          "name": "Zmeu",
-          "id": "zmeu",
-          "tradition": "dacia",
-          "page": "—"
-        },
-        {
-          "name": "Zmey",
-          "id": "zmey",
-          "tradition": "slovjan",
-          "page": "—"
-        }
-      ]
-    },
-    {
       "motif": "B11.1",
       "section": "B",
       "entries": [
-        {
-          "name": "Boitatá",
-          "id": "boitata",
-          "tradition": "tupi-guarani",
-          "page": "—"
-        },
         {
           "name": "Imugi",
           "id": "imugi",
@@ -1128,18 +1086,6 @@
           "name": "Iku-Turso",
           "id": "iku-turso",
           "tradition": "suomi",
-          "page": "—"
-        },
-        {
-          "name": "Inkanyamba",
-          "id": "inkanyamba",
-          "tradition": "nguni",
-          "page": "—"
-        },
-        {
-          "name": "Thuồng luồng",
-          "id": "thuong-luong",
-          "tradition": "viet",
           "page": "—"
         }
       ]
@@ -1171,6 +1117,30 @@
           "id": "yamata-no-orochi",
           "tradition": "yamato",
           "page": "—"
+        },
+        {
+          "name": "Zmeu",
+          "id": "zmeu",
+          "tradition": "dacia",
+          "page": "—"
+        },
+        {
+          "name": "Zmey",
+          "id": "zmey",
+          "tradition": "slovjan",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B11.2.3.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Herensuge",
+          "id": "herensuge",
+          "tradition": "euskal",
+          "page": "—"
         }
       ]
     },
@@ -1193,6 +1163,18 @@
       ]
     },
     {
+      "motif": "B11.3.1.2",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Inkanyamba",
+          "id": "inkanyamba",
+          "tradition": "nguni",
+          "page": "—"
+        }
+      ]
+    },
+    {
       "motif": "B11.7",
       "section": "B",
       "entries": [
@@ -1205,6 +1187,18 @@
       ]
     },
     {
+      "motif": "B11.7.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Thuồng luồng",
+          "id": "thuong-luong",
+          "tradition": "viet",
+          "page": "—"
+        }
+      ]
+    },
+    {
       "motif": "B12",
       "section": "B",
       "entries": [
@@ -1212,6 +1206,18 @@
           "name": "Basiliscus",
           "id": "basiliscus",
           "tradition": "romana",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B14",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Skuggabaldur",
+          "id": "skuggabaldur",
+          "tradition": "island",
           "page": "—"
         }
       ]
@@ -1265,37 +1271,25 @@
       ]
     },
     {
-      "motif": "B31",
+      "motif": "B19.4.2",
       "section": "B",
       "entries": [
         {
-          "name": "Anzû",
-          "id": "anzu",
-          "tradition": "sumer",
+          "name": "Boitatá",
+          "id": "boitata",
+          "tradition": "tupi-guarani",
           "page": "—"
-        },
+        }
+      ]
+    },
+    {
+      "motif": "B19.10",
+      "section": "B",
+      "entries": [
         {
-          "name": "Garuḍa",
-          "id": "garuda",
-          "tradition": "bharatiya",
-          "page": "—"
-        },
-        {
-          "name": "Khyung",
-          "id": "khyung",
-          "tradition": "bod",
-          "page": "—"
-        },
-        {
-          "name": "Sīmurgh",
-          "id": "simurgh",
-          "tradition": "pars",
-          "page": "—"
-        },
-        {
-          "name": "Ziz",
-          "id": "ziz",
-          "tradition": "talmud",
+          "name": "Ông Ba Mươi",
+          "id": "ong-ba-muoi",
+          "tradition": "viet",
           "page": "—"
         }
       ]
@@ -1305,27 +1299,51 @@
       "section": "B",
       "entries": [
         {
-          "name": "Animikii",
-          "id": "animikii",
-          "tradition": "anishinaabe",
-          "page": "—"
-        },
-        {
-          "name": "Camazotz",
-          "id": "camazotz",
-          "tradition": "maya",
-          "page": "—"
-        },
-        {
-          "name": "Impundulu",
-          "id": "impundulu",
-          "tradition": "nguni",
+          "name": "Anzû",
+          "id": "anzu",
+          "tradition": "sumer",
           "page": "—"
         },
         {
           "name": "Rukh",
           "id": "rukh",
           "tradition": "arab",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B31.1.0.1",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Ziz",
+          "id": "ziz",
+          "tradition": "talmud",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B31.4",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Camazotz",
+          "id": "camazotz",
+          "tradition": "maya",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B31.5",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Sīmurgh",
+          "id": "simurgh",
+          "tradition": "pars",
           "page": "—"
         }
       ]
@@ -1355,6 +1373,18 @@
       ]
     },
     {
+      "motif": "B56",
+      "section": "B",
+      "entries": [
+        {
+          "name": "Garuḍa",
+          "id": "garuda",
+          "tradition": "bharatiya",
+          "page": "—"
+        }
+      ]
+    },
+    {
       "motif": "B91",
       "section": "B",
       "entries": [
@@ -1365,6 +1395,18 @@
           "page": "—"
         },
         {
+          "name": "Şahmeran",
+          "id": "sahmeran",
+          "tradition": "turk",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "B91.1",
+      "section": "B",
+      "entries": [
+        {
           "name": "Nāga",
           "id": "naga",
           "tradition": "bharatiya",
@@ -1374,12 +1416,6 @@
           "name": "Phaya Nak",
           "id": "phaya-nak",
           "tradition": "siam",
-          "page": "—"
-        },
-        {
-          "name": "Şahmeran",
-          "id": "sahmeran",
-          "tradition": "turk",
           "page": "—"
         }
       ]
@@ -1433,13 +1469,13 @@
       ]
     },
     {
-      "motif": "B733",
+      "motif": "B765",
       "section": "B",
       "entries": [
         {
-          "name": "Aralez",
-          "id": "aralez",
-          "tradition": "hayk",
+          "name": "Olgoi-Khorkhoi",
+          "id": "olgoi-khorkhoi",
+          "tradition": "mongol",
           "page": "—"
         }
       ]
@@ -1454,24 +1490,6 @@
           "tradition": "inuit",
           "page": "—"
         },
-        {
-          "name": "Ông Ba Mươi",
-          "id": "ong-ba-muoi",
-          "tradition": "viet",
-          "page": "—"
-        },
-        {
-          "name": "Skuggabaldur",
-          "id": "skuggabaldur",
-          "tradition": "island",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "B871.1",
-      "section": "B",
-      "entries": [
         {
           "name": "Fenrir",
           "id": "fenrir",
@@ -1495,29 +1513,11 @@
           "id": "nahual",
           "tradition": "mexihcah",
           "page": "—"
-        },
-        {
-          "name": "Way",
-          "id": "way",
-          "tradition": "maya",
-          "page": "—"
         }
       ]
     },
     {
-      "motif": "D113",
-      "section": "D",
-      "entries": [
-        {
-          "name": "Nhang",
-          "id": "nhang",
-          "tradition": "hayk",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "D113.1",
+      "motif": "D113.3",
       "section": "D",
       "entries": [
         {
@@ -1530,12 +1530,6 @@
           "name": "Kumiho",
           "id": "kumiho",
           "tradition": "hangug",
-          "page": "—"
-        },
-        {
-          "name": "Vârcolac",
-          "id": "varcolac",
-          "tradition": "dacia",
           "page": "—"
         }
       ]
@@ -1589,15 +1583,21 @@
       ]
     },
     {
-      "motif": "E200",
+      "motif": "E17",
       "section": "E",
       "entries": [
         {
-          "name": "Chötgör",
-          "id": "chotgor",
-          "tradition": "mongol",
+          "name": "Aralez",
+          "id": "aralez",
+          "tradition": "hayk",
           "page": "—"
-        },
+        }
+      ]
+    },
+    {
+      "motif": "E200",
+      "section": "E",
+      "entries": [
         {
           "name": "Lemures",
           "id": "lemures",
@@ -1620,18 +1620,6 @@
           "name": "Àbíkú",
           "id": "abiku",
           "tradition": "yoruba-ashanti",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "E230",
-      "section": "E",
-      "entries": [
-        {
-          "name": "Draugr",
-          "id": "draugr",
-          "tradition": "nordr",
           "page": "—"
         }
       ]
@@ -1661,6 +1649,42 @@
       ]
     },
     {
+      "motif": "E422",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Draugr",
+          "id": "draugr",
+          "tradition": "nordr",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E715",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Way",
+          "id": "way",
+          "tradition": "maya",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "E751.1",
+      "section": "E",
+      "entries": [
+        {
+          "name": "Ammit",
+          "id": "ammit",
+          "tradition": "kemet",
+          "page": "—"
+        }
+      ]
+    },
+    {
       "motif": "F150",
       "section": "F",
       "entries": [
@@ -1685,31 +1709,13 @@
       ]
     },
     {
-      "motif": "F251",
+      "motif": "F251.1",
       "section": "F",
       "entries": [
         {
           "name": "Huldufólk",
           "id": "huldufolk",
           "tradition": "island",
-          "page": "—"
-        },
-        {
-          "name": "Orang Bunian",
-          "id": "orang-bunian",
-          "tradition": "nusantara",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "F300",
-      "section": "F",
-      "entries": [
-        {
-          "name": "Perī",
-          "id": "peri",
-          "tradition": "pars",
           "page": "—"
         }
       ]
@@ -1741,30 +1747,6 @@
           "id": "gufihtar",
           "tradition": "sapmi",
           "page": "—"
-        },
-        {
-          "name": "Kaji",
-          "id": "kaji",
-          "tradition": "kartveli",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "F402",
-      "section": "F",
-      "entries": [
-        {
-          "name": "Zar",
-          "id": "zar",
-          "tradition": "ityopya",
-          "page": "—"
-        },
-        {
-          "name": "ʿIfrīt",
-          "id": "ifrit",
-          "tradition": "arab",
-          "page": "—"
         }
       ]
     },
@@ -1794,6 +1776,12 @@
           "name": "Lamia",
           "id": "lamia-euskal",
           "tradition": "euskal",
+          "page": "—"
+        },
+        {
+          "name": "Nhang",
+          "id": "nhang",
+          "tradition": "hayk",
           "page": "—"
         },
         {
@@ -1833,11 +1821,29 @@
       "section": "F",
       "entries": [
         {
-          "name": "Almas",
-          "id": "almas",
-          "tradition": "mongol",
+          "name": "Masalai",
+          "id": "masalai",
+          "tradition": "melanesia",
           "page": "—"
-        },
+        }
+      ]
+    },
+    {
+      "motif": "F482",
+      "section": "F",
+      "entries": [
+        {
+          "name": "Domovoy",
+          "id": "domovoy",
+          "tradition": "slovjan",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "F567",
+      "section": "F",
+      "entries": [
         {
           "name": "Basajaun",
           "id": "basajaun",
@@ -1851,39 +1857,15 @@
           "page": "—"
         },
         {
-          "name": "Masalai",
-          "id": "masalai",
-          "tradition": "melanesia",
-          "page": "—"
-        },
-        {
           "name": "Migoi",
           "id": "migoi",
           "tradition": "bod",
           "page": "—"
-        },
-        {
-          "name": "Ochokochi",
-          "id": "ochokochi",
-          "tradition": "kartveli",
-          "page": "—"
         }
       ]
     },
     {
-      "motif": "F480",
-      "section": "F",
-      "entries": [
-        {
-          "name": "Domovoy",
-          "id": "domovoy",
-          "tradition": "slovjan",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "G11",
+      "motif": "G11.2",
       "section": "G",
       "entries": [
         {
@@ -1925,7 +1907,31 @@
       ]
     },
     {
-      "motif": "G262",
+      "motif": "G262.0.1",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Kenas-unarpe",
+          "id": "kenas-unarpe",
+          "tradition": "ainu",
+          "page": "—"
+        },
+        {
+          "name": "Lámia",
+          "id": "lamia-hellenic",
+          "tradition": "hellenic",
+          "page": "—"
+        },
+        {
+          "name": "Pontianak",
+          "id": "pontianak",
+          "tradition": "nusantara",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G262.1",
       "section": "G",
       "entries": [
         {
@@ -1947,9 +1953,9 @@
           "page": "—"
         },
         {
-          "name": "Ma lai",
-          "id": "ma-lai",
-          "tradition": "viet",
+          "name": "Manananggal",
+          "id": "manananggal",
+          "tradition": "filipin",
           "page": "—"
         },
         {
@@ -1961,49 +1967,19 @@
       ]
     },
     {
-      "motif": "G262.0.1",
+      "motif": "G262.1.3",
       "section": "G",
       "entries": [
         {
-          "name": "Kenas-unarpe",
-          "id": "kenas-unarpe",
-          "tradition": "ainu",
-          "page": "—"
-        },
-        {
-          "name": "Pontianak",
-          "id": "pontianak",
-          "tradition": "nusantara",
+          "name": "Ma lai",
+          "id": "ma-lai",
+          "tradition": "viet",
           "page": "—"
         }
       ]
     },
     {
-      "motif": "G262.1",
-      "section": "G",
-      "entries": [
-        {
-          "name": "Manananggal",
-          "id": "manananggal",
-          "tradition": "filipin",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "G263",
-      "section": "G",
-      "entries": [
-        {
-          "name": "Rangda",
-          "id": "rangda",
-          "tradition": "nusantara",
-          "page": "—"
-        }
-      ]
-    },
-    {
-      "motif": "G264",
+      "motif": "G262.5",
       "section": "G",
       "entries": [
         {
@@ -2013,21 +1989,9 @@
           "page": "—"
         },
         {
-          "name": "Lamashtu",
-          "id": "lamashtu",
-          "tradition": "sumer",
-          "page": "—"
-        },
-        {
-          "name": "Lámia",
-          "id": "lamia-hellenic",
-          "tradition": "hellenic",
-          "page": "—"
-        },
-        {
-          "name": "Lilith",
-          "id": "lilith",
-          "tradition": "talmud",
+          "name": "Kumiho",
+          "id": "kumiho",
+          "tradition": "hangug",
           "page": "—"
         }
       ]
@@ -2040,12 +2004,6 @@
           "name": "Ponaturi",
           "id": "ponaturi",
           "tradition": "maohi",
-          "page": "—"
-        },
-        {
-          "name": "Srin-po",
-          "id": "srin-po",
-          "tradition": "bod",
           "page": "—"
         }
       ]
@@ -2061,41 +2019,77 @@
           "page": "—"
         },
         {
-          "name": "Ganen",
-          "id": "ganen",
-          "tradition": "ityopya",
-          "page": "—"
-        },
-        {
           "name": "Karakoncolos",
           "id": "karakoncolos",
           "tradition": "turk",
           "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G302.9.4",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Lilith",
+          "id": "lilith",
+          "tradition": "talmud",
+          "page": "—"
+        }
+      ]
+    },
+    {
+      "motif": "G307",
+      "section": "G",
+      "entries": [
+        {
+          "name": "Perī",
+          "id": "peri",
+          "tradition": "pars",
+          "page": "—"
         },
         {
-          "name": "Olgoi-Khorkhoi",
-          "id": "olgoi-khorkhoi",
-          "tradition": "mongol",
+          "name": "ʿIfrīt",
+          "id": "ifrit",
+          "tradition": "arab",
           "page": "—"
         }
       ]
     },
     {
-      "motif": "G303",
+      "motif": "G312.3",
       "section": "G",
       "entries": [
         {
-          "name": "Ammit",
-          "id": "ammit",
-          "tradition": "kemet",
+          "name": "Srin-po",
+          "id": "srin-po",
+          "tradition": "bod",
           "page": "—"
         }
       ]
     },
     {
-      "motif": "G308",
+      "motif": "G442",
       "section": "G",
       "entries": [
+        {
+          "name": "Al Karısı",
+          "id": "al-karisi",
+          "tradition": "turk",
+          "page": "—"
+        },
+        {
+          "name": "Lamashtu",
+          "id": "lamashtu",
+          "tradition": "sumer",
+          "page": "—"
+        },
+        {
+          "name": "Lilith",
+          "id": "lilith",
+          "tradition": "talmud",
+          "page": "—"
+        },
         {
           "name": "Qalupalik",
           "id": "qalupalik",
@@ -2553,20 +2547,6 @@
           "page": "—"
         },
         {
-          "name": "Almas",
-          "id": "almas",
-          "tradition": "Mongol",
-          "sigil": "⚔",
-          "page": "—"
-        },
-        {
-          "name": "Ochokochi",
-          "id": "ochokochi",
-          "tradition": "Kartveli",
-          "sigil": "✛",
-          "page": "—"
-        },
-        {
           "name": "Curupira",
           "id": "curupira",
           "tradition": "Tupi-Guarani",
@@ -2598,13 +2578,6 @@
           "page": "—"
         },
         {
-          "name": "Orang Bunian",
-          "id": "orang-bunian",
-          "tradition": "Nusantara",
-          "sigil": "❋",
-          "page": "—"
-        },
-        {
           "name": "Ulda",
           "id": "ulda",
           "tradition": "Sápmi",
@@ -2625,7 +2598,7 @@
     {
       "name": "Àbíkú",
       "id": "abiku",
-      "pronunciation": "—",
+      "pronunciation": "ah-BEE-koo",
       "page": "—",
       "type": "entry"
     },
@@ -2639,30 +2612,62 @@
     {
       "name": "Adze",
       "id": "adze",
-      "pronunciation": "—",
+      "pronunciation": "AHD-zeh",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Afrit",
+      "id": "ifrit",
+      "seeAlso": "ʿIfrīt",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Ahuizotl",
       "id": "ahuizotl",
-      "pronunciation": "—",
+      "pronunciation": "ah-WEE-sotl",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Ajatar",
       "id": "ajatar",
-      "pronunciation": "—",
+      "pronunciation": "AH-yah-tar",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Ajattara",
+      "id": "ajatar",
+      "seeAlso": "Ajatar",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Al Bastı",
+      "id": "al-karisi",
+      "seeAlso": "Al Karısı",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Al Karısı",
       "id": "al-karisi",
-      "pronunciation": "—",
+      "pronunciation": "AHL kah-ruh-suh",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Albastı",
+      "id": "al-karisi",
+      "seeAlso": "Al Karısı",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "allghoi khorkhoi",
@@ -2673,24 +2678,9 @@
       "type": "crossref"
     },
     {
-      "name": "Almas",
-      "id": "almas",
-      "pronunciation": "ahl-MAHS",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Almas-kishi",
-      "id": "almas",
-      "seeAlso": "Almas",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
-    },
-    {
-      "name": "Almasty",
-      "id": "almas",
-      "seeAlso": "Almas",
+      "name": "Almastı",
+      "id": "al-karisi",
+      "seeAlso": "Al Karısı",
       "pronunciation": "",
       "page": "—",
       "type": "crossref"
@@ -2698,51 +2688,83 @@
     {
       "name": "Amarok",
       "id": "amarok",
-      "pronunciation": "—",
+      "pronunciation": "AH-mah-rok",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Amaru",
       "id": "amaru",
-      "pronunciation": "—",
+      "pronunciation": "ah-MAH-roo",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Ammit",
       "id": "ammit",
-      "pronunciation": "—",
+      "pronunciation": "AH-mit",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Ananse",
+      "id": "anansi",
+      "seeAlso": "Anansi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Anansi",
       "id": "anansi",
-      "pronunciation": "—",
+      "pronunciation": "ah-NAHN-see",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Animikii",
       "id": "animikii",
-      "pronunciation": "—",
+      "pronunciation": "ah-nee-MEE-kee",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Animikii-binesi",
+      "id": "animikii",
+      "seeAlso": "Animikii",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Anzû",
       "id": "anzu",
-      "pronunciation": "—",
+      "pronunciation": "AN-zoo",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Ap (Kamboçya)",
+      "id": "krasue",
+      "seeAlso": "Krasue",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Apep",
       "id": "apep",
-      "pronunciation": "—",
+      "pronunciation": "AH-pep",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Apophis",
+      "id": "apep",
+      "seeAlso": "Apep",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Aralez",
@@ -2762,7 +2784,7 @@
     {
       "name": "Aswang",
       "id": "aswang",
-      "pronunciation": "—",
+      "pronunciation": "AHS-wahng",
       "page": "—",
       "type": "entry"
     },
@@ -2775,44 +2797,76 @@
       "type": "crossref"
     },
     {
+      "name": "Aughisky",
+      "id": "each-uisce",
+      "seeAlso": "Each-uisce",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Aži Dahāka",
       "id": "azi-dahaka",
-      "pronunciation": "—",
+      "pronunciation": "ah-ZHEE dah-HAH-kah",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Banshee",
+      "id": "bean-sidhe",
+      "seeAlso": "Bean sídhe",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Basajaun",
       "id": "basajaun",
-      "pronunciation": "—",
+      "pronunciation": "bah-sah-HOWN",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Basiliscus",
       "id": "basiliscus",
-      "pronunciation": "—",
+      "pronunciation": "bah-si-LIS-kus",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Basojaun",
+      "id": "basajaun",
+      "seeAlso": "Basajaun",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Bean chaointe",
+      "id": "bean-sidhe",
+      "seeAlso": "Bean sídhe",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Bean sídhe",
       "id": "bean-sidhe",
-      "pronunciation": "—",
+      "pronunciation": "ban SHEE",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Bennu",
       "id": "bennu",
-      "pronunciation": "—",
+      "pronunciation": "BEN-noo",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Boitatá",
       "id": "boitata",
-      "pronunciation": "—",
+      "pronunciation": "boy-tah-TAH",
       "page": "—",
       "type": "entry"
     },
@@ -2832,63 +2886,40 @@
       "type": "entry"
     },
     {
-      "name": "Bunian",
-      "id": "orang-bunian",
-      "seeAlso": "Orang Bunian",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
-    },
-    {
       "name": "Camazotz",
       "id": "camazotz",
-      "pronunciation": "—",
+      "pronunciation": "kah-mah-SOTS",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Chímaira",
       "id": "chimaira",
-      "pronunciation": "—",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Chotgor",
-      "id": "chotgor",
-      "seeAlso": "Chötgör",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
-    },
-    {
-      "name": "Chötgör",
-      "id": "chotgor",
-      "pronunciation": "CHUT-gur",
+      "pronunciation": "KHEE-my-ra",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Cipactli",
       "id": "cipactli",
-      "pronunciation": "—",
+      "pronunciation": "see-PAHK-tlee",
       "page": "—",
       "type": "entry"
-    },
-    {
-      "name": "Čötgör",
-      "id": "chotgor",
-      "seeAlso": "Chötgör",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
     },
     {
       "name": "Curupira",
       "id": "curupira",
-      "pronunciation": "—",
+      "pronunciation": "koo-roo-PEE-rah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Dahāg",
+      "id": "azi-dahaka",
+      "seeAlso": "Aži Dahāka",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Dev",
@@ -2916,71 +2947,88 @@
     {
       "name": "Dokkaebi",
       "id": "dokkaebi",
-      "pronunciation": "—",
+      "pronunciation": "TOK-kay-bee",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Domovoy",
       "id": "domovoy",
-      "pronunciation": "—",
+      "pronunciation": "do-mo-VOY",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Draugr",
       "id": "draugr",
-      "pronunciation": "—",
+      "pronunciation": "DROU-gr",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Each-uisce",
       "id": "each-uisce",
-      "pronunciation": "—",
+      "pronunciation": "AKH-ish-keh",
       "page": "—",
       "type": "entry"
     },
     {
-      "name": "Fenrir",
-      "id": "fenrir",
-      "pronunciation": "—",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Ganen",
-      "id": "ganen",
-      "pronunciation": "gah-NEN",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Ganén",
-      "id": "ganen",
-      "seeAlso": "Ganen",
+      "name": "Each-uisge",
+      "id": "each-uisce",
+      "seeAlso": "Each-uisce",
       "pronunciation": "",
       "page": "—",
       "type": "crossref"
     },
     {
-      "name": "Garuḍa",
-      "id": "garuda",
-      "pronunciation": "—",
+      "name": "Efreet",
+      "id": "ifrit",
+      "seeAlso": "ʿIfrīt",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Fenrir",
+      "id": "fenrir",
+      "pronunciation": "FEN-rir",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Garuḍa",
+      "id": "garuda",
+      "pronunciation": "gah-ROO-da",
+      "page": "—",
+      "type": "entry"
+    },
+    {
+      "name": "Ghoul",
+      "id": "ghul",
+      "seeAlso": "Ghūl",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Ghūl",
       "id": "ghul",
-      "pronunciation": "—",
+      "pronunciation": "GOOL",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Ghūla (dişil)",
+      "id": "ghul",
+      "seeAlso": "Ghūl",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Golem",
       "id": "golem",
-      "pronunciation": "—",
+      "pronunciation": "GO-lem",
       "page": "—",
       "type": "entry"
     },
@@ -3010,109 +3058,118 @@
     {
       "name": "Herensuge",
       "id": "herensuge",
-      "pronunciation": "—",
+      "pronunciation": "eh-ren-SOO-geh",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Huldufólk",
       "id": "huldufolk",
-      "pronunciation": "—",
+      "pronunciation": "HOOL-doo-folk",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Húli jīng",
       "id": "huli-jing",
-      "pronunciation": "—",
+      "pronunciation": "HOO-lee JING",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Ḫumbaba",
       "id": "humbaba",
-      "pronunciation": "—",
+      "pronunciation": "hoom-BAH-bah",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Huwawa",
+      "id": "humbaba",
+      "seeAlso": "Ḫumbaba",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Iara",
       "id": "iara",
-      "pronunciation": "—",
+      "pronunciation": "ee-AH-rah",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Iku-Turso",
       "id": "iku-turso",
-      "pronunciation": "—",
+      "pronunciation": "EE-koo TOOR-so",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Imdugud",
+      "id": "anzu",
+      "seeAlso": "Anzû",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Impundulu",
       "id": "impundulu",
-      "pronunciation": "—",
+      "pronunciation": "im-poon-DOO-loo",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Imugi",
       "id": "imugi",
-      "pronunciation": "—",
+      "pronunciation": "EE-moo-gee",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Inkanyamba",
       "id": "inkanyamba",
-      "pronunciation": "—",
+      "pronunciation": "in-kahn-YAHM-bah",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Jörmungandr",
       "id": "jormungandr",
-      "pronunciation": "—",
+      "pronunciation": "YUR-mun-gand-r",
       "page": "—",
       "type": "entry"
-    },
-    {
-      "name": "Kaj",
-      "id": "kaji",
-      "seeAlso": "Kaji",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
-    },
-    {
-      "name": "Kaji",
-      "id": "kaji",
-      "pronunciation": "KAH-jee",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Kajni",
-      "id": "kaji",
-      "seeAlso": "Kaji",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
     },
     {
       "name": "Kappa",
       "id": "kappa",
-      "pronunciation": "—",
+      "pronunciation": "KAHP-pah",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Karakoncilos",
+      "id": "karakoncolos",
+      "seeAlso": "Karakoncolos",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Karakoncolos",
       "id": "karakoncolos",
-      "pronunciation": "—",
+      "pronunciation": "kah-rah-kon-jo-LOS",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Kasu",
+      "id": "krasue",
+      "seeAlso": "Krasue",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Kenas-unarpe",
@@ -3132,23 +3189,63 @@
     {
       "name": "Kérberos",
       "id": "kerberos",
-      "pronunciation": "—",
+      "pronunciation": "KER-be-ros",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Khyung",
       "id": "khyung",
-      "pronunciation": "—",
+      "pronunciation": "kyoong",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Ki-lin",
+      "id": "qilin",
+      "seeAlso": "Qílín",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Kinnara (eril)",
+      "id": "kinnari",
+      "seeAlso": "Kinnarī",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Kinnaree",
+      "id": "kinnari",
+      "seeAlso": "Kinnarī",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Kinnarī",
       "id": "kinnari",
-      "pronunciation": "—",
+      "pronunciation": "kin-nah-REE",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Kirin",
+      "id": "qilin",
+      "seeAlso": "Qílín",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Koncolos",
+      "id": "karakoncolos",
+      "seeAlso": "Karakoncolos",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Koro-pok-guru",
@@ -3176,14 +3273,14 @@
     {
       "name": "Krasue",
       "id": "krasue",
-      "pronunciation": "—",
+      "pronunciation": "krah-SOO-eh",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Kumiho",
       "id": "kumiho",
-      "pronunciation": "—",
+      "pronunciation": "KOO-mee-ho",
       "page": "—",
       "type": "entry"
     },
@@ -3196,25 +3293,49 @@
       "type": "crossref"
     },
     {
+      "name": "Kwaku Anansi",
+      "id": "anansi",
+      "seeAlso": "Anansi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Lamashtu",
       "id": "lamashtu",
-      "pronunciation": "—",
+      "pronunciation": "lah-MASH-too",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Lamia",
       "id": "lamia-euskal",
-      "pronunciation": "—",
+      "pronunciation": "LAH-mee-ah",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Lámia",
       "id": "lamia-hellenic",
-      "pronunciation": "—",
+      "pronunciation": "LAH-mee-a",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Lamiak (çoğul)",
+      "id": "lamia-euskal",
+      "seeAlso": "Lamia",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Laminak",
+      "id": "lamia-euskal",
+      "seeAlso": "Lamia",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Langsuir (akraba)",
@@ -3227,42 +3348,50 @@
     {
       "name": "Lemures",
       "id": "lemures",
-      "pronunciation": "—",
+      "pronunciation": "LEH-moo-res",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Lilith",
       "id": "lilith",
-      "pronunciation": "—",
+      "pronunciation": "LIL-ith",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Lóng",
       "id": "long",
-      "pronunciation": "—",
+      "pronunciation": "LOONG",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Ma lai",
       "id": "ma-lai",
-      "pronunciation": "—",
+      "pronunciation": "mah LYE",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Mãe d'água",
+      "id": "iara",
+      "seeAlso": "Iara",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Makara",
       "id": "makara",
-      "pronunciation": "—",
+      "pronunciation": "MAH-kah-rah",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Manananggal",
       "id": "manananggal",
-      "pronunciation": "—",
+      "pronunciation": "mah-nah-nahng-GAHL",
       "page": "—",
       "type": "entry"
     },
@@ -3290,46 +3419,126 @@
       "type": "crossref"
     },
     {
+      "name": "Mi-go",
+      "id": "migoi",
+      "seeAlso": "Migoi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Michipeshu",
+      "id": "mishipeshu",
+      "seeAlso": "Mishipeshu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Migö",
+      "id": "migoi",
+      "seeAlso": "Migoi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Migoi",
       "id": "migoi",
-      "pronunciation": "—",
+      "pronunciation": "mee-GOY",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Mishibizhiw",
+      "id": "mishipeshu",
+      "seeAlso": "Mishipeshu",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Mishipeshu",
       "id": "mishipeshu",
-      "pronunciation": "—",
+      "pronunciation": "mish-ee-PESH-oo",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Miðgarðsormr",
+      "id": "jormungandr",
+      "seeAlso": "Jörmungandr",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Moroi (akraba)",
+      "id": "strigoi",
+      "seeAlso": "Strigoi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Moʻo",
       "id": "moo",
-      "pronunciation": "—",
+      "pronunciation": "MO-oh",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Nāga",
       "id": "naga",
-      "pronunciation": "—",
+      "pronunciation": "NAH-gah",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Nagual",
+      "id": "nahual",
+      "seeAlso": "Nahual",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Nahual",
       "id": "nahual",
-      "pronunciation": "—",
+      "pronunciation": "nah-WAHL",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Näkki",
       "id": "nakki",
-      "pronunciation": "—",
+      "pronunciation": "NAK-kee",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Näkki (İsveççe: Näcken)",
+      "id": "nakki",
+      "seeAlso": "Näkki",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Näkkiäinen",
+      "id": "nakki",
+      "seeAlso": "Näkki",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Nawal",
+      "id": "nahual",
+      "seeAlso": "Nahual",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Nhang",
@@ -3357,32 +3566,9 @@
     {
       "name": "Nykur",
       "id": "nykur",
-      "pronunciation": "—",
+      "pronunciation": "NEE-koor",
       "page": "—",
       "type": "entry"
-    },
-    {
-      "name": "Ochokochi",
-      "id": "ochokochi",
-      "pronunciation": "o-cho-KO-chee",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Ochokoçi",
-      "id": "ochokochi",
-      "seeAlso": "Ochokochi",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
-    },
-    {
-      "name": "Očokoči",
-      "id": "ochokochi",
-      "seeAlso": "Ochokochi",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
     },
     {
       "name": "Olgoi-Khorkhoi",
@@ -3402,21 +3588,22 @@
     {
       "name": "Ông Ba Mươi",
       "id": "ong-ba-muoi",
-      "pronunciation": "—",
+      "pronunciation": "ohng bah MUH-oy",
       "page": "—",
       "type": "entry"
     },
     {
-      "name": "Orang Bunian",
-      "id": "orang-bunian",
-      "pronunciation": "O-rahng boo-nee-AHN",
+      "name": "Pari",
+      "id": "peri",
+      "seeAlso": "Perī",
+      "pronunciation": "",
       "page": "—",
-      "type": "entry"
+      "type": "crossref"
     },
     {
-      "name": "Orang halus",
-      "id": "orang-bunian",
-      "seeAlso": "Orang Bunian",
+      "name": "Peri",
+      "id": "peri",
+      "seeAlso": "Perī",
       "pronunciation": "",
       "page": "—",
       "type": "crossref"
@@ -3424,28 +3611,44 @@
     {
       "name": "Perī",
       "id": "peri",
-      "pronunciation": "—",
+      "pronunciation": "peh-REE",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Phaya Nak",
       "id": "phaya-nak",
-      "pronunciation": "—",
+      "pronunciation": "pah-YAH NAHK",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Phi Krasue",
+      "id": "krasue",
+      "seeAlso": "Krasue",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Phouka",
+      "id": "puca",
+      "seeAlso": "Púca",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Pishtaco",
       "id": "pishtaco",
-      "pronunciation": "—",
+      "pronunciation": "peesh-TAH-ko",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Ponaturi",
       "id": "ponaturi",
-      "pronunciation": "—",
+      "pronunciation": "po-nah-TOO-ree",
       "page": "—",
       "type": "entry"
     },
@@ -3457,40 +3660,33 @@
       "type": "entry"
     },
     {
+      "name": "Pooka",
+      "id": "puca",
+      "seeAlso": "Púca",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Púca",
       "id": "puca",
-      "pronunciation": "—",
+      "pronunciation": "POO-kah",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Qalupalik",
       "id": "qalupalik",
-      "pronunciation": "—",
+      "pronunciation": "kah-loo-PAH-lik",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Qílín",
       "id": "qilin",
-      "pronunciation": "—",
+      "pronunciation": "CHEE-lin",
       "page": "—",
       "type": "entry"
-    },
-    {
-      "name": "Rangda",
-      "id": "rangda",
-      "pronunciation": "RAHNG-dah",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Rangda ing Dirah",
-      "id": "rangda",
-      "seeAlso": "Rangda",
-      "pronunciation": "",
-      "page": "—",
-      "type": "crossref"
     },
     {
       "name": "Repun Kamuy",
@@ -3508,44 +3704,100 @@
       "type": "crossref"
     },
     {
+      "name": "Roc",
+      "id": "rukh",
+      "seeAlso": "Rukh",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Rukh",
       "id": "rukh",
-      "pronunciation": "—",
+      "pronunciation": "ROOK",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Rukhkh",
+      "id": "rukh",
+      "seeAlso": "Rukh",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Rusalka",
       "id": "rusalka",
-      "pronunciation": "—",
+      "pronunciation": "roo-SAHL-kah",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Saēna",
+      "id": "simurgh",
+      "seeAlso": "Sīmurgh",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Şahmaran",
+      "id": "sahmeran",
+      "seeAlso": "Şahmeran",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Şahmeran",
       "id": "sahmeran",
-      "pronunciation": "—",
+      "pronunciation": "shah-meh-RAHN",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Senmurv",
+      "id": "simurgh",
+      "seeAlso": "Sīmurgh",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Shahmaran",
+      "id": "sahmeran",
+      "seeAlso": "Şahmeran",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Simorgh",
+      "id": "simurgh",
+      "seeAlso": "Sīmurgh",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Sīmurgh",
       "id": "simurgh",
-      "pronunciation": "—",
+      "pronunciation": "see-MOORG",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Skuggabaldur",
       "id": "skuggabaldur",
-      "pronunciation": "—",
+      "pronunciation": "SKOOG-gah-bald-oor",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Srin-po",
       "id": "srin-po",
-      "pronunciation": "—",
+      "pronunciation": "SIN-po",
       "page": "—",
       "type": "entry"
     },
@@ -3581,30 +3833,54 @@
       "type": "crossref"
     },
     {
+      "name": "Striga",
+      "id": "strix",
+      "seeAlso": "Strix",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Strigae (çoğul)",
+      "id": "strix",
+      "seeAlso": "Strix",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Strigoi",
       "id": "strigoi",
-      "pronunciation": "—",
+      "pronunciation": "stree-GOY",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Strigoiul",
+      "id": "strigoi",
+      "seeAlso": "Strigoi",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Strix",
       "id": "strix",
-      "pronunciation": "—",
+      "pronunciation": "STRIKS",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Supay",
       "id": "supay",
-      "pronunciation": "—",
+      "pronunciation": "SOO-pye",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Taniwha",
       "id": "taniwha",
-      "pronunciation": "—",
+      "pronunciation": "TAH-nee-fah",
       "page": "—",
       "type": "entry"
     },
@@ -3618,37 +3894,85 @@
     {
       "name": "Tengu",
       "id": "tengu",
-      "pronunciation": "—",
+      "pronunciation": "TEN-goo",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Thikoloshe",
+      "id": "tokoloshe",
+      "seeAlso": "Tokoloshe",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Thunderbird",
+      "id": "animikii",
+      "seeAlso": "Animikii",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Thuồng luồng",
       "id": "thuong-luong",
-      "pronunciation": "—",
+      "pronunciation": "twong LWONG",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Tikbalang",
       "id": "tikbalang",
-      "pronunciation": "—",
+      "pronunciation": "tik-bah-LAHNG",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Tikoloshe",
+      "id": "tokoloshe",
+      "seeAlso": "Tokoloshe",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Tokoloshe",
       "id": "tokoloshe",
-      "pronunciation": "—",
+      "pronunciation": "to-ko-LO-sheh",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Tupilaq",
       "id": "tupilaq",
-      "pronunciation": "—",
+      "pronunciation": "TOO-pee-lahk",
       "page": "—",
       "type": "entry"
+    },
+    {
+      "name": "Turisas",
+      "id": "iku-turso",
+      "seeAlso": "Iku-Turso",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Tursas",
+      "id": "iku-turso",
+      "seeAlso": "Iku-Turso",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Uiara",
+      "id": "iara",
+      "seeAlso": "Iara",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
     },
     {
       "name": "Ulda",
@@ -3676,7 +4000,7 @@
     {
       "name": "Vârcolac",
       "id": "varcolac",
-      "pronunciation": "—",
+      "pronunciation": "vur-ko-LAHK",
       "page": "—",
       "type": "entry"
     },
@@ -3706,28 +4030,44 @@
     {
       "name": "Way",
       "id": "way",
-      "pronunciation": "—",
+      "pronunciation": "WHY",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Wendigo",
+      "id": "windigo",
+      "seeAlso": "Windigo",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Wiindigoo",
+      "id": "windigo",
+      "seeAlso": "Windigo",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Windigo",
       "id": "windigo",
-      "pronunciation": "—",
+      "pronunciation": "WIN-dee-go",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Xtabay",
       "id": "xtabay",
-      "pronunciation": "—",
+      "pronunciation": "sh-tah-BYE",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Yamata-no-Orochi",
       "id": "yamata-no-orochi",
-      "pronunciation": "—",
+      "pronunciation": "yah-MAH-tah no o-RO-chee",
       "page": "—",
       "type": "entry"
     },
@@ -3740,16 +4080,9 @@
       "type": "crossref"
     },
     {
-      "name": "Zar",
-      "id": "zar",
-      "pronunciation": "ZAHR",
-      "page": "—",
-      "type": "entry"
-    },
-    {
-      "name": "Zār",
-      "id": "zar",
-      "seeAlso": "Zar",
+      "name": "Zahhâk",
+      "id": "azi-dahaka",
+      "seeAlso": "Aži Dahāka",
       "pronunciation": "",
       "page": "—",
       "type": "crossref"
@@ -3757,28 +4090,52 @@
     {
       "name": "Ziz",
       "id": "ziz",
-      "pronunciation": "—",
+      "pronunciation": "ZEEZ",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Zmaj",
+      "id": "zmey",
+      "seeAlso": "Zmey",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "Zmeu",
       "id": "zmeu",
-      "pronunciation": "—",
+      "pronunciation": "ZMEH-oo",
       "page": "—",
       "type": "entry"
     },
     {
       "name": "Zmey",
       "id": "zmey",
-      "pronunciation": "—",
+      "pronunciation": "zmay",
       "page": "—",
       "type": "entry"
     },
     {
+      "name": "Zmey Gorynych",
+      "id": "zmey",
+      "seeAlso": "Zmey",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
+      "name": "Zû",
+      "id": "anzu",
+      "seeAlso": "Anzû",
+      "pronunciation": "",
+      "page": "—",
+      "type": "crossref"
+    },
+    {
       "name": "ʿIfrīt",
       "id": "ifrit",
-      "pronunciation": "—",
+      "pronunciation": "if-REET",
       "page": "—",
       "type": "entry"
     }

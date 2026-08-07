@@ -1,0 +1,176 @@
+{
+  "tradition": "romana",
+  "creatures": [
+    {
+      "id": "strix",
+      "name": "Strix",
+      "altNames": [
+        "Striga",
+        "Strigae (çoğul)"
+      ],
+      "pronunciation": "STRIKS",
+      "sources": [
+        {
+          "ref": "Ovidius, *Fasti*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "VI.131–168"
+        },
+        {
+          "ref": "Plinius, *Naturalis Historia*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "XI.95"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Strix”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G262.1"
+      ],
+      "motifDefs": {
+        "G262.1": "Witch sucks blood"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1'in tanımı 'Witch sucks blood' ve Thompson'ın kaynakçasında doğrudan 'Striges' geçer — kod bu maddenin Latince çoğulunu taşıyor.",
+      "motifChanged": "G262 → G262.1.",
+      "region": "Roma; kırsal ve kent evleri",
+      "attested": "Ovidius, *Fasti* VI (MS 8); Plinius, *Naturalis Historia* XI",
+      "appearance": [
+        "Baykuş biçiminde gece kuşu",
+        "Kanca gagalı",
+        "Gri tüylü"
+      ],
+      "behaviour": "Geceleri beşiğe girer ve bebeğin kanını emer. Ovidius, Proca'nın beş günlükken kurtarılışını anlatır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Ovidius'ta: alıç dalı (*spina alba*) ve Carna'ya sunulan domuz sakatatı.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) Roma üyesi ve motif kodunun adını verdiği ikinci madde."
+      ]
+    },
+    {
+      "id": "basiliscus",
+      "name": "Basiliscus",
+      "altNames": [],
+      "pronunciation": "bah-si-LIS-kus",
+      "sources": [
+        {
+          "ref": "Plinius, *Naturalis Historia*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "VIII.33"
+        },
+        {
+          "ref": "Lucanus, *Pharsalia*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "IX.724–726"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Basilisk”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B12"
+      ],
+      "motifDefs": {
+        "B12": "Basilisk. A mythical lizard or serpent whose hissing drives away all other serpents"
+      },
+      "motifVerified": true,
+      "motifNote": "B12 ('Basilisk. A mythical lizard or serpent whose hissing drives away all other serpents') doğrulandı ve korundu. Kod doğrudan bu maddenin adını taşıyor.",
+      "region": "Roma; Kyrene çölü (Plinius'a göre)",
+      "attested": "Plinius, *Naturalis Historia* VIII (MS 77); Lucanus, *Pharsalia* IX",
+      "appearance": [
+        "Küçük — Plinius'a göre on iki parmak uzunluğunda",
+        "Başında taç benzeri beyaz leke",
+        "Dik yürüyen ön gövde"
+      ],
+      "behaviour": "Bakışı ve soluğu öldürür; geçtiği yeri çöle çevirir. Plinius'ta gelincik onu öldüren tek hayvandır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Plinius'ta gelincik (*mustela*); ortaçağda ayna.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Eşik bekçisi ailesinde (F) — ama bekçilik etmez, YOL AÇMAZ. Faz 2'de aile üyeliği gözden geçirilmeli.",
+        "Ölçü verilmiş: on iki parmak. Somutluk kuralının Roma kaynaklı örneği."
+      ]
+    },
+    {
+      "id": "lemures",
+      "name": "Lemures",
+      "altNames": [],
+      "pronunciation": "LEH-moo-res",
+      "sources": [
+        {
+          "ref": "Ovidius, *Fasti*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "V.419–492"
+        },
+        {
+          "ref": "Sarah Iles Johnston, *Restless Dead* (Berkeley: University of California Press, 1999)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Lemures”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "E200"
+      ],
+      "motifDefs": {
+        "E200": "Malevolent return from the dead"
+      },
+      "motifVerified": true,
+      "motifNote": "E200 ('Malevolent return from the dead') doğrulandı ve korundu. Lemures yatıştırılmadıkça dönen huzursuz ölülerdir.",
+      "region": "Roma; ev ve aile ocağı",
+      "attested": "Ovidius, *Fasti* V (MS 8); Lemuria bayramı 9, 11, 13 Mayıs",
+      "appearance": [
+        "Biçimsiz; adlandırılmamış ölüler",
+        "Görülmez, varlığı hissedilir"
+      ],
+      "behaviour": "Yatıştırılmadıkça eve döner. Lemuria'da ev reisi gece yalınayak kalkar, dokuz siyah bakla atar ve dokuz kez 'Bunlarla kendimi ve benimkileri kurtarıyorum' der.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Lemuria töreni: gece yarısı dokuz siyah bakla, arkaya bakmadan.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Karşı önlem TÖRENSELdir ve tarihi vardır (9/11/13 Mayıs) — 'attested' kuralının en iyi örneği."
+      ]
+    }
+  ]
+}

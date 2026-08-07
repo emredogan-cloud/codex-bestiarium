@@ -1,0 +1,181 @@
+{
+  "tradition": "turk",
+  "creatures": [
+    {
+      "id": "al-karisi",
+      "name": "Al Karısı",
+      "altNames": [
+        "Albastı",
+        "Al Bastı",
+        "Almastı"
+      ],
+      "pronunciation": "AHL kah-ruh-suh",
+      "sources": [
+        {
+          "ref": "Abdülkadir İnan, *Tarihte ve Bugün Şamanizm: Materyaller ve Araştırmalar* (Ankara: Türk Tarih Kurumu, 1954)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Pertev Naili Boratav, *100 Soruda Türk Folkloru* (İstanbul: Gerçek Yayınevi, 1973)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Al Basti”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G442",
+        "G262.5"
+      ],
+      "motifDefs": {
+        "G442": "Child-stealing demon",
+        "G262.5": "Witch takes out man's liver"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci') idi — Al Karısı erkekleri baştan çıkarmaz, LOĞUSAYI avlar. Doğrulanan G442 ('Child-stealing demon') ana kod; ikinci kod G262.5 ('Witch takes out man's liver') Al Karısı'nın tanımlayıcı eylemini (ciğer alma) birebir karşılıyor.",
+      "motifChanged": "G264 → G442 + G262.5.",
+      "region": "Türk; Anadolu, Orta Asya, Kafkasya — doğum odası",
+      "attested": "19.–20. yy Anadolu ve Orta Asya saha derlemeleri; Abdülkadir İnan kayıtları",
+      "appearance": [
+        "Kızıl giyimli kadın",
+        "Uzun saçlı",
+        "Sudan korktuğu anlatılır"
+      ],
+      "behaviour": "Loğusanın ciğerini alır ve suya atar. Kırk gün boyunca loğusa yalnız bırakılmaz.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Loğusanın yanında demir (bıçak, şiş) bulundurmak; kırk gün yalnız bırakmamak.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) Türk üyesi.",
+        "Kumiho ile ortak kod (G262.5): ciğer alma iki uzak gelenekte aynı eylem. Karşılaştırma açılışında kullanılacak."
+      ]
+    },
+    {
+      "id": "karakoncolos",
+      "name": "Karakoncolos",
+      "altNames": [
+        "Karakoncilos",
+        "Koncolos"
+      ],
+      "pronunciation": "kah-rah-kon-jo-LOS",
+      "sources": [
+        {
+          "ref": "Pertev Naili Boratav, *100 Soruda Türk Folkloru* (İstanbul: Gerçek Yayınevi, 1973)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Abdülkadir İnan, *Tarihte ve Bugün Şamanizm* (Ankara: Türk Tarih Kurumu, 1954)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Karakoncolos”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G302"
+      ],
+      "motifDefs": {
+        "G302": "Demons. Malevolent creatures (not usually further defined)"
+      },
+      "motifVerified": true,
+      "motifNote": "G302 ('Demons. Malevolent creatures (not usually further defined)') doğrulandı ve korundu. Karakoncolos kaynaklarda biçimden çok ZAMANLA (zemheri) tanımlanır; genel iblis kodu doğrudur.",
+      "region": "Türk; Karadeniz kıyısı, Balkanlar, Anadolu",
+      "attested": "19.–20. yy saha derlemeleri; Boratav",
+      "appearance": [
+        "Kıllı, iri",
+        "Zemherinin ilk on gününde çıktığı anlatılır"
+      ],
+      "behaviour": "Sokakta karşılaştığına soru sorar. Cevapta 'kara' kelimesi geçmezse çarpar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "Her cevapta 'kara' kelimesini geçirmek.",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Karşı önlem bir KELİME OYUNU. Kappa'nın selamıyla akraba: nezaket ve dil, güçten üstün."
+      ]
+    },
+    {
+      "id": "sahmeran",
+      "name": "Şahmeran",
+      "altNames": [
+        "Shahmaran",
+        "Şahmaran"
+      ],
+      "pronunciation": "shah-meh-RAHN",
+      "sources": [
+        {
+          "ref": "Pertev Naili Boratav, *Zaman Zaman İçinde* (İstanbul: Remzi Kitabevi, 1958)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Ahmet Yaşar Ocak, *Türk Folklorunda Kesik Baş* (Ankara: Türk Kültürünü Araştırma Enstitüsü, 1989)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Shahmaran”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B91"
+      ],
+      "motifDefs": {
+        "B91": "Mythical serpent"
+      },
+      "motifVerified": true,
+      "motifNote": "B91 ('Mythical serpent') doğrulandı ve korundu. Şahmeran yılanların kraliçesidir; B91.1 ('Naga') değerlendirildi ama o Hint bağlamına özgüdür.",
+      "region": "Türk; Anadolu (özellikle Tarsus, Mardin, Adana)",
+      "attested": "Anadolu sözlü geleneği; 19.–20. yy derlemeler; halk resmi geleneği",
+      "appearance": [
+        "Üst gövdesi kadın, alt gövdesi yılan",
+        "Başında taç",
+        "Halk resimlerinde çok sayıda küçük yılanla birlikte"
+      ],
+      "behaviour": "Yılanların bilge kraliçesi. Sırrını öğrenen Camsab tarafından ele verilir; öldürülür ve etinden şifa elde edilir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "İhanet anlatısı: bilgi paylaşıldığı an ölüm. Maddenin 5. bölümünün çekirdeği.",
+        "Anadolu ev duvarlarında hâlâ asılan bir imge — yaşayan folklor örneği."
+      ]
+    }
+  ]
+}

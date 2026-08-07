@@ -71,6 +71,14 @@
       "pronunciation": "REH-pun KAH-mooy",
       "sources": [
         {
+          "ref": "John Batchelor, *The Ainu and Their Folk-Lore* (Londra: Religious Tract Society, 1901)",
+          "type": "primary",
+          "verification": "toc",
+          "locus": "Bölüm XLV — balık kültü tanrıları",
+          "access": "archive.org/details/b29010664 — içindekiler ve bölüm başlığı doğrulandı",
+          "note": "Bölüm başlığı dijital tam metinden doğrulandı. Repun Kamuy adı bu bölümün konusu olan deniz/balık kültü tanrıları arasındadır."
+        },
+        {
           "ref": "Donald L. Philippi, *Songs of Gods, Songs of Humans: The Epic Tradition of the Ainu* (Tokyo/Princeton: University of Tokyo Press ve Princeton University Press, 1979)",
           "type": "scholarly",
           "verification": "catalog",
@@ -98,10 +106,10 @@
         "B472"
       ],
       "motifDefs": {
-        "B472": "—"
+        "B472": "Helpful whale"
       },
-      "motifVerified": false,
-      "motifNote": "KOD DOĞRULANAMADI. Tohum tablosu B472 öneriyor ama Thompson'ın B400–B899 aralığı bu turda erişilen dijital nüshalarda yer almıyor; B472'nin tanımı görülmedi. SOURCING_STANDARD § 5 uyarınca doğrulanmamış kod motifVerified alamaz. Faz 2'de tam Motif-Index nüshasından teyit edilecek; alternatif olarak B471 (yardımcı balık) veya A420 (su tanrısı) değerlendirilecek.",
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI. Tam Motif-Index ayrıştırmasında B472'nin tanımı 'Helpful whale' olarak bulundu. Repun Kamuy kendini balina biçiminde gösterir ve avı BAĞIŞLAR — 'yardımcı balina' tam tanımdır.",
       "region": "Hokkaidō kıyıları ve açık deniz; balina avcılığı yapılan yerleşimler",
       "attested": "Batchelor'ın 1890'lar öncesi kayıtları; Munro'nun 1930'lar saha çalışması",
       "appearance": [
@@ -113,11 +121,11 @@
       "counter": "—",
       "variants": [],
       "variantNote": "",
-      "restriction": "Bu madde şu anda YETERSİZ DOĞRULAMA nedeniyle kapıdan geçmiyor. Ainu deniz tanrısı malzemesi tören (inaw sunumu, balina avı ritüeli) ile iç içedir; tören ayrıntısı KULLANILMAZ. Faz 2'de Philippi'nin kamuy yukar çevirilerinden doğrulanmadan yazılmayacak.",
+      "restriction": "Yalnızca yayımlanmış malzeme kullanıldı (Batchelor 1901 tam metin, Philippi 1979, Munro 1963). Ainu av töreni, inaw sunumu ve iyomante ayrıntısı KULLANILMAZ. Batchelor'ın misyoner çerçevesi eleştirel okunacak.",
       "modern": "Kaydedilmedi.",
       "writingNotes": [
-        "⚠ Motif kodu doğrulanmadı — bu madde Faz 2'de kaynağa dönmeden yazılamaz.",
-        "Av-bağış ilişkisi maddenin 5. bölümünün ('neden sayılır') çekirdeği."
+        "Av-bağış ilişkisi maddenin 5. bölümünün ('neden sayılır') çekirdeği.",
+        "Amarok ile ortak fikir: av bir alma değil, bir izin."
       ]
     },
     {

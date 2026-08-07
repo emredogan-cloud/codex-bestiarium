@@ -12,7 +12,7 @@
 | **Gelenek** | Melanesia ◉ · Okyanusya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | — |
-| **Plaka** | `plate-118` |
+| **Plaka** | `plate-110` |
 | **Telaffuz (taslak)** | ah-DAH-ro |
 | **Durum** | `draft` |
 

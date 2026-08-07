@@ -1,0 +1,179 @@
+{
+  "tradition": "arab",
+  "creatures": [
+    {
+      "id": "ghul",
+      "name": "Ghūl",
+      "altNames": [
+        "Ghoul",
+        "Ghūla (dişil)"
+      ],
+      "pronunciation": "GOOL",
+      "sources": [
+        {
+          "ref": "el-Câhiz, *Kitāb al-Ḥayawān* (Hayvanlar Kitabı, 9. yy)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Amira El-Zein, *Islam, Arabs, and the Intelligent World of the Jinn* (Syracuse: Syracuse University Press, 2009)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ghul”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G11.2"
+      ],
+      "motifDefs": {
+        "G11.2": "Cannibal giant"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G11 ('Kinds of cannibals') bölüm başlığıydı; doğrulanan G11.2 ('Cannibal giant') ghūl'ün çölde yolcuyu yiyen iri varlık tanımına daha yakın. Not: ghūl aynı zamanda şekil değiştirir; D100 kümesi Faz 2'de ikinci kod olarak değerlendirilecek.",
+      "motifChanged": "G11 → G11.2.",
+      "region": "ʿArab; çöl, mezarlık, ıssız yol",
+      "attested": "*Kitāb al-Ḥayawān* (el-Câhiz, 9. yy); *Bin Bir Gece* derlemesi",
+      "appearance": [
+        "Kılık değiştirir",
+        "Ayakları eşek toynağı olarak anlatılır (gizlenemeyen işaret)"
+      ],
+      "behaviour": "Çölde yolcuyu şaşırtır ve yer. Mezarlıkta ölüyü kazar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Eşek toynağı: gizlenemeyen işaret. Kitapta tekrar eden bir kalıp (Nykur'un ters toynağı, Curupira'nın ters ayağı)."
+      ]
+    },
+    {
+      "id": "ifrit",
+      "name": "ʿIfrīt",
+      "altNames": [
+        "Afrit",
+        "Efreet"
+      ],
+      "pronunciation": "if-REET",
+      "sources": [
+        {
+          "ref": "*Kur'an*",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "27:39 (Neml suresi)"
+        },
+        {
+          "ref": "Amira El-Zein, *Islam, Arabs, and the Intelligent World of the Jinn* (Syracuse: Syracuse University Press, 2009)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ifrit”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G307"
+      ],
+      "motifDefs": {
+        "G307": "Jinn"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum F402 ('Evil spirits') idi; doğrulanan G307 ('Jinn') ʿifrīt'in cinlerin bir SINIFI olduğunu doğru şekilde tasnif eder — genel 'kötü ruh' değil.",
+      "motifChanged": "F402 → G307.",
+      "region": "ʿArab; İslam öncesi ve sonrası Arap dünyası",
+      "attested": "Kur'an 27:39; *Bin Bir Gece*; el-Câhiz",
+      "appearance": [
+        "Ateşten yaratılmış",
+        "Cinlerin güçlü ve dik başlı sınıfı",
+        "Kanatlı olarak da betimlenir"
+      ],
+      "behaviour": "Cinlerin en güçlü sınıfı. Kur'an'da Süleyman'ın huzurunda Belkıs'ın tahtını getirmeyi öneren varlıktır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "ʿIfrīt YAŞAYAN bir dinî geleneğin parçasıdır. Kur'an atfı bir metin atfıdır; teolojik yorum yapılmaz, muska ve dua metni aktarılmaz.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Perī ile ortak kod (G307): iki komşu gelenek aynı ateş-varlığı kümesinde."
+      ]
+    },
+    {
+      "id": "rukh",
+      "name": "Rukh",
+      "altNames": [
+        "Roc",
+        "Rukhkh"
+      ],
+      "pronunciation": "ROOK",
+      "sources": [
+        {
+          "ref": "*Bin Bir Gece* (Alf layla wa-layla)",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Sindbad'ın İkinci Yolculuğu"
+        },
+        {
+          "ref": "Robert Irwin, *The Arabian Nights: A Companion* (Londra: Allen Lane, 1994)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Roc”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B31.1"
+      ],
+      "motifDefs": {
+        "B31.1": "Roc"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. Doğrulanan B31.1'in tanımı 'Roc. A giant bird which carries off men in its claws' — kod bu maddenin adını taşıyor. NOT: önceki turda B31'in 'Roc' olduğu sanılmıştı; tam nüsha ayrıştırması B31'in bölüm başlığı, B31.1'in Roc olduğunu gösterdi. Tohum tablosu BAŞTAN DOĞRUYDU.",
+      "region": "ʿArab; Hint Okyanusu, Madagaskar anlatıları",
+      "attested": "*Bin Bir Gece* (Sindbad'ın ikinci ve beşinci yolculuğu); İbn Battûta (14. yy)",
+      "appearance": [
+        "Devasa kuş",
+        "Fili pençesiyle kaldırır",
+        "Yumurtası bir kubbe büyüklüğünde"
+      ],
+      "behaviour": "Sindbad yumurtasına bağlanarak adadan kurtulur; sonra Rukh gemiyi kayayla batırır.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Fırtına kuşu ailesinin (D) tek TAŞIYICI üyesi: fırtına getirmez, YÜK kaldırır."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "tradition": "maohi",
+  "creatures": [
+    {
+      "id": "taniwha",
+      "name": "Taniwha",
+      "altNames": [],
+      "pronunciation": "TAH-nee-fah",
+      "sources": [
+        {
+          "ref": "George Grey, *Polynesian Mythology and Ancient Traditional History of the New Zealand Race* (Londra: John Murray, 1855)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Margaret Orbell, *The Illustrated Encyclopedia of Māori Myth and Legend* (Christchurch: Canterbury University Press, 1995)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Taniwha”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B11.3"
+      ],
+      "motifDefs": {
+        "B11.3": "Habitat of dragon"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. B11.3 ('Habitat of dragon') taniwha'nın tanımlayıcı özelliğini — belirli bir su yerine bağlı olmasını — tasnif eder. Her taniwha bir YERE aittir.",
+      "region": "Aotearoa (Yeni Zelanda); ırmak ağızları, koylar, mağaralar",
+      "attested": "19. yy Māori sözlü derlemeleri (Grey, 1855); iwi anlatıları",
+      "appearance": [
+        "Biçim değişken: kimi kayıtta yılan benzeri, kimi kayıtta köpekbalığı veya kertenkele",
+        "Belirli bir su yerine bağlı"
+      ],
+      "behaviour": "Nehir ağzını veya koyu tutar. Kimi iwi için koruyucu (kaitiaki), kimi için tehlike.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Māori anlatı geleneği YAŞAYANDIR ve taniwha anlatıları iwi/hapū mülkiyetindedir. Belirli bir taniwha'nın adı, yeri ve ona bağlı whakapapa KULLANILMAZ. Yalnızca genel kategori ve yayımlanmış akademik betimleme kullanılır. Grey'in 1855 derlemesi sömürge dönemi çerçevesiyle okunacak. Plakada moko (dövme) deseni veya iwi işareti çizilmez.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Koruyucu/tehlike ikiliği taniwha'nın tanımıdır — 'canavar' demek yanlış olur ve maddede bu söylenecek."
+      ]
+    },
+    {
+      "id": "moo",
+      "name": "Moʻo",
+      "altNames": [],
+      "pronunciation": "MO-oh",
+      "sources": [
+        {
+          "ref": "Abraham Fornander, *Fornander Collection of Hawaiian Antiquities and Folk-Lore* (Honolulu: Bishop Museum Press, 1916–20)",
+          "type": "primary",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Martha Beckwith, *Hawaiian Mythology* (New Haven: Yale University Press, 1940)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Moo”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B91"
+      ],
+      "motifDefs": {
+        "B91": "Mythical serpent"
+      },
+      "motifVerified": true,
+      "motifNote": "B91 ('Mythical serpent') doğrulandı ve korundu. Moʻo büyük bir kertenkele/sürüngen ruhtur; B91.1 ('Naga') Hint bağlamına özgü olduğu için üst kod kullanıldı.",
+      "region": "Hawaiʻi; tatlı su gölcükleri (loko), balık havuzları",
+      "attested": "19. yy Hawaii derlemeleri (Fornander, Kamakau)",
+      "appearance": [
+        "Büyük siyah kertenkele",
+        "Kimi anlatıda kadın biçiminde"
+      ],
+      "behaviour": "Gölcükleri ve balık havuzlarını bekler. Suyun ve soy bağının koruyucusu; sularının rengi onun varlığını gösterir.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Hawaii geleneği YAŞAYANDIR. Belirli bir moʻo'nun adı, yeri ve ona bağlı ʻohana (aile) bağı KULLANILMAZ. Yalnızca yayımlanmış derleme ve akademik betimleme kullanılır; mele (şarkı) ve pule (dua) aktarılmaz.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Su ve soy bağı: moʻo bir yer koruyucusu olduğu kadar bir SOY işaretidir."
+      ]
+    },
+    {
+      "id": "ponaturi",
+      "name": "Ponaturi",
+      "altNames": [],
+      "pronunciation": "po-nah-TOO-ree",
+      "sources": [
+        {
+          "ref": "George Grey, *Polynesian Mythology* (Londra: John Murray, 1855)",
+          "type": "primary",
+          "verification": "canon",
+          "locus": "Tāwhaki döngüsü"
+        },
+        {
+          "ref": "Margaret Orbell, *The Illustrated Encyclopedia of Māori Myth and Legend* (Christchurch: Canterbury University Press, 1995)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Ponaturi”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G300"
+      ],
+      "motifDefs": {
+        "G300": "Other ogres"
+      },
+      "motifVerified": true,
+      "motifNote": "G300 ('Other ogres') doğrulandı ve korundu. Ponaturi belirli bir Thompson alt koduna oturmayan bir deniz halkıdır; doğrulanmamış dar kod yerine doğrulanmış üst kod kullanıldı.",
+      "region": "Aotearoa; deniz ve kıyı",
+      "attested": "Grey, *Polynesian Mythology* (1855); Māori sözlü geleneği",
+      "appearance": [
+        "İnsan benzeri deniz halkı",
+        "Yeşilimsi ten olarak anlatılır",
+        "Gün ışığına dayanamaz"
+      ],
+      "behaviour": "Gündüz denizde saklanır, geceleri karaya çıkar ve uyur. Anlatıda Tāwhaki, evin kepenklerini açıp gün ışığını içeri alarak onları yok eder.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Māori anlatı geleneği yaşayandır; iwi-özel anlatı ve whakapapa KULLANILMAZ. Yalnızca yayımlanmış derleme kullanıldı.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gün ışığıyla öldürme: kitaptaki en eski 'vampir mantığı' örneklerinden ve Avrupa dışından."
+      ]
+    }
+  ]
+}

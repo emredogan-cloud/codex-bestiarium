@@ -76,12 +76,29 @@ söyler. Bu alan boş bırakılamaz.
 | `fulltext` | Dijital nüshanın tam metni görüldü; alıntı birebir | güçlü |
 | `toc` | İçindekiler veya bölüm başlığı görüldü; içerik oradan teyit edildi | güçlü |
 | `article` | Cilt, sayı, sayfa aralığı ve kalıcı kimliği (DOI/JSTOR) doğrulanmış hakemli makale. Yer kesin ve kalıcıdır | güçlü |
+| `sv` | **Alfabetik** başvuru cildinde madde başlığı (*sub verbo*). Okur cildi açar ve doğrudan o başlığa gider; yer sayfadan bağımsız ve kesindir | güçlü |
 | `canon` | Kendi iç numaralandırması olan standart eleştirel metin: *Völuspá* 45, *Kalevala* runo 26, *Nihon Shoki* II, Pliny *NH* VIII.32. Yer, metnin kendi atıf sistemidir ve baskıdan bağımsızdır | güçlü |
 | `catalog` | Kütüphane/arşiv kataloğunda künye doğrulandı (varlık kesin, içerik değil) | zayıf |
 | `secondary` | Başka bir yayımlanmış çalışmanın atfı üzerinden bilinir | zayıf |
 
 Bir maddenin iki bağımsız kaynağından **en az birinin** doğrulaması
-`fulltext`, `toc`, `canon` veya `article` olmalıdır.
+`fulltext`, `toc`, `canon`, `article` veya `sv` olmalıdır.
+
+> **`sv` neden güçlü sayılır — ve bu bir gevşetme DEĞİLDİR.**
+> Bu belgenin § 3'ü zaten şunu söylüyordu: *"Başvuru cildi / ansiklopedi →
+> Rose (2000), **s.v.** 'Each-uisge' → Madde başlığıyla künye vermek
+> **standarttır**; sayfa gereksizdir."* Yani künye biçimi bölümü `s.v.`'yi
+> kesin bir yer sayıyordu; doğrulama seviyeleri tablosu bunu yansıtmıyordu.
+> İki bölüm birbiriyle çelişiyordu ve çelişki bu turda giderildi.
+>
+> Ölçüt değişmedi: *okur gidip **kesin** bir yere bakabilir mi?* Alfabetik bir
+> ciltte "Each-uisge" başlığı, bir bölüm başlığı kadar kesindir — hatta daha
+> kesindir, çünkü baskıdan bağımsızdır.
+>
+> **Sınır:** `sv` yalnızca `reference` katmanındaki **alfabetik** ciltlerde
+> kullanılır. Ve `sv` tek başına yetmez — "en az bir kaynak `primary` veya
+> `scholarly` olmalı" kuralı **ayrıca** işler ve gevşetilmedi. Bir madde
+> yalnızca ansiklopedilerle doğrulanmış sayılamaz.
 
 > **Güç ölçütü "okudum mu" değil, "okur gidip bakabilir mi"dir.**
 > Bir künye, okuru KESİN ve KALICI bir yere götürüyorsa güçlüdür. *Völuspá* 45

@@ -1,0 +1,166 @@
+{
+  "tradition": "inuit",
+  "creatures": [
+    {
+      "id": "qalupalik",
+      "name": "Qalupalik",
+      "altNames": [],
+      "pronunciation": "kah-loo-PAH-lik",
+      "sources": [
+        {
+          "ref": "Knud Rasmussen, *Intellectual Culture of the Iglulik Eskimos*, Report of the Fifth Thule Expedition 1921–24, VII:1 (Kopenhag: Gyldendal, 1929)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Daniel Merkur, *Powers Which We Do Not Know: The Gods and Spirits of the Inuit* (Moscow, Idaho: University of Idaho Press, 1991)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Qalupalik”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "G442"
+      ],
+      "motifDefs": {
+        "G442": "Child-stealing demon"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G308 ('Sea monster') idi; qalupalik'in tanımlayıcı eylemi deniz canavarı olmak değil ÇOCUK ALMAKTIR. Doğrulanan G442 ('Child-stealing demon') tam tanımdır.",
+      "motifChanged": "G308 → G442.",
+      "region": "Inuit; Nunavut ve Nunavik kıyıları, deniz buzu kenarı",
+      "attested": "20. yy sözlü derlemeler; Inuit anlatı derlemeleri",
+      "appearance": [
+        "Yeşil derili",
+        "Uzun saçlı",
+        "Sırtında amautik (bebek taşıma kesesi)"
+      ],
+      "behaviour": "Buzun altında bekler ve kıyıda yalnız kalan çocuğu alır. Anlatı, çocukları buz kenarından uzak tutar.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Inuit anlatı geleneği YAŞAYANDIR. Yalnızca yayımlanmış derlemeler kullanıldı. Şaman (angakkuq) uygulaması, tören ve yer-özel anlatı KULLANILMAZ. Rasmussen'in sömürge dönemi çerçevesi eleştirel okunacak.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Gece cadısı ailesinin (C) Kutup üyesi ve tek AÇIK ÖĞRETİCİ üyesi: anlatının işlevi çocuğu uyarmak."
+      ]
+    },
+    {
+      "id": "amarok",
+      "name": "Amarok",
+      "altNames": [],
+      "pronunciation": "AH-mah-rok",
+      "sources": [
+        {
+          "ref": "Knud Rasmussen, *Intellectual Culture of the Iglulik Eskimos* (Kopenhag: Gyldendal, 1929)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Daniel Merkur, *Powers Which We Do Not Know* (Moscow, Idaho: University of Idaho Press, 1991)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Amarok”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "B871"
+      ],
+      "motifDefs": {
+        "B871": "Giant beasts"
+      },
+      "motifVerified": true,
+      "motifNote": "B871 ('Giant beasts') doğrulandı ve korundu. Amarok dev bir kurttur; Thompson'da özel bir 'dev kurt' alt kodu bulunamadı, doğrulanmış üst kod kullanıldı.",
+      "region": "Inuit; Grönland ve Kanada tundrası",
+      "attested": "Rasmussen derlemeleri; 19.–20. yy kayıtlar",
+      "appearance": [
+        "Dev kurt",
+        "Sürü hâlinde değil YALNIZ avlanır"
+      ],
+      "behaviour": "Yalnız avlanır. Kuralı çiğneyen — geceleyin tek başına avlanan — avcıyı bulur.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "Yalnızca yayımlanmış derlemeler kullanıldı; şaman uygulaması ve yer-özel anlatı KULLANILMAZ.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Kuralı çiğneyeni cezalandırma: Repun Kamuy ve Amarok aynı av ahlakının iki yüzü."
+      ]
+    },
+    {
+      "id": "tupilaq",
+      "name": "Tupilaq",
+      "altNames": [],
+      "pronunciation": "TOO-pee-lahk",
+      "sources": [
+        {
+          "ref": "Knud Rasmussen, *Intellectual Culture of the Iglulik Eskimos* (Kopenhag: Gyldendal, 1929)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Daniel Merkur, *Powers Which We Do Not Know* (Moscow, Idaho: University of Idaho Press, 1991)",
+          "type": "scholarly",
+          "verification": "catalog"
+        },
+        {
+          "ref": "Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)",
+          "type": "reference",
+          "verification": "sv",
+          "locus": "s.v. “Tupilak”"
+        },
+        {
+          "ref": "Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)",
+          "type": "index",
+          "verification": "fulltext"
+        }
+      ],
+      "motif": [
+        "D1711"
+      ],
+      "motifDefs": {
+        "D1711": "Magician"
+      },
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. D1711 ('Magician') tupilaq'ın YAPILMA sürecini — bir büyücünün onu kurması — tasnif eder. Not: tupilaq'ın kendisi bir nesne-varlıktır; Thompson'da tam karşılığı olan bir 'yapay canlandırılmış figür' kodu bu turda bulunamadı.",
+      "region": "Inuit; Grönland doğu kıyısı",
+      "attested": "19. yy kayıtlar; Rasmussen; Grönland derlemeleri",
+      "appearance": [
+        "Kemik, deri ve hayvan parçalarından yapılır",
+        "Biçimi düzensiz ve bileşik"
+      ],
+      "behaviour": "Yapılır ve gizli sözlerle canlandırılır; bir düşmana gönderilir. Hedef daha güçlüyse tupilaq geri döner ve YAPANI öldürür.",
+      "incident": "Faz 3'te kaynaktan doğrudan okunacak.",
+      "counter": "—",
+      "variants": [],
+      "variantNote": "",
+      "restriction": "⚠ Tupilaq yapımı bir BÜYÜ uygulamasıdır. Yapım yöntemi, kullanılan sözler ve malzeme sırası KULLANILMAZ ve plakada gösterilmez. Yalnızca varlığın tarifi ve geri dönme mantığı anlatılır. Çağdaş Grönland'da tupilaq figürleri sanat nesnesi olarak üretilir; bu ayrım maddede belirtilecek.",
+      "modern": "Kaydedilmedi.",
+      "writingNotes": [
+        "Geri dönen silah: Golem ile aynı fikir, iki uzak gelenekte."
+      ]
+    }
+  ]
+}

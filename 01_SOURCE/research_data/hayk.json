@@ -94,13 +94,13 @@
         }
       ],
       "motif": [
-        "B733"
+        "E17"
       ],
       "motifDefs": {
-        "B733": "—"
+        "E17": "Resuscitation by licking corpse"
       },
-      "motifVerified": false,
-      "motifNote": "KOD DOĞRULANAMADI. Tohum B733 öneriyor; Thompson'ın B400–B899 aralığı bu turda erişilen dijital nüshalarda yok ve tanım görülmedi. Faz 2'de teyit edilecek. Alternatif olarak E0–E199 (diriltme) kümesi değerlendirilmeli — aralez'in işlevi bir HAYVAN özelliği değil, DİRİLTMEdir; kod büyük olasılıkla E bölümünde olmalı.",
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B733 ('Animals are spirit-sighted') idi — aralez'in işlevi görmek değil DİRİLTMEKTİR. Tam Motif-Index ayrıştırmasında bulunan E17'nin tanımı birebir: 'Resuscitation by licking corpse'. Aralez'in yaptığı şey tam olarak budur.",
       "region": "Tarihî Ermenistan; savaş alanları anlatılarında",
       "attested": "Ananikian 1925'te derlenmiş erken Ermeni kaynaklarından",
       "appearance": [
@@ -115,9 +115,10 @@
       "restriction": "",
       "modern": "Kaydedilmedi.",
       "writingNotes": [
-        "⚠ Motif kodu doğrulanmadı — Faz 2'de E bölümünden yeniden değerlendirilecek.",
+        "Kitabın tek DİRİLTEN varlığı; yutucuların karşıtı.",
         "Eşik bekçisi ailesinde (F) sınıflandırılmış ama işlevi bekçilik değil DİRİLTME; Faz 2'de aile üyeliği yeniden düşünülmeli."
-      ]
+      ],
+      "motifChanged": "B733 → E17. Kod B (hayvan) bölümünde değil E (ölüler/diriltme) bölümünde olmalıydı."
     },
     {
       "id": "nhang",
@@ -147,13 +148,13 @@
         }
       ],
       "motif": [
-        "D113"
+        "F420"
       ],
       "motifDefs": {
-        "D113": "Transformation: man to canine animal (wild)"
+        "F420": "Water-spirits"
       },
-      "motifVerified": false,
-      "motifNote": "KOD UYMUYOR. Tohum D113 öneriyor ama doğrulanan tanımı 'Transformation: man to canine animal (wild)' — KÖPEKGİL dönüşümü. Nhang fok veya kadın biçimine girer, köpekgile değil. Doğru kod büyük olasılıkla D100 ('Transformation: man to animal') üst kümesinde veya F420 ('Water-spirits') altında. Faz 2'de karara bağlanacak; şimdilik doğrulanmamış sayılır.",
+      "motifVerified": true,
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113 ('Transformation: man to canine animal (wild)') idi — nhang fok ve kadın biçimine girer, köpekgile değil. Doğrulanan F420 ('Water-spirits') nhang'ın ırmak varlığı olmasını doğru tasnif eder; biçim değiştirme ikincildir.",
       "region": "Ermeni yaylası ırmakları; klasik Ermeni edebiyatında genel 'deniz canavarı' anlamında da kullanılır",
       "attested": "Ananikian 1925'te derlenmiş; terim erken Ermeni edebiyatında",
       "appearance": [
@@ -174,9 +175,9 @@
       "restriction": "",
       "modern": "Kaydedilmedi.",
       "writingNotes": [
-        "⚠ Motif kodu uymuyor — Faz 2'de düzeltilecek.",
         "Nhang'ın erkeği baştan çıkarıp öldürmesi, G264 ('La Belle Dame Sans Merci') tanımına C ailesinin çoğu üyesinden DAHA çok uyuyor. Faz 2'de değerlendirilmeli."
-      ]
+      ],
+      "motifChanged": "D113 → F420. Nhang köpekgile dönüşmez; ırmak ruhudur."
     }
   ]
 }
