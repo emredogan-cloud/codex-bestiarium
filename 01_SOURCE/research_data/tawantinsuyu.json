@@ -58,7 +58,10 @@
     {
       "id": "pishtaco",
       "name": "Pishtaco",
-      "altNames": [],
+      "altNames": [
+        "Nakaq",
+        "Kharisiri"
+      ],
       "pronunciation": "peesh-TAH-ko",
       "sources": [
         {
@@ -112,7 +115,9 @@
     {
       "id": "supay",
       "name": "Supay",
-      "altNames": [],
+      "altNames": [
+        "Zupay"
+      ],
       "pronunciation": "SOO-pye",
       "sources": [
         {

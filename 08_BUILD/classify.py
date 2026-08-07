@@ -494,9 +494,12 @@ def main() -> int:
     want_doc = render_openings(spec, km)
 
     if args.check:
+        # `06_REPORTS/*.json` .gitignore'dadır ve olmalıdır: rapor bir ÇIKTIDIR,
+        # kaynak değil. Bayatlık denetimi yalnızca DEPODAKİ türetilmiş
+        # dosyalara uygulanır — CI'da olmayan bir raporu "bayat" saymak,
+        # gerçek bir kalite düşüşü olmadan derlemeyi kırmızıya çevirir.
         stale = []
-        for path, want in ((SPEC_PATH, want_spec), (GRAPH_REPORT, want_graph),
-                           (OPENINGS_DOC, want_doc)):
+        for path, want in ((SPEC_PATH, want_spec), (OPENINGS_DOC, want_doc)):
             if not os.path.exists(path):
                 stale.append(f"{os.path.relpath(path, ROOT)} (yok)")
                 continue
@@ -510,6 +513,9 @@ def main() -> int:
             return 1
         if code == 0:
             print("TAMAM: tasnif ve çapraz referanslar güncel.")
+            if not os.path.exists(GRAPH_REPORT):
+                print(f"not: {os.path.relpath(GRAPH_REPORT, ROOT)} yok "
+                      "(.gitignore § rapor) — üretmek için: classify.py")
         return code
 
     with open(SPEC_PATH, "w", encoding="utf-8") as fh:

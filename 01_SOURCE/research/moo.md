@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `moo` |
 | **Ad** | Moʻo |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Mo'o |
 | **Gelenek** | Mā'ohi ᴥ · Okyanusya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | — |

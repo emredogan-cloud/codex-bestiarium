@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `camazotz` |
 | **Ad** | Camazotz |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Zotz |
 | **Gelenek** | Maya 𝋠 · Mezoamerika |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | F · Eşik bekçisi |

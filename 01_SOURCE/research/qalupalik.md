@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `qalupalik` |
 | **Ad** | Qalupalik |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Qallupilluit (çoğul) |
 | **Gelenek** | Inuit ᐃ · Kutup |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |

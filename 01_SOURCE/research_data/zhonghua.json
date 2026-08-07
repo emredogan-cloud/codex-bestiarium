@@ -4,7 +4,9 @@
     {
       "id": "long",
       "name": "Lóng",
-      "altNames": [],
+      "altNames": [
+        "Lung (Wade-Giles)"
+      ],
       "pronunciation": "LOONG",
       "sources": [
         {

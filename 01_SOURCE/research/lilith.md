@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `lilith` |
 | **Ad** | Lilith |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Lilitu (Mezopotamya) |
 | **Gelenek** | Talmud ✡ · Yakın Doğu |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |

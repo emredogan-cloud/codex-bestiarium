@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `draugr` |
 | **Ad** | Draugr |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Draugar (çoğul), Haugbúi |
 | **Gelenek** | Norðr ᚦ · Kuzey Avrupa |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | — |

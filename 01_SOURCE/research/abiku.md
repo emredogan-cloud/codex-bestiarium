@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `abiku` |
 | **Ad** | Àbíkú |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Ogbanje (Igbo karşılığı) |
 | **Gelenek** | Yorùbá · Ashanti ✺ · Afrika |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | C · Gece cadısı |

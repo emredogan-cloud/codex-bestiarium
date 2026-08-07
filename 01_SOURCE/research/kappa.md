@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `kappa` |
 | **Ad** | Kappa |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Kawatarō |
 | **Gelenek** | Yamato 神 · Doğu Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | — |

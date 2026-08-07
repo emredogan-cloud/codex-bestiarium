@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `basiliscus` |
 | **Ad** | Basiliscus |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Basilisk, Basiliskos |
 | **Gelenek** | Romana SPQR · Akdeniz |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | F · Eşik bekçisi |

@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `rusalka` |
 | **Ad** | Rusalka |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Rusalki (çoğul) |
 | **Gelenek** | Slovjan ⚡ · Kuzey Avrupa |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | — |

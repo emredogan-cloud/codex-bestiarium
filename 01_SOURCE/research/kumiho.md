@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `kumiho` |
 | **Ad** | Kumiho |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Gumiho |
 | **Gelenek** | Hangug 단 · Doğu Asya |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | B · Tilki kadın |

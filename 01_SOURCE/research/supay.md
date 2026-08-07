@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `supay` |
 | **Ad** | Supay |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Zupay |
 | **Gelenek** | Tawantinsuyu ☉ · And |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | — |

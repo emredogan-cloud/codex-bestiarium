@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `dokkaebi` |
 | **Ad** | Dokkaebi |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Tokkaebi |
 | **Gelenek** | Hangug 단 · Doğu Asya |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |

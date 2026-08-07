@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `ahuizotl` |
 | **Ad** | Ahuizotl |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Ahuítzotl |
 | **Gelenek** | Mēxihcah ☼ · Mezoamerika |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | — |

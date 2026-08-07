@@ -4,7 +4,9 @@
     {
       "id": "huldufolk",
       "name": "Huldufólk",
-      "altNames": [],
+      "altNames": [
+        "Álfar (akraba)"
+      ],
       "pronunciation": "HOOL-doo-folk",
       "sources": [
         {
@@ -114,7 +116,9 @@
     {
       "id": "skuggabaldur",
       "name": "Skuggabaldur",
-      "altNames": [],
+      "altNames": [
+        "Skoffín (akraba)"
+      ],
       "pronunciation": "SKOOG-gah-bald-oor",
       "sources": [
         {

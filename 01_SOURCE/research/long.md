@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `long` |
 | **Ad** | Lóng |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Lung (Wade-Giles) |
 | **Gelenek** | Zhōnghuá 龍 · Doğu Asya |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | — |

@@ -4,7 +4,9 @@
     {
       "id": "camazotz",
       "name": "Camazotz",
-      "altNames": [],
+      "altNames": [
+        "Zotz"
+      ],
       "pronunciation": "kah-mah-SOTS",
       "sources": [
         {
@@ -59,7 +61,10 @@
     {
       "id": "xtabay",
       "name": "Xtabay",
-      "altNames": [],
+      "altNames": [
+        "Xtabai",
+        "X-tabai"
+      ],
       "pronunciation": "sh-tah-BYE",
       "sources": [
         {
@@ -113,7 +118,9 @@
     {
       "id": "way",
       "name": "Way",
-      "altNames": [],
+      "altNames": [
+        "Wayob (çoğul)"
+      ],
       "pronunciation": "WHY",
       "sources": [
         {

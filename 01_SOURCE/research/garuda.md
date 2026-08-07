@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `garuda` |
 | **Ad** | Garuḍa |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Suparṇa |
 | **Gelenek** | Bharatiya ॐ · Güney Asya |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | D · Fırtına kuşu |

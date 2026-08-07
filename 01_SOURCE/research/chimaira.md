@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `chimaira` |
 | **Ad** | Chímaira |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Chimera, Chimaera |
 | **Gelenek** | Hellenic Ω · Akdeniz |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |

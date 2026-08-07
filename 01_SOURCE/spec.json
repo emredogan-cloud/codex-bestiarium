@@ -938,7 +938,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "F",
-      "altNames": [],
+      "altNames": [
+        "Cerberus"
+      ],
       "region": "Hellas; Hades'in kapısı, Akheron geçidi",
       "attested": "Hesiodos, *Theogonia* (MÖ ~700); Homeros, *İlyada* VIII",
       "sources": [
@@ -992,7 +994,10 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Chimera",
+        "Chimaera"
+      ],
       "region": "Likya (Anadolu güneybatısı)",
       "attested": "Homeros, *İlyada* VI (MÖ ~750); Hesiodos, *Theogonia*",
       "sources": [
@@ -1045,7 +1050,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
+      "altNames": [
+        "Lamiai (çoğul)"
+      ],
       "region": "Hellas; Libya kökenli anlatılır",
       "attested": "Duris of Samos (MÖ 3. yy) üzerinden; Diodoros Sikulos XX",
       "sources": [
@@ -1096,7 +1103,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Ammut"
+      ],
       "region": "Kemet (Mısır); Ölüler Kitabı'nın 125. bölümündeki yargı salonu",
       "attested": "Ölüler Kitabı, bölüm 125 (Yeni Krallık, MÖ ~1550'den itibaren)",
       "sources": [
@@ -1204,7 +1213,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "D",
-      "altNames": [],
+      "altNames": [
+        "Benu"
+      ],
       "region": "Kemet; Heliopolis (Iunu) tapınağı, benben taşı",
       "attested": "Piramit Metinleri (MÖ ~2400); Herodotos II.73",
       "sources": [
@@ -1256,7 +1267,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Fenrisúlfr"
+      ],
       "region": "Norðr; Ásgarðr ve Lyngvi adası",
       "attested": "*Gylfaginning* (Snorri Sturluson, ~1220); *Völuspá* (13. yy Codex Regius)",
       "sources": [
@@ -1362,7 +1375,10 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Draugar (çoğul)",
+        "Haugbúi"
+      ],
       "region": "Norðr; İzlanda ve Norveç saga coğrafyası, höyük mezarlar",
       "attested": "*Grettis saga* (14. yy, olaylar 11. yy); *Eyrbyggja saga* (13. yy)",
       "sources": [
@@ -1415,7 +1431,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "E",
-      "altNames": [],
+      "altNames": [
+        "Orochi"
+      ],
       "region": "Yamato; Izumo, Hi ırmağı",
       "attested": "*Kojiki* (712); *Nihon Shoki* (720)",
       "sources": [
@@ -1466,7 +1484,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Kawatarō"
+      ],
       "region": "Yamato; ırmak ve gölet kıyıları, ülke geneli",
       "attested": "Edo dönemi derlemeleri (17.–19. yy); Yanagita Kunio, *Tōno monogatari* (1910)",
       "sources": [
@@ -1518,7 +1538,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Karasu-tengu"
+      ],
       "region": "Yamato; dağlar ve dağ tapınakları",
       "attested": "*Nihon Ryōiki* (9. yy); Edo dönemi derlemeleri",
       "sources": [
@@ -1569,7 +1591,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "D",
-      "altNames": [],
+      "altNames": [
+        "Suparṇa"
+      ],
       "region": "Bharat; Vişnu tapımı, Güneydoğu Asya'ya yayılmış",
       "attested": "*Mahabharata* (MÖ 4. yy – MS 4. yy), Astika Parva",
       "sources": [
@@ -1621,7 +1645,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "E",
-      "altNames": [],
+      "altNames": [
+        "Nāginī (dişil)"
+      ],
       "region": "Bharat; su altı şehirleri (Pātāla), göl ve ırmaklar",
       "attested": "*Mahabharata*; *Atharvaveda*; Buddhist Pali kanonu",
       "sources": [
@@ -1998,7 +2024,10 @@
       ],
       "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
+      "altNames": [
+        "Lamaštu",
+        "Dimme"
+      ],
       "region": "Sumer/Akkad/Asur; doğum odası",
       "attested": "Eski Babil dönemi muskaları (MÖ ~1800'den itibaren); Lamaštu serisi tabletleri",
       "sources": [
@@ -2099,7 +2128,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Ahuítzotl"
+      ],
       "region": "Mēxihcah; göl ve kanal (Tenochtitlan çevresi)",
       "attested": "Sahagún, *Florentine Codex*, XI. kitap (1569)",
       "sources": [
@@ -2260,7 +2291,10 @@
       ],
       "motifVerified": true,
       "kinFamily": "F",
-      "altNames": [],
+      "altNames": [
+        "Basilisk",
+        "Basiliskos"
+      ],
       "region": "Roma; Kyrene çölü (Plinius'a göre)",
       "attested": "Plinius, *Naturalis Historia* VIII (MS 77); Lucanus, *Pharsalia* IX",
       "sources": [
@@ -2313,7 +2347,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Larvae (akraba)"
+      ],
       "region": "Roma; ev ve aile ocağı",
       "attested": "Ovidius, *Fasti* V (MS 8); Lemuria bayramı 9, 11, 13 Mayıs",
       "sources": [
@@ -2366,7 +2402,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Lung (Wade-Giles)"
+      ],
       "region": "Zhōnghuá; ırmaklar, göller, bulutlar",
       "attested": "*Shanhaijing* (MÖ 4.–1. yy); Han dönemi kayıtları; Wang Chong, *Lunheng* (MS 1. yy)",
       "sources": [
@@ -2529,7 +2567,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "B",
-      "altNames": [],
+      "altNames": [
+        "Gumiho"
+      ],
       "region": "Hangug; dağ ve mezarlık",
       "attested": "*Samguk yusa* (13. yy) ve sonrası; 19.–20. yy sözlü derlemeler",
       "sources": [
@@ -2579,7 +2619,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "E",
-      "altNames": [],
+      "altNames": [
+        "Imoogi"
+      ],
       "region": "Hangug; göl, mağara, derin su",
       "attested": "19.–20. yy sözlü derlemeler; Grayson ve Choi derlemeleri",
       "sources": [
@@ -2630,7 +2672,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Tokkaebi"
+      ],
       "region": "Hangug; kırsal, terk edilmiş eşya",
       "attested": "Choson dönemi kayıtları; 20. yy saha derlemeleri",
       "sources": [
@@ -2682,7 +2726,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "F",
-      "altNames": [],
+      "altNames": [
+        "Zotz"
+      ],
       "region": "Maya; Xibalba'nın beşinci evi (Zotzihá, Yarasa Evi)",
       "attested": "*Popol Vuh* (Quiché Maya, ~1550 yazıya geçirildi)",
       "sources": [
@@ -2734,7 +2780,10 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Xtabai",
+        "X-tabai"
+      ],
       "region": "Maya; Yucatán, ceiba ağacı çevresi",
       "attested": "19.–20. yy Yucatec Maya sözlü derlemeleri",
       "sources": [
@@ -2785,7 +2834,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Wayob (çoğul)"
+      ],
       "region": "Maya; Yucatán, Chiapas, Guatemala yaylaları",
       "attested": "Klasik dönem seramik yazıtları (MS 600–900); modern etnografi",
       "sources": [
@@ -2836,7 +2887,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Rusalki (çoğul)"
+      ],
       "region": "Slovjan; Ukrayna, Rusya, Belarus — ırmak ve ekin tarlaları",
       "attested": "19. yy saha derlemeleri; Rusalnaya nedelya (Rusalka Haftası) kayıtları",
       "sources": [
@@ -2944,7 +2997,10 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Domovoi",
+        "Domovik"
+      ],
       "region": "Slovjan; Rus köy evi, ocak altı",
       "attested": "19. yy saha derlemeleri; Zelenin ve Afanasyev",
       "sources": [
@@ -3049,7 +3105,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
+      "altNames": [
+        "Ogbanje (Igbo karşılığı)"
+      ],
       "region": "Yorùbá (Nijerya, Benin)",
       "attested": "19.–20. yy saha derlemeleri; Yorùbá adlandırma geleneği kayıtları",
       "sources": [
@@ -3372,7 +3430,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Mo'o"
+      ],
       "region": "Hawaiʻi; tatlı su gölcükleri (loko), balık havuzları",
       "attested": "19. yy Hawaii derlemeleri (Fornander, Kamakau)",
       "sources": [
@@ -3476,7 +3536,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
+      "altNames": [
+        "Qallupilluit (çoğul)"
+      ],
       "region": "Inuit; Nunavut ve Nunavik kıyıları, deniz buzu kenarı",
       "attested": "20. yy sözlü derlemeler; Inuit anlatı derlemeleri",
       "sources": [
@@ -3527,7 +3589,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Amaroq"
+      ],
       "region": "Inuit; Grönland ve Kanada tundrası",
       "attested": "Rasmussen derlemeleri; 19.–20. yy kayıtlar",
       "sources": [
@@ -3578,7 +3642,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Tupilak"
+      ],
       "region": "Inuit; Grönland doğu kıyısı",
       "attested": "19. yy kayıtlar; Rasmussen; Grönland derlemeleri",
       "sources": [
@@ -4231,7 +4297,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Erensuge"
+      ],
       "region": "Euskal Herria; Mondragón ve Aralar dağı anlatıları",
       "attested": "Barandiarán derlemeleri (20. yy)",
       "sources": [
@@ -4751,7 +4819,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
+      "altNames": [
+        "Asuang"
+      ],
       "region": "Filipinler; Batı Visayas (özellikle Capiz, Antique, Iloilo)",
       "attested": "İspanyol sömürge dönemi kayıtları (17. yy); 20. yy saha derlemeleri",
       "sources": [
@@ -4801,7 +4871,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
+      "altNames": [
+        "Mananangal"
+      ],
       "region": "Filipinler; Visayas ve Luzon",
       "attested": "İspanyol sömürge dönemi kayıtları; Ramos derlemeleri (20. yy)",
       "sources": [
@@ -4851,7 +4923,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "A",
-      "altNames": [],
+      "altNames": [
+        "Tigbalang"
+      ],
       "region": "Filipinler; Luzon, ıssız yol ve bambu korulukları",
       "attested": "İspanyol sömürge dönemi kayıtları; Ramos derlemeleri",
       "sources": [
@@ -5057,7 +5131,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Srin mo (dişil)"
+      ],
       "region": "Bod; toprak altı ve ıssız yerler",
       "attested": "Tibet tarih ve din metinleri; Padmasambhava döngüsü",
       "sources": [
@@ -5414,7 +5490,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "C",
-      "altNames": [],
+      "altNames": [
+        "Lilitu (Mezopotamya)"
+      ],
       "region": "Talmud geleneği; Mezopotamya ve Akdeniz Yahudiliği",
       "attested": "*Şabbat* 151b; *Eruvin* 100b; Alfabe of Ben Sira (8.–10. yy); Aramice büyü kâseleri (5.–7. yy)",
       "sources": [
@@ -5775,7 +5853,10 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Vircolac",
+        "Pricolici (akraba)"
+      ],
       "region": "Dacia (Romanya)",
       "attested": "19.–20. yy saha derlemeleri; Murgoci",
       "sources": [
@@ -5826,7 +5907,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "E",
-      "altNames": [],
+      "altNames": [
+        "Zmeul"
+      ],
       "region": "Dacia (Romanya)",
       "attested": "Petre Ispirescu, *Legende sau basmele românilor* (1872); 19.–20. yy derlemeler",
       "sources": [
@@ -5928,7 +6011,10 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Nakaq",
+        "Kharisiri"
+      ],
       "region": "Tawantinsuyu (And); Peru ve Bolivya kırsalı",
       "attested": "Sömürge döneminden itibaren; 20. yy saha derlemeleri",
       "sources": [
@@ -5979,7 +6065,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Zupay"
+      ],
       "region": "Tawantinsuyu (And); yeraltı, madenler",
       "attested": "Sömürge dönemi kronikleri; Potosí maden anlatıları; 20. yy etnografi",
       "sources": [
@@ -6031,7 +6119,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "G",
-      "altNames": [],
+      "altNames": [
+        "Caipora (akraba)"
+      ],
       "region": "Tupi-Guarani; Amazon ve Brezilya ormanları",
       "attested": "Sömürge dönemi Cizvit kayıtları (16. yy, José de Anchieta); 19.–20. yy derlemeler",
       "sources": [
@@ -6083,7 +6173,10 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Boi-tatá",
+        "Baitatá"
+      ],
       "region": "Tupi-Guarani; Brezilya kırsalı ve ormanları",
       "attested": "Cizvit kayıtları (16.–17. yy); Câmara Cascudo derlemeleri",
       "sources": [
@@ -6504,7 +6597,9 @@
       ],
       "motifVerified": true,
       "kinFamily": "H",
-      "altNames": [],
+      "altNames": [
+        "Álfar (akraba)"
+      ],
       "region": "Ísland; kayalar, lav alanları",
       "attested": "Jón Árnason, *Íslenzkar þjóðsögur og æfintýri* (Leipzig, 1862–64)",
       "sources": [
@@ -6609,7 +6704,9 @@
       ],
       "motifVerified": true,
       "kinFamily": null,
-      "altNames": [],
+      "altNames": [
+        "Skoffín (akraba)"
+      ],
       "region": "Ísland; kırsal, koyun otlakları",
       "attested": "Jón Árnason, *Íslenzkar þjóðsögur* (1862–64)",
       "sources": [

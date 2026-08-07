@@ -261,91 +261,133 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 
 | Ad | Telaffuz | Sayfa |
 |---|---|---:|
+| Abiku | *bkz.* Àbíkú | — |
 | **Àbíkú** | ah-BEE-koo | — |
 | **Adaro** | ah-DAH-ro | — |
 | **Adze** | AHD-zeh | — |
 | Afrit | *bkz.* ʿIfrīt | — |
+| Ahuítzotl | *bkz.* Ahuizotl | — |
 | **Ahuizotl** | ah-WEE-sotl | — |
 | **Ajatar** | AH-yah-tar | — |
 | Ajattara | *bkz.* Ajatar | — |
 | Al Bastı | *bkz.* Al Karısı | — |
+| Al Karisi | *bkz.* Al Karısı | — |
 | **Al Karısı** | AHL kah-ruh-suh | — |
 | Albastı | *bkz.* Al Karısı | — |
+| Álfar (akraba) | *bkz.* Huldufólk | — |
 | allghoi khorkhoi | *bkz.* Olgoi-Khorkhoi | — |
 | Almastı | *bkz.* Al Karısı | — |
 | **Amarok** | AH-mah-rok | — |
+| Amaroq | *bkz.* Amarok | — |
 | **Amaru** | ah-MAH-roo | — |
 | **Ammit** | AH-mit | — |
+| Ammut | *bkz.* Ammit | — |
 | Ananse | *bkz.* Anansi | — |
 | **Anansi** | ah-NAHN-see | — |
 | **Animikii** | ah-nee-MEE-kee | — |
 | Animikii-binesi | *bkz.* Animikii | — |
+| Anzu | *bkz.* Anzû | — |
 | **Anzû** | AN-zoo | — |
 | Ap (Kamboçya) | *bkz.* Krasue | — |
 | **Apep** | AH-pep | — |
 | Apophis | *bkz.* Apep | — |
 | **Aralez** | ah-rah-LEZ | — |
 | Arlez | *bkz.* Aralez | — |
+| Asuang | *bkz.* Aswang | — |
 | **Aswang** | AHS-wahng | — |
 | ataro | *bkz.* Adaro | — |
 | Aughisky | *bkz.* Each-uisce | — |
+| Azi Dahaka | *bkz.* Aži Dahāka | — |
 | **Aži Dahāka** | ah-ZHEE dah-HAH-kah | — |
+| Baitatá | *bkz.* Boitatá | — |
 | Banshee | *bkz.* Bean sídhe | — |
 | **Basajaun** | bah-sah-HOWN | — |
 | **Basiliscus** | bah-si-LIS-kus | — |
+| Basilisk | *bkz.* Basiliscus | — |
+| Basiliskos | *bkz.* Basiliscus | — |
 | Basojaun | *bkz.* Basajaun | — |
 | Bean chaointe | *bkz.* Bean sídhe | — |
+| Bean sidhe | *bkz.* Bean sídhe | — |
 | **Bean sídhe** | ban SHEE | — |
 | **Bennu** | BEN-noo | — |
+| Benu | *bkz.* Bennu | — |
+| Boi-tatá | *bkz.* Boitatá | — |
+| Boitata | *bkz.* Boitatá | — |
 | **Boitatá** | boy-tah-TAH | — |
 | Bouda | *bkz.* Buda | — |
 | **Buda** | BOO-dah | — |
+| Caipora (akraba) | *bkz.* Curupira | — |
 | **Camazotz** | kah-mah-SOTS | — |
+| Cerberus | *bkz.* Kérberos | — |
+| Chimaera | *bkz.* Chímaira | — |
+| Chimaira | *bkz.* Chímaira | — |
 | **Chímaira** | KHEE-my-ra | — |
+| Chimera | *bkz.* Chímaira | — |
 | **Cipactli** | see-PAHK-tlee | — |
 | **Curupira** | koo-roo-PEE-rah | — |
 | Dahāg | *bkz.* Aži Dahāka | — |
 | Dev | *bkz.* Devi | — |
 | Devebi (çoğul) | *bkz.* Devi | — |
 | **Devi** | DEH-vee | — |
+| Dimme | *bkz.* Lamashtu | — |
 | **Dokkaebi** | TOK-kay-bee | — |
+| Domovik | *bkz.* Domovoy | — |
+| Domovoi | *bkz.* Domovoy | — |
 | **Domovoy** | do-mo-VOY | — |
+| Draugar (çoğul) | *bkz.* Draugr | — |
 | **Draugr** | DROU-gr | — |
 | **Each-uisce** | AKH-ish-keh | — |
 | Each-uisge | *bkz.* Each-uisce | — |
 | Efreet | *bkz.* ʿIfrīt | — |
+| Erensuge | *bkz.* Herensuge | — |
 | **Fenrir** | FEN-rir | — |
+| Fenrisúlfr | *bkz.* Fenrir | — |
+| Garuda | *bkz.* Garuḍa | — |
 | **Garuḍa** | gah-ROO-da | — |
 | Ghoul | *bkz.* Ghūl | — |
+| Ghul | *bkz.* Ghūl | — |
 | **Ghūl** | GOOL | — |
 | Ghūla (dişil) | *bkz.* Ghūl | — |
 | **Golem** | GO-lem | — |
 | **Gufihtar** | GOO-fih-tar | — |
 | Gufihttar | *bkz.* Gufihtar | — |
 | Gufittar | *bkz.* Gufihtar | — |
+| Gumiho | *bkz.* Kumiho | — |
+| Haugbúi | *bkz.* Draugr | — |
 | **Herensuge** | eh-ren-SOO-geh | — |
+| Huldufolk | *bkz.* Huldufólk | — |
 | **Huldufólk** | HOOL-doo-folk | — |
+| Huli jing | *bkz.* Húli jīng | — |
 | **Húli jīng** | HOO-lee JING | — |
+| Humbaba | *bkz.* Ḫumbaba | — |
 | **Ḫumbaba** | hoom-BAH-bah | — |
 | Huwawa | *bkz.* Ḫumbaba | — |
 | **Iara** | ee-AH-rah | — |
+| Ifrit | *bkz.* ʿIfrīt | — |
 | **Iku-Turso** | EE-koo TOOR-so | — |
 | Imdugud | *bkz.* Anzû | — |
+| Imoogi | *bkz.* Imugi | — |
 | **Impundulu** | im-poon-DOO-loo | — |
 | **Imugi** | EE-moo-gee | — |
 | **Inkanyamba** | in-kahn-YAHM-bah | — |
+| Jormungandr | *bkz.* Jörmungandr | — |
 | **Jörmungandr** | YUR-mun-gand-r | — |
 | **Kappa** | KAHP-pah | — |
 | Karakoncilos | *bkz.* Karakoncolos | — |
 | **Karakoncolos** | kah-rah-kon-jo-LOS | — |
+| Karasu-tengu | *bkz.* Tengu | — |
 | Kasu | *bkz.* Krasue | — |
+| Kawatarō | *bkz.* Kappa | — |
 | **Kenas-unarpe** | KEH-nas oo-NAR-peh | — |
 | Kenash-unarabe | *bkz.* Kenas-unarpe | — |
+| Kerberos | *bkz.* Kérberos | — |
 | **Kérberos** | KER-be-ros | — |
+| Kharisiri | *bkz.* Pishtaco | — |
 | **Khyung** | kyoong | — |
 | Ki-lin | *bkz.* Qílín | — |
 | Kinnara (eril) | *bkz.* Kinnarī | — |
 | Kinnaree | *bkz.* Kinnarī | — |
+| Kinnari | *bkz.* Kinnarī | — |
 | **Kinnarī** | kin-nah-REE | — |
 | Kirin | *bkz.* Qílín | — |
 | Koncolos | *bkz.* Karakoncolos | — |
@@ -357,17 +399,25 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Kuntilanak | *bkz.* Pontianak | — |
 | Kwaku Anansi | *bkz.* Anansi | — |
 | **Lamashtu** | lah-MASH-too | — |
+| Lamaštu | *bkz.* Lamashtu | — |
 | **Lamia** | LAH-mee-ah | — |
+| Lamia | *bkz.* Lámia | — |
 | **Lámia** | LAH-mee-a | — |
+| Lamiai (çoğul) | *bkz.* Lámia | — |
 | Lamiak (çoğul) | *bkz.* Lamia | — |
 | Laminak | *bkz.* Lamia | — |
 | Langsuir (akraba) | *bkz.* Pontianak | — |
+| Larvae (akraba) | *bkz.* Lemures | — |
 | **Lemures** | LEH-moo-res | — |
 | **Lilith** | LIL-ith | — |
+| Lilitu (Mezopotamya) | *bkz.* Lilith | — |
+| Long | *bkz.* Lóng | — |
 | **Lóng** | LOONG | — |
+| Lung (Wade-Giles) | *bkz.* Lóng | — |
 | **Ma lai** | mah LYE | — |
 | Mãe d'água | *bkz.* Iara | — |
 | **Makara** | MAH-kah-rah | — |
+| Mananangal | *bkz.* Manananggal | — |
 | **Manananggal** | mah-nah-nahng-GAHL | — |
 | **Masalai** | mah-sah-LYE | — |
 | masalai ples | *bkz.* Masalai | — |
@@ -379,11 +429,17 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Mishibizhiw | *bkz.* Mishipeshu | — |
 | **Mishipeshu** | mish-ee-PESH-oo | — |
 | Miðgarðsormr | *bkz.* Jörmungandr | — |
+| Mo'o | *bkz.* Moʻo | — |
+| Moo | *bkz.* Moʻo | — |
 | Moroi (akraba) | *bkz.* Strigoi | — |
 | **Moʻo** | MO-oh | — |
+| Naga | *bkz.* Nāga | — |
 | **Nāga** | NAH-gah | — |
+| Nāginī (dişil) | *bkz.* Nāga | — |
 | Nagual | *bkz.* Nahual | — |
 | **Nahual** | nah-WAHL | — |
+| Nakaq | *bkz.* Pishtaco | — |
+| Nakki | *bkz.* Näkki | — |
 | **Näkki** | NAK-kee | — |
 | Näkki (İsveççe: Näcken) | *bkz.* Näkki | — |
 | Näkkiäinen | *bkz.* Näkki | — |
@@ -392,9 +448,12 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | Nhang (deniz canavarı, genel) | *bkz.* Nhang | — |
 | Nitat-unarabe | *bkz.* Kenas-unarpe | — |
 | **Nykur** | NEE-koor | — |
+| Ogbanje (Igbo karşılığı) | *bkz.* Àbíkú | — |
 | **Olgoi-Khorkhoi** | OL-goy KHOR-khoy | — |
 | Olgoi-khorkhoi | *bkz.* Olgoi-Khorkhoi | — |
+| Ong Ba Muoi | *bkz.* Ông Ba Mươi | — |
 | **Ông Ba Mươi** | ohng bah MUH-oy | — |
+| Orochi | *bkz.* Yamata-no-Orochi | — |
 | Pari | *bkz.* Perī | — |
 | Peri | *bkz.* Perī | — |
 | **Perī** | peh-REE | — |
@@ -405,8 +464,12 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | **Ponaturi** | po-nah-TOO-ree | — |
 | **Pontianak** | pon-tee-AH-nak | — |
 | Pooka | *bkz.* Púca | — |
+| Pricolici (akraba) | *bkz.* Vârcolac | — |
+| Puca | *bkz.* Púca | — |
 | **Púca** | POO-kah | — |
+| Qallupilluit (çoğul) | *bkz.* Qalupalik | — |
 | **Qalupalik** | kah-loo-PAH-lik | — |
+| Qilin | *bkz.* Qílín | — |
 | **Qílín** | CHEE-lin | — |
 | **Repun Kamuy** | REH-pun KAH-mooy | — |
 | Repun-riri-kata inao uk kamui | *bkz.* Repun Kamuy | — |
@@ -414,17 +477,23 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | **Rukh** | ROOK | — |
 | Rukhkh | *bkz.* Rukh | — |
 | **Rusalka** | roo-SAHL-kah | — |
+| Rusalki (çoğul) | *bkz.* Rusalka | — |
 | Saēna | *bkz.* Sīmurgh | — |
 | Şahmaran | *bkz.* Şahmeran | — |
+| Sahmeran | *bkz.* Şahmeran | — |
 | **Şahmeran** | shah-meh-RAHN | — |
 | Senmurv | *bkz.* Sīmurgh | — |
 | Shahmaran | *bkz.* Şahmeran | — |
 | Simorgh | *bkz.* Sīmurgh | — |
+| Simurgh | *bkz.* Sīmurgh | — |
 | **Sīmurgh** | see-MOORG | — |
+| Skoffín (akraba) | *bkz.* Skuggabaldur | — |
 | **Skuggabaldur** | SKOOG-gah-bald-oor | — |
+| Srin mo (dişil) | *bkz.* Srin-po | — |
 | **Srin-po** | SIN-po | — |
 | Staaloe | *bkz.* Stállu | — |
 | Stallo | *bkz.* Stállu | — |
+| Stallu | *bkz.* Stállu | — |
 | **Stállu** | STAHL-loo | — |
 | Stalo | *bkz.* Stállu | — |
 | Striga | *bkz.* Strix | — |
@@ -432,16 +501,21 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | **Strigoi** | stree-GOY | — |
 | Strigoiul | *bkz.* Strigoi | — |
 | **Strix** | STRIKS | — |
+| Suparṇa | *bkz.* Garuḍa | — |
 | **Supay** | SOO-pye | — |
 | **Taniwha** | TAH-nee-fah | — |
 | **Temes Savsap** | TEH-mes SAV-sap | — |
 | **Tengu** | TEN-goo | — |
 | Thikoloshe | *bkz.* Tokoloshe | — |
 | Thunderbird | *bkz.* Animikii | — |
+| Thuong luong | *bkz.* Thuồng luồng | — |
 | **Thuồng luồng** | twong LWONG | — |
+| Tigbalang | *bkz.* Tikbalang | — |
 | **Tikbalang** | tik-bah-LAHNG | — |
 | Tikoloshe | *bkz.* Tokoloshe | — |
+| Tokkaebi | *bkz.* Dokkaebi | — |
 | **Tokoloshe** | to-ko-LO-sheh | — |
+| Tupilak | *bkz.* Tupilaq | — |
 | **Tupilaq** | TOO-pee-lahk | — |
 | Turisas | *bkz.* Iku-Turso | — |
 | Tursas | *bkz.* Iku-Turso | — |
@@ -449,14 +523,19 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | **Ulda** | OOL-dah | — |
 | Ulda-almmái | *bkz.* Ulda | — |
 | Uldat (çoğul) | *bkz.* Ulda | — |
+| Varcolac | *bkz.* Vârcolac | — |
 | **Vârcolac** | vur-ko-LAHK | — |
+| Vircolac | *bkz.* Vârcolac | — |
 | višap | *bkz.* Vishap | — |
 | **Vishap** | vee-SHAHP | — |
 | vishapakar (dikit) | *bkz.* Vishap | — |
 | **Way** | WHY | — |
+| Wayob (çoğul) | *bkz.* Way | — |
 | Wendigo | *bkz.* Windigo | — |
 | Wiindigoo | *bkz.* Windigo | — |
 | **Windigo** | WIN-dee-go | — |
+| X-tabai | *bkz.* Xtabay | — |
+| Xtabai | *bkz.* Xtabay | — |
 | **Xtabay** | sh-tah-BYE | — |
 | **Yamata-no-Orochi** | yah-MAH-tah no o-RO-chee | — |
 | Yaralez | *bkz.* Aralez | — |
@@ -464,8 +543,11 @@ okunur; `—` görüyorsanız o sürüm henüz dizilmemiştir.
 | **Ziz** | ZEEZ | — |
 | Zmaj | *bkz.* Zmey | — |
 | **Zmeu** | ZMEH-oo | — |
+| Zmeul | *bkz.* Zmeu | — |
 | **Zmey** | zmay | — |
 | Zmey Gorynych | *bkz.* Zmey | — |
+| Zotz | *bkz.* Camazotz | — |
 | Zû | *bkz.* Anzû | — |
+| Zupay | *bkz.* Supay | — |
 | **ʿIfrīt** | if-REET | — |
 

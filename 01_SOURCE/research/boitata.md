@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `boitata` |
 | **Ad** | Boitatá |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Boi-tatá, Baitatá |
 | **Gelenek** | Tupi-Guarani ❂ · Amazon |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | — |

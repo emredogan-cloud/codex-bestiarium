@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `kerberos` |
 | **Ad** | Kérberos |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Cerberus |
 | **Gelenek** | Hellenic Ω · Akdeniz |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | F · Eşik bekçisi |

@@ -91,6 +91,33 @@ run "ses ve yasak kalıp"          $PY 08_BUILD/qa_voice.py --json 06_REPORTS/qa
 run "üslup sürüklenmesi"          $PY 08_BUILD/qa_drift.py --json 06_REPORTS/qa-drift.json
 run "tekrar taraması"             $PY 08_BUILD/qa_echo.py --json 06_REPORTS/qa-echo.json
 run "diakritik"                   $PY 08_BUILD/qa_diacritics.py --json 06_REPORTS/qa-diacritics.json
+# Plaka ölçümünün KENDİ testi. Pillow ve numpy ister; venv yoksa ATLANIR
+# (çıkış 2). CI'da (plates.yml · calibration) bağımlılıklar kurulu olduğu
+# için orada atlanamaz ve kırmızı yanabilir.
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ plaka ölçümünün kalibrasyonu"
+echo "──────────────────────────────────────────────────────────────────────"
+CAL_PY="$PY"
+[ -x "08_BUILD/.venv/bin/python" ] && CAL_PY="08_BUILD/.venv/bin/python"
+$CAL_PY 08_BUILD/tests/plate_selftest.py
+case $? in
+  0) ;;
+  2) echo "ATLANDI: Pillow/numpy yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+  *) FAILED+=("plaka ölçümünün kalibrasyonu") ;;
+esac
+
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ plaka format bütçeleri (kalibrasyon)"
+echo "──────────────────────────────────────────────────────────────────────"
+$CAL_PY 08_BUILD/convert_plates.py --calibrate
+case $? in
+  0) ;;
+  2) echo "ATLANDI: Pillow yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+  *) FAILED+=("plaka format bütçeleri") ;;
+esac
+
 run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
 run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"

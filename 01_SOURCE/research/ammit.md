@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `ammit` |
 | **Ad** | Ammit |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Ammut |
 | **Gelenek** | Kemet 𓂀 · Akdeniz |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |

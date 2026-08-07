@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `tikbalang` |
 | **Ad** | Tikbalang |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Tigbalang |
 | **Gelenek** | Filipin ✧ · Güneydoğu Asya |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | A · Su atı |

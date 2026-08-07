@@ -64,7 +64,10 @@
     {
       "id": "basiliscus",
       "name": "Basiliscus",
-      "altNames": [],
+      "altNames": [
+        "Basilisk",
+        "Basiliskos"
+      ],
       "pronunciation": "bah-si-LIS-kus",
       "sources": [
         {
@@ -121,7 +124,9 @@
     {
       "id": "lemures",
       "name": "Lemures",
-      "altNames": [],
+      "altNames": [
+        "Larvae (akraba)"
+      ],
       "pronunciation": "LEH-moo-res",
       "sources": [
         {

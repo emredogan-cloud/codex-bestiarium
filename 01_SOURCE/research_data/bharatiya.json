@@ -4,7 +4,9 @@
     {
       "id": "garuda",
       "name": "Garuḍa",
-      "altNames": [],
+      "altNames": [
+        "Suparṇa"
+      ],
       "pronunciation": "gah-ROO-da",
       "sources": [
         {
@@ -60,7 +62,9 @@
     {
       "id": "naga",
       "name": "Nāga",
-      "altNames": [],
+      "altNames": [
+        "Nāginī (dişil)"
+      ],
       "pronunciation": "NAH-gah",
       "sources": [
         {

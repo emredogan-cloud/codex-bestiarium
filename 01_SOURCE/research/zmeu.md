@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `zmeu` |
 | **Ad** | Zmeu |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Zmeul |
 | **Gelenek** | Dacia ✠ · Balkanlar |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | E · Derinlerin yılanı |

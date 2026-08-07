@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `bennu` |
 | **Ad** | Bennu |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Benu |
 | **Gelenek** | Kemet 𓂀 · Akdeniz |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | D · Fırtına kuşu |

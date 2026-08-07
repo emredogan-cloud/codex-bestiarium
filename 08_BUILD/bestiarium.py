@@ -149,8 +149,18 @@ MAX_EXCLAMATIONS = 0
 PLATE_SPEC = {
     "aspect": 1.25,               # 1:1,25 dikey
     "aspect_tol": 0.02,
-    "line_weight_pt": 1.4,        # ana çizgi kalınlığı
+    # DIŞ HAT kalınlığı. Faz 2 kalibrasyonu bunun TARAMA darbesiyle
+    # karıştırıldığını gösterdi: 22–28 çizgi/cm'lik bir taramanın periyodu
+    # ≈4,7 pikseldir ve içine 1,4 pt (5,8 px) sığmaz. İkisi ayrı ölçülür.
+    "line_weight_pt": 1.4,
     "line_weight_tol": 0.15,      # ±%15
+    # Tarama darbesinin periyoda oranı — tonun ölçüsü. Bandı sıklıktan
+    # türer; sabit bir pt değeri şartnameyi kendi kendisiyle çeliştirirdi.
+    # 0,5 = yarı yarıya siyah-beyaz.
+    "hatch_duty": (0.35, 0.65),
+    # Dış hat ölçümü için gereken en az kontur kesişmesi. Altındaysa kural
+    # ATLANIR — olmayan bir ölçümle plaka reddedilmez.
+    "contour_min_runs": 20,
     "hatch_primary_deg": 45.0,
     "hatch_secondary_deg": 135.0,
     "hatch_angle_tol_deg": 5.0,

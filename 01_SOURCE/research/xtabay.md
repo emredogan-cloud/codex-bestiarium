@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `xtabay` |
 | **Ad** | Xtabay |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Xtabai, X-tabai |
 | **Gelenek** | Maya 𝋠 · Mezoamerika |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |

@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `domovoy` |
 | **Ad** | Domovoy |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Domovoi, Domovik |
 | **Gelenek** | Slovjan ⚡ · Kuzey Avrupa |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | — |

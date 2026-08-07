@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `srin-po` |
 | **Ad** | Srin-po |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Srin mo (dişil) |
 | **Gelenek** | Bod ☷ · Himalaya |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |

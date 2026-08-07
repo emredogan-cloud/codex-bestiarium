@@ -57,7 +57,9 @@
     {
       "id": "moo",
       "name": "Moʻo",
-      "altNames": [],
+      "altNames": [
+        "Mo'o"
+      ],
       "pronunciation": "MO-oh",
       "sources": [
         {

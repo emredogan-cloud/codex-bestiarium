@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `naga` |
 | **Ad** | Nāga |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Nāginī (dişil) |
 | **Gelenek** | Bharatiya ॐ · Güney Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | E · Derinlerin yılanı |

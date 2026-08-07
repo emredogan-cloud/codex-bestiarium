@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `amarok` |
 | **Ad** | Amarok |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Amaroq |
 | **Gelenek** | Inuit ᐃ · Kutup |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |

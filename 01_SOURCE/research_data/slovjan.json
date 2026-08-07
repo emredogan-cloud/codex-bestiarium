@@ -4,7 +4,9 @@
     {
       "id": "rusalka",
       "name": "Rusalka",
-      "altNames": [],
+      "altNames": [
+        "Rusalki (çoğul)"
+      ],
       "pronunciation": "roo-SAHL-kah",
       "sources": [
         {
@@ -124,7 +126,10 @@
     {
       "id": "domovoy",
       "name": "Domovoy",
-      "altNames": [],
+      "altNames": [
+        "Domovoi",
+        "Domovik"
+      ],
       "pronunciation": "do-mo-VOY",
       "sources": [
         {

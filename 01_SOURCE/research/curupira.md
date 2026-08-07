@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `curupira` |
 | **Ad** | Curupira |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Caipora (akraba) |
 | **Gelenek** | Tupi-Guarani ❂ · Amazon |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | G · Yaban adamı |

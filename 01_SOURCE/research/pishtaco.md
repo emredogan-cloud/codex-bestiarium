@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `pishtaco` |
 | **Ad** | Pishtaco |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Nakaq, Kharisiri |
 | **Gelenek** | Tawantinsuyu ☉ · And |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |

@@ -4,7 +4,9 @@
     {
       "id": "curupira",
       "name": "Curupira",
-      "altNames": [],
+      "altNames": [
+        "Caipora (akraba)"
+      ],
       "pronunciation": "koo-roo-PEE-rah",
       "sources": [
         {
@@ -60,7 +62,10 @@
     {
       "id": "boitata",
       "name": "Boitatá",
-      "altNames": [],
+      "altNames": [
+        "Boi-tatá",
+        "Baitatá"
+      ],
       "pronunciation": "boy-tah-TAH",
       "sources": [
         {

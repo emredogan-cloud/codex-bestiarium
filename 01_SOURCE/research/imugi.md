@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `imugi` |
 | **Ad** | Imugi |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Imoogi |
 | **Gelenek** | Hangug 단 · Doğu Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | E · Derinlerin yılanı |

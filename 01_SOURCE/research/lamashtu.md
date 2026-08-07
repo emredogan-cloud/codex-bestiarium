@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `lamashtu` |
 | **Ad** | Lamashtu |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Lamaštu, Dimme |
 | **Gelenek** | Sumer 𒀭 · Yakın Doğu |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |

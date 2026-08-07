@@ -147,8 +147,33 @@ def index_kin(spec: dict, pm: dict) -> list[dict]:
     return out
 
 
+def ascii_fold(s: str) -> str:
+    """Adın diakritiksiz, düz harfli hâli.
+
+    Okur klavyesinde `ǧ`, `ā`, `ʿ` veya `ð` yoktur. Dizinde 'Jormungandr'
+    arayan biri 'Jörmungandr'a gitmelidir. Bu satır ELLE yazılmaz — yazılırsa
+    112 maddede tutarsız olur; türetilir.
+    """
+    swaps = {
+        "ð": "d", "Ð": "D", "þ": "th", "Þ": "Th", "ø": "o", "Ø": "O",
+        "æ": "ae", "Æ": "Ae", "ı": "i", "İ": "I", "ł": "l", "Ł": "L",
+        "ʿ": "", "ʻ": "", "ʼ": "", "'": "'", "'": "'", "ḫ": "h", "Ḫ": "H",
+    }
+    for src, dst in swaps.items():
+        s = s.replace(src, dst)
+    decomposed = unicodedata.normalize("NFD", s)
+    return unicodedata.normalize(
+        "NFC", "".join(c for c in decomposed if unicodedata.category(c) != "Mn")
+    )
+
+
 def index_pronunciation(spec: dict, pm: dict) -> list[dict]:
-    """Telaffuz rehberi — alfabetik, alternatif yazımlardan çapraz gönderme."""
+    """Telaffuz rehberi — alfabetik, alternatif yazımlardan çapraz gönderme.
+
+    İki çapraz gönderme kaynağı vardır:
+      · `altNames` — GERÇEK alternatif adlar, araştırmadan gelir (elle yazılır)
+      · düz harfli biçim — üretilir; adı diakritikliyse otomatik eklenir
+    """
     rows = []
     for c in sorted(spec["creatures"], key=lambda c: sortkey(c["name"])):
         rows.append({
@@ -158,7 +183,11 @@ def index_pronunciation(spec: dict, pm: dict) -> list[dict]:
             "page": page_of(pm, c["id"]),
             "type": "entry",
         })
-        for alt in c.get("altNames") or []:
+        alts = list(c.get("altNames") or [])
+        folded = ascii_fold(c["name"])
+        if folded != c["name"] and folded not in alts:
+            alts.append(folded)
+        for alt in alts:
             rows.append({
                 "name": alt,
                 "id": c["id"],
@@ -166,6 +195,7 @@ def index_pronunciation(spec: dict, pm: dict) -> list[dict]:
                 "pronunciation": "",
                 "page": page_of(pm, c["id"]),
                 "type": "crossref",
+                "generated": alt == folded and alt not in (c.get("altNames") or []),
             })
     return sorted(rows, key=lambda r: sortkey(r["name"]))
 

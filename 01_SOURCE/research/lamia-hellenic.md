@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `lamia-hellenic` |
 | **Ad** | Lámia |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Lamiai (çoğul) |
 | **Gelenek** | Hellenic Ω · Akdeniz |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |

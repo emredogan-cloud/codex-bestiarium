@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `yamata-no-orochi` |
 | **Ad** | Yamata-no-Orochi |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Orochi |
 | **Gelenek** | Yamato 神 · Doğu Asya |
 | **Sınıf** | IV · THE WATER-DWELLERS (Su Sakinleri) |
 | **Akraba ailesi** | E · Derinlerin yılanı |

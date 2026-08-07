@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `herensuge` |
 | **Ad** | Herensuge |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Erensuge |
 | **Gelenek** | Euskal ✜ · Batı Avrupa |
 | **Sınıf** | V · SKY AND STORM (Gök ve Fırtına) |
 | **Akraba ailesi** | — |

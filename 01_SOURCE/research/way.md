@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `way` |
 | **Ad** | Way |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Wayob (çoğul) |
 | **Gelenek** | Maya 𝋠 · Mezoamerika |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |

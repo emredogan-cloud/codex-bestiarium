@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `fenrir` |
 | **Ad** | Fenrir |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Fenrisúlfr |
 | **Gelenek** | Norðr ᚦ · Kuzey Avrupa |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | — |

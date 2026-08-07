@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `manananggal` |
 | **Ad** | Manananggal |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Mananangal |
 | **Gelenek** | Filipin ✧ · Güneydoğu Asya |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |

@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `tupilaq` |
 | **Ad** | Tupilaq |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Tupilak |
 | **Gelenek** | Inuit ᐃ · Kutup |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |

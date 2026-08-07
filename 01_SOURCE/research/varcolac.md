@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `varcolac` |
 | **Ad** | Vârcolac |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Vircolac, Pricolici (akraba) |
 | **Gelenek** | Dacia ✠ · Balkanlar |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |

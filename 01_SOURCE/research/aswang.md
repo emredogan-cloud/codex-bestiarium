@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `aswang` |
 | **Ad** | Aswang |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Asuang |
 | **Gelenek** | Filipin ✧ · Güneydoğu Asya |
 | **Sınıf** | II · THE DEVOURERS (Yutucular) |
 | **Akraba ailesi** | C · Gece cadısı |

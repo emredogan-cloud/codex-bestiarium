@@ -4,7 +4,9 @@
     {
       "id": "qalupalik",
       "name": "Qalupalik",
-      "altNames": [],
+      "altNames": [
+        "Qallupilluit (çoğul)"
+      ],
       "pronunciation": "kah-loo-PAH-lik",
       "sources": [
         {
@@ -59,7 +61,9 @@
     {
       "id": "amarok",
       "name": "Amarok",
-      "altNames": [],
+      "altNames": [
+        "Amaroq"
+      ],
       "pronunciation": "AH-mah-rok",
       "sources": [
         {
@@ -112,7 +116,9 @@
     {
       "id": "tupilaq",
       "name": "Tupilaq",
-      "altNames": [],
+      "altNames": [
+        "Tupilak"
+      ],
       "pronunciation": "TOO-pee-lahk",
       "sources": [
         {

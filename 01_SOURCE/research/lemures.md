@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `lemures` |
 | **Ad** | Lemures |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Larvae (akraba) |
 | **Gelenek** | Romana SPQR · Akdeniz |
 | **Sınıf** | VI · THE RESTLESS DEAD (Huzursuz Ölüler) |
 | **Akraba ailesi** | — |

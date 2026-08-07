@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `tengu` |
 | **Ad** | Tengu |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Karasu-tengu |
 | **Gelenek** | Yamato 神 · Doğu Asya |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |

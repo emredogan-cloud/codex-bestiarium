@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `skuggabaldur` |
 | **Ad** | Skuggabaldur |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Skoffín (akraba) |
 | **Gelenek** | Ísland ❆ · Kuzey Avrupa |
 | **Sınıf** | III · THE SHAPE-CHANGERS (Şekil Değiştirenler) |
 | **Akraba ailesi** | — |

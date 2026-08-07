@@ -8,7 +8,7 @@
 |---|---|
 | **id** | `huldufolk` |
 | **Ad** | Huldufólk |
-| **Alternatif yazımlar** | — |
+| **Alternatif yazımlar** | Álfar (akraba) |
 | **Gelenek** | Ísland ❆ · Kuzey Avrupa |
 | **Sınıf** | I · THE GUARDIANS (Bekçiler) |
 | **Akraba ailesi** | H · Gizli halk |
