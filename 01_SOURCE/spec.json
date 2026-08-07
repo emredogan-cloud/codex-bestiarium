@@ -3628,7 +3628,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yalnız avlanan dev kurt; kuralı çiğneyen avcıyı bulur.",
       "researchFile": "01_SOURCE/research/amarok.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "tupilaq",
@@ -3738,7 +3738,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Loğusanın ciğerini alan; kızıl giyimli, sudan korkan.",
       "researchFile": "01_SOURCE/research/al-karisi.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "karakoncolos",
@@ -3793,7 +3793,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Zemherinin ilk günlerinde çıkan; soru sorup yanlış cevabı cezalandıran.",
       "researchFile": "01_SOURCE/research/karakoncolos.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "sahmeran",
