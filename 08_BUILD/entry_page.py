@@ -84,13 +84,23 @@ CONTENT_BAND = (2.0, 3.0)
 
 
 def _require_reportlab():
-    try:
-        import reportlab  # noqa: F401
-    except ImportError as exc:
+    """Prova dizgisinin BÜTÜN bağımlılıkları — eksikse temiz çıkış.
+
+    Yalnızca reportlab denetleniyordu; sayfa sayımı için gereken `pypdf`
+    eksik olduğunda betik ortada traceback'le çöküyor ve çıkış kodu 1
+    veriyordu — yani "bağımlılık yok" ile "prova bütçeyi aştı" aynı sinyali
+    veriyordu. Bağımlılıklar tek yerde ve baştan denetlenir.
+    """
+    missing = []
+    for mod, why in (("reportlab", "dizgi"), ("pypdf", "sayfa sayımı")):
+        try:
+            __import__(mod)
+        except ImportError:
+            missing.append(f"{mod} ({why})")
+    if missing:
         raise SystemExit(
-            "HATA: prova dizgisi reportlab gerektirir.\n"
-            "      ./08_BUILD/bootstrap.sh çalıştırın.\n"
-            f"      ({exc})"
+            "HATA: prova dizgisi şunları gerektirir: " + ", ".join(missing) + "\n"
+            "      ./08_BUILD/bootstrap.sh çalıştırın."
         )
 
 
@@ -370,10 +380,8 @@ def build_proof(entry_id: str, edition: str, out_path: str) -> dict:
 
 
 def _page_count(path: str) -> int:
-    try:
-        from pypdf import PdfReader
-    except ImportError:
-        from PyPDF2 import PdfReader  # type: ignore
+    from pypdf import PdfReader
+
     return len(PdfReader(path).pages)
 
 
@@ -391,6 +399,13 @@ def main() -> int:
                     help="sayfa bütçesi modeli tutuyor mu")
     ap.add_argument("--verbose", "-v", action="store_true")
     args = ap.parse_args()
+
+    # ÇIKIŞ KODU SÖZLEŞMESİ: 0 geçti · 1 bütçe/ölçüm sorunu · 2 ATLANDI
+    try:
+        _require_reportlab()
+    except SystemExit as exc:
+        print(exc)
+        return 2
 
     out = os.path.join(PROOF_DIR, f"entry-{args.id}-{args.edition}.pdf")
     m = build_proof(args.id, args.edition, out)

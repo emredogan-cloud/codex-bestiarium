@@ -203,6 +203,15 @@ def main() -> int:
 
     if args.calibrate:
         r = Result("PLAKA FORMAT BÜTÇELERİ · KALİBRASYON (convert_plates)")
+        # ÇIKIŞ KODU SÖZLEŞMESİ: 0 geçti · 1 bütçe aşıldı · 2 ATLANDI.
+        # `_require_pil()` bir SystemExit(str) fırlatır ve o çıkış kodu 1'dir
+        # — yani "Pillow yok" ile "bütçe aşıldı" aynı sinyali veriyordu ve
+        # qa_all.sh bunu KIRMIZI sayıyordu. İkisi ayrıldı.
+        try:
+            _require_pil()
+        except SystemExit as exc:
+            print(exc)
+            return 2
         data = calibrate(r)
         code = r.report(verbose=args.verbose)
         path = os.path.join(ROOT, "06_REPORTS", "plate-format-calibration.json")
