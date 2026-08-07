@@ -384,7 +384,24 @@ def sync_spec(data: dict, spec: dict) -> tuple[dict, list[str]]:
         if not rec:
             continue
         problems = gate(rec, c["tradition"])
-        new_status = "verified" if not problems and rec.get("status") != "dropped" else "draft"
+        research_ok = not problems and rec.get("status") != "dropped"
+
+        # Araştırma hattı ARAŞTIRMA durumunun sahibidir, YAZIM durumunun
+        # değil. Faz 3'te bulundu: bu satır `verified` yazdığı için, yazılmış
+        # bir maddeyi `written` işaretlemek `--check`'i bayat gösteriyordu ve
+        # `qa_all.sh --fix` durumu sessizce `verified`'a geri alıyordu — yani
+        # tamamlanmış yazım işi her tazeleme koşusunda kayboluyordu.
+        #
+        # Kural: araştırma kapısı DÜŞERSE durum draft'a iner (kalite geriye
+        # gidemez, araştırması bozulan madde yazılmış sayılamaz). Araştırma
+        # geçerliyse, `written`/`edited`/`final` KORUNUR.
+        cur = c.get("status", "draft")
+        if not research_ok:
+            new_status = "draft"
+        elif cur in ("written", "edited", "final"):
+            new_status = cur
+        else:
+            new_status = "verified"
 
         updates = {
             "pronunciation": rec.get("pronunciation", ""),
