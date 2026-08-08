@@ -745,7 +745,16 @@ def main() -> int:
             r.to_json(os.path.join(ROOT, args.json_out))
         return code
 
-    _require_imaging()
+    # ÇIKIŞ KODU SÖZLEŞMESİ (projede yerleşik): 0 geçti · 1 kalite sorunu ·
+    # 2 ATLANDI. Pillow/numpy yokluğu bir KALİTE sorunu değildir; plaka
+    # ölçümü o makinede yapılamaz, o kadar. 1 dönmek, eksik bir isteğe
+    # bağlı bağımlılık yüzünden CI'ı kırmızı yakar ve gerçek bir kusurla
+    # aynı görünür.
+    try:
+        _require_imaging()
+    except SystemExit as exc:
+        print(exc)
+        return 2
 
     if args.normalize:
         for plate_id, path in sorted(found.items()):

@@ -141,9 +141,29 @@ else
   echo "ATLANDI: font yok — ./08_BUILD/bootstrap.sh çalıştırın"
 fi
 
-run "plaka manifestosu"            $PY 08_BUILD/plate_manifest.py --check
-run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
-run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
+# Plaka adımları GÖRÜNTÜ KÜTÜPHANESİ ister. Yukarıdaki kalibrasyon
+# adımlarıyla aynı sözleşme: venv varsa onunla koş, çıkış 2 = ATLANDI.
+# Faz 5'e kadar bu adımlar plaka olmadığı için sessizce geçiyordu; 112
+# plaka gelince Pillow'suz bir makinede kırmızı yanmaya başladılar.
+# Eksik bir isteğe bağlı bağımlılık, kalite düşüşüyle aynı sinyali
+# vermemelidir (aynı gerekçe: Faz 2 · D-sürüm kapısı).
+plate_step () {
+  local name="$1"; shift
+  echo
+  echo "──────────────────────────────────────────────────────────────────────"
+  echo "▸ $name"
+  echo "──────────────────────────────────────────────────────────────────────"
+  $CAL_PY "$@"
+  case $? in
+    0) ;;
+    2) echo "ATLANDI: Pillow/numpy yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+    *) FAILED+=("$name") ;;
+  esac
+}
+
+plate_step "plaka manifestosu"     08_BUILD/plate_manifest.py --check
+plate_step "plaka tutarlılığı"     08_BUILD/plates.py --measure
+plate_step "plaka formatları"      08_BUILD/convert_plates.py --check
 run "kin-images chart"            $PY 08_BUILD/make_kin_chart.py --check
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"
 run "üretilen belgeler güncel"    $PY 08_BUILD/update_docs.py --check

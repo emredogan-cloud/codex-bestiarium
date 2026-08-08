@@ -1261,7 +1261,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kendi külünden doğan, zamanın başlangıcını işaretleyen balıkçıl.",
       "researchFile": "01_SOURCE/research/bennu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "fenrir",
@@ -1639,7 +1639,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yılanların ezelî düşmanı; kanat çırpışı fırtına olan güneş kuşu.",
       "researchFile": "01_SOURCE/research/garuda.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "naga",
@@ -2018,7 +2018,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kader tabletlerini çalan, aslan başlı fırtına kuşu.",
       "researchFile": "01_SOURCE/research/anzu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "lamashtu",
