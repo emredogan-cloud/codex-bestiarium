@@ -14,8 +14,43 @@ sayılar, açık kalanlar.
 
 ## [Yayımlanmamış]
 
-### Sıradaki
-- Faz 5 · Tamamlama (Gök ve Fırtına, Huzursuz Ölüler + editoryal inceleme) — **kurucu onayı bekliyor**
+### Faz 5 · sürüyor
+
+- Sınıf V (16) ve sınıf VI (8) yazıldı — **112/112 madde tamam**
+- Sınıf açılışı 6/6, akraba açılışı 8/8 — **bütün açılışlar tamam**
+- 112 ham plaka doğrulandı, eşlendi, normalize edildi (D47–D49)
+- **Kayıtlı vaka turu (D50)** — aşağıda
+
+### D50 · Kayıtlı vaka açığı yeniden açıldı ve kısa bir tur yapıldı
+
+Faz 4'te D41 turu kapatmıştı: *"ek araştırma turu yapılmaz."* Kurucu bu
+kararı Faz 5'te **güncelledi** — kısa ve hedefli bir tur serbest, hiçbir
+şey uydurulmamak koşuluyla. Tur yapıldı ve sınırı önceden kondu:
+kaynak hızlıca bulunmuyorsa **aranmaya devam edilmez**.
+
+**Yöntem.** Vakası ertelenmiş 105 maddeden, kaynağı kamuya açık ve tam
+metin taranabilir olanlar seçildi; kaynağın *kendisi* okundu, katalog
+kaydı değil. Altı madde bakıldı, dördünde sonuç çıktı.
+
+| Madde | Sonuç | Ne bulundu |
+|---|---|---|
+| **Kappa** | ✅ vaka | *Tōno monogatari* 58, Japonca özgün tam metinden. Adı geçen ırmak (小烏瀬川), gölet (姥子淵), hane (新屋) ve bir **köy meclisi kararı**: öldürmek mi bağışlamak mı — bir daha köyün atlarına dokunmama sözüyle salınıyor. 59. anlatı da Tōno kappasının yüzünün **kızıl** olduğunu, başka yörelerde mavi sayıldığını yazıyor |
+| **Koropokkuru** | ✅ vaka | Batchelor 1901, II. bölüm: derleyici yaprağı **kendisi ölçmüş** — 4 kadem 1 parmak eninde, sapı 5 kademden uzun. Ölçü bir abartı değil, sınanmış bir karşılaştırma |
+| **Each-uisce** | ⛔ kaynak çürüdü | Tohumdan gelen **Croker 1825** künyesi içerik düzeyinde **çürütüldü**: Croker'ın dört cildi tam metin tarandı (1825/1828/1834, II. cilt dahil), `water-horse`, `aughisky`, `each-uisce`, `kelpie` **hiçbiri geçmiyor**. Croker'ın İrlanda su varlıkları Merrow ve Phooka'dır. Yerine tam metinden doğrulanmış **Campbell 1860–62 (II.190–194)** ve **Yeats 1888** kondu |
+| **Pontianak** | ⛔ atıf kusuru | Skeat'te doğumda ölen kadın **Langsuir**'dır; *Pontianak (Mati-anak)* onun **ölü doğan çocuğudur**. Madde Skeat'i modern kullanımın çıpası gösteriyor. Delik de sırtta değil **ensededir** ve Langsuir'a aittir |
+| Tokoloshe | — | Callaway'in doğru cildi hızlıca bulunamadı → **arama durduruldu** |
+| Strigoi | — | *Folklore* 37:4 (1926) nüshası hızlıca bulunamadı → **arama durduruldu** |
+
+**Turun asıl getirisi vaka değil, iki kusur oldu.** Altı maddede iki
+kaynak atfı çürüdü. Bu oran, düşman olgu denetiminin (Geçiş 1) Faz 5'in
+en değerli işi olduğunu söylüyor ve o geçiş **§ 2'de kaynak ve tarih adı
+veren maddelerden** başlayacak.
+
+Değişmeyen kural: **vaka uydurulmaz, tarih uydurulmaz, tanık uydurulmaz,
+sefer uydurulmaz, alıntı uydurulmaz, künye uydurulmaz, folklor tarihsel
+olguya çevrilmez.** Karaciğerin kıyıya vurması ayrıntısı Campbell'da
+**yoktur**; Briggs (1976) ve Rose (2000) üzerinden bilinir ve madde onu
+"19. yy Highland derlemeleri"ne yükleyemez — bu da düzeltme listesinde.
 
 ---
 

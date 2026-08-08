@@ -14,10 +14,11 @@
         {
           "ref": "Walter William Skeat, *Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula* (Londra: Macmillan, 1900)",
           "type": "primary",
-          "verification": "toc",
-          "access": "Kamuya açık dijital nüsha (archive.org)",
-          "note": "Bölüm ve plaka başlığı Project Gutenberg nüshasından (pg47873) doğrulandı.",
-          "locus": "Bölüm VI (\"Magic Rites affecting the Life of Man\"), Birth-Spirits bölümü; Plaka 7: \"Penanggalan and Langsuir\""
+          "verification": "fulltext",
+          "access": "archive.org/details/malaymagicbeingi00skeauoft — tam metin tarandı",
+          "note": "KRİTİK AYRIM — TAM METİNDEN DOĞRULANDI. Skeat'te doğumda ÖLEN KADIN 'langsuyar/Langsuir'dır; 'Pontianak (Mati-anak)' onun ÖLÜ DOĞAN ÇOCUĞUDUR ve bedeni bir tür gece baykuşudur. Skeat, Sir William Maxwell'in kaydını aktarır (JRAS Straits Branch, No. 7, s. 28): kadın langsuyar olmasın diye cesedin ağzına cam boncuk, her koltuk altına birer tavuk yumurtası, avuçlarına iğne konur — ağzını açıp çığlık (ngilai) atamasın, kollarını kanat gibi çırpamasın, ellerini açıp kapayıp uçamasın diye. Ölü doğan çocuğa da aynı işlem yapılır. Delik SIRTTA değil, ENSEDEDİR ve saçla gizlenir; ve o, Langsuir'ın deliğidir.",
+          "locus": "Bölüm VI (“Magic Rites affecting the Life of Man”), Birth-Spirits: “The Langsuir” 324–326, “Pontianak and Pěnanggalan” 327–328; Plaka 7",
+          "quote": "The Pontianak (or Mati-anak), as has already been said, is the stillborn child of the Langsuir"
         },
         {
           "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
@@ -42,14 +43,14 @@
       "region": "Malay yarımadası, Sumatra, Java, Borneo",
       "attested": "Skeat'in 1890'lar saha derlemesi; 1900'de yayımlandı",
       "appearance": [
-        "Uzun siyah saçlı kadın",
-        "Sırtında bir delik olduğu anlatılır",
+        "Uzun siyah saçlı kadın (bölgesel modern kullanım)",
+        "Skeat'te delik ENSEDE ve saçla gizli — ve Langsuir'a ait",
         "Kokusu çiçek (kemboja/frangipani)",
         "Sesi bebek ağlaması"
       ],
       "behaviour": "Doğumda ölen kadının dönüşü. Yeni doğana ve loğusaya yönelir.",
-      "incident": "Faz 3'te Skeat'ten doğrudan okunacak.",
-      "counter": "Skeat'in kaydettiği uygulamalar Faz 3'te doğrulanacak; şu an uydurulmayacak.",
+      "incident": "Skeat 324–326, Selangor kaydı: ilk Langsuir, çocuğunun ölü doğduğunu duyunca sarsılıp ölen, göz kamaştırıcı güzellikte bir kadındır; haberi alınca ellerini çırpmış ve kişneyerek bir ağaca uçup tünemiştir. Yeşil giysisi, çok uzun tırnakları ve ayak bileğine inen saçıyla tanınır; saç ensesindeki deliği gizler. Skeat evcilleştirme kaydını da verir: tırnakları ve saçı kesilip deliğe tıkılırsa uysallaşır, yıllarca sıradan bir kadın olarak yaşar — evlenip çocuk sahibi olduğu vakalar bilinir — ta ki bir köy şenliğinde dansa kalkana kadar; o an eski biçimine döner ve ormana uçar.",
+      "counter": "Skeat, Maxwell üzerinden koruyucu işlemi kaydeder (ağza boncuk, koltuk altlarına yumurta, avuçlara iğne) ve her birinin GEREKÇESİNİ verir. Kitap işlemi tarif ETMEZ: bomoh usulü çalışan bilgidir. Kaydın varlığı söylenir, içeriği verilmez.",
       "variants": [
         {
           "where": "Malay yarımadası",
@@ -60,12 +61,14 @@
           "what": "Kuntilanak adıyla"
         }
       ],
-      "variantNote": "Pontianak ve langsuir kaynaklarda bazen ayrı bazen aynı; madde bu belirsizliği gösterecek.",
+      "variantNote": "BELGELENMİŞ ÇELİŞKİ. Skeat (1900) ikisini AYRI kaydeder: langsuyar = doğumda ölen kadın; pontianak/mati-anak = onun ölü doğan çocuğu. Modern Malay ve Endonezya kullanımında ise pontianak/kuntilanak doğrudan doğumda ölen KADINDIR. Madde bu ayrımı göstermek zorundadır ve Skeat'i modern kullanımın çıpası olarak gösteremez — bu, Faz 5 turunun bulduğu kaynak atfı kusurudur.",
       "restriction": "Yalnızca yayımlanmış malzeme kullanıldı. Bomoh uygulamaları ve muska metinleri KULLANILMAZ — Skeat bunları kaydetmiştir ama tören metni aktarmak bu kitabın işi değildir.",
       "modern": "Pontianak, 1950'lerden bu yana Malezya ve Endonezya sinemasının merkezî figürü. Maddede TEK CÜMLEDE ve 'modern' etiketiyle anılacak.",
       "writingNotes": [
         "Gece cadısı ailesinin (C) Nusantara üyesi.",
-        "Ayrışma noktası: çoğu C üyesi doğuştan/dönüşümle cadıdır; pontianak bir KURBAN'dır — doğumda ölen kadın. Aile içindeki en güçlü ahlaki ayrım bu."
+        "Ayrışma noktası: çoğu C üyesi doğuştan/dönüşümle cadıdır; pontianak bir KURBAN'dır — doğumda ölen kadın. Aile içindeki en güçlü ahlaki ayrım bu.",
+        "DÜZELTME GEREKİYOR (Faz 5 · kayıtlı vaka turu). Maddenin 2. bölümü “Skeat … ve bundan sonrası onun çıpasıdır” diyor, ama sonrasında anlatılan figür Skeat'in PONTIANAK'ı değil LANGSUIR'ıdır. 3. bölümdeki 'sırtında bir delik' de Skeat'te ENSEDEdir ve Langsuir'a aittir. İkisi de düzeltilecek.",
+        "Motif kodu tartışması bu bulguyla güçleniyor: Skeat'in pontianak'ı bir ölü DOĞAN ÇOCUKTUR; G262.0.1 ('çocuk yiyen cadı') modern kullanımın kodudur. E251/E220 karşılaştırması satır editörlüğünde yeniden bakılacak."
       ]
     },
     {

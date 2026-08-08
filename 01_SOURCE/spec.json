@@ -1501,8 +1501,8 @@
         {
           "ref": "Yanagita Kunio, *Tōno monogatari* (Tokyo, 1910)",
           "type": "primary",
-          "verification": "canon",
-          "locus": "55–59. anlatılar"
+          "verification": "fulltext",
+          "locus": "55–59. anlatılar (五五–五九); dizinde 川童 = 五五―五九"
         },
         {
           "ref": "Michael Dylan Foster, *The Book of Yōkai: Mysterious Creatures of Japanese Folklore* (Berkeley: University of California Press, 2015)",
@@ -1528,7 +1528,7 @@
       ],
       "plate": "plate-011",
       "wordTarget": 700,
-      "variantNote": "",
+      "variantNote": "Yanagita, Tōno kappasının yüzünün kızıl olduğunu, başka yerlerde mavi sayıldığını AÇIKÇA yazar. Madde 'yeşil veya sarı' derken genel tipi tarif ediyor; Tōno varyantı gösterilmelidir — çelişki gizlenmez, gösterilir.",
       "restrictionScreened": false,
       "seedNoteTr": "Başındaki çanakta su taşıyan, güreşe çağıran, boğan ırmak çocuğu.",
       "researchFile": "01_SOURCE/research/kappa.md",
@@ -1764,13 +1764,19 @@
         "Each-uisge"
       ],
       "region": "Ériu ve Alba; Connacht gölleri, Hebrides deniz gölleri",
-      "attested": "Croker, *Fairy Legends* (1825); 19. yy Highland derlemeleri",
+      "attested": "Campbell, *Popular Tales of the West Highlands* (1860–62), II. cilt; Yeats (1888) İrlanda adını kaydeder",
       "sources": [
         {
-          "ref": "Thomas Crofton Croker, *Fairy Legends and Traditions of the South of Ireland* (Londra: John Murray, 1825)",
+          "ref": "J. F. Campbell, *Popular Tales of the West Highlands*, 4 cilt (Edinburgh: Edmonston & Douglas, 1860–62)",
           "type": "primary",
-          "verification": "canon",
-          "locus": "II. cilt"
+          "verification": "fulltext",
+          "locus": "II. cilt, 190–194: “The Water Horse”, Rev. Thomas Pattieson'ın Islay'den yazdığı anlatı; dizin girdisi “Each uisge, i. lxxxvi.; ii. 194”"
+        },
+        {
+          "ref": "W. B. Yeats, yay. haz., *Fairy and Folk Tales of the Irish Peasantry* (Londra: Walter Scott, 1888)",
+          "type": "primary",
+          "verification": "fulltext",
+          "locus": "Giriş denemesi, “The Trooping Fairies”"
         },
         {
           "ref": "Katharine Briggs, *A Dictionary of Fairies* (Londra: Allen Lane, 1976)",
@@ -4994,8 +5000,8 @@
         {
           "ref": "Walter William Skeat, *Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula* (Londra: Macmillan, 1900)",
           "type": "primary",
-          "verification": "toc",
-          "locus": "Bölüm VI (\"Magic Rites affecting the Life of Man\"), Birth-Spirits bölümü; Plaka 7: \"Penanggalan and Langsuir\""
+          "verification": "fulltext",
+          "locus": "Bölüm VI (“Magic Rites affecting the Life of Man”), Birth-Spirits: “The Langsuir” 324–326, “Pontianak and Pěnanggalan” 327–328; Plaka 7"
         },
         {
           "ref": "R. O. Winstedt, *The Malay Magician: Being Shaman, Saiva and Sufi* (Londra: Routledge, 1925)",
@@ -5015,7 +5021,7 @@
       ],
       "plate": "plate-076",
       "wordTarget": 700,
-      "variantNote": "Pontianak ve langsuir kaynaklarda bazen ayrı bazen aynı; madde bu belirsizliği gösterecek.",
+      "variantNote": "BELGELENMİŞ ÇELİŞKİ. Skeat (1900) ikisini AYRI kaydeder: langsuyar = doğumda ölen kadın; pontianak/mati-anak = onun ölü doğan çocuğu. Modern Malay ve Endonezya kullanımında ise pontianak/kuntilanak doğrudan doğumda ölen KADINDIR. Madde bu ayrımı göstermek zorundadır ve Skeat'i modern kullanımın çıpası olarak gösteremez — bu, Faz 5 turunun bulduğu kaynak atfı kusurudur.",
       "restrictionScreened": true,
       "seedNoteTr": "Doğumda ölen kadının dönüşü; kokusu çiçek, sesi bebek.",
       "researchFile": "01_SOURCE/research/pontianak.md",
