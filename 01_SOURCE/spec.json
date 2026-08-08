@@ -1425,7 +1425,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Höyüğünde yatan, malını bekleyen, şişip ağırlaşan ölü.",
       "researchFile": "01_SOURCE/research/draugr.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "yamata-no-orochi",
@@ -1855,7 +1855,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ölümden önce duyulan ağıt; bir aileye bağlı yas sesi.",
       "researchFile": "01_SOURCE/research/bean-sidhe.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "puca",
@@ -6385,7 +6385,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gök gürültüsü kuşu; su varlıklarının ezelî karşıtı.",
       "researchFile": "01_SOURCE/research/animikii.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "windigo",
