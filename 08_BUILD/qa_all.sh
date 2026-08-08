@@ -99,8 +99,27 @@ else
 fi
 run "araştırma ↔ spec"           $PY 08_BUILD/research_gen.py --check
 run "tasnif ↔ spec"               $PY 08_BUILD/classify.py --check
-run "editoryal defter ↔ metin"    $PY 08_BUILD/edits.py --check
-run "düşman olgu denetimi"        $PY 08_BUILD/factcheck.py --quiet --json 06_REPORTS/adversarial-review.json
+
+# METİN GEREKTİREN ADIMLAR. Proza depo dışındadır (A1/D29), yani CI'da
+# yoktur ve bu bir kalite düşüşü değildir. Çıkış 2 = ATLANDI — plaka
+# adımlarıyla birebir aynı sözleşme. `run` her sıfırdan farklı kodu
+# başarısızlık sayar ve `release` iş akışını bir kez kırmızı yaktı.
+soft_run () {
+  local name="$1"; shift
+  echo
+  echo "──────────────────────────────────────────────────────────────────────"
+  echo "▸ $name"
+  echo "──────────────────────────────────────────────────────────────────────"
+  "$@"
+  case $? in
+    0) ;;
+    2) echo "ATLANDI: metin depo dışında (karar A1/D29)" ;;
+    *) FAILED+=("$name") ;;
+  esac
+}
+
+soft_run "editoryal defter ↔ metin"  $PY 08_BUILD/edits.py --check
+soft_run "düşman olgu denetimi"      $PY 08_BUILD/factcheck.py --quiet --json 06_REPORTS/adversarial-review.json
 run "spec şeması"                 $PY 08_BUILD/validate_spec.py --gate "$GATE" --json 06_REPORTS/spec-validation.json
 run "depo ve belge bütünlüğü"     $PY 08_BUILD/validate_structure.py --json 06_REPORTS/structure.json
 run "kalite kapılarının testi"    $PY 08_BUILD/tests/selftest.py
@@ -111,7 +130,7 @@ run "tekrar taraması"             $PY 08_BUILD/qa_echo.py --json 06_REPORTS/qa-
 # Üslup uyumlama ÖLÇÜMÜ — kapı değil (D25/D47 içtihadı ve kurucunun Faz 5
 # emri: "sayıyı yapay olarak küçültme"). qa_echo'nun göremediği kalıpları
 # sayar ve her koşuda rapora yazar; kırmızı yakmaz.
-run "üslup uyumlama ölçümü"       $PY 08_BUILD/qa_style.py --json 06_REPORTS/qa-style.json
+soft_run "üslup uyumlama ölçümü"     $PY 08_BUILD/qa_style.py --json 06_REPORTS/qa-style.json
 run "diakritik"                   $PY 08_BUILD/qa_diacritics.py --json 06_REPORTS/qa-diacritics.json
 # Plaka ölçümünün KENDİ testi. Pillow ve numpy ister; venv yoksa ATLANIR
 # (çıkış 2). CI'da (plates.yml · calibration) bağımlılıklar kurulu olduğu

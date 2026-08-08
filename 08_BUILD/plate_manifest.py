@@ -272,6 +272,47 @@ def main() -> int:
     args = ap.parse_args()
 
     doc = build()
+
+    # HAM PLAKA DİZİNİ YOKSA BU BİR KALİTE DÜŞÜŞÜ DEĞİLDİR.
+    #
+    # Görüntüler `.gitignore` § ③ gereği depoda değildir; CI koşucusunda
+    # hiç bulunmazlar. Manifesto ise DEPODADIR (D38/D51 sözleşmesi) ve
+    # asıl sözleşme odur: hangi maddenin hangi plakaya ait olduğu.
+    # Ham dizinin yokluğunda yapılabilecek denetim manifestonun KENDİ
+    # tutarlılığıdır; dosya eşleşmesi yapılamaz ve yapılamadığı söylenir.
+    #
+    # Bu bir gevşetme DEĞİLDİR: plakaların bulunduğu her makinede — yerel
+    # ve `plates.yml` iş akışı — tam eşleşme yine koşar ve yine ısırır.
+    # Ayrım, projenin baştan beri kullandığı çıkış kodu sözleşmesidir:
+    #   0 geçti · 1 kalite düştü · 2 isteğe bağlı girdi yok, ATLANDI
+    # Faz 5'te `release` iş akışı bu yüzden kırmızı yandı: adım "eksik
+    # girdi"yi "kusur" ile aynı sinyale çeviriyordu.
+    if not doc["rawDir"]:
+        print("=" * 78)
+        print("PLAKA MANİFESTOSU VE EŞLEME (plate_manifest)")
+        print("=" * 78)
+        print("\nATLANDI: ham plaka dizini yok — aranan: "
+              + ", ".join(os.path.relpath(d, ROOT) for d in RAW_DIRS))
+        print("         Görüntüler depoda değildir (.gitignore § ③).")
+        if not os.path.exists(MANIFEST_PATH):
+            print("\n[FAIL] manifesto da yok — eşleme sözleşmesi kayıp")
+            return 1
+        with open(MANIFEST_PATH, encoding="utf-8") as fh:
+            stored = json.load(fh)
+        n = len([e for e in stored.get("entries", []) if e.get("rawFile")])
+        ok = (stored.get("creatures") == TARGET_CREATURES
+              and n == TARGET_CREATURES
+              and not stored.get("duplicatePlateInSpec")
+              and not stored.get("malformedPlateField"))
+        print(f"         Depodaki manifesto: {stored.get('creatures')} "
+              f"yaratık · {n} eşleme")
+        if not ok:
+            print("\n[FAIL] depodaki manifesto kendi içinde tutarsız")
+            return 1
+        print("[  ok ] depodaki manifesto tutarlı — dosya eşleşmesi "
+              "yapılamadı")
+        return 2
+
     r = Result("PLAKA MANİFESTOSU VE EŞLEME (plate_manifest)")
     verify(doc, r)
 
