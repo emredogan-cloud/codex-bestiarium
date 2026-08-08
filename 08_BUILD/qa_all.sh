@@ -74,6 +74,13 @@ if [ "$FIX" = "1" ]; then
   $PY 08_BUILD/research_gen.py >/dev/null
   $PY 08_BUILD/make_index.py --gate "$IDX_GATE" >/dev/null
   $PY 08_BUILD/make_prompts.py
+  $PY 08_BUILD/editor_pack.py >/dev/null 2>&1 || true
+  # SIRA: ön/arka madde ölçüsü BOOK_STATS'ın girdisidir. update_docs'tan
+  # SONRA ölçülürse belge kendi girdisinden eski kalır ve "bayat belge"
+  # kapısı, hiçbir şey bozulmamışken kırmızı yanar. Bir kez yaşandı.
+  FIX_PY="$PY"
+  [ -x "08_BUILD/.venv/bin/python" ] && FIX_PY="08_BUILD/.venv/bin/python"
+  $FIX_PY 08_BUILD/matter_page.py --measure >/dev/null 2>&1 || true
   $PY 08_BUILD/update_docs.py
 fi
 
@@ -183,9 +190,29 @@ plate_step "plaka manifestosu"     08_BUILD/plate_manifest.py --check
 plate_step "plaka tutarlılığı"     08_BUILD/plates.py --measure
 plate_step "plaka formatları"      08_BUILD/convert_plates.py --check
 run "kin-images chart"            $PY 08_BUILD/make_kin_chart.py --check
+# Editör teslim paketinin ÖLÇÜSÜ güncel mi. Metin yoksa çıkış 2 = ATLANDI
+# (CI'da proza bulunmaz); aynı sözleşme.
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ editör teslim paketi"
+echo "──────────────────────────────────────────────────────────────────────"
+$PY 08_BUILD/editor_pack.py --check
+case $? in
+  0) ;;
+  2) echo "ATLANDI: metin yok — teslim paketi yazımdan sonradır" ;;
+  *) FAILED+=("editör teslim paketi") ;;
+esac
+
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"
 run "üretilen belgeler güncel"    $PY 08_BUILD/update_docs.py --check
-run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py --check
+run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py
+  $PY 08_BUILD/editor_pack.py >/dev/null 2>&1 || true
+  # SIRA: ön/arka madde ölçüsü BOOK_STATS'ın girdisidir. update_docs'tan
+  # SONRA ölçülürse belge kendi girdisinden eski kalır ve "bayat belge"
+  # kapısı, hiçbir şey bozulmamışken kırmızı yanar. Bir kez yaşandı.
+  FIX_PY="$PY"
+  [ -x "08_BUILD/.venv/bin/python" ] && FIX_PY="08_BUILD/.venv/bin/python"
+  $FIX_PY 08_BUILD/matter_page.py --measure >/dev/null 2>&1 || true --check
 
 echo
 echo "════════════════════════════════════════════════════════════════════════"

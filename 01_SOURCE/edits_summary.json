@@ -1,6 +1,6 @@
 {
   "note": "Editoryal düzeltme defterinin ÖLÇÜSÜ. Proza içermez (karar A1/D29). Üreten: 08_BUILD/edits.py --apply",
-  "total": 145,
+  "total": 146,
   "byCategory": {
     "Olgu — atıf kesinliği": 1,
     "Olgu — ayrıntı kaynakla ayrışıyor": 1,
@@ -10,6 +10,7 @@
     "Olgu — yanlış künye": 1,
     "Sayı — aile boyutlarıyla ayrışma": 3,
     "Sayı — akraba ailesiyle ayrışma": 3,
+    "Terminoloji — belirsizlik": 1,
     "Üslup — kısıt cümlesi boilerplate'ten çıkarıldı": 15,
     "Üslup — madde İÇİ tekrar": 3,
     "Üslup — yazarın çözümleyici kalıpları": 55,
@@ -99,6 +100,6 @@
     "zmeu",
     "zmey"
   ],
-  "wordsRemoved": 2412,
-  "wordsAdded": 2417
+  "wordsRemoved": 2437,
+  "wordsAdded": 2443
 }
