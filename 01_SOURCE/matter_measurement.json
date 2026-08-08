@@ -10,25 +10,25 @@
     },
     {
       "key": "how-to-read",
-      "words": 1392,
+      "words": 1381,
       "pages": 5,
       "budget": 6
     },
     {
       "key": "epilogue",
-      "words": 1029,
+      "words": 1031,
       "pages": 4,
       "budget": 4
     },
     {
       "key": "about-author",
-      "words": 177,
+      "words": 176,
       "pages": 1,
       "budget": 2
     },
     {
       "key": "series",
-      "words": 197,
+      "words": 193,
       "pages": 1,
       "budget": 2
     },
@@ -40,7 +40,7 @@
     },
     {
       "key": "colophon",
-      "words": 261,
+      "words": 262,
       "pages": 1,
       "budget": 2
     }

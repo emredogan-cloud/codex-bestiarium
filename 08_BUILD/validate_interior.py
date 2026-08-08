@@ -146,28 +146,59 @@ def structural(pdf_path, ed, C):
           "fazlası sızmış bir yüz demektir")
 
     # saydamlık / görsel
+    import make_pdf as _MP
+    _L = _MP.L
     raw = open(pdf_path, "rb").read()
     has_alpha = b"/SMask" in raw
     C.add("S10", "Yapı", "Saydamlık yok", not has_alpha, "yok",
           "var" if has_alpha else "yok",
           "düzleştirilmemiş saydamlık baskıda sürpriz yapar")
 
-    imgs = 0
-    for p in r.pages:
+    # GÖRSEL ÇÖZÜNÜRLÜĞÜ — Cilt 1'de "görsel yok" denetimiydi.
+    #
+    # Codex Mythologica saf metin bloğuydu ve orada doğru denetim "hiç
+    # görsel olmasın"dı. Bestiarium'un her maddesinde bir plaka var, yani o
+    # denetim bu kitapta HER ZAMAN kırmızı yanar ve hiçbir şey söylemez.
+    # Kendi notu zaten doğru denetimi yazıyordu: "görsel eklenirse >= 300
+    # PPI kontrolü gerekir." Denetim o hâline çevrildi.
+    #
+    # PPI, gömülü pikselin sayfada kapladığı ALANA göre hesaplanır — dosya
+    # meta verisindeki DPI etiketi değil. Etiket yalan söyleyebilir;
+    # geometri söyleyemez.
+    imgs, low = 0, []
+    for pno, p in enumerate(r.pages, 1):
         xo = (p.get("/Resources") or {}).get("/XObject") or {}
         for k in xo:
-            if xo[k].get_object().get("/Subtype") == "/Image":
-                imgs += 1
-    C.add("S11", "Görsel", "Görsel yok (saf metin bloğu)", imgs == 0,
-          "0 görsel", imgs,
-          "görsel eklenirse >= 300 PPI kontrolü gerekir")
+            o = xo[k].get_object()
+            if o.get("/Subtype") != "/Image":
+                continue
+            imgs += 1
+            w_px = int(o.get("/Width") or 0)
+            # Çizim ölçeği içerik akışından güvenilir okunamaz; plaka
+            # kutusu şartnamededir ve tek yerden gelir.
+            import entry_page as _EP
+            box_w_pt = _EP.plate_box(_L)[0] if _L else 3.0 * 72
+            ppi = w_px / (box_w_pt / 72.0) if box_w_pt else 0
+            if ppi < 300:
+                low.append(f"s.{pno} {w_px}px → {ppi:.0f} PPI")
+    C.add("S11", "Görsel", "Her görsel >= 300 PPI", not low,
+          ">= 300 PPI", low[:6] or f"{imgs} görsel, en düşük >= 300 PPI",
+          "KDP baskı tabanı 300 PPI; ölçü dosya etiketinden değil "
+          "sayfadaki alandan hesaplanır")
 
     # metadata
     md = r.metadata or {}
     title = str(md.get("/Title") or "")
     author = str(md.get("/Author") or "")
+    # BAŞLIK BEKLENTİSİ KİTAPTAN GELİR. Devralınan sürüm `matter.TITLE`
+    # okuyordu ve o Cilt 1'in başlığıdır; Bestiarium'un PDF'i doğru
+    # metadata taşıdığı hâlde kırmızı yanıyordu.
+    try:
+        from bestiarium import BOOK_TITLE as _EXPECT
+    except ImportError:
+        _EXPECT = M.TITLE
     C.add("S12", "Metadata", "Başlık dolu",
-          M.TITLE.lower() in title.lower(), f"…{M.TITLE}…", title or "(boş)")
+          _EXPECT.lower() in title.lower(), f"…{_EXPECT}…", title or "(boş)")
     C.add("S13", "Metadata", "Yazar dolu", bool(author.strip()),
           M.AUTHOR, author or "(boş)")
     if ed.title_suffix:
@@ -353,6 +384,10 @@ def main():
                                "pass": len(C.rows) - len(C.failed) - len(C.warned),
                                "warn": len(C.warned), "fail": len(C.failed)}},
                   f, ensure_ascii=False, indent=2)
+        # Depo kuralı: her metin dosyası satır sonuyla biter
+        # (`validate_structure` denetliyor). Devralınan yazıcı bunu
+        # yapmıyordu ve rapor depoya girince kapı kırmızı yandı.
+        f.write("\n")
 
     ic = {"pass": "✓", "warn": "!", "fail": "✗"}
     grp = None

@@ -149,12 +149,63 @@ def entry_styles(L):
     }
 
 
+# BAŞLIK YÜZÜNÜN KAPSAMADIĞI KARAKTER — GÖVDE YÜZÜNE DÜŞÜLÜR.
+#
+# Cinzel bir yazıt yüzüdür ve kapsaması dardır; sekiz karakteri yoktur ve
+# sekizi de YARATIK VE GELENEK ADLARINDA geçiyor: Ḫumbaba, ʿArab, Moʻo,
+# Thuồng luồng, Ông Ba Mươi, Việt, Garuḍa. reportlab font düşümü yapmaz —
+# glifi olmayan karakteri sessizce boş kutu basar.
+#
+# Üç seçenek vardı: (a) diakritiği düşürmek — kitabın açık kuralı bunu
+# yasaklıyor (STYLE § 4), (b) başlık yüzünü değiştirmek — seri kimliği,
+# (c) KARAKTER DÜZEYİNDE DÜŞÜM. Üçüncüsü tipografinin standart çözümüdür
+# ve tek bir harfi etkiler. `qa_glyphs.py` düşümün kapsadığını denetler.
+_CINZEL_MISSING: set[str] | None = None
+
+
+def _cinzel_gap() -> set[str]:
+    """Cinzel'de olmayıp EB Garamond'da olan karakterler. Bir kez ölçülür."""
+    global _CINZEL_MISSING
+    if _CINZEL_MISSING is None:
+        try:
+            from fontTools.ttLib import TTFont as _FT
+            fdir = os.path.join(ROOT, "07_ASSETS", "fonts")
+            with _FT(os.path.join(fdir, "Cinzel[wght].ttf"), lazy=True) as f:
+                cin = set(f.getBestCmap())
+            with _FT(os.path.join(fdir, "EBGaramond[wght].ttf"),
+                     lazy=True) as f:
+                gar = set(f.getBestCmap())
+            _CINZEL_MISSING = {chr(c) for c in gar - cin}
+        except Exception:
+            _CINZEL_MISSING = set()
+    return _CINZEL_MISSING
+
+
+def display_safe(text: str) -> str:
+    """Başlık yüzünde glifi olmayan karakteri gövde yüzüne sarar."""
+    gap = _cinzel_gap()
+    if not gap:
+        return text
+    return "".join(f'<font name="Gara">{c}</font>' if c in gap else c
+                   for c in text)
+
+
 def tracked(text: str, tracking_em: float, size_pt: float) -> str:
     """reportlab'de harf aralığı bir Paragraph özelliği değildir; `<font>`
     etiketiyle de verilemez. Tek taşınabilir yol, harfler arasına ince boşluk
-    koymaktır — 0,06 em'lik aralık başlıkta böyle kurulur."""
-    space = f'<font size="{size_pt * tracking_em:.2f}"> </font>'
-    return space.join(text)
+    koymaktır — 0,06 em'lik aralık başlıkta böyle kurulur.
+
+    KELİME ARASI AYRI ELE ALINIR. İlk sürüm metni tek tek harflere bölüp
+    aralarına ince boşluk koyuyordu; ama metindeki GERÇEK boşluk da bir
+    karakter olduğu için o da ince boşluğa dönüşüyordu. Faz 6'nın görsel
+    denetimi başlık sayfasında "CODEXBESTIARIUM" ve yazar satırında
+    "EMREDOĞAN" buldu — kelimeler birleşmişti. Harf aralığı arttıkça kelime
+    arasının da artması gerekir, tersi değil.
+    """
+    thin = f'<font size="{size_pt * tracking_em:.2f}"> </font>'
+    words = text.split(" ")
+    gap = f'<font size="{size_pt * (0.55 + tracking_em):.2f}"> </font>'
+    return gap.join(thin.join(display_safe(c) for c in w) for w in words)
 
 
 # =============================================================================

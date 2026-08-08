@@ -113,6 +113,42 @@ MATTER_KEYS = [k for _, k, _, _ in MATTER_SECTIONS]
 # görünür — ve daha kötüsü, belge dosyanın üretildiği makinede değişir ve
 # CI'da bayat sanılır. Aynı kusur `04_PRINT/PROOF` için bir kez yaşandı.
 EDITOR_COPY_STEM = "codex-bestiarium-editor"
+
+# BÖLGE GRUPLARININ İNGİLİZCESİ. `spec.json` proje dilindedir (Türkçe) ve
+# öyle kalmalıdır: araştırma dosyaları, raporlar ve kapsam kararları onu
+# okur. Ama KİTAP İNGİLİZCEDİR ve Faz 6'nın görsel denetimi kırk gelenek
+# haritasında "KAFKASYA", "KUTUP", "YAKIN DOĞU" basılı buldu. Bir başvuru
+# cildinin ortasında proje dili görünmesi, en ucuz ve en utandırıcı
+# üretim kusurudur.
+REGION_EN = {
+    "Afrika": "Africa",
+    "Akdeniz": "The Mediterranean",
+    "Amazon": "Amazonia",
+    "And": "The Andes",
+    "Balkanlar": "The Balkans",
+    "Batı Avrupa": "Western Europe",
+    "Doğu Asya": "East Asia",
+    "Güney Asya": "South Asia",
+    "Güneydoğu Asya": "Southeast Asia",
+    "Himalaya": "The Himalaya",
+    "Kafkasya": "The Caucasus",
+    "Kutup": "The Arctic",
+    "Kuzey Amerika": "North America",
+    "Kuzey Avrupa": "Northern Europe",
+    "Mezoamerika": "Mesoamerica",
+    "Okyanusya": "Oceania",
+    "Orta Asya": "Central Asia",
+    "Yakın Doğu": "The Near East",
+}
+
+
+def region_en(tr: str) -> str:
+    """Bölge grubunun kitapta basılan adı. Eşleşmeyen değer SESSİZ GEÇMEZ."""
+    if tr not in REGION_EN:
+        raise KeyError(
+            f"bölge grubu İngilizceye çevrilmemiş: {tr!r} — "
+            "bestiarium.REGION_EN'e ekleyin; kitapta Türkçe basılamaz")
+    return REGION_EN[tr]
 MATTER_PAGES = {k: p for _, k, _, p in MATTER_SECTIONS}
 
 

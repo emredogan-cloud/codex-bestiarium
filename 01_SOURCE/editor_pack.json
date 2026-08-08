@@ -6,14 +6,14 @@
     "kinOpenings": 8,
     "matter": 7,
     "sections": 784,
-    "words": 88960,
-    "flagged": 293
+    "words": 88700,
+    "flagged": 342
   },
   "flagsByReason": {
-    "bant kenarı": 59,
-    "defter dokundu": 130,
+    "bant kenarı": 57,
+    "defter dokundu": 186,
     "diakritik yoğun": 14,
-    "ritim aykırısı": 111,
+    "ritim aykırısı": 116,
     "yaşayan gelenek kısıtı": 20,
     "yeni proza": 7
   }

@@ -218,6 +218,12 @@ def gather() -> dict:
     # Ön/arka maddenin ÖLÇÜSÜ. Aynı sözleşme: dosyanın tek yazarı
     # `matter_page.py`'dir, burası yalnızca OKUR. Yoksa sıfır — ölçüm
     # yapılmamış demektir ve tahmin edilmez.
+    production = {}
+    prpath = os.path.join(ROOT, "01_SOURCE", "production.json")
+    if os.path.exists(prpath):
+        with open(prpath, encoding="utf-8") as fh:
+            production = json.load(fh)
+
     matter = {"sections": [], "pagesUsed": 0, "pagesBudget": 0,
               "structuralPages": 0}
     xpath = os.path.join(ROOT, "01_SOURCE", "matter_measurement.json")
@@ -272,6 +278,7 @@ def gather() -> dict:
         "by_class": by_class,
         "by_kin": by_kin,
         "matter": matter,
+        "production": production,
         "by_region": by_region,
         "verified": verified,
         "written": written,
@@ -348,8 +355,16 @@ def render_stats(d: dict) -> str:
           f"%{100 * cur / target:.0f} |")
     A(f"| Kelime (yazılmış) | {est_words:,} | {TARGET_WORDS:,} | "
       f"`{bar(est_words, TARGET_WORDS)}` %{100 * est_words / TARGET_WORDS:.0f} |")
-    A(f"| Tahmini sayfa | {est_pages or '—'} | {TARGET_PAGES} | "
+    A(f"| Tahmini sayfa (model) | {est_pages or '—'} | {TARGET_PAGES} | "
       f"`{bar(est_pages, TARGET_PAGES)}` %{100 * est_pages / TARGET_PAGES:.0f} |")
+    # ÖLÇÜLEN sayfa sayısı — gerçek dizgiden. Model değil ölçüm geçerlidir.
+    meas = 0
+    for it in (d["production"].get("families", {}).get("interior") or []):
+        if "PAPERBACK" in it["path"] and it.get("pages"):
+            meas = it["pages"]
+    if meas:
+        A(f"| **Ölçülen sayfa (dizgi)** | **{meas}** | {TARGET_PAGES} | "
+          f"`{bar(meas, TARGET_PAGES)}` %{100 * meas / TARGET_PAGES:.0f} |")
     A("")
     A("Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde")
     A(f"**zorunludur**; toplam {d['screened']} maddede yapıldı — "
@@ -535,32 +550,25 @@ def phase_progress(d: dict, phase: dict) -> tuple[int, int, str]:
         return done, len(wanted), f"sınıf {classes} maddeleri yazıldı"
     # Faz 6 — üretim
     #
-    # PROVA DOSYALARI SAYILMAZ. `04_PRINT/PROOF/` altındaki madde sayfası
-    # provası bir ÖLÇÜM artefaktıdır, yayın dosyası değil. Sayılırsa Faz 6
-    # ilerlemesi %25 görünür ve — daha kötüsü — belge, provanın üretildiği
-    # makinede üretildiğine göre değişir; CI'da bayat sanılır.
+    # ÜÇÜNCÜ KEZ AYNI YARA. Bu sayım dosya sistemine bakıyordu ve üretilen
+    # yayın dosyaları `.gitignore`'dadır: yerelde 1/4, temiz klonda 0/4.
+    # Belge üretildiği makineye göre değişiyor, CI her push'ta haklı olarak
+    # "bayat" diyordu. Önce prova PDF'leri (yorum aşağıda), sonra editörün
+    # çalışma kopyası (D55), şimdi üretim çıktılarının kendisi.
     #
-    # AYNI KUSUR İKİNCİ KEZ: editörün ÇALIŞMA kopyası (`editor_pack.py`)
-    # da `02_MANUSCRIPT` altında bir DOCX bırakıyor ve yayın dosyası
-    # değil. Faz 5'te CI'yı bir kez kırmızı yaktı. Ad tek yerden gelir:
-    # `bestiarium.EDITOR_COPY_STEM`.
-    formats = 0
-    checks = [
-        ("04_PRINT", ".pdf"), ("05_KINDLE", ".epub"),
-        ("02_MANUSCRIPT", ".docx"), ("03_COVER", ".pdf"),
-    ]
-    skip_dirs = {"PROOF", "proofs"}
-    for folder, ext in checks:
-        p = os.path.join(ROOT, folder)
-        if not os.path.isdir(p):
-            continue
-        for dirpath, dirnames, fs in os.walk(p):
-            dirnames[:] = [d for d in dirnames if d not in skip_dirs]
-            if any(f.lower().endswith(ext)
-                   and not f.startswith(EDITOR_COPY_STEM) for f in fs):
-                formats += 1
-                break
-    return formats, len(checks), "üretilmiş yayın dosyası ailesi"
+    # Kural artık genel ve istisnasız: DEPO VARLIĞI DEĞİL, ÖLÇÜSÜNÜ TAŞIR.
+    # `01_SOURCE/production.json` depodadır, tek yazarı
+    # `production_manifest.py`'dir ve burası yalnızca OKUR.
+    #
+    # (Prova dosyaları hâlâ sayılmaz: `04_PRINT/PROOF/` bir ÖLÇÜM
+    # artefaktıdır, yayın dosyası değil — manifesto da onu dışarıda tutar.)
+    ppath = os.path.join(ROOT, "01_SOURCE", "production.json")
+    if os.path.exists(ppath):
+        with open(ppath, encoding="utf-8") as fh:
+            pdoc = json.load(fh)
+        return (pdoc.get("familyCount", 0), pdoc.get("familyTotal", 4),
+                "üretilmiş yayın dosyası ailesi")
+    return 0, 4, "üretilmiş yayın dosyası ailesi"
 
 
 def render_progress(d: dict) -> str:

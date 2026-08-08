@@ -173,17 +173,27 @@ def main() -> int:
     r.add(not unbalanced, "tipografik tırnak dengesi 1:1",
           "; ".join(unbalanced[:12]))
 
-    # --- düz tırnak / kısa çizgi sızıntısı ---
-    straight = [
-        label for label, text in blocks if '"' in text or " - " in text
-    ]
-    if straight:
-        r.warn(
-            "düz tırnak veya kısa çizgi sızıntısı",
-            f"{straight[:12]} — dizgide tipografik karakterler kullanılır",
-        )
-    else:
-        r.ok("tipografik karakterler temiz (düz tırnak/kısa çizgi yok)")
+    # --- düz tırnak / kesme / kısa çizgi sızıntısı ---
+    #
+    # KAPI DELİĞİYDİ. Denetim yalnızca düz ÇİFT tırnağı (U+0022) ve " - "yi
+    # arıyordu; düz KESME İŞARETİNİ (U+0027) hiç aramadı. Bağımsız satır
+    # editörü Faz 6'da ölçtü: manuscript'te 274 düz kesme işareti, sıfır
+    # tipografik kesme işareti vardı. Yani kitabın neredeyse her sayfasında
+    # "dog's", "don't" dikey bir tırnakla dizilecekti — 6×9 bir başvuru
+    # cildinde en ucuz amatörlük işareti.
+    #
+    # İkinci kusur: STYLE § 6 "düz tırnak görülürse kapı kırılır" diyor ama
+    # kod UYARI basıyordu. Yazılı kural ile kapı ayrışmıştı; kapı kurala
+    # uyduruldu. Bu bir sıkılaştırmadır, gevşetme değil.
+    BAD = {'"': "düz çift tırnak", "'": "düz kesme işareti",
+           " - ": "boşluklu kısa çizgi", "...": "üç ayrı nokta"}
+    straight = []
+    for label, text in blocks:
+        hits = [name for ch, name in BAD.items() if ch in text]
+        if hits:
+            straight.append(f"{label} ({', '.join(hits)})")
+    r.add(not straight, "tipografik karakterler temiz",
+          f"{straight[:10]} — dizgide ’ “ ” — … kullanılır")
 
     code = r.report(verbose=args.verbose)
     if args.json_out:
