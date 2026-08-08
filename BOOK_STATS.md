@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/4-genisleme` · son etiket `v0.3.0` · 64 commit
+> Son ölçüm: **2026-08-08** · dal `main` · son etiket `v0.4.0` · 67 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -20,7 +20,7 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Çapraz referansı olan madde | 112 | 112 | `████████████████████████` %100 |
 | Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
 | Yazılmış madde | 88 | 112 | `███████████████████░░░░░` %79 |
-| Normalize plaka | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
+| Normalize plaka | 112 | 112 | `████████████████████████` %100 |
 | Kelime (yazılmış) | 65,911 | 78,400 | `████████████████████░░░░` %84 |
 | Tahmini sayfa | 254 | 436 | `██████████████░░░░░░░░░░` %58 |
 

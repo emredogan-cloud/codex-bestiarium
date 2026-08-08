@@ -141,6 +141,7 @@ else
   echo "ATLANDI: font yok — ./08_BUILD/bootstrap.sh çalıştırın"
 fi
 
+run "plaka manifestosu"            $PY 08_BUILD/plate_manifest.py --check
 run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
 run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
 run "kin-images chart"            $PY 08_BUILD/make_kin_chart.py --check

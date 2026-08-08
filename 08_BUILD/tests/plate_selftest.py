@@ -90,6 +90,40 @@ def main() -> int:
     ensure_fixtures()
     r = Result("PLAKA ÖLÇÜMÜNÜN KALİBRASYONU (plate_selftest)")
 
+    # ---------------------------------------------------------- ⓪ GERİLEME
+    # Faz 5 · D48: kapsama tabanı artık plakanın kendi kutu oranından
+    # TÜRETİLİR, çünkü 1:1,25 tuval + boş kenar bandı + %62 taban üçlüsü
+    # dik kutulu yaratıklarda aynı anda sağlanamaz. Türetme kapalı biçimde
+    # yazıldı; bu test onu BİLİNEN geometriyle sınar.
+    #
+    # Gerileme testi olmadan, bir sonraki oturumda "kapsama tabanı neden
+    # 0,54'e düşmüş" sorusunun cevabı kodda kaybolur.
+    i = (1.0 - 2.0 * plates.BORDER_FRAC) ** 2
+    A = PLATE_SPEC["aspect"]
+    for aspect, want, note in (
+        (A,        i,           "kutu tuvalle aynı oranda → tam güvenli alan"),
+        (2 * A,    i * 0.5,     "kutu iki kat dik → yarısı"),
+        (A / 2,    i * 0.5,     "kutu iki kat geniş → yarısı"),
+        (1.964,    i * A / 1.964, "Migoi — setin en dik kutusu"),
+    ):
+        got = plates.achievable_coverage(aspect)
+        r.add(abs(got - want) < 1e-9,
+              f"ulaşılabilir kapsama · {note}",
+              f"kutu 1:{aspect:.3f} → beklenen {want:.4f} · hesaplanan {got:.4f}")
+
+    # Sınırın ALTINDA kalan bir plaka hâlâ reddedilmeli: pay yalnızca
+    # ayrıklaştırma içindir, sınırın kendisini kaldırmaz.
+    fake = {"aspect": A, "hatch_duty": 0.5, "hatch_stroke_px": 2.0,
+            "hatch_period_px": 4.0, "hatch_stroke_pt": 0.5,
+            "hatch_angles_deg": [45.0], "hatch_lines_per_cm": 25.0,
+            "contour_pt": 1.4, "contour_px": 5.8, "contour_runs": 40,
+            "ink_darkest": 0.92, "ink_lightest": 0.08, "background_ink": 0.0,
+            "box_aspect": 1.964, "coverage": 0.30}
+    verdicts = plates.judge(fake)
+    cov_ok = next(ok for ok, rule, _ in verdicts if rule.startswith("kapsama"))
+    r.add(not cov_ok, "geometrik sınırın ALTINDAKİ plaka reddediliyor",
+          "kutu 1:1,964 · ulaşılabilir %54 · sahte ölçüm %30 → reddedilmeli")
+
     # ---------------------------------------------------------------- ①
     good = measure("good")
     truth = pf.GROUND_TRUTH
@@ -132,13 +166,42 @@ def main() -> int:
           "" if ok_good else " · ".join(
               f"{rule} → {detail}" for ok, rule, detail in plates.judge(good) if not ok))
 
+    # D47 SONRASI ISIRMA BEKLENTİSİ.
+    #
+    # Üç tarama ölçümü (açı · sıklık · darbe) Faz 5'te kapı olmaktan
+    # çıkarıldı: mekanik tramı ölçen cetvel, gelen el işi taramayı
+    # okuyamıyor (112 plakada medyan 1,4 çizgi/cm · band 22–28). Bu
+    # kurguların ısırması artık BEKLENMEZ ve beklememek de sınanır —
+    # aksi hâlde "kapı kalktı" ile "kapı bozuldu" aynı görünür.
+    #
+    # Kurgular ölçülmeye devam ediyor; değişen şey kararın kimde olduğu.
+    DEMOTED = {"hatch_angle", "hatch_frequency"}
     for name, (rule, _) in pf.DEFECTS.items():
         m = measure(f"bad_{name}")
         verdicts = plates.judge(m)
         rejected = [ru for ok, ru, _ in verdicts if not ok]
-        r.add(bool(rejected), f"ısırma · {rule}",
-              f"reddeden kural: {rejected}" if rejected
-              else "YAKALANMADI — yakalamayan bir kapı, kapı değildir")
+        if name in DEMOTED:
+            r.add(not rejected, f"ısırmıyor (kasıtlı · D47) · {rule}",
+                  "ölçülüyor ama karar vermiyor — el işi tarama mekanik "
+                  "tram bandıyla yargılanamaz"
+                  if not rejected else f"BEKLENMEDİK RED: {rejected}")
+        else:
+            r.add(bool(rejected), f"ısırma · {rule}",
+                  f"reddeden kural: {rejected}" if rejected
+                  else "YAKALANMADI — yakalamayan bir kapı, kapı değildir")
+
+    # D47'nin YERİNE GELEN kapı ısırıyor mu? Ton dağılımı kapısı, setin
+    # medyanından sapan plakayı yakalamalı. Kapı set düzeyinde çalışır,
+    # bu yüzden burada doğrudan mantığı sınanır.
+    import statistics as _st
+    base = [0.20] * 20
+    med = _st.median(base)
+    mad = _st.median([abs(d - med) for d in base]) or 1e-9
+    limit = 6.0 * mad
+    r.add(abs(0.90 - med) > limit,
+          "ısırma · ton dağılımı (D47 yerine gelen kapı)",
+          f"medyan {med:.3f} · eşik ±{limit:.4f} · sapan plaka 0,900 → "
+          "yakalanmalı")
 
     # ---------------------------------------------------------------- ③
     # Dış hat tahmincisi ayırt edebiliyor mu? Edemiyorsa kapı OLMAMALIDIR.

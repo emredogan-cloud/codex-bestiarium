@@ -182,6 +182,20 @@ PLATE_SPEC = {
     "ink_lightest": 0.08,         # en açık %8
     "ink_tol": 0.05,
     "coverage": (0.62, 0.78),     # yaratık tuvalin %62–78'i
+    # Normalizasyonun NİŞAN ALDIĞI kapsama. Bandın ortası.
+    #
+    # Faz 5'te ham set geldiğinde ölçüldü: sanatçı kompozisyonu kapsamayı
+    # 0,587–0,960 arasında bırakıyor (medyan 0,828). Bu bir kusur değil,
+    # bir kompozisyon tercihidir — ama 112 plaka yan yana konduğunda
+    # görünür ölçek tutarsızlığı üretir ve K12'nin koruduğu şey tam olarak
+    # budur.
+    #
+    # Çözüm hattadır, sanatta değil: normalizasyon mürekkep kutusunu bu
+    # orana ÖLÇEKLER. Yaratığın gerçek büyüklüğü zaten her plakadaki
+    # İNSAN SİLUETİ ile veriliyor (scale_figure), dolayısıyla plakaları
+    # aynı kapsamaya getirmek bilgi kaybettirmez — tam tersine, silueti
+    # okunabilir bir referans hâline getirir.
+    "coverage_target": 0.70,
     "background": "empty",        # zemin boş — sahne yok
     "scale_figure": True,         # her plakada insan siluetiyle ölçek
     "dpi": 300,
