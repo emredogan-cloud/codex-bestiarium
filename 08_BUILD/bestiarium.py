@@ -105,6 +105,14 @@ MATTER_SECTIONS = [
     ("back",  "colophon",      "Colophon",                       2),
 ]
 MATTER_KEYS = [k for _, k, _, _ in MATTER_SECTIONS]
+
+# Ana dil editörüne giden ÇALIŞMA kopyasının dosya adı gövdesi. Tek yerde
+# durmak zorundadır: `editor_pack.py` onu üretir, `update_docs.py` onu
+# Faz 6 sayımının DIŞINDA tutar. Bir satır editörünün düzenlediği kopya
+# bir yayın dosyası değildir; sayılırsa Faz 6 hiç başlamamışken başlamış
+# görünür — ve daha kötüsü, belge dosyanın üretildiği makinede değişir ve
+# CI'da bayat sanılır. Aynı kusur `04_PRINT/PROOF` için bir kez yaşandı.
+EDITOR_COPY_STEM = "codex-bestiarium-editor"
 MATTER_PAGES = {k: p for _, k, _, p in MATTER_SECTIONS}
 
 

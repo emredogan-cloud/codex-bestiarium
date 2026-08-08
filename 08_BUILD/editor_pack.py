@@ -52,6 +52,7 @@ from bestiarium import (  # noqa: E402
     AUTHOR,
     BOOK_SUBTITLE,
     BOOK_TITLE,
+    EDITOR_COPY_STEM,
     ENTRY_SECTIONS,
     FORBIDDEN_GAME_TERMS,
     FORBIDDEN_PHRASES,
@@ -67,8 +68,8 @@ from bestiarium import (  # noqa: E402
 from textutil import sentences, word_count  # noqa: E402
 
 MANUSCRIPT_DIR = os.path.join(ROOT, "02_MANUSCRIPT")
-MD_PATH = os.path.join(MANUSCRIPT_DIR, "codex-bestiarium-editor.md")
-DOCX_PATH = os.path.join(MANUSCRIPT_DIR, "codex-bestiarium-editor.docx")
+MD_PATH = os.path.join(MANUSCRIPT_DIR, f"{EDITOR_COPY_STEM}.md")
+DOCX_PATH = os.path.join(MANUSCRIPT_DIR, f"{EDITOR_COPY_STEM}.docx")
 BRIEF_PATH = os.path.join(MANUSCRIPT_DIR, "EDITOR_BRIEF.md")
 MEASURE_PATH = os.path.join(ROOT, "01_SOURCE", "editor_pack.json")
 

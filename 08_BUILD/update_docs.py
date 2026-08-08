@@ -38,6 +38,7 @@ from bestiarium import (  # noqa: E402
     SCOPE_FLOOR,
     STATUS_ORDER,
     TARGET_CREATURES,
+    EDITOR_COPY_STEM,
     TARGET_PAGES,
     TARGET_TRADITIONS,
     TARGET_WORDS,
@@ -538,6 +539,11 @@ def phase_progress(d: dict, phase: dict) -> tuple[int, int, str]:
     # provası bir ÖLÇÜM artefaktıdır, yayın dosyası değil. Sayılırsa Faz 6
     # ilerlemesi %25 görünür ve — daha kötüsü — belge, provanın üretildiği
     # makinede üretildiğine göre değişir; CI'da bayat sanılır.
+    #
+    # AYNI KUSUR İKİNCİ KEZ: editörün ÇALIŞMA kopyası (`editor_pack.py`)
+    # da `02_MANUSCRIPT` altında bir DOCX bırakıyor ve yayın dosyası
+    # değil. Faz 5'te CI'yı bir kez kırmızı yaktı. Ad tek yerden gelir:
+    # `bestiarium.EDITOR_COPY_STEM`.
     formats = 0
     checks = [
         ("04_PRINT", ".pdf"), ("05_KINDLE", ".epub"),
@@ -550,7 +556,8 @@ def phase_progress(d: dict, phase: dict) -> tuple[int, int, str]:
             continue
         for dirpath, dirnames, fs in os.walk(p):
             dirnames[:] = [d for d in dirnames if d not in skip_dirs]
-            if any(f.lower().endswith(ext) for f in fs):
+            if any(f.lower().endswith(ext)
+                   and not f.startswith(EDITOR_COPY_STEM) for f in fs):
                 formats += 1
                 break
     return formats, len(checks), "üretilmiş yayın dosyası ailesi"
