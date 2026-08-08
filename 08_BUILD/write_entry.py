@@ -30,6 +30,7 @@ KULLANIM
     python3 08_BUILD/write_entry.py --merge    taslak.json
     python3 08_BUILD/write_entry.py --status
     python3 08_BUILD/write_entry.py --opening class I  --merge acilis.json
+    python3 08_BUILD/write_entry.py --matter           --merge matter.json
 """
 
 from __future__ import annotations
@@ -45,6 +46,10 @@ from bestiarium import (  # noqa: E402
     BOOK_PATH,
     BOOK_TITLE,
     ENTRY_SECTIONS,
+    MATTER_KEYS,
+    MATTER_PAGES,
+    MATTER_SECTIONS,
+    matter_group,
     SPEC_PATH,
     WORD_BAND,
     WORD_TARGET,
@@ -264,6 +269,42 @@ def cmd_merge_openings(kind: str, path: str) -> int:
     return 0
 
 
+def cmd_merge_matter(path: str) -> int:
+    """Ön/arka madde bölümlerini book.json'a işler.
+
+    Anahtar ve başlık `bestiarium.MATTER_SECTIONS`'tan gelir; taslak yalnızca
+    GÖVDEYİ verir. Başlığı taslağa yazdırmak, tek doğruluk kaynağının yanına
+    ikinci bir kopya koymaktır — bir gün ikisi ayrışır ve kimse fark etmez.
+
+    Bu komut SAYFA ölçmez, kelime sayar. Sayfanın tek doğru ölçüsü gerçek
+    dizgidir ve o `matter_page.py`'dedir; burada verilen sayı bir cetveldir.
+    """
+    with open(path, encoding="utf-8") as fh:
+        draft = json.load(fh)
+
+    unknown = [k for k in draft if k not in MATTER_KEYS]
+    if unknown:
+        print(f"HATA: tanınmayan bölüm: {', '.join(unknown)}")
+        print(f"      geçerli anahtarlar: {', '.join(MATTER_KEYS)}")
+        return 1
+
+    titles = {k: t for _, k, t, _ in MATTER_SECTIONS}
+    book = load_book()
+    for key, body in draft.items():
+        group = matter_group(key)
+        book.setdefault(group, {})[key] = {
+            "title": titles[key],
+            "body": body.strip(),
+        }
+        n = word_count(body)
+        savg = sentence_avg(body)
+        print(f"  {group}[{key}]: {n} kelime · ort cümle {savg:.1f} "
+              f"· slot {MATTER_PAGES[key]} sayfa")
+    save_book(book)
+    print("\n  SAYFA ÖLÇÜMÜ:  python3 08_BUILD/matter_page.py --measure")
+    return 0
+
+
 def cmd_status() -> int:
     spec_doc = load_spec()
     creatures = spec_doc["creatures"]
@@ -288,7 +329,12 @@ def cmd_status() -> int:
     ko = len(book.get("kinOpenings", {}))
     print(f"\n  yazılmış madde : {len(written)}/{len(creatures)}")
     print(f"  madde metni    : {total_words:,} kelime".replace(",", "."))
-    print(f"  sınıf açılışı  : {co}/6   ·  akraba açılışı: {ko}/8\n")
+    print(f"  sınıf açılışı  : {co}/6   ·  akraba açılışı: {ko}/8")
+    written_matter = sum(
+        1 for _, key, _, _ in MATTER_SECTIONS
+        if ((book.get(matter_group(key)) or {}).get(key) or {}).get("body")
+    )
+    print(f"  ön/arka madde  : {written_matter}/{len(MATTER_SECTIONS)}\n")
     return 0
 
 
@@ -298,6 +344,8 @@ def main() -> int:
     ap.add_argument("--merge", metavar="TASLAK")
     ap.add_argument("--opening", choices=["class", "kin"],
                     help="--merge'ü açılış metni olarak işler")
+    ap.add_argument("--matter", action="store_true",
+                    help="--merge'ü ön/arka madde olarak işler")
     ap.add_argument("--status", action="store_true")
     args = ap.parse_args()
 
@@ -306,6 +354,8 @@ def main() -> int:
     if args.merge:
         if args.opening:
             return cmd_merge_openings(args.opening, args.merge)
+        if args.matter:
+            return cmd_merge_matter(args.merge)
         return cmd_merge(args.merge)
     if args.status:
         return cmd_status()

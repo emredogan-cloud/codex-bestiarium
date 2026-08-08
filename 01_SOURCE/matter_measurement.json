@@ -1,0 +1,52 @@
+{
+  "note": "Ön/arka maddenin ÖLÇÜSÜ. Proza içermez (karar A1/D29). Üreten: 08_BUILD/matter_page.py --measure",
+  "edition": "paperback",
+  "sections": [
+    {
+      "key": "introduction",
+      "words": 2484,
+      "pages": 7,
+      "budget": 8
+    },
+    {
+      "key": "how-to-read",
+      "words": 1391,
+      "pages": 5,
+      "budget": 6
+    },
+    {
+      "key": "epilogue",
+      "words": 1029,
+      "pages": 4,
+      "budget": 4
+    },
+    {
+      "key": "about-author",
+      "words": 177,
+      "pages": 1,
+      "budget": 2
+    },
+    {
+      "key": "series",
+      "words": 197,
+      "pages": 1,
+      "budget": 2
+    },
+    {
+      "key": "review-call",
+      "words": 170,
+      "pages": 1,
+      "budget": 2
+    },
+    {
+      "key": "colophon",
+      "words": 261,
+      "pages": 1,
+      "budget": 2
+    }
+  ],
+  "missing": [],
+  "pagesUsed": 20,
+  "pagesBudget": 26,
+  "structuralPages": 14
+}

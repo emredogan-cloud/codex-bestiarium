@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 78 commit
+> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 80 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -21,8 +21,8 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
 | Yazılmış madde | 112 | 112 | `████████████████████████` %100 |
 | Normalize plaka | 112 | 112 | `████████████████████████` %100 |
-| Kelime (yazılmış) | 83,245 | 78,400 | `█████████████████████████` %106 |
-| Tahmini sayfa | 320 | 436 | `██████████████████░░░░░░` %73 |
+| Kelime (yazılmış) | 88,954 | 78,400 | `███████████████████████████` %113 |
+| Tahmini sayfa | 342 | 436 | `███████████████████░░░░░` %78 |
 
 Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde
 **zorunludur**; toplam 44 maddede yapıldı — 9 tanesi gönüllü. Zorunlu olmayan
@@ -31,6 +31,28 @@ bir taramayı yapmak serbesttir; zorunlu olanı atlamak kapıyı kırar.
 Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 ölçülen 6×9 · 11,2/15,6 pt dizgi yoğunluğu). Gerçek değer dizgi
 çalıştırılınca `04_PRINT/` çıktısından okunur — model değil ölçüm geçerlidir.
+
+### Ön ve arka madde — GERÇEK dizgiden ölçüldü
+
+Bu tablodaki sayfa sayısı bir model değil, `matter_page.py`'nin
+gerçekten dizip saydığı değerdir. **Slot**, BRIEF § 7'nin sayfa
+bütçesinden gelir ve bir TAVANDIR.
+
+| Bölüm | Kelime | Sayfa | Slot |
+|---|---:|---:|---:|
+| `introduction` | 2.484 | 7 | 8 |
+| `how-to-read` | 1.391 | 5 | 6 |
+| `epilogue` | 1.029 | 4 | 4 |
+| `about-author` | 177 | 1 | 2 |
+| `series` | 197 | 1 | 2 |
+| `review-call` | 170 | 1 | 2 |
+| `colophon` | 261 | 1 | 2 |
+| **Toplam** | **5.709** | **20** | **26** |
+
+Fark (6 sayfa) israf değildir:
+her bölüm tek sayfadan (recto) başlar, tek sayfada biten bölüm
+arkasına boş bir sayfa bırakır. Yapısal ön madde (başlık, künye,
+ithaf, içindekiler, gelenek haritası) ayrıca **14 sayfadır**.
 
 ## 2. Kapsam kapıları
 

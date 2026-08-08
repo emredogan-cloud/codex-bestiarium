@@ -137,6 +137,15 @@ if ls 07_ASSETS/fonts/*.ttf >/dev/null 2>&1; then
     2) echo "ATLANDI: reportlab yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
     *) FAILED+=("madde sayfası prova dizgisi") ;;
   esac
+  # Ön ve arka madde de sayfa bütçesinin parçasıdır (BRIEF § 7: giriş 8 ·
+  # nasıl okunur 6 · sonsöz 4 · arka madde 8). Maddeler ölçülüp bu bölümler
+  # ölçülmezse bütçenin 26 sayfası denetimsiz kalır.
+  $CAL_PY 08_BUILD/matter_page.py --check
+  case $? in
+    0) echo "[  ok ] ön/arka madde sayfa bütçesi" ;;
+    2) echo "ATLANDI: ön/arka madde henüz yazılmadı veya reportlab yok" ;;
+    *) FAILED+=("ön/arka madde sayfa bütçesi") ;;
+  esac
 else
   echo "ATLANDI: font yok — ./08_BUILD/bootstrap.sh çalıştırın"
 fi

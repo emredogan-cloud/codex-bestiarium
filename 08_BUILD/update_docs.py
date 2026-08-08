@@ -214,6 +214,16 @@ def gather() -> dict:
     elif os.path.isdir(PLATES_DIR):
         plates = len([f for f in os.listdir(PLATES_DIR) if f.lower().endswith(".png")])
 
+    # Ön/arka maddenin ÖLÇÜSÜ. Aynı sözleşme: dosyanın tek yazarı
+    # `matter_page.py`'dir, burası yalnızca OKUR. Yoksa sıfır — ölçüm
+    # yapılmamış demektir ve tahmin edilmez.
+    matter = {"sections": [], "pagesUsed": 0, "pagesBudget": 0,
+              "structuralPages": 0}
+    xpath = os.path.join(ROOT, "01_SOURCE", "matter_measurement.json")
+    if os.path.exists(xpath):
+        with open(xpath, encoding="utf-8") as fh:
+            matter = json.load(fh)
+
     sourced = sum(
         1 for c in creatures
         if len({s.get("ref", "").split(",")[0].strip().lower()
@@ -260,6 +270,7 @@ def gather() -> dict:
         "by_status": by_status,
         "by_class": by_class,
         "by_kin": by_kin,
+        "matter": matter,
         "by_region": by_region,
         "verified": verified,
         "written": written,
@@ -348,6 +359,29 @@ def render_stats(d: dict) -> str:
     A("ölçülen 6×9 · 11,2/15,6 pt dizgi yoğunluğu). Gerçek değer dizgi")
     A("çalıştırılınca `04_PRINT/` çıktısından okunur — model değil ölçüm geçerlidir.")
     A("")
+
+    m = d["matter"]
+    if m.get("sections"):
+        A("### Ön ve arka madde — GERÇEK dizgiden ölçüldü")
+        A("")
+        A("Bu tablodaki sayfa sayısı bir model değil, `matter_page.py`'nin")
+        A("gerçekten dizip saydığı değerdir. **Slot**, BRIEF § 7'nin sayfa")
+        A("bütçesinden gelir ve bir TAVANDIR.")
+        A("")
+        A("| Bölüm | Kelime | Sayfa | Slot |")
+        A("|---|---:|---:|---:|")
+        for r in m["sections"]:
+            A(f"| `{r['key']}` | {r['words']:,} | {r['pages']} | "
+              f"{r['budget']} |".replace(",", "."))
+        A(f"| **Toplam** | **{sum(r['words'] for r in m['sections']):,}** | "
+          f"**{m['pagesUsed']}** | **{m['pagesBudget']}** |".replace(",", "."))
+        A("")
+        A(f"Fark ({m['pagesBudget'] - m['pagesUsed']} sayfa) israf değildir:")
+        A("her bölüm tek sayfadan (recto) başlar, tek sayfada biten bölüm")
+        A("arkasına boş bir sayfa bırakır. Yapısal ön madde (başlık, künye,")
+        A(f"ithaf, içindekiler, gelenek haritası) ayrıca "
+          f"**{m['structuralPages']} sayfadır**.")
+        A("")
 
     A("## 2. Kapsam kapıları")
     A("")

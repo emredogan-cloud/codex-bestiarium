@@ -78,6 +78,43 @@ CLASS_IDS = ["I", "II", "III", "IV", "V", "VI"]
 KIN_IDS = ["A", "B", "C", "D", "E", "F", "G", "H"]
 STATUS_ORDER = ["draft", "verified", "written", "edited", "final"]
 
+# --- ön ve arka madde (yol haritası Faz 5 · BRIEF § 7) ---------------------
+# Kitabın YAZILAN madde dışı prozası. Buradaki `pages` bir tahmin değil,
+# BRIEF § 7'nin sayfa bütçesinden gelen SLOT'tur: o bölüm kitapta kaç sayfa
+# yer tutuyorsa o. `matter_page.py` gerçek dizgiyle ölçer ve bu sayıyı
+# aşarsa kırmızı yanar — yani sayı bir hedef değil, bir TAVANDIR.
+#
+# Bütçe aritmetiği (BRIEF § 7 · "ön/arka madde + dizin + kaynak = 72"):
+#     ön madde yapısal 14  (yarım başlık · başlık · künye · ithaf ·
+#                           içindekiler · 40 gelenek haritası)
+#   + giriş 8 + nasıl okunur 6                      → burada yazılır
+#   + sonsöz 4 + yazar 2 + seri 2 + yorum 2 + kolofon 2  → burada yazılır
+#   + dizinler 22 + kaynaklar 10                    → üretilir
+#   = 72
+#
+# `title` kitapta basılan başlıktır ve İNGİLİZCEDİR — kitabın dili odur.
+MATTER_STRUCTURAL_PAGES = 14   # yazılmayan ön madde: başlık, künye, harita…
+MATTER_SECTIONS = [
+    # (grup, anahtar, başlık, sayfa slotu)
+    ("front", "introduction",  "Forty Faces of One Fear",        8),
+    ("front", "how-to-read",   "How to Read This Book",          6),
+    ("back",  "epilogue",      "What Is Not Here",               4),
+    ("back",  "about-author",  "About the Author",               2),
+    ("back",  "series",        "The Codex Series",               2),
+    ("back",  "review-call",   "If You Found This Useful",       2),
+    ("back",  "colophon",      "Colophon",                       2),
+]
+MATTER_KEYS = [k for _, k, _, _ in MATTER_SECTIONS]
+MATTER_PAGES = {k: p for _, k, _, p in MATTER_SECTIONS}
+
+
+def matter_group(key: str) -> str:
+    """`book.json` içinde hangi haritaya yazıldığı: frontMatter / backMatter."""
+    for group, k, _, _ in MATTER_SECTIONS:
+        if k == key:
+            return group + "Matter"
+    raise KeyError(key)
+
 # Sınıf başına madde sayısı için kabul bandı. Yol haritası Bölüm 03.1 hedef
 # verir; tohum tablosu ondan sapar (Faz 2 uzlaştırır). Kapı: hiçbir sınıf
 # 8'in altına veya 32'nin üstüne çıkamaz.
