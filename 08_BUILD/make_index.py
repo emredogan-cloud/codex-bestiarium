@@ -134,6 +134,11 @@ def index_kin(spec: dict, pm: dict) -> list[dict]:
             "motif": fam["motif"],
             "image": fam["image"],
             "divergence": fam["divergence"],
+            # KİTAPTA BASILAN AYRIŞMA CÜMLESİ İNGİLİZCEDİR. `divergence`
+            # proje dilindedir (Türkçe) ve araştırma/rapor tarafında kalır;
+            # `divergenceEn` Faz 4'te bu iş için yazıldı ve kapısı var
+            # (D44). Dizin ikisini de taşır, dizgi İngilizcesini basar.
+            "divergenceEn": fam.get("divergenceEn", ""),
             "members": [
                 {
                     "name": c["name"], "id": c["id"],

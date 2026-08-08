@@ -42,6 +42,9 @@
 # ② ÜRETİLMİŞ YAYIN DOSYALARI  ────────────────────────────────────────────
 # Hepsi kaynaktan yeniden üretilebilir; ikili dosya olarak depoyu şişirirler.
 04_PRINT/**/*.pdf
+# pagemap.json DEPODA KALIR: proza içermez (kimlik → sayfa numarası) ve
+# dizinlerin tek dayanağıdır. Depoda durmazsa dizin numaraları yalnızca
+# üretildikleri makinede doğrulanabilir olur.
 05_KINDLE/*.epub
 05_KINDLE/*.mobi
 02_MANUSCRIPT/*.docx
@@ -68,6 +71,7 @@
 07_ASSETS/plates_raw/*
 07_ASSETS/plates/*
 07_ASSETS/plates_print/*
+07_ASSETS/plates_interior/*
 07_ASSETS/plates_kindle/*
 07_ASSETS/plates_aplus/*
 07_ASSETS/plates_web/*

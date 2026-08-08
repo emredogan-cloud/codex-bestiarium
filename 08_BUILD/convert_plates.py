@@ -31,7 +31,7 @@ BÜTÇELER PLAKA GELMEDEN ÖLÇÜLÜR
 KULLANIM
     python3 08_BUILD/convert_plates.py                  # eksikleri üret
     python3 08_BUILD/convert_plates.py --force          # hepsini yeniden üret
-    python3 08_BUILD/convert_plates.py --formats print,kindle
+    python3 08_BUILD/convert_plates.py --formats print,interior,kindle
     python3 08_BUILD/convert_plates.py --check          # bütçeleri denetle
     python3 08_BUILD/convert_plates.py --calibrate      # kurguda bütçe ölçümü
 """
@@ -62,11 +62,38 @@ EPUB_TARGET_MB = EPUB_BUDGET_MB - 1.0
 
 FORMATS = {
     "print": {"dir": "plates_print", "ext": ".tif", "budget_kb": None},
+    "interior": {"dir": "plates_interior", "ext": ".png", "budget_kb": 1200},
     "kindle": {"dir": "plates_kindle", "ext": ".png",
                "budget_kb": PLATE_EPUB_BUDGET_KB},
     "aplus": {"dir": "plates_aplus", "ext": ".jpg", "budget_kb": 2000},
     "web": {"dir": "plates_web", "ext": ".webp", "budget_kb": 300},
 }
+
+# İÇ BLOK PLAKASI — 450 DPI, GRİ TON. Faz 6'da ÖLÇÜLEREK seçildi.
+#
+# Baskı TIFF'i 1800 px, yani 3 inçlik kutuda 600 DPI. Kitaba o çözünürlükle
+# gömüldüğünde iç blok 220 MB çıkıyor (plaka başına ~2 MB): reportlab ham
+# pikselleri Flate ile sıkıştırır, kaynak dosyanın kendi sıkıştırmasını
+# geçirmez. 220 MB yasal (KDP sınırı 650 MB) ama yüklemesi, önizlemesi ve
+# prova döngüsü acı verici.
+#
+# Ölçülen seçenekler — 12 FARKLI plaka dizilip 112'ye ölçeklendi:
+#     600 DPI (1800 px)   190 MB   ince çizgi kaybı %0     (asıl)
+#     450 DPI (1350 px)   111 MB   ince çizgi kaybı %1,31
+#     400 DPI (1200 px)    89 MB   ince çizgi kaybı %2,09
+#     300 DPI ( 900 px)    52 MB   ince çizgi kaybı %6,85
+#
+# 300 DPI KDP'nin tabanıdır ve normal bir kitap için doğru seçimdir. Bu
+# kitap için değil: plakalar gravür dilinde ve arka planları ince taramayla
+# dolu. 300 DPI'da o tarama GÖZLE görülür biçimde bulanıyor — ayrı ayrı
+# duran darbeler leke hâline geliyor. Kurucunun provada bakılmasını istediği
+# tek şey de tam olarak buydu: "çizgi plakaların ince çizgileri baskıda
+# kayboluyor mu."
+#
+# 450 DPI seçildi: kayıp %1,31, gözle asıldan ayırt edilemiyor, dosya yarıya
+# iniyor. Kayıpsız PNG — kayıplı kodlayıcı ince çizginin çevresinde halka
+# artefaktı bırakır (web formatında ölçüldü, D27).
+INTERIOR_MAX_WIDTH = 1350
 
 # Kindle plakası: dosya boyutu bütçesini tutturmak için ölçek düşürülür.
 KINDLE_MAX_WIDTH = 900
@@ -108,6 +135,12 @@ def convert_one(src: str, fmt: str, dst: str) -> int:
             im.convert("L").save(
                 dst, "TIFF", compression="tiff_lzw", dpi=(dpi, dpi)
             )
+        elif fmt == "interior":
+            g = im.convert("L")
+            if g.width > INTERIOR_MAX_WIDTH:
+                h = round(g.height * INTERIOR_MAX_WIDTH / g.width)
+                g = g.resize((INTERIOR_MAX_WIDTH, h), Image.LANCZOS)
+            g.save(dst, "PNG", optimize=True, dpi=(450, 450))
         elif fmt == "kindle":
             g = im.convert("L")
             if g.width > KINDLE_MAX_WIDTH:
@@ -210,7 +243,7 @@ def calibrate(r: Result) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--formats", default="print,kindle,aplus,web")
+    ap.add_argument("--formats", default="print,interior,kindle,aplus,web")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--check", action="store_true",
                     help="dönüştürme; yalnızca bütçeleri denetle")
