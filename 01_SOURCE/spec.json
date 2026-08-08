@@ -2396,7 +2396,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yatıştırılmadıkça eve dönen, adı anılmayan huzursuz ölüler.",
       "researchFile": "01_SOURCE/research/lemures.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "long",
@@ -2935,7 +2935,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Suda ölmüş kızın dönüşü; ekinleri sulayan ama boğan.",
       "researchFile": "01_SOURCE/research/rusalka.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "zmey",
@@ -3153,7 +3153,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Doğup ölen ve aynı anneye tekrar tekrar dönen çocuk ruhu.",
       "researchFile": "01_SOURCE/research/abiku.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "adze",
