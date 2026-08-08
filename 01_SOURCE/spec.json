@@ -988,7 +988,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ölüler diyarının kapısında duran üç başlı köpek; girmeye izin verir, çıkmaya vermez.",
       "researchFile": "01_SOURCE/research/kerberos.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F150 ('Access to otherworld') doğrulandı ve korundu. Kérberos'un işlevi bir hayvan olmak değil, öteki dünyaya ERİŞİMİ denetlemektir: girene izin verir, çıkana vermez. B15 ('Animals with unusual limbs') üç başı tanımlar ama işlevi kaçırır; eşik bekçisi ailesinin ortak kodu F150'dir.",
+      "motifChanged": ""
     },
     {
       "id": "chimaira",
@@ -1044,7 +1046,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Aslan, keçi ve yılanın tek gövdede birleştiği, ateş soluyan Likya canavarı.",
       "researchFile": "01_SOURCE/research/chimaira.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B15 ('Animals with unusual limbs or members') doğrulandı ve korundu. Khimaira'yı tanımlayan şey tam olarak uzuv birleşimidir: aslan, keçi ve yılan tek gövdede.",
+      "motifChanged": ""
     },
     {
       "id": "lamia-hellenic",
@@ -1097,7 +1101,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çocuklarını kaybettikten sonra başkalarının çocuklarını avlayan kraliçe.",
       "researchFile": "01_SOURCE/research/lamia-hellenic.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci — witch entices MEN with offers of love') öneriyordu; Lámia erkekleri değil ÇOCUKLARI avlar. Doğrulanan G262.0.1'in tanımı doğrudan 'Lamia. Witch who eats children' — kod ailenin bu üyesinin adını taşıyor.",
+      "motifChanged": "G264 → G262.0.1. Ayrıntı: SCOPE_DECISIONS.md § 5①."
     },
     {
       "id": "ammit",
@@ -1152,7 +1158,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kalbi tüyden ağır çıkanı yutan; timsah, aslan ve su aygırının bileşimi.",
       "researchFile": "01_SOURCE/research/ammit.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G303 ('Devil') idi — Ammit şeytan değildir, bir YARGI aygıtıdır. Doğrulanan E751.1 ('Souls weighed at Judgment Day') Ammit'in bulunduğu sahneyi tam olarak tanımlar: kalbin tüye karşı tartılması.",
+      "motifChanged": "G303 → E751.1. Ammit bir şeytan değil, yargının infaz aygıtıdır."
     },
     {
       "id": "apep",
@@ -1207,7 +1215,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Her gece güneş teknesini yutmaya çalışan, her sabah yeniden yenilen yılan.",
       "researchFile": "01_SOURCE/research/apep.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2.1.1 ('Dragon as modified serpent') doğrulandı ve korundu. Apep bir ejderha değil, kozmik ölçekte bir YILANDIR; Thompson'ın 'değiştirilmiş yılan' alt kodu tam bu ayrımı taşır.",
+      "motifChanged": ""
     },
     {
       "id": "bennu",
@@ -1261,7 +1271,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kendi külünden doğan, zamanın başlangıcını işaretleyen balıkçıl.",
       "researchFile": "01_SOURCE/research/bennu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B32 ('Phoenix. Renews its youth at advanced age') doğrulandı ve korundu. Yunan phoinix'inin Mısır karşılığı olarak zaten bu kod altında tasniflenir.",
+      "motifChanged": ""
     },
     {
       "id": "fenrir",
@@ -1315,7 +1327,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bağlanmak için bir tanrının elini alan, Ragnarök'te zinciri kıracak kurt.",
       "researchFile": "01_SOURCE/research/fenrir.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B871.1 ('Giant domestic beasts') idi — kurt EVCİL DEĞİLDİR. Doğrulanan B871 ('Giant beasts') üst kodu kullanıldı. Thompson'da özel bir 'dev kurt' alt kodu bulunamadı; doğrulanmamış alt kod uydurmaktansa doğrulanmış üst kod yazıldı.",
+      "motifChanged": "B871.1 → B871. Kurt evcil hayvan değildir."
     },
     {
       "id": "jormungandr",
@@ -1369,7 +1383,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dünyayı çevreleyip kendi kuyruğunu ısıran deniz yılanı.",
       "researchFile": "01_SOURCE/research/jormungandr.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2.1.1 ('Dragon as modified serpent') doğrulandı ve korundu. Miðgarðsormr bir ejderha değil, dünyayı çevreleyen YILANDIR.",
+      "motifChanged": ""
     },
     {
       "id": "draugr",
@@ -1425,7 +1441,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Höyüğünde yatan, malını bekleyen, şişip ağırlaşan ölü.",
       "researchFile": "01_SOURCE/research/draugr.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum E230 ('Return from dead to inflict punishment') idi; draugr ceza için dönmez, HİÇ GİTMEZ. Doğrulanan E422 ('The living corpse. Revenant is not a specter but has the attributes of a living person') draugr'ın tanımıdır: hayalet değil, ağırlaşmış ve güçlenmiş bir CESET.",
+      "motifChanged": "E230 → E422. Draugr bir hayalet değil, yürüyen bir cesettir."
     },
     {
       "id": "yamata-no-orochi",
@@ -1478,7 +1496,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Sekiz başlı, sekiz kuyruklu; her yıl bir kız isteyen ırmak yılanı.",
       "researchFile": "01_SOURCE/research/yamata-no-orochi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2.3 ('Many-headed dragon') doğrulandı ve korundu. Sekiz baş, sekiz kuyruk — kodun tanımladığı şeyin tam örneği.",
+      "motifChanged": ""
     },
     {
       "id": "kappa",
@@ -1532,7 +1552,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Başındaki çanakta su taşıyan, güreşe çağıran, boğan ırmak çocuğu.",
       "researchFile": "01_SOURCE/research/kappa.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Kappa bir ırmak ruhudur; başındaki çanak (sara) ve su bağı tanımlayıcıdır.",
+      "motifChanged": ""
     },
     {
       "id": "tengu",
@@ -1585,7 +1607,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dağda yaşayan, kibirliyi cezalandıran kanatlı varlık.",
       "researchFile": "01_SOURCE/research/tengu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "D150 ('Transformation: man to bird') doğrulandı ve korundu. Tengu'nun tanımlayıcı özelliği kuş-insan arası biçim ve dönüşümdür.",
+      "motifChanged": ""
     },
     {
       "id": "garuda",
@@ -1639,7 +1663,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yılanların ezelî düşmanı; kanat çırpışı fırtına olan güneş kuşu.",
       "researchFile": "01_SOURCE/research/garuda.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi; doğrulama B31'in bölüm başlığı (Giant birds), B31.1'in ise 'Roc' olduğunu gösterdi. Garuḍa'nın KENDİ kodu var: B56 'Garuda-bird. Lower part man, upper part bird'.",
+      "motifChanged": "B31 → B56. Ayrıntı: SCOPE_DECISIONS.md § 5②."
     },
     {
       "id": "naga",
@@ -1694,7 +1720,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Suyun altındaki şehirlerde yaşayan, hazineyi ve yağmuru tutan yılan halk.",
       "researchFile": "01_SOURCE/research/naga.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B91 ('Mythical serpent') idi; doğrulanan B91.1'in tanımı doğrudan 'Naga. Serpent demon' — kod bu maddenin adını taşıyor.",
+      "motifChanged": "B91 → B91.1 (daha dar ve adı taşıyan kod)."
     },
     {
       "id": "makara",
@@ -1745,7 +1773,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Timsah, fil ve balığın birleştiği, eşiklerde oyulan su canavarı.",
       "researchFile": "01_SOURCE/research/makara.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B16 ('Devastating animals') doğrulandı ve korundu. Makara bir bileşik su canavarıdır; B15 (olağandışı uzuvlar) de aday ama makara'nın işlevi tehlikedir, tuhaflık değil.",
+      "motifChanged": ""
     },
     {
       "id": "each-uisce",
@@ -1807,7 +1837,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kıyıda uysal duran, binildiğinde denize koşan ve yiyen at.",
       "researchFile": "01_SOURCE/research/each-uisce.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B184.1.3 ('Magic horse from water world') doğrulandı ve korundu. Su atı ailesinin (A) çıpa kodu; tanım ailenin tamamını kapsıyor.",
+      "motifChanged": ""
     },
     {
       "id": "bean-sidhe",
@@ -1861,7 +1893,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ölümden önce duyulan ağıt; bir aileye bağlı yas sesi.",
       "researchFile": "01_SOURCE/research/bean-sidhe.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "E402 ('Mysterious ghostlike noises heard. Song, animal cries, footsteps, etc.') doğrulandı ve korundu. Bean sídhe bir görüntü değil bir SEStir; kod tam olarak bunu tasnif eder.",
+      "motifChanged": ""
     },
     {
       "id": "puca",
@@ -1916,7 +1950,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "At, keçi, tavşan olabilen; kimi zaman koruyan kimi zaman yolu şaşırtan.",
       "researchFile": "01_SOURCE/research/puca.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "D131 ('Transformation: man to horse') doğrulandı ve korundu. Púca'nın en yaygın biçimi attır ve dönüşüm tanımlayıcıdır.",
+      "motifChanged": ""
     },
     {
       "id": "humbaba",
@@ -1970,7 +2006,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Sedir ormanının bekçisi; yüzü bağırsak kıvrımlarından örülmüş dev.",
       "researchFile": "01_SOURCE/research/humbaba.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F150 ('Access to otherworld') doğrulandı ve korundu. Ḫumbaba sedir ormanının — girilmesi yasak bölgenin — bekçisidir; işlevi eşiği tutmaktır.",
+      "motifChanged": ""
     },
     {
       "id": "anzu",
@@ -2024,7 +2062,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kader tabletlerini çalan, aslan başlı fırtına kuşu.",
       "researchFile": "01_SOURCE/research/anzu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DÜZELTİLDİ. Tohum B31 idi; B31 bölüm başlığıdır (Giant birds). Doğrulanan B31.1 ('Roc. A giant bird which carries off men in its claws') Anzû'nun dev yırtıcı kuş biçimini tasnif eder.",
+      "motifChanged": "B31 → B31.1 (B31 bölüm başlığıdır)."
     },
     {
       "id": "lamashtu",
@@ -2077,7 +2117,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Loğusanın yanına sokulup çocuğu emziren yerine kaçıran dişi iblis.",
       "researchFile": "01_SOURCE/research/lamashtu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci') idi — Lamashtu erkekleri baştan çıkarmaz, ÇOCUK ÇALAR. Doğrulanan G442 ('Child-stealing demon') tam tanımdır. G302.9.4 ('Demons injure and strangle little children') da uygundur ve maddede anılacak.",
+      "motifChanged": "G264 → G442. Ayrıntı: SCOPE_DECISIONS.md § 5①."
     },
     {
       "id": "cipactli",
@@ -2128,7 +2170,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Gövdesinden yeryüzünün yapıldığı, her ekleminde ağız olan ilkel timsah.",
       "researchFile": "01_SOURCE/research/cipactli.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum A812 ('Earth Diver') idi — earth-diver bir hayvanın dalıp çamur getirmesidir; Cipactli'de yeryüzü onun GÖVDESİNDEN yapılır. Doğrulanan A831 ('Earth from body of person (animal)') tam tanımdır.",
+      "motifChanged": "A812 → A831."
     },
     {
       "id": "ahuizotl",
@@ -2181,7 +2225,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kuyruğunun ucundaki elle suya çeken, göz ve tırnak yiyen köpek benzeri.",
       "researchFile": "01_SOURCE/research/ahuizotl.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B16 ('Devastating animals') doğrulandı ve korundu. Ahuizotl suda bekleyen ve öldüren bir hayvandır.",
+      "motifChanged": ""
     },
     {
       "id": "nahual",
@@ -2236,7 +2282,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Kendi hayvanına dönüşebilen büyücü; doğduğu güne bağlı ikinci beden.",
       "researchFile": "01_SOURCE/research/nahual.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "D110 ('Transformation: man to wild beast (mammal)') doğrulandı ve korundu. Nahual — Way'den farklı olarak — gerçekten DÖNÜŞÜR.",
+      "motifChanged": ""
     },
     {
       "id": "strix",
@@ -2291,7 +2339,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Geceleri bebeklerin kanını emen kuş kılığındaki cadı.",
       "researchFile": "01_SOURCE/research/strix.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1'in tanımı 'Witch sucks blood' ve Thompson'ın kaynakçasında doğrudan 'Striges' geçer — kod bu maddenin Latince çoğulunu taşıyor.",
+      "motifChanged": "G262 → G262.1."
     },
     {
       "id": "basiliscus",
@@ -2347,7 +2397,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bakışı ve soluğu öldüren; yolundaki her şeyi çöle çeviren küçük yılan.",
       "researchFile": "01_SOURCE/research/basiliscus.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B12 ('Basilisk. A mythical lizard or serpent whose hissing drives away all other serpents') doğrulandı ve korundu. Kod doğrudan bu maddenin adını taşıyor.",
+      "motifChanged": ""
     },
     {
       "id": "lemures",
@@ -2402,7 +2454,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yatıştırılmadıkça eve dönen, adı anılmayan huzursuz ölüler.",
       "researchFile": "01_SOURCE/research/lemures.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "E200 ('Malevolent return from the dead') doğrulandı ve korundu. Lemures yatıştırılmadıkça dönen huzursuz ölülerdir.",
+      "motifChanged": ""
     },
     {
       "id": "long",
@@ -2456,7 +2510,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yağmuru getiren, ırmaklarda yaşayan, kanatsız uçan ejderha.",
       "researchFile": "01_SOURCE/research/long.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.7 ('Dragon as rain-spirit') doğrulandı ve korundu. Çin ejderhasını Batı ejderhasından ayıran şey tam olarak budur: yağmur ve su denetimi.",
+      "motifChanged": ""
     },
     {
       "id": "qilin",
@@ -2510,7 +2566,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Adaletsizin üzerine basmayan; iyi bir hükümdarın gelişini haber veren.",
       "researchFile": "01_SOURCE/research/qilin.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B19 ('Other mythical beasts') doğrulandı ve korundu. Qílín bir bileşik hayvandır ve Thompson'ın daha dar bir alt kodu bu maddeye uymuyor; doğrulanmamış dar kod yerine doğrulanmış üst kod kullanıldı.",
+      "motifChanged": ""
     },
     {
       "id": "huli-jing",
@@ -2566,7 +2624,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yüz yıl yaşayınca kadına dönüşen, ömür toplayan tilki.",
       "researchFile": "01_SOURCE/research/huli-jing.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.1 idi; doğrulanan tanımı 'Transformation: man to WOLF'. Tilki kurt değildir. Doğrulanan D113.3'ün tanımı doğrudan 'Transformation man to fox'.",
+      "motifChanged": "D113.1 → D113.3. Ayrıntı: SCOPE_DECISIONS.md § 5③."
     },
     {
       "id": "kumiho",
@@ -2619,7 +2679,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dokuz kuyruklu tilki; insan olmak için ciğer yiyen.",
       "researchFile": "01_SOURCE/research/kumiho.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.1 ('man to WOLF') idi; kumiho tilkidir. Doğrulanan D113.3 ('Transformation man to fox') doğru koddur. İkinci kod G262.5 ('Witch takes out man's liver') eklendi — kumiho'nun tanımlayıcı eylemi budur ve Thompson'ın tanımı birebir uyuyor.",
+      "motifChanged": "D113.1 → D113.3 + G262.5."
     },
     {
       "id": "imugi",
@@ -2672,7 +2734,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bin yıl bekleyip ejderha olmayı uman; çoğu zaman olamayan su yılanı.",
       "researchFile": "01_SOURCE/research/imugi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.1 ('Origin of dragon') doğrulandı ve korundu. Imugi'nin tanımı ejderha OLMA sürecidir — kod tam olarak ejderhanın kökenini tasnif eder.",
+      "motifChanged": ""
     },
     {
       "id": "dokkaebi",
@@ -2726,7 +2790,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Eski bir eşyadan doğan; güreşe çağıran, zenginlik veya bela getiren.",
       "researchFile": "01_SOURCE/research/dokkaebi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F400 ('Spirits and demons (general)') doğrulandı ve korundu. Dokkaebi belirli bir biçime veya araziye bağlı değil; eski bir NESNEDEN doğar.",
+      "motifChanged": ""
     },
     {
       "id": "camazotz",
@@ -2780,7 +2846,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yeraltının beşinci evini bekleyen; başları kesen yarasa.",
       "researchFile": "01_SOURCE/research/camazotz.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31.1 ('Roc') idi — Camazotz yırtıcı kuş değil YARASADIR. Doğrulanan B31.4'ün tanımı doğrudan 'Giant bat'.",
+      "motifChanged": "B31.1 → B31.4. Yarasa kuş değildir."
     },
     {
       "id": "xtabay",
@@ -2834,7 +2902,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ceiba ağacında bekleyen, saçını tarayan, yolcuyu dikenlere götüren.",
       "researchFile": "01_SOURCE/research/xtabay.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F302 ('Fairy mistress') doğrulandı ve korundu. Xtabay yolcuyu çeken doğaüstü bir sevgili figürüdür.",
+      "motifChanged": ""
     },
     {
       "id": "way",
@@ -2887,7 +2957,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Her insanın uykuda serbest kalan hayvan eşlikçisi.",
       "researchFile": "01_SOURCE/research/way.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D110 idi — ama way bir DÖNÜŞÜM değil, ayrılabilir bir ruhtur. Doğrulanan E715 ('Separable soul kept in animal') doğru koddur.",
+      "motifChanged": "D110 → E715. Way dönüşmez; AYRILIR."
     },
     {
       "id": "rusalka",
@@ -2941,7 +3013,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Suda ölmüş kızın dönüşü; ekinleri sulayan ama boğan.",
       "researchFile": "01_SOURCE/research/rusalka.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Rusalka bir su ruhudur ve ölünün dönüşü boyutu ikincildir; Slav kaydında su bağı birincildir.",
+      "motifChanged": ""
     },
     {
       "id": "zmey",
@@ -2997,7 +3071,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çok başlı; kesilen her başın yerine yenisi çıkan ejderha.",
       "researchFile": "01_SOURCE/research/zmey.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2.3 ('Many-headed dragon') doğrulandı ve korundu. Zmey'in tanımlayıcı özelliği çok başlılık ve kesilen başın yerine yenisinin çıkmasıdır.",
+      "motifChanged": ""
     },
     {
       "id": "domovoy",
@@ -3051,7 +3127,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ocağın altında yaşayan, evi koruyan, taşınırken götürülmesi gereken.",
       "researchFile": "01_SOURCE/research/domovoy.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F480 ('House-spirits') bölüm başlığıydı; doğrulanan F482 ('Brownie (nisse)') Domovoy'un tam karşılığı olan ev ruhu tipini tasnif eder.",
+      "motifChanged": "F480 → F482."
     },
     {
       "id": "anansi",
@@ -3105,7 +3183,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Bütün hikâyeleri gökten satın alan örümcek; zayıfın kurnazlığı.",
       "researchFile": "01_SOURCE/research/anansi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum A177 ('God as thief') idi; Anansi hikâyeleri ÇALMAZ, satın alır ve kurnazlıkla kazanır. Doğrulanan A177.1 ('God as dupe or trickster') daha doğrudur.",
+      "motifChanged": "A177 → A177.1."
     },
     {
       "id": "abiku",
@@ -3159,7 +3239,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Doğup ölen ve aynı anneye tekrar tekrar dönen çocuk ruhu.",
       "researchFile": "01_SOURCE/research/abiku.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. E220 ('Dead relative's malevolent return') àbíkú'nün aynı aileye tekrar tekrar dönmesini tasnif eder. E324 ('Dead child's friendly return to parents') değerlendirildi ama àbíkú DOSTÇA dönmez.",
+      "motifChanged": ""
     },
     {
       "id": "adze",
@@ -3212,7 +3294,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ateşböceği kılığında giren, uyuyanın kanını içen.",
       "researchFile": "01_SOURCE/research/adze.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1 ('Witch sucks blood') adze'nin tanımlayıcı eylemini birebir karşılıyor.",
+      "motifChanged": "G262 → G262.1."
     },
     {
       "id": "simurgh",
@@ -3269,7 +3353,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Zal'ı büyüten, tüyü yakıldığında gelen; bilgeliğin kuşu.",
       "researchFile": "01_SOURCE/research/simurgh.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi (bölüm başlığı). Doğrulanan B31.5'in tanımı doğrudan 'Simorg: giant bird' — kod bu maddenin adını taşıyor.",
+      "motifChanged": "B31 → B31.5. Ayrıntı: SCOPE_DECISIONS.md § 5②."
     },
     {
       "id": "azi-dahaka",
@@ -3323,7 +3409,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Omuzlarından iki yılan çıkan; dağın altına zincirlenen üç ağızlı.",
       "researchFile": "01_SOURCE/research/azi-dahaka.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2 ('Form of dragon') doğrulandı ve korundu. Aži Dahāka'yı tanımlayan şey biçimidir: omuzlarından çıkan iki yılan.",
+      "motifChanged": ""
     },
     {
       "id": "peri",
@@ -3377,7 +3465,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ateşten yaratılmış, güzel ve kararsız; ne tümüyle iyi ne tümüyle kötü.",
       "researchFile": "01_SOURCE/research/peri.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum F300 idi ama F300 bağımsız tanım taşımıyor (yalnızca bölüm başlığı). Doğrulanan G307 ('Jinn') perī'nin ateşten yaratılmış varlıklar kümesindeki yerini tasnif eder.",
+      "motifChanged": "F300 → G307. F300 bağımsız tanım taşımıyor."
     },
     {
       "id": "taniwha",
@@ -3430,7 +3520,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Nehir ağzını tutan; kimi kabileye koruyucu, kimine ceza.",
       "researchFile": "01_SOURCE/research/taniwha.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. B11.3 ('Habitat of dragon') taniwha'nın tanımlayıcı özelliğini — belirli bir su yerine bağlı olmasını — tasnif eder. Her taniwha bir YERE aittir.",
+      "motifChanged": ""
     },
     {
       "id": "moo",
@@ -3484,7 +3576,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Göletleri bekleyen kertenkele ruhu; su ve soy bağı.",
       "researchFile": "01_SOURCE/research/moo.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B91 ('Mythical serpent') doğrulandı ve korundu. Moʻo büyük bir kertenkele/sürüngen ruhtur; B91.1 ('Naga') Hint bağlamına özgü olduğu için üst kod kullanıldı.",
+      "motifChanged": ""
     },
     {
       "id": "ponaturi",
@@ -3536,7 +3630,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz denizde saklanan, geceleri karaya çıkan deniz halkı.",
       "researchFile": "01_SOURCE/research/ponaturi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "G300 ('Other ogres') doğrulandı ve korundu. Ponaturi belirli bir Thompson alt koduna oturmayan bir deniz halkıdır; doğrulanmamış dar kod yerine doğrulanmış üst kod kullanıldı.",
+      "motifChanged": ""
     },
     {
       "id": "qalupalik",
@@ -3589,7 +3685,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Buz altında bekleyen, yalnız çocuğu çeken yeşil derili.",
       "researchFile": "01_SOURCE/research/qalupalik.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G308 ('Sea monster') idi; qalupalik'in tanımlayıcı eylemi deniz canavarı olmak değil ÇOCUK ALMAKTIR. Doğrulanan G442 ('Child-stealing demon') tam tanımdır.",
+      "motifChanged": "G308 → G442."
     },
     {
       "id": "amarok",
@@ -3642,7 +3740,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yalnız avlanan dev kurt; kuralı çiğneyen avcıyı bulur.",
       "researchFile": "01_SOURCE/research/amarok.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B871 ('Giant beasts') doğrulandı ve korundu. Amarok dev bir kurttur; Thompson'da özel bir 'dev kurt' alt kodu bulunamadı, doğrulanmış üst kod kullanıldı.",
+      "motifChanged": ""
     },
     {
       "id": "tupilaq",
@@ -3695,7 +3795,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Kemik ve deriden yapılıp canlandırılan; ustasını da öldürebilen.",
       "researchFile": "01_SOURCE/research/tupilaq.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. D1711 ('Magician') tupilaq'ın YAPILMA sürecini — bir büyücünün onu kurması — tasnif eder. Not: tupilaq'ın kendisi bir nesne-varlıktır; Thompson'da tam karşılığı olan bir 'yapay canlandırılmış figür' kodu bu turda bulunamadı.",
+      "motifChanged": ""
     },
     {
       "id": "al-karisi",
@@ -3752,7 +3854,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Loğusanın ciğerini alan; kızıl giyimli, sudan korkan.",
       "researchFile": "01_SOURCE/research/al-karisi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci') idi — Al Karısı erkekleri baştan çıkarmaz, LOĞUSAYI avlar. Doğrulanan G442 ('Child-stealing demon') ana kod; ikinci kod G262.5 ('Witch takes out man's liver') Al Karısı'nın tanımlayıcı eylemini (ciğer alma) birebir karşılıyor.",
+      "motifChanged": "G264 → G442 + G262.5."
     },
     {
       "id": "karakoncolos",
@@ -3807,7 +3911,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Zemherinin ilk günlerinde çıkan; soru sorup yanlış cevabı cezalandıran.",
       "researchFile": "01_SOURCE/research/karakoncolos.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "G302 ('Demons. Malevolent creatures (not usually further defined)') doğrulandı ve korundu. Karakoncolos kaynaklarda biçimden çok ZAMANLA (zemheri) tanımlanır; genel iblis kodu doğrudur.",
+      "motifChanged": ""
     },
     {
       "id": "sahmeran",
@@ -3861,7 +3967,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yılanların bilge kraliçesi; sırrı açığa çıkınca öldürülen.",
       "researchFile": "01_SOURCE/research/sahmeran.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B91 ('Mythical serpent') doğrulandı ve korundu. Şahmeran yılanların kraliçesidir; B91.1 ('Naga') değerlendirildi ama o Hint bağlamına özgüdür.",
+      "motifChanged": ""
     },
     {
       "id": "ghul",
@@ -3915,7 +4023,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Mezarlıkta ve çölde bekleyen; kılık değiştirip yolcuyu yiyen.",
       "researchFile": "01_SOURCE/research/ghul.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G11 ('Kinds of cannibals') bölüm başlığıydı; doğrulanan G11.2 ('Cannibal giant') ghūl'ün çölde yolcuyu yiyen iri varlık tanımına daha yakın. Not: ghūl aynı zamanda şekil değiştirir; D100 kümesi Faz 2'de ikinci kod olarak değerlendirilecek.",
+      "motifChanged": "G11 → G11.2."
     },
     {
       "id": "ifrit",
@@ -3970,7 +4080,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Cinlerin güçlü ve dik başlı sınıfı; ateşten yaratılmış.",
       "researchFile": "01_SOURCE/research/ifrit.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum F402 ('Evil spirits') idi; doğrulanan G307 ('Jinn') ʿifrīt'in cinlerin bir SINIFI olduğunu doğru şekilde tasnif eder — genel 'kötü ruh' değil.",
+      "motifChanged": "F402 → G307."
     },
     {
       "id": "rukh",
@@ -4025,7 +4137,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Fili pençesiyle kaldıran; yumurtası bir kubbe büyüklüğünde kuş.",
       "researchFile": "01_SOURCE/research/rukh.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. Doğrulanan B31.1'in tanımı 'Roc. A giant bird which carries off men in its claws' — kod bu maddenin adını taşıyor. NOT: önceki turda B31'in 'Roc' olduğu sanılmıştı; tam nüsha ayrıştırması B31'in bölüm başlığı, B31.1'in Roc olduğunu gösterdi. Tohum tablosu BAŞTAN DOĞRUYDU.",
+      "motifChanged": ""
     },
     {
       "id": "iku-turso",
@@ -4080,7 +4194,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Denizin dibinden çıkan, adı bile uğursuz sayılan varlık.",
       "researchFile": "01_SOURCE/research/iku-turso.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2 ('Form of dragon') doğrulandı ve korundu. Iku-Turso'nun kaynaklarda tanımlanan yanı biçimi ve denizden çıkışıdır.",
+      "motifChanged": ""
     },
     {
       "id": "nakki",
@@ -4136,7 +4252,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Suyun kenarında görünen; at, insan veya çıplak kadın kılığında boğan.",
       "researchFile": "01_SOURCE/research/nakki.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B184.1.3 ('Magic horse from water world') doğrulandı ve korundu. Näkki'nin at biçimi su atı ailesinin (A) tanımlayıcı imgesidir; diğer biçimleri maddede varyant olarak anlatılacak.",
+      "motifChanged": ""
     },
     {
       "id": "ajatar",
@@ -4189,7 +4307,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanda yaşayan, hastalık yayan dişi yılan-ruh.",
       "researchFile": "01_SOURCE/research/ajatar.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. G302 ('Demons. Malevolent creatures (not usually further defined)') Ajatar'ın kaynaklardaki belirsiz ama kötücül tanımına uyuyor.",
+      "motifChanged": ""
     },
     {
       "id": "basajaun",
@@ -4244,7 +4364,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanın efendisi; sürüyü fırtınadan koruyan yaban adamı.",
       "researchFile": "01_SOURCE/research/basajaun.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F460 ('Mountain-spirits') idi; doğrulanan F567 ('Wild man') yaban adamı ailesinin (G) tam kodudur.",
+      "motifChanged": "F460 → F567."
     },
     {
       "id": "lamia-euskal",
@@ -4297,7 +4419,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmakta saçını altın tarakla tarayan, ördek ayaklı.",
       "researchFile": "01_SOURCE/research/lamia-euskal.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Bask lamia'sı Yunan Lámia'sıyla AD dışında ilgisiz — bir ırmak perisidir. Bu ayrım maddede açıkça yapılacak.",
+      "motifChanged": ""
     },
     {
       "id": "herensuge",
@@ -4352,7 +4476,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yedi başlı; her yıl kurban isteyen Bask ejderhası.",
       "researchFile": "01_SOURCE/research/herensuge.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B11 ('Dragon') idi; doğrulanan B11.2.3.1'in tanımı doğrudan 'Seven-headed dragon' ve Herensuge yedi başlı olarak kaydedilir.",
+      "motifChanged": "B11 → B11.2.3.1."
     },
     {
       "id": "koropokkuru",
@@ -4401,7 +4527,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Devetabanı yaprağı altında yaşayan küçük halk; balık bırakıp kaybolan.",
       "researchFile": "01_SOURCE/research/koropokkuru.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "Tohum kodu F451 doğrulandı ve korundu. Koropokkuru çukur evlerde yaşayan küçük halktır; Thompson'ın cüce kümesi uyuyor. Ad Ainu'da 'altında yaşayan kişi' anlamına gelir ve Batchelor'ın devetabanı yaprağı alıntısı bunu doğrudan destekler.",
+      "motifChanged": ""
     },
     {
       "id": "repun-kamuy",
@@ -4459,7 +4587,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Açık denizin tanrısı; katil balina kılığında av bağışlayan.",
       "researchFile": "01_SOURCE/research/repun-kamuy.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI. Tam Motif-Index ayrıştırmasında B472'nin tanımı 'Helpful whale' olarak bulundu. Repun Kamuy kendini balina biçiminde gösterir ve avı BAĞIŞLAR — 'yardımcı balina' tam tanımdır.",
+      "motifChanged": ""
     },
     {
       "id": "kenas-unarpe",
@@ -4507,7 +4637,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Bataklıkta bekleyen; loğusayı ve yolcuyu avlayan yaşlı kadın.",
       "researchFile": "01_SOURCE/research/kenas-unarpe.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 öneriyordu; doğrulanan tanımı 'La Belle Dame Sans Merci — Witch entices men with offers of love and then deserts or destroys them'. Bu, ERKEKLERİ baştan çıkaran bir figürdür ve loğusayı avlayan gece cadısıyla ilgisi yoktur. Doğru kod G262.0.1 ('Lamia. Witch who eats children') — ki bu, ailenin Yunan üyesinin adını taşıyor.",
+      "motifChanged": "G264 → G262.0.1. Bu düzeltme C ailesinin (gece cadısı) TAMAMINI ilgilendirir; ayrıntı SCOPE_DECISIONS.md'de."
     },
     {
       "id": "thuong-luong",
@@ -4557,7 +4689,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmak dibindeki yılan; dövmenin kökeni sayılan korku.",
       "researchFile": "01_SOURCE/research/thuong-luong.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B11.2 ('Form of dragon') idi; doğrulanan B11.7.1 ('Dragon controls water-supply') thuồng luồng'un ırmak ve su denetimi işlevini daha doğru tasnif eder.",
+      "motifChanged": "B11.2 → B11.7.1."
     },
     {
       "id": "ma-lai",
@@ -4607,7 +4741,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Bağırsaklarıyla birlikte uçan baş; geceleri pislik ve kan arayan.",
       "researchFile": "01_SOURCE/research/ma-lai.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1.3 ('Witches suck blood from the navel of a child without anyone knowing it') ma lai'nin gizli kan emme eylemini birebir tasnif eder.",
+      "motifChanged": "G262 → G262.1.3."
     },
     {
       "id": "ong-ba-muoi",
@@ -4657,7 +4793,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ormanın kaplanı; adı söylenmez, saygıyla anılır.",
       "researchFile": "01_SOURCE/research/ong-ba-muoi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B871 ('Giant beasts') idi; Ông Ba Mươi dev değil KAPLANDIR. Doğrulanan B19.10 ('Mythical tiger') tam tanımdır. B26 ('Man-tiger') de değerlendirildi ama bu kaplan insana dönüşmez.",
+      "motifChanged": "B871 → B19.10."
     },
     {
       "id": "phaya-nak",
@@ -4709,7 +4847,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Mekong'un altındaki şehirlerin efendisi; ateş topu gönderen.",
       "researchFile": "01_SOURCE/research/phaya-nak.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B91 ('Mythical serpent') idi; doğrulanan B91.1 ('Naga. Serpent demon') Phaya Nak'ın Hint nāga geleneğinin Tayland kolu olduğunu doğru tasnif eder.",
+      "motifChanged": "B91 → B91.1."
     },
     {
       "id": "krasue",
@@ -4764,7 +4904,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Uçan baş ve sarkan iç organlar; doğum yapanın kanını arayan.",
       "researchFile": "01_SOURCE/research/krasue.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1 ('Witch sucks blood') krasue'nin tanımlayıcı eylemini karşılıyor.",
+      "motifChanged": "G262 → G262.1."
     },
     {
       "id": "kinnari",
@@ -4819,7 +4961,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yarı kadın yarı kuş; Himavanta ormanının şarkıcısı.",
       "researchFile": "01_SOURCE/research/kinnari.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B52 ('Harpy. Bird with arms and breasts of woman') doğrulandı ve korundu. Thompson'ın kaynakçasında Budist gelenek doğrudan anılır; kinnarī bu tipin Güneydoğu Asya üyesidir.",
+      "motifChanged": ""
     },
     {
       "id": "aswang",
@@ -4871,7 +5015,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz komşu, gece yiyici; ölüyü ve doğmamışı arayan.",
       "researchFile": "01_SOURCE/research/aswang.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G262 ('Murderous witch') idi; doğrulanan G262.1 ('Witch sucks blood') aswang'ın tanımlayıcı eylemini karşılıyor. Not: 'aswang' Filipinler'de bir KATEGORİ adıdır ve alt türleri kapsar.",
+      "motifChanged": "G262 → G262.1."
     },
     {
       "id": "manananggal",
@@ -4923,7 +5069,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Belinden ayrılıp uçan üst gövde; hortumuyla ceninleri emen.",
       "researchFile": "01_SOURCE/research/manananggal.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. G262.1 ('Witch sucks blood') manananggal'ın eylemini karşılıyor. Adı Tagalogca 'tanggal' (ayrılmak) kökünden gelir ve gövdenin ikiye ayrılması tanımlayıcıdır.",
+      "motifChanged": ""
     },
     {
       "id": "tikbalang",
@@ -4975,7 +5123,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "At başlı, uzun bacaklı; yolcuyu daireler çizdirerek kaybettiren.",
       "researchFile": "01_SOURCE/research/tikbalang.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. B184.1 ('Magic horse') tikbalang'ı tasnif eder. Su atı ailesinin (A) çıpası B184.1.3 ('Magic horse from water world') ama tikbalang SUYA bağlı değildir — bu ayrım maddede söylenecek ve Faz 2'de aile üyeliği gözden geçirilecek.",
+      "motifChanged": ""
     },
     {
       "id": "pontianak",
@@ -5025,7 +5175,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Doğumda ölen kadının dönüşü; kokusu çiçek, sesi bebek.",
       "researchFile": "01_SOURCE/research/pontianak.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum E425 öneriyordu; E425'in tanımı bu turda erişilen nüshada bulunamadı. Doğrulanmış G262.0.1 ('Lamia. Witch who eats children') kullanıldı — pontianak doğumda ölen kadının dönüşüdür ve yeni doğana yönelir. Not: E251 ('Vampire. Corpse which comes from grave at night and sucks blood') da doğrulanmış bir alternatiftir ve Faz 2'de değerlendirilmeli, çünkü pontianak bir REVENANT'tır (ölünün dönüşü), doğuştan bir cadı değil.",
+      "motifChanged": "E425 → G262.0.1. E425 doğrulanamadı; C ailesinin ortak kodu kullanıldı. Faz 2'de E251 ile karşılaştırılacak."
     },
     {
       "id": "migoi",
@@ -5080,7 +5232,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Karda iz bırakan yaban adam; görülmemek için ters yürüdüğü söylenen.",
       "researchFile": "01_SOURCE/research/migoi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F460 ('Mountain-spirits') idi; doğrulanan F567 ('Wild man') yaban adamı ailesinin (G) tam kodudur ve migoi'yi daha doğru tasnif eder.",
+      "motifChanged": "F460 → F567."
     },
     {
       "id": "khyung",
@@ -5131,7 +5285,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Boynuzlu kartal; yılanı pençesinde tutan gök varlığı.",
       "researchFile": "01_SOURCE/research/khyung.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi (bölüm başlığı, ayrıca 'Roc' anlamı). Khyung bir roc değil FIRTINA kuşudur. Doğrulanan A284.2 ('Thunderbird') tam tanımdır.",
+      "motifChanged": "B31 → A284.2."
     },
     {
       "id": "srin-po",
@@ -5184,7 +5340,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Toprağın altındaki et yiyen halk; tapınaklarla bastırılan.",
       "researchFile": "01_SOURCE/research/srin-po.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G300 ('Other ogres') genel bir kümeydi; doğrulanan G312.3 ('Flesh-eating spirits live in trees') ve G312.5 srin-po'nun et yiyen ruh sınıfını daha dar tasnif eder.",
+      "motifChanged": "G300 → G312.3."
     },
     {
       "id": "olgoi-khorkhoi",
@@ -5237,7 +5395,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Çölün altında yaşayan; dokunmadan öldüren bağırsak-solucan.",
       "researchFile": "01_SOURCE/research/olgoi-khorkhoi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI. Tam Motif-Index ayrıştırmasında B765'in tanımı 'Fanciful qualities of snakes' olarak bulundu. Olgoi-khorkhoi bir yılan/solucan biçiminde tasavvur edilir ve ona atfedilen nitelikler (dokunmadan öldürme) tam olarak 'fanciful qualities' kümesine girer.",
+      "motifChanged": ""
     },
     {
       "id": "vishap",
@@ -5285,7 +5445,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Dağ gölünde yatan; taş dikitlerle işaretlenen ejderha.",
       "researchFile": "01_SOURCE/research/vishap.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "Tohum B11 ('Dragon') idi; B11.3 ('Habitat of dragon') ile DARALTILDI. Gerekçe: vişapı ayıran şey ejderha olması değil, BELİRLİ BİR YERDE — dağ gölünde — yatması ve o yerin taş dikitlerle (vishapakar) işaretlenmesidir. Thompson'ın 'yerleşim' alt kodu bu ayrımı taşıyor.",
+      "motifChanged": "B11 → B11.3. Genel 'ejderha' kodu vişapın tanımlayıcı özelliğini (yere bağlılık) kaybediyordu."
     },
     {
       "id": "aralez",
@@ -5334,7 +5496,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Savaş ölülerinin yarasını yalayarak dirilten köpek ruhu.",
       "researchFile": "01_SOURCE/research/aralez.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B733 ('Animals are spirit-sighted') idi — aralez'in işlevi görmek değil DİRİLTMEKTİR. Tam Motif-Index ayrıştırmasında bulunan E17'nin tanımı birebir: 'Resuscitation by licking corpse'. Aralez'in yaptığı şey tam olarak budur.",
+      "motifChanged": "B733 → E17. Kod B (hayvan) bölümünde değil E (ölüler/diriltme) bölümünde olmalıydı."
     },
     {
       "id": "nhang",
@@ -5383,7 +5547,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Irmakta biçim değiştiren; kadın olup çeken, kan içen.",
       "researchFile": "01_SOURCE/research/nhang.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113 ('Transformation: man to canine animal (wild)') idi — nhang fok ve kadın biçimine girer, köpekgile değil. Doğrulanan F420 ('Water-spirits') nhang'ın ırmak varlığı olmasını doğru tasnif eder; biçim değiştirme ikincildir.",
+      "motifChanged": "D113 → F420. Nhang köpekgile dönüşmez; ırmak ruhudur."
     },
     {
       "id": "devi",
@@ -5437,7 +5603,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çok başlı dev; kardeşleriyle mağarada yaşayan.",
       "researchFile": "01_SOURCE/research/devi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "G100 ('Giant ogre. Polyphemus') doğrulandı ve korundu. Gürcü devi mağarada yaşayan, kardeşleriyle birlikte bulunan dev-yamyamdır; Thompson'ın Polyphemus tipi tam oturur. Ad İran 'div'inden ödünçtür ve bu bağ maddede belirtilecek.",
+      "motifChanged": ""
     },
     {
       "id": "golem",
@@ -5489,7 +5657,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Çamurdan yoğrulup adla canlandırılan; itaat eden ama anlamayan.",
       "researchFile": "01_SOURCE/research/golem.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. Doğrulanan D1635'in tanımı doğrudan 'Golem' — kod bu maddenin adını taşıyor.",
+      "motifChanged": ""
     },
     {
       "id": "lilith",
@@ -5543,7 +5713,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "İtaat etmeyen ilk eş; yeni doğana muska ile karşı konulan.",
       "researchFile": "01_SOURCE/research/lilith.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum G264 ('La Belle Dame Sans Merci') idi — Lilith'in Talmud ve muska geleneğindeki işlevi erkek baştan çıkarmak değil YENİ DOĞANA yönelmektir. Doğrulanan G442 ('Child-stealing demon') ana kod; G302.9.4 ('Demons injure and strangle little children') ikinci kod.",
+      "motifChanged": "G264 → G442 + G302.9.4."
     },
     {
       "id": "ziz",
@@ -5595,7 +5767,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Gölgesi güneşi kapatan; Behemoth ve Leviathan'ın gökteki eşi.",
       "researchFile": "01_SOURCE/research/ziz.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31 idi (bölüm başlığı). Doğrulanan B31.1.0.1'in tanımı doğrudan 'The bird Ziz (Hebrew counterpart of the roc)' — kod bu maddenin adını taşıyor.",
+      "motifChanged": "B31 → B31.1.0.1."
     },
     {
       "id": "buda",
@@ -5642,7 +5816,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gündüz demirci, gece sırtlan; nazarla hastalık veren.",
       "researchFile": "01_SOURCE/research/buda.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.2 öneriyordu; D113'ün doğrulanan tanımı 'Transformation: man to canine animal (wild)' ve D113.2'nin bağımsız tanımı görülmedi. Sırtlan köpekgil DEĞİLDİR (Hyaenidae ayrı bir familyadır), dolayısıyla D113 kümesi biyolojik olarak da yanlış. Doğrulanmış üst kod D110 ('Transformation: man to wild beast (mammal)') kullanıldı.",
+      "motifChanged": "D113.2 → D110. Sırtlan köpekgil değildir; D113 (canine) kümesi uymuyor ve D113.2 doğrulanamadı."
     },
     {
       "id": "tokoloshe",
@@ -5696,7 +5872,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Küçük, tüylü, kötü niyetli; yatağın altında bekleyen.",
       "researchFile": "01_SOURCE/research/tokoloshe.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DOĞRULANDI ve korundu. F451 ('Dwarf') tokoloshe'nin küçük boyunu ve cüce kümesindeki yerini tasnif eder.",
+      "motifChanged": ""
     },
     {
       "id": "impundulu",
@@ -5747,7 +5925,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Şimşek kuşu; bir cadıya bağlı, kan isteyen.",
       "researchFile": "01_SOURCE/research/impundulu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31.1 ('Roc') idi — impundulu yük taşıyan dev kuş değil ŞİMŞEK kuşudur. Doğrulanan A284.2 ('Thunderbird') tam tanımdır.",
+      "motifChanged": "B31.1 → A284.2."
     },
     {
       "id": "inkanyamba",
@@ -5798,7 +5978,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Şelalede yaşayan; kızdığında fırtına getiren yılanbaşlı.",
       "researchFile": "01_SOURCE/research/inkanyamba.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum B11.2 ('Form of dragon') idi; doğrulanan B11.3.1.2 ('Dragon's home beneath waterfall') inkanyamba'nın Howick Şelalesi'ne bağlılığını birebir tasnif eder.",
+      "motifChanged": "B11.2 → B11.3.1.2."
     },
     {
       "id": "strigoi",
@@ -5853,7 +6035,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Mezarından kalkan; ailesinin kanını ve şansını alan.",
       "researchFile": "01_SOURCE/research/strigoi.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "E251 ('Vampire. Corpse which comes from grave at night and sucks blood') doğrulandı ve korundu. Strigoi'nin tanımı budur ve kod tam oturuyor.",
+      "motifChanged": ""
     },
     {
       "id": "varcolac",
@@ -5907,7 +6091,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Ay'ı yiyen; kurt kılığına giren tutulma açıklaması.",
       "researchFile": "01_SOURCE/research/varcolac.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum D113.1 ('Transformation: man to wolf') idi; vârcolac'ın tanımlayıcı işlevi kurda dönüşmek değil AY'I YEMEKTİR. Doğrulanan A737.1 ('Eclipse caused by monster devouring sun or moon') tam tanımdır. D113.1.1 ('Werwolf') ikinci kod olarak Faz 2'de değerlendirilecek.",
+      "motifChanged": "D113.1 → A737.1."
     },
     {
       "id": "zmeu",
@@ -5960,7 +6146,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kızları kaçıran, hazineyi bekleyen, insan gibi konuşan ejderha.",
       "researchFile": "01_SOURCE/research/zmeu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2.3 ('Many-headed dragon') doğrulandı ve korundu. Zmeu Rumen masallarında çok başlı ve konuşan bir ejderhadır.",
+      "motifChanged": ""
     },
     {
       "id": "amaru",
@@ -6011,7 +6199,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "İki dünyayı birbirine bağlayan; kanatlı, tüylü büyük yılan.",
       "researchFile": "01_SOURCE/research/amaru.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B11.2 ('Form of dragon') doğrulandı ve korundu. Amaru'yu tanımlayan şey biçimidir: kanatlı ve tüylü büyük yılan.",
+      "motifChanged": ""
     },
     {
       "id": "pishtaco",
@@ -6065,7 +6255,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yolcunun yağını çıkarıp alan yabancı; sömürünün suretini almış korku.",
       "researchFile": "01_SOURCE/research/pishtaco.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G11 ('Kinds of cannibals') bölüm başlığıydı; doğrulanan G11.2 ('Cannibal giant') pishtaco'nun insanı avlayan yabancı figürünü tasnif eder. Not: pishtaco eti değil YAĞI alır; Thompson'da tam karşılık bulunamadı ve bu maddede belirtilecek.",
+      "motifChanged": "G11 → G11.2."
     },
     {
       "id": "supay",
@@ -6119,7 +6311,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yeraltının efendisi; ölüleri ve madenleri tutan.",
       "researchFile": "01_SOURCE/research/supay.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "E200 ('Malevolent return from the dead') doğrulandı ve korundu. Supay yeraltı ve ölülerle ilişkili bir varlıktır. Not: sömürge sonrası Hristiyan 'şeytan' ile karıştırılmıştır ve bu ayrım maddede yapılacak.",
+      "motifChanged": ""
     },
     {
       "id": "curupira",
@@ -6173,7 +6367,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ayakları ters dönük orman bekçisi; avcıyı izini takip ettirerek kaybettiren.",
       "researchFile": "01_SOURCE/research/curupira.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F460 ('Mountain-spirits') idi; doğrulanan F567 ('Wild man') yaban adamı ailesinin (G) tam kodudur ve curupira orman adamıdır, dağ ruhu değil.",
+      "motifChanged": "F460 → F567."
     },
     {
       "id": "boitata",
@@ -6227,7 +6423,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ateşten yılan; ormanı yakanı kovalayan göz.",
       "researchFile": "01_SOURCE/research/boitata.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B11.1 ('Origin of dragon') idi — boitatá bir ejderha değil ATEŞ YILANIDIR. Doğrulanan B19.4.2 ('Fiery serpent') tam tanımdır.",
+      "motifChanged": "B11.1 → B19.4.2."
     },
     {
       "id": "iara",
@@ -6283,7 +6481,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Nehrin annesi; şarkısıyla çeken, suya alan.",
       "researchFile": "01_SOURCE/research/iara.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F420 ('Water-spirits') doğrulandı ve korundu. Iara bir ırmak ruhudur.",
+      "motifChanged": ""
     },
     {
       "id": "mishipeshu",
@@ -6337,7 +6537,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Göllerin altındaki bakır kuyruklu panter; fırtınayı kabartan.",
       "researchFile": "01_SOURCE/research/mishipeshu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B16 ('Devastating animals') doğrulandı ve korundu. Mishipeshu göllerde fırtına ve boğulma getiren bir varlıktır.",
+      "motifChanged": ""
     },
     {
       "id": "animikii",
@@ -6391,7 +6593,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Gök gürültüsü kuşu; su varlıklarının ezelî karşıtı.",
       "researchFile": "01_SOURCE/research/animikii.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B31.1 ('Roc') idi — animikii yük taşıyan dev kuş değil GÖK GÜRÜLTÜSÜ kuşudur. Doğrulanan A284.2 ('Thunderbird') tam tanımdır.",
+      "motifChanged": "B31.1 → A284.2."
     },
     {
       "id": "windigo",
@@ -6446,7 +6650,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Açlıktan doğan; yedikçe büyüyen ve asla doymayan.",
       "researchFile": "01_SOURCE/research/windigo.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum G11 ('Kinds of cannibals') bölüm başlığıydı; doğrulanan G11.2 ('Cannibal giant') windigo'nun dev boyu ve yamyamlığını birlikte tasnif eder.",
+      "motifChanged": ""
     },
     {
       "id": "stallu",
@@ -6501,7 +6707,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Demir giyimli, gümüş toplayan, aptal ama tehlikeli dev.",
       "researchFile": "01_SOURCE/research/stallu.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "G100 ('Giant ogre. Polyphemus') doğrulandı ve korundu. Stállu insan yiyen, büyük, hantal ve APTAL bir devdir; insan onu zekâyla yener. Thompson'ın Polyphemus tipi bu 'güçlü ama kandırılabilir' kalıbını tam olarak tanımlar.",
+      "motifChanged": ""
     },
     {
       "id": "ulda",
@@ -6549,7 +6757,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yerin altında sürü güden gizli halk; adları anılmaz.",
       "researchFile": "01_SOURCE/research/ulda.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F451 ('Dwarfs in otherworld') doğrulandı ve korundu. Ulda yeraltında yaşayan, kendi sürüsü olan gizli halktır. F251 ('Origin of fairies') değerlendirildi ama o KÖKEN anlatısına ait; ulda maddesi varlıkların kendisini anlatıyor.",
+      "motifChanged": ""
     },
     {
       "id": "gufihtar",
@@ -6597,7 +6807,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yolcuyu görünmez kılan; sisin içinden konuşan.",
       "researchFile": "01_SOURCE/research/gufihtar.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum F300 öneriyordu ama F300 bu turda erişilen nüshada bağımsız bir tanım taşımıyor — yalnızca 'F300–F399 Fairies and mortals' başlığı var, kodun kendisi tanımsız. Doğrulanmamış kod yazılamaz; doğrulanmış F400 ('Spirits and demons (general)') kullanıldı.",
+      "motifChanged": "F300 → F400. F300'ün bağımsız tanımı doğrulanamadı."
     },
     {
       "id": "huldufolk",
@@ -6652,7 +6864,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kayaların içindeki gizli halk; yol güzergâhını hâlâ değiştirten.",
       "researchFile": "01_SOURCE/research/huldufolk.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DARALTILDI. Tohum F251 ('Origin of fairies') idi; İzlanda geleneğinde huldufólk'ün KÖKENİ tanımlayıcıdır (Havva'nın yıkanmamış çocukları) ve doğrulanan F251.1 ('Fairies as descendants of early race of gods') bu köken anlatısını daha dar tasnif eder.",
+      "motifChanged": "F251 → F251.1."
     },
     {
       "id": "nykur",
@@ -6704,7 +6918,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Toynakları ters dönük gri at; sırtına bineni göle götüren.",
       "researchFile": "01_SOURCE/research/nykur.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "B184.1.3 ('Magic horse from water world') doğrulandı ve korundu. Su atı ailesinin (A) İzlanda üyesi.",
+      "motifChanged": ""
     },
     {
       "id": "skuggabaldur",
@@ -6757,7 +6973,9 @@
       "restrictionScreened": false,
       "seedNoteTr": "Kedi ile tilkinin yavrusu; kurşun işlemeyen.",
       "researchFile": "01_SOURCE/research/skuggabaldur.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "TOHUM KODU DEĞİŞTİRİLDİ. Tohum B871 ('Giant beasts') idi — skuggabaldur dev değil MELEZDİR. Doğrulanan B14 ('Other hybrid animals') tam tanımdır.",
+      "motifChanged": "B871 → B14."
     },
     {
       "id": "adaro",
@@ -6808,7 +7026,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Uçan balık üzerinde giden deniz ruhu; güneş ışınıyla vuran.",
       "researchFile": "01_SOURCE/research/adaro.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "Tohum kodu F420 doğrulandı ve korundu. Adaro bir deniz ruhudur; Thompson'ın 'Water-spirits' başlığı tam oturuyor. Daha dar bir alt kod (F420.1.x biçim alt bölümleri) doğrulanamadığı için üst kodda kalındı — doğrulanmamış bir alt kod yazmaktansa doğrulanmış üst kod yazılır.",
+      "motifChanged": ""
     },
     {
       "id": "masalai",
@@ -6856,7 +7076,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Yer ruhu; hayvan veya insan kılığında toprağı savunan.",
       "researchFile": "01_SOURCE/research/masalai.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "Tohum kodu F400 ('Spirits and demons (general)') idi; F460 ('Mountain-spirits') ile DEĞİŞTİRİLDİ. Gerekçe: masalai'nin tanımlayıcı özelliği genel bir cin olması değil, BELİRLİ BİR YERİ tutmasıdır (su birikintisi, şelale, kaya, ırmak dönemeci). Thompson'ın yer-ruhu kümesi bu işlevi F400'ün genel başlığından daha doğru yakalar. F441 ('Vegetation-spirits') de değerlendirildi ama masalai yalnızca bitkiye değil araziye bağlıdır.",
+      "motifChanged": "F400 → F460. Tohum tablosu genel 'ruhlar ve cinler' kodunu önermişti; masalai bir YER ruhudur ve kodu bunu söylemeli."
     },
     {
       "id": "temes-savsap",
@@ -6903,7 +7125,9 @@
       "restrictionScreened": true,
       "seedNoteTr": "Ölüler diyarının girişinde bekleyen dişi ruh; önündeki kum çizimini tamamlayamayan ölüyü geçirmeyen.",
       "researchFile": "01_SOURCE/research/temes-savsap.md",
-      "status": "written"
+      "status": "written",
+      "motifNote": "F150 ('Access to otherworld') doğrulandı ve seçildi. Temes Savsap tam olarak öteki dünyaya ERİŞİMİ denetler: önündeki kum çizimini tamamlayamayan ölü geçemez. F156 ('Door to otherworld') de değerlendirildi; F150 daha genel ve geçiş SINAVINI da kapsadığı için tercih edildi.",
+      "motifChanged": ""
     }
   ]
 }

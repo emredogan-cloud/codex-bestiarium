@@ -1,0 +1,28 @@
+{
+  "note": "Editoryal düzeltme defterinin ÖLÇÜSÜ. Proza içermez (karar A1/D29). Üreten: 08_BUILD/edits.py --apply",
+  "total": 17,
+  "byCategory": {
+    "Olgu — atıf kesinliği": 1,
+    "Olgu — ayrıntı kaynakla ayrışıyor": 1,
+    "Olgu — kaynak atfı çürüdü": 2,
+    "Olgu — kaynak yanlış çıpalanmış": 1,
+    "Olgu — kayıtta olmayan künye": 5,
+    "Olgu — yanlış künye": 1,
+    "Sayı — aile boyutlarıyla ayrışma": 3,
+    "Sayı — akraba ailesiyle ayrışma": 3
+  },
+  "entriesTouched": [
+    "abiku",
+    "azi-dahaka",
+    "draugr",
+    "each-uisce",
+    "front/how-to-read",
+    "front/introduction",
+    "impundulu",
+    "pontianak",
+    "simurgh",
+    "vishap"
+  ],
+  "wordsRemoved": 339,
+  "wordsAdded": 387
+}

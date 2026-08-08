@@ -68,6 +68,9 @@ esac
 # referansları araştırma dosyalarına basar, update_docs ikisini de ölçer.
 if [ "$FIX" = "1" ]; then
   $PY 08_BUILD/classify.py >/dev/null
+  # Editoryal defter → book-edited.json. `load_book()` varsa düzeltilmiş
+  # metni tercih eder, yani BÜTÜN kapılar düzeltilmiş metni denetler.
+  $PY 08_BUILD/edits.py --apply >/dev/null 2>&1 || true
   $PY 08_BUILD/research_gen.py >/dev/null
   $PY 08_BUILD/make_index.py --gate "$IDX_GATE" >/dev/null
   $PY 08_BUILD/make_prompts.py
@@ -89,6 +92,8 @@ else
 fi
 run "araştırma ↔ spec"           $PY 08_BUILD/research_gen.py --check
 run "tasnif ↔ spec"               $PY 08_BUILD/classify.py --check
+run "editoryal defter ↔ metin"    $PY 08_BUILD/edits.py --check
+run "düşman olgu denetimi"        $PY 08_BUILD/factcheck.py --quiet --json 06_REPORTS/adversarial-review.json
 run "spec şeması"                 $PY 08_BUILD/validate_spec.py --gate "$GATE" --json 06_REPORTS/spec-validation.json
 run "depo ve belge bütünlüğü"     $PY 08_BUILD/validate_structure.py --json 06_REPORTS/structure.json
 run "kalite kapılarının testi"    $PY 08_BUILD/tests/selftest.py

@@ -415,6 +415,13 @@ def sync_spec(data: dict, spec: dict) -> tuple[dict, list[str]]:
                 for s in rec.get("sources", [])
             ],
             "variantNote": rec.get("variantNote", ""),
+            # Kodun NEDEN seçildiği ve tohumdan neyin değiştiği kaydın
+            # parçasıdır: kitabın 7. bölümü bunu basıyor ("tohum kodu
+            # A812 yanlıştı"). Spec bunu taşımazsa `factcheck.py` o
+            # cümleyi "kayıtta olmayan kod" diye itiraz eder ve haklıdır —
+            # kayıt gerçekten taşımıyordur.
+            "motifNote": rec.get("motifNote", ""),
+            "motifChanged": rec.get("motifChanged", ""),
             "restrictionScreened": bool(rec.get("restriction", "").strip()),
             "status": new_status,
         }
