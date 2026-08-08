@@ -1,7 +1,7 @@
 {
   "note": "Depo dışındaki manuscript'in ÖLÇÜSÜ. Proza içermez (karar A1/D29). Üreten: 08_BUILD/update_docs.py",
   "entriesWritten": 112,
-  "wordsTotal": 81669,
+  "wordsTotal": 83245,
   "entryWords": [
     707,
     689,
@@ -116,6 +116,6 @@
     696,
     694
   ],
-  "classOpenings": 4,
-  "kinOpenings": 7
+  "classOpenings": 6,
+  "kinOpenings": 8
 }

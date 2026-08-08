@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 77 commit
+> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 78 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -21,8 +21,8 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
 | Yazılmış madde | 112 | 112 | `████████████████████████` %100 |
 | Normalize plaka | 112 | 112 | `████████████████████████` %100 |
-| Kelime (yazılmış) | 81,669 | 78,400 | `█████████████████████████` %104 |
-| Tahmini sayfa | 314 | 436 | `█████████████████░░░░░░░` %72 |
+| Kelime (yazılmış) | 83,245 | 78,400 | `█████████████████████████` %106 |
+| Tahmini sayfa | 320 | 436 | `██████████████████░░░░░░` %73 |
 
 Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde
 **zorunludur**; toplam 44 maddede yapıldı — 9 tanesi gönüllü. Zorunlu olmayan
