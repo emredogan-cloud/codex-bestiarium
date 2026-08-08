@@ -101,6 +101,10 @@ run "kelime bandı"                $PY 08_BUILD/qa_length.py --sections --json 0
 run "ses ve yasak kalıp"          $PY 08_BUILD/qa_voice.py --json 06_REPORTS/qa-voice.json
 run "üslup sürüklenmesi"          $PY 08_BUILD/qa_drift.py --json 06_REPORTS/qa-drift.json
 run "tekrar taraması"             $PY 08_BUILD/qa_echo.py --json 06_REPORTS/qa-echo.json
+# Üslup uyumlama ÖLÇÜMÜ — kapı değil (D25/D47 içtihadı ve kurucunun Faz 5
+# emri: "sayıyı yapay olarak küçültme"). qa_echo'nun göremediği kalıpları
+# sayar ve her koşuda rapora yazar; kırmızı yakmaz.
+run "üslup uyumlama ölçümü"       $PY 08_BUILD/qa_style.py --json 06_REPORTS/qa-style.json
 run "diakritik"                   $PY 08_BUILD/qa_diacritics.py --json 06_REPORTS/qa-diacritics.json
 # Plaka ölçümünün KENDİ testi. Pillow ve numpy ister; venv yoksa ATLANIR
 # (çıkış 2). CI'da (plates.yml · calibration) bağımlılıklar kurulu olduğu

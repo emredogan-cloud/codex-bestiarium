@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 81 commit
+> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 82 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -21,7 +21,7 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
 | Yazılmış madde | 112 | 112 | `████████████████████████` %100 |
 | Normalize plaka | 112 | 112 | `████████████████████████` %100 |
-| Kelime (yazılmış) | 89,002 | 78,400 | `███████████████████████████` %114 |
+| Kelime (yazılmış) | 88,959 | 78,400 | `███████████████████████████` %113 |
 | Tahmini sayfa | 342 | 436 | `███████████████████░░░░░` %78 |
 
 Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde
@@ -155,7 +155,7 @@ Aileye bağlı madde: **59/112** · bağımsız madde: 53
 |---|---:|
 | Yazılmış madde | 112 |
 | Ortalama | 677 kelime |
-| En kısa | 624 |
+| En kısa | 621 |
 | En uzun | 752 |
 | Bantta (620–790) | 112/112 |
 

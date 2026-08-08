@@ -25,7 +25,8 @@ BİÇİM  ·  01_SOURCE/edits.json
     [
       {
         "id": "each-uisce",          // madde kimliği · ön/arka madde için
-                                     //   "front/introduction" biçimi
+                                     //   "front/introduction", açılışlar için
+                                     //   "class/III" veya "kin/D" biçimi
         "section": "where",          // yedi bölümden biri · matter'da "body"
         "before": "…",               // metinde BİREBİR bulunmalı
         "after":  "…",
@@ -85,6 +86,14 @@ def load_edits() -> list[dict]:
 
 def get_block(book: dict, eid: str, section: str):
     """(okuyucu, yazıcı) — madde bölümü ya da ön/arka madde gövdesi."""
+    if eid.startswith(("class/", "kin/")):
+        # Sınıf ve karşılaştırma açılışları da prozadır ve kalıplaşabilir.
+        kind, key = eid.split("/", 1)
+        mapping = book.get(kind + "Openings") or {}
+        if key not in mapping:
+            return None, None
+        return (lambda: mapping.get(key, ""),
+                lambda v: mapping.__setitem__(key, v))
     if "/" in eid:
         group, key = eid.split("/", 1)
         mapping = book.get(group + "Matter") or {}
