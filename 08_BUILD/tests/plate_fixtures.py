@@ -75,11 +75,17 @@ def _require():
         import numpy  # noqa: F401
         from PIL import Image  # noqa: F401
     except ImportError as exc:  # pragma: no cover
-        raise SystemExit(
-            "HATA: plaka kurguları Pillow ve numpy gerektirir.\n"
-            "      ./08_BUILD/bootstrap.sh çalıştırın.\n"
-            f"      ({exc})"
+        # ÇIKIŞ KODU 2 = ATLANDI. Eksik bir İSTEĞE BAĞLI bağımlılık, kalite
+        # düşüşüyle aynı sinyali vermez — projenin her yerinde geçerli olan
+        # sözleşme budur (plaka adımları, prova dizgisi, metin kapıları).
+        # Burada 1 dönüyordu ve `convert_plates --calibrate` bu yüzden
+        # Pillow'suz bir ortamda "kapı kırmızı" sayılıyordu.
+        print(
+            "ATLANDI: plaka kurguları Pillow ve numpy gerektirir.\n"
+            "         ./08_BUILD/bootstrap.sh çalıştırın.\n"
+            f"         ({exc})"
         )
+        raise SystemExit(2)
 
 
 # =============================================================================
