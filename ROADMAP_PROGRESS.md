@@ -14,7 +14,7 @@ Kaynak: [`CODEX_BESTIARIUM_IMPLEMENTATION_ROADMAP.md`](CODEX_BESTIARIUM_IMPLEMEN
 | **2** | Tasnif, Veri Modeli ve Pilot Plaka Seti | `████████████████` 112/112 (%100) | telaffuz + karşılıklı çapraz referans | `v0.2.0` | Faz 2 · Veri |
 | **3** | Çekirdek Yazım · Bekçiler ve Yutucular | `████████████████` 45/45 (%100) | sınıf I + II maddeleri yazıldı | `v0.3.0` | Faz 3 · Çekirdek |
 | **4** | Genişleme · Şekil Değiştirenler ve Su Sakinleri | `████████████████` 43/43 (%100) | sınıf III + IV maddeleri yazıldı | `v0.4.0` | Faz 4 · Genişleme |
-| **5** | Tamamlama, İllüstrasyon ve Editoryal İnceleme | `██░░░░░░░░░░░░░░` 3/24 (%12) | sınıf V + VI maddeleri yazıldı | `v0.5.0` | Faz 5 · Tamamlama |
+| **5** | Tamamlama, İllüstrasyon ve Editoryal İnceleme | `████░░░░░░░░░░░░` 6/24 (%25) | sınıf V + VI maddeleri yazıldı | `v0.5.0` | Faz 5 · Tamamlama |
 | **6** | Üretim, KDP ve Lansman | `░░░░░░░░░░░░░░░░` 0/4 (%0) | üretilmiş yayın dosyası ailesi | `v1.0.0` | Faz 6 · Üretim |
 
 ## Kalite kapıları — şu anki durum
@@ -47,7 +47,7 @@ yazar.
 
 ## Sonraki eylem
 
-**Yazım.** 91/112 madde yazıldı.
+**Yazım.** 94/112 madde yazıldı.
 Tek seferde en fazla üç madde — daha fazlası üslup sürüklenmesi üretir.
 
 ---
