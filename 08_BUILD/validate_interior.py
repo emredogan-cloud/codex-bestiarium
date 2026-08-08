@@ -384,6 +384,10 @@ def main():
                                "pass": len(C.rows) - len(C.failed) - len(C.warned),
                                "warn": len(C.warned), "fail": len(C.failed)}},
                   f, ensure_ascii=False, indent=2)
+        # Depo kuralı: her metin dosyası satır sonuyla biter
+        # (`validate_structure` denetliyor). Devralınan yazıcı bunu
+        # yapmıyordu ve rapor depoya girince kapı kırmızı yandı.
+        f.write("\n")
 
     ic = {"pass": "✓", "warn": "!", "fail": "✗"}
     grp = None
