@@ -191,8 +191,27 @@ def gather() -> dict:
              if f.endswith(".md") and not f.startswith("_")]
         )
 
+    # PLAKA SAYIMI — depo DIŞINDAKİ görüntülerin depodaki izdüşümü.
+    #
+    # Görüntüler `.gitignore`'dadır (§ ③) ve olmalıdır: 275 MB ham + 300 MB
+    # türev, hepsi tek komutla yeniden üretilebilir. Ama BOOK_STATS plaka
+    # sayısı taşıyor ve CI belgenin bayatlığını `--check` ile denetliyor.
+    # Klasörü saymak, aynı komutun yerelde ve CI'da İKİ FARKLI belge
+    # üretmesi demektir — yerelde 112, CI'da 0 — ve her plaka commit'i
+    # "bayat belge" diye kırmızı yanar.
+    #
+    # Bu tam olarak D38'in manuscript için çözdüğü sorundur ve çözüm
+    # aynıdır: DEPO VARLIĞI DEĞİL, ÖLÇÜSÜNÜ TAŞIR. `plate_manifest.json`
+    # depodadır ve hangi maddenin hangi plakaya eşlendiğini söyler; sayım
+    # oradan okunur. Klasör varsa gerçek sayı yine de ölçülür ve ikisi
+    # ayrışırsa manifesto bayattır (plate_manifest --check yakalar).
     plates = 0
-    if os.path.isdir(PLATES_DIR):
+    mpath = os.path.join(ROOT, "01_SOURCE", "plate_manifest.json")
+    if os.path.exists(mpath):
+        with open(mpath, encoding="utf-8") as fh:
+            plates = sum(1 for e in json.load(fh).get("entries", [])
+                         if e.get("rawFile"))
+    elif os.path.isdir(PLATES_DIR):
         plates = len([f for f in os.listdir(PLATES_DIR) if f.lower().endswith(".png")])
 
     sourced = sum(
