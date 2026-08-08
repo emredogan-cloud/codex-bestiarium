@@ -35,8 +35,9 @@ NE ARANIYOR
                           sayısıyla karşılaştırılır.
     ④ Motif kodu          Prozada geçen her Thompson kodu maddenin
                           `motif` listesinde olmalıdır.
-    ⑤ Sınıf/gelenek adı   Metin başka bir maddeyi anarken adı doğru
-                          yazmalıdır (diakritik kapısı ayrıca bakar).
+    ⑤ Çapraz referans     Bir madde BAŞKA bir yaratık hakkında bir şey
+                          söylerken, o iddianın hedefin KENDİ metninde veya
+                          kaydında karşılığı olmalıdır.
 
 ÇIKIŞ KODLARI
     0  itiraz yok        1  itiraz var        2  metin yok
@@ -58,7 +59,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from bestiarium import ROOT, load_book, load_spec  # noqa: E402
-from textutil import iter_entries, sentences  # noqa: E402
+from textutil import iter_entries, normalize, sentences  # noqa: E402
 
 ALLOW_PATH = os.path.join(ROOT, "01_SOURCE", "factcheck_allow.json")
 
@@ -107,6 +108,46 @@ NOT_A_NAME = {
 }
 CITE_BY_RE = re.compile(
     rf"\b(?:{CITE_VERBS})\s+(?:by|in)\s+([A-ZÀ-Þ][\w'’À-ɏ-]+)")
+
+# ÇAPRAZ REFERANS DENETİMİ — Faz 6'da bağımsız satır editörünün bulduğu
+# kusur sınıfı. Editör şunu yazdı: "kitabın bağlayıcı dokusu her zaman
+# kitapla uyuşmuyor… maddeler kaynaklara karşı sıkı denetlendi, onları
+# birbirine bağlayan aygıt denetlenmedi."
+#
+# Somut örnek: ÜÇ madde Adaro'nun "bir güneş ışını üzerinde geldiğini" ya da
+# "ışığı silah olarak kullandığını" söylüyordu. Adaro'nun kendi maddesinde ve
+# kayıtlarında IŞIK GEÇMİYOR — kayıt uçan balıktan söz ediyor. Mevcut
+# `factcheck` bunu göremez, çünkü her maddeyi KENDİ kaydına karşı sınar;
+# iddia ise BAŞKA bir maddenin sayfasındadır.
+#
+# Yöntem: akraba satırında adı geçen her hedef için, o adı izleyen cümledeki
+# AYIRT EDİCİ içerik sözcükleri toplanır ve hedefin kendi metninde veya
+# kaydında aranır. Hiçbiri geçmiyorsa iddia dayanaksızdır.
+#
+# Bu bir SEZGİDİR, kanıt değil: yanlış pozitif üretir ve üretmelidir —
+# gerekçesiyle `factcheck_allow.json`'a yazılır. Hiçbir şey söylemeyen bir
+# kapıdan, gerekçe yazdıran bir kapı iyidir.
+XREF_STOP = set("""
+a an the and or but of to in on at by for from with without into onto over
+under this that these those it its is are was were be been being has have
+had do does did not no nor so than then there here where when which who
+whom whose what while as if because although though both each other same
+one two three four five six seven eight nine ten first second third last
+also only just still even more most less least much many few several
+""".split())
+
+# KONUMLANDIRMA SÖZCÜKLERİ. Akraba satırları çoğu zaman önce hedefi
+# KONUMLANDIRIR ("Kérberos is the closer twin and the sharper contrast"),
+# sonraki cümlede iddiayı kurar. Konumlandırma cümlesi hedef hakkında
+# OLGUSAL bir şey söylemez; yalnızca ilişkiyi kurar. Bunları iddia sayan
+# ilk sürüm on üç itirazın dokuzunu buradan üretti — aracın kendi kusuru.
+XREF_POSITIONAL = set("""
+closer closest close sharper sharpest sharp nearer nearest near other
+opposite reverse mirror twin match parallel counterpart version case
+example instance kind sort type position arrangement side end range face
+extreme edge point family class book entry entries here there same
+different similar comparable analogue analogous compare compares
+""".split())
 
 NUMBER_WORDS = {
     "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7,
@@ -194,6 +235,15 @@ def check(book: dict, spec: dict, allow: dict) -> list[dict]:
             "detail": detail, "sentence": sentence, "key": key,
         })
 
+    # Hedefin KENDİ metni + kaydı — çapraz referans denetiminin dayanağı
+    own_text = {}
+    for tid, tentry in iter_entries(book):
+        trec = by_id.get(tid)
+        if trec is None:
+            continue
+        own = " ".join((tentry.get("sections") or {}).values())
+        own_text[tid] = normalize(own + " " + record_text(trec))
+
     for cid, entry in iter_entries(book):
         rec = by_id.get(cid)
         if rec is None:
@@ -240,6 +290,33 @@ def check(book: dict, spec: dict, allow: dict) -> list[dict]:
                 add(cid, section, "motif", code,
                     "prozada geçiyor, maddenin motif listesinde ve kayıtta yok",
                     find_sentence(body, code))
+
+            # ⑤ çapraz referans iddiası
+            if section == "kin":
+                for s_ in sentences(body):
+                    for tid in rec.get("crossRefs", []) or []:
+                        trec = by_id.get(tid)
+                        if trec is None or trec["name"] not in s_:
+                            continue
+                        words = [w for w in normalize(s_).split()
+                                 if w not in XREF_STOP and len(w) > 3]
+                        own = own_text.get(tid, "")
+                        # Hedefin adı ve bu maddenin adı sayılmaz
+                        skip = set(normalize(trec["name"]).split()) | \
+                               set(normalize(rec["name"]).split())
+                        content = [w for w in words
+                                   if w not in skip
+                                   and w not in XREF_POSITIONAL]
+                        # İddia sayılması için en az iki ayırt edici içerik
+                        # sözcüğü gerekir. Tek sözcük gürültüdür.
+                        if len(content) < 2:
+                            continue
+                        hit = [w for w in content if w in own]
+                        if not hit:
+                            add(cid, section, "xref", trec["name"],
+                                "hedefin kendi metninde ve kaydında "
+                                "karşılığı yok",
+                                s_.strip())
 
             # ③ akraba sayısı
             fam = rec.get("kinFamily")

@@ -97,17 +97,17 @@ DEDICATION = "For everyone who checked the water before they got in."
 CONTENTS_TITLE = "Contents"
 MAP_TITLE = "Forty Traditions"
 MAP_NOTE = (
-    "The traditions represented in this book, with the mark that identifies "
-    "each of them in the entry headings, and the creatures filed under each. "
-    "A mark beside a creature's name is the fastest way to see, mid-page, "
-    "which part of the world an entry comes from."
+    "The forty traditions represented in this book, grouped by region, with "
+    "the number of creatures filed under each. A tradition is named in the "
+    "heading of every entry that belongs to it, so a reader who arrives "
+    "through a region can start here and follow the names."
 )
 SOURCES_TITLE = "Sources"
 SOURCES_NOTE = (
     "The short citation printed at the foot of each entry, gathered here by "
     "tradition. Full bibliographic detail, the verification level of every "
     "citation, and the reasoning behind every motif code are held in the "
-    "project's public research record."
+    "project’s public research record."
 )
 INDEX_TITLES = {
     "traditions": "Index of Traditions",

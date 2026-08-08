@@ -1,7 +1,8 @@
 {
   "note": "Editoryal düzeltme defterinin ÖLÇÜSÜ. Proza içermez (karar A1/D29). Üreten: 08_BUILD/edits.py --apply",
-  "total": 229,
+  "total": 237,
   "byCategory": {
+    "Açıklık — okurun toplayamadığı aritmetik": 1,
     "Editör — asılı kalan cümle": 1,
     "Editör — açılış ile madde arası birebir cümle": 1,
     "Editör — açılışlar arası birebir cümle": 1,
@@ -31,10 +32,12 @@
     "Editör — üslup çarpışması": 1,
     "Olgu — atıf kesinliği": 1,
     "Olgu — ayrıntı kaynakla ayrışıyor": 1,
+    "Olgu — bağlayıcı doku maddelerle çelişiyor": 6,
     "Olgu — kaynak atfı çürüdü": 2,
     "Olgu — kaynak yanlış çıpalanmış": 1,
     "Olgu — kayıtta olmayan künye": 5,
     "Olgu — yanlış künye": 1,
+    "Olgu — çapraz referans kesinliği": 1,
     "Sayı — aile boyutlarıyla ayrışma": 3,
     "Sayı — akraba ailesiyle ayrışma": 3,
     "Terminoloji — belirsizlik": 1,
@@ -61,6 +64,7 @@
     "azi-dahaka",
     "back/about-author",
     "back/colophon",
+    "back/epilogue",
     "back/series",
     "basajaun",
     "basiliscus",
@@ -71,6 +75,8 @@
     "camazotz",
     "chimaira",
     "cipactli",
+    "class/I",
+    "class/II",
     "class/III",
     "class/VI",
     "curupira",
@@ -99,6 +105,7 @@
     "kenas-unarpe",
     "kerberos",
     "khyung",
+    "kin/A",
     "kin/B",
     "kin/H",
     "kinnari",
@@ -120,6 +127,7 @@
     "nakki",
     "nhang",
     "nykur",
+    "olgoi-khorkhoi",
     "ong-ba-muoi",
     "peri",
     "phaya-nak",
@@ -154,6 +162,6 @@
     "zmeu",
     "zmey"
   ],
-  "wordsRemoved": 3657,
-  "wordsAdded": 3384
+  "wordsRemoved": 3802,
+  "wordsAdded": 3548
 }

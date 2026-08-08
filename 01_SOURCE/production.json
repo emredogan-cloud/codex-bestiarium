@@ -1,0 +1,30 @@
+{
+  "note": "Üretilen yayın dosyalarının ÖLÇÜSÜ. Proza içermez (karar A1/D29). Üreten: 08_BUILD/production_manifest.py",
+  "families": {
+    "interior": [
+      {
+        "path": "04_PRINT/HARDCOVER/CODEX_BESTIARIUM_INTERIOR_HARDCOVER.pdf",
+        "megabytes": 103.4,
+        "pages": 435
+      },
+      {
+        "path": "04_PRINT/LARGEPRINT/CODEX_BESTIARIUM_INTERIOR_LARGEPRINT.pdf",
+        "megabytes": 103.5,
+        "pages": 599
+      },
+      {
+        "path": "04_PRINT/PAPERBACK/CODEX_BESTIARIUM_INTERIOR_PAPERBACK.pdf",
+        "megabytes": 103.4,
+        "pages": 435
+      }
+    ],
+    "cover": [],
+    "ebook": [],
+    "docx": []
+  },
+  "familiesBuilt": [
+    "interior"
+  ],
+  "familyCount": 1,
+  "familyTotal": 4
+}

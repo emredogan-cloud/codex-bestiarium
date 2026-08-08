@@ -75,6 +75,7 @@ if [ "$FIX" = "1" ]; then
   $PY 08_BUILD/make_index.py --gate "$IDX_GATE" >/dev/null
   $PY 08_BUILD/make_prompts.py
   $PY 08_BUILD/editor_pack.py >/dev/null 2>&1 || true
+  $PY 08_BUILD/production_manifest.py >/dev/null 2>&1 || true
   # SIRA: ön/arka madde ölçüsü BOOK_STATS'ın girdisidir. update_docs'tan
   # SONRA ölçülürse belge kendi girdisinden eski kalır ve "bayat belge"
   # kapısı, hiçbir şey bozulmamışken kırmızı yanar. Bir kez yaşandı.
@@ -222,10 +223,14 @@ case $? in
   *) FAILED+=("editör teslim paketi") ;;
 esac
 
+soft_run "üretim manifestosu"        $PY 08_BUILD/production_manifest.py --check
+soft_run "glif kapsamı"              $CAL_PY 08_BUILD/qa_glyphs.py --json 06_REPORTS/qa-glyphs.json
+
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"
 run "üretilen belgeler güncel"    $PY 08_BUILD/update_docs.py --check
 run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py
   $PY 08_BUILD/editor_pack.py >/dev/null 2>&1 || true
+  $PY 08_BUILD/production_manifest.py >/dev/null 2>&1 || true
   # SIRA: ön/arka madde ölçüsü BOOK_STATS'ın girdisidir. update_docs'tan
   # SONRA ölçülürse belge kendi girdisinden eski kalır ve "bayat belge"
   # kapısı, hiçbir şey bozulmamışken kırmızı yanar. Bir kez yaşandı.

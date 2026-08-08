@@ -87,10 +87,13 @@ PLATE_PRINT_DIR = os.path.join(ROOT, "07_ASSETS", "plates_print")
 PLATE_DIR = os.path.join(ROOT, "07_ASSETS", "plates")
 INDEX_PATH = os.path.join(ROOT, "01_SOURCE", "indexes.json")
 
+# Sürüm kimlikleri `editions.py`den gelir; burada UYDURULMAZ. İlk yazımda
+# "large-print" yazılmıştı ve kayıt defterinde "largeprint" geçiyor —
+# `--all` sessizce iki sürüm üretip üçüncüde düştü.
 EDITION_DIRS = {
     "paperback": "PAPERBACK",
     "hardcover": "HARDCOVER",
-    "large-print": "LARGEPRINT",
+    "largeprint": "LARGEPRINT",
 }
 
 # Çapraz referans yer tutucusu. Genişliği gerçek numarayla aynı olsun diye

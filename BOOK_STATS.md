@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-08** · dal `main` · son etiket `v0.5.0` · 91 commit
+> Son ölçüm: **2026-08-08** · dal `faz/6-uretim` · son etiket `v0.5.0` · 92 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -21,8 +21,9 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
 | Yazılmış madde | 112 | 112 | `████████████████████████` %100 |
 | Normalize plaka | 112 | 112 | `████████████████████████` %100 |
-| Kelime (yazılmış) | 88,681 | 78,400 | `███████████████████████████` %113 |
-| Tahmini sayfa | 341 | 436 | `███████████████████░░░░░` %78 |
+| Kelime (yazılmış) | 88,700 | 78,400 | `███████████████████████████` %113 |
+| Tahmini sayfa (model) | 341 | 436 | `███████████████████░░░░░` %78 |
+| **Ölçülen sayfa (dizgi)** | **435** | 436 | `████████████████████████` %100 |
 
 Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde
 **zorunludur**; toplam 44 maddede yapıldı — 9 tanesi gönüllü. Zorunlu olmayan
@@ -42,12 +43,12 @@ bütçesinden gelir ve bir TAVANDIR.
 |---|---:|---:|---:|
 | `introduction` | 2.487 | 7 | 8 |
 | `how-to-read` | 1.381 | 5 | 6 |
-| `epilogue` | 1.029 | 4 | 4 |
+| `epilogue` | 1.031 | 4 | 4 |
 | `about-author` | 176 | 1 | 2 |
 | `series` | 193 | 1 | 2 |
 | `review-call` | 170 | 1 | 2 |
 | `colophon` | 262 | 1 | 2 |
-| **Toplam** | **5.698** | **20** | **26** |
+| **Toplam** | **5.700** | **20** | **26** |
 
 Fark (6 sayfa) israf değildir:
 her bölüm tek sayfadan (recto) başlar, tek sayfada biten bölüm
