@@ -1,0 +1,269 @@
+{
+  "pdf": "04_PRINT/PAPERBACK/CODEX_BESTIARIUM_INTERIOR_PAPERBACK.pdf",
+  "edition": "paperback",
+  "binding": "paperback",
+  "pages": 435,
+  "trim_in": [
+    6.0,
+    9.0
+  ],
+  "body_pt": 11.2,
+  "lead_pt": 15.6,
+  "gutter_in": 0.875,
+  "outer_in": 0.625,
+  "sampled_pages": [
+    1,
+    2,
+    3,
+    20,
+    39,
+    58,
+    76,
+    95,
+    114,
+    133,
+    152,
+    171,
+    190,
+    209,
+    217,
+    218,
+    227,
+    246,
+    265,
+    284,
+    303,
+    322,
+    341,
+    360,
+    378,
+    397,
+    416,
+    434,
+    435
+  ],
+  "checks": [
+    {
+      "id": "S1",
+      "group": "Yapı",
+      "name": "Sayfa sayısı ciltleme sınırında",
+      "status": "pass",
+      "expected": "24–828",
+      "actual": "435",
+      "note": "Ciltsiz (perfect bound) için KDP sınırı"
+    },
+    {
+      "id": "S2",
+      "group": "Yapı",
+      "name": "Sayfa sayısı çift",
+      "status": "warn",
+      "expected": "çift",
+      "actual": "435",
+      "note": "tek sayılı blokta matbaa sona boş sayfa ekler"
+    },
+    {
+      "id": "S3",
+      "group": "Ölçü",
+      "name": "Sayfa genişliği (trim)",
+      "status": "pass",
+      "expected": "6.0000 in",
+      "actual": "6.0000 in",
+      "note": "taşma yok — kesim ölçüsünde"
+    },
+    {
+      "id": "S4",
+      "group": "Ölçü",
+      "name": "Sayfa yüksekliği (trim)",
+      "status": "pass",
+      "expected": "9.0000 in",
+      "actual": "9.0000 in",
+      "note": ""
+    },
+    {
+      "id": "S5",
+      "group": "Ölçü",
+      "name": "Bütün sayfalar aynı ölçüde",
+      "status": "pass",
+      "expected": "1 farklı ölçü",
+      "actual": "1 farklı ölçü: [(432.0, 648.0)]",
+      "note": "karışık ölçü KDP'de reddedilir"
+    },
+    {
+      "id": "S6",
+      "group": "Yapı",
+      "name": "Sayfa kutuları tutarlı",
+      "status": "pass",
+      "expected": "hepsi eşit",
+      "actual": "eşit",
+      "note": "farklı TrimBox ikinci bir ölçekleme doğurur"
+    },
+    {
+      "id": "S7",
+      "group": "Font",
+      "name": "Tüm fontlar gömülü",
+      "status": "pass",
+      "expected": "gömülü olmayan yok",
+      "actual": "yok",
+      "note": "KDP gömülü olmayan fontu reddeder — reportlab varsayılanı Helvetica'dır ve gömülmez"
+    },
+    {
+      "id": "S8",
+      "group": "Font",
+      "name": "Fontlar alt kümelenmiş",
+      "status": "pass",
+      "expected": "hepsi alt küme",
+      "actual": "hepsi alt küme",
+      "note": "3 font: /AAAAAA+Cinzel-Regular, /AAAAAA+EBGaramond-Italic, /AAAAAA+EBGaramond-Regular"
+    },
+    {
+      "id": "S9",
+      "group": "Font",
+      "name": "Beklenen font sayısı",
+      "status": "pass",
+      "expected": "3 (Cinzel, EBGaramond, EBGaramond-Italic)",
+      "actual": "3",
+      "note": "fazlası sızmış bir yüz demektir"
+    },
+    {
+      "id": "S10",
+      "group": "Yapı",
+      "name": "Saydamlık yok",
+      "status": "pass",
+      "expected": "yok",
+      "actual": "yok",
+      "note": "düzleştirilmemiş saydamlık baskıda sürpriz yapar"
+    },
+    {
+      "id": "S11",
+      "group": "Görsel",
+      "name": "Her görsel >= 300 PPI",
+      "status": "pass",
+      "expected": ">= 300 PPI",
+      "actual": "112 görsel, en düşük >= 300 PPI",
+      "note": "KDP baskı tabanı 300 PPI; ölçü dosya etiketinden değil sayfadaki alandan hesaplanır"
+    },
+    {
+      "id": "S12",
+      "group": "Metadata",
+      "name": "Başlık dolu",
+      "status": "pass",
+      "expected": "…Codex Bestiarium…",
+      "actual": "Codex Bestiarium: A World Bestiary: 112 Legendary Creatures from 40 Traditions — Beasts, Spirits, and Guardians of World Folklore",
+      "note": ""
+    },
+    {
+      "id": "S13",
+      "group": "Metadata",
+      "name": "Yazar dolu",
+      "status": "pass",
+      "expected": "Emre Doğan",
+      "actual": "Emre Doğan",
+      "note": ""
+    },
+    {
+      "id": "S15",
+      "group": "Dosya",
+      "name": "Boyut sınır içinde",
+      "status": "pass",
+      "expected": "< 650 MB",
+      "actual": "108.48 MB",
+      "note": "KDP iç blok üst sınırı"
+    },
+    {
+      "id": "M1",
+      "group": "Marj",
+      "name": "İç marj (gutter) KDP tablosuna uygun",
+      "status": "pass",
+      "expected": ">= 0.625 in (435 sayfa)",
+      "actual": "0.875 in",
+      "note": "pay +0.250 in — KDP tablosu sayfa sayısına bağlıdır"
+    },
+    {
+      "id": "M-dış",
+      "group": "Marj",
+      "name": "Dış marj asgariyi geçiyor",
+      "status": "pass",
+      "expected": ">= 0.25 in",
+      "actual": "0.625 in",
+      "note": "taşmasız kitapta KDP asgarisi"
+    },
+    {
+      "id": "M-üst",
+      "group": "Marj",
+      "name": "Üst marj asgariyi geçiyor",
+      "status": "pass",
+      "expected": ">= 0.25 in",
+      "actual": "0.750 in",
+      "note": "taşmasız kitapta KDP asgarisi"
+    },
+    {
+      "id": "M-alt",
+      "group": "Marj",
+      "name": "Alt marj asgariyi geçiyor",
+      "status": "pass",
+      "expected": ">= 0.25 in",
+      "actual": "0.750 in",
+      "note": "taşmasız kitapta KDP asgarisi"
+    },
+    {
+      "id": "E1",
+      "group": "Render",
+      "name": "Render ölçüsü doğru",
+      "status": "pass",
+      "expected": "900x1350 px",
+      "actual": "hepsi doğru",
+      "note": "150 DPI'da"
+    },
+    {
+      "id": "E2",
+      "group": "Render",
+      "name": "Mürekkep kesim kenarından uzak",
+      "status": "pass",
+      "expected": ">= 0.25 in",
+      "actual": "0.340 in (sayfa 39)",
+      "note": "taşmasız kitapta KDP asgarisi; folyo ve üstbilgi dahil ölçüldü"
+    },
+    {
+      "id": "E3",
+      "group": "Render",
+      "name": "Cilt tarafı marjı korunuyor",
+      "status": "pass",
+      "expected": ">= 0.875 in",
+      "actual": "0.860 in (sayfa 152)",
+      "note": "tek sayfa solda, çift sayfa sağda ölçülür — recto/verso şablonlarının doğru sırayla uygulandığını kanıtlar"
+    },
+    {
+      "id": "E4",
+      "group": "Render",
+      "name": "Boş sayfa sayısı makul",
+      "status": "pass",
+      "expected": "<= 14 örneklemde",
+      "actual": "1 boş: [2]",
+      "note": "medeniyet açılışlarını recto'ya itmek için bilinçli eklenenler"
+    },
+    {
+      "id": "E5",
+      "group": "Render",
+      "name": "Folyo (sayfa numarası) basılıyor",
+      "status": "pass",
+      "expected": "numaralı sayfalarda var",
+      "actual": "2/29 sayfada alt bant boş",
+      "note": "ön maddede ve açılışlarda folyo bilinçli olarak yoktur"
+    },
+    {
+      "id": "E6",
+      "group": "Render",
+      "name": "Üstbilgi basılıyor",
+      "status": "pass",
+      "expected": "> 0 sayfa",
+      "actual": "24/28 sayfada üst bantta mürekkep",
+      "note": "koşan başlık — açılış sayfalarında bilinçli olarak yoktur"
+    }
+  ],
+  "summary": {
+    "total": 24,
+    "pass": 23,
+    "warn": 1,
+    "fail": 0
+  }
+}

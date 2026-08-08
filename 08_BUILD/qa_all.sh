@@ -224,6 +224,7 @@ case $? in
 esac
 
 soft_run "üretim manifestosu"        $PY 08_BUILD/production_manifest.py --check
+soft_run "dizin ↔ basılı sayfa"      $CAL_PY 08_BUILD/verify_index.py
 soft_run "glif kapsamı"              $CAL_PY 08_BUILD/qa_glyphs.py --json 06_REPORTS/qa-glyphs.json
 
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"

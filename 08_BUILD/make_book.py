@@ -738,6 +738,30 @@ def typeset(edition: str, out_path: str, pages: dict, use_plates: bool,
 
     MP.Mark.draw = draw
     try:
+        # HER GEÇİŞ KENDİ İÇİNDE İKİ RENDER'DIR ve bu kaçınılmazdır.
+        #
+        # Koşan başlık (üst bilgi) sayfa numarasına bağlıdır: "bu sayfada
+        # hangi madde var" ancak dizgi bittikten sonra bilinir. Ama başlık
+        # dizgi SIRASINDA basılır. reportlab'de standart çözüm budur ve
+        # `make_pdf` de aynısını yapar: bir kez diz, planı çöz, tekrar diz.
+        #
+        # Atlanırsa hata SESSİZDİR: PLAN.heads boş kalır, hiçbir sayfaya
+        # başlık basılmaz ve PDF sorunsuz üretilir. `validate_interior`
+        # yakaladı — 28 örnek sayfanın sıfırında üst bantta mürekkep vardı.
+        import tempfile
+        fd, scratch = tempfile.mkstemp(suffix=".pdf", prefix="bestiar-plan-")
+        os.close(fd)
+        try:
+            doc0 = BestiariumBook.make(MP, L, scratch)
+            doc0.build(book_flow(book, spec, L, S, MP, pages, use_plates,
+                                 indexes),
+                       canvasmaker=MP.EmbeddedOnlyCanvas)
+            from pypdf import PdfReader as _R
+            MP.PLAN.resolve(len(_R(scratch).pages))
+        finally:
+            if os.path.exists(scratch):
+                os.remove(scratch)
+
         doc = BestiariumBook.make(MP, L, out_path)
         flow = book_flow(book, spec, L, S, MP, pages, use_plates, indexes)
         doc.build(flow, canvasmaker=MP.EmbeddedOnlyCanvas)

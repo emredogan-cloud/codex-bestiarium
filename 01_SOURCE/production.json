@@ -4,27 +4,39 @@
     "interior": [
       {
         "path": "04_PRINT/HARDCOVER/CODEX_BESTIARIUM_INTERIOR_HARDCOVER.pdf",
-        "megabytes": 103.4,
+        "megabytes": 103.5,
         "pages": 435
       },
       {
         "path": "04_PRINT/LARGEPRINT/CODEX_BESTIARIUM_INTERIOR_LARGEPRINT.pdf",
-        "megabytes": 103.5,
+        "megabytes": 103.6,
         "pages": 599
       },
       {
         "path": "04_PRINT/PAPERBACK/CODEX_BESTIARIUM_INTERIOR_PAPERBACK.pdf",
-        "megabytes": 103.4,
+        "megabytes": 103.5,
         "pages": 435
       }
     ],
     "cover": [],
-    "ebook": [],
-    "docx": []
+    "ebook": [
+      {
+        "path": "05_KINDLE/CODEX_BESTIARIUM.epub",
+        "megabytes": 4.7
+      }
+    ],
+    "docx": [
+      {
+        "path": "02_MANUSCRIPT/CODEX_BESTIARIUM_MANUSCRIPT.docx",
+        "megabytes": 0.2
+      }
+    ]
   },
   "familiesBuilt": [
+    "docx",
+    "ebook",
     "interior"
   ],
-  "familyCount": 1,
+  "familyCount": 3,
   "familyTotal": 4
 }
