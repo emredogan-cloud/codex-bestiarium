@@ -113,23 +113,44 @@ def convert_one(src: str, fmt: str, dst: str) -> int:
             if g.width > KINDLE_MAX_WIDTH:
                 h = round(g.height * KINDLE_MAX_WIDTH / g.width)
                 g = g.resize((KINDLE_MAX_WIDTH, h), Image.LANCZOS)
-            # Gravür tek renktir; palet 16 tona indirilince dosya küçülür ve
-            # tarama çizgileri görünürde bozulmaz.
-            g.quantize(colors=16, method=Image.MEDIANCUT).save(
-                dst, "PNG", optimize=True
-            )
+            # İKİ TON — Faz 5 · karar D49.
+            #
+            # Faz 2 kalibrasyonu 16 tonu KURGU üzerinde ölçtü ve plaka
+            # başına 34 KB verdi. Gerçek set geldiğinde aynı ayar
+            # 227 KB üretti (112 plakada 24,8 MB, bütçe 6 MB). Sebep:
+            # kurgunun düzenli tramı çok iyi sıkışır, el işi taramanın
+            # yüksek frekanslı dokusu sıkışmaz. Kayıpsız PNG o dokuyu
+            # olduğu gibi taşımak zorundadır.
+            #
+            # Ölçülen seçenekler (7 plakalık örnek, ortalama · 112'de):
+            #     PNG 900px 16 ton   227 KB · 24,8 MB
+            #     PNG 900px  8 ton   162 KB · 17,7 MB
+            #     PNG 600px  4 ton    34 KB ·  3,7 MB   (çözünürlük gider)
+            #     JPEG 900px k82     178 KB · 19,5 MB
+            #     1-bit 900px         39 KB ·  4,3 MB   ✅
+            #
+            # İki ton hem bütçeyi karşılıyor hem ÇÖZÜNÜRLÜĞÜ KORUYOR, ve
+            # gravür için doğru olan da budur: tonu gri seviyeler değil
+            # TARAMANIN KENDİSİ taşır. Basılı gravür zaten iki tonludur.
+            # Dither KAPALI — dither, taramanın üstüne ikinci bir desen
+            # bindirir ve moiré üretir.
+            g.convert("1", dither=Image.NONE).save(dst, "PNG", optimize=True)
         elif fmt == "aplus":
             im.convert("RGB").save(dst, "JPEG", quality=88, optimize=True,
                                    progressive=True, dpi=(72, 72))
         elif fmt == "web":
-            # 16 ton + KAYIPSIZ. Gerekçe dosya başındaki WEB_MAX_WIDTH
-            # notunda: kayıplı sıkıştırma bu çizgi dilinde hem üç kat büyük
-            # hem daha kötü çıkıyor.
+            # İKİ TON + KAYIPSIZ — Faz 5 · karar D49 (Kindle ile aynı gerekçe).
+            #
+            # D27 kayıpsızı seçti ve o karar doğruydu: kayıplı sıkıştırma bu
+            # çizgi dilinde hem daha büyük hem daha kötü. Değişen ton
+            # sayısıdır. 16 ton, gerçek el işi taramada 425–552 KB veriyordu
+            # (bütçe 300 KB); iki tonda 75 KB'ye iniyor ve 1400 px korunuyor.
+            # Tonu tarama taşır, palet değil.
             g = im.convert("L")
             if g.width > WEB_MAX_WIDTH:
                 h = round(g.height * WEB_MAX_WIDTH / g.width)
                 g = g.resize((WEB_MAX_WIDTH, h), Image.LANCZOS)
-            g.quantize(colors=WEB_TONES, method=Image.MEDIANCUT).convert("L").save(
+            g.convert("1", dither=Image.NONE).convert("L").save(
                 dst, "WEBP", lossless=True, method=6
             )
         else:

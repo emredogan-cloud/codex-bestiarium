@@ -1,100 +1,224 @@
-# -*- coding: utf-8 -*-
-"""Editorial fixes for CODEX MYTHOLOGICA. Every change is logged."""
-EDITS = [
- # (story_id, before, after, category, rationale)
- ("prometheus",
-  "Cook your meat. Soften your iron.",
-  "Cook your meat. Harden your spear-points.",
-  "Fact — anachronism",
-  "Iron-working postdates the fire-gift myth by millennia; fire-hardened spear points are period-correct and keep the imperative rhythm."),
+#!/usr/bin/env python3
+"""
+CODEX BESTIARIUM — EDİTORYAL DÜZELTME DEFTERİ (Faz 5 · Geçiş 2)
+================================================================================
+Her düzeltme bir KAYITTIR. Metne elle dokunulmaz.
 
- ("sekhmet",
-  "barley beer, eight times distilled",
-  "barley beer, eight times brewed",
-  "Fact — anachronism",
-  "Distillation was unknown in pharaonic Egypt. Egyptian beer was brewed, and strength came from repeated brewing."),
+    NEDEN
+    ─────
+    Yol haritası bunu açıkça istiyor: *"Her düzeltme `edits.json`'a
+    kaydedilir: id, öncesi, sonrası, kategori, gerekçe. Elle düzenleme
+    yapılmaz."*
 
- ("susanoo-orochi",
-  "They brewed the rice-spirit eight times distilled,",
-  "They brewed the rice-spirit eight times refined,",
-  "Fact — anachronism",
-  "The Kojiki specifies yashiori no sake, 'eight-fold refined' sake. Sake is brewed, never distilled."),
+    Gerekçesi tek cümlede şudur: elle düzeltilen bir metinde neyin neden
+    değiştiği altı ay sonra hiç kimsede yoktur. Defterle düzeltilen bir
+    metinde her değişiklik geri alınabilir, sayılabilir ve savunulabilir.
+    Cilt 1'de bu defter otuz yedi düzeltme taşıdı ve üçü sonradan
+    yanlış çıkıp geri alındı — defter olmasaydı hangi cümleye
+    dokunulduğu bilinemezdi.
 
- ("cu-chulainn",
-  "held a magical spear, the Gáe Bolg of his own crafting, and he called out",
-  "held one of the three enchanted spears forged by the children of Calatín, and he called out",
-  "Fact — mythological error",
-  "The Gáe Bolg is Cú Chulainn's own weapon, given him by Scáthach. Lugaid killed him with spears made by Calatín's children."),
+    Ayrıca `before` alanı bir SINAMADIR. Metin defterin yazıldığı günden
+    beri değiştiyse eşleşme tutmaz ve betik kırmızı yanar; sessizce
+    yanlış yere uygulanmaz.
 
- ("princess-bari",
-  "She had been gone twenty-one years.",
-  "She had been gone twenty-one years: three on the long road west, and eighteen in the keeper's service.",
-  "Consistency — arithmetic",
-  "Three plus three plus three plus nine is eighteen, not twenty-one. The road accounts for the remainder."),
+BİÇİM  ·  01_SOURCE/edits.json
+    [
+      {
+        "id": "each-uisce",          // madde kimliği · ön/arka madde için
+                                     //   "front/introduction", açılışlar için
+                                     //   "class/III" veya "kin/D" biçimi
+        "section": "where",          // yedi bölümden biri · matter'da "body"
+        "before": "…",               // metinde BİREBİR bulunmalı
+        "after":  "…",
+        "category": "Olgu — kaynak atfı",
+        "rationale": "…"             // neden; boş bırakılamaz
+      }
+    ]
 
- ("bran-blessed",
-  "there is a saying, much older than the present queen,",
-  "there is a saying, much older than the present reign,",
-  "Fact — dated reference",
-  "The British monarch is no longer a queen; 'reign' is durable and will not date again."),
+DEPO SÖZLEŞMESİ
+    `edits.json` ve `book-edited.json` proza taşır → `.gitignore`'dadır.
+    Depoda kalan `01_SOURCE/edits_summary.json`'dır: kategori sayıları,
+    kaç kelime eklendi/çıkarıldı, hangi maddeler dokunuldu. Proza yok.
 
- ("ocean-of-milk",
-  "Then came Kalpavriksha, the wishing-tree, planted itself on the shore.",
-  "Then came Kalpavriksha, the wishing-tree, which planted itself on the shore.",
-  "Grammar",
-  "Missing relative pronoun left the sentence without a finite main verb."),
+ÇIKIŞ KODLARI
+    0  tamam        1  eşleşmeyen veya eksik kayıt        2  metin yok
 
- ("shiva-tandava",
-  "He performs it on a small drum.",
-  "He performs it to the beat of a small drum.",
-  "Grammar / sense",
-  "He dances to the drum; he does not perform on it."),
+KULLANIM
+    python3 08_BUILD/edits.py --apply      # book-edited.json üret
+    python3 08_BUILD/edits.py --check      # defter metne uyuyor mu
+    python3 08_BUILD/edits.py --report
+"""
 
- ("morrigan",
-  "She had, at last, been healed by the only man whose curse would have healed her.",
-  "She had, at last, been healed by the only man whose blessing could have healed her.",
-  "Sense",
-  "It was his three blessings that healed her; 'curse' inverted the meaning."),
+from __future__ import annotations
 
- ("simurgh",
-  "Many years later, in the matter of Rostam's son Sohrab, Zal would burn a second feather. The Simurgh would come again. She would heal.",
-  "Many years later, when Rostam lay wounded after his duel with Esfandiyar, Zal would burn a second feather. The Simurgh would come again. She would heal him, and tell him where his enemy could be struck.",
-  "Fact + internal contradiction",
-  "In the Shahnameh the second feather is burned for Rostam's wounds after Esfandiyar, not for Sohrab. As written it also contradicted the next story, in which Sohrab dies unsaved."),
+import argparse
+import json
+import os
+import sys
 
- ("jade-emperor",
-  "who had hidden in the shoe of the horse",
-  "who had coiled herself around the hoof of the horse",
-  "Fact — anachronism",
-  "Horseshoes are anachronistic here; the traditional tale has the snake wound about the hoof."),
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
- ("hel",
-  "sails north on a ship of her own building. Her ship is called Naglfar, and it is built from the untrimmed nails of dead men,",
-  "sails north on the ship her long kingdom has been building all along. The ship is called Naglfar, and it is made from the untrimmed nails of dead men,",
-  "Internal contradiction",
-  "Paired with the change below, this reconciles Hel's chapter with the Ragnarok chapter, where Loki takes the helm."),
+from bestiarium import BOOK_PATH, ROOT, load_book  # noqa: E402
+from textutil import word_count  # noqa: E402
 
- ("hel",
-  "She is the captain of that ship. The dead of her kingdom",
-  "Her father takes the helm; the ship, and its long cargo, are hers. The dead of her kingdom",
-  "Internal contradiction",
-  "'Ragnarok' places Loki at the helm of Naglfar. Ownership stays with Hel; command goes to Loki, and both chapters now agree."),
+EDITS_PATH = os.path.join(ROOT, "01_SOURCE", "edits.json")
+EDITED_PATH = os.path.join(ROOT, "01_SOURCE", "book-edited.json")
+SUMMARY_PATH = os.path.join(ROOT, "01_SOURCE", "edits_summary.json")
 
- ("shiva-tandava",
-  "in his hall on Mount Kailash",
-  "in his hall on Mount Kailasa",
-  "Consistency — spelling",
-  "'Ganga' uses Kailasa; one spelling per book."),
+REQUIRED = ("id", "section", "before", "after", "category", "rationale")
 
- ("maize-people",
-  "they became, the priests said, the monkeys you can still see in the high jungle, who remember dimly what it was to be people but cannot quite recover the language.",
-  "they became, the priests said, the long-tailed monkeys of the forest canopy, who remember dimly what it was to be people but cannot quite recover the language.",
-  "Repetition",
-  "The identical clause 'the monkeys you can still see in the high jungle' already appears in 'The Five Suns'. The shared motif is genuine; the shared sentence was not."),
 
- ("two-brothers",
-  "Anubis was the elder. Bata was the younger.",
-  "Anubis was the elder. Bata was the younger. (This Anubis is a farmer and a mortal man, not the jackal-headed god who waits at the scales; Egypt reused its names without embarrassment.)",
-  "Clarity",
-  "Readers meet the god Anubis three stories earlier. Without a word of guidance the same name on a farmer reads as an error."),
-]
+def load_edits() -> list[dict]:
+    if not os.path.exists(EDITS_PATH):
+        return []
+    with open(EDITS_PATH, encoding="utf-8") as fh:
+        edits = json.load(fh)
+    for i, e in enumerate(edits):
+        missing = [k for k in REQUIRED if not str(e.get(k, "")).strip()]
+        if missing:
+            raise SystemExit(
+                f"HATA: kayıt {i} eksik alan taşıyor: {', '.join(missing)}\n"
+                f"      Gerekçesiz düzeltme kabul edilmez.")
+        if e["before"] == e["after"]:
+            raise SystemExit(f"HATA: kayıt {i} hiçbir şeyi değiştirmiyor.")
+    return edits
+
+
+def get_block(book: dict, eid: str, section: str):
+    """(okuyucu, yazıcı) — madde bölümü ya da ön/arka madde gövdesi."""
+    if eid.startswith(("class/", "kin/")):
+        # Sınıf ve karşılaştırma açılışları da prozadır ve kalıplaşabilir.
+        kind, key = eid.split("/", 1)
+        mapping = book.get(kind + "Openings") or {}
+        if key not in mapping:
+            return None, None
+        return (lambda: mapping.get(key, ""),
+                lambda v: mapping.__setitem__(key, v))
+    if "/" in eid:
+        group, key = eid.split("/", 1)
+        mapping = book.get(group + "Matter") or {}
+        item = mapping.get(key)
+        if item is None:
+            return None, None
+        return (lambda: item.get("body", ""),
+                lambda v: item.__setitem__("body", v))
+    entry = (book.get("entries") or {}).get(eid)
+    if entry is None:
+        return None, None
+    sec = entry.get("sections") or {}
+    if section not in sec:
+        return None, None
+    return (lambda: sec.get(section, ""),
+            lambda v: sec.__setitem__(section, v))
+
+
+def apply_edits(book: dict, edits: list[dict]) -> tuple[list[str], list[dict]]:
+    problems: list[str] = []
+    applied: list[dict] = []
+    for i, e in enumerate(edits):
+        read, write = get_block(book, e["id"], e["section"])
+        if read is None:
+            problems.append(f"kayıt {i}: {e['id']}/{e['section']} metinde yok")
+            continue
+        body = read()
+        n = body.count(e["before"])
+        if n == 0:
+            problems.append(
+                f"kayıt {i}: {e['id']}/{e['section']} — 'before' bulunamadı "
+                f"(metin defterden sonra değişmiş olabilir)")
+            continue
+        if n > 1:
+            problems.append(
+                f"kayıt {i}: {e['id']}/{e['section']} — 'before' {n} kez "
+                f"geçiyor; hangisi olduğu belirsiz")
+            continue
+        write(body.replace(e["before"], e["after"], 1))
+        applied.append({
+            "id": e["id"], "section": e["section"], "category": e["category"],
+            "wordsBefore": word_count(e["before"]),
+            "wordsAfter": word_count(e["after"]),
+        })
+    return problems, applied
+
+
+def write_summary(applied: list[dict]) -> None:
+    """Depoda kalan ÖLÇÜ — proza yok (karar A1/D29)."""
+    by_cat: dict[str, int] = {}
+    for a in applied:
+        by_cat[a["category"]] = by_cat.get(a["category"], 0) + 1
+    with open(SUMMARY_PATH, "w", encoding="utf-8") as fh:
+        json.dump({
+            "note": "Editoryal düzeltme defterinin ÖLÇÜSÜ. Proza içermez "
+                    "(karar A1/D29). Üreten: 08_BUILD/edits.py --apply",
+            "total": len(applied),
+            "byCategory": dict(sorted(by_cat.items())),
+            "entriesTouched": sorted({a["id"] for a in applied}),
+            "wordsRemoved": sum(a["wordsBefore"] for a in applied),
+            "wordsAdded": sum(a["wordsAfter"] for a in applied),
+        }, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--check", action="store_true")
+    ap.add_argument("--report", action="store_true")
+    ap.add_argument("--into-book", action="store_true",
+                    help="düzeltilmiş metni book.json'a GERİ yazar")
+    args = ap.parse_args()
+
+    # DEFTER HER ZAMAN HAM METNİ OKUR. `load_book()` varsa
+    # `book-edited.json`'ı tercih eder — doğru davranıştır, ama defter için
+    # yanlıştır: düzeltmeler bir kez uygulandıktan sonra `before` dizgeleri
+    # artık orada bulunmaz ve defter kendi ürettiği metinle "ayrışmış"
+    # görünür. Kaynak her zaman yazımın çıktısıdır.
+    book = load_book(BOOK_PATH)
+    if book is None or not book.get("entries"):
+        print("ATLANDI: metin yok — düzeltme defteri yazımdan sonradır.")
+        return 2
+
+    edits = load_edits()
+    if not edits:
+        print("Defter boş: 01_SOURCE/edits.json yok veya kayıt içermiyor.")
+        return 0
+
+    problems, applied = apply_edits(book, edits)
+
+    print("=" * 78)
+    print(f"EDİTORYAL DÜZELTME DEFTERİ — {len(edits)} kayıt")
+    print("=" * 78)
+
+    if problems:
+        for p in problems:
+            print(f"[FAIL] {p}")
+        print(f"\n{len(problems)} kayıt uygulanamadı. Defter metinle "
+              f"ayrışmış.")
+        return 1
+
+    by_cat: dict[str, int] = {}
+    for a in applied:
+        by_cat[a["category"]] = by_cat.get(a["category"], 0) + 1
+    for cat, n in sorted(by_cat.items()):
+        print(f"  {n:>3}  {cat}")
+    dw = sum(a["wordsAfter"] - a["wordsBefore"] for a in applied)
+    print(f"\n  {len(applied)} düzeltme · {len({a['id'] for a in applied})} "
+          f"madde · kelime farkı {dw:+d}")
+
+    if args.check:
+        print("\n[  ok ] defter metne birebir uyuyor")
+        return 0
+
+    if args.apply or args.into_book:
+        write_summary(applied)
+        target = BOOK_PATH if args.into_book else EDITED_PATH
+        with open(target, "w", encoding="utf-8") as fh:
+            json.dump(book, fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+        print(f"\nyazıldı: {os.path.relpath(target, ROOT)}")
+        print(f"yazıldı: {os.path.relpath(SUMMARY_PATH, ROOT)}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

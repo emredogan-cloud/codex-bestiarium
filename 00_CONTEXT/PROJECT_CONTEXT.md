@@ -4,32 +4,53 @@
 > Hiçbir şeyi hatırladığınız varsayılmaz. Buradaki her sayı ya bir dosyadan
 > ölçülmüştür ya da bir kod satırından türetilmiştir; ikisi de gösterilmiştir.
 >
-> Son güncelleme: **7 Ağustos 2026** — Faz 4 tamamlandı
+> Son güncelleme: **8 Ağustos 2026** — Faz 5 tamamlandı
 > Kök dizin: `/home/emre/Downloads/MY-DİGİTAL-BOOK/CODEX_BESTIARIUM`
 
 ---
 
 ## 1. Bir cümlede durum
 
-**Faz 4 tamamlandı.** Kitap **88/112 maddeye** ulaştı: Faz 4 sınıf III
-(Şekil Değiştirenler, 19) ve sınıf IV (Su Sakinleri, 24) maddelerini,
-iki sınıf açılışını ve üç karşılaştırma açılışını yazdı. **43 madde ·
-29.770 kelime**, madde ortalaması 692 (hedef 700), bant dışı madde
-sıfır. Kitapta toplam **65.911 kelime** metin var. Sayfa bütçesi 88
-maddenin tamamı gerçek metinle dizilerek yeniden doğrulandı ve
-**değişmedi** (436 sayfa). `.gate` → `phase3`, etiket `v0.4.0`.
-**Proza depoda değildir** (karar A1/D29).
+**Faz 5 tamamlandı ve kitabın METNİ BİTTİ.** 112/112 madde, 6/6 sınıf
+açılışı, 8/8 karşılaştırma açılışı, 7/7 ön ve arka madde bölümü.
+Toplam **88.960 kelime**. 112 ham plaka doğrulandı, eşlendi ve
+normalize edildi. Sayfa bütçesi kitabın **tamamı** dizilerek yeniden
+kuruldu ve **değişmedi: 436 sayfa**. `.gate` → `phase3`, etiket
+`v0.5.0`. **Proza depoda değildir** (karar A1/D29).
 
-> **Üslup sürüklenmesi %21,0 → %8,9 düştü** ve tek bir Faz 3 maddesi
-> üslup için açılmadı (karar D40). Ayrıntı: § 11c.
+> **Üslup sürüklenmesi %8,9 → %1,6.** D40 kapatıldı: Faz 4'ün adıyla
+> devrettiği üç kalıp kümesi 46/28/25 maddeden 1/0/1'e indi. Ayrıntı:
+> § 11c ve CHANGELOG v0.5.0.
 
-> Faz 4 beş kapı/veri kusuru buldu ve kapattı (D42–D46) ve `qa_echo`
-> **on dokuz** üslup kalıplaşması yakaladı; hepsi gerçekti.
+> **Üç editoryal geçiş yapıldı.** Düşman olgu denetimi 13 gerçek kusur
+> buldu — beş maddede prozanın gösterdiği künye kayıtta yoktu, iki
+> kaynak atfı tam metin taramasıyla çürüdü. Hepsi düzeltildi ve
+> **146 düzeltmenin tamamı defterde** (`edits.json`): id, öncesi,
+> sonrası, kategori, gerekçe.
+
+> **Ana dil editörü paketi hazır ve dışarıya verilmedi.** Kurucu emri
+> gereği Faz 5 insan işini beklemedi: metin, brifing ve işaretli
+> bölümler `editor_pack.py` ile üretiliyor.
 
 > Güncel ölçüm: [`BOOK_STATS.md`](../BOOK_STATS.md) ·
 > kapsam kararları: [`SCOPE_DECISIONS.md`](SCOPE_DECISIONS.md) ·
 > kaynak ölçütü: [`SOURCING_STANDARD.md`](SOURCING_STANDARD.md) ·
 > açılış planları: [`KIN_OPENINGS.md`](KIN_OPENINGS.md)
+
+### Faz 5 · Definition of Done
+
+| # | Ölçüt | Durum |
+|---|---|---|
+| 1 | 112/112 madde, bütün metin kapıları 0 başarısız | ✅ |
+| 2 | Bütün açılışlar (6 sınıf + 8 karşılaştırma) | ✅ |
+| 3 | Ön ve arka maddenin tamamı, sayfa slotu içinde | ✅ 20 sayfa içerik / 26 slot |
+| 4 | 112 plaka doğrulandı, normalize edildi, bütçede | ✅ |
+| 5 | Düşman olgu denetimi ve itiraz listesi | ✅ `factcheck.py` · 13 kusur · hepsi düzeltildi |
+| 6 | Bütün düzeltmeler programatik kayıtta | ✅ `edits.json` · 146 kayıt |
+| 7 | Üslup uyumlama (D40) | ✅ sürüklenme %1,6 |
+| 8 | Sayfa bütçesi tam kitapla yeniden doğrulandı | ✅ 436, değişmedi |
+| 9 | Ana dil editörü paketi | ✅ üretildi · ⏳ insan geçişi bekliyor |
+| 10 | CI yeşil, merge, `v0.5.0` | ✅ |
 
 ### Faz 4 · Definition of Done
 
@@ -592,7 +613,7 @@ soru değildir.** Tam gerekçeler: `CHANGELOG.md` D39–D41.
 |---|---|---|
 | **A · İllüstrasyon** | Ham AI plaka üretimi **kurucunun sorumluluğudur** ve **Faz 5'ten önce** tamamlanacaktır. Faz 4 bu yüzden bloklanmaz. | Hat bekleme durumunda **hazır** tutulur ve bozulmaz. Plakaya bağlı Definition of Done maddeleri açık kalır ve sebebi yazılır. |
 | **B · Üslup sürüklenmesi** | Mevcut sürüklenme (%21) Faz 4'te **düzeltilmez**. Faz 3 metni yeniden yazılmaz. | `qa_drift` düzenli koşar (her beş maddede), her ölçüm kayda geçer, artış olursa belgelenir. Düzeltme **Faz 5'in editoryal geçişine** aittir. |
-| **C · Kayıtlı vaka açığı** | Ek tarihsel araştırma turu **yapılmaz**. Davranış temelli editoryal yaklaşım sürer. | 4. bölümler yalnızca araştırma dosyasındaki malzemeden yazılır. **Tarihsel vaka uydurulmaz, örnek uydurulmaz.** Konu gelecek bir baskıda yeniden açılabilir; not Faz 5'te. |
+| **C · Kayıtlı vaka açığı** | ⚠ **Faz 5'te GÜNCELLENDİ (D50).** Kısa ve hedefli bir tur SERBEST; kaynak hızlıca bulunmazsa DURULUR. Tur yapıldı: iki vaka bulundu, iki kaynak atfı çürüdü. | 4. bölümler yalnızca araştırma dosyasındaki malzemeden yazılır. **Tarihsel vaka uydurulmaz, örnek uydurulmaz.** Konu gelecek bir baskıda yeniden açılabilir; not Faz 5'te. |
 
 > Üçünün ortak yanı: hiçbiri bir kapıyı gevşetmiyor. Ertelenen şey
 > **düzeltme**dir, **ölçüm** değil.

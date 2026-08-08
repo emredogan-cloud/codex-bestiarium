@@ -38,6 +38,7 @@ from bestiarium import (  # noqa: E402
     SCOPE_FLOOR,
     STATUS_ORDER,
     TARGET_CREATURES,
+    EDITOR_COPY_STEM,
     TARGET_PAGES,
     TARGET_TRADITIONS,
     TARGET_WORDS,
@@ -191,9 +192,38 @@ def gather() -> dict:
              if f.endswith(".md") and not f.startswith("_")]
         )
 
+    # PLAKA SAYIMI — depo DIŞINDAKİ görüntülerin depodaki izdüşümü.
+    #
+    # Görüntüler `.gitignore`'dadır (§ ③) ve olmalıdır: 275 MB ham + 300 MB
+    # türev, hepsi tek komutla yeniden üretilebilir. Ama BOOK_STATS plaka
+    # sayısı taşıyor ve CI belgenin bayatlığını `--check` ile denetliyor.
+    # Klasörü saymak, aynı komutun yerelde ve CI'da İKİ FARKLI belge
+    # üretmesi demektir — yerelde 112, CI'da 0 — ve her plaka commit'i
+    # "bayat belge" diye kırmızı yanar.
+    #
+    # Bu tam olarak D38'in manuscript için çözdüğü sorundur ve çözüm
+    # aynıdır: DEPO VARLIĞI DEĞİL, ÖLÇÜSÜNÜ TAŞIR. `plate_manifest.json`
+    # depodadır ve hangi maddenin hangi plakaya eşlendiğini söyler; sayım
+    # oradan okunur. Klasör varsa gerçek sayı yine de ölçülür ve ikisi
+    # ayrışırsa manifesto bayattır (plate_manifest --check yakalar).
     plates = 0
-    if os.path.isdir(PLATES_DIR):
+    mpath = os.path.join(ROOT, "01_SOURCE", "plate_manifest.json")
+    if os.path.exists(mpath):
+        with open(mpath, encoding="utf-8") as fh:
+            plates = sum(1 for e in json.load(fh).get("entries", [])
+                         if e.get("rawFile"))
+    elif os.path.isdir(PLATES_DIR):
         plates = len([f for f in os.listdir(PLATES_DIR) if f.lower().endswith(".png")])
+
+    # Ön/arka maddenin ÖLÇÜSÜ. Aynı sözleşme: dosyanın tek yazarı
+    # `matter_page.py`'dir, burası yalnızca OKUR. Yoksa sıfır — ölçüm
+    # yapılmamış demektir ve tahmin edilmez.
+    matter = {"sections": [], "pagesUsed": 0, "pagesBudget": 0,
+              "structuralPages": 0}
+    xpath = os.path.join(ROOT, "01_SOURCE", "matter_measurement.json")
+    if os.path.exists(xpath):
+        with open(xpath, encoding="utf-8") as fh:
+            matter = json.load(fh)
 
     sourced = sum(
         1 for c in creatures
@@ -241,6 +271,7 @@ def gather() -> dict:
         "by_status": by_status,
         "by_class": by_class,
         "by_kin": by_kin,
+        "matter": matter,
         "by_region": by_region,
         "verified": verified,
         "written": written,
@@ -329,6 +360,29 @@ def render_stats(d: dict) -> str:
     A("ölçülen 6×9 · 11,2/15,6 pt dizgi yoğunluğu). Gerçek değer dizgi")
     A("çalıştırılınca `04_PRINT/` çıktısından okunur — model değil ölçüm geçerlidir.")
     A("")
+
+    m = d["matter"]
+    if m.get("sections"):
+        A("### Ön ve arka madde — GERÇEK dizgiden ölçüldü")
+        A("")
+        A("Bu tablodaki sayfa sayısı bir model değil, `matter_page.py`'nin")
+        A("gerçekten dizip saydığı değerdir. **Slot**, BRIEF § 7'nin sayfa")
+        A("bütçesinden gelir ve bir TAVANDIR.")
+        A("")
+        A("| Bölüm | Kelime | Sayfa | Slot |")
+        A("|---|---:|---:|---:|")
+        for r in m["sections"]:
+            A(f"| `{r['key']}` | {r['words']:,} | {r['pages']} | "
+              f"{r['budget']} |".replace(",", "."))
+        A(f"| **Toplam** | **{sum(r['words'] for r in m['sections']):,}** | "
+          f"**{m['pagesUsed']}** | **{m['pagesBudget']}** |".replace(",", "."))
+        A("")
+        A(f"Fark ({m['pagesBudget'] - m['pagesUsed']} sayfa) israf değildir:")
+        A("her bölüm tek sayfadan (recto) başlar, tek sayfada biten bölüm")
+        A("arkasına boş bir sayfa bırakır. Yapısal ön madde (başlık, künye,")
+        A(f"ithaf, içindekiler, gelenek haritası) ayrıca "
+          f"**{m['structuralPages']} sayfadır**.")
+        A("")
 
     A("## 2. Kapsam kapıları")
     A("")
@@ -485,6 +539,11 @@ def phase_progress(d: dict, phase: dict) -> tuple[int, int, str]:
     # provası bir ÖLÇÜM artefaktıdır, yayın dosyası değil. Sayılırsa Faz 6
     # ilerlemesi %25 görünür ve — daha kötüsü — belge, provanın üretildiği
     # makinede üretildiğine göre değişir; CI'da bayat sanılır.
+    #
+    # AYNI KUSUR İKİNCİ KEZ: editörün ÇALIŞMA kopyası (`editor_pack.py`)
+    # da `02_MANUSCRIPT` altında bir DOCX bırakıyor ve yayın dosyası
+    # değil. Faz 5'te CI'yı bir kez kırmızı yaktı. Ad tek yerden gelir:
+    # `bestiarium.EDITOR_COPY_STEM`.
     formats = 0
     checks = [
         ("04_PRINT", ".pdf"), ("05_KINDLE", ".epub"),
@@ -497,7 +556,8 @@ def phase_progress(d: dict, phase: dict) -> tuple[int, int, str]:
             continue
         for dirpath, dirnames, fs in os.walk(p):
             dirnames[:] = [d for d in dirnames if d not in skip_dirs]
-            if any(f.lower().endswith(ext) for f in fs):
+            if any(f.lower().endswith(ext)
+                   and not f.startswith(EDITOR_COPY_STEM) for f in fs):
                 formats += 1
                 break
     return formats, len(checks), "üretilmiş yayın dosyası ailesi"

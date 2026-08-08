@@ -27,7 +27,7 @@
 - **Künye:** John Batchelor, *The Ainu and Their Folk-Lore* (Londra: Religious Tract Society, 1901)
 - **Erişim:** archive.org/details/b29010664 — tam metin okundu
 - **Yer:** Bölüm II — "The Pit-dwellers and Causes of Ainu Decrease"
-- **Not:** Bölüm başlığı ve alıntı dijital tam metinden birebir okundu.
+- **Not:** Bölüm başlığı ve alıntı dijital tam metinden birebir okundu. Faz 5 turunda aynı bölümden İKİNCİ bir kayıt daha çıkarıldı: Batchelor yaprağı KENDİSİ ölçmüş — 'The largest burdock leaf I have ever seen on the island measured 4 feet 1 inch across when spread out, while the length of the stem was a good bit over 5 feet.' Ayrıca ikinci bir rivayet kaydediyor: cüceler bir iki kadem daha uzun, ve bir yaprağın altına beş ila on kişi sığınıyor.
 - **İlgili alıntı:**
 
   > ten of them could easily take shelter beneath one burdock leaf
@@ -59,13 +59,14 @@
 > Yalnızca kaynakta geçen özellikler. Bu bölüm hem maddenin 3. bölümünü
 > hem de plaka promptunu besler.
 
-- Çok küçük; Batchelor'a göre onu bir devetabanı yaprağının altına sığar
+- Çok küçük; Batchelor'ın kaydında bir 'burdock' yaprağının altına on kişi sığar
+- Batchelor'ın ölçtüğü yaprak: 4 kadem 1 parmak eninde, sapı 5 kademden uzun
 - Çukur evlerde (pit-dwelling) yaşar
 
 ## 5. Davranış ve kayıtlı vaka
 
 - **Ne yapar:** Ainu'dan önce adada yaşamış sayılır; çukur evleri ve taş aletleri onlara atfedilir. Balık bırakıp görünmeden kaybolduğu anlatılır.
-- **Kayıtlı vaka:** Faz 3'te Batchelor Bölüm II'den doğrudan okunacak.
+- **Kayıtlı vaka:** Batchelor 1901, II. bölüm: derleyicinin KENDİ ölçümü. Ainu'dan 'onu bir yaprağın altına sığar' kaydını aldıktan sonra adada gördüğü en büyük yaprağı ölçüyor — açıldığında 4 kadem 1 parmak (yaklaşık 125 cm) eninde, sapı 5 kademden (yaklaşık 150 cm) uzun. Yani ölçü bir abartı değil, saha derleyicisinin sınadığı bir karşılaştırmadır. Batchelor ilk rivayetin 'büyük bir abartı' olduğunu kendisi söyler ve bir iki kadem daha uzun cücelerin geçtiği ikinci rivayeti de yanına koyar.
 - **Karşı önlem:** Kaynakta doğrulanmış karşı önlem yok.
 
 ## 6. Varyantlar
@@ -102,6 +103,8 @@ Kaydedilmedi.
 
 - Gizli halk ailesinin (H) Doğu Asya üyesi — Huldufólk ve Ulda ile yan yana.
 - Ayrışma noktası: Huldufólk hâlâ YANIBAŞIMIZDA, Koropokkuru ÖNCEKİ sakin. Biri şimdiki zamanda, diğeri geçmişte gizli.
+- DİKKAT — BİTKİ ADI. Batchelor'ın İngilizcesi 'burdock' (dulavratotu, Arctium) diyor. Maddede 'butterbur' (devetabanı, Petasites japonicus / Ainu ve Japon kaynaklarındaki fuki) yazıldı. 4 kademlik yaprak fuki'ye uyar, dulavratotuna uymaz; yani düzeltme muhtemelen DOĞRUDUR ama kaynağın sözcüğü SESSİZCE değiştirilmiş olur. Kural: kaynağın dediği yazılır, ayrım gösterilir. Satır editörlüğü geçişinde ya Batchelor'ın sözcüğü kullanılacak ya da fark bir cümleyle söylenecek.
+- Faz 5 kayıtlı vaka turu: derleyicinin kendi ölçümü, 4. bölüm için kayıtlı vaka ölçütünü karşılar.
 
 ## Kontrol listesi
 

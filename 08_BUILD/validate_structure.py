@@ -78,6 +78,17 @@ SKIP_DIRS = {
     ".git", ".venv", "__pycache__", "node_modules", "09_ARCHIVE",
     "fonts", "plates_raw", "plates", "plates_print", "exports", "proofs",
     "fixtures",
+    # 02_MANUSCRIPT üretilmiş PROZA dışa aktarımıdır (editör paketi) ve
+    # `.gitignore`'dadır. Buradaki terminoloji ve tipografi kuralları
+    # BELGELERİN tek sesle konuşması için yazıldı; prozanın kendi kapıları
+    # ayrıdır (qa_voice · qa_echo · qa_diacritics · qa_style) ve onlar bu
+    # metni zaten denetliyor.
+    #
+    # BU BİR GEVŞETME DEĞİLDİR ve kanıtı şudur: manuscript sızıntısı
+    # denetimi `walk_files()` kullanmaz, `_tracked_files()` kullanır —
+    # yani git'in TAKİP ETTİĞİ dosyalara bakar. Buraya eklenen bir dizin
+    # o denetimin görüş alanını değiştirmez.
+    "02_MANUSCRIPT",
 }
 
 TEXT_EXT = {".md", ".py", ".json", ".yml", ".yaml", ".html", ".txt", ".sh",

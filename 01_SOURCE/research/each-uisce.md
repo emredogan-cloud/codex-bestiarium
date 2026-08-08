@@ -22,21 +22,37 @@
 > — ≥2 bağımsız kaynak, en az biri `primary`/`scholarly`, en az birinin
 > doğrulaması `fulltext`/`toc`. Motif dizini bağımsız kaynak **sayılmaz**.
 
-### Kaynak 1 · `primary` · doğrulama `canon`
+### Kaynak 1 · `primary` · doğrulama `fulltext`
 
-- **Künye:** Thomas Crofton Croker, *Fairy Legends and Traditions of the South of Ireland* (Londra: John Murray, 1825)
-- **Yer:** II. cilt
+- **Künye:** J. F. Campbell, *Popular Tales of the West Highlands*, 4 cilt (Edinburgh: Edmonston & Douglas, 1860–62)
+- **Erişim:** archive.org/details/populartalesofwe05camp (II. cilt) — tam metin tarandı
+- **Yer:** II. cilt, 190–194: “The Water Horse”, Rev. Thomas Pattieson'ın Islay'den yazdığı anlatı; dizin girdisi “Each uisge, i. lxxxvi.; ii. 194”
+- **Not:** Campbell kelpie ile each uisge'yi AÇIKÇA özdeşleştiriyor (II.194) ve Gaelic'te 'kelpie'ye kaynaklık edecek bir sözcük bulunmadığını söylüyor. Aynı ciltte kendi çağdaş tanıklığı da var: “An Islay pilot told me this year that water-horses still haunt a glen near the island.”
+- **İlgili alıntı:**
 
-### Kaynak 2 · `scholarly` · doğrulama `catalog`
+  > he is the same as Each uisge
+
+### Kaynak 2 · `primary` · doğrulama `fulltext`
+
+- **Künye:** W. B. Yeats, yay. haz., *Fairy and Folk Tales of the Irish Peasantry* (Londra: Walter Scott, 1888)
+- **Erişim:** archive.org/details/fairyfolktalesof00yeatuoft — tam metin tarandı
+- **Yer:** Giriş denemesi, “The Trooping Fairies”
+- **Not:** İRLANDA tarafının doğrulanmış tek yer-kesin tanıklığı. Yeats adı verir ve su atıyla ÖZDEŞLEŞTİRİR; bir vaka anlatmaz. Madde bundan fazlasını Yeats'e yüklememelidir.
+- **İlgili alıntı:**
+
+  > Besides these are divers monsters — the Augh-iska, the Water-horse, the Payshtha (piast=bestia), the Lake-dragon, and such like ; but whether these be animals, fairies, or spirits, I know not.
+
+### Kaynak 3 · `scholarly` · doğrulama `catalog`
 
 - **Künye:** Katharine Briggs, *A Dictionary of Fairies* (Londra: Allen Lane, 1976)
+- **Not:** KARACİĞER AYRINTISININ KAYNAĞI BURASIDIR — Campbell'da yoktur. Bkz. writingNotes.
 
-### Kaynak 3 · `reference` · doğrulama `sv`
+### Kaynak 4 · `reference` · doğrulama `sv`
 
 - **Künye:** Carol Rose, *Giants, Monsters, and Dragons: An Encyclopedia of Folklore, Legend, and Myth* (Santa Barbara: ABC-CLIO, 2000)
 - **Yer:** s.v. “Each Uisge”
 
-### Kaynak 4 · `index` · doğrulama `fulltext`
+### Kaynak 5 · `index` · doğrulama `fulltext`
 
 - **Künye:** Stith Thompson, *Motif-Index of Folk-Literature*, gözden geçirilmiş baskı (Bloomington: Indiana University Press, 1955–58)
 
@@ -51,7 +67,7 @@
 ## 3. Coğrafya ve ilk kayıt
 
 - **Bölge:** Ériu ve Alba; Connacht gölleri, Hebrides deniz gölleri
-- **İlk kayıt (attested):** Croker, *Fairy Legends* (1825); 19. yy Highland derlemeleri
+- **İlk kayıt (attested):** Campbell, *Popular Tales of the West Highlands* (1860–62), II. cilt; Yeats (1888) İrlanda adını kaydeder
 
 ## 4. Fiziksel tarif
 
@@ -65,7 +81,7 @@
 ## 5. Davranış ve kayıtlı vaka
 
 - **Ne yapar:** Kıyıda binilmeyi bekler. Binildiğinde suya koşar; İskoçya kaydında biniciyi yer, karaciğerini kıyıya bırakır.
-- **Kayıtlı vaka:** Faz 3'te kaynaktan doğrudan okunacak.
+- **Kayıtlı vaka:** Campbell II.190–192, Rev. Thomas Pattieson'ın Islay'den yazdığı anlatı: Rhinns of Islay açığındaki küçük adada bir kadın sürüyle yalnız bırakılır — arkadaşı fırtına yüzünden anakaradan dönemez. Kulübenin çevresinde canlı sesleri duyar, açık bıraktığı pencerede iri yuvarlak bir çift göz ve alçak bir gülüş. Dışarı fırlar, yatan ineklerden birini kaldırıp yerine kendisi yatar ve çevresine bir çember çizer. Sabah kadın sağdır; yerinden kaldırdığı inek ölüdür. Campbell aynı sayfalarda kendi çağdaş tanıklığını da verir: bir Islay kılavuzu ona O YIL su atlarının adanın yakınındaki bir vadiye hâlâ uğradığını, orada zincir sesleri duyulduğunu söylemiştir.
 - **Karşı önlem:** —
 
 ## 6. Varyantlar
@@ -101,7 +117,9 @@ Kaydedilmedi.
 ## 10. Yazım notları
 
 - Su atı ailesinin (A) çıpası ve kitabın vitrin maddesi.
-- Karaciğerin kıyıya vurması: somut, sınanabilir, unutulmaz ayrıntı.
+- DÜZELTME (Faz 5 · kayıtlı vaka turu). Tohumdan gelen Croker 1825 künyesi İÇERİK DÜZEYİNDE ÇÜRÜTÜLDÜ. Croker'ın DÖRT cildi tam metin tarandı (1825/1828/1834 baskıları, II. cilt dahil): 'water-horse', 'aughisky', 'each-uisce' ve 'kelpie' HİÇBİRİ geçmiyor. Croker'ın İrlanda su varlıkları Merrow ve Phooka'dır. Künye kaldırıldı; yerine tam metinden doğrulanmış Campbell ve Yeats kondu.
+- KARACİĞER AYRINTISI CAMPBELL'DA YOKTUR. Campbell'ın dört cildinde 'liver' geçen üç yer de başka anlatılara aittir. Ayrıntı Briggs (1976) ve Rose (2000) üzerinden bilinir. Madde bu ayrıntıyı '19. yy Highland derlemeleri'ne YÜKLEYEMEZ; kaynak notu Briggs'i göstermelidir.
+- Campbell (II.194) kelpie ile each uisge'yi özdeşleştirir — iki ad, tek yaratık.
 
 ## Kontrol listesi
 

@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-07** · dal `faz/4-genisleme` · son etiket `v0.3.0` · 64 commit
+> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 85 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
@@ -19,10 +19,10 @@ hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
 | Telaffuz alanı dolu | 112 | 112 | `████████████████████████` %100 |
 | Çapraz referansı olan madde | 112 | 112 | `████████████████████████` %100 |
 | Kısıtlılık taraması · zorunlu (yaşayan gelenek) | 35 | 35 | `████████████████████████` %100 |
-| Yazılmış madde | 88 | 112 | `███████████████████░░░░░` %79 |
-| Normalize plaka | 0 | 112 | `░░░░░░░░░░░░░░░░░░░░░░░░` %0 |
-| Kelime (yazılmış) | 65,911 | 78,400 | `████████████████████░░░░` %84 |
-| Tahmini sayfa | 254 | 436 | `██████████████░░░░░░░░░░` %58 |
+| Yazılmış madde | 112 | 112 | `████████████████████████` %100 |
+| Normalize plaka | 112 | 112 | `████████████████████████` %100 |
+| Kelime (yazılmış) | 88,960 | 78,400 | `███████████████████████████` %113 |
+| Tahmini sayfa | 342 | 436 | `███████████████████░░░░░` %78 |
 
 Kısıtlılık taraması yalnızca `LIVING_TRADITIONS` geleneklerinde
 **zorunludur**; toplam 44 maddede yapıldı — 9 tanesi gönüllü. Zorunlu olmayan
@@ -31,6 +31,28 @@ bir taramayı yapmak serbesttir; zorunlu olanı atlamak kapıyı kırar.
 Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 ölçülen 6×9 · 11,2/15,6 pt dizgi yoğunluğu). Gerçek değer dizgi
 çalıştırılınca `04_PRINT/` çıktısından okunur — model değil ölçüm geçerlidir.
+
+### Ön ve arka madde — GERÇEK dizgiden ölçüldü
+
+Bu tablodaki sayfa sayısı bir model değil, `matter_page.py`'nin
+gerçekten dizip saydığı değerdir. **Slot**, BRIEF § 7'nin sayfa
+bütçesinden gelir ve bir TAVANDIR.
+
+| Bölüm | Kelime | Sayfa | Slot |
+|---|---:|---:|---:|
+| `introduction` | 2.487 | 7 | 8 |
+| `how-to-read` | 1.392 | 5 | 6 |
+| `epilogue` | 1.029 | 4 | 4 |
+| `about-author` | 177 | 1 | 2 |
+| `series` | 197 | 1 | 2 |
+| `review-call` | 170 | 1 | 2 |
+| `colophon` | 261 | 1 | 2 |
+| **Toplam** | **5.713** | **20** | **26** |
+
+Fark (6 sayfa) israf değildir:
+her bölüm tek sayfadan (recto) başlar, tek sayfada biten bölüm
+arkasına boş bir sayfa bırakır. Yapısal ön madde (başlık, künye,
+ithaf, içindekiler, gelenek haritası) ayrıca **14 sayfadır**.
 
 ## 2. Kapsam kapıları
 
@@ -44,8 +66,8 @@ Sayfa tahmini **260 kelime/sayfa** ile hesaplanır (Codex Mythologica'nın
 | Durum | Madde | Pay |
 |---|---:|---:|
 | `draft` | 0 | %0 |
-| `verified` | 24 | %21 |
-| `written` | 88 | %79 |
+| `verified` | 0 | %0 |
+| `written` | 112 | %100 |
 | `edited` | 0 | %0 |
 | `final` | 0 | %0 |
 
@@ -131,11 +153,11 @@ Aileye bağlı madde: **59/112** · bağımsız madde: 53
 
 | Ölçü | Değer |
 |---|---:|
-| Yazılmış madde | 88 |
-| Ortalama | 683 kelime |
-| En kısa | 639 |
+| Yazılmış madde | 112 |
+| Ortalama | 677 kelime |
+| En kısa | 621 |
 | En uzun | 752 |
-| Bantta (620–790) | 88/88 |
+| Bantta (620–790) | 112/112 |
 
 ---
 

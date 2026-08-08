@@ -68,9 +68,19 @@ esac
 # referansları araştırma dosyalarına basar, update_docs ikisini de ölçer.
 if [ "$FIX" = "1" ]; then
   $PY 08_BUILD/classify.py >/dev/null
+  # Editoryal defter → book-edited.json. `load_book()` varsa düzeltilmiş
+  # metni tercih eder, yani BÜTÜN kapılar düzeltilmiş metni denetler.
+  $PY 08_BUILD/edits.py --apply >/dev/null 2>&1 || true
   $PY 08_BUILD/research_gen.py >/dev/null
   $PY 08_BUILD/make_index.py --gate "$IDX_GATE" >/dev/null
   $PY 08_BUILD/make_prompts.py
+  $PY 08_BUILD/editor_pack.py >/dev/null 2>&1 || true
+  # SIRA: ön/arka madde ölçüsü BOOK_STATS'ın girdisidir. update_docs'tan
+  # SONRA ölçülürse belge kendi girdisinden eski kalır ve "bayat belge"
+  # kapısı, hiçbir şey bozulmamışken kırmızı yanar. Bir kez yaşandı.
+  FIX_PY="$PY"
+  [ -x "08_BUILD/.venv/bin/python" ] && FIX_PY="08_BUILD/.venv/bin/python"
+  $FIX_PY 08_BUILD/matter_page.py --measure >/dev/null 2>&1 || true
   $PY 08_BUILD/update_docs.py
 fi
 
@@ -89,6 +99,8 @@ else
 fi
 run "araştırma ↔ spec"           $PY 08_BUILD/research_gen.py --check
 run "tasnif ↔ spec"               $PY 08_BUILD/classify.py --check
+run "editoryal defter ↔ metin"    $PY 08_BUILD/edits.py --check
+run "düşman olgu denetimi"        $PY 08_BUILD/factcheck.py --quiet --json 06_REPORTS/adversarial-review.json
 run "spec şeması"                 $PY 08_BUILD/validate_spec.py --gate "$GATE" --json 06_REPORTS/spec-validation.json
 run "depo ve belge bütünlüğü"     $PY 08_BUILD/validate_structure.py --json 06_REPORTS/structure.json
 run "kalite kapılarının testi"    $PY 08_BUILD/tests/selftest.py
@@ -96,6 +108,10 @@ run "kelime bandı"                $PY 08_BUILD/qa_length.py --sections --json 0
 run "ses ve yasak kalıp"          $PY 08_BUILD/qa_voice.py --json 06_REPORTS/qa-voice.json
 run "üslup sürüklenmesi"          $PY 08_BUILD/qa_drift.py --json 06_REPORTS/qa-drift.json
 run "tekrar taraması"             $PY 08_BUILD/qa_echo.py --json 06_REPORTS/qa-echo.json
+# Üslup uyumlama ÖLÇÜMÜ — kapı değil (D25/D47 içtihadı ve kurucunun Faz 5
+# emri: "sayıyı yapay olarak küçültme"). qa_echo'nun göremediği kalıpları
+# sayar ve her koşuda rapora yazar; kırmızı yakmaz.
+run "üslup uyumlama ölçümü"       $PY 08_BUILD/qa_style.py --json 06_REPORTS/qa-style.json
 run "diakritik"                   $PY 08_BUILD/qa_diacritics.py --json 06_REPORTS/qa-diacritics.json
 # Plaka ölçümünün KENDİ testi. Pillow ve numpy ister; venv yoksa ATLANIR
 # (çıkış 2). CI'da (plates.yml · calibration) bağımlılıklar kurulu olduğu
@@ -137,16 +153,66 @@ if ls 07_ASSETS/fonts/*.ttf >/dev/null 2>&1; then
     2) echo "ATLANDI: reportlab yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
     *) FAILED+=("madde sayfası prova dizgisi") ;;
   esac
+  # Ön ve arka madde de sayfa bütçesinin parçasıdır (BRIEF § 7: giriş 8 ·
+  # nasıl okunur 6 · sonsöz 4 · arka madde 8). Maddeler ölçülüp bu bölümler
+  # ölçülmezse bütçenin 26 sayfası denetimsiz kalır.
+  $CAL_PY 08_BUILD/matter_page.py --check
+  case $? in
+    0) echo "[  ok ] ön/arka madde sayfa bütçesi" ;;
+    2) echo "ATLANDI: ön/arka madde henüz yazılmadı veya reportlab yok" ;;
+    *) FAILED+=("ön/arka madde sayfa bütçesi") ;;
+  esac
 else
   echo "ATLANDI: font yok — ./08_BUILD/bootstrap.sh çalıştırın"
 fi
 
-run "plaka tutarlılığı"           $PY 08_BUILD/plates.py --measure
-run "plaka formatları"            $PY 08_BUILD/convert_plates.py --check
+# Plaka adımları GÖRÜNTÜ KÜTÜPHANESİ ister. Yukarıdaki kalibrasyon
+# adımlarıyla aynı sözleşme: venv varsa onunla koş, çıkış 2 = ATLANDI.
+# Faz 5'e kadar bu adımlar plaka olmadığı için sessizce geçiyordu; 112
+# plaka gelince Pillow'suz bir makinede kırmızı yanmaya başladılar.
+# Eksik bir isteğe bağlı bağımlılık, kalite düşüşüyle aynı sinyali
+# vermemelidir (aynı gerekçe: Faz 2 · D-sürüm kapısı).
+plate_step () {
+  local name="$1"; shift
+  echo
+  echo "──────────────────────────────────────────────────────────────────────"
+  echo "▸ $name"
+  echo "──────────────────────────────────────────────────────────────────────"
+  $CAL_PY "$@"
+  case $? in
+    0) ;;
+    2) echo "ATLANDI: Pillow/numpy yok — ./08_BUILD/bootstrap.sh çalıştırın" ;;
+    *) FAILED+=("$name") ;;
+  esac
+}
+
+plate_step "plaka manifestosu"     08_BUILD/plate_manifest.py --check
+plate_step "plaka tutarlılığı"     08_BUILD/plates.py --measure
+plate_step "plaka formatları"      08_BUILD/convert_plates.py --check
 run "kin-images chart"            $PY 08_BUILD/make_kin_chart.py --check
+# Editör teslim paketinin ÖLÇÜSÜ güncel mi. Metin yoksa çıkış 2 = ATLANDI
+# (CI'da proza bulunmaz); aynı sözleşme.
+echo
+echo "──────────────────────────────────────────────────────────────────────"
+echo "▸ editör teslim paketi"
+echo "──────────────────────────────────────────────────────────────────────"
+$PY 08_BUILD/editor_pack.py --check
+case $? in
+  0) ;;
+  2) echo "ATLANDI: metin yok — teslim paketi yazımdan sonradır" ;;
+  *) FAILED+=("editör teslim paketi") ;;
+esac
+
 run "dizinler"                    $PY 08_BUILD/make_index.py --gate "$IDX_GATE"
 run "üretilen belgeler güncel"    $PY 08_BUILD/update_docs.py --check
-run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py --check
+run "prompt kütüphanesi güncel"   $PY 08_BUILD/make_prompts.py
+  $PY 08_BUILD/editor_pack.py >/dev/null 2>&1 || true
+  # SIRA: ön/arka madde ölçüsü BOOK_STATS'ın girdisidir. update_docs'tan
+  # SONRA ölçülürse belge kendi girdisinden eski kalır ve "bayat belge"
+  # kapısı, hiçbir şey bozulmamışken kırmızı yanar. Bir kez yaşandı.
+  FIX_PY="$PY"
+  [ -x "08_BUILD/.venv/bin/python" ] && FIX_PY="08_BUILD/.venv/bin/python"
+  $FIX_PY 08_BUILD/matter_page.py --measure >/dev/null 2>&1 || true --check
 
 echo
 echo "════════════════════════════════════════════════════════════════════════"

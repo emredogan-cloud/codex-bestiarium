@@ -15,7 +15,124 @@ sayılar, açık kalanlar.
 ## [Yayımlanmamış]
 
 ### Sıradaki
-- Faz 5 · Tamamlama (Gök ve Fırtına, Huzursuz Ölüler + editoryal inceleme) — **kurucu onayı bekliyor**
+- Faz 6 · Üretim, KDP ve Lansman — **kurucu onayı bekliyor**
+
+---
+
+## [0.5.0] — 2026-08-08
+
+**FAZ 5 TAMAMLANDI.** Sınıf V (Gök ve Fırtına, 16) ve sınıf VI (Huzursuz
+Ölüler, 8) yazıldı: **24 madde**, son üç açılış, bütün ön ve arka madde,
+üç editoryal geçiş. Kitabın metni bitti.
+
+| | |
+|---|---:|
+| Madde | **112 / 112** |
+| Sınıf açılışı | **6 / 6** |
+| Karşılaştırma açılışı | **8 / 8** |
+| Ön/arka madde bölümü | **7 / 7** |
+| Normalize plaka | **112 / 112** |
+| Toplam kelime | **88.960** |
+| Sayfa (ölçüldü) | **436 / 436** |
+
+### Ölçülenler
+
+| Ölçü | Değer | Kapı |
+|---|---:|---|
+| Madde içeriği (dizgiden) | en az 2,018 · ort 2,134 · en çok 2,273 sayfa | 2,0–3,0 ✅ |
+| Faturalanan madde sayfası | 336 | bütçe 336 ✅ |
+| Ön/arka madde (dizgiden) | 20 sayfa içerik, 26 slot | ✅ |
+| Üslup sürüklenmesi | eğim **+0,012/madde** · toplam **%+1,6** | ✅ |
+| Kitap cümle ortalaması | 14,9 | 14–18 ✅ |
+| qa_all adım sayısı | **28** | hepsi yeşil |
+| Editoryal düzeltme | **146** kayıt · 81 madde | defterde |
+
+### Sayfa bütçesi — TAM KİTAP ölçüldü, 436 değişmedi
+
+Faz 2 provadan tahmin etmişti, Faz 4 88 maddeyle doğrulamıştı. Faz 5
+kitabın **tamamını** dizdi ve bütçeyi bileşen bileşen yeniden kurdu:
+
+| Bölüm | Sayfa | Kaynağı |
+|---|---:|---|
+| Maddeler (112 × 3) | 336 | `entry_page --measure-all` ÖLÇTÜ |
+| Sınıf açılışı (6 × 2) | 12 | tasarım |
+| Karşılaştırma açılışı (8 × 2) | 16 | tasarım |
+| Ön/arka madde prozası | 26 | `matter_page --measure` ÖLÇTÜ |
+| Yapısal ön madde | 14 | tasarım |
+| Dizinler | 22 | üretilir |
+| Kaynaklar | 10 | üretilir |
+| **Toplam** | **436** | bütçe **436** · fark **0** |
+
+Ön/arka maddenin gerçek içeriği 20 sayfa, slotu 26. Aradaki altı sayfa
+israf değildir: her bölüm recto'dan başlar ve tek sayfada biten bölüm
+arkasına boş sayfa bırakır. **Fiyat ve telif tablosu değişmedi** —
+BRIEF § 4'ün bütün rakamları 436 sayfa üzerinden hesaplanmıştı.
+
+### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D47 | **Üç tarama ölçümü kapı olmaktan çıkarıldı** (`plates.py`), yerine ton dağılımı kapısı | 112 plakanın tamamı tarama açısı/sıklığı kapılarında kaldı. Sebep sanatta değil ALETTE: ölçüm mekanik tramı arıyor, plakalar elle taranmış. Medyan 1,4 iken bant 22–28. D25 içtihadı: ölçemediğini kapı yapma. Yerine set medyanından 6×MAD sapan plakayı yakalayan ton kapısı kondu ve gerileme testleri yazıldı. |
+| D48 | **Plaka kapsama hedefi türetildi, seçilmedi** | Şartname kendisiyle çelişiyordu: 1:1,25 kutu + %4 güvenli kenar, istenen kapsamayı geometrik olarak imkânsız kılıyordu. Çözüm bandı gevşetmek değil, ulaşılabilir tavanı KUTU ORANINDAN türetmek oldu (`achievable_coverage`). Kapı hâlâ ısırıyor; sınandı. |
+| D49 | **Kindle ve web plakaları iki tonlu** | Ölçülen süpürme: 8 bit gri 24,8 MB, iki ton 4,7 MB. Çizgi sanatında ara ton yok; iki ton hem teslim ücretini hem de 900 px şartname genişliğini kurtarıyor. |
+| D50 | **Kayıtlı vaka açığı için KISA ve HEDEFLİ bir tur yapıldı** | Kurucu C kararını Faz 5'te güncelledi. Tur yapıldı, sınırı önceden kondu: kaynak hızlıca bulunmuyorsa aranmaz. Altı maddeye bakıldı; iki vaka bulundu (Kappa · Tōno monogatari 58 · adı geçen ırmak, gölet, hane ve köy meclisi kararı — Koropokkuru · Batchelor'ın kendi yaprak ölçümü), **iki kaynak atfı çürüdü** (Croker each-uisce'de yok; Skeat'in pontianak'ı langsuir'ın ölü doğan çocuğu), ikisinde arama durduruldu. Turun asıl getirisi vaka değil, kusur oldu. |
+| D51 | **Ölçü dosyalarının TEK yazarı vardır** | `matter_page.py` ölçüyü önce `manuscript_metrics.json`'a yazıyordu; `update_docs` her koşuda siliyordu — iki yazar, tek dosya, sessiz kayıp. Plaka manifestosuyla aynı sözleşmeye çevrildi: ölçüyü ölçen betik kendi dosyasına yazar (`01_SOURCE/matter_measurement.json`), diğerleri yalnızca okur. |
+| D52 | **Düşman olgu denetimi mekanizmaya çevrildi** (`factcheck.py`) | Yol haritası bunu ayrı bir okuma oturumu olarak istiyor ve o okumanın yerini betik tutmaz. Ama okumanın ÖNÜNE konan tarama, prozanın kaydın ötesine geçtiği yeri bulur: dayanaksız tarih, atıf konumunda kayıtta olmayan soyadı, maddenin listesinde olmayan motif kodu, aileyle ayrışan sayı. İlk koşuda 67 itiraz; 54'ü aracın kendi kusuruydu ve **araç** düzeltildi, metin değil. Kalan 13'ü gerçekti. İstisnalar `factcheck_allow.json`'da ve **gerekçesiz satır kabul edilmiyor**. |
+| D53 | **Bütün düzeltmeler defterde; kapılar düzeltilmiş metni denetler** | `01_SOURCE/edits.json` → `book-edited.json`. `before` alanı bir sınamadır: metin defterden sonra değiştiyse eşleşme tutmaz ve kapı kırmızı yanar. `load_book()` düzeltilmiş metni tercih ettiği için bütün kapılar onu görür. Defter HAM metni okur, kendi ürettiğini değil. Depoda kalan `edits_summary.json` — kategori sayıları, proza yok. |
+| D54 | **Üslup uyumlama bir ÖLÇÜMDÜR, kapı değil** (`qa_style.py`) | `qa_echo` sekiz kelimelik birebir tekrarı arar; sürüklenme oradan geçer, çünkü yazar aynı cümleyi değil aynı KALIBI kurar. Yeni betik şablonları ve madde içi tekrarı sayar. Kapı yapılmadı: kurucunun emri açıktı — *"sayıyı yapay olarak küçültme."* Bir dilde tekrar eden dört kelimelik öbek kaçınılmazdır ve sıfırlamak metni bozar. D25/D47 içtihadı. |
+| D55 | **Editörün çalışma kopyası yayın dosyası sayılmaz** | `update_docs` Faz 6 ilerlemesini üretilmiş dosya ailelerinden sayıyor; editör paketinin bıraktığı DOCX bir aile işaretliyordu. Faz 6 hiç başlamamışken %25 görünüyordu ve belge ÜRETİLDİĞİ MAKİNEDE değişiyordu — CI her push'ta haklı olarak "bayat" diyordu. Ad tek doğruluk kaynağına taşındı (`bestiarium.EDITOR_COPY_STEM`). Aynı kusur `04_PRINT/PROOF` için bir kez yaşanmıştı. |
+| D56 | **Paragraf sonu bir cümle sonudur** (`textutil.sentences`) | Ön maddedeki noktalamasız ara başlık, sonraki cümleye yapışıp `qa_voice`un cümle uzunluğu ölçümünü SESSİZCE bozuyordu. Kapı gevşetmesi değil ölçüm düzeltmesi ve ölçüldü: yazılmış 126 blokta cümle sayısı ve kitap ortalaması (16,5151) birebir aynı kaldı. Üç gerileme testi eklendi. |
+
+### Düşman olgu denetimi — 13 gerçek kusur
+
+| Sınıf | Sayı | Ne bulundu |
+|---|---:|---|
+| Kayıtta olmayan künye | 5 | Draugr, Sīmurgh, Aži Dahāka, Vishap ve Pontianak prozada Rose'u gösteriyordu; beşinin de kaynak kaydında Rose yok |
+| Çürüyen kaynak atfı | 2 | each-uisce'nin Croker künyesi — dört cilt tam metin tarandı, yaratık hiçbirinde geçmiyor |
+| Yanlış künye | 1 | Impundulu, Hammond-Tooke'un BAŞKA bir kitabını gösteriyordu. Gerçek bir kitabı yanlış yerde göstermek uydurma künyeyle aynı sonucu verir ve daha sinsidir |
+| Kaynak yanlış çıpalanmış | 1 | Skeat'te doğumda ölen kadın **langsuir**; pontianak onun ölü doğan çocuğu |
+| Ayrıntı kaynakla ayrışıyor | 1 | Pontianak'ın deliği sırtta değil ensede ve langsuir'a ait |
+| Atıf kesinliği | 1 | Karaciğer ayrıntısı Campbell'da yok; Briggs ve Rose'da var |
+| Aile sayısıyla ayrışma | 6 | C ailesi 14 üyeli, proza üç yerde "sekiz" diyordu; giriş ve "nasıl okunur" aile boyutlarını yanlış veriyordu |
+
+### Üslup uyumlama — D40 kapatıldı
+
+Faz 4 raporunun adıyla devrettiği üç küme ve ölçülen düşüş:
+
+| Küme | Önce | Sonra |
+|---|---:|---:|
+| Yazarın çözümleyici kalıpları | 46 madde | **1** |
+| Çapraz referans kalıbı | 28 | **0** |
+| "That is the whole of…" kalıbı | 25 | **1** |
+| Yaşayan gelenek kısıt cümlesi | 19 | **4** |
+| 5–7 kelimelik şablon (≥4 madde) | 54 | **25** |
+| Madde içi tekrar | 79 | **74** |
+
+Kalan 25 şablonun tamamı sıradan İngilizcedir. Madde içi tekrarın
+74'ünden yalnızca üçü düzeltildi: tek tek bakıldığında çoğu **kasıtlı
+koşutluktur** ve metni güçlendirir (Qilin'in tek cümledeki iki *will not
+tread on*'u, Aralez'in köpek çağrışımı, Huldufólk'un *gone/alive*
+karşıtlığı). Bunları bozmak sayıya yaranmak olurdu.
+
+### Eklenenler
+
+- `08_BUILD/matter_page.py` — ön/arka madde dizgisi ve sayfa ölçümü
+- `08_BUILD/factcheck.py` — düşman olgu denetimi
+- `08_BUILD/edits.py` — editoryal düzeltme defteri
+- `08_BUILD/qa_style.py` — üslup uyumlama ölçümü
+- `08_BUILD/editor_pack.py` — ana dil editörü teslim paketi
+- `bestiarium.MATTER_SECTIONS` — ön/arka maddenin tek doğruluk kaynağı
+- `write_entry.py --matter` · `edits.py` açılış desteği (`class/III`, `kin/D`)
+
+### Açık kalanlar
+
+| # | Konu | Durum |
+|---|---|---|
+| 1 | **Ana dil editörü geçişi** | 📦 paket hazır, dışarıya verilmedi — insan işi, Faz 5 beklemedi |
+| 2 | Dizin sayfa numaraları | ⚠ gerçek dizgi Faz 6'da; `make_index` uyarı veriyor |
+| 3 | Kindle Translate uygunluğu | ⚠ 112 plaka kapıyı kapatabilir; finansal modele dahil değil |
+| 4 | Kartveli ve Mongol tek maddeyle temsil | ⚠ kütüphane erişimi; gelecek baskı |
+| 5 | Kayıtlı vaka oranı | ⚠ D50 turu iki vaka ekledi; kayıt elverdiği kadar |
 
 ---
 

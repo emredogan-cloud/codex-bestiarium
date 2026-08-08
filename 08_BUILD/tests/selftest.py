@@ -153,6 +153,32 @@ def main() -> int:
                 print("         " + "\n         ".join(
                     proc.stdout.strip().splitlines()[-10:]))
 
+    # CÜMLE BÖLÜCÜNÜN GERİLEME TESTİ
+    # ------------------------------------------------------------------
+    # `textutil.sentences` paragraf sonunu da cümle sonu sayar. Bu, ön/arka
+    # maddedeki noktalamasız ara başlığın kendinden sonraki cümleye
+    # yapışmasını önler; yapışırsa `qa_voice`un cümle uzunluğu ölçümü
+    # SESSİZCE bozulur — kapı kırmızı yanmaz, yanlış ölçer.
+    sys.path.insert(0, BUILD)
+    from textutil import sentences as _sent  # noqa: E402
+
+    sent_cases = [
+        ("Noktalamasız ara başlık ayrı sayılır",
+         "A Book Filed by Function\n\nIt waits at the ford. The rider gets on.",
+         3),
+        ("Noktayla biten paragraf iki kez bölünmez",
+         "It waits at the ford.\n\nThe rider gets on.", 2),
+        ("Kısaltma cümleyi bölmez",
+         "Croker, Fairy Legends, vol. II; Rose (2000).", 1),
+    ]
+    for label, text, want in sent_cases:
+        got = len(_sent(text))
+        ok = got == want
+        if not ok:
+            failures += 1
+        print(f"[{'  ok ' if ok else 'FAIL'}] textutil.sentences   {label} "
+              f"(beklenen {want}, alınan {got})")
+
     print("-" * 78)
     if failures:
         print(f"BAŞARISIZ: {failures} kontrol beklendiği gibi davranmadı.")
