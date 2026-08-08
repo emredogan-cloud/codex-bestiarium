@@ -69,10 +69,12 @@ zorunlu kılar:
 | Ciltli | **37,99 $** | 10,88 $ | **11,91 $** | — |
 | Kindle | **9,99 $** | — | **~5,94 $** | — |
 
-> Bu rakamlar **436 sayfa** üzerinden hesaplandı — Faz 2'nin prova
-> dizgisinden ölçülen değer (§ 7). Önceki tablo 404 sayfa varsayıyordu.
-> Faz 6'daki tam dizgi son sözü söyleyecek; Cilt 1'de büyük punto 540 sayfa
-> modellenmiş, **578** çıkmıştı — *model değil ölçüm geçerlidir*.
+> Bu rakamlar **436 sayfa** üzerinden hesaplandı ve **Faz 5'te kitabın
+> tamamı dizilerek doğrulandı**: 336 madde + 28 açılış + 26 ön/arka madde
+> + 14 yapısal + 22 dizin + 10 kaynak = 436. Sapma sıfır, dolayısıyla
+> **birim telif ve başabaş ACOS değişmedi.** Faz 6'daki üretim dizgisi
+> son sözü söyleyecek; Cilt 1'de büyük punto 540 sayfa modellenmiş,
+> **578** çıkmıştı — *model değil ölçüm geçerlidir*.
 
 | Karar | Değer | Gerekçe |
 |---|---|---|
@@ -153,9 +155,12 @@ Her biri **≤50 karakter**. Başlıkta ve alt başlıkta geçen kelimeler
 
 ## 7. Sayfa bütçesi
 
-> **Faz 2'de yeniden dağıtıldı ve PROVA DİZGİSİYLE ölçüldü.**
-> Kaynak: `01_SOURCE/spec.json` → `meta.pageBudget` (üretilir) ·
-> ölçüm: `08_BUILD/entry_page.py --proof`.
+> **Faz 2'de yeniden dağıtıldı, Faz 5'te TAM KİTAPLA doğrulandı.**
+> Kaynak: `01_SOURCE/spec.json` → `meta.pageBudget` (üretilir).
+> Ölçüm: `entry_page.py --measure-all` (112 maddenin tamamı dizildi ·
+> faturalanan 336, bütçe 336) ve `matter_page.py --measure` (ön/arka
+> madde dizildi · 20 sayfa içerik, 26 slot).
+> **Toplam 436 — bütçeyle birebir. Fiyat ve telif tablosu değişmedi.**
 
 | Bölüm | İçerik | Madde | Sayfa |
 |---|---|---:|---:|

@@ -249,6 +249,42 @@ Bir madde "yazıldı" sayılmadan önce:
 
 ---
 
+## 8b. Üslup uyumlama — Faz 5'te yapıldı (D40)
+
+`qa_voice` ve `qa_echo` kapıdır ve ikisi de birebir eşleşme arar. Üslup
+sürüklenmesi oradan geçer: yazar aynı cümleyi değil aynı **kalıbı**
+kurar. Faz 5 bunun için ayrı bir ölçüm ekledi.
+
+```
+python3 08_BUILD/qa_style.py            # şablonlar + adlandırılmış kümeler
+python3 08_BUILD/qa_style.py --family restriction
+```
+
+**Kapı değildir ve olmayacaktır.** Bir dilde tekrar eden dört kelimelik
+öbek kaçınılmazdır; sıfırlamak metni bozar. Ölçüm, işin yapılıp
+yapılmadığını tartışılmaz kılar — hepsi bu.
+
+### Yazarken kaçınılacak dört kalıp
+
+Faz 4 bu dördünü ölçtü, Faz 5 temizledi. Yeni madde yazan herkes
+baştan kaçınmalıdır:
+
+| Kalıp | Neden |
+|---|---|
+| *"That is the whole of X."* | Bir paragraf vuruşu olarak yirmi beş maddede duyulmuştu. Doğal kullanım (*"for the whole of the night"*) serbesttir; retorik vuruş değil. |
+| *"X belongs to the same tradition and…"* · *"comes out of the same…"* · *"shares the tradition and…"* | Akraba satırının üç kalıbı. Daha kötüsü: karşılıklı çiftler birbirinin **aynadaki hâli** oluyordu. Ayrışma noktasını yaz, ilişkiyi her seferinde yeniden kur. |
+| *"What is being described is…"* · *"What X supplies is…"* · *"What can be said is…"* | Yazarın çözümleyici kalıpları. Kırk altı maddede geçiyordu. Tez cümlesi kurmak yerine olguyu yaz. |
+| *"Only published material is used here."* | **En tehlikelisi.** Yaşayan gelenek kısıt cümlesi kalıplaşırsa okur onu atlamayı öğrenir ve etik kapı sessizce işlevsizleşir. Her maddede o geleneğin **kendi** kısıtı adıyla söylenir: iyomante, inaw, yoik, siida, angakkuq, ʻohana. |
+
+### Madde içi tekrar
+
+`qa_echo` maddeler ARASINA bakar; `qa_style` madde İÇİNE de bakar. Ama
+sayının kendisi hedef değildir: ölçülen 74 tekrarın çoğu **kasıtlı
+koşutluktur** ve metni güçlendirir. Sayıyı düşürmek için kasıtlı bir
+koşutluğu bozmak, ölçüme yaranmaktır.
+
+---
+
 ## 9. Üretim disiplini
 
 **Tek seferde en fazla üç madde.**

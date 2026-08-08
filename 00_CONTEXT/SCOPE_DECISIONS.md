@@ -237,6 +237,26 @@ mülkiyetindedir ve kimin anlatabileceği kurala bağlıdır. Sonsöz'de bir
 
 ---
 
+## 7b. Faz 5 · kayıtlı vaka turu — iki künye çürüdü
+
+Kurucu C kararını Faz 5'te güncelledi (D50): kısa ve hedefli bir tur
+serbest, kaynak hızlıca bulunmazsa durulur. Altı maddeye bakıldı ve
+**kaynağın kendisi okundu, katalog kaydı değil**.
+
+| Madde | Sonuç |
+|---|---|
+| **Kappa** | ✅ vaka bulundu — *Tōno monogatari* 58, Japonca özgün tam metinden: adı geçen ırmak (小烏瀬川), gölet (姥子淵), hane (新屋) ve bir köy meclisi kararı |
+| **Koropokkuru** | ✅ vaka bulundu — Batchelor yaprağı KENDİSİ ölçmüş: 4 kadem 1 parmak eninde, sapı 5 kademden uzun |
+| **Each-uisce** | ⛔ **Croker künyesi çürüdü.** Dört cilt tam metin tarandı (1825/1828/1834, II. cilt dahil): `water-horse`, `aughisky`, `each-uisce`, `kelpie` hiçbiri geçmiyor. Croker'ın İrlanda su varlıkları Merrow ve Phooka. Yerine Campbell (1860–62, II.190–194) ve Yeats (1888) kondu |
+| **Pontianak** | ⛔ **Kaynak yanlış çıpalanmış.** Skeat'te doğumda ölen kadın **langsuir**'dır; *pontianak (mati-anak)* onun ölü doğan çocuğudur. Delik de sırtta değil ensededir ve langsuir'a aittir |
+| Tokoloshe · Strigoi | — nüsha hızlıca bulunamadı → **arama durduruldu** |
+
+**Ders kayda geçti:** katalog düzeyinde doğrulanmış bir künye, içerik
+düzeyinde doğrulanmış sayılmaz. Faz 1 bunu `verification` alanıyla
+biliyordu; Faz 5 bedelini ölçtü — altı maddede iki çürük atıf.
+
+---
+
 ## 8. Yedek aday havuzu — Faz 2 için
 
 Düşen 8 madde için yedek aranmadı: kapsam 112'de kilitlendi ve bu sayı

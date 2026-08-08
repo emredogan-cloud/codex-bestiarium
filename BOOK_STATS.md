@@ -2,7 +2,7 @@
 
 <!-- OTOMATİK ÜRETİLDİ — 08_BUILD/update_docs.py · ELLE DÜZENLEMEYİN -->
 
-> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 84 commit
+> Son ölçüm: **2026-08-08** · dal `faz/5-tamamlama` · son etiket `v0.4.0` · 85 commit
 
 Buradaki her sayı bir dosyadan ölçülmüştür. Hiçbiri elle girilmez ve
 hiçbiri tahmin değildir. Ölçülemeyen alan **—** ile gösterilir.
