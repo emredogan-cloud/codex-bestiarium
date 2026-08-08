@@ -2991,7 +2991,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Çok başlı; kesilen her başın yerine yenisi çıkan ejderha.",
       "researchFile": "01_SOURCE/research/zmey.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "domovoy",
@@ -4346,7 +4346,7 @@
       "restrictionScreened": false,
       "seedNoteTr": "Yedi başlı; her yıl kurban isteyen Bask ejderhası.",
       "researchFile": "01_SOURCE/research/herensuge.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "koropokkuru",
@@ -5741,7 +5741,7 @@
       "restrictionScreened": true,
       "seedNoteTr": "Şimşek kuşu; bir cadıya bağlı, kan isteyen.",
       "researchFile": "01_SOURCE/research/impundulu.md",
-      "status": "verified"
+      "status": "written"
     },
     {
       "id": "inkanyamba",
