@@ -56,7 +56,7 @@ zorunlu kılar:
 | Karar | Değer | Gerekçe |
 |---|---|---|
 | Trim | **6 × 9 inç** | Cilt 1 ile rafta hizalı. Normal trim (0,012 $/sayfa); 7×10 geniş trim olur ve maliyeti %42 artırır |
-| Sayfa | **436** | Faz 2 prova dizgisinden ÖLÇÜLDÜ (§ 7). Ciltside 550 üst sınırının altında; sırt ~32 mm |
+| Sayfa | **435** | Faz 6'da TAM KİTAP dizilerek ölçüldü (bütçe 436, fark −1). Ciltside 550 üst sınırının altında; sırt ~32 mm |
 | Kâğıt | **Krem** | Uzun metinde göz yorgunluğu düşük; çizgi plakalar krem üzerinde gravür hissi verir |
 | Mürekkep | **Siyah-beyaz** | Premium renkli 0,065 $/sayfa → 27,26 $ maliyet → 49,99 $+ fiyat. Gravür dili zaten renk istemiyor |
 | Kapak | **Mat** | Koyu kapakta parmak izi göstermez |
@@ -69,7 +69,12 @@ zorunlu kılar:
 | Ciltli | **37,99 $** | 10,88 $ | **11,91 $** | — |
 | Kindle | **9,99 $** | — | **~5,94 $** | — |
 
-> Bu rakamlar **436 sayfa** üzerinden hesaplandı ve **Faz 5'te kitabın
+> **Faz 6 ölçümü: 435 sayfa** (ciltsiz ve ciltli), büyük punto **599**.
+> Bütçeden bir sayfa aşağıda ve ZORLANMADI. Baskı maliyetine etkisi
+> sayfa başına 0,012 $ üzerinden 0,012 $'dır; birim telif ve başabaş
+> ACOS değişmez.
+>
+> Aşağıdaki rakamlar **436 sayfa** üzerinden hesaplandı ve **Faz 5'te kitabın
 > tamamı dizilerek doğrulandı**: 336 madde + 28 açılış + 26 ön/arka madde
 > + 14 yapısal + 22 dizin + 10 kaynak = 436. Sapma sıfır, dolayısıyla
 > **birim telif ve başabaş ACOS değişmedi.** Faz 6'daki üretim dizgisi

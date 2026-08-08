@@ -4,14 +4,31 @@
 > Hiçbir şeyi hatırladığınız varsayılmaz. Buradaki her sayı ya bir dosyadan
 > ölçülmüştür ya da bir kod satırından türetilmiştir; ikisi de gösterilmiştir.
 >
-> Son güncelleme: **8 Ağustos 2026** — Faz 5 tamamlandı
+> Son güncelleme: **8 Ağustos 2026** — Faz 6 üretim tamam, YAYIN BLOKE
 > Kök dizin: `/home/emre/Downloads/MY-DİGİTAL-BOOK/CODEX_BESTIARIUM`
 
 ---
 
 ## 1. Bir cümlede durum
 
-**Faz 5 tamamlandı ve kitabın METNİ BİTTİ.** 112/112 madde, 6/6 sınıf
+**Faz 6: dosyalar üretildi, yayın bloke.** Kitabın basılabilir
+dosyaları hazır ve doğrulandı — üç iç blok sürümü (ciltsiz 435, ciltli
+435, büyük punto 599 sayfa), reflowable Kindle EPUB (4,73 MB), DOCX
+yedeği ve gerçek sayfa numaralı dört dizin. `qa_all` 32/32.
+
+**YAYIN BEŞ NOKTADA BLOKE ve beşi de kurucuya bağlı:** kapak sanat
+eseri teslim edilmedi (`03_COVER/artwork/` boş), fiziksel prova
+sipariş edilmedi, KDP Previewer ve KDP yüklemesi hesap gerektiriyor,
+ASIN yok. Ayrıntı: [`06_REPORTS/FAZ_6_RAPORU.md`](../06_REPORTS/FAZ_6_RAPORU.md) § 9.
+
+**`v1.0.0` ATILMADI. YOL HARİTASI KAPATILMADI.** Yayın blokajı dururken
+kapanış ilan edilmez.
+
+---
+
+### Faz 5 — tamamlandı
+
+**Kitabın METNİ BİTTİ.** 112/112 madde, 6/6 sınıf
 açılışı, 8/8 karşılaştırma açılışı, 7/7 ön ve arka madde bölümü.
 Toplam **88.960 kelime**. 112 ham plaka doğrulandı, eşlendi ve
 normalize edildi. Sayfa bütçesi kitabın **tamamı** dizilerek yeniden

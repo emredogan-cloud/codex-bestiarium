@@ -14,8 +14,41 @@ sayılar, açık kalanlar.
 
 ## [Yayımlanmamış]
 
-### Sıradaki
-- Faz 6 · Üretim, KDP ve Lansman — **kurucu onayı bekliyor**
+### Faz 6 · sürüyor — ÜRETİM TAMAM, YAYIN BLOKE
+
+Dosya üretimi ve doğrulaması bitti. Yayın **kurucu girdisi bekliyor**;
+ayrıntı `06_REPORTS/FAZ_6_RAPORU.md` § blokajlar.
+
+**Üretilenler**
+
+| Çıktı | Durum |
+|---|---|
+| Ciltsiz iç blok (6×9, gömülü font) | ✅ 435 s · 103 MB |
+| Ciltli iç blok | ✅ 435 s |
+| Büyük punto iç blok | ✅ 599 s |
+| Kindle EPUB (reflowable) | ✅ 4,73 MB / 7,0 bütçe |
+| DOCX yedeği | ✅ |
+| Dört dizin, GERÇEK sayfa numaralarıyla | ✅ 112/112 doğrulandı |
+| Kapaklar (ciltsiz krem/beyaz · ciltli · büyük punto) | ⛔ **kapak sanat eseri yok** |
+| A+ İçerik 5 modül | ⛔ kapak sanat eserine bağlı |
+
+**Bağımsız satır editörü (kurucunun Faz 6 kararı).** Ayrı bir ajan
+manuscript'in tamamını okudu ve 83 düzeltme uyguladı; ardından yedi
+olgusal kusur ve bir kapı deliği raporladı. Hepsi düzeltildi. Ayrıntı
+0.5.0 sonrası commit'lerde ve Faz 6 raporunda.
+
+### Kararlar
+
+| # | Karar | Gerekçe |
+|---|---|---|
+| D57 | **Bestiarium'un kendi iç blok üreteci** (`make_book.py`) | Devralınan `make_pdf.py` Cilt 1'i üretiyor: on dokuz uygarlığın yetmiş altı miti. Bestiarium'un yapısı başka. Devralınan şey YERLEŞİM MOTORUDUR (Layout, PLAN/Mark, koşan başlık, gömülü font tuvali), kitap değil. |
+| D58 | **İki geçişli dizgi ve geçişler arası DOĞRULAMA** | Dizin ve çapraz referans sayfaları ancak kitap dizilince bilinir, ama dizin de sayfa tutar. Dizinler sonda olduğu için kendinden öncekini kaydırmaz; bu bir VARSAYIMDIR ve betik her koşuda sınıyor — iki geçişin madde sayfaları birebir aynı değilse kırmızı yanıyor. |
+| D59 | **İç blok plakası 450 DPI gri ton** | Ölçüldü: 600 DPI 190 MB · 450 DPI 111 MB (ince çizgi kaybı %1,31) · 300 DPI 52 MB (kayıp %6,85). 300 KDP'nin tabanıdır ve normal bir kitap için doğrudur; bu kitap için değil — plakaların arka planı ince taramayla dolu ve 300 DPI'da o tarama GÖZLE bulanıyor. Kurucunun provada bakılmasını istediği tek şey buydu. İki ton elendi: plakaların %26'sı ara ton (D49 Kindle içindi). |
+| D60 | **Gelenek sigilleri kitapta basılmaz** | Kırk sigilin otuz yedisinin ne EB Garamond'da ne Cinzel'de glifi var: hiyeroglif, çivi yazısı, runa, hangul, Maya rakamı. Sayfada boş kutu çıkıyordu. Tutarsız bir işaret sisteminden hiç işaret yoktur iyidir. Yerine madde başlığının altına AKRABA AİLESİ harfi ve adı kondu — "nasıl okunur" bölümünün sözünü tutan ve her yerde dizilebilen işaret. |
+| D61 | **Başlık yüzünde karakter düzeyinde font düşümü** | Sekiz karakter Cinzel'de yok ve sekizi de yaratık/gelenek adlarında: ơ ư ʻ ʿ ḍ Ḫ ệ ồ. Diakritiği düşürmek yasak (STYLE § 4), başlık yüzünü değiştirmek seri kimliğini bozar. Üçüncü yol tipografinin standart çözümüdür ve tek harfi etkiler. `qa_glyphs.py` düşümün kapsadığını denetliyor. |
+| D62 | **Düz kesme işareti kapıyı KIRAR** (`qa_voice`) | Bağımsız editör ölçtü: manuscript'te 274 düz kesme işareti (U+0027), sıfır tipografik. STYLE § 6 "kapı kırılır" diyordu ama kod yalnızca düz ÇİFT tırnağı arıyor ve UYARI basıyordu. Kaynak normalize edildi (defterin before/after alanlarıyla birlikte, yoksa eşleşme kırılırdı) ve kapı yazılı kurala uyduruldu. Sıkılaştırmadır. |
+| D63 | **Üretim çıktısı DEPO VARLIĞIYLA değil MANİFESTOYLA sayılır** | Üçüncü kez aynı yara (D38, D51, D55). `update_docs` Faz 6 ilerlemesini dosya sistemine bakarak sayıyordu: yerelde 1/4, temiz klonda 0/4, CI her push'ta haklı olarak "bayat". Kural artık genel ve istisnasız. |
+| D64 | **E-kitapta dizin yoktur** | Basılı kitabın dört dizini SAYFA NUMARASINA dayanır; reflowable bir e-kitapta sayfa numarası okurun cihazına göre değişir. Numarasız dizin, okura işe yaramaz bir liste vermektir. Yerine gelenek gruplu içindekiler ve cihazın kendi araması. |
 
 ---
 

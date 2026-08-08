@@ -130,6 +130,28 @@ def main() -> int:
                   fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
+    # ÇAPRAZ REFERANS SAYFALARI. Dizin zincirinin ikinci ucu: her maddenin
+    # akraba satırındaki "X p. N" ifadesi, X'in gerçekten başladığı sayfayı
+    # göstermeli. Bunlar dizgi sırasında yerleştirilir ve dizinden ayrı bir
+    # yoldan gelir; ayrı ayrı bozulabilirler.
+    import re
+    whole = subprocess.run(["pdftotext", PDF, "-"], capture_output=True,
+                           text=True).stdout
+    flat = " ".join(whole.split())
+    byname = {c["name"]: c["id"] for c in spec["creatures"]}
+    xtot = xbad = 0
+    for m in re.finditer(r"([A-ZÀ-Þ][\w'’À-ɏ\- ]{2,24}?) p\. (\d{1,3})", flat):
+        cid2 = byname.get(m.group(1).strip())
+        if not cid2:
+            continue
+        xtot += 1
+        if pm.get(cid2) != int(m.group(2)):
+            xbad += 1
+            bad.append((cid2, m.group(2),
+                        f"basılı çapraz referans, sayfa haritasında "
+                        f"{pm.get(cid2)}"))
+    print(f"\n▸ basılı çapraz referans: {xtot} · uyuşmayan {xbad}")
+
     if bad:
         print(f"\n[FAIL] {len(bad)} madde eşleşmedi:")
         for cid, page, why in bad[:12]:
